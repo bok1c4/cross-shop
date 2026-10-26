@@ -8,7 +8,7 @@ class WebTest < Minitest::Test
   include Rack::Test::Methods
 
   def app
-    CrossShop::Web
+    @app || CrossShop::Web
   end
 
   # Sinatra's host authorization (DNS-rebinding protection) rejects rack-test's
@@ -40,6 +40,26 @@ class WebTest < Minitest::Test
     assert_includes last_response.body, "B75806"
     # SearchApi said "no results"; the listings come from the page it saved.
     assert_includes last_response.body, "20 listings were read by cross-shop from the page SearchApi fetched"
+  end
+
+  # A server that runs for hours must serve the templates it started with.
+  # Rereading them on every request (Sinatra's development default) paired
+  # new views with old classes: bug 23 in LEARNINGS.md.
+  def test_templates_are_read_once_not_on_every_request
+    dir = @dir = Dir.mktmpdir
+    File.write(File.join(dir, "probe.erb"), "first")
+    @app = Class.new(CrossShop::Web) do
+      set :environment, :development
+      set :views, dir
+      get("/probe") { erb :probe, layout: false }
+    end
+
+    get "/probe"
+    File.write(File.join(dir, "probe.erb"), "second")
+    get "/probe"
+
+    assert last_response.ok?
+    assert_equal "first", last_response.body
   end
 
   def test_an_uncached_query_says_so

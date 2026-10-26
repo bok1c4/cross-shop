@@ -23,6 +23,11 @@ module CrossShop
     # Every <%= %> is escaped: listing text comes from other people's
     # websites. Raw HTML must be asked for with <%== %>.
     set :erb, escape_html: true
+    # Templates are read once, like the Ruby code. Sinatra's development
+    # default rereads them on every request, so a long-running server paired
+    # new views with old classes (bug 23 in LEARNINGS.md). A change to either
+    # now needs a restart.
+    set :reload_templates, false
 
     set :data_dir, SearchApi::DATA_DIR
     live = ENV["SEARCHAPI_LIVE"] == "1"
