@@ -21,13 +21,16 @@ module CrossShop
       missing = {}
       @engines.each do |engine|
         raw = @cache.read(engine, q: query)
+        response = raw && JSON.parse(raw)
         store = Stores::BY_ENGINE[engine]
-        if raw.nil?
+        if response.nil?
           missing[engine] = "not cached"
+        elsif response["error"]
+          missing[engine] = "SearchApi: #{response["error"]}"
         elsif store.nil?
           missing[engine] = "no converter yet"
         else
-          conversions << store.convert(JSON.parse(raw))
+          conversions << store.convert(response)
         end
       end
       Result.new(

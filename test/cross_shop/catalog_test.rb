@@ -46,6 +46,16 @@ class CatalogTest < Minitest::Test
     assert_equal({"shein_search" => "no converter yet"}, result.missing_engines)
   end
 
+  # SearchApi can answer 200 with an "error" field ("Shein didn't return any
+  # results."). That message is the reason, not "no converter yet".
+  def test_searchapis_own_message_is_the_reason_when_it_sent_one
+    @cache.write("shein_search", {q: "samba"}, JSON.generate(error: "Shein didn't return any results."))
+
+    result = CrossShop::Catalog.new(cache: @cache, engines: %w[shein_search]).search("samba")
+
+    assert_equal({"shein_search" => "SearchApi: Shein didn't return any results."}, result.missing_engines)
+  end
+
   def test_by_default_every_engine_in_the_query_set_is_checked
     result = CrossShop::Catalog.new(cache: @cache).search("never fetched")
 

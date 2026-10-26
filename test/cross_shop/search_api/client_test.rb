@@ -108,6 +108,19 @@ class ClientTest < Minitest::Test
     refute_includes File.read(@ledger_path), API_KEY
   end
 
+  # Seen on Shein: HTTP 200, status "Success", and an "error" field saying
+  # there were no results. A definitive answer, so it is cached, but the
+  # ledger records the message so a paid-for empty answer is visible.
+  def test_a_200_with_an_error_field_is_cached_and_its_message_ledgered
+    body = JSON.generate(search_metadata: {id: "search_s", status: "Success"}, error: "Shein didn't return any results.")
+    transport = FakeTransport.new(Response.new(status: 200, body:))
+
+    client(transport).search("shein_search", q: "samba og")
+
+    assert_equal "Shein didn't return any results.", JSON.parse(File.read(@ledger_path)).fetch("api_error")
+    refute_nil @cache.read("shein_search", q: "samba og")
+  end
+
   # Cached files are committed to git, so a key echoed back must never land on disk.
   def test_response_echoing_the_api_key_is_refused_and_not_cached
     leaky = %({"search_parameters": {"api_key": "#{API_KEY}"}})

@@ -75,7 +75,8 @@ module CrossShop
           raise
         end
 
-        @ledger.record(**entry, status: response.status, search_id: search_id(response.body), error: nil, duration_ms: elapsed_ms(started))
+        id, api_error = metadata(response.body)
+        @ledger.record(**entry, status: response.status, search_id: id, error: nil, api_error:, duration_ms: elapsed_ms(started))
         unless response.status == 200
           raise ApiError, "SearchApi returned #{response.status} for #{engine} #{params}: #{redact(response.body)[0, 300]}"
         end
@@ -83,11 +84,14 @@ module CrossShop
         response.body
       end
 
-      def search_id(body)
+      # [search id, SearchApi's "error" message]. SearchApi can answer 200
+      # with status "Success" and an error such as "Shein didn't return any
+      # results.", so the message is worth keeping even on success.
+      def metadata(body)
         parsed = JSON.parse(body)
-        parsed.dig("search_metadata", "id") if parsed.is_a?(Hash)
+        parsed.is_a?(Hash) ? [parsed.dig("search_metadata", "id"), parsed["error"]] : [nil, nil]
       rescue JSON::ParserError
-        nil
+        [nil, nil]
       end
 
       def elapsed_ms(started)

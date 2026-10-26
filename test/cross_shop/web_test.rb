@@ -38,7 +38,7 @@ class WebTest < Minitest::Test
     assert last_response.ok?
     assert_includes last_response.body, "Matched across stores"
     assert_includes last_response.body, "B75806"
-    assert_includes last_response.body, "shein_search (not cached)"
+    assert_includes last_response.body, "shein_search (SearchApi: Shein didn&#39;t return any results.)"
   end
 
   # The site only reads the cache. It cannot spend a credit.
