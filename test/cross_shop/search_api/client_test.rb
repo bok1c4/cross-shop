@@ -143,6 +143,16 @@ class ClientTest < Minitest::Test
     assert_equal 429, JSON.parse(File.read(@ledger_path)).fetch("status")
   end
 
+  # Seen in the live console: the failure line repeated SearchApi's raw JSON.
+  def test_an_api_error_carries_searchapis_message_not_its_json
+    body = JSON.generate(error: "We could not retrieve results for this search. Please try again later.")
+    transport = FakeTransport.new(Response.new(status: 503, body:))
+
+    error = assert_raises(ApiError) { client(transport).search("shein_search", q: "new balance 550") }
+
+    assert_equal %(SearchApi returned 503 for shein_search {q: "new balance 550"}: We could not retrieve results for this search. Please try again later.), error.message
+  end
+
   # A timed-out request may still have been billed, so it counts.
   def test_transport_error_is_ledgered_and_reraised
     transport = FakeTransport.new(Net::ReadTimeout.new)

@@ -118,7 +118,8 @@ module CrossShop
         @ledger.record(**entry, status: response.status, search_id: meta[:search_id], error: nil, api_error: meta[:api_error], duration_ms: elapsed_ms(started))
         notify(:response_received, engine, status: response.status, duration_ms: elapsed_ms(started), **meta)
         unless response.status == 200
-          raise ApiError, "SearchApi returned #{response.status} for #{engine} #{params}: #{redact(response.body)[0, 300]}"
+          detail = meta[:api_error] || redact(response.body)[0, 300]
+          raise ApiError, "SearchApi returned #{response.status} for #{engine} #{params}: #{detail}"
         end
 
         response.body

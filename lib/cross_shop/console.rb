@@ -11,7 +11,7 @@ module CrossShop
     def self.text(kind, data)
       case kind
       when :run_started
-        %(searching #{data[:engines].join(", ")} for "#{data[:query]}") + (data[:refresh] ? ", fetching saved stores again" : "")
+        %(searching #{data[:engines].join(", ")} for "#{data[:query]}") + (data[:refresh] ? " (run again: every ticked store is fetched fresh)" : "")
       when :cache_hit then "already saved, no credit spent: #{short_path(data[:path])}"
       when :credit_reserved then "reserved 1 credit (#{data[:used]} of #{data[:limit]} used before this call)"
       when :request_sent then "→ GET #{data[:url]} (API key sent in a header, not shown)"

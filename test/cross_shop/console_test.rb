@@ -29,6 +29,13 @@ class ConsoleTest < Minitest::Test
       line(:run_started, engine: nil, query: "nike air 1", engines: %w[shein_search ebay_search], refresh: false)
   end
 
+  # A re-run fetches every ticked store, saved or not ("fetching saved stores
+  # again" was wrong when the store had nothing saved).
+  def test_a_re_run_says_what_it_does
+    assert_equal %(20:29:04  search        searching shein_search for "new balance 550" (run again: every ticked store is fetched fresh)),
+      line(:run_started, engine: nil, query: "new balance 550", engines: %w[shein_search], refresh: true)
+  end
+
   def test_the_second_opinion_puts_both_answers_side_by_side
     assert_equal %(20:29:04  shein_search  second opinion: SearchApi said "Shein didn't return any results.", but the page it fetched has 20 listings; they are shown, marked as read by cross-shop),
       line(:second_opinion, listings: 20, searchapi_said: "Shein didn't return any results.")
