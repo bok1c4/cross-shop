@@ -1,0 +1,2490 @@
+{
+  "search_metadata": {
+    "id": "search_M92XEY4l2JF3BQO5zkQG3b0J",
+    "status": "Success",
+    "created_at": "2026-10-26T20:55:43Z",
+    "request_time_taken": 2.2,
+    "parsing_time_taken": 0.11,
+    "total_time_taken": 2.32,
+    "request_url": "https://www.amazon.com/s?k=lacoste",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_M92XEY4l2JF3BQO5zkQG3b0J.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_M92XEY4l2JF3BQO5zkQG3b0J"
+  },
+  "search_parameters": {
+    "engine": "amazon_search",
+    "q": "lacoste",
+    "amazon_domain": "amazon.com",
+    "delivery_country": "us"
+  },
+  "search_information": {
+    "query_displayed": "lacoste",
+    "price_min": "$3",
+    "extracted_price_min": 3,
+    "price_max": "$210+",
+    "extracted_price_max": 210,
+    "delivering_to": "Delivering to Hopewell 23860"
+  },
+  "filters": [
+    {
+      "type": "Eligible for Free Shipping",
+      "options": [
+        {
+          "text": "Free Shipping by Amazon",
+          "rh": "p_76:2661625011"
+        }
+      ]
+    },
+    {
+      "type": "Delivery Day",
+      "options": [
+        {
+          "text": "Get It Today",
+          "rh": "p_90:8308920011"
+        },
+        {
+          "text": "Get It by Tomorrow",
+          "rh": "p_90:8308921011"
+        }
+      ]
+    },
+    {
+      "type": "Gender",
+      "options": [
+        {
+          "text": "Men",
+          "rh": "p_n_g-101015233022111:121075132011"
+        },
+        {
+          "text": "Women",
+          "rh": "p_n_g-101015233022111:121075131011"
+        },
+        {
+          "text": "Boys",
+          "rh": "p_n_g-101015233022111:121075136011"
+        },
+        {
+          "text": "Girls",
+          "rh": "p_n_g-101015233022111:121075133011"
+        },
+        {
+          "text": "Babies",
+          "rh": "p_n_g-101015233022111:121833111011"
+        },
+        {
+          "text": "Unisex",
+          "rh": "p_n_g-101015233022111:121833112011"
+        }
+      ]
+    },
+    {
+      "type": "Brands",
+      "options": [
+        {
+          "text": "Lacoste",
+          "rh": "p_123:3878"
+        },
+        {
+          "text": "Tommy Hilfiger",
+          "rh": "p_123:232763"
+        },
+        {
+          "text": "Nautica",
+          "rh": "p_123:52584"
+        },
+        {
+          "text": "POLO RALPH LAUREN",
+          "rh": "p_123:413365"
+        },
+        {
+          "text": "Calvin Klein",
+          "rh": "p_123:232762"
+        },
+        {
+          "text": "Nike",
+          "rh": "p_123:234394"
+        },
+        {
+          "text": "DKNY",
+          "rh": "p_123:544216"
+        },
+        {
+          "text": "Reebok",
+          "rh": "p_123:232840"
+        },
+        {
+          "text": "vineyard vines",
+          "rh": "p_123:240566"
+        },
+        {
+          "text": "COOFANDY",
+          "rh": "p_123:187499"
+        },
+        {
+          "text": "Amazon Essentials",
+          "rh": "p_123:393482"
+        },
+        {
+          "text": "Quiksilver",
+          "rh": "p_123:53179"
+        },
+        {
+          "text": "Armani Exchange",
+          "rh": "p_123:258498"
+        },
+        {
+          "text": "Brooks Brothers",
+          "rh": "p_123:316950"
+        },
+        {
+          "text": "J.VER",
+          "rh": "p_123:358556"
+        }
+      ]
+    },
+    {
+      "type": "Amazon Fashion",
+      "options": [
+        {
+          "text": "Our Brands",
+          "rh": "p_n_g-1004227705091:16926165011"
+        },
+        {
+          "text": "Premium Brands",
+          "rh": "p_n_g-1004227705091:21451213011"
+        },
+        {
+          "text": "Top Brands",
+          "rh": "p_n_g-1004227705091:14630392011"
+        }
+      ]
+    },
+    {
+      "type": "Deals & Discounts",
+      "options": [
+        {
+          "text": "All Discounts",
+          "rh": "p_n_deal_type:23566065011"
+        },
+        {
+          "text": "Buy More, Save More",
+          "rh": "p_n_deal_type:210906365011"
+        },
+        {
+          "text": "Coupons",
+          "rh": "p_n_deal_type:210906366011"
+        },
+        {
+          "text": "Today's Deals",
+          "rh": "p_n_deal_type:23566064011"
+        }
+      ]
+    },
+    {
+      "type": "Men's Clothing Size",
+      "options": [
+        {
+          "text": "XXS",
+          "rh": "p_n_pt_nav_size_men_international_size:13550847011"
+        },
+        {
+          "text": "XS",
+          "rh": "p_n_pt_nav_size_men_international_size:2475466011"
+        },
+        {
+          "text": "S",
+          "rh": "p_n_pt_nav_size_men_international_size:2475467011"
+        },
+        {
+          "text": "M",
+          "rh": "p_n_pt_nav_size_men_international_size:2475468011"
+        },
+        {
+          "text": "L",
+          "rh": "p_n_pt_nav_size_men_international_size:2475469011"
+        },
+        {
+          "text": "XL",
+          "rh": "p_n_pt_nav_size_men_international_size:2475470011"
+        },
+        {
+          "text": "2XL",
+          "rh": "p_n_pt_nav_size_men_international_size:2475471011"
+        },
+        {
+          "text": "3XL",
+          "rh": "p_n_pt_nav_size_men_international_size:2475472011"
+        },
+        {
+          "text": "4XL",
+          "rh": "p_n_pt_nav_size_men_international_size:2475473011"
+        },
+        {
+          "text": "5XL",
+          "rh": "p_n_pt_nav_size_men_international_size:2475474011"
+        },
+        {
+          "text": "6XL",
+          "rh": "p_n_pt_nav_size_men_international_size:2475475011"
+        }
+      ]
+    },
+    {
+      "type": "Special Clothing Size",
+      "options": [
+        {
+          "text": "Big & Tall",
+          "rh": "p_n_shoe_width_browse-vebin:492380011"
+        }
+      ]
+    },
+    {
+      "type": "Men's Big & Tall Clothing Size",
+      "options": [
+        {
+          "text": "MT",
+          "rh": "p_n_pt_nav_size_men_big_tall_general_size:6524710011"
+        },
+        {
+          "text": "LT",
+          "rh": "p_n_pt_nav_size_men_big_tall_general_size:6524711011"
+        },
+        {
+          "text": "XLT",
+          "rh": "p_n_pt_nav_size_men_big_tall_general_size:6524712011"
+        }
+      ]
+    },
+    {
+      "type": "Color",
+      "options": [
+        {
+          "text": "Blues",
+          "rh": "p_n_g-1004232833091:2343350011"
+        },
+        {
+          "text": "Black",
+          "rh": "p_n_g-1004232833091:2343349011"
+        },
+        {
+          "text": "Greens",
+          "rh": "p_n_g-1004232833091:2343355011"
+        },
+        {
+          "text": "Greys",
+          "rh": "p_n_g-1004232833091:2343354011"
+        },
+        {
+          "text": "White",
+          "rh": "p_n_g-1004232833091:2343363011"
+        },
+        {
+          "text": "Browns",
+          "rh": "p_n_g-1004232833091:2343351011"
+        },
+        {
+          "text": "Beige",
+          "rh": "p_n_g-1004232833091:2343348011"
+        },
+        {
+          "text": "Reds",
+          "rh": "p_n_g-1004232833091:2343361011"
+        },
+        {
+          "text": "Pinks",
+          "rh": "p_n_g-1004232833091:2343359011"
+        },
+        {
+          "text": "Oranges",
+          "rh": "p_n_g-1004232833091:2343358011"
+        },
+        {
+          "text": "Yellows",
+          "rh": "p_n_g-1004232833091:2343364011"
+        },
+        {
+          "text": "Ivory",
+          "rh": "p_n_g-1004232833091:2343356011"
+        },
+        {
+          "text": "Purples",
+          "rh": "p_n_g-1004232833091:2343360011"
+        },
+        {
+          "text": "Golds",
+          "rh": "p_n_g-1004232833091:2343353011"
+        },
+        {
+          "text": "Silvers",
+          "rh": "p_n_g-1004232833091:2343362011"
+        },
+        {
+          "text": "Multi",
+          "rh": "p_n_g-1004232833091:2343357011"
+        }
+      ]
+    },
+    {
+      "type": "Customer Reviews",
+      "options": [
+        {
+          "text": "4 Stars",
+          "rh": "p_72:2661618011"
+        }
+      ]
+    },
+    {
+      "type": "Fit Type",
+      "options": [
+        {
+          "text": "Regular",
+          "rh": "p_n_g-1003273535111:216449786011"
+        },
+        {
+          "text": "Relaxed",
+          "rh": "p_n_g-1003273535111:216449788011"
+        },
+        {
+          "text": "Straight",
+          "rh": "p_n_g-1003273535111:213342415011"
+        },
+        {
+          "text": "Oversized",
+          "rh": "p_n_g-1003273535111:216449785011"
+        },
+        {
+          "text": "Slim",
+          "rh": "p_n_g-1003273535111:216449790011"
+        },
+        {
+          "text": "Athletic",
+          "rh": "p_n_g-1003273535111:216449787011"
+        },
+        {
+          "text": "Fitted",
+          "rh": "p_n_g-1003273535111:23932018011"
+        }
+      ]
+    },
+    {
+      "type": "Seller",
+      "options": [
+        {
+          "text": "Amazon.com",
+          "rh": "p_6:ATVPDKIKX0DER"
+        },
+        {
+          "text": "Amazon Export Sales LLC",
+          "rh": "p_6:A2XZ7JICGUQ1CX"
+        },
+        {
+          "text": "Muscularfit US",
+          "rh": "p_6:A16XU2787UR11M"
+        },
+        {
+          "text": "Zappos",
+          "rh": "p_6:AH1YFAUS3NHX2"
+        },
+        {
+          "text": "JPLZi lightning deals of today prime",
+          "rh": "p_6:A2T80QKG4SV38C"
+        },
+        {
+          "text": "RRMuAzgs Online",
+          "rh": "p_6:A3LRDQC90ME6GW"
+        },
+        {
+          "text": "Amazon Resale",
+          "rh": "p_6:A2L77EE7U53NWQ"
+        }
+      ]
+    },
+    {
+      "type": "Material",
+      "options": [
+        {
+          "text": "Cotton",
+          "rh": "p_n_g-101017756111111:217631515011"
+        },
+        {
+          "text": "Cotton Blend",
+          "rh": "p_n_g-101017756111111:217631520011"
+        },
+        {
+          "text": "Linen",
+          "rh": "p_n_g-101017756111111:217631501011"
+        },
+        {
+          "text": "Linen Blend",
+          "rh": "p_n_g-101017756111111:217631511011"
+        },
+        {
+          "text": "Nylon",
+          "rh": "p_n_g-101017756111111:217631528011"
+        },
+        {
+          "text": "Nylon Blend",
+          "rh": "p_n_g-101017756111111:217631525011"
+        },
+        {
+          "text": "Polycotton",
+          "rh": "p_n_g-101017756111111:217631522011"
+        },
+        {
+          "text": "Polyester",
+          "rh": "p_n_g-101017756111111:217631521011"
+        },
+        {
+          "text": "Polyester Blend",
+          "rh": "p_n_g-101017756111111:217631494011"
+        },
+        {
+          "text": "Rayon",
+          "rh": "p_n_g-101017756111111:217631512011"
+        },
+        {
+          "text": "Spandex",
+          "rh": "p_n_g-101017756111111:217631508011"
+        },
+        {
+          "text": "Spandex Blend",
+          "rh": "p_n_g-101017756111111:217631509011"
+        }
+      ]
+    },
+    {
+      "type": "Neckline",
+      "options": [
+        {
+          "text": "Collared Neck",
+          "rh": "p_n_g-101017419697111:215600846011"
+        },
+        {
+          "text": "Crew Neck",
+          "rh": "p_n_g-101017419697111:215600841011"
+        },
+        {
+          "text": "Henley Neck",
+          "rh": "p_n_g-101017419697111:215600839011"
+        },
+        {
+          "text": "High Neck",
+          "rh": "p_n_g-101017419697111:215600835011"
+        },
+        {
+          "text": "Hooded Neck",
+          "rh": "p_n_g-101017419697111:215600842011"
+        },
+        {
+          "text": "Mock Neck",
+          "rh": "p_n_g-101017419697111:215600824011"
+        },
+        {
+          "text": "Round Neck",
+          "rh": "p_n_g-101017419697111:215600836011"
+        },
+        {
+          "text": "Turtle Neck",
+          "rh": "p_n_g-101017419697111:215600838011"
+        },
+        {
+          "text": "V-Neck",
+          "rh": "p_n_g-101017419697111:215600832011"
+        }
+      ]
+    },
+    {
+      "type": "Special Features",
+      "options": [
+        {
+          "text": "Breathable",
+          "rh": "p_n_g-1003497270111:28822808011"
+        },
+        {
+          "text": "Lightweight",
+          "rh": "p_n_g-1003497270111:28822807011"
+        },
+        {
+          "text": "Absorbent",
+          "rh": "p_n_g-1003497270111:203865625011"
+        },
+        {
+          "text": "Moisture Wicking",
+          "rh": "p_n_g-1003497270111:28822811011"
+        },
+        {
+          "text": "Quick Dry",
+          "rh": "p_n_g-1003497270111:28822804011"
+        },
+        {
+          "text": "Sun Protection",
+          "rh": "p_n_g-1003497270111:28822803011"
+        },
+        {
+          "text": "Adjustable",
+          "rh": "p_n_g-1003497270111:28822809011"
+        },
+        {
+          "text": "Hooded",
+          "rh": "p_n_g-1003497270111:211799375011"
+        },
+        {
+          "text": "Skin Friendly",
+          "rh": "p_n_g-1003497270111:211799382011"
+        },
+        {
+          "text": "Stretchable",
+          "rh": "p_n_g-1003497270111:28822805011"
+        },
+        {
+          "text": "Wrinkle Free",
+          "rh": "p_n_g-1003497270111:58126453011"
+        }
+      ]
+    },
+    {
+      "type": "Closure Type",
+      "options": [
+        {
+          "text": "Pull On",
+          "rh": "p_n_g-1003448370111:24224559011"
+        },
+        {
+          "text": "Button",
+          "rh": "p_n_g-1003448370111:24224550011"
+        },
+        {
+          "text": "Zipper",
+          "rh": "p_n_g-1003448370111:24224557011"
+        }
+      ]
+    },
+    {
+      "type": "Sleeve Length Description",
+      "options": [
+        {
+          "text": "Sleeveless",
+          "rh": "p_n_g-101017421825111:215638805011"
+        },
+        {
+          "text": "Short Sleeve",
+          "rh": "p_n_g-101017421825111:215638808011"
+        },
+        {
+          "text": "Half Sleeve",
+          "rh": "p_n_g-101017421825111:215638807011"
+        },
+        {
+          "text": "Long Sleeve",
+          "rh": "p_n_g-101017421825111:215638806011"
+        }
+      ]
+    },
+    {
+      "type": "Sustainability Features",
+      "options": [
+        {
+          "text": "Any Feature",
+          "rh": "p_n_cpf_labels:121136630011"
+        },
+        {
+          "text": "Recycled Materials",
+          "rh": "p_n_cpf_labels:116845689011"
+        },
+        {
+          "text": "Safer Chemicals",
+          "rh": "p_n_cpf_labels:116845683011"
+        },
+        {
+          "text": "Worker Wellbeing",
+          "rh": "p_n_cpf_labels:116845686011"
+        }
+      ]
+    },
+    {
+      "type": "UV Protection",
+      "options": [
+        {
+          "text": "UPF 15",
+          "rh": "p_n_g-101017399029111:214898869011"
+        },
+        {
+          "text": "UPF 30",
+          "rh": "p_n_g-101017399029111:214898866011"
+        },
+        {
+          "text": "UPF 50",
+          "rh": "p_n_g-101017399029111:214898870011"
+        },
+        {
+          "text": "UPF 50+",
+          "rh": "p_n_g-101017399029111:214898865011"
+        }
+      ]
+    },
+    {
+      "type": "Collar",
+      "options": [
+        {
+          "text": "Button Down Collar",
+          "rh": "p_n_g-101017970016111:221396669011"
+        },
+        {
+          "text": "Camp Collar",
+          "rh": "p_n_g-101017970016111:221396671011"
+        },
+        {
+          "text": "Collarless",
+          "rh": "p_n_g-101017970016111:221396660011"
+        },
+        {
+          "text": "Hidden Button Down Collar",
+          "rh": "p_n_g-101017970016111:221396672011"
+        },
+        {
+          "text": "Point Collar",
+          "rh": "p_n_g-101017970016111:221396655011"
+        },
+        {
+          "text": "Polo Collar",
+          "rh": "p_n_g-101017970016111:221396653011"
+        },
+        {
+          "text": "Round Collar",
+          "rh": "p_n_g-101017970016111:221396654011"
+        },
+        {
+          "text": "Spread Collar",
+          "rh": "p_n_g-101017970016111:221396667011"
+        }
+      ]
+    },
+    {
+      "type": "Lifestyle",
+      "options": [
+        {
+          "text": "Business Casual",
+          "rh": "p_n_g-101015292802111:121226701011"
+        },
+        {
+          "text": "Business Professional",
+          "rh": "p_n_g-101015292802111:211799619011"
+        },
+        {
+          "text": "Casual",
+          "rh": "p_n_g-101015292802111:121226703011"
+        },
+        {
+          "text": "Comfort",
+          "rh": "p_n_g-101015292802111:121226702011"
+        },
+        {
+          "text": "Dress",
+          "rh": "p_n_g-101015292802111:211799618011"
+        },
+        {
+          "text": "Evening",
+          "rh": "p_n_g-101015292802111:121226704011"
+        },
+        {
+          "text": "Formal",
+          "rh": "p_n_g-101015292802111:121226705011"
+        },
+        {
+          "text": "Work Utility",
+          "rh": "p_n_g-101015292802111:211799616011"
+        }
+      ]
+    },
+    {
+      "type": "Pattern",
+      "options": [
+        {
+          "text": "Animal Print",
+          "rh": "p_n_g-101017792832111:218913954011"
+        },
+        {
+          "text": "Argyle",
+          "rh": "p_n_g-101017792832111:218913957011"
+        },
+        {
+          "text": "Checkered",
+          "rh": "p_n_g-101017792832111:218913970011"
+        },
+        {
+          "text": "Chevron",
+          "rh": "p_n_g-101017792832111:218913956011"
+        },
+        {
+          "text": "Floral",
+          "rh": "p_n_g-101017792832111:218913968011"
+        },
+        {
+          "text": "Geometric",
+          "rh": "p_n_g-101017792832111:218913975011"
+        },
+        {
+          "text": "Herringbone",
+          "rh": "p_n_g-101017792832111:218913964011"
+        },
+        {
+          "text": "Letter Print",
+          "rh": "p_n_g-101017792832111:218913971011"
+        },
+        {
+          "text": "Moire",
+          "rh": "p_n_g-101017792832111:218913955011"
+        },
+        {
+          "text": "Paisley",
+          "rh": "p_n_g-101017792832111:218913963011"
+        },
+        {
+          "text": "Plaid",
+          "rh": "p_n_g-101017792832111:218913962011"
+        },
+        {
+          "text": "Polka Dots",
+          "rh": "p_n_g-101017792832111:218913967011"
+        },
+        {
+          "text": "Solid",
+          "rh": "p_n_g-101017792832111:218913973011"
+        },
+        {
+          "text": "Striped",
+          "rh": "p_n_g-101017792832111:218913960011"
+        }
+      ]
+    },
+    {
+      "type": "Care Instructions",
+      "options": [
+        {
+          "text": "Dry Clean Only",
+          "rh": "p_n_g-101015182109111:120826545011"
+        },
+        {
+          "text": "Hand Wash Only",
+          "rh": "p_n_g-101015182109111:120826544011"
+        },
+        {
+          "text": "Machine Wash",
+          "rh": "p_n_g-101015182109111:120826543011"
+        }
+      ]
+    },
+    {
+      "type": "Occasion",
+      "options": [
+        {
+          "text": "Birthday",
+          "rh": "p_n_g-1003500754111:28820725011"
+        },
+        {
+          "text": "Valentine's Day",
+          "rh": "p_n_g-1003500754111:28820706011"
+        },
+        {
+          "text": "Christmas",
+          "rh": "p_n_g-1003500754111:28820721011"
+        },
+        {
+          "text": "New Year",
+          "rh": "p_n_g-1003500754111:28820723011"
+        }
+      ]
+    },
+    {
+      "type": "Customizable Products",
+      "options": [
+        {
+          "text": "Customizable",
+          "rh": "p_n_customizable_template_name:16031489011"
+        }
+      ]
+    },
+    {
+      "type": "Department",
+      "options": [
+        {
+          "text": "Clothing, Shoes & Jewelry",
+          "rh": "n:7141123011"
+        },
+        {
+          "text": "Men's Shirts",
+          "rh": "n:7141123011,n:2476517011"
+        },
+        {
+          "text": "Men's Activewear",
+          "rh": "n:7141123011,n:3455821"
+        },
+        {
+          "text": "Men's Underwear",
+          "rh": "n:7141123011,n:1045706"
+        },
+        {
+          "text": "Men's Fashion Sneakers",
+          "rh": "n:7141123011,n:679312011"
+        },
+        {
+          "text": "Men's Sleepwear",
+          "rh": "n:7141123011,n:3455861"
+        },
+        {
+          "text": "Boys' Tops, Tees & Shirts",
+          "rh": "n:7141123011,n:2422483011"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "asin": "B0FFQSKJJD",
+      "title": "Kids Core Tee (Big Kid)",
+      "link": "https://www.amazon.com/Lacoste-947025-W8L-Jersey-T-Shirt-White/dp/B0FFQSKJJD/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+      "brand": "Lacoste",
+      "rating": 4.6,
+      "reviews": 254,
+      "price": "$25.00",
+      "extracted_price": 25.0,
+      "original_price": "$30.00",
+      "extracted_original_price": 30.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/51uf9+I1IML._AC_UL320_.jpg"
+    },
+    {
+      "position": 2,
+      "asin": "B0BJ7JSPM5",
+      "title": "L'Essentiel Men's Jewelry Collection",
+      "link": "https://www.amazon.com/Lacoste-2040123-LEssentiel-Stainless-Bracelet/dp/B0BJ7JSPM5/ref=sr_1_2_sspa?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+      "brand": "Lacoste",
+      "rating": 4.2,
+      "reviews": 72,
+      "price": "$95.00",
+      "extracted_price": 95.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/51NXKwjVvXL._AC_UL320_.jpg"
+    },
+    {
+      "position": 3,
+      "asin": "B0FFR1R5MJ",
+      "title": "Boys' Classic Polo",
+      "link": "https://www.amazon.com/Lacoste-947354-F9W-Classic-Pique-Green/dp/B0FFR1R5MJ/ref=sr_1_3_sspa?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+      "brand": "Lacoste",
+      "rating": 4.5,
+      "reviews": 1051,
+      "price": "$45.00",
+      "extracted_price": 45.0,
+      "original_price": "$50.00",
+      "extracted_original_price": 50.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/81M-znb08bL._AC_UL320_.jpg"
+    },
+    {
+      "position": 4,
+      "asin": "B0FR9QHT62",
+      "title": "Metropole Unisex Link Bracelet",
+      "link": "https://www.amazon.com/Lacoste-Metropole-Mens-Link-Bracelet/dp/B0FR9QHT62/ref=sr_1_4_sspa?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+      "brand": "Lacoste",
+      "rating": 4.5,
+      "reviews": 403,
+      "recent_sales": "500+ bought in past month",
+      "extracted_recent_sales": 500,
+      "price": "$95.00",
+      "extracted_price": 95.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/51MzqyuMbDL._AC_UL320_.jpg"
+    },
+    {
+      "position": 5,
+      "asin": "B00B2OLCUU",
+      "title": "Men's Original Cotton Pique Polo",
+      "link": "https://www.amazon.com/Lacoste-Classic-Sleeve-L-12-12-Appalachan/dp/B00B2OLCUU/ref=sr_1_5?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-5",
+      "brand": "Lacoste",
+      "rating": 4.4,
+      "reviews": 5460,
+      "recent_sales": "400+ bought in past month",
+      "extracted_recent_sales": 400,
+      "price": "$56.99",
+      "extracted_price": 56.99,
+      "original_price": "$115.00",
+      "extracted_original_price": 115.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_overall_pick": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71xzVPOxHML._AC_UL320_.jpg"
+    },
+    {
+      "position": 6,
+      "asin": "B0FR9QHT62",
+      "title": "Metropole Unisex Link Bracelet",
+      "link": "https://www.amazon.com/Lacoste-Metropole-Mens-Link-Bracelet/dp/B0FR9QHT62/ref=sr_1_6?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-6",
+      "brand": "Lacoste",
+      "rating": 4.5,
+      "reviews": 403,
+      "recent_sales": "500+ bought in past month",
+      "extracted_recent_sales": 500,
+      "price": "$95.00",
+      "extracted_price": 95.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51MzqyuMbDL._AC_UL320_.jpg"
+    },
+    {
+      "position": 7,
+      "asin": "B0G6GFG9QS",
+      "title": "Men's Double Face Jersey Zipped Hoodie",
+      "link": "https://www.amazon.com/Lacoste-Double-Jersey-Zipped-X-Large/dp/B0G6GFG9QS/ref=sr_1_7?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-7",
+      "brand": "Lacoste",
+      "rating": 4.6,
+      "reviews": 19,
+      "price": "$66.79",
+      "extracted_price": 66.79,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61jL7MQmd7L._AC_UL320_.jpg"
+    },
+    {
+      "position": 8,
+      "asin": "B0B8PF31N8",
+      "title": "12.12 Men's Quartz Watch - TR90 Case Quartz - Premium Sporty Fashion Timepiece",
+      "link": "https://www.amazon.com/Lacoste-12-12-Quartz-Plastic-Silicone-Strap/dp/B0B8PF31N8/ref=sr_1_8?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-8",
+      "brand": "Lacoste",
+      "rating": 4.7,
+      "reviews": 6845,
+      "recent_sales": "300+ bought in past month",
+      "extracted_recent_sales": 300,
+      "price": "$65.99",
+      "extracted_price": 65.99,
+      "original_price": "$95.00",
+      "extracted_original_price": 95.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71aTvZAbbTL._AC_UL320_.jpg"
+    },
+    {
+      "position": 9,
+      "asin": "B09MG98NLW",
+      "title": "Heritage 100% Supima Cotton Bath Towel 30\" x 54\", Croc Green",
+      "link": "https://www.amazon.com/Lacoste-Heritage-Supima-Cotton-Towel/dp/B09MG98NLW/ref=sr_1_9?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-9",
+      "brand": "Lacoste",
+      "rating": 4.4,
+      "reviews": 2327,
+      "recent_sales": "1K+ bought in past month",
+      "extracted_recent_sales": 1000,
+      "price": "$14.99",
+      "extracted_price": 14.99,
+      "original_price": "$36.00",
+      "extracted_original_price": 36.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/91i0sL2io7L._AC_UL320_.jpg"
+    },
+    {
+      "position": 10,
+      "asin": "B0DQ2CCPRP",
+      "title": "Men's Court Base Sneakers",
+      "link": "https://www.amazon.com/Lacoste-Mens-Court-Sneaker-White/dp/B0DQ2CCPRP/ref=sr_1_10?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-10",
+      "brand": "Lacoste",
+      "rating": 4.6,
+      "reviews": 319,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$58.65",
+      "extracted_price": 58.65,
+      "original_price": "$80.00",
+      "extracted_original_price": 80.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51F0qwVHBUL._AC_UL320_.jpg"
+    },
+    {
+      "position": 11,
+      "asin": "B0FHRRC6H9",
+      "title": "Men's Harrington Jacket",
+      "link": "https://www.amazon.com/Lacoste-Mens-HARRINGTON-JACKET-Viennese/dp/B0FHRRC6H9/ref=sr_1_11_sspa?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-11-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Lacoste",
+      "price": "$150.00",
+      "extracted_price": 150.0,
+      "original_price": "$250.00",
+      "extracted_original_price": 250.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "availability": "Only 1 left in stock - order soon.",
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71F4L2l-5cL._AC_UL320_.jpg"
+    },
+    {
+      "position": 12,
+      "asin": "B0G5LFHCG5",
+      "title": "Mens Knit Button Down Shirts Short Sleeve Polo Shirt Vintage Striped Casual Shirts",
+      "link": "https://www.amazon.com/COOFANDY-Button-Textured-Vintage-Knitwear/dp/B0G5LFHCG5/ref=sr_1_12_sspa?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-12-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "COOFANDY",
+      "rating": 4.5,
+      "reviews": 705,
+      "recent_sales": "300+ bought in past month",
+      "extracted_recent_sales": 300,
+      "price": "$33.99",
+      "extracted_price": 33.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/81zYhWQFKfL._AC_UL320_.jpg"
+    },
+    {
+      "position": 13,
+      "asin": "B0FP8TZB7M",
+      "title": "Knit Polo Sweater Long Sleeve Casual Pullover Shirts",
+      "link": "https://www.amazon.com/Sailwind-Sweater-Sleeve-Casual-Pullover/dp/B0FP8TZB7M/ref=sr_1_13_sspa?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-13-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Sailwind",
+      "rating": 4.6,
+      "reviews": 47,
+      "price": "$24.99",
+      "extracted_price": 24.99,
+      "original_price": "$36.99",
+      "extracted_original_price": 36.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71nPKZbdsqL._AC_UL320_.jpg"
+    },
+    {
+      "position": 14,
+      "asin": "B0C67LBWW7",
+      "title": "Stencil Men's Jewelry Collection",
+      "link": "https://www.amazon.com/Lacoste-Jewelry-Stencil-Stainless-Bracelet/dp/B0C67LBWW7/ref=sr_1_14_sspa?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-14-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Lacoste",
+      "rating": 4.7,
+      "reviews": 51,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$95.00",
+      "extracted_price": 95.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/613v2aL601L._AC_UL320_.jpg"
+    },
+    {
+      "position": 15,
+      "asin": "B000PY71LW",
+      "title": "Men's Original Cotton Pique Polo",
+      "link": "https://www.amazon.com/Lacoste-Sleeve-L-12-12-Classic-XX-Large/dp/B000PY71LW/ref=sr_1_15?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-15",
+      "brand": "Lacoste",
+      "rating": 4.4,
+      "reviews": 5460,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "original_price": "$115.00",
+      "extracted_original_price": 115.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61Afn-d2tZL._AC_UL320_.jpg"
+    },
+    {
+      "position": 16,
+      "asin": "B09MGCNMVC",
+      "title": "Heritage 100% Supima Cotton Bath Towel 30\" x 54\", Aloe",
+      "link": "https://www.amazon.com/Lacoste-Heritage-Supima-Cotton-Towel/dp/B09MGCNMVC/ref=sr_1_16?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-16",
+      "brand": "Lacoste",
+      "rating": 4.4,
+      "reviews": 2327,
+      "recent_sales": "2K+ bought in past month",
+      "extracted_recent_sales": 2000,
+      "price": "$14.99",
+      "extracted_price": 14.99,
+      "original_price": "$36.00",
+      "extracted_original_price": 36.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/91IBivulYfL._AC_UL320_.jpg"
+    },
+    {
+      "position": 17,
+      "asin": "B0DQTP9BDZ",
+      "title": "Men's Original Cotton Pique Polo",
+      "link": "https://www.amazon.com/Lacoste-Classic-Original-L-12-12-Khaki/dp/B0DQTP9BDZ/ref=sr_1_17?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-17",
+      "brand": "Lacoste",
+      "rating": 4.4,
+      "reviews": 5460,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$115.00",
+      "extracted_price": 115.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71Mz3YZP7IL._AC_UL320_.jpg"
+    },
+    {
+      "position": 18,
+      "asin": "B0D96X9FBT",
+      "title": "Men's Cotton Blend T-Shirt",
+      "link": "https://www.amazon.com/Lacoste-Mens-Regular-T-Shirt-White/dp/B0D96X9FBT/ref=sr_1_18?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-18",
+      "brand": "Lacoste",
+      "rating": 4.3,
+      "reviews": 201,
+      "price": "$27.93",
+      "extracted_price": 27.93,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61zP1PcXfzL._AC_UL320_.jpg"
+    },
+    {
+      "position": 19,
+      "asin": "B06XWKZ4JZ",
+      "title": "100% Cotton Percale 4-Piece Sheet Set, Vintage Indigo, Queen",
+      "link": "https://www.amazon.com/Lacoste-Breathable-All-Season-Oeko-Tex-Certified/dp/B06XWKZ4JZ/ref=sr_1_19_sspa?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-19-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Lacoste",
+      "rating": 4.3,
+      "reviews": 4140,
+      "recent_sales": "400+ bought in past month",
+      "extracted_recent_sales": 400,
+      "price": "$43.15",
+      "extracted_price": 43.15,
+      "original_price": "$63.00",
+      "extracted_original_price": 63.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/919Cksi6TmL._AC_UL320_.jpg"
+    },
+    {
+      "position": 20,
+      "asin": "B0FHRQKNPD",
+      "title": "Men's Printed Performance Polo",
+      "link": "https://www.amazon.com/Lacoste-Printed-Performance-Green-White/dp/B0FHRQKNPD/ref=sr_1_20_sspa?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-20-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Lacoste",
+      "rating": 3.8,
+      "reviews": 10,
+      "price": "$62.50",
+      "extracted_price": 62.5,
+      "original_price": "$125.00",
+      "extracted_original_price": 125.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "availability": "Only 1 left in stock - order soon.",
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71oNIPAxXZL._AC_UL320_.jpg"
+    },
+    {
+      "position": 21,
+      "asin": "B07FMVNB5T",
+      "title": "Men's Classic Fit Cotton Tank Undershirts (3-Pack)",
+      "link": "https://www.amazon.com/Polo-Ralph-Lauren-Classic-Wicking/dp/B07FMVNB5T/ref=sr_1_21_sspa?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-21-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "POLO RALPH LAUREN",
+      "rating": 4.6,
+      "reviews": 3214,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$55.00",
+      "extracted_price": 55.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/816fz2+H9HL._AC_UL320_.jpg"
+    },
+    {
+      "position": 22,
+      "asin": "B0D6YR9TBZ",
+      "title": "3 Pack Long Sleeve Polo Shirts for Men with Pocket Moisture Wicking Outdoor Workwear Office Casual Collared Shirts Fall",
+      "link": "https://www.amazon.com/ZITY-Moisture-Wicking-Workwear-Collared/dp/B0D6YR9TBZ/ref=sr_1_22_sspa?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-22-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "ZITY",
+      "rating": 4.4,
+      "reviews": 426,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$34.99",
+      "extracted_price": 34.99,
+      "original_price": "$63.99",
+      "extracted_original_price": 63.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61-1F-YoYVL._AC_UL320_.jpg"
+    },
+    {
+      "position": 23,
+      "asin": "B000CDU5FK",
+      "title": "Men's Original Cotton Pique Polo",
+      "link": "https://www.amazon.com/Lacoste-Classic-Short-Sleeve-L-12-12/dp/B000CDU5FK/ref=sr_1_23?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-23",
+      "brand": "Lacoste",
+      "rating": 4.4,
+      "reviews": 5460,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "original_price": "$110.00",
+      "extracted_original_price": 110.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61FrYZUeDlL._AC_UL320_.jpg"
+    },
+    {
+      "position": 24,
+      "asin": "B09MG94FSF",
+      "title": "Heritage 100% Supima Cotton Wash Cloth 13\" x 13\", Croc Green",
+      "link": "https://www.amazon.com/Lacoste-Heritage-Supima-Cotton-Cloth/dp/B09MG94FSF/ref=sr_1_24?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-24",
+      "brand": "Lacoste",
+      "rating": 4.5,
+      "reviews": 810,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$6.99",
+      "extracted_price": 6.99,
+      "original_price": "$16.00",
+      "extracted_original_price": 16.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81dc-9dqsdL._AC_UL320_.jpg"
+    },
+    {
+      "position": 25,
+      "asin": "B081BNRBCR",
+      "title": "Men's Monochrome Crew Neck Cotton Sweater",
+      "link": "https://www.amazon.com/Lacoste-Sleeve-Crewneck-Cotton-Sweater/dp/B081BNRBCR/ref=sr_1_25?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-25",
+      "brand": "Lacoste",
+      "rating": 4.5,
+      "reviews": 1088,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$121.50",
+      "extracted_price": 121.5,
+      "original_price": "$135.00",
+      "extracted_original_price": 135.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61VKiz5sYVL._AC_UL320_.jpg"
+    },
+    {
+      "position": 26,
+      "asin": "B004STJ0UU",
+      "title": "L.12.12 Blanc Eau de Toilette - Men's Fragrance - Woody Aromatic - With notes of Grapefruit, Tuberose & Vetiver",
+      "link": "https://www.amazon.com/LACOSTE-L-12-12-Blanc-Pour-Toilette/dp/B004STJ0UU/ref=sr_1_26?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-26",
+      "brand": "Lacoste",
+      "rating": 4.7,
+      "reviews": 8075,
+      "recent_sales": "300+ bought in past month",
+      "extracted_recent_sales": 300,
+      "price": "$96.00",
+      "extracted_price": 96.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/713jYnouOgL._AC_UL320_.jpg"
+    },
+    {
+      "position": 27,
+      "asin": "B0G6GL18RB",
+      "title": "Men's Classic Fit Jersey Sweatshirt",
+      "link": "https://www.amazon.com/Lacoste-Classic-Jersey-Sweatshirt-Birch/dp/B0G6GL18RB/ref=sr_1_27?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-27",
+      "brand": "Lacoste",
+      "rating": 4.5,
+      "reviews": 34,
+      "price": "$46.30",
+      "extracted_price": 46.3,
+      "original_price": "$50.71",
+      "extracted_original_price": 50.71,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71cxZwrMQ0L._AC_UL320_.jpg"
+    },
+    {
+      "position": 28,
+      "asin": "B0DQ2DNV21",
+      "title": "Men's Serve Slide 1.0 Sandals",
+      "link": "https://www.amazon.com/Lacoste-Serve-Slide-Yellow-White/dp/B0DQ2DNV21/ref=sr_1_28?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-28",
+      "brand": "Lacoste",
+      "rating": 4.5,
+      "reviews": 696,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$34.99",
+      "extracted_price": 34.99,
+      "original_price": "$50.00",
+      "extracted_original_price": 50.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/41ZBHxYKzeL._AC_UL320_.jpg"
+    },
+    {
+      "position": 29,
+      "asin": "B0CFP781FN",
+      "title": "12.12 Men's Quartz Watch - TR90 Case Quartz - Premium Sporty Fashion Timepiece",
+      "link": "https://www.amazon.com/Lacoste-Mens-Lacoste-12-12-Watch-Collection/dp/B0CFP781FN/ref=sr_1_29?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-29",
+      "brand": "Lacoste",
+      "rating": 4.7,
+      "reviews": 6845,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$65.99",
+      "extracted_price": 65.99,
+      "original_price": "$95.00",
+      "extracted_original_price": 95.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61NGvZXJGtL._AC_UL320_.jpg"
+    },
+    {
+      "position": 30,
+      "asin": "B09MGB275D",
+      "title": "Heritage 100% Supima Cotton Bath Towel 30\" x 54\", Surf Blue",
+      "link": "https://www.amazon.com/Lacoste-Heritage-Supima-Cotton-Towel/dp/B09MGB275D/ref=sr_1_30?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-30",
+      "brand": "Lacoste",
+      "rating": 4.4,
+      "reviews": 2327,
+      "recent_sales": "1K+ bought in past month",
+      "extracted_recent_sales": 1000,
+      "price": "$14.99",
+      "extracted_price": 14.99,
+      "original_price": "$36.00",
+      "extracted_original_price": 36.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sun, Nov 1 on $35 of items shipped by Amazon",
+          "type": "FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sun, Nov 1"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Fri, Oct 30",
+          "type": "Or fastest delivery",
+          "date": "Fri, Oct 30"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81rFhmO+W8L._AC_UL320_.jpg"
+    },
+    {
+      "position": 31,
+      "asin": "B0G6GKWQWK",
+      "title": "Men's Cotton Logo Tee",
+      "link": "https://www.amazon.com/Lacoste-Cotton-T-Shirt-Phoenix-X-Large/dp/B0G6GKWQWK/ref=sr_1_31?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-31",
+      "brand": "Lacoste",
+      "rating": 4.6,
+      "reviews": 648,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$35.99",
+      "extracted_price": 35.99,
+      "original_price": "$60.00",
+      "extracted_original_price": 60.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51+bwW0FnsL._AC_UL320_.jpg"
+    },
+    {
+      "position": 32,
+      "asin": "B0H7FNJLKD",
+      "title": "Men's Cotton Stretch Trunks",
+      "link": "https://www.amazon.com/Lacoste-Cotton-Stretch-Trunks-Exclusives/dp/B0H7FNJLKD/ref=sr_1_32?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-32",
+      "brand": "Lacoste",
+      "price": "$22.83",
+      "extracted_price": 22.83,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61RFbC9LwML._AC_UL320_.jpg"
+    },
+    {
+      "position": 33,
+      "asin": "B0G6GXB5ZD",
+      "title": "Men's Zip Neck Cotton Blend Sweatshirt",
+      "link": "https://www.amazon.com/Lacoste-Cotton-Blend-Sweatshirt-Large/dp/B0G6GXB5ZD/ref=sr_1_33?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-33",
+      "brand": "Lacoste",
+      "rating": 4.6,
+      "reviews": 22,
+      "more_offers": {
+        "lowest_price": "$61.36",
+        "extracted_lowest_price": 61.36,
+        "link": "https://www.amazon.com/gp/offer-listing/B0G6GXB5ZD/ref=sr_1_33_olp?keywords=lacoste&dib_tag=se&dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&qid=1793048144&sr=8-33",
+        "offers_count": 5,
+        "description": "(5 new offers)"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61PRI0wd4ML._AC_UL320_.jpg"
+    },
+    {
+      "position": 34,
+      "asin": "B0D96WRSW4",
+      "title": "Men's Cotton Stretch Mini Croc Print Boxer Briefs, 3-pack",
+      "link": "https://www.amazon.com/Lacoste-Cotton-Stretch-Briefs-3-pack/dp/B0D96WRSW4/ref=sr_1_34?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-34",
+      "brand": "Lacoste",
+      "rating": 4.6,
+      "reviews": 2918,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$42.50",
+      "extracted_price": 42.5,
+      "original_price": "$45.00",
+      "extracted_original_price": 45.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51-PuK++y5L._AC_UL320_.jpg"
+    },
+    {
+      "position": 35,
+      "asin": "B06X42DPGB",
+      "title": "Classic Pique Cotton Terry Bath Robe, Unisex, One Size,",
+      "link": "https://www.amazon.com/Lacoste-Classic-Pique-Cotton-White/dp/B06X42DPGB/ref=sr_1_35_mod_primary_new?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=8-35",
+      "brand": "Lacoste",
+      "rating": 4.4,
+      "reviews": 2152,
+      "recent_sales": "500+ bought in past month",
+      "extracted_recent_sales": 500,
+      "price": "$52.50",
+      "extracted_price": 52.5,
+      "original_price": "$60.00",
+      "extracted_original_price": 60.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Fri, Oct 30",
+          "type": "FREE delivery",
+          "date": "Fri, Oct 30"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71NGJbANSgL._AC_UL320_.jpg"
+    },
+    {
+      "position": 36,
+      "asin": "B09MG8SGKC",
+      "title": "Heritage 100% Supima Cotton Bath Towel 30\" x 54\", Celestial",
+      "link": "https://www.amazon.com/Lacoste-Heritage-Supima-Cotton-Celestial/dp/B09MG8SGKC/ref=sr_1_36?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-36",
+      "brand": "Lacoste",
+      "rating": 4.4,
+      "reviews": 2327,
+      "recent_sales": "1K+ bought in past month",
+      "extracted_recent_sales": 1000,
+      "price": "$14.99",
+      "extracted_price": 14.99,
+      "original_price": "$36.00",
+      "extracted_original_price": 36.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/91iqJQYUOPL._AC_UL320_.jpg"
+    },
+    {
+      "position": 37,
+      "asin": "B000CDSXJ0",
+      "title": "Men's Classic Long Sleeve Pique Polo Shirt",
+      "link": "https://www.amazon.com/Lacoste-Sleeve-Classic-L-12-12-Original/dp/B000CDSXJ0/ref=sr_1_37?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-37",
+      "brand": "Lacoste",
+      "rating": 4.4,
+      "reviews": 1577,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$125.00",
+      "extracted_price": 125.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61VBhT1szcL._AC_UL320_.jpg"
+    },
+    {
+      "position": 38,
+      "asin": "B09MGCFHDK",
+      "title": "Heritage 100% Supima Cotton Bath Towel 30\" x 54\", White",
+      "link": "https://www.amazon.com/Lacoste-Heritage-Supima-Cotton-Towel/dp/B09MGCFHDK/ref=sr_1_38?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-38",
+      "brand": "Lacoste",
+      "rating": 4.4,
+      "reviews": 2327,
+      "recent_sales": "1K+ bought in past month",
+      "extracted_recent_sales": 1000,
+      "price": "$14.99",
+      "extracted_price": 14.99,
+      "original_price": "$36.00",
+      "extracted_original_price": 36.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81GKCzvDBmL._AC_UL320_.jpg"
+    },
+    {
+      "position": 39,
+      "asin": "B0H77D4W8C",
+      "title": "Men's Jersey Color Block T-Shirt",
+      "link": "https://www.amazon.com/Lacoste-Jersey-Color-Block-T-Shirt/dp/B0H77D4W8C/ref=sr_1_39?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-39",
+      "brand": "Lacoste",
+      "price": "$41.36",
+      "extracted_price": 41.36,
+      "original_price": "$60.00",
+      "extracted_original_price": 60.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/614xC8373bL._AC_UL320_.jpg"
+    },
+    {
+      "position": 40,
+      "asin": "B0FFQFJWTJ",
+      "title": "Kids Core Tee (Big Kid)",
+      "link": "https://www.amazon.com/Lacoste-Jersey-T-Shirt-Light-Pink/dp/B0FFQFJWTJ/ref=sr_1_40?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-40",
+      "brand": "Lacoste",
+      "rating": 4.6,
+      "reviews": 254,
+      "price": "$25.00",
+      "extracted_price": 25.0,
+      "original_price": "$30.00",
+      "extracted_original_price": 30.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71Hism1geyL._AC_UL320_.jpg"
+    },
+    {
+      "position": 41,
+      "asin": "B000HB03BS",
+      "title": "Men's Original Cotton Pique Polo",
+      "link": "https://www.amazon.com/Lacoste-Classic-Short-Sleeve-L-12-12/dp/B000HB03BS/ref=sr_1_41?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-41",
+      "brand": "Lacoste",
+      "rating": 4.4,
+      "reviews": 5460,
+      "price": "$56.99",
+      "extracted_price": 56.99,
+      "original_price": "$115.00",
+      "extracted_original_price": 115.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71rCzdqqACL._AC_UL320_.jpg"
+    },
+    {
+      "position": 42,
+      "asin": "B07CG6Q22Y",
+      "title": "Men's Regular Fit Cotton Pima Polo Shirt",
+      "link": "https://www.amazon.com/Lacoste-Jersey-Interlock-Green-X-Large/dp/B07CG6Q22Y/ref=sr_1_42?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-42",
+      "brand": "Lacoste",
+      "rating": 4.5,
+      "reviews": 4610,
+      "price": "$49.99",
+      "extracted_price": 49.99,
+      "original_price": "$100.00",
+      "extracted_original_price": 100.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51T1ylpkihL._AC_UL320_.jpg"
+    },
+    {
+      "position": 43,
+      "asin": "B0G6GGLZST",
+      "title": "Men's Zip Neck Cotton Blend Sweatshirt",
+      "link": "https://www.amazon.com/Lacoste-Cotton-Blend-Sweatshirt-Chambray/dp/B0G6GGLZST/ref=sr_1_43?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-43",
+      "brand": "Lacoste",
+      "rating": 4.6,
+      "reviews": 22,
+      "price": "$60.30",
+      "extracted_price": 60.3,
+      "original_price": "$64.65",
+      "extracted_original_price": 64.65,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71rdm0VD+BL._AC_UL320_.jpg"
+    },
+    {
+      "position": 44,
+      "asin": "B081BNR1KX",
+      "title": "Men's Regular Fit UV Protect Golf Polo Shirt",
+      "link": "https://www.amazon.com/Lacoste-Sport-Short-Raglan-Sleeve/dp/B081BNR1KX/ref=sr_1_44?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-44",
+      "brand": "Lacoste",
+      "rating": 4.2,
+      "reviews": 1917,
+      "price": "$103.50",
+      "extracted_price": 103.5,
+      "original_price": "$115.00",
+      "extracted_original_price": 115.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 1 - 6",
+          "type": "FREE delivery",
+          "date": "Nov 1 - 6"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 1 - 4",
+          "type": "Or fastest delivery",
+          "date": "Nov 1 - 4"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/41v+Jiv+rNL._AC_UL320_.jpg"
+    },
+    {
+      "position": 45,
+      "asin": "B0H7787V6F",
+      "title": "Men's Crocodile Graphic Long Sleeve T-Shirt",
+      "link": "https://www.amazon.com/Lacoste-Crocodile-Graphic-Sleeve-T-Shirt/dp/B0H7787V6F/ref=sr_1_45?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-45",
+      "brand": "Lacoste",
+      "rating": 3.5,
+      "reviews": 3,
+      "price": "$50.78",
+      "extracted_price": 50.78,
+      "original_price": "$75.00",
+      "extracted_original_price": 75.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61Q1aUQjsCL._AC_UL320_.jpg"
+    },
+    {
+      "position": 46,
+      "asin": "B0GFBS8X8P",
+      "title": "Men's Crocodile Print Cotton Loungewear T-Shirt",
+      "link": "https://www.amazon.com/Lacoste-Crocodile-Loungewear-T-Shirt-Exclusives/dp/B0GFBS8X8P/ref=sr_1_46?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-46",
+      "brand": "Lacoste",
+      "rating": 4.0,
+      "reviews": 27,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61ZY1ch+ZZL._AC_UL320_.jpg"
+    },
+    {
+      "position": 47,
+      "asin": "B0BZZS7V1H",
+      "title": "Men's Regular Fit Oxford Shirt",
+      "link": "https://www.amazon.com/Lacoste-Sleeve-Regular-Oxford-Button/dp/B0BZZS7V1H/ref=sr_1_47?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-47",
+      "brand": "Lacoste",
+      "rating": 4.5,
+      "reviews": 296,
+      "price": "$120.00",
+      "extracted_price": 120.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/512If+QqgGL._AC_UL320_.jpg"
+    },
+    {
+      "position": 48,
+      "asin": "B0GTN2CBMH",
+      "title": "Men's AG-LT23 Ultra Tennis Shoes",
+      "link": "https://www.amazon.com/Lacoste-AG-LT23-Ultra-Tennis-Shoes/dp/B0GTN2CBMH/ref=sr_1_48?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-48",
+      "brand": "Lacoste",
+      "rating": 4.4,
+      "reviews": 11,
+      "price": "$119.00",
+      "extracted_price": 119.0,
+      "original_price": "$150.00",
+      "extracted_original_price": 150.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61SZOTMqOLL._AC_UL320_.jpg"
+    },
+    {
+      "position": 49,
+      "asin": "B0D98XRNJN",
+      "title": "Men's Elite Active Sneakers",
+      "link": "https://www.amazon.com/Lacoste-Mens-Elite-Active-Sneaker/dp/B0D98XRNJN/ref=sr_1_49?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-49",
+      "brand": "Lacoste",
+      "rating": 4.8,
+      "reviews": 296,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$82.18",
+      "extracted_price": 82.18,
+      "original_price": "$150.00",
+      "extracted_original_price": 150.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71hiB09caHL._AC_UL320_.jpg"
+    },
+    {
+      "position": 50,
+      "asin": "B01MF7U96L",
+      "title": "Men's Short Sleeve Pima Jersey Crew Neck Tee",
+      "link": "https://www.amazon.com/Lacoste-Sleeve-Cotton-Jersey-T-Shirt/dp/B01MF7U96L/ref=sr_1_50?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-50",
+      "brand": "Lacoste",
+      "rating": 4.4,
+      "reviews": 6384,
+      "price": "$60.00",
+      "extracted_price": 60.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51uaq4lljML._AC_UL320_.jpg"
+    },
+    {
+      "position": 51,
+      "asin": "B0FFC97554",
+      "title": "Men's Long Sleeved Cotton T-shirt",
+      "link": "https://www.amazon.com/Lacoste-Sleeved-Cotton-T-Shirt-XX-Large/dp/B0FFC97554/ref=sr_1_51?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-51",
+      "brand": "Lacoste",
+      "rating": 4.8,
+      "reviews": 36,
+      "price": "$70.00",
+      "extracted_price": 70.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71WDCNA2WLL._AC_UL320_.jpg"
+    },
+    {
+      "position": 52,
+      "asin": "B0C67LBWW7",
+      "title": "Stencil Men's Jewelry Collection",
+      "link": "https://www.amazon.com/Lacoste-Jewelry-Stencil-Stainless-Bracelet/dp/B0C67LBWW7/ref=sr_1_52?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-52",
+      "brand": "Lacoste",
+      "rating": 4.7,
+      "reviews": 51,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$95.00",
+      "extracted_price": 95.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/613v2aL601L._AC_UL320_.jpg"
+    },
+    {
+      "position": 53,
+      "asin": "B000JL3PAW",
+      "title": "Essential Eau de Toilette - Men's Fragrance - Fougere Watery - With notes of Citrus Accord, Black Pepper & Sandalwood",
+      "link": "https://www.amazon.com/Lacoste-BPM37444020-ESSENTIAL-EDT-75ML/dp/B000JL3PAW/ref=sr_1_53?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-53",
+      "brand": "Lacoste",
+      "rating": 4.7,
+      "reviews": 6069,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$70.00",
+      "extracted_price": 70.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61DRYLwXmcL._AC_UL320_.jpg"
+    },
+    {
+      "position": 54,
+      "asin": "B0G6GMSTWR",
+      "title": "Men's Regular Fit Cotton Pima Interlock Polo Shirt",
+      "link": "https://www.amazon.com/Lacoste-Regular-Cotton-Interlock-Viennese/dp/B0G6GMSTWR/ref=sr_1_54?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-54",
+      "brand": "Lacoste",
+      "rating": 4.4,
+      "reviews": 75,
+      "price": "$56.87",
+      "extracted_price": 56.87,
+      "original_price": "$110.00",
+      "extracted_original_price": 110.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61rHQ7-NnUL._AC_UL320_.jpg"
+    },
+    {
+      "position": 55,
+      "asin": "B0CWVNPC5B",
+      "title": "12.12 Men's Quartz Watch - TR90 Case Quartz - Premium Sporty Fashion Timepiece",
+      "link": "https://www.amazon.com/Lacoste-12-12-Mens-Quartz-Watch/dp/B0CWVNPC5B/ref=sr_1_55?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-55",
+      "brand": "Lacoste",
+      "rating": 4.7,
+      "reviews": 6845,
+      "price": "$65.99",
+      "extracted_price": 65.99,
+      "original_price": "$95.00",
+      "extracted_original_price": 95.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71yXF3YKbRL._AC_UL320_.jpg"
+    },
+    {
+      "position": 56,
+      "asin": "B010ND05XA",
+      "title": "Men's Petit Piqué Slim Fit Polo Shirt",
+      "link": "https://www.amazon.com/Lacoste-L12-12-Short-Sleeve-Pique/dp/B010ND05XA/ref=sr_1_56?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-56",
+      "brand": "Lacoste",
+      "rating": 4.2,
+      "reviews": 4366,
+      "price": "$115.00",
+      "extracted_price": 115.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/617rmkkG4bL._AC_UL320_.jpg"
+    },
+    {
+      "position": 57,
+      "asin": "B0CPT4SCR2",
+      "title": "Pour Femme Eau de Parfum - Women's Fragrance - Floral & Woody - With notes of Freesia, Jasmine & Cedarwood",
+      "link": "https://www.amazon.com/Lacoste-Fragrance-Freesia-Jasmine-Cedarwood/dp/B0CPT4SCR2/ref=sr_1_57?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-57",
+      "brand": "Lacoste",
+      "rating": 4.6,
+      "reviews": 2043,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$77.00",
+      "extracted_price": 77.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61Sls0XYFYL._AC_UL320_.jpg"
+    },
+    {
+      "position": 58,
+      "asin": "B0G6GC7T7N",
+      "title": "Men's Performance TEE",
+      "link": "https://www.amazon.com/Lacoste-Stretch-Ultra-T-Shirt-Medium/dp/B0G6GC7T7N/ref=sr_1_58?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-58",
+      "brand": "Lacoste",
+      "rating": 4.0,
+      "reviews": 19,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$32.70",
+      "extracted_price": 32.7,
+      "original_price": "$55.00",
+      "extracted_original_price": 55.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/612ruXaflJL._AC_UL320_.jpg"
+    },
+    {
+      "position": 59,
+      "asin": "B09MG9Q4F7",
+      "title": "Heritage 100% Supima Cotton Hand Towel 16\" x 30\", Croc Green",
+      "link": "https://www.amazon.com/Lacoste-Heritage-Supima-Cotton-Towel/dp/B09MG9Q4F7/ref=sr_1_59?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-59",
+      "brand": "Lacoste",
+      "rating": 4.6,
+      "reviews": 836,
+      "recent_sales": "400+ bought in past month",
+      "extracted_recent_sales": 400,
+      "price": "$10.99",
+      "extracted_price": 10.99,
+      "original_price": "$26.00",
+      "extracted_original_price": 26.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/91gMVWoNllL._AC_UL320_.jpg"
+    },
+    {
+      "position": 60,
+      "asin": "B06XWKZ4JZ",
+      "title": "100% Cotton Percale 4-Piece Sheet Set, Vintage Indigo, Queen",
+      "link": "https://www.amazon.com/Lacoste-Breathable-All-Season-Oeko-Tex-Certified/dp/B06XWKZ4JZ/ref=sr_1_60?dib=eyJ2IjoiMSJ9.7k_5RRQjVDTJNAkj43KKPtyKkcHuEowdcYb4b4qHTPiERup1_xxiiBIJTO9BlN7XRC3Zp155rfetFyC-VJQIPn7H7noJRfD9umEHOduwG7UzEggjn0MqJribPPXOqcRWa80zB7szZIXyHG97KOpxcPV108KXxVhmsdQHf-Y5iPV_4s6pc86_Hni2qZbkh56and6CxMAHrrXpkzfa2tYHL40gV4KqDd9E6ZSOgNm8MYXFmPUQs_3a1TekuhDZ1H79fBsDIxpHNJm5B_5wXo0eoFNcWbwtf6Z76OQnpPchlvY.iumzh36lTdnS6kBw9CJZl-1-lisjfdlmZ6pO_zrBg60&dib_tag=se&keywords=lacoste&qid=1793048144&sr=8-60",
+      "brand": "Lacoste",
+      "rating": 4.3,
+      "reviews": 4140,
+      "recent_sales": "400+ bought in past month",
+      "extracted_recent_sales": 400,
+      "price": "$43.15",
+      "extracted_price": 43.15,
+      "original_price": "$63.00",
+      "extracted_original_price": 63.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/919Cksi6TmL._AC_UL320_.jpg"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.amazon.com/s?k=lacoste&page=2&xpid=g9Lkofc_7aqot&qid=1793048144&ref=sr_pg_1",
+    "other_pages": {
+      "2": "https://www.amazon.com/s?k=lacoste&page=2&xpid=g9Lkofc_7aqot&qid=1793048144&ref=sr_pg_2",
+      "3": "https://www.amazon.com/s?k=lacoste&page=3&xpid=g9Lkofc_7aqot&qid=1793048144&ref=sr_pg_3"
+    }
+  }
+}

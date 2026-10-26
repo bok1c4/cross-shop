@@ -1,0 +1,1687 @@
+{
+  "search_metadata": {
+    "id": "search_zV8qOXeM56cGjNpOLepJnE5N",
+    "status": "Success",
+    "created_at": "2026-10-26T20:55:43Z",
+    "request_time_taken": 3.36,
+    "parsing_time_taken": 0.13,
+    "total_time_taken": 3.49,
+    "request_url": "https://www.ebay.com/sch/i.html?_nkw=lacoste&_fcid=1",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_zV8qOXeM56cGjNpOLepJnE5N.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_zV8qOXeM56cGjNpOLepJnE5N"
+  },
+  "search_parameters": {
+    "engine": "ebay_search",
+    "q": "lacoste",
+    "ebay_domain": "ebay.com",
+    "country": "US",
+    "delivery_country": "US"
+  },
+  "search_information": {
+    "query_displayed": "lacoste",
+    "total_results": 110000,
+    "sorted_by": "Sort: Best Match",
+    "buying_format": "All",
+    "language": "en"
+  },
+  "categories": [
+    {
+      "name": "Clothing, Shoes & Accessories",
+      "link": "https://www.ebay.com/sch/11450/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "11450",
+      "subcategories": [
+        {
+          "name": "Men's Polos",
+          "link": "https://www.ebay.com/sch/185101/i.html?_fcid=1&_nkw=lacoste",
+          "category_id": "185101"
+        },
+        {
+          "name": "Men's T-Shirts",
+          "link": "https://www.ebay.com/sch/15687/i.html?_fcid=1&_nkw=lacoste",
+          "category_id": "15687"
+        },
+        {
+          "name": "Men's Casual Shoes",
+          "link": "https://www.ebay.com/sch/24087/i.html?_fcid=1&_nkw=lacoste",
+          "category_id": "24087"
+        },
+        {
+          "name": "Men's Casual Button-Down Shirts",
+          "link": "https://www.ebay.com/sch/57990/i.html?_fcid=1&_nkw=lacoste",
+          "category_id": "57990"
+        },
+        {
+          "name": "Men's Athletic Shoes",
+          "link": "https://www.ebay.com/sch/15709/i.html?_fcid=1&_nkw=lacoste",
+          "category_id": "15709"
+        },
+        {
+          "name": "Men's Coats, Jackets & Vests",
+          "link": "https://www.ebay.com/sch/57988/i.html?_fcid=1&_nkw=lacoste",
+          "category_id": "57988"
+        },
+        {
+          "name": "Men's Sweaters",
+          "link": "https://www.ebay.com/sch/11484/i.html?_fcid=1&_nkw=lacoste",
+          "category_id": "11484"
+        },
+        {
+          "name": "Men's Hoodies & Sweatshirts",
+          "link": "https://www.ebay.com/sch/155183/i.html?_fcid=1&_nkw=lacoste",
+          "category_id": "155183"
+        }
+      ]
+    },
+    {
+      "name": "Health & Beauty",
+      "link": "https://www.ebay.com/sch/26395/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "26395"
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "1"
+    },
+    {
+      "name": "Jewelry & Watches",
+      "link": "https://www.ebay.com/sch/281/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "281"
+    },
+    {
+      "name": "Home & Garden",
+      "link": "https://www.ebay.com/sch/11700/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "11700"
+    },
+    {
+      "name": "Sporting Goods",
+      "link": "https://www.ebay.com/sch/888/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "888"
+    },
+    {
+      "name": "Books & Magazines",
+      "link": "https://www.ebay.com/sch/267/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "267"
+    },
+    {
+      "name": "Sports Memorabilia, Fan Shop & Sports Cards",
+      "link": "https://www.ebay.com/sch/64482/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "64482"
+    },
+    {
+      "name": "Art",
+      "link": "https://www.ebay.com/sch/550/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "550"
+    },
+    {
+      "name": "Movies & TV",
+      "link": "https://www.ebay.com/sch/11232/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "11232"
+    },
+    {
+      "name": "eBay Motors",
+      "link": "https://www.ebay.com/sch/6000/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "6000"
+    },
+    {
+      "name": "Travel",
+      "link": "https://www.ebay.com/sch/3252/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "3252"
+    },
+    {
+      "name": "Business & Industrial",
+      "link": "https://www.ebay.com/sch/12576/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "12576"
+    },
+    {
+      "name": "Cell Phones, Smart Watches & Accessories",
+      "link": "https://www.ebay.com/sch/15032/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "15032"
+    },
+    {
+      "name": "Art & Craft Supplies",
+      "link": "https://www.ebay.com/sch/14339/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "14339"
+    },
+    {
+      "name": "Everything Else",
+      "link": "https://www.ebay.com/sch/99/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "99"
+    },
+    {
+      "name": "Music",
+      "link": "https://www.ebay.com/sch/11233/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "11233"
+    },
+    {
+      "name": "Antiques",
+      "link": "https://www.ebay.com/sch/20081/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "20081"
+    },
+    {
+      "name": "Toys & Hobbies",
+      "link": "https://www.ebay.com/sch/220/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "220"
+    },
+    {
+      "name": "Computers, Tablets & Network Hardware",
+      "link": "https://www.ebay.com/sch/58058/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "58058"
+    },
+    {
+      "name": "Entertainment Memorabilia",
+      "link": "https://www.ebay.com/sch/45100/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "45100"
+    },
+    {
+      "name": "Baby Essentials",
+      "link": "https://www.ebay.com/sch/2984/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "2984"
+    },
+    {
+      "name": "Coins & Paper Money",
+      "link": "https://www.ebay.com/sch/11116/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "11116"
+    },
+    {
+      "name": "Dolls & Teddy Bears",
+      "link": "https://www.ebay.com/sch/237/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "237"
+    },
+    {
+      "name": "Musical Instruments & Gear",
+      "link": "https://www.ebay.com/sch/619/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "619"
+    },
+    {
+      "name": "Cameras & Photo",
+      "link": "https://www.ebay.com/sch/625/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "625"
+    },
+    {
+      "name": "Consumer Electronics",
+      "link": "https://www.ebay.com/sch/293/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "293"
+    },
+    {
+      "name": "Pottery & Glass",
+      "link": "https://www.ebay.com/sch/870/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "870"
+    },
+    {
+      "name": "Pet Supplies",
+      "link": "https://www.ebay.com/sch/1281/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "1281"
+    },
+    {
+      "name": "Video Games & Consoles",
+      "link": "https://www.ebay.com/sch/1249/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "1249"
+    },
+    {
+      "name": "Stamps",
+      "link": "https://www.ebay.com/sch/260/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "260"
+    },
+    {
+      "name": "Gift Cards & Coupons",
+      "link": "https://www.ebay.com/sch/172008/i.html?_fcid=1&_nkw=lacoste",
+      "category_id": "172008"
+    }
+  ],
+  "filters": [
+    {
+      "type": "Shipping and pickup",
+      "options": [
+        {
+          "text": "Arrives in 2-4 days",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&rt=nc&LH_FAST=1"
+        },
+        {
+          "text": "Free Shipping",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&rt=nc&LH_FS=1"
+        },
+        {
+          "text": "Local Pickup within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&rt=nc&_sadis=25&_fspt=1&_stpos=10021&LH_PrefLoc=99&LH_LPickup=1"
+        }
+      ]
+    },
+    {
+      "type": "Color",
+      "options": [
+        {
+          "text": "Beige (2,588) Items",
+          "items": 2588,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Color=Beige&_dcat=1059"
+        },
+        {
+          "text": "Black (6,778) Items",
+          "items": 6778,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Color=Black&_dcat=1059"
+        },
+        {
+          "text": "Blue (20,897) Items",
+          "items": 20897,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Color=Blue&_dcat=1059"
+        },
+        {
+          "text": "Brown (1,862) Items",
+          "items": 1862,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Color=Brown&_dcat=1059"
+        },
+        {
+          "text": "Gray (6,370) Items",
+          "items": 6370,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Color=Gray&_dcat=1059"
+        },
+        {
+          "text": "Green (6,120) Items",
+          "items": 6120,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Color=Green&_dcat=1059"
+        },
+        {
+          "text": "Multicolor (4,360) Items",
+          "items": 4360,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Color=Multicolor&_dcat=1059"
+        },
+        {
+          "text": "Orange (2,017) Items",
+          "items": 2017,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Color=Orange&_dcat=1059"
+        },
+        {
+          "text": "Red (6,790) Items",
+          "items": 6790,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Color=Red&_dcat=1059"
+        },
+        {
+          "text": "White (6,666) Items",
+          "items": 6666,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Color=White&_dcat=1059"
+        }
+      ]
+    },
+    {
+      "type": "Material",
+      "options": [
+        {
+          "text": "Cotton (35,245) Items",
+          "items": 35245,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Material=Cotton&_dcat=1059"
+        },
+        {
+          "text": "Wool (1,911) Items",
+          "items": 1911,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Material=Wool&_dcat=1059"
+        },
+        {
+          "text": "Polyester (3,962) Items",
+          "items": 3962,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Material=Polyester&_dcat=1059"
+        },
+        {
+          "text": "100% Cotton (6,588) Items",
+          "items": 6588,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Material=100%2525%2520Cotton&_dcat=1059"
+        },
+        {
+          "text": "Cotton Blend (3,113) Items",
+          "items": 3113,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Material=Cotton%2520Blend&_dcat=1059"
+        },
+        {
+          "text": "Linen (244) Items",
+          "items": 244,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Material=Linen&_dcat=1059"
+        },
+        {
+          "text": "Cashmere (174) Items",
+          "items": 174,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Material=Cashmere&_dcat=1059"
+        },
+        {
+          "text": "Acrylic (2,734) Items",
+          "items": 2734,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Material=Acrylic&_dcat=1059"
+        }
+      ]
+    },
+    {
+      "type": "Size Type",
+      "options": [
+        {
+          "text": "Regular (60,569) Items",
+          "items": 60569,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Size%2520Type=Regular&_dcat=1059"
+        },
+        {
+          "text": "Big & Tall (749) Items",
+          "items": 749,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Size%2520Type=Big%2520%2526%2520Tall&_dcat=1059"
+        },
+        {
+          "text": "Not Specified (7,252) Items",
+          "items": 7252,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Size%2520Type=%21&_dcat=1059"
+        }
+      ]
+    },
+    {
+      "type": "Brand",
+      "options": [
+        {
+          "text": "Comme Des Garcons (56) Items",
+          "items": 56,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Brand=Comme%2520Des%2520Garcons&_dcat=1059"
+        },
+        {
+          "text": "Gildan (288) Items",
+          "items": 288,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Brand=Gildan&_dcat=1059"
+        },
+        {
+          "text": "IZOD (379) Items",
+          "items": 379,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Brand=IZOD&_dcat=1059"
+        },
+        {
+          "text": "Izod Lacoste (3,184) Items",
+          "items": 3184,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Brand=Izod%2520Lacoste&_dcat=1059"
+        },
+        {
+          "text": "Lacoste (63,426) Items",
+          "items": 63426,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Brand=Lacoste&_dcat=1059"
+        },
+        {
+          "text": "Polo Ralph Lauren (63) Items",
+          "items": 63,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Brand=Polo%2520Ralph%2520Lauren&_dcat=1059"
+        },
+        {
+          "text": "Supreme (171) Items",
+          "items": 171,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Brand=Supreme&_dcat=1059"
+        },
+        {
+          "text": "Unbranded (60) Items",
+          "items": 60,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Brand=Unbranded&_dcat=1059"
+        }
+      ]
+    },
+    {
+      "type": "Department",
+      "options": [
+        {
+          "text": "Men (63,237) Items",
+          "items": 63237,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Department=Men&_dcat=1059"
+        },
+        {
+          "text": "Unisex Adults (1,637) Items",
+          "items": 1637,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Department=Unisex%2520Adults&_dcat=1059"
+        },
+        {
+          "text": "Teens (115) Items",
+          "items": 115,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Department=Teens&_dcat=1059"
+        },
+        {
+          "text": "Not Specified (3,626) Items",
+          "items": 3626,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&Department=%21&_dcat=1059"
+        }
+      ]
+    },
+    {
+      "type": "Condition",
+      "options": [
+        {
+          "text": "New (60,253) Items",
+          "items": 60253,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&rt=nc&LH_ItemCondition=3"
+        },
+        {
+          "text": "Used (73,788) Items",
+          "items": 73788,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&rt=nc&LH_ItemCondition=4"
+        },
+        {
+          "text": "Not Specified (1,398) Items",
+          "items": 1398,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&rt=nc&LH_ItemCondition=10"
+        }
+      ]
+    },
+    {
+      "type": "Buying Format",
+      "options": [
+        {
+          "text": "All Listings (135,439) Items",
+          "items": 135439,
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&rt=nc"
+        },
+        {
+          "text": "Auction (1,065) Items",
+          "items": 1065,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&rt=nc&LH_Auction=1"
+        },
+        {
+          "text": "Buy It Now (134,648) Items",
+          "items": 134648,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&rt=nc&LH_BIN=1"
+        },
+        {
+          "text": "Accepts Offers (77,935) Items",
+          "items": 77935,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&rt=nc&LH_BO=1"
+        }
+      ]
+    },
+    {
+      "type": "Item Location",
+      "options": [
+        {
+          "text": "Default",
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&rt=nc&LH_PrefLoc=98"
+        },
+        {
+          "text": "Within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&_dcat=1059&_sadis=25&_stpos=10021&_fspt=1"
+        },
+        {
+          "text": "US Only",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&rt=nc&LH_PrefLoc=1"
+        },
+        {
+          "text": "North America",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&rt=nc&LH_PrefLoc=3"
+        },
+        {
+          "text": "Worldwide",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&rt=nc&LH_PrefLoc=2"
+        }
+      ]
+    },
+    {
+      "type": "Show only",
+      "options": [
+        {
+          "text": "Free Returns",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&rt=nc&LH_FR=1"
+        },
+        {
+          "text": "Returns Accepted",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&rt=nc&LH_RPA=1"
+        },
+        {
+          "text": "Authorized Seller",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&rt=nc&LH_AS=1"
+        },
+        {
+          "text": "Completed Items",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&rt=nc&LH_Complete=1"
+        },
+        {
+          "text": "Sold Items",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&rt=nc&LH_Sold=1"
+        },
+        {
+          "text": "Deals & Savings",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&rt=nc&LH_Savings=1"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "item_id": "297739660726",
+      "title": "L.12.12 Blanc Eau Fraiche by Lacoste for him EDT 3.3 / 3.4 oz New in Box",
+      "link": "https://www.ebay.com/itm/297739660726",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$30.97",
+      "extracted_price": 30.97,
+      "original_price": "$62.90",
+      "extracted_original_price": 62.9,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/KVQAAeSwNFtq2YgX/s-l500.webp"
+    },
+    {
+      "position": 2,
+      "item_id": "398271554476",
+      "title": "Lacoste Original Eau de Parfum Spray for Men 3.4 oz (100 ml) by Lacoste",
+      "link": "https://www.ebay.com/itm/398271554476",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$43.65",
+      "extracted_price": 43.65,
+      "original_price": "$95.00",
+      "extracted_original_price": 95.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/MmcAAeSw76lq2z~3/s-l500.webp"
+    },
+    {
+      "position": 3,
+      "item_id": "295055749268",
+      "title": "Lacoste L.12.12 Blanc by Lacoste cologne for men EDT 5.9 fl oz New in Box",
+      "link": "https://www.ebay.com/itm/295055749268",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$52.27",
+      "extracted_price": 52.27,
+      "original_price": "$130.00",
+      "extracted_original_price": 130.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/TrkAAeSwfIZq2oAP/s-l140.webp"
+    },
+    {
+      "position": 4,
+      "item_id": "297721203920",
+      "title": "Lacoste L.12.12 Blanc by Lacoste cologne for him EDP 3.3 / 3.4 oz New in Box",
+      "link": "https://www.ebay.com/itm/297721203920",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$45.01",
+      "extracted_price": 45.01,
+      "original_price": "$75.58",
+      "extracted_original_price": 75.58,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/nQYAAeSwEvtq1oqZ/s-l140.webp"
+    },
+    {
+      "position": 5,
+      "item_id": "920077082094",
+      "title": "Lacoste Men’s US 10.5 White/Navy Leather Low-Top Lace-Up Logo Sneakers NIB",
+      "link": "https://www.ebay.com/itm/920077082094",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$250.00",
+      "extracted_price": 250.0,
+      "shipping": "+$6.53 delivery",
+      "extracted_shipping": 6.53,
+      "thumbnail": "https://i.ebayimg.com/images/g/llQAAeSwfvxq365C/s-l140.webp"
+    },
+    {
+      "position": 6,
+      "item_id": "227584681689",
+      "title": "Lacoste Green/Gray Striped Logo Long Sleeve V-Neck T-Shirt Men’s 40",
+      "subtitle": "Size 40",
+      "link": "https://www.ebay.com/itm/227584681689",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$32.00",
+      "extracted_price": 32.0,
+      "shipping": "+$10.50 delivery",
+      "extracted_shipping": 10.5,
+      "thumbnail": "https://i.ebayimg.com/images/g/cGkAAeSw~0pq37n~/s-l140.webp"
+    },
+    {
+      "position": 7,
+      "item_id": "336864337650",
+      "title": "Lacoste Sport Men's Grid Logo Crew Neck Short Sleeve T-Shirt Blue M",
+      "subtitle": "Size M · Lacoste",
+      "link": "https://www.ebay.com/itm/336864337650",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$19.00",
+      "extracted_price": 19.0,
+      "shipping": "+$6.04 delivery",
+      "extracted_shipping": 6.04,
+      "thumbnail": "https://i.ebayimg.com/images/g/iW0AAeSwfTBq35yt/s-l140.webp"
+    },
+    {
+      "position": 8,
+      "item_id": "267824561415",
+      "title": "Lacoste Men’s Beige 1/4 Zip Mock Neck Knit Pullover Sweater Logo Size L",
+      "subtitle": "Size L · Lacoste",
+      "link": "https://www.ebay.com/itm/267824561415",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$150.00",
+      "extracted_price": 150.0,
+      "shipping": "+$9.28 delivery",
+      "extracted_shipping": 9.28,
+      "thumbnail": "https://i.ebayimg.com/images/g/uyYAAeSwA2Zq344j/s-l140.webp"
+    },
+    {
+      "position": 9,
+      "item_id": "227584650291",
+      "title": "Lacoste Men's M Green Solid Knit Polo Shirt Short Sleeve Collared Button Logo",
+      "subtitle": "Size M",
+      "link": "https://www.ebay.com/itm/227584650291",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$45.00",
+      "extracted_price": 45.0,
+      "shipping": "+$10.50 delivery",
+      "extracted_shipping": 10.5,
+      "thumbnail": "https://i.ebayimg.com/images/g/BOUAAeSwmJNq368s/s-l140.webp"
+    },
+    {
+      "position": 10,
+      "item_id": "267824563375",
+      "title": "Izod Lacoste Men's Green Cotton Long Sleeve Collared Polo Shirt Solid M",
+      "subtitle": "Size L · Izod Lacoste",
+      "link": "https://www.ebay.com/itm/267824563375",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$75.00",
+      "extracted_price": 75.0,
+      "shipping": "+$6.57 delivery",
+      "extracted_shipping": 6.57,
+      "thumbnail": "https://i.ebayimg.com/images/g/wF8AAeSwSMRq348t/s-l140.webp"
+    },
+    {
+      "position": 11,
+      "item_id": "147652938052",
+      "title": "lacoste purple elegant sweater size XL",
+      "link": "https://www.ebay.com/itm/147652938052",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Import fees due prior to delivery",
+        "Located in Italy"
+      ],
+      "price": "$33.49",
+      "extracted_price": 33.49,
+      "shipping": "+$16.80 delivery",
+      "extracted_shipping": 16.8,
+      "thumbnail": "https://i.ebayimg.com/images/g/KIUAAeSwmjNq35zY/s-l140.webp"
+    },
+    {
+      "position": 12,
+      "item_id": "377599292874",
+      "title": "Lacoste slim fit Paris shirt polo size M",
+      "subtitle": "Lacoste",
+      "link": "https://www.ebay.com/itm/377599292874",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Import fees due prior to delivery",
+        "Located in Ukraine"
+      ],
+      "price": "$30.00",
+      "extracted_price": 30.0,
+      "shipping": "+$15.00 delivery",
+      "extracted_shipping": 15.0,
+      "thumbnail": "https://i.ebayimg.com/images/g/1nUAAeSw2F5q35tf/s-l140.webp"
+    },
+    {
+      "position": 13,
+      "item_id": "296055933784",
+      "title": "Lacoste Style In Play Red by Lacoste EDT Cologne for Men 4.2 oz New In Box",
+      "link": "https://www.ebay.com/itm/296055933784",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 7,
+      "reviews_link": "https://www.ebay.com/p/24055336217?iid=296055933784#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$36.33",
+      "extracted_price": 36.33,
+      "original_price": "$87.99",
+      "extracted_original_price": 87.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/ZVMAAeSwBDhqsHQd/s-l140.webp"
+    },
+    {
+      "position": 14,
+      "item_id": "296704180056",
+      "title": "Lacoste L.12.12 Rose Eau Fraiche by Lacoste for her EDT 3.3 / 3.4 oz New in Box",
+      "link": "https://www.ebay.com/itm/296704180056",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$33.89",
+      "extracted_price": 33.89,
+      "original_price": "$78.99",
+      "extracted_original_price": 78.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/tMMAAeSwGcxqxtTf/s-l140.webp"
+    },
+    {
+      "position": 15,
+      "item_id": "366597569630",
+      "title": "Lacoste Original by Lacoste Parfum for men 3.3 / 3.4 oz New in Box",
+      "link": "https://www.ebay.com/itm/366597569630",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$45.98",
+      "extracted_price": 45.98,
+      "original_price": "$115.00",
+      "extracted_original_price": 115.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/8dQAAeSwQthq04xU/s-l140.webp"
+    },
+    {
+      "position": 16,
+      "item_id": "291928945957",
+      "title": "Lacoste Essential by Lacoste cologne for men EDT 4.2 oz New in Box",
+      "link": "https://www.ebay.com/itm/291928945957",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 170,
+      "reviews_link": "https://www.ebay.com/p/19032783644?iid=291928945957#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$35.34",
+      "extracted_price": 35.34,
+      "original_price": "$94.99",
+      "extracted_original_price": 94.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/eO8AAeSw9~pq30AU/s-l140.webp"
+    },
+    {
+      "position": 17,
+      "item_id": "377599303322",
+      "title": "Lacoste classic fit polo shirt men size M blue",
+      "subtitle": "Size M",
+      "link": "https://www.ebay.com/itm/377599303322",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Import fees due prior to delivery",
+        "Located in Ukraine"
+      ],
+      "price": "$30.00",
+      "extracted_price": 30.0,
+      "shipping": "+$15.00 delivery",
+      "extracted_shipping": 15.0,
+      "thumbnail": "https://i.ebayimg.com/images/g/aqMAAeSwZypq35wj/s-l140.webp"
+    },
+    {
+      "position": 18,
+      "item_id": "820280791634",
+      "title": "Seiko Lacoste Swiss Army Mixed Lot Assorted Wristwatches/Bracelet Watches Unisex",
+      "link": "https://www.ebay.com/itm/820280791634",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$350.00",
+      "extracted_price": 350.0,
+      "shipping": "+$6.50 delivery",
+      "extracted_shipping": 6.5,
+      "thumbnail": "https://i.ebayimg.com/images/g/YXAAAeSw-CVq37zO/s-l140.webp"
+    },
+    {
+      "position": 19,
+      "item_id": "377599305874",
+      "title": "Lacoste slim fit polo shirt size S men",
+      "subtitle": "Lacoste",
+      "link": "https://www.ebay.com/itm/377599305874",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Import fees due prior to delivery",
+        "Located in Ukraine"
+      ],
+      "price": "$30.00",
+      "extracted_price": 30.0,
+      "shipping": "+$15.00 delivery",
+      "extracted_shipping": 15.0,
+      "thumbnail": "https://i.ebayimg.com/images/g/1RAAAeSwsWpq35y5/s-l140.webp"
+    },
+    {
+      "position": 20,
+      "item_id": "377599256577",
+      "title": "Lacoste classic fit big logo shirt polo size XL men",
+      "subtitle": "Lacoste",
+      "link": "https://www.ebay.com/itm/377599256577",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Import fees due prior to delivery",
+        "Located in Ukraine"
+      ],
+      "price": "$32.00",
+      "extracted_price": 32.0,
+      "shipping": "+$15.00 delivery",
+      "extracted_shipping": 15.0,
+      "thumbnail": "https://i.ebayimg.com/images/g/bd8AAeSwqQFq35Xl/s-l140.webp"
+    },
+    {
+      "position": 21,
+      "item_id": "307250709500",
+      "title": "VINTAGE RARE 80s Lacoste Alligator Windbreaker Jacket Mens L Teal Track Izod",
+      "subtitle": "Size L · Lacoste",
+      "link": "https://www.ebay.com/itm/307250709500",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$35.00",
+      "extracted_price": 35.0,
+      "shipping": "+$6.40 delivery",
+      "extracted_shipping": 6.4,
+      "thumbnail": "https://i.ebayimg.com/images/g/yAsAAeSwiQpq37b7/s-l140.webp"
+    },
+    {
+      "position": 22,
+      "item_id": "407317838365",
+      "title": "Lacoste Men's Grey Polo-shirts",
+      "subtitle": "Size L",
+      "link": "https://www.ebay.com/itm/407317838365",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$23.99",
+      "extracted_price": 23.99,
+      "shipping": "+$8.29 delivery",
+      "extracted_shipping": 8.29,
+      "thumbnail": "https://i.ebayimg.com/images/g/PTgAAeSwwetq33r3/s-l140.webp"
+    },
+    {
+      "position": 23,
+      "item_id": "327424974162",
+      "title": "Lacoste L'Homme Lacoste Eau de Toilette Spray, Tester Size 3.3 fl oz",
+      "link": "https://www.ebay.com/itm/327424974162",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$29.00",
+      "extracted_price": 29.0,
+      "shipping": "+$6.73 delivery",
+      "extracted_shipping": 6.73,
+      "thumbnail": "https://i.ebayimg.com/images/g/sMUAAeSwxPZq35qr/s-l140.webp"
+    },
+    {
+      "position": 24,
+      "item_id": "267824644716",
+      "title": "Lacoste Colorblock Crewneck Sweatshirt Mens XXL Green Blue Black Fleece SH9615",
+      "subtitle": "Size 2XL · Lacoste",
+      "link": "https://www.ebay.com/itm/267824644716",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$54.99",
+      "extracted_price": 54.99,
+      "shipping": "+$10.15 delivery",
+      "extracted_shipping": 10.15,
+      "thumbnail": "https://i.ebayimg.com/images/g/e8gAAeSwa1Fq36ux/s-l140.webp"
+    },
+    {
+      "position": 25,
+      "item_id": "198636132028",
+      "title": "LACOSTE Outdoor Leisure Travel Style black Curved brim baseball cap",
+      "subtitle": "Size M",
+      "link": "https://www.ebay.com/itm/198636132028",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "35 sold"
+      ],
+      "price": "$25.69",
+      "extracted_price": 25.69,
+      "shipping": "+$7.07 delivery",
+      "extracted_shipping": 7.07,
+      "deal": "$24.41 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/VjwAAeSwRZlq2v62/s-l140.webp"
+    },
+    {
+      "position": 26,
+      "item_id": "920076775811",
+      "title": "Lacoste Men's L/XL Brown Cotton Knit Short Sleeve Golf Polo Shirt Logo",
+      "subtitle": "Size L/XL · Lacoste",
+      "link": "https://www.ebay.com/itm/920076775811",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$55.00",
+      "extracted_price": 55.0,
+      "shipping": "+$5.91 delivery",
+      "extracted_shipping": 5.91,
+      "thumbnail": "https://i.ebayimg.com/images/g/MoQAAeSw991q34tS/s-l140.webp"
+    },
+    {
+      "position": 27,
+      "item_id": "820280687181",
+      "title": "Lacoste Heritage 100% Supima Cotton Bath Towel 30\" x 54\", Formula 1",
+      "subtitle": "Size 6 IN X 8 IN",
+      "link": "https://www.ebay.com/itm/820280687181",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Free returns"
+      ],
+      "price": "$71.99",
+      "extracted_price": 71.99,
+      "shipping": "Located in United States",
+      "deal": "Free delivery in 2-3 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/kgMAAeSwVBRq37Ct/s-l140.webp"
+    },
+    {
+      "position": 28,
+      "item_id": "206655229880",
+      "title": "Lacoste L.12.12 Blanc Eau Intense Eau de Toilette Spray Tester 3.3 fl oz",
+      "link": "https://www.ebay.com/itm/206655229880",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$27.00",
+      "extracted_price": 27.0,
+      "shipping": "+$6.73 delivery",
+      "extracted_shipping": 6.73,
+      "thumbnail": "https://i.ebayimg.com/images/g/S6QAAeSwqPNq30i~/s-l140.webp"
+    },
+    {
+      "position": 29,
+      "item_id": "293584525473",
+      "title": "Lacoste L.12.12 Blanc by Lacoste cologne for men EDT 3.3 / 3.4 oz New in Box",
+      "link": "https://www.ebay.com/itm/293584525473",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 122,
+      "reviews_link": "https://www.ebay.com/p/17070836173?iid=293584525473#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$43.32",
+      "extracted_price": 43.32,
+      "original_price": "$91.00",
+      "extracted_original_price": 91.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/V-oAAeSwJoZq2oQn/s-l140.webp"
+    },
+    {
+      "position": 30,
+      "item_id": "398394100158",
+      "title": "Lacoste Essential by Lacoste cologne for men EDT 2.5 oz New In Box",
+      "link": "https://www.ebay.com/itm/398394100158",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 26,
+      "reviews_link": "https://www.ebay.com/p/133891716?iid=398394100158#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$31.45",
+      "extracted_price": 31.45,
+      "original_price": "$68.99",
+      "extracted_original_price": 68.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/UQoAAeSwFYFq2oU7/s-l140.webp"
+    },
+    {
+      "position": 31,
+      "item_id": "293014144023",
+      "title": "L'homme Lacoste by Lacoste 3.3 / 3.4 oz EDT colonge For Men New in Box",
+      "link": "https://www.ebay.com/itm/293014144023",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$33.24",
+      "extracted_price": 33.24,
+      "original_price": "$70.99",
+      "extracted_original_price": 70.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/PjsAAeSwFi5q0vks/s-l140.webp"
+    },
+    {
+      "position": 32,
+      "item_id": "395728155690",
+      "title": "Lacoste Pour Femme by Lacoste perfume EDP 3.0 oz New in Box",
+      "link": "https://www.ebay.com/itm/395728155690",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$36.63",
+      "extracted_price": 36.63,
+      "original_price": "$99.99",
+      "extracted_original_price": 99.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/3bUAAeSw6wJq3yUS/s-l140.webp"
+    },
+    {
+      "position": 33,
+      "item_id": "227584632190",
+      "title": "Lacoste L.12.12 Rose Gift Set Eau de Parfum for Women",
+      "link": "https://www.ebay.com/itm/227584632190",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$45.00",
+      "extracted_price": 45.0,
+      "shipping": "+$8.27 delivery",
+      "extracted_shipping": 8.27,
+      "thumbnail": "https://i.ebayimg.com/images/g/mu4AAeSw1A1q36qc/s-l140.webp"
+    },
+    {
+      "position": 34,
+      "item_id": "366762915826",
+      "title": "Lacoste Hapona 2.0 Black Leather Sneakers Men's US 10.5 EUR 44",
+      "link": "https://www.ebay.com/itm/366762915826",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$27.00",
+      "extracted_price": 27.0,
+      "shipping": "+$11.92 delivery",
+      "extracted_shipping": 11.92,
+      "thumbnail": "https://i.ebayimg.com/images/g/ArEAAeSwmwdq36Xs/s-l140.webp"
+    },
+    {
+      "position": 35,
+      "item_id": "147641444568",
+      "title": "Lacoste Men's Lux Polo Shirt Slim Fit COTTON black",
+      "subtitle": "Size L + more · Lacoste",
+      "link": "https://www.ebay.com/itm/147641444568",
+      "condition": "Brand New",
+      "tag": "NEW LOW PRICE",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$53.00",
+      "extracted_price": 53.0,
+      "shipping": "+$7.58 delivery",
+      "extracted_shipping": 7.58,
+      "thumbnail": "https://i.ebayimg.com/images/g/MLwAAeSwDUxqK2RU/s-l140.webp"
+    },
+    {
+      "position": 36,
+      "item_id": "366762673593",
+      "title": "Lacoste Mens Polo Shirt Size 5 Large Classic Fit Blue Short Sleeve Pique Cotton",
+      "subtitle": "Size L",
+      "link": "https://www.ebay.com/itm/366762673593",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$24.99",
+      "extracted_price": 24.99,
+      "shipping": "+$8.17 delivery",
+      "extracted_shipping": 8.17,
+      "thumbnail": "https://i.ebayimg.com/images/g/B9IAAeSw-EZq34Eg/s-l140.webp"
+    },
+    {
+      "position": 37,
+      "item_id": "900042978588",
+      "title": "Lacoste Sport Grey Crewneck Sweatshirt Size S US / FR 3 Logo Pullover",
+      "subtitle": "Size S · Lacoste",
+      "link": "https://www.ebay.com/itm/900042978588",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$25.00",
+      "extracted_price": 25.0,
+      "shipping": "+$7.58 delivery",
+      "extracted_shipping": 7.58,
+      "thumbnail": "https://i.ebayimg.com/images/g/fr0AAeSwrBhq37qz/s-l140.webp"
+    },
+    {
+      "position": 38,
+      "item_id": "366762674825",
+      "title": "Vintage Izod Lacoste Polo Shirt Mens Large USA Made Purple Patron",
+      "subtitle": "Size L",
+      "link": "https://www.ebay.com/itm/366762674825",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$24.99",
+      "extracted_price": 24.99,
+      "shipping": "+$8.17 delivery",
+      "extracted_shipping": 8.17,
+      "thumbnail": "https://i.ebayimg.com/images/g/jDwAAeSws4Zq34F-/s-l140.webp"
+    },
+    {
+      "position": 39,
+      "item_id": "365787686759",
+      "title": "L.12.12 Rose Intense by Lacoste for women EDT 3.3 / 3.4 oz New in Box",
+      "link": "https://www.ebay.com/itm/365787686759",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$29.53",
+      "extracted_price": 29.53,
+      "original_price": "$62.79",
+      "extracted_original_price": 62.79,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/mosAAeSwiOhq14ob/s-l140.webp"
+    },
+    {
+      "position": 40,
+      "item_id": "396990902501",
+      "title": "L.12.12 Rose by Lacoste perfume for women EDP 3.3 / 3.4 oz New in Box",
+      "link": "https://www.ebay.com/itm/396990902501",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$39.19",
+      "extracted_price": 39.19,
+      "original_price": "$70.25",
+      "extracted_original_price": 70.25,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/v9sAAeSwHuRq2jqj/s-l140.webp"
+    },
+    {
+      "position": 41,
+      "item_id": "377599226718",
+      "title": "Lacoste Mens White Graphic Logo Crewneck Sweatshirt Size L SH7051-17C",
+      "subtitle": "Size L",
+      "link": "https://www.ebay.com/itm/377599226718",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$30.00",
+      "extracted_price": 30.0,
+      "shipping": "+$7.99 delivery",
+      "extracted_shipping": 7.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/jJ4AAeSw3i9q35H6/s-l140.webp"
+    },
+    {
+      "position": 42,
+      "item_id": "206585973245",
+      "title": "Lacoste Men's Short Slve Jersey Regular Fit Polo Shirt, Red, ALIGATOR PRINT SZ L",
+      "subtitle": "Size L · Lacoste",
+      "link": "https://www.ebay.com/itm/206585973245",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "30 watchers"
+      ],
+      "price": "$39.50",
+      "extracted_price": 39.5,
+      "shipping": "+$9.00 delivery",
+      "extracted_shipping": 9.0,
+      "thumbnail": "https://i.ebayimg.com/images/g/MAIAAeSw6YtpwBKp/s-l140.webp"
+    },
+    {
+      "position": 43,
+      "item_id": "800841610566",
+      "title": "Lacoste Heritage Supima Cotton 6-Piece Towel Set, Mint",
+      "link": "https://www.ebay.com/itm/800841610566",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "price": "$108.99",
+      "extracted_price": 108.99,
+      "shipping": "Located in United States",
+      "deal": "Free delivery in 3-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/6O4AAeSw919q36Et/s-l140.webp"
+    },
+    {
+      "position": 44,
+      "item_id": "900038917373",
+      "title": "Lacoste Essential 4.2 oz EDT Cologne for Men New Tester",
+      "link": "https://www.ebay.com/itm/900038917373",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$28.98",
+      "extracted_price": 28.98,
+      "original_price": "$87.00",
+      "extracted_original_price": 87.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/lj4AAeSwa1Fq3Y41/s-l140.webp"
+    },
+    {
+      "position": 45,
+      "item_id": "800833908164",
+      "title": "Green Lacoste Men’s Polo Shirt Slim Fit Size Medium New with Tags 100% Cotton",
+      "subtitle": "Size M · Lacoste",
+      "link": "https://www.ebay.com/itm/800833908164",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$50.00",
+      "extracted_price": 50.0,
+      "shipping": "+$7.30 delivery",
+      "extracted_shipping": 7.3,
+      "thumbnail": "https://i.ebayimg.com/images/g/G3AAAeSwc19q2Pei/s-l140.webp"
+    },
+    {
+      "position": 46,
+      "item_id": "366762625253",
+      "title": "Lacoste Mens Plaid Long Sleeve Button Down Shirt Size 45 XL Yellow Blue Check",
+      "subtitle": "Size XL · Lacoste",
+      "link": "https://www.ebay.com/itm/366762625253",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$24.99",
+      "extracted_price": 24.99,
+      "shipping": "+$8.17 delivery",
+      "extracted_shipping": 8.17,
+      "thumbnail": "https://i.ebayimg.com/images/g/oQwAAeSwiv1q33mM/s-l140.webp"
+    },
+    {
+      "position": 47,
+      "item_id": "377599044278",
+      "title": "Lacoste Men's Relaxed Fit Beige & Red Striped Long Sleeve Rugby Small",
+      "subtitle": "Size S",
+      "link": "https://www.ebay.com/itm/377599044278",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$16.00",
+      "extracted_price": 16.0,
+      "shipping": "+$6.32 delivery",
+      "extracted_shipping": 6.32,
+      "thumbnail": "https://i.ebayimg.com/images/g/sRQAAeSw1-Jq33vh/s-l140.webp"
+    },
+    {
+      "position": 48,
+      "item_id": "940043751023",
+      "title": "LACOSTE MEN'S WHITE LONG SLEEVE OXFORD BUTTON UP POCKET SIZE 44 ALLIGATOR",
+      "subtitle": "Size 44 · Lacoste",
+      "link": "https://www.ebay.com/itm/940043751023",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$29.95",
+      "extracted_price": 29.95,
+      "shipping": "+$6.65 delivery",
+      "extracted_shipping": 6.65,
+      "thumbnail": "https://i.ebayimg.com/images/g/Z4oAAeSwRt9q37vf/s-l140.webp"
+    },
+    {
+      "position": 49,
+      "item_id": "397808846068",
+      "title": "Lacoste Men's Signature Print Regular Fit Cotton Jersey T-Shirt Black",
+      "subtitle": "Size L + more · Lacoste",
+      "link": "https://www.ebay.com/itm/397808846068",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "42+ watchers"
+      ],
+      "price": "$39.99",
+      "extracted_price": 39.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/FWYAAeSw-15qTudi/s-l140.webp"
+    },
+    {
+      "position": 50,
+      "item_id": "205586932057",
+      "title": "Lacoste Fitted V-neck 100% Organic Cotton Spring Sweater MENS BLACK M",
+      "subtitle": "Size M + more · Lacoste",
+      "link": "https://www.ebay.com/itm/205586932057",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 10% when you buy more"
+      ],
+      "price": "$45.00",
+      "extracted_price": 45.0,
+      "shipping": "+$10.00 delivery",
+      "extracted_shipping": 10.0,
+      "thumbnail": "https://i.ebayimg.com/images/g/EYsAAOSwNL5kodyM/s-l140.webp"
+    },
+    {
+      "position": 51,
+      "item_id": "336864471482",
+      "title": "Lacoste Men Turtleneck Sweater Blue 100% Cotton Roll Neck Size M FR 4",
+      "subtitle": "Lacoste",
+      "link": "https://www.ebay.com/itm/336864471482",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Import fees due prior to delivery",
+        "Located in Ukraine"
+      ],
+      "price": "$44.00",
+      "extracted_price": 44.0,
+      "shipping": "+$17.20 delivery",
+      "extracted_shipping": 17.2,
+      "thumbnail": "https://i.ebayimg.com/images/g/uLcAAeSwIR1q37ua/s-l140.webp"
+    },
+    {
+      "position": 52,
+      "item_id": "206448767904",
+      "title": "Lacoste Men's NAVY Long SleeveFULL ZIP FRONT Hoodie SH1551 SZ L",
+      "subtitle": "Size L · Lacoste",
+      "link": "https://www.ebay.com/itm/206448767904",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Free returns",
+        "Save up to 10% when you buy more"
+      ],
+      "price": "$49.00",
+      "extracted_price": 49.0,
+      "shipping": "Located in United States",
+      "deal": "+$16.00 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/N9gAAeSwE55qaRwK/s-l140.webp"
+    },
+    {
+      "position": 53,
+      "item_id": "398000933608",
+      "title": "Lacoste Men's Classic Fit Short Sleeve Pique Polo Shirt Black",
+      "subtitle": "Size S + more · Lacoste",
+      "link": "https://www.ebay.com/itm/398000933608",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "8+ sold"
+      ],
+      "price": "$69.99",
+      "extracted_price": 69.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/UqAAAeSwPABqDy61/s-l140.webp"
+    },
+    {
+      "position": 54,
+      "item_id": "306513644082",
+      "title": "Lacoste Men's Full Zip Tennis Jacket Navy Blue White $220 New",
+      "subtitle": "Size L + more · Lacoste",
+      "link": "https://www.ebay.com/itm/306513644082",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "123+ watchers"
+      ],
+      "price": "$135.00",
+      "extracted_price": 135.0,
+      "original_price": "$150.00",
+      "extracted_original_price": 150.0,
+      "shipping": "Located in United States",
+      "deal": "+$9.12 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/JB0AAeSwzVFo00Cc/s-l140.webp"
+    },
+    {
+      "position": 55,
+      "item_id": "147617522729",
+      "title": "Lacoste Men`s Regular Fit Colorblock Golf Polo Shirt size M, L",
+      "subtitle": "Size M + more · Lacoste",
+      "link": "https://www.ebay.com/itm/147617522729",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "2+ watchers"
+      ],
+      "price": "$48.00",
+      "extracted_price": 48.0,
+      "shipping": "+$7.58 delivery",
+      "extracted_shipping": 7.58,
+      "thumbnail": "https://i.ebayimg.com/images/g/UHAAAeSw3P1qwXaC/s-l140.webp"
+    },
+    {
+      "position": 56,
+      "item_id": "237145602339",
+      "title": "Vintage Lacoste Sweater Mens Blue 3 Button 1/4 Hidden Zipper Pullover Mock Neck",
+      "subtitle": "Size L · Lacoste",
+      "link": "https://www.ebay.com/itm/237145602339",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$39.99",
+      "extracted_price": 39.99,
+      "shipping": "+$8.17 delivery",
+      "extracted_shipping": 8.17,
+      "thumbnail": "https://i.ebayimg.com/images/g/l-gAAeSwJ7tq36Bo/s-l140.webp"
+    },
+    {
+      "position": 57,
+      "item_id": "860086403032",
+      "title": "Lacoste & SwissBrand Men’s Trunk 5 Pack Lot- Size M, Green & White",
+      "subtitle": "Size M · Lacoste",
+      "link": "https://www.ebay.com/itm/860086403032",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$20.00",
+      "extracted_price": 20.0,
+      "shipping": "+$9.66 delivery",
+      "extracted_shipping": 9.66,
+      "thumbnail": "https://i.ebayimg.com/images/g/6KYAAeSwp0Rq2VCV/s-l140.webp"
+    },
+    {
+      "position": 58,
+      "item_id": "206655332553",
+      "title": "Lacoste prescription/reading Men’s glasses case and cloth and bonus black case",
+      "link": "https://www.ebay.com/itm/206655332553",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$15.00",
+      "extracted_price": 15.0,
+      "shipping": "+$6.57 delivery",
+      "extracted_shipping": 6.57,
+      "thumbnail": "https://i.ebayimg.com/images/g/ngIAAeSwMnRq31ki/s-l140.webp"
+    },
+    {
+      "position": 59,
+      "item_id": "390908894916",
+      "title": "LACOSTE TOUCH OF PINK for Women Perfume 3.0 oz edt 3 oz NEW IN BOX",
+      "link": "https://www.ebay.com/itm/390908894916",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 81,
+      "reviews_link": "https://www.ebay.com/p/2343534410?iid=390908894916#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$36.41",
+      "extracted_price": 36.41,
+      "original_price": "$94.99",
+      "extracted_original_price": 94.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/ytQAAeSwvbdq36qR/s-l140.webp"
+    },
+    {
+      "position": 60,
+      "item_id": "365787685709",
+      "title": "L.12.12 Rose Sparkling by Lacoste for women EDT 3.3 / 3.4 oz New in Box",
+      "link": "https://www.ebay.com/itm/365787685709",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$43.18",
+      "extracted_price": 43.18,
+      "original_price": "$68.73",
+      "extracted_original_price": 68.73,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/kFcAAeSwpLJq13up/s-l140.webp"
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "polo ralph lauren",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=polo+ralph+lauren&_sop=12"
+    },
+    {
+      "query": "lacoste polo shirt men",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lacoste+polo+shirt+men&_sop=12"
+    },
+    {
+      "query": "lacoste shoes men",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lacoste+shoes+men&_sop=12"
+    },
+    {
+      "query": "ralph lauren",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=ralph+lauren&_sop=12"
+    },
+    {
+      "query": "lacoste women",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lacoste+women&_sop=12"
+    },
+    {
+      "query": "lacoste polo",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lacoste+polo&_sop=12"
+    },
+    {
+      "query": "hugo boss",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=hugo+boss&_sop=12"
+    },
+    {
+      "query": "nike",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike&_sop=12"
+    },
+    {
+      "query": "lacoste jacket men",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lacoste+jacket+men&_sop=12"
+    },
+    {
+      "query": "lacoste t shirt",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lacoste+t+shirt&_sop=12"
+    },
+    {
+      "query": "lacoste shoes",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lacoste+shoes&_sop=12"
+    },
+    {
+      "query": "lacoste men",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lacoste+men&_sop=12"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&_dcat=1059&_pgn=2",
+    "other_pages": {
+      "2": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&_dcat=1059&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&_dcat=1059&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&_dcat=1059&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&_dcat=1059&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&_dcat=1059&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&_dcat=1059&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&_dcat=1059&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&_dcat=1059&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=lacoste&_dcat=1059&_pgn=10&rt=nc"
+    }
+  }
+}
