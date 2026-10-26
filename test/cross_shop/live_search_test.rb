@@ -1,7 +1,10 @@
 require "test_helper"
+require "json"
 require "net/http"
 require "tmpdir"
+require "support/fake_transport"
 require "cross_shop/live_search"
+require "cross_shop/second_opinion"
 
 class LiveSearchTest < Minitest::Test
   include CrossShop::SearchApi
@@ -103,6 +106,27 @@ class LiveSearchTest < Minitest::Test
 
     finished = Array.new(events.size) { events.pop }.select { |event| event.kind == :engine_finished }
     assert_equal({"amazon_search" => "fetched", "ebay_search" => "saved"}, finished.to_h { |event| [event.engine, event.data[:status]] })
+  end
+
+  def test_a_no_results_answer_gets_a_second_opinion_from_the_saved_page
+    page = File.read(File.expand_path("../../fixtures/searchapi/pages/shein_search/search_8A9g6Ov07XHo3jKz34JlbW2m.html", __dir__), encoding: Encoding::UTF_8)
+    no_results = Response.new(status: 200, body: JSON.generate(
+      search_metadata: {id: "search_8A9g6Ov07XHo3jKz34JlbW2m", html_url: "https://www.searchapi.io/api/v1/searches/search_8A9g6Ov07XHo3jKz34JlbW2m.html"},
+      search_parameters: {shein_domain: "us.shein.com"}, error: "Shein didn't return any results."
+    ))
+    transport = FakeTransport.new(no_results, Response.new(status: 200, body: page))
+    events = []
+    observer = ->(event) { events << event }
+    client = Client.new(cache: @cache, ledger: Ledger.new(File.join(@dir, "ledger.jsonl")), transport:, live: true,
+      api_key: "test-key", credit_limit: 10, observer:)
+    pages = SavedPages.new(root: File.join(@dir, "pages"), transport:, api_key: "test-key")
+    search = CrossShop::LiveSearch.new(client:, cache: @cache, observer:, second_opinion: CrossShop::SecondOpinion.new(pages:, observer:))
+
+    outcome = search.run("nike air 1", %w[shein_search], refresh: false).first
+
+    assert_equal "fetched", outcome.status
+    assert_equal 20, events.find { |event| event.kind == :second_opinion }.data[:listings]
+    assert_equal :engine_finished, events.last.kind
   end
 
   # Three stores at 0.3 s each finish in about 0.3 s, not 0.9 s.

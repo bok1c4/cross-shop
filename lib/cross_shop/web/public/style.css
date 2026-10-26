@@ -110,6 +110,8 @@ form.search button {
 
 .summary { color: var(--muted); margin-top: 0; }
 .warning, .notice { background: var(--warn-bg); color: var(--warn); border-radius: 8px; padding: 10px 14px; }
+.note { background: var(--ebay-bg); color: var(--ebay); border-radius: 8px; padding: 10px 14px; }
+.store.shein { background: var(--used-bg); color: var(--used); }
 .notice h1 { margin-top: 0; font-size: 20px; }
 
 .group, details.unmatched {

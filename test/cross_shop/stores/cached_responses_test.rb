@@ -15,6 +15,10 @@ class CachedResponsesTest < Minitest::Test
 
       files.each do |file|
         response = JSON.parse(File.read(file, encoding: Encoding::UTF_8))
+        # SearchApi's own error answers ("Shein didn't return any results.")
+        # have no listings; the catalog reports them instead.
+        next if response["error"]
+
         conversion = store.convert(response)
 
         assert_equal response.fetch("organic_results").size, conversion.products.size + conversion.rejects.size, file

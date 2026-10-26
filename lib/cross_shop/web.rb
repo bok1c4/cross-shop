@@ -6,6 +6,7 @@ require "cross_shop/catalog"
 require "cross_shop/console"
 require "cross_shop/live_search"
 require "cross_shop/runs"
+require "cross_shop/second_opinion"
 require "cross_shop/matcher"
 require "cross_shop/search_api"
 require "cross_shop/searchapi_health"
@@ -51,7 +52,7 @@ module CrossShop
       end
 
       def catalog
-        Catalog.new(cache:)
+        Catalog.new(cache:, pages: SearchApi.saved_pages(data_dir: settings.data_dir))
       end
 
       # One client per request is safe: the credit cap is reserved in the
@@ -129,13 +130,17 @@ module CrossShop
       refresh = params[:refresh] == "1"
       cache = self.cache
       ledger = self.ledger
+      data_dir = settings.data_dir
       transport, live, api_key = settings.transport, settings.live, settings.api_key
       run = settings.runs.start(query:, engines:) do |current|
         started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
         current.add(Event.new(at: Time.now.utc, engine: nil, kind: :run_started, data: {query:, engines:, refresh:}))
+        observer = current.method(:add)
         client = SearchApi::Client.new(cache:, ledger:, transport:, live:, api_key:,
-          credit_limit: SearchApi::CREDIT_LIMIT, observer: current.method(:add))
-        outcomes = LiveSearch.new(client:, cache:, observer: current.method(:add)).run(query, engines, refresh:)
+          credit_limit: SearchApi::CREDIT_LIMIT, observer:)
+        # Free: downloads the page SearchApi fetched when it says "no results".
+        second_opinion = SecondOpinion.new(pages: SearchApi.saved_pages(data_dir:, transport:, api_key:), observer:)
+        outcomes = LiveSearch.new(client:, cache:, observer:, second_opinion:).run(query, engines, refresh:)
         duration_ms = ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - started) * 1000).round
         current.add(Event.new(at: Time.now.utc, engine: nil, kind: :run_finished, data: {duration_ms:}))
         outcomes

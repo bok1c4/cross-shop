@@ -14,7 +14,7 @@ module CrossShop
 
       def get(uri, query:, headers:)
         uri = uri.dup
-        uri.query = URI.encode_www_form(query)
+        uri.query = URI.encode_www_form(query) unless query.empty?
 
         # max_retries: 0 because Net::HTTP otherwise resends a GET once after a
         # read timeout, and each SearchApi request may be billed.

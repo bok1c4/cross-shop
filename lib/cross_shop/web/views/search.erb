@@ -48,6 +48,9 @@
       Missing data is shown as missing, not as “no results”.
     </p>
   <% end %>
+  <% @result.notes.each do |engine, note| %>
+    <p class="note"><strong><%= engine %>:</strong> <%= note %>.</p>
+  <% end %>
 
   <h2>Matched across stores</h2>
   <% if @matched.empty? %>

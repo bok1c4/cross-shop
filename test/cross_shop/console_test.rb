@@ -29,6 +29,13 @@ class ConsoleTest < Minitest::Test
       line(:run_started, engine: nil, query: "nike air 1", engines: %w[shein_search ebay_search], refresh: false)
   end
 
+  def test_the_second_opinion_puts_both_answers_side_by_side
+    assert_equal %(20:29:04  shein_search  second opinion: SearchApi said "Shein didn't return any results.", but the page it fetched has 20 listings; they are shown, marked as read by cross-shop),
+      line(:second_opinion, listings: 20, searchapi_said: "Shein didn't return any results.")
+    assert_equal %(20:29:04  shein_search  second opinion: the page SearchApi fetched has no listings either),
+      line(:second_opinion, listings: 0, searchapi_said: "Shein didn't return any results.")
+  end
+
   def test_failures_and_saves_read_plainly
     assert_equal "20:29:04  shein_search  ✗ CrossShop::SearchApi::ApiError: SearchApi returned 503 after 90.9 s",
       line(:request_failed, error: "CrossShop::SearchApi::ApiError: SearchApi returned 503", duration_ms: 90_876)

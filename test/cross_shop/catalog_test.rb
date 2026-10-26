@@ -36,14 +36,14 @@ class CatalogTest < Minitest::Test
     assert_equal({"amazon_search" => "not cached"}, result.missing_engines)
   end
 
-  # Found by the web test: Shein has no converter, so it silently vanished
+  # Found by the web test: Shein had no converter, so it silently vanished
   # from the page instead of showing as missing.
   def test_a_cached_engine_without_a_converter_is_reported_too
-    @cache.write("shein_search", {q: "samba"}, JSON.generate(organic_results: []))
+    @cache.write("walmart_search", {q: "samba"}, JSON.generate(organic_results: []))
 
-    result = CrossShop::Catalog.new(cache: @cache, engines: %w[shein_search]).search("samba")
+    result = CrossShop::Catalog.new(cache: @cache, engines: %w[walmart_search]).search("samba")
 
-    assert_equal({"shein_search" => "no converter yet"}, result.missing_engines)
+    assert_equal({"walmart_search" => "no converter yet"}, result.missing_engines)
   end
 
   # SearchApi can answer 200 with an "error" field ("Shein didn't return any
@@ -54,6 +54,25 @@ class CatalogTest < Minitest::Test
     result = CrossShop::Catalog.new(cache: @cache, engines: %w[shein_search]).search("samba")
 
     assert_equal({"shein_search" => "SearchApi: Shein didn't return any results."}, result.missing_engines)
+  end
+
+  # SearchApi answered "no results" for a page that had the products. If
+  # that page is saved, the listings come from it, and the page says so.
+  def test_listings_are_read_from_the_saved_page_when_searchapi_found_none
+    response = {"search_metadata" => {"id" => "search_d97LXP4moruBaXn9Mk03EOrl"},
+                "search_parameters" => {"shein_domain" => "us.shein.com"},
+                "error" => "Shein didn't return any results."}
+    @cache.write("shein_search", {q: "adidas samba og"}, JSON.generate(response))
+    pages_dir = File.join(@dir, "pages")
+    FileUtils.mkdir_p(File.join(pages_dir, "shein_search"))
+    FileUtils.cp(File.expand_path("../../fixtures/searchapi/pages/shein_search/search_d97LXP4moruBaXn9Mk03EOrl.html", __dir__), File.join(pages_dir, "shein_search"))
+    pages = CrossShop::SearchApi::SavedPages.new(root: pages_dir, transport: nil, api_key: nil)
+
+    result = CrossShop::Catalog.new(cache: @cache, engines: %w[shein_search], pages:).search("adidas samba og")
+
+    assert_equal 20, result.products.count { |product| product.store == "shein" }
+    assert_empty result.missing_engines
+    assert_match(/Shein didn't return any results.*20 listings were read by cross-shop from the page SearchApi fetched/, result.notes.fetch("shein_search"))
   end
 
   def test_by_default_every_engine_in_the_query_set_is_checked

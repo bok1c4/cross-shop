@@ -16,10 +16,13 @@ module CrossShop
     FAILURES = [SearchApi::Error, Net::OpenTimeout, Net::ReadTimeout, SocketError, SystemCallError, OpenSSL::SSL::SSLError, IOError].freeze
 
     # observer: optional callable that receives an Event when each store finishes.
-    def initialize(client:, cache:, observer: nil)
+    # second_opinion: optional callable (engine, response) run when SearchApi
+    # answers with an error such as "no results" (see SecondOpinion).
+    def initialize(client:, cache:, observer: nil, second_opinion: nil)
       @client = client
       @cache = cache
       @observer = observer
+      @second_opinion = second_opinion
     end
 
     def run(query, engines, refresh:)
@@ -38,6 +41,7 @@ module CrossShop
       return Outcome.new(engine:, status: "saved", message: nil) if !refresh && @cache.read(engine, q: query)
 
       response = refresh ? @client.refresh(engine, q: query) : @client.search(engine, q: query)
+      @second_opinion&.call(engine, response) if response["error"]
       Outcome.new(engine:, status: "fetched", message: response["error"])
     rescue *FAILURES => error
       Outcome.new(engine:, status: "failed", message: error.message)

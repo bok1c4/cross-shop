@@ -19,6 +19,9 @@ module CrossShop
       when :request_failed then "✗ #{data[:error]} after #{seconds(data[:duration_ms])}"
       when :saved then "saved #{short_path(data[:path])}" + (data[:archived] ? " (previous results kept as history)" : "")
       when :engine_finished then finished(data)
+      when :second_opinion_started then "second opinion: downloading the page SearchApi fetched (free)"
+      when :second_opinion then second_opinion(data)
+      when :second_opinion_failed then "second opinion failed: #{data[:error]}"
       when :run_finished then "finished in #{seconds(data[:duration_ms])}"
       when :run_failed then "✗ the search crashed: #{data[:message]}"
       else "#{kind} #{data.inspect}"
@@ -36,6 +39,13 @@ module CrossShop
       parts << data[:search_id] if data[:search_id]
       parts << %(SearchApi says: "#{data[:api_error]}") if data[:api_error]
       parts.join(" · ")
+    end
+
+    def self.second_opinion(data)
+      return "second opinion: the page SearchApi fetched has no listings either" if data[:listings].zero?
+
+      %(second opinion: SearchApi said "#{data[:searchapi_said]}", but the page it fetched has #{data[:listings]} listings; ) +
+        "they are shown, marked as read by cross-shop"
     end
 
     def self.finished(data)

@@ -1,5 +1,6 @@
 require "cross_shop/search_api/client"
 require "cross_shop/search_api/net_http_transport"
+require "cross_shop/search_api/saved_pages"
 
 module CrossShop
   module SearchApi
@@ -17,6 +18,11 @@ module CrossShop
 
     def self.ledger(data_dir: DATA_DIR)
       Ledger.new(File.join(data_dir, "ledger.jsonl"))
+    end
+
+    # Read-only unless given a transport and key (see SavedPages#fetch).
+    def self.saved_pages(data_dir: DATA_DIR, transport: nil, api_key: nil)
+      SavedPages.new(root: File.join(data_dir, "pages"), transport:, api_key:)
     end
 
     # SEARCHAPI_READ_TIMEOUT (seconds, default 60): Shein needs more, since

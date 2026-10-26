@@ -38,7 +38,8 @@ class WebTest < Minitest::Test
     assert last_response.ok?
     assert_includes last_response.body, "Matched across stores"
     assert_includes last_response.body, "B75806"
-    assert_includes last_response.body, "shein_search (SearchApi: Shein didn&#39;t return any results.)"
+    # SearchApi said "no results"; the listings come from the page it saved.
+    assert_includes last_response.body, "20 listings were read by cross-shop from the page SearchApi fetched"
   end
 
   def test_an_uncached_query_says_so
