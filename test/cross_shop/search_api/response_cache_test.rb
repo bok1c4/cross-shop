@@ -44,6 +44,17 @@ class ResponseCacheTest < Minitest::Test
     assert_nil @cache.read("amazon_search", q: "nike dunk low")
   end
 
+  # Re-running a search from the site must not destroy results already paid for.
+  def test_writing_again_keeps_the_previous_response_as_history
+    @cache.write("ebay_search", {q: "samba"}, "first")
+    @cache.write("ebay_search", {q: "samba"}, "second")
+    @cache.write("ebay_search", {q: "samba"}, "third")
+
+    assert_equal "third", @cache.read("ebay_search", q: "samba")
+    assert_equal %w[second first], @cache.history("ebay_search", q: "samba").map { |entry| File.read(entry.path) }
+    assert_empty @cache.history("ebay_search", q: "never written")
+  end
+
   # The engine name becomes a directory, and the CLI takes it from the command
   # line. The newline case is Ruby-specific: ^ and $ match at any line break.
   def test_an_engine_name_that_could_leave_the_cache_folder_is_rejected

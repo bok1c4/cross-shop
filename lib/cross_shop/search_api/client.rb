@@ -20,6 +20,9 @@ module CrossShop
     # The response contains the API key, so it must not be written to disk.
     class SecretInResponse < Error; end
 
+    # A refresh was asked for, but live mode is off.
+    class LiveModeOff < Error; end
+
     # Cache-first SearchApi client. Every way to spend a credit by accident
     # is a raised error rather than a rule to remember:
     # - a request already on disk is never sent again;
@@ -43,26 +46,49 @@ module CrossShop
       end
 
       def search(engine, **params)
-        if params.key?(:api_key) || params.key?("api_key")
-          raise ArgumentError, "pass the API key to Client.new, never as a search param"
-        end
-
+        check_params(params)
         cached = @cache.read(engine, params)
         return JSON.parse(cached) if cached
 
         raise CacheMiss, "#{engine} #{params} is not cached; set SEARCHAPI_LIVE=1 to spend a credit" unless @live
-        if @ledger.count >= @credit_limit
-          raise BudgetExceeded, "ledger has #{@ledger.count} live calls; credit limit is #{@credit_limit}"
+
+        fetch_and_store(engine, params)
+      end
+
+      # Fetches live even when a response is cached (a re-run from the site).
+      # The cached response is kept as history, not overwritten.
+      def refresh(engine, **params)
+        check_params(params)
+        raise LiveModeOff, "live mode is off; set SEARCHAPI_LIVE=1 to spend a credit" unless @live
+
+        fetch_and_store(engine, params)
+      end
+
+      private
+
+      def check_params(params)
+        return unless params.key?(:api_key) || params.key?("api_key")
+
+        raise ArgumentError, "pass the API key to Client.new, never as a search param"
+      end
+
+      # The credit is reserved in the ledger before the call and released
+      # once the call is recorded, so parallel calls cannot overshoot the cap.
+      def fetch_and_store(engine, params)
+        unless @ledger.reserve(@credit_limit)
+          raise BudgetExceeded, "the ledger has reached the credit limit of #{@credit_limit}, counting calls in flight"
         end
 
-        body = fetch(engine, params)
+        begin
+          body = fetch(engine, params)
+        ensure
+          @ledger.release
+        end
         raise SecretInResponse, "#{engine} response contains the API key; not caching it" if body.include?(@api_key)
 
         @cache.write(engine, params, body)
         JSON.parse(body)
       end
-
-      private
 
       def fetch(engine, params)
         started = Process.clock_gettime(Process::CLOCK_MONOTONIC)

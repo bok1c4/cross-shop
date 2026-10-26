@@ -24,11 +24,23 @@ module CrossShop
         File.read(path, encoding: Encoding::UTF_8) if File.exist?(path)
       end
 
+      HistoryEntry = Data.define(:saved_at, :path)
+
+      # A response already on disk was paid for: writing again moves it to
+      # history/ (named by when it was saved) instead of overwriting it.
       def write(engine, params, body)
         path = path_for(engine, params)
+        archive(engine, params, path) if File.exist?(path)
         FileUtils.mkdir_p(File.dirname(path))
         File.write(path, body)
         path
+      end
+
+      # Earlier responses for the same request, newest first.
+      def history(engine, params)
+        Dir[File.join(history_dir(engine, params), "*.json")].sort.reverse.map do |file|
+          HistoryEntry.new(saved_at: File.mtime(file).utc, path: file)
+        end
       end
 
       def path_for(engine, params)
@@ -40,6 +52,19 @@ module CrossShop
       end
 
       private
+
+      def history_dir(engine, params)
+        File.join(@root, engine, "history", File.basename(path_for(engine, params), ".json"))
+      end
+
+      # Nanoseconds in the name keep two quick re-runs apart; sorting by
+      # name is sorting by time.
+      def archive(engine, params, path)
+        dir = history_dir(engine, params)
+        FileUtils.mkdir_p(dir)
+        saved_at = File.mtime(path).utc
+        FileUtils.mv(path, File.join(dir, "#{saved_at.strftime("%Y%m%dT%H%M%S%9NZ")}.json"))
+      end
 
       # Every param is part of the key. Query strings carry only strings, so
       # `page: 2` and `"page" => "2"` are the same request and the same file.

@@ -164,6 +164,61 @@ class ClientTest < Minitest::Test
     assert_empty transport.requests
   end
 
+  # The race found in the Phase 1 review, which parallel store fetches would
+  # hit: three threads, two credits left. Checking the count before the call
+  # let all three through.
+  def test_parallel_searches_cannot_overshoot_the_credit_limit
+    transport = SlowTransport.new
+    client = client(transport, credit_limit: 2)
+
+    threads = %w[a b c].map do |query|
+      Thread.new do
+        client.search("ebay_search", q: query)
+      rescue BudgetExceeded => error
+        error
+      end
+    end
+    results = threads.map(&:value)
+
+    assert_equal 2, transport.requests.size
+    assert_equal 1, results.count { |result| result.is_a?(BudgetExceeded) }
+  end
+
+  # The site builds a client per request, so the cap must hold across
+  # clients that share a ledger file, not just inside one client.
+  def test_separate_clients_sharing_a_ledger_cannot_overshoot_together
+    transport = SlowTransport.new
+
+    threads = %w[a b c].map do |query|
+      Thread.new do
+        client(transport, credit_limit: 2).search("ebay_search", q: query)
+      rescue BudgetExceeded => error
+        error
+      end
+    end
+    threads.each(&:join)
+
+    assert_equal 2, transport.requests.size
+  end
+
+  # Re-running a saved search from the site.
+  def test_refresh_fetches_live_even_when_cached_and_keeps_the_old_response
+    @cache.write("ebay_search", {q: "samba og"}, body(id: "search_old"))
+    transport = FakeTransport.new(Response.new(status: 200, body: body(id: "search_new")))
+
+    result = client(transport).refresh("ebay_search", q: "samba og")
+
+    assert_equal "search_new", result.dig("search_metadata", "id")
+    assert_equal 1, @cache.history("ebay_search", q: "samba og").size
+  end
+
+  def test_refresh_without_live_mode_raises_and_sends_nothing
+    transport = FakeTransport.new
+
+    assert_raises(LiveModeOff) { client(transport, live: false).refresh("ebay_search", q: "samba og") }
+    assert_empty transport.requests
+  end
+
   def test_cache_hits_still_work_after_the_credit_limit_is_reached
     2.times { ledger.record(engine: "ebay_search", status: 200) }
     @cache.write("ebay_search", {q: "samba og"}, body(id: "search_cached"))
@@ -171,6 +226,24 @@ class ClientTest < Minitest::Test
     result = client(FakeTransport.new, credit_limit: 2).search("ebay_search", q: "samba og")
 
     assert_equal "search_cached", result.dig("search_metadata", "id")
+  end
+
+  # Answers every request after a short pause, so parallel calls overlap.
+  class SlowTransport
+    def initialize
+      @lock = Mutex.new
+      @requests = []
+    end
+
+    def requests
+      @lock.synchronize { @requests.dup }
+    end
+
+    def get(uri, query:, headers:)
+      @lock.synchronize { @requests << query }
+      sleep 0.2
+      CrossShop::SearchApi::Response.new(status: 200, body: %({"search_metadata": {"id": "search_#{query[:q]}"}}))
+    end
   end
 
   private
