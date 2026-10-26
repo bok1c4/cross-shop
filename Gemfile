@@ -6,6 +6,9 @@ ruby "~> 3.4.0"
 # Ruby 3.4 ships csv as a bundled gem, so Bundler needs it listed.
 gem "csv"
 
+# Parses eBay's search-result HTML in Phase 3.
+gem "nokogiri", "~> 1.18"
+
 # Demo site: Sinatra app served by Puma through rackup; kramdown renders
 # LEARNINGS.md; erubi so ERB templates can escape HTML by default.
 gem "erubi", "~> 1.13"

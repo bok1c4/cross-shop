@@ -1,0 +1,35 @@
+#!/usr/bin/env ruby
+# Phase 3: our eBay parser against SearchApi's ebay_search output for each
+# saved page, field by field, paired by item ID. Reads only saved files.
+# Caveat printed with the results: the two sides were fetched at different
+# times and from different places (SearchApi: US delivery; us: Serbia).
+
+require "bundler/setup"
+$LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
+require "json"
+require "cross_shop/ebay_parser"
+require "cross_shop/parser_comparison"
+require "cross_shop/search_api"
+
+pages = Dir[File.expand_path("../fixtures/ebay_html/*.html", __dir__)].sort
+abort "no saved pages in fixtures/ebay_html" if pages.empty?
+
+pages.each do |page|
+  query = File.basename(page, ".html").tr("-", " ")
+  raw = CrossShop::SearchApi.cache.read("ebay_search", q: query)
+  next puts("#{query}: no SearchApi response saved") if raw.nil?
+
+  ours = CrossShop::EbayParser.parse(File.read(page, encoding: Encoding::UTF_8))
+  theirs = JSON.parse(raw).fetch("organic_results")
+  result = CrossShop::ParserComparison.compare(ours:, theirs:)
+
+  puts "== #{query}: ours #{ours.size}, SearchApi #{theirs.size}, in both #{result.paired_ids.size} " \
+    "(only ours #{result.only_ours.size}, only SearchApi #{result.only_theirs.size})"
+  result.fields.each do |field, comparison|
+    counts = comparison.counts
+    puts format("  %-22s agree %3d  differ %3d  only ours %3d  only SearchApi %3d",
+      field, counts[:agree], counts[:differ], counts[:only_ours], counts[:only_theirs])
+    comparison.examples.first(2).each { |id, mine, their| puts "      #{id}: ours #{mine.inspect} | SearchApi #{their.inspect}" }
+  end
+end
+puts "\nCaveat: fetched hours apart; SearchApi with US delivery, ours from Serbia."

@@ -25,6 +25,8 @@ GEM
       prism (~> 1.5)
     mustermann (3.1.1)
     nio4r (2.7.5)
+    nokogiri (1.19.4-arm64-darwin)
+      racc (~> 1.4)
     parallel (2.3.0)
     parser (3.3.13.0)
       ast (~> 2.4.1)
@@ -99,7 +101,6 @@ GEM
 
 PLATFORMS
   arm64-darwin-25
-  ruby
 
 DEPENDENCIES
   csv
@@ -107,6 +108,7 @@ DEPENDENCIES
   ferrum (~> 0.20)
   kramdown (~> 2.5)
   minitest
+  nokogiri (~> 1.18)
   puma (~> 8.0)
   rack-test (~> 2.3)
   rackup (~> 2.3)

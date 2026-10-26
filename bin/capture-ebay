@@ -1,0 +1,64 @@
+#!/usr/bin/env ruby
+# Phase 3: saves eBay's raw search-result HTML (as sent by the server, before
+# any JavaScript runs) for the six branded queries, using the exact URLs
+# SearchApi fetched (search_metadata.request_url).
+#
+# A deliberate one-off on 2026-10-26, although eBay's robots.txt disallows
+# /sch/: one request per query, 15 s apart, a visible Chrome with
+# a fresh profile, no login, no spoofing. Pages already saved are skipped.
+# Every outcome is appended to fixtures/ebay_html/captures.jsonl.
+
+require "bundler/setup"
+$LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
+require "ferrum"
+require "fileutils"
+require "json"
+require "time"
+require "cross_shop/search_api"
+
+QUERIES = [
+  "adidas samba og", "nike dunk low panda", "new balance 550",
+  "converse chuck 70 high", "patagonia better sweater", "levi's 501 jeans"
+].freeze
+OUT = File.expand_path("../fixtures/ebay_html", __dir__)
+PAUSE_SECONDS = 15
+
+chrome = ENV.fetch("BROWSER_PATH") { Dir["/Applications/Google Chrome*.app/Contents/MacOS/*"].first }
+abort "Chrome not found; set BROWSER_PATH" if chrome.nil?
+FileUtils.mkdir_p(OUT)
+
+cache = CrossShop::SearchApi.cache
+todo = QUERIES.reject { |query| File.exist?(File.join(OUT, "#{query.downcase.gsub(/[^a-z0-9]+/, "-")}.html")) }
+abort "all #{QUERIES.size} pages already saved" if todo.empty?
+
+browser = Ferrum::Browser.new(headless: false, timeout: 60, browser_path: chrome)
+begin
+  todo.each_with_index do |query, index|
+    sleep PAUSE_SECONDS if index.positive?
+    raw = cache.read("ebay_search", q: query) or abort "no SearchApi response cached for #{query.inspect}"
+    url = JSON.parse(raw).dig("search_metadata", "request_url")
+
+    browser.goto(url)
+    response = browser.network.response
+    html = response.body!.to_s.dup.force_encoding(Encoding::UTF_8)
+    outcome = {
+      at: Time.now.utc.iso8601, query:, url:, final_url: browser.current_url, status: response.status,
+      bytes: html.bytesize, title: browser.title, item_links: html.scan(%r{ebay\.com/itm/(\d+)}).uniq.size
+    }
+
+    normal = response.status == 200 && outcome[:item_links].positive?
+    path = File.join(OUT, "#{query.downcase.gsub(/[^a-z0-9]+/, "-")}.html")
+    File.write(path, html) if normal
+    File.open(File.join(OUT, "captures.jsonl"), "a") { |file| file.puts(JSON.generate(outcome)) }
+    puts outcome.slice(:query, :status, :bytes, :item_links, :title).to_a.map { |key, value| "#{key}=#{value}" }.join("  ")
+
+    # Measure, don't escalate: after a block, a challenge or an empty page,
+    # more requests would only be pushing past a protection.
+    next if normal
+
+    puts "stopping: not a normal results page"
+    break
+  end
+ensure
+  browser.quit
+end
