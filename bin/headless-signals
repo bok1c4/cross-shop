@@ -1,0 +1,39 @@
+#!/usr/bin/env ruby
+# Phase 4: which headless-detection checks on bot.sannysoft.com (a test page
+# built for this) a default headless Chrome fails. Measures only; nothing is
+# patched or hidden. Saves the results to fixtures/fingerprints/.
+
+require "bundler/setup"
+require "ferrum"
+require "fileutils"
+require "json"
+
+EXTRACT = <<~JS
+  [...document.querySelectorAll("table tr")]
+    .map(tr => [...tr.cells])
+    .filter(cells => cells.length >= 2 && /passed|failed|warn/.test(cells[1].className))
+    .map(cells => ({
+      test: cells[0].innerText.trim().replace(/\\s+/g, " "),
+      result: cells[1].innerText.trim().slice(0, 80),
+      status: cells[1].className.match(/passed|failed|warn/)[0]
+    }))
+JS
+
+chrome = ENV.fetch("BROWSER_PATH") { Dir["/Applications/Google Chrome*.app/Contents/MacOS/*"].first }
+abort "Chrome not found; set BROWSER_PATH" if chrome.nil?
+
+browser = Ferrum::Browser.new(headless: true, timeout: 30, browser_path: chrome)
+begin
+  browser.goto("https://bot.sannysoft.com/")
+  sleep 3 # the page runs its checks after load
+  rows = browser.evaluate(EXTRACT)
+ensure
+  browser.quit
+end
+
+out = File.expand_path("../fixtures/fingerprints/sannysoft-headless_chrome.json", __dir__)
+FileUtils.mkdir_p(File.dirname(out))
+File.write(out, JSON.pretty_generate(rows) + "\n")
+
+puts "#{rows.size} checks: #{rows.map { |row| row["status"] }.tally}"
+rows.reject { |row| row["status"] == "passed" }.each { |row| puts "  #{row["status"].ljust(6)} #{row["test"]}: #{row["result"]}" }

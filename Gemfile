@@ -15,6 +15,8 @@ gem "rackup", "~> 2.3"
 gem "sinatra", "~> 4.2"
 
 group :development, :test do
+  # Drives headless Chrome over the DevTools Protocol for Phase 4.
+  gem "ferrum", "~> 0.20"
   gem "minitest"
   gem "rack-test", "~> 2.3"
   gem "rake"

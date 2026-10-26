@@ -1,0 +1,48 @@
+#!/usr/bin/env ruby
+# Phase 4: how different HTTP clients look to a server. Fetches
+# https://tls.peet.ws/api/all (a service built for this) twice per client,
+# saves the responses without IP addresses to fixtures/fingerprints/, and
+# prints one row per fetch. No store is contacted.
+
+require "bundler/setup"
+$LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
+require "ferrum"
+require "fileutils"
+require "json"
+require "net/http"
+require "cross_shop/fingerprint"
+
+URL = "https://tls.peet.ws/api/all"
+OUT = File.expand_path("../fixtures/fingerprints", __dir__)
+
+CLIENTS = {
+  "ruby_net_http" => -> {
+    uri = URI(URL)
+    Net::HTTP.start(uri.host, uri.port, use_ssl: true, read_timeout: 30, max_retries: 0) { |http| http.get(uri.path).body }
+  },
+  "curl" => -> { IO.popen(["curl", "--silent", "--max-time", "30", URL], &:read) },
+  "headless_chrome" => -> {
+    # The executable's name depends on the channel ("Google Chrome Dev" here).
+    chrome = ENV.fetch("BROWSER_PATH") { Dir["/Applications/Google Chrome*.app/Contents/MacOS/*"].first }
+    abort "Chrome not found; set BROWSER_PATH" if chrome.nil?
+    browser = Ferrum::Browser.new(headless: true, timeout: 30, browser_path: chrome)
+    begin
+      browser.goto(URL)
+      browser.evaluate("document.body.innerText")
+    ensure
+      browser.quit
+    end
+  }
+}.freeze
+
+FileUtils.mkdir_p(OUT)
+CLIENTS.each do |name, fetch|
+  2.times do |attempt|
+    response = JSON.parse(fetch.call.force_encoding(Encoding::UTF_8))
+    clean = CrossShop::Fingerprint.sanitize(response)
+    File.write(File.join(OUT, "#{name}-#{attempt + 1}.json"), JSON.pretty_generate(clean) + "\n")
+    row = CrossShop::Fingerprint.summary(clean)
+    puts "#{name}-#{attempt + 1}: #{row.map { |key, value| "#{key}=#{value}" }.join("  ")}"
+    sleep 2
+  end
+end

@@ -1,0 +1,157 @@
+[
+  {
+    "test": "User Agent (Old)",
+    "result": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like ",
+    "status": "failed"
+  },
+  {
+    "test": "WebDriver (New)",
+    "result": "missing (passed)",
+    "status": "passed"
+  },
+  {
+    "test": "WebDriver Advanced",
+    "result": "passed",
+    "status": "passed"
+  },
+  {
+    "test": "Chrome (New)",
+    "result": "present (passed)",
+    "status": "passed"
+  },
+  {
+    "test": "Permissions (New)",
+    "result": "prompt",
+    "status": "passed"
+  },
+  {
+    "test": "Plugins Length (Old)",
+    "result": "5",
+    "status": "passed"
+  },
+  {
+    "test": "Plugins is of type PluginArray",
+    "result": "passed",
+    "status": "passed"
+  },
+  {
+    "test": "Languages (Old)",
+    "result": "en-US,en",
+    "status": "passed"
+  },
+  {
+    "test": "WebGL Vendor",
+    "result": "Google Inc. (Apple)",
+    "status": "passed"
+  },
+  {
+    "test": "WebGL Renderer",
+    "result": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+    "status": "passed"
+  },
+  {
+    "test": "Broken Image Dimensions",
+    "result": "16x16",
+    "status": "passed"
+  },
+  {
+    "test": "PHANTOM_UA",
+    "result": "ok",
+    "status": "passed"
+  },
+  {
+    "test": "PHANTOM_PROPERTIES",
+    "result": "ok",
+    "status": "passed"
+  },
+  {
+    "test": "PHANTOM_ETSL",
+    "result": "ok",
+    "status": "passed"
+  },
+  {
+    "test": "PHANTOM_LANGUAGE",
+    "result": "ok",
+    "status": "passed"
+  },
+  {
+    "test": "PHANTOM_WEBSOCKET",
+    "result": "ok",
+    "status": "passed"
+  },
+  {
+    "test": "MQ_SCREEN",
+    "result": "ok",
+    "status": "passed"
+  },
+  {
+    "test": "PHANTOM_OVERFLOW",
+    "result": "ok",
+    "status": "passed"
+  },
+  {
+    "test": "PHANTOM_WINDOW_HEIGHT",
+    "result": "ok",
+    "status": "passed"
+  },
+  {
+    "test": "HEADCHR_UA",
+    "result": "FAIL",
+    "status": "failed"
+  },
+  {
+    "test": "HEADCHR_CHROME_OBJ",
+    "result": "ok",
+    "status": "passed"
+  },
+  {
+    "test": "HEADCHR_PERMISSIONS",
+    "result": "ok",
+    "status": "passed"
+  },
+  {
+    "test": "HEADCHR_PLUGINS",
+    "result": "ok",
+    "status": "passed"
+  },
+  {
+    "test": "HEADCHR_IFRAME",
+    "result": "ok",
+    "status": "passed"
+  },
+  {
+    "test": "CHR_DEBUG_TOOLS",
+    "result": "ok",
+    "status": "passed"
+  },
+  {
+    "test": "SELENIUM_DRIVER",
+    "result": "ok",
+    "status": "passed"
+  },
+  {
+    "test": "CHR_BATTERY",
+    "result": "ok",
+    "status": "passed"
+  },
+  {
+    "test": "CHR_MEMORY",
+    "result": "FAIL",
+    "status": "failed"
+  },
+  {
+    "test": "TRANSPARENT_PIXEL",
+    "result": "ok",
+    "status": "passed"
+  },
+  {
+    "test": "SEQUENTUM",
+    "result": "ok",
+    "status": "passed"
+  },
+  {
+    "test": "VIDEO_CODECS",
+    "result": "ok",
+    "status": "passed"
+  }
+]

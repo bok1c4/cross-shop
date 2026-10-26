@@ -41,6 +41,23 @@ Observations from a single response, not conclusions. Phase 3 (the hand-captured
 - The variant problem, seen in real data: Amazon titles like "Mens Nike Dunk Low Retro" name no colorway. They are parent listings that cover many colours and sizes, so "the same product" is not well defined for them.
 - No cross-store matches at all for "patagonia better sweater", "women's puffer jacket" or "crossbody bag".
 
+## Phase 4: how clients look to a server (2026-10-26)
+
+Measured on tls.peet.ws and bot.sannysoft.com, test services built to be probed. No store was contacted. Raw results, without IP addresses, are in `fixtures/fingerprints/` (`bin/fingerprints`, `bin/headless-signals`).
+
+| Client | HTTP | User-Agent | JA4 | Ciphers / extensions | JA3 across connections |
+|---|---|---|---|---|---|
+| Ruby `Net::HTTP` (OpenSSL 3.5.5) | HTTP/1.1 | `Ruby` | `t13d3012_1d37bd780c83_89ab6efea773` | 30 / 12 | same twice |
+| macOS `curl` 8.7.1 (LibreSSL) | h2 | `curl/8.7.1` | `t13d497h2_0d8feac7bc37_7395dae3b2f3` | 49 / 7 | same twice |
+| Headless Chrome Dev 158 via Ferrum (CDP) | h2 | `HeadlessChrome/158.0.0.0` | `t13d1517h2_8daaf6152771_cb7bf5808d99` | 16 / 19 | 4 different hashes in 4 connections |
+| Claude app's browser pane (Chromium 152, not headless) | h2 | `Chrome/152…` | `t13d1516h2_8daaf6152771_806a8c22fdea` | 16 / 18 | one sample |
+
+- Chrome changes its TLS extension order on every connection, so its JA3 hash changes each time (4 hashes in 4 connections) while JA4, which sorts extensions first, stays the same. For Chrome, JA3 is useless as an identifier.
+- At the TLS and HTTP/2 level, Ruby and curl look nothing like a browser: different cipher lists, extension sets, and for Ruby no HTTP/2 at all. Headless Chrome and the real Chromium share the same HTTP/2 fingerprint (`52d84b11…`). This is why tools like curl-impersonate exist.
+- The TCP layer reflects the machine, not the client: every client showed TTL 45–47 and the same SYN signature. Changing the User-Agent does not change it, so a server can notice a "Windows" User-Agent arriving from a macOS or Linux TCP stack.
+- bot.sannysoft.com: default headless Chrome failed 3 of 31 checks (the `HeadlessChrome` User-Agent, twice, and `CHR_MEMORY`). It passed WebDriver, plugins, WebGL and permissions. The real browser pane failed 1 (`HEADCHR_IFRAME`, a false positive). Page-level checks only catch the obvious; the network-level fingerprint separates a browser from an HTTP library far more reliably.
+- Limits: one machine, one network, one run per client; the two Chromium builds are different versions (152 and 158), so their small JA4 difference may be the version, not headless mode. curl-impersonate was not tested (no Homebrew formula). No store was fetched with these clients.
+
 ## Bugs and surprises
 
 Each entry: what happened, how we found it, the evidence, the fix.
@@ -63,3 +80,4 @@ Each entry: what happened, how we found it, the evidence, the fix.
 11. **Shein silently vanished from the search page** (ours, fixed). The catalog only reported missing engines among those with a converter; Shein has none, so it disappeared instead of showing as missing, which is "missing data looks like no results" again. Found by a web test. Fix: the catalog checks every engine in `config/queries.yml` and reports each missing one with its reason ("not cached", "no converter yet").
 12. **Sinatra's ERB does not escape HTML by default** (prevented). Every title on the site comes from someone else's page. Fix: the erubi template engine with `escape_html: true`, so `<%= %>` escapes and raw output has to be asked for with `<%== %>`. Test: a `<script>` title renders as text.
 13. **Every web test failed with "Host not permitted"** (a feature, not a bug). Sinatra 4.1 added host authorization against DNS rebinding: in development it only accepts requests addressed to localhost, `.test` names or IPs, and rack-test sends `Host: example.org`. Fix: the tests address `localhost`; the protection stays on. The site also binds to 127.0.0.1 only.
+14. **The privacy filter redacted Chrome's version number** (ours, fixed). The sanitizer that strips IP addresses from saved fingerprints turned `HeadlessChrome/158.0.0.0` into `HeadlessChrome/[redacted ip]`: a four-part version number looks like an IPv4 address. Found on the first real run. Fix: only octets 0–255, and nothing directly after "/". Test: `test_version_numbers_are_not_mistaken_for_ip_addresses`.
