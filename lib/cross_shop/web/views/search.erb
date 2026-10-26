@@ -3,20 +3,6 @@
   <button type="submit">Search</button>
 </form>
 
-<% if @outcomes %>
-  <section class="outcomes">
-    <h2>Search finished</h2>
-    <ul>
-      <% @outcomes.each do |outcome| %>
-        <li>
-          <strong><%= outcome["engine"] %></strong>: <span class="status <%= outcome["status"] %>"><%= outcome["status"] %></span>
-          <% if outcome["message"] %><span class="muted"><%= outcome["message"] %></span><% end %>
-        </li>
-      <% end %>
-    </ul>
-  </section>
-<% end %>
-
 <h1>“<%= @query %>”</h1>
 
 <section class="live">

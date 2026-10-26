@@ -8,7 +8,7 @@ A small cross-store product search over Amazon and eBay through [SearchApi](http
 - **Normalises** every listing into one validated product record and **groups** the same product across stores: by manufacturer style code, or by brand, title words and price.
 - **Parses eBay directly** and compares it with SearchApi's output, field by field.
 - **Checks field health** (how often a field is filled, and how often its value is plausible), **simulates eBay layout changes**, and lets an agent (`claude -p`) repair the parser, with the tests as the judge.
-- **Shows it all** in a small Sinatra site: search, how it works, field health, findings. Saved searches are free to open. A new search runs across the stores you tick, in parallel, and is saved; searching a saved term asks before running again and keeps the old results as history. Autocomplete comes from saved and past searches, so typing never spends a credit. Spending is guarded by a CSRF-protected POST, a confirmation, a redirect afterwards, and a credit cap that parallel requests cannot overshoot.
+- **Shows it all** in a small Sinatra site: search, how it works, field health, findings. Saved searches are free to open. A new search runs across the stores you tick, in parallel, and is saved; searching a saved term asks before running again and keeps the old results as history. A live console streams every real step of a search, including SearchApi's own timings and messages. Autocomplete comes from saved and past searches, so typing never spends a credit. Spending is guarded by a CSRF-protected POST, a confirmation, a redirect afterwards, and a credit cap that parallel requests cannot overshoot.
 
 ## Three things I learned
 

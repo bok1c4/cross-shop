@@ -92,6 +92,19 @@ class LiveSearchTest < Minitest::Test
     assert_equal({"shein_search" => ["fetched", "Shein didn't return any results."]}, by_engine(outcomes))
   end
 
+  def test_each_store_reports_when_it_finishes
+    @cache.write("ebay_search", {q: "samba"}, OK.body)
+    events = Thread::Queue.new
+    client = Client.new(cache: @cache, ledger: Ledger.new(File.join(@dir, "ledger.jsonl")), live: true, api_key: "test-key",
+      credit_limit: 10, transport: EngineTransport.new({"amazon_search" => OK}))
+    search = CrossShop::LiveSearch.new(client:, cache: @cache, observer: ->(event) { events << event })
+
+    search.run("samba", %w[amazon_search ebay_search], refresh: false)
+
+    finished = Array.new(events.size) { events.pop }.select { |event| event.kind == :engine_finished }
+    assert_equal({"amazon_search" => "fetched", "ebay_search" => "saved"}, finished.to_h { |event| [event.engine, event.data[:status]] })
+  end
+
   # Three stores at 0.3 s each finish in about 0.3 s, not 0.9 s.
   def test_stores_are_fetched_in_parallel
     transport = EngineTransport.new({"amazon_search" => OK, "ebay_search" => OK, "shein_search" => OK}, delay: 0.3)

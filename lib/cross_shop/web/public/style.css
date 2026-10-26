@@ -183,12 +183,20 @@ form.live-search button {
   cursor: pointer;
 }
 
-section.outcomes { background: var(--good-bg); border-radius: 10px; padding: 4px 16px 8px; margin-top: 12px; }
-section.outcomes h2 { margin: 10px 0 6px; font-size: 16px; }
-section.outcomes ul { margin: 0; padding-left: 18px; }
-.status { font-weight: 600; }
-.status.fetched, .status.saved { color: var(--good); }
-.status.failed { color: var(--warn); }
+pre.console {
+  background: #0e0f0d;
+  color: #cfe8cf;
+  border: 1px solid #2a2c27;
+  border-radius: 10px;
+  padding: 14px 16px;
+  font: 13px/1.6 ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  max-height: 65vh;
+  overflow-y: auto;
+  min-height: 120px;
+}
+p.finished a { font-weight: 600; }
 
 .prose { max-width: 760px; }
 .prose h1 { margin-top: 8px; }

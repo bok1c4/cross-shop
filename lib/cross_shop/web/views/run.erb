@@ -1,0 +1,28 @@
+<h1>Searching “<%= @run.query %>”</h1>
+<p class="muted">
+  Started <%= @run.started_at.strftime("%H:%M:%S UTC") %> · <%= @run.engines.join(", ") %>.
+  Every line is a step the code really took, reported as it happened. Shein can take 90 seconds.
+</p>
+
+<pre class="console" id="console" data-run="<%= @run.id %>" data-from="<%= @events.size %>" data-done="<%= @done %>"><% @events.each do |event| %><%= console_line(event) %>
+<% end %></pre>
+
+<p id="finished" class="finished"<%= " hidden" unless @done %>>
+  <a href="/search?q=<%= Rack::Utils.escape(@run.query) %>">See the results →</a>
+</p>
+
+<script>
+  (() => {
+    const consoleEl = document.getElementById("console");
+    if (consoleEl.dataset.done === "true") return;
+    const source = new EventSource(`/runs/${consoleEl.dataset.run}/events?from=${consoleEl.dataset.from}`);
+    source.onmessage = (message) => {
+      consoleEl.textContent += JSON.parse(message.data).line + "\n";
+      consoleEl.scrollTop = consoleEl.scrollHeight;
+    };
+    source.addEventListener("done", () => {
+      source.close();
+      document.getElementById("finished").hidden = false;
+    });
+  })();
+</script>

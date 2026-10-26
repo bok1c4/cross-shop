@@ -201,6 +201,53 @@ class ClientTest < Minitest::Test
     assert_equal 2, transport.requests.size
   end
 
+  # --- events for the site's live console ----------------------------------
+
+  def observed_client(transport, events)
+    Client.new(cache: @cache, ledger:, transport:, live: true, api_key: API_KEY, credit_limit: 10,
+      observer: ->(event) { events << event })
+  end
+
+  # The console prints these, so they must be what really happened, in order.
+  def test_a_live_call_reports_each_step_in_order
+    events = []
+
+    observed_client(FakeTransport.new(Response.new(status: 200, body: body(id: "search_abc"))), events).search("ebay_search", q: "samba og")
+
+    assert_equal %i[credit_reserved request_sent response_received saved], events.map(&:kind)
+    assert_equal "www.searchapi.io/api/v1/search?engine=ebay_search&q=samba+og", events[1].data[:url]
+    assert_equal [200, "search_abc", 0], events[2].data.values_at(:status, :search_id, :results)
+    refute_includes events.map { |event| event.data.inspect }.join, API_KEY
+  end
+
+  def test_a_cache_hit_reports_that_nothing_was_spent
+    @cache.write("ebay_search", {q: "samba og"}, body)
+    events = []
+
+    observed_client(FakeTransport.new, events).search("ebay_search", q: "samba og")
+
+    assert_equal %i[cache_hit], events.map(&:kind)
+  end
+
+  def test_a_failed_call_reports_searchapis_own_message
+    events = []
+    transport = FakeTransport.new(Response.new(status: 503, body: %({"error": "We could not retrieve results for this search."})))
+
+    assert_raises(ApiError) { observed_client(transport, events).search("shein_search", q: "dress") }
+
+    assert_equal %i[credit_reserved request_sent response_received], events.map(&:kind)
+    assert_equal [503, "We could not retrieve results for this search."], events.last.data.values_at(:status, :api_error)
+  end
+
+  def test_a_network_error_is_reported
+    events = []
+
+    assert_raises(Net::ReadTimeout) { observed_client(FakeTransport.new(Net::ReadTimeout.new), events).search("shein_search", q: "dress") }
+
+    assert_equal %i[credit_reserved request_sent request_failed], events.map(&:kind)
+    assert_match(/Net::ReadTimeout/, events.last.data[:error])
+  end
+
   # Re-running a saved search from the site.
   def test_refresh_fetches_live_even_when_cached_and_keeps_the_old_response
     @cache.write("ebay_search", {q: "samba og"}, body(id: "search_old"))

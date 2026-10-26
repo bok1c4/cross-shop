@@ -1,5 +1,6 @@
 require "json"
 require "uri"
+require "cross_shop/event"
 require "cross_shop/search_api/ledger"
 require "cross_shop/search_api/response"
 require "cross_shop/search_api/response_cache"
@@ -34,7 +35,9 @@ module CrossShop
       # starts from this object.
       ENDPOINT = URI("https://www.searchapi.io/api/v1/search").freeze
 
-      def initialize(cache:, ledger:, transport:, live:, api_key:, credit_limit:)
+      # observer: optional callable that receives an Event for every real step
+      # (the site's live console). Events never contain the API key.
+      def initialize(cache:, ledger:, transport:, live:, api_key:, credit_limit:, observer: nil)
         raise ArgumentError, "live mode needs an api_key" if live && api_key.to_s.empty?
 
         @cache = cache
@@ -43,12 +46,16 @@ module CrossShop
         @live = live
         @api_key = api_key
         @credit_limit = credit_limit
+        @observer = observer
       end
 
       def search(engine, **params)
         check_params(params)
         cached = @cache.read(engine, params)
-        return JSON.parse(cached) if cached
+        if cached
+          notify(:cache_hit, engine, path: @cache.path_for(engine, params))
+          return JSON.parse(cached)
+        end
 
         raise CacheMiss, "#{engine} #{params} is not cached; set SEARCHAPI_LIVE=1 to spend a credit" unless @live
 
@@ -79,6 +86,7 @@ module CrossShop
           raise BudgetExceeded, "the ledger has reached the credit limit of #{@credit_limit}, counting calls in flight"
         end
 
+        notify(:credit_reserved, engine, used: @ledger.count, limit: @credit_limit)
         begin
           body = fetch(engine, params)
         ensure
@@ -86,23 +94,29 @@ module CrossShop
         end
         raise SecretInResponse, "#{engine} response contains the API key; not caching it" if body.include?(@api_key)
 
-        @cache.write(engine, params, body)
+        archived = File.exist?(@cache.path_for(engine, params))
+        path = @cache.write(engine, params, body)
+        notify(:saved, engine, path:, archived:)
         JSON.parse(body)
       end
 
       def fetch(engine, params)
         started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
         entry = {engine:, params:}
+        query = {engine:, **params}
 
+        notify(:request_sent, engine, url: "#{ENDPOINT.host}#{ENDPOINT.path}?#{URI.encode_www_form(query)}")
         begin
-          response = @transport.get(ENDPOINT, query: {engine:, **params}, headers: {"Authorization" => "Bearer #{@api_key}"})
+          response = @transport.get(ENDPOINT, query:, headers: {"Authorization" => "Bearer #{@api_key}"})
         rescue => error
           @ledger.record(**entry, status: nil, search_id: nil, error: error.class.name, duration_ms: elapsed_ms(started))
+          notify(:request_failed, engine, error: "#{error.class}: #{error.message}", duration_ms: elapsed_ms(started))
           raise
         end
 
-        id, api_error = metadata(response.body)
-        @ledger.record(**entry, status: response.status, search_id: id, error: nil, api_error:, duration_ms: elapsed_ms(started))
+        meta = metadata(response.body)
+        @ledger.record(**entry, status: response.status, search_id: meta[:search_id], error: nil, api_error: meta[:api_error], duration_ms: elapsed_ms(started))
+        notify(:response_received, engine, status: response.status, duration_ms: elapsed_ms(started), **meta)
         unless response.status == 200
           raise ApiError, "SearchApi returned #{response.status} for #{engine} #{params}: #{redact(response.body)[0, 300]}"
         end
@@ -110,14 +124,26 @@ module CrossShop
         response.body
       end
 
-      # [search id, SearchApi's "error" message]. SearchApi can answer 200
-      # with status "Success" and an error such as "Shein didn't return any
-      # results.", so the message is worth keeping even on success.
+      # What SearchApi says about its own work: the search id, its "error"
+      # message (sent even with HTTP 200, e.g. "Shein didn't return any
+      # results."), the store page it fetched, and how long fetching and
+      # parsing took.
       def metadata(body)
         parsed = JSON.parse(body)
-        parsed.is_a?(Hash) ? [parsed.dig("search_metadata", "id"), parsed["error"]] : [nil, nil]
+        return {} unless parsed.is_a?(Hash)
+
+        meta = parsed["search_metadata"] || {}
+        {
+          search_id: meta["id"], api_error: parsed["error"], fetched_url: meta["request_url"],
+          request_time: meta["request_time_taken"], parsing_time: meta["parsing_time_taken"],
+          results: parsed["organic_results"]&.size
+        }
       rescue JSON::ParserError
-        [nil, nil]
+        {}
+      end
+
+      def notify(kind, engine, **data)
+        @observer&.call(Event.new(at: Time.now.utc, engine:, kind:, data:))
       end
 
       def elapsed_ms(started)

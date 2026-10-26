@@ -15,9 +15,11 @@ module CrossShop
     # Expected failures of one store. Anything else is a bug and propagates.
     FAILURES = [SearchApi::Error, Net::OpenTimeout, Net::ReadTimeout, SocketError, SystemCallError, OpenSSL::SSL::SSLError, IOError].freeze
 
-    def initialize(client:, cache:)
+    # observer: optional callable that receives an Event when each store finishes.
+    def initialize(client:, cache:, observer: nil)
       @client = client
       @cache = cache
+      @observer = observer
     end
 
     def run(query, engines, refresh:)
@@ -27,6 +29,12 @@ module CrossShop
     private
 
     def outcome(engine, query, refresh)
+      result = attempt(engine, query, refresh)
+      @observer&.call(Event.new(at: Time.now.utc, engine:, kind: :engine_finished, data: {status: result.status, message: result.message}))
+      result
+    end
+
+    def attempt(engine, query, refresh)
       return Outcome.new(engine:, status: "saved", message: nil) if !refresh && @cache.read(engine, q: query)
 
       response = refresh ? @client.refresh(engine, q: query) : @client.search(engine, q: query)

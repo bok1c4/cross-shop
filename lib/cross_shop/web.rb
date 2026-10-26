@@ -3,7 +3,9 @@ require "kramdown"
 require "securerandom"
 require "sinatra/base"
 require "cross_shop/catalog"
+require "cross_shop/console"
 require "cross_shop/live_search"
+require "cross_shop/runs"
 require "cross_shop/matcher"
 require "cross_shop/search_api"
 require "cross_shop/searchapi_health"
@@ -34,6 +36,9 @@ module CrossShop
     # The search button spends credits: every POST needs the form's token.
     use Rack::Protection::AuthenticityToken
 
+    # Live searches run in the background so their console can stream.
+    set :runs, Runs.new
+
     MAX_QUERY_LENGTH = 100
 
     helpers do
@@ -62,6 +67,12 @@ module CrossShop
         else
           format("$%.2f–$%.2f", product.price_min, product.price_max)
         end
+      end
+
+      # Templates cannot see CrossShop constants by their short names: a bare
+      # `Console` in run.erb raised NameError.
+      def console_line(event)
+        Console.line(event)
       end
 
       def condition_label(product)
@@ -99,7 +110,6 @@ module CrossShop
       @saved_engines = @engines.select { |engine| cache.read(engine, q: @query) }
       @saved_at = @saved_engines.map { |engine| File.mtime(cache.path_for(engine, q: @query)) }.max
       @history = @engines.sum { |engine| cache.history(engine, q: @query).size }
-      @outcomes = session.delete(:outcomes)
       @live = settings.live
       @credits_used = ledger.count
       @credit_limit = SearchApi::CREDIT_LIMIT
@@ -116,9 +126,51 @@ module CrossShop
       halt 400, "Tick at least one store." if engines.empty?
       halt 400, "Unknown store." unless (engines - QuerySet.load.engines).empty?
 
-      outcomes = LiveSearch.new(client:, cache:).run(query, engines, refresh: params[:refresh] == "1")
-      session[:outcomes] = outcomes.map { |outcome| outcome.to_h.transform_keys(&:to_s) }
-      redirect to("/search?q=#{Rack::Utils.escape(query)}"), 303
+      refresh = params[:refresh] == "1"
+      cache = self.cache
+      ledger = self.ledger
+      transport, live, api_key = settings.transport, settings.live, settings.api_key
+      run = settings.runs.start(query:, engines:) do |current|
+        started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+        current.add(Event.new(at: Time.now.utc, engine: nil, kind: :run_started, data: {query:, engines:, refresh:}))
+        client = SearchApi::Client.new(cache:, ledger:, transport:, live:, api_key:,
+          credit_limit: SearchApi::CREDIT_LIMIT, observer: current.method(:add))
+        outcomes = LiveSearch.new(client:, cache:, observer: current.method(:add)).run(query, engines, refresh:)
+        duration_ms = ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - started) * 1000).round
+        current.add(Event.new(at: Time.now.utc, engine: nil, kind: :run_finished, data: {duration_ms:}))
+        outcomes
+      end
+      redirect to("/runs/#{run.id}"), 303
+    end
+
+    # The console: each step of a run, as it happened.
+    get "/runs/:id" do
+      @run = settings.runs.find(params[:id]) || halt(404, "No such search. Runs are kept in memory until the site restarts.")
+      @events, @done = @run.events_after(0)
+      erb :run
+    end
+
+    # Server-Sent Events: one message per console line, then "done". A
+    # reconnecting browser sends Last-Event-ID, so no line is sent twice.
+    get "/runs/:id/events" do
+      run = settings.runs.find(params[:id]) || halt(404)
+      index = (request.env["HTTP_LAST_EVENT_ID"] || params[:from]).to_i
+      content_type "text/event-stream"
+      cache_control :no_cache
+      stream do |out|
+        loop do
+          events, done = run.events_after(index, timeout: 15)
+          events.each do |event|
+            index += 1
+            out << "id: #{index}\ndata: #{JSON.generate(line: Console.line(event))}\n\n"
+          end
+          if done
+            out << "event: done\ndata: {}\n\n"
+            break
+          end
+          out << ": still working\n\n" if events.empty?
+        end
+      end
     end
 
     get "/how" do

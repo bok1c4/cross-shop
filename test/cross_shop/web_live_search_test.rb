@@ -1,5 +1,6 @@
 require "test_helper"
 require "tmpdir"
+require "timeout"
 require "json"
 require "rack/test"
 require "cross_shop/web"
@@ -63,6 +64,15 @@ class WebLiveSearchTest < Minitest::Test
     last_response.body[/name="authenticity_token" value="([^"]+)"/, 1] || flunk("no token on the page")
   end
 
+  # POST starts a background run and redirects to its console page.
+  def run_from_redirect
+    assert_equal 303, last_response.status
+    id = URI(last_response.location).path[%r{\A/runs/(\h+)\z}, 1] || flunk("not a run page: #{last_response.location}")
+    run = app.settings.runs.find(id)
+    Timeout.timeout(5) { sleep 0.01 until run.done? }
+    run
+  end
+
   def test_a_new_query_offers_the_stores_and_says_what_it_costs
     get "/search", q: "samba"
 
@@ -88,18 +98,51 @@ class WebLiveSearchTest < Minitest::Test
     assert_empty asked_engines
   end
 
-  # Post/Redirect/Get: reloading the result page cannot submit again.
-  def test_searching_fetches_only_the_ticked_stores_then_redirects
+  # Post/Redirect/Get: reloading the console page cannot submit again.
+  def test_searching_fetches_only_the_ticked_stores_and_opens_the_console
     token = token_for("samba")
 
     post "/search", q: "samba", engines: %w[amazon_search ebay_search], authenticity_token: token
+    run_from_redirect
 
-    assert_equal 303, last_response.status
-    assert_equal "/search?q=samba", URI(last_response.location).request_uri
     assert_equal %w[amazon_search ebay_search], asked_engines
     refute_nil cache.read("ebay_search", q: "samba")
     follow_redirect!
-    assert_match(/ebay_search.*fetched/m, last_response.body)
+    assert_includes last_response.body, "→ GET www.searchapi.io/api/v1/search?engine=ebay_search&amp;q=samba"
+    assert_includes last_response.body, "done: fetched"
+    assert_includes last_response.body, "See the results"
+  end
+
+  # The browser receives each line as it happens, as Server-Sent Events.
+  def test_the_console_streams_events_and_says_when_it_is_done
+    token = token_for("samba")
+    post "/search", q: "samba", engines: %w[ebay_search], authenticity_token: token
+    run = run_from_redirect
+
+    get "/runs/#{run.id}/events"
+
+    assert_equal "text/event-stream", last_response.media_type
+    assert_includes last_response.body, %(data: {"line":)
+    assert_includes last_response.body, "← 200"
+    assert last_response.body.end_with?("event: done\ndata: {}\n\n")
+  end
+
+  # A reconnecting browser sends the last id it saw; nothing is repeated.
+  def test_the_stream_resumes_after_the_last_line_the_browser_saw
+    token = token_for("samba")
+    post "/search", q: "samba", engines: %w[ebay_search], authenticity_token: token
+    run = run_from_redirect
+    total = run.events_after(0).first.size
+
+    get "/runs/#{run.id}/events", {}, {"HTTP_LAST_EVENT_ID" => (total - 1).to_s}
+
+    assert_equal 1, last_response.body.scan("data: {\"line\"").size
+  end
+
+  def test_an_unknown_run_is_not_found
+    get "/runs/0123456789abcdef"
+
+    assert_equal 404, last_response.status
   end
 
   def test_a_saved_query_asks_before_running_again
@@ -115,6 +158,7 @@ class WebLiveSearchTest < Minitest::Test
     token = token_for("samba")
 
     post "/search", q: "samba", engines: ["ebay_search"], refresh: "1", authenticity_token: token
+    run_from_redirect
 
     assert_equal %w[ebay_search], asked_engines
     assert_equal 1, cache.history("ebay_search", q: "samba").size
