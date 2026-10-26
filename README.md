@@ -4,11 +4,11 @@ A small cross-store product search over Amazon and eBay through [SearchApi](http
 
 ## What it does
 
-- **Fetches** 8 fashion queries from `amazon_search` and `ebay_search` through a cache-first client. A request is never paid for twice, nothing is sent without an explicit live flag, and calls stop at a credit cap. (Shein was tried five times over about 70 minutes: one "no results" answer and four failures, three of them SearchApi 503s after about 90 s, while status.searchapi.io, which has no per-engine status, said all systems were operational. No Shein listings.)
+- **Fetches** 8 fashion queries from `amazon_search` and `ebay_search` through a cache-first client. A request is never paid for twice, nothing is sent without an explicit live flag, and calls stop at a credit cap. (Shein was tried six times over about 90 minutes, the last time with "dress": one "no results" answer and five failures, four of them SearchApi 503s after about 90 s, while status.searchapi.io, which has no per-engine status, said all systems were operational. No Shein listings.)
 - **Normalises** every listing into one validated product record and **groups** the same product across stores: by manufacturer style code, or by brand, title words and price.
 - **Parses eBay directly** and compares it with SearchApi's output, field by field.
 - **Checks field health** (how often a field is filled, and how often its value is plausible), **simulates eBay layout changes**, and lets an agent (`claude -p`) repair the parser, with the tests as the judge.
-- **Shows it all** in a small Sinatra site: search, how it works, field health, findings.
+- **Shows it all** in a small Sinatra site: search, how it works, field health, findings. Saved searches are free to open. A new search runs across the stores you tick, in parallel, and is saved; searching a saved term asks before running again and keeps the old results as history. Autocomplete comes from saved and past searches, so typing never spends a credit. Spending is guarded by a CSRF-protected POST, a confirmation, a redirect afterwards, and a credit cap that parallel requests cannot overshoot.
 
 ## Three things I learned
 
@@ -41,7 +41,8 @@ One day, one machine, one network (Belgrade). Shein returned no data. The eBay p
 
 ```bash
 bundle install
-bin/web                      # the site, on http://127.0.0.1:4567 (reads saved data only)
+bin/web                      # the site, on http://127.0.0.1:4567 (saved data only; free)
+SEARCHAPI_LIVE=1 bin/web     # the same, with live search enabled (spends credits, asks first)
 bundle exec rake             # tests and lint
 bin/field-health             # field health of every saved response
 bin/compare-ebay             # our parser against SearchApi

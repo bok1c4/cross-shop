@@ -1,26 +1,27 @@
 <section class="intro">
   <h1>One search, several stores</h1>
   <p>
-    Product search across Amazon and eBay through SearchApi, with listings of the same product grouped together.
-    A small version of a product aggregator, built to learn how SearchApi's shopping engines behave.
+    Product search across Amazon, eBay and Shein through SearchApi, with listings of the same product grouped together.
+    Saved searches are free to open. Searching the stores spends credits, so it always asks first.
   </p>
   <form action="/search" class="search">
-    <input type="search" name="q" list="queries" placeholder="Search a saved query" required>
+    <input type="search" name="q" list="queries" placeholder="Search for a product" autocomplete="off" maxlength="100" required>
     <button type="submit">Search</button>
     <datalist id="queries">
       <% @queries.each do |query| %><option value="<%= query %>"><% end %>
     </datalist>
   </form>
+  <p class="muted small">Suggestions come from saved and past searches, so typing never spends a credit.</p>
   <div class="chips">
-    <% @queries.each do |query| %>
+    <% @saved.each do |query| %>
       <a class="chip" href="/search?q=<%= Rack::Utils.escape(query) %>"><%= query %></a>
     <% end %>
   </div>
 </section>
 
 <section class="stats">
-  <div class="stat"><span class="number"><%= @live_calls %> of <%= @credit_limit %></span><span class="label">live SearchApi calls used</span></div>
+  <div class="stat"><span class="number"><%= @live_calls %> of <%= @credit_limit %></span><span class="label">live SearchApi calls used<%= @live ? "" : " · live search is off" %></span></div>
   <% @coverage.each do |engine, cached| %>
-    <div class="stat"><span class="number"><%= cached %> of <%= @queries.size %></span><span class="label"><%= engine %> queries saved</span></div>
+    <div class="stat"><span class="number"><%= cached %> of <%= @starter_queries %></span><span class="label"><%= engine %> starter queries saved</span></div>
   <% end %>
 </section>

@@ -18,7 +18,7 @@ class WebTest < Minitest::Test
   end
 
   def teardown
-    app.set :catalog, CrossShop::Catalog.new
+    app.set :data_dir, CrossShop::SearchApi::DATA_DIR
     FileUtils.remove_entry(@dir) if @dir
   end
 
@@ -41,23 +41,22 @@ class WebTest < Minitest::Test
     assert_includes last_response.body, "shein_search (SearchApi: Shein didn&#39;t return any results.)"
   end
 
-  # The site only reads the cache. It cannot spend a credit.
   def test_an_uncached_query_says_so
     get "/search", q: "a query nobody fetched"
 
     assert last_response.ok?
-    assert_includes last_response.body, "No cached data"
+    assert_includes last_response.body, "Nothing saved for"
   end
 
   # Titles come from other people's websites. They must never run as HTML.
   def test_listing_text_is_escaped
     @dir = Dir.mktmpdir
-    cache = CrossShop::SearchApi::ResponseCache.new(@dir)
+    cache = CrossShop::SearchApi::ResponseCache.new(File.join(@dir, "responses"))
     cache.write("ebay_search", {q: "x"}, JSON.generate(organic_results: [
       {item_id: "E1", title: "<script>alert(1)</script> Samba", condition: "Brand New", price: "$10.00",
        extracted_price: 10.0, link: "https://www.ebay.com/itm/E1"}
     ]))
-    app.set :catalog, CrossShop::Catalog.new(cache:)
+    app.set :data_dir, @dir
 
     get "/search", q: "x"
 

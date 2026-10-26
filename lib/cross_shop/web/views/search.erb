@@ -1,15 +1,55 @@
 <form action="/search" class="search compact">
-  <input type="search" name="q" value="<%= @query %>" required>
+  <input type="search" name="q" value="<%= @query %>" maxlength="100" required>
   <button type="submit">Search</button>
 </form>
 
-<% if @result.products.empty? %>
-  <section class="notice">
-    <h1>No cached data for “<%= @query %>”</h1>
-    <p>This site only reads saved SearchApi responses, so it never spends credits. Saved queries are on the <a href="/">home page</a>.</p>
+<% if @outcomes %>
+  <section class="outcomes">
+    <h2>Search finished</h2>
+    <ul>
+      <% @outcomes.each do |outcome| %>
+        <li>
+          <strong><%= outcome["engine"] %></strong>: <span class="status <%= outcome["status"] %>"><%= outcome["status"] %></span>
+          <% if outcome["message"] %><span class="muted"><%= outcome["message"] %></span><% end %>
+        </li>
+      <% end %>
+    </ul>
   </section>
-<% else %>
-  <h1>“<%= @query %>”</h1>
+<% end %>
+
+<h1>“<%= @query %>”</h1>
+
+<section class="live">
+  <% if @saved_engines.any? %>
+    <h2>Run this search again?</h2>
+    <p>
+      The results below were last saved <%= @saved_at.utc.strftime("%-d %b %Y, %H:%M UTC") %> and cost nothing to view.
+      Running again fetches fresh results and keeps the current ones as history<% if @history.positive? %> (<%= @history %> earlier saved)<% end %>.
+    </p>
+  <% else %>
+    <h2>Nothing saved for “<%= @query %>” yet</h2>
+    <p>Searching the stores fetches live results through SearchApi and saves them.</p>
+  <% end %>
+
+  <% if @live %>
+    <form method="post" action="/search" class="live-search"
+          data-question="This spends up to N SearchApi credits. Continue?"
+          onsubmit="return confirm(this.dataset.question.replace('N', this.querySelectorAll('input[type=checkbox]:checked').length))">
+      <input type="hidden" name="authenticity_token" value="<%= Rack::Protection::AuthenticityToken.token(session) %>">
+      <input type="hidden" name="q" value="<%= @query %>">
+      <input type="hidden" name="refresh" value="<%= @saved_engines.any? ? "1" : "0" %>">
+      <% @engines.each do |engine| %>
+        <label><input type="checkbox" name="engines[]" value="<%= engine %>" checked> <%= engine.delete_suffix("_search") %></label>
+      <% end %>
+      <button type="submit"><%= @saved_engines.any? ? "Yes, run again" : "Search the ticked stores" %></button>
+      <span class="muted">1 credit per store · <%= @credits_used %> of <%= @credit_limit %> used</span>
+    </form>
+  <% else %>
+    <p class="muted">Live search is off. Start the site with <code>SEARCHAPI_LIVE=1 bin/web</code> to search the stores. Saved results are always free to view.</p>
+  <% end %>
+</section>
+
+<% unless @result.products.empty? %>
   <p class="summary">
     <% by_store = @result.products.group_by(&:store) %>
     <%= @result.products.size %> listings
@@ -80,5 +120,11 @@
         <li><span class="store <%= reject.store %>"><%= reject.store %></span> <code><%= reject.store_id %></code> <%= reject.reason %></li>
       <% end %>
     </ul>
+  <% end %>
+<% else %>
+  <% unless @result.missing_engines.empty? || @saved_engines.empty? %>
+    <p class="warning">
+      No listings to show. <%= @result.missing_engines.map { |engine, reason| "#{engine} (#{reason})" }.join(", ") %>.
+    </p>
   <% end %>
 <% end %>

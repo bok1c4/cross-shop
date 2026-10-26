@@ -24,7 +24,7 @@
     <div class="arrow">↓</div>
     <div class="step">
       <h3>This site</h3>
-      <p>Reads only saved responses, so it cannot spend credits. Missing stores are shown as missing, never as “no results”. All listing text is escaped.</p>
+      <p>Saved results are free. Searching the stores is a POST with a CSRF token, works only when started with <code>SEARCHAPI_LIVE=1</code>, fetches the ticked stores in parallel and redirects so a reload cannot spend again. Re-runs ask first and keep old results as history. Missing stores are shown as missing; all listing text is escaped.</p>
     </div>
   </div>
 

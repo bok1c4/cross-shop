@@ -1,14 +1,18 @@
 require "erubi"
 require "kramdown"
+require "securerandom"
 require "sinatra/base"
 require "cross_shop/catalog"
+require "cross_shop/live_search"
 require "cross_shop/matcher"
 require "cross_shop/search_api"
 require "cross_shop/searchapi_health"
 
 module CrossShop
-  # The demo site. It reads only cached SearchApi responses (through
-  # Catalog), so nothing a visitor does can spend a credit.
+  # The demo site. Viewing saved results is free. Live search spends
+  # credits, so it is on only when the site is started with SEARCHAPI_LIVE=1,
+  # it is a POST with a CSRF token, and it redirects afterwards so reloading
+  # the page cannot spend again.
   class Web < Sinatra::Base
     PROJECT_ROOT = File.expand_path("../..", __dir__)
 
@@ -16,9 +20,42 @@ module CrossShop
     # Every <%= %> is escaped: listing text comes from other people's
     # websites. Raw HTML must be asked for with <%== %>.
     set :erb, escape_html: true
-    set :catalog, Catalog.new
+
+    set :data_dir, SearchApi::DATA_DIR
+    live = ENV["SEARCHAPI_LIVE"] == "1"
+    set :live, live
+    # Read only in live mode, so a missing key fails loudly at start.
+    set :api_key, live ? ENV.fetch("SEARCHAPI_API_KEY") : nil
+    # SearchApi gives up on Shein after about 90 s; wait for its answer.
+    set :transport, SearchApi::NetHttpTransport.new(read_timeout: 120)
+
+    enable :sessions
+    set :session_secret, ENV.fetch("SESSION_SECRET") { SecureRandom.hex(64) }
+    # The search button spends credits: every POST needs the form's token.
+    use Rack::Protection::AuthenticityToken
+
+    MAX_QUERY_LENGTH = 100
 
     helpers do
+      def cache
+        SearchApi::ResponseCache.new(File.join(settings.data_dir, "responses"))
+      end
+
+      def ledger
+        SearchApi::Ledger.new(File.join(settings.data_dir, "ledger.jsonl"))
+      end
+
+      def catalog
+        Catalog.new(cache:)
+      end
+
+      # One client per request is safe: the credit cap is reserved in the
+      # ledger file, shared by every client in the process.
+      def client
+        SearchApi::Client.new(cache:, ledger:, transport: settings.transport, live: settings.live,
+          api_key: settings.api_key, credit_limit: SearchApi::CREDIT_LIMIT)
+      end
+
       def price(product)
         if product.price_min == product.price_max
           format("$%.2f", product.price_min)
@@ -33,27 +70,59 @@ module CrossShop
     end
 
     get "/" do
-      @queries = QuerySet.load.queries
-      @coverage = settings.catalog.coverage(@queries)
-      @live_calls = SearchApi.ledger.count
+      query_set = QuerySet.load
+      # Autocomplete is local and free: configured queries plus every query
+      # searched before. Never SearchApi's autocomplete, which costs credits.
+      @queries = (query_set.queries + ledger.queries).uniq
+      @saved = @queries.select { |query| query_set.engines.any? { |engine| cache.read(engine, q: query) } }
+      @coverage = catalog.coverage(query_set.queries)
+      @starter_queries = query_set.queries.size
+      @live_calls = ledger.count
       @credit_limit = SearchApi::CREDIT_LIMIT
+      @live = settings.live
       erb :home
     end
 
     get "/search" do
       @query = params[:q].to_s.strip
-      @result = settings.catalog.search(@query)
+      redirect to("/") if @query.empty?
+
+      @result = catalog.search(@query)
       candidates = Matcher.candidates(@result.products)
       @best = Matcher.best_matches(candidates)
       groups = Matcher.groups(@result.products, candidates)
       @matched, singles = groups.partition { |group| group.map(&:store).uniq.size > 1 }
       @matched.sort_by! { |group| -group.size }
       @unmatched = singles.flatten.group_by(&:store)
+
+      @engines = QuerySet.load.engines
+      @saved_engines = @engines.select { |engine| cache.read(engine, q: @query) }
+      @saved_at = @saved_engines.map { |engine| File.mtime(cache.path_for(engine, q: @query)) }.max
+      @history = @engines.sum { |engine| cache.history(engine, q: @query).size }
+      @outcomes = session.delete(:outcomes)
+      @live = settings.live
+      @credits_used = ledger.count
+      @credit_limit = SearchApi::CREDIT_LIMIT
       erb :search
     end
 
+    # Spends credits: one live call per ticked store.
+    post "/search" do
+      halt 403, "Live search is off. Start the site with SEARCHAPI_LIVE=1 to search the stores." unless settings.live
+
+      query = params[:q].to_s.strip
+      halt 400, "Type something to search for (at most #{MAX_QUERY_LENGTH} characters)." if query.empty? || query.length > MAX_QUERY_LENGTH
+      engines = Array(params[:engines])
+      halt 400, "Tick at least one store." if engines.empty?
+      halt 400, "Unknown store." unless (engines - QuerySet.load.engines).empty?
+
+      outcomes = LiveSearch.new(client:, cache:).run(query, engines, refresh: params[:refresh] == "1")
+      session[:outcomes] = outcomes.map { |outcome| outcome.to_h.transform_keys(&:to_s) }
+      redirect to("/search?q=#{Rack::Utils.escape(query)}"), 303
+    end
+
     get "/how" do
-      @live_calls = SearchApi.ledger.count
+      @live_calls = ledger.count
       @bugs = File.foreach(File.join(PROJECT_ROOT, "LEARNINGS.md"), encoding: Encoding::UTF_8).count { |line| line.match?(/\A\d+\. \*\*/) }
       erb :how
     end
@@ -61,7 +130,6 @@ module CrossShop
     # Field health of every saved SearchApi response, computed on each load,
     # and the agent fix log when there is one.
     get "/health" do
-      cache = SearchApi.cache
       queries = QuerySet.load.queries
       @tables = SearchApiHealth::RULES.keys.to_h do |engine|
         rows = queries.filter_map do |query|

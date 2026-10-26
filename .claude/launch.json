@@ -6,6 +6,12 @@
       "runtimeExecutable": "/opt/homebrew/bin/mise",
       "runtimeArgs": ["x", "--", "bin/web"],
       "port": 4567
+    },
+    {
+      "name": "web-live",
+      "runtimeExecutable": "/usr/bin/env",
+      "runtimeArgs": ["SEARCHAPI_LIVE=1", "PORT=4568", "/opt/homebrew/bin/mise", "x", "--", "bin/web"],
+      "port": 4568
     }
   ]
 }

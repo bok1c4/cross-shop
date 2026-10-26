@@ -165,6 +165,31 @@ table.health td { white-space: nowrap; }
 td.ok { color: var(--good); }
 td.bad { color: var(--warn); background: var(--warn-bg); font-weight: 600; }
 
+.small { font-size: 13px; margin: 0 0 12px; }
+
+section.live { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 4px 16px 14px; margin: 16px 0 8px; }
+section.live h2 { margin-top: 12px; }
+section.live p { color: var(--muted); }
+form.live-search { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+form.live-search label { display: inline-flex; gap: 6px; align-items: center; }
+form.live-search button {
+  padding: 8px 14px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+section.outcomes { background: var(--good-bg); border-radius: 10px; padding: 4px 16px 8px; margin-top: 12px; }
+section.outcomes h2 { margin: 10px 0 6px; font-size: 16px; }
+section.outcomes ul { margin: 0; padding-left: 18px; }
+.status { font-weight: 600; }
+.status.fetched, .status.saved { color: var(--good); }
+.status.failed { color: var(--warn); }
+
 .prose { max-width: 760px; }
 .prose h1 { margin-top: 8px; }
 .prose h2 { margin-top: 36px; padding-top: 12px; border-top: 1px solid var(--border); }
