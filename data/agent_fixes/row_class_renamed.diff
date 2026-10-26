@@ -1,0 +1,17 @@
+diff --git a/lib/cross_shop/ebay_parser.rb b/lib/cross_shop/ebay_parser.rb
+index 0bf9cee..29a283a 100644
+--- a/lib/cross_shop/ebay_parser.rb
++++ b/lib/cross_shop/ebay_parser.rb
+@@ -42,9 +42,11 @@ module CrossShop
+       item.merge!(rows(card), rating(card)).compact
+     end
+ 
++    # eBay renamed the row class from s-card__attribute-row to s-card__detail-row
++    # (captures of 2026-10-26); both are accepted so older captures still parse.
+     def self.rows(card)
+       result = {"extensions" => []}
+-      card.css(".s-card__attribute-row").map { |row| words(row) }.reject(&:empty?).each do |text|
++      card.css(".s-card__detail-row, .s-card__attribute-row").map { |row| words(row) }.reject(&:empty?).each do |text|
+         if text.start_with?("$") && !result.key?("price")
+           result.merge!(price(text))
+         elsif (text.match?(AUCTION) || text.match?(BUYING)) && !result.key?("buying_format")

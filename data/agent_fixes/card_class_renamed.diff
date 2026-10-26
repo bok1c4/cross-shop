@@ -1,0 +1,13 @@
+diff --git a/lib/cross_shop/ebay_parser.rb b/lib/cross_shop/ebay_parser.rb
+index 0bf9cee..72bf1d2 100644
+--- a/lib/cross_shop/ebay_parser.rb
++++ b/lib/cross_shop/ebay_parser.rb
+@@ -19,7 +19,7 @@ module CrossShop
+ 
+     def self.parse(html)
+       document = Nokogiri::HTML(html)
+-      listings = document.css("li.s-card").filter_map { |card| listing(card) }
++      listings = document.css("li.s-card, li.s-tile").filter_map { |card| listing(card) }
+       listings.uniq { |item| item["item_id"] }.each_with_index.map { |item, index| {"position" => index + 1, **item} }
+     end
+ 

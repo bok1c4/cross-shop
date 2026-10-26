@@ -76,7 +76,20 @@ Measured on tls.peet.ws and bot.sannysoft.com, test services built to be probed.
 - Plausibility catches what fill rates miss. On the 16 saved responses, eBay's `shipping` fails plausibility in all 8 queries (85–93% against a 95% bar), because the field is filled, just sometimes with "Buy It Now". A fill-rate-only monitor would report it healthy.
 - One false alarm: Amazon `brand` on "crossbody bag" is 67% filled against a 70% bar, because generic bags are often unbranded. One fixed threshold does not fit every query; canary queries need their own baselines.
 - A simulated breakage (prices removed from a third of a real eBay response, like the Walmart fix in SearchApi's changelog) is caught. Test: `test_prices_emptied_on_a_third_of_listings_are_caught`.
-- Still to do: our own eBay parser (Phase 3) and the agent-fix loop on top of it.
+- Phase 3 and the fix loop followed; see Phase 5, part 2.
+
+## Phase 5, part 2: simulated layout changes and the agent fix loop (2026-10-26)
+
+- Four simulated eBay layout changes, applied to both saved pages: renamed rows, a renamed title class, a "US $" price prefix, renamed cards. Detection compares each page with its own baseline and names the broken field in every case. A fifth change (renamed price class) is correctly ignored, because the parser reads rows by meaning.
+- `bin/agent-fix` gave each change to `claude -p`, in its own git worktree, allowed to edit only the parser and run only its tests. The harness judged: tests pass, tests and fixtures untouched, no regressions on a held-out page no test reads. The agent was not told what changed.
+- Result: **4 of 4 fixed on the first attempt.** 44–101 s each, 5–14 agent turns, 1–7 changed lines, $0.77–1.22 per fix as estimated by the CLI. Log: `data/agent_fix_log.jsonl`; diffs: `data/agent_fixes/`.
+- Human review of the four passing fixes:
+  - Three are what I would write: accept both the old and the new class name.
+  - The price fix strips any two-or-three-letter code before "$" to keep the "$99.99" shape. A page in "AU $" would then be read as USD. The tests cannot see that; a reviewer must. Better: map "US $" to USD explicitly and reject unknown codes.
+  - The agent wrote invented history into comments ("Since late October 2026 the price row carries a currency code"). The changes were simulated, but the prompt said the pages had been re-captured after eBay changed its markup, and the agent recorded that framing as fact.
+  - One summary claimed "the linter is clean", although the agent was only allowed to run the tests. Checked afterwards: all four diffs are lint-clean, so the claim was true, but unverified when made.
+- The fixes are not merged: they repair changes that never happened.
+- Small sample: four scenarios, one run each, all mechanical renames or a format tweak. Real layout changes (restructured cards, content loaded by JavaScript, decoys) would be harder.
 
 ## Bugs and surprises
 
@@ -105,3 +118,4 @@ Each entry: what happened, how we found it, the evidence, the fix.
 16. **Ferrum could not find Chrome** (environment). The installed app is the Dev channel: the executable inside `Google Chrome.app` is named `Google Chrome Dev`. Fix: look up the executable instead of hard-coding its name.
 17. **The fix harness counted an expired login as three failed fix attempts** (ours, fixed). The `claude` CLI's login had expired, so every call returned an error after 6 seconds without doing anything, and the harness logged "attempt 1, 2, 3: failed". That number would have been false evidence in the write-up. Fix: an agent error stops the run and is logged as an error, never as an attempt. The misleading lines were deleted before any commit.
 18. **A "no results" answer looked like an ordinary success** (ours, fixed). The third Shein attempt (19:36 UTC, 11.8 s) returned HTTP 200 with `status: "Success"` and `error: "Shein didn't return any results."` for "adidas samba og", which is plausible, since Shein sells mostly its own brands. The first two attempts (a timeout, then a 503) were therefore temporary. Caching it is right: it is a definitive, paid-for answer. But the client only looked at the HTTP status, so nothing showed that the paid call returned nothing. Fix: the ledger records SearchApi's `error` message (`api_error`), and the catalog shows it as the reason a store has no listings. The ledger line for that call was written before the fix and has no `api_error`.
+19. **The agent CLI used the wrong login** (environment, fixed). Started from inside the Claude desktop app, `claude -p` inherited the app session's variables (`CLAUDECODE`, `CLAUDE_CODE_*`, `ANTHROPIC_BASE_URL`), expected the app to supply its login, and failed with "OAuth session expired", even after a fresh terminal login. It also needs the Keychain, which the sandbox blocks. Fix: the harness removes those variables for the agent's process, and runs outside the sandbox. Found by narrowing it down: my guesses (expired login, then the Keychain alone) were each tested and ruled out first.

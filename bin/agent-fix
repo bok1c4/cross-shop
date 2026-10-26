@@ -62,8 +62,13 @@ FEEDBACK = <<~TEXT
 TEXT
 
 def run_env(dir)
+  # The agent must use the user's own CLI login. Variables inherited from a
+  # surrounding Claude app session (CLAUDECODE, CLAUDE_CODE_*,
+  # ANTHROPIC_BASE_URL) make the CLI wait for the app to supply auth, which
+  # fails as "OAuth session expired".
+  inherited = ENV.keys.grep(/\A(?:CLAUDE|ANTHROPIC)/).to_h { |key| [key, nil] }
   {"BUNDLE_GEMFILE" => File.join(dir, "Gemfile"), "RUBYOPT" => "-rbundler/setup",
-   "PATH" => "#{File.dirname(RUBY)}:#{ENV.fetch("PATH")}", "SEARCHAPI_API_KEY" => nil}
+   "PATH" => "#{File.dirname(RUBY)}:#{ENV.fetch("PATH")}", "SEARCHAPI_API_KEY" => nil, **inherited}
 end
 
 # Health of the held-out page, measured with the worktree's (possibly edited) parser.

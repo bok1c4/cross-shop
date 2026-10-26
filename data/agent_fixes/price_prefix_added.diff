@@ -1,0 +1,33 @@
+diff --git a/lib/cross_shop/ebay_parser.rb b/lib/cross_shop/ebay_parser.rb
+index 0bf9cee..38ce252 100644
+--- a/lib/cross_shop/ebay_parser.rb
++++ b/lib/cross_shop/ebay_parser.rb
+@@ -11,6 +11,11 @@ module CrossShop
+   # cards have extra rows and position-based parsing shifts by one.
+   module EbayParser
+     PRICE = /\$([\d,]+\.\d{2})/
++    # Since late October 2026 the price row carries a currency code before the
++    # amount ("US $99.99", "US $83.00 to US $128.00"). The code is dropped so
++    # the stored price keeps SearchApi's shape ("$99.99").
++    PRICE_ROW = /\A(?:[A-Z]{2,3} )?\$[\d,]+\.\d{2}/
++    CURRENCY_CODE = /\b[A-Z]{2,3} (?=\$)/
+     ITEM_ID = %r{/itm/(\d{12})(?:[/?#]|\z)}
+     AUCTION = /\A\d+ bids?\b/
+     BUYING = /\A(?:Buy It Now|or Best Offer|Best Offer accepted)\z/
+@@ -45,7 +50,7 @@ module CrossShop
+     def self.rows(card)
+       result = {"extensions" => []}
+       card.css(".s-card__attribute-row").map { |row| words(row) }.reject(&:empty?).each do |text|
+-        if text.start_with?("$") && !result.key?("price")
++        if text.match?(PRICE_ROW) && !result.key?("price")
+           result.merge!(price(text))
+         elsif (text.match?(AUCTION) || text.match?(BUYING)) && !result.key?("buying_format")
+           result["buying_format"] = text
+@@ -64,6 +69,7 @@ module CrossShop
+     end
+ 
+     def self.price(text)
++      text = text.gsub(CURRENCY_CODE, "")
+       amounts = text.scan(PRICE).flatten.map { |amount| amount.delete(",").to_f }
+       if text.include?(" to ") && amounts.size >= 2
+         {"price" => text, "is_price_range" => true, "extracted_price_range" => {"from" => amounts[0], "to" => amounts[1]}}
