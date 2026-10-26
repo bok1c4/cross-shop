@@ -4,7 +4,7 @@ A small cross-store product search over Amazon and eBay through [SearchApi](http
 
 ## What it does
 
-- **Fetches** 8 fashion queries from `amazon_search` and `ebay_search` through a cache-first client. A request is never paid for twice, nothing is sent without an explicit live flag, and calls stop at a credit cap. (Shein was tried six times over about 90 minutes, the last time with "dress": one "no results" answer and five failures, four of them SearchApi 503s after about 90 s, while status.searchapi.io, which has no per-engine status, said all systems were operational. No Shein listings.)
+- **Fetches** 8 fashion queries from `amazon_search` and `ebay_search` through a cache-first client. A request is never paid for twice, nothing is sent without an explicit live flag, and calls stop at a credit cap. (Shein was tried 9 times over three hours: SearchApi answered "no results" twice, for pages that contained 20 products each, and failed with a 503 after about 90 s six times; once my client gave up first. Meanwhile status.searchapi.io, which has no per-engine status, said all systems were operational. The site reads the two pages SearchApi saved itself, so 40 Shein listings appear, marked as read by cross-shop.)
 - **Normalises** every listing into one validated product record and **groups** the same product across stores: by manufacturer style code, or by brand, title words and price.
 - **Parses eBay directly** and compares it with SearchApi's output, field by field.
 - **Checks field health** (how often a field is filled, and how often its value is plausible), **simulates eBay layout changes**, and lets an agent (`claude -p`) repair the parser, with the tests as the judge.
@@ -23,7 +23,7 @@ eBay hides "Sponsored" from text scrapers. The label is an SVG image whose text 
 
 ## Questions for SearchApi
 
-1. **Should a parser miss be billed?** Measured with your Account API: failed searches are not billed, but both Shein "no results" answers were, although the pages you fetched contained the products. And do you track health per engine? Shein failed for me 6 times in 8 (five of them your 503 after about 90 s) while the status page, which shows the API as a whole, was green. (A side note for Ruby customers: `Net::HTTP` silently resends a GET once after a read timeout, measured as 2 requests for 1 call.)
+1. **Should a parser miss be billed?** Measured with your Account API: failed searches are not billed, but both Shein "no results" answers were, although the pages you fetched contained the products. And do you track health per engine? Shein failed for me 7 times in 9 (six of them your 503, each after 90.4–90.9 s) while the status page, which shows the API as a whole, was green. (A side note for Ruby customers: `Net::HTTP` silently resends a GET once after a read timeout, measured as 2 requests for 1 call.)
 2. **How do you catch output that is wrong but looks valid?** eBay's shipping field is filled but sometimes holds "Buy It Now". And for Shein, both "no results" answers I got came from pages that contained the products: the HTML you saved (`html_url`) has 20 listings in its embedded product JSON for each: 19 Adidas Sambas for "adidas samba og", and 20 Nike Air Force 1 / Air Jordan 1 for "nike air 1". Do you compare "no results" against the fetched page, or run plausibility checks beside fill rates, with baselines per query?
 3. **How do your customers match products across stores without GTINs?** Is there demand for variant-level data, or for a product-detail call that returns GTIN or MPN?
 
@@ -35,7 +35,7 @@ eBay hides "Sponsored" from text scrapers. The label is an SVG image whose text 
 
 ## Limits
 
-One day, one machine, one network (Belgrade). Shein returned no data. The eBay pages were fetched from Serbia and SearchApi's with US delivery, so shipping is not comparable between them, and only 20 and 27 of 60 listings overlapped. The eBay pages were fetched despite robots.txt, as a deliberate one-off: two pages, 15 s apart, stopped at the first 403. Health thresholds are judgement from one day of data.
+One day, one machine, one network (Belgrade). SearchApi returned no Shein data; the only Shein listings are the 40 read by cross-shop from two pages SearchApi saved. The eBay pages were fetched from Serbia and SearchApi's with US delivery, so shipping is not comparable between them, and only 20 and 27 of 60 listings overlapped. The eBay pages were fetched despite robots.txt, as a deliberate one-off: two pages, 15 s apart, stopped at the first 403. Health thresholds are judgement from one day of data.
 
 ## Run it
 

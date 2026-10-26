@@ -25,3 +25,6 @@
 {"at":"2026-10-26T20:55:46Z","engine":"amazon_search","params":{"q":"lacoste"},"status":200,"search_id":"search_M92XEY4l2JF3BQO5zkQG3b0J","error":null,"api_error":null,"duration_ms":3284}
 {"at":"2026-10-26T20:55:47Z","engine":"ebay_search","params":{"q":"lacoste"},"status":200,"search_id":"search_zV8qOXeM56cGjNpOLepJnE5N","error":null,"api_error":null,"duration_ms":4299}
 {"at":"2026-10-26T21:26:19Z","engine":"shein_search","params":{"q":"new balance 550"},"status":503,"search_id":null,"error":null,"api_error":"We could not retrieve results for this search. Please try again later.","duration_ms":90789}
+{"at":"2026-10-26T21:36:51Z","engine":"amazon_search","params":{"q":"hugo boss"},"status":200,"search_id":"search_mOgBEZe50gHpAJ7GJkzwL3jW","error":null,"api_error":null,"duration_ms":6323}
+{"at":"2026-10-26T21:36:55Z","engine":"ebay_search","params":{"q":"hugo boss"},"status":200,"search_id":"search_1r3VbxvXpgtpLjDQ0vB26gOP","error":null,"api_error":null,"duration_ms":10523}
+{"at":"2026-10-26T21:38:15Z","engine":"shein_search","params":{"q":"hugo boss"},"status":503,"search_id":null,"error":null,"api_error":"We could not retrieve results for this search. Please try again later.","duration_ms":90742}

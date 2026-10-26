@@ -1,0 +1,2286 @@
+{
+  "search_metadata": {
+    "id": "search_mOgBEZe50gHpAJ7GJkzwL3jW",
+    "status": "Success",
+    "created_at": "2026-10-26T21:36:45Z",
+    "request_time_taken": 5.37,
+    "parsing_time_taken": 0.1,
+    "total_time_taken": 5.47,
+    "request_url": "https://www.amazon.com/s?k=hugo+boss",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_mOgBEZe50gHpAJ7GJkzwL3jW.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_mOgBEZe50gHpAJ7GJkzwL3jW"
+  },
+  "search_parameters": {
+    "engine": "amazon_search",
+    "q": "hugo boss",
+    "amazon_domain": "amazon.com",
+    "delivery_country": "us"
+  },
+  "search_information": {
+    "query_displayed": "hugo boss",
+    "price_min": "$2",
+    "extracted_price_min": 2,
+    "price_max": "$180+",
+    "extracted_price_max": 180,
+    "delivering_to": "Delivering to Port Sain... 34953"
+  },
+  "filters": [
+    {
+      "type": "Eligible for Free Shipping",
+      "options": [
+        {
+          "text": "Free Shipping by Amazon",
+          "rh": "p_76:2661625011"
+        }
+      ]
+    },
+    {
+      "type": "Delivery Day",
+      "options": [
+        {
+          "text": "Get It by Tomorrow",
+          "rh": "p_90:8308921011"
+        }
+      ]
+    },
+    {
+      "type": "Gender",
+      "options": [
+        {
+          "text": "Men",
+          "rh": "p_n_g-101015233022111:121075132011"
+        },
+        {
+          "text": "Women",
+          "rh": "p_n_g-101015233022111:121075131011"
+        },
+        {
+          "text": "Boys",
+          "rh": "p_n_g-101015233022111:121075136011"
+        }
+      ]
+    },
+    {
+      "type": "Brands",
+      "options": [
+        {
+          "text": "HUGO",
+          "rh": "p_123:437842"
+        },
+        {
+          "text": "Hugo Boss",
+          "rh": "p_123:403945"
+        },
+        {
+          "text": "Calvin Klein",
+          "rh": "p_123:232762"
+        },
+        {
+          "text": "Nautica",
+          "rh": "p_123:52584"
+        },
+        {
+          "text": "Armani Exchange",
+          "rh": "p_123:258498"
+        },
+        {
+          "text": "GUESS",
+          "rh": "p_123:230590"
+        },
+        {
+          "text": "Brooks Brothers",
+          "rh": "p_123:316950"
+        }
+      ]
+    },
+    {
+      "type": "Amazon Fashion",
+      "options": [
+        {
+          "text": "Premium Brands",
+          "rh": "p_n_g-1004227705091:21451213011"
+        },
+        {
+          "text": "Top Brands",
+          "rh": "p_n_g-1004227705091:14630392011"
+        }
+      ]
+    },
+    {
+      "type": "Deals & Discounts",
+      "options": [
+        {
+          "text": "All Discounts",
+          "rh": "p_n_deal_type:23566065011"
+        },
+        {
+          "text": "Buy More, Save More",
+          "rh": "p_n_deal_type:210906365011"
+        },
+        {
+          "text": "Today's Deals",
+          "rh": "p_n_deal_type:23566064011"
+        }
+      ]
+    },
+    {
+      "type": "Men's General Size",
+      "options": [
+        {
+          "text": "XS",
+          "rh": "p_n_pt_nav_size_men_international_size:2475466011"
+        },
+        {
+          "text": "S",
+          "rh": "p_n_pt_nav_size_men_international_size:2475467011"
+        },
+        {
+          "text": "M",
+          "rh": "p_n_pt_nav_size_men_international_size:2475468011"
+        },
+        {
+          "text": "L",
+          "rh": "p_n_pt_nav_size_men_international_size:2475469011"
+        },
+        {
+          "text": "XL",
+          "rh": "p_n_pt_nav_size_men_international_size:2475470011"
+        },
+        {
+          "text": "2XL",
+          "rh": "p_n_pt_nav_size_men_international_size:2475471011"
+        },
+        {
+          "text": "3XL",
+          "rh": "p_n_pt_nav_size_men_international_size:2475472011"
+        },
+        {
+          "text": "4XL",
+          "rh": "p_n_pt_nav_size_men_international_size:2475473011"
+        },
+        {
+          "text": "5XL",
+          "rh": "p_n_pt_nav_size_men_international_size:2475474011"
+        },
+        {
+          "text": "6XL",
+          "rh": "p_n_pt_nav_size_men_international_size:2475475011"
+        }
+      ]
+    },
+    {
+      "type": "Women's General Size",
+      "options": [
+        {
+          "text": "XS",
+          "rh": "p_n_pt_nav_size_women_size:2475478011"
+        },
+        {
+          "text": "S",
+          "rh": "p_n_pt_nav_size_women_size:2475479011"
+        },
+        {
+          "text": "M",
+          "rh": "p_n_pt_nav_size_women_size:2475480011"
+        },
+        {
+          "text": "L",
+          "rh": "p_n_pt_nav_size_women_size:2475481011"
+        },
+        {
+          "text": "XL",
+          "rh": "p_n_pt_nav_size_women_size:2475482011"
+        },
+        {
+          "text": "3XL",
+          "rh": "p_n_pt_nav_size_women_size:84644232011"
+        }
+      ]
+    },
+    {
+      "type": "Women's Regular Numeric Size",
+      "options": [
+        {
+          "text": "5-6",
+          "rh": "p_n_size_six_browse-vebin:2445387011"
+        }
+      ]
+    },
+    {
+      "type": "Color",
+      "options": [
+        {
+          "text": "Blues",
+          "rh": "p_n_g-1004232833091:2343350011"
+        },
+        {
+          "text": "Black",
+          "rh": "p_n_g-1004232833091:2343349011"
+        },
+        {
+          "text": "White",
+          "rh": "p_n_g-1004232833091:2343363011"
+        },
+        {
+          "text": "Greys",
+          "rh": "p_n_g-1004232833091:2343354011"
+        },
+        {
+          "text": "Browns",
+          "rh": "p_n_g-1004232833091:2343351011"
+        },
+        {
+          "text": "Beige",
+          "rh": "p_n_g-1004232833091:2343348011"
+        },
+        {
+          "text": "Reds",
+          "rh": "p_n_g-1004232833091:2343361011"
+        },
+        {
+          "text": "Pinks",
+          "rh": "p_n_g-1004232833091:2343359011"
+        },
+        {
+          "text": "Oranges",
+          "rh": "p_n_g-1004232833091:2343358011"
+        },
+        {
+          "text": "Yellows",
+          "rh": "p_n_g-1004232833091:2343364011"
+        },
+        {
+          "text": "Ivory",
+          "rh": "p_n_g-1004232833091:2343356011"
+        },
+        {
+          "text": "Greens",
+          "rh": "p_n_g-1004232833091:2343355011"
+        },
+        {
+          "text": "Purples",
+          "rh": "p_n_g-1004232833091:2343360011"
+        },
+        {
+          "text": "Golds",
+          "rh": "p_n_g-1004232833091:2343353011"
+        },
+        {
+          "text": "Multi",
+          "rh": "p_n_g-1004232833091:2343357011"
+        }
+      ]
+    },
+    {
+      "type": "Customer Review",
+      "options": [
+        {
+          "text": "4 Stars",
+          "rh": "p_72:2661618011"
+        }
+      ]
+    },
+    {
+      "type": "Seller",
+      "options": [
+        {
+          "text": "Amazon.com",
+          "rh": "p_6:ATVPDKIKX0DER"
+        },
+        {
+          "text": "Amazon Germany",
+          "rh": "p_6:A2DKF1L73WUF4Q"
+        },
+        {
+          "text": "Muscularfit US",
+          "rh": "p_6:A16XU2787UR11M"
+        },
+        {
+          "text": "Amazon Export Sales LLC",
+          "rh": "p_6:A2XZ7JICGUQ1CX"
+        },
+        {
+          "text": "RRMuAzgs Online",
+          "rh": "p_6:A3LRDQC90ME6GW"
+        },
+        {
+          "text": "JPLZi lightning deals of today prime",
+          "rh": "p_6:A2T80QKG4SV38C"
+        },
+        {
+          "text": "Shoes Apparel Store PoyGaZone",
+          "rh": "p_6:A3RKAGWV6FHG5U"
+        }
+      ]
+    },
+    {
+      "type": "Fit Type",
+      "options": [
+        {
+          "text": "Regular",
+          "rh": "p_n_g-1003273535111:216449786011"
+        },
+        {
+          "text": "Slim",
+          "rh": "p_n_g-1003273535111:216449790011"
+        },
+        {
+          "text": "Fitted",
+          "rh": "p_n_g-1003273535111:23932018011"
+        },
+        {
+          "text": "Athletic",
+          "rh": "p_n_g-1003273535111:216449787011"
+        },
+        {
+          "text": "Boxy",
+          "rh": "p_n_g-1003273535111:213408767011"
+        },
+        {
+          "text": "Oversized",
+          "rh": "p_n_g-1003273535111:216449785011"
+        },
+        {
+          "text": "Relaxed",
+          "rh": "p_n_g-1003273535111:216449788011"
+        },
+        {
+          "text": "Skinny",
+          "rh": "p_n_g-1003273535111:216449789011"
+        },
+        {
+          "text": "Straight",
+          "rh": "p_n_g-1003273535111:213342415011"
+        }
+      ]
+    },
+    {
+      "type": "Sleeve Type",
+      "options": [
+        {
+          "text": "Raglan Sleeve",
+          "rh": "p_n_feature_seven_browse-bin:23575056011"
+        },
+        {
+          "text": "Lantern Sleeve",
+          "rh": "p_n_feature_seven_browse-bin:23575060011"
+        },
+        {
+          "text": "Cuff Sleeve",
+          "rh": "p_n_feature_seven_browse-bin:23575055011"
+        },
+        {
+          "text": "Balloon Sleeve",
+          "rh": "p_n_feature_seven_browse-bin:23575061011"
+        },
+        {
+          "text": "Puff Sleeve",
+          "rh": "p_n_feature_seven_browse-bin:23575064011"
+        },
+        {
+          "text": "Ruffle Sleeve",
+          "rh": "p_n_feature_seven_browse-bin:23575059011"
+        }
+      ]
+    },
+    {
+      "type": "Apparel Material",
+      "options": [
+        {
+          "text": "Cotton",
+          "rh": "p_n_material_browse:31310053011"
+        },
+        {
+          "text": "Polyester",
+          "rh": "p_n_material_browse:31310042011"
+        },
+        {
+          "text": "Cashmere",
+          "rh": "p_n_material_browse:31310044011"
+        },
+        {
+          "text": "Acrylic",
+          "rh": "p_n_material_browse:31310049011"
+        },
+        {
+          "text": "Fur",
+          "rh": "p_n_material_browse:31310046011"
+        },
+        {
+          "text": "Leather",
+          "rh": "p_n_material_browse:31310043011"
+        },
+        {
+          "text": "Neoprene",
+          "rh": "p_n_material_browse:31310047011"
+        },
+        {
+          "text": "Nylon",
+          "rh": "p_n_material_browse:31310050011"
+        },
+        {
+          "text": "Polycotton",
+          "rh": "p_n_material_browse:210938325011"
+        },
+        {
+          "text": "Rayon",
+          "rh": "p_n_material_browse:31310040011"
+        },
+        {
+          "text": "Silk",
+          "rh": "p_n_material_browse:31310052011"
+        },
+        {
+          "text": "Spandex",
+          "rh": "p_n_material_browse:31310039011"
+        },
+        {
+          "text": "Wool",
+          "rh": "p_n_material_browse:31310054011"
+        }
+      ]
+    },
+    {
+      "type": "Special Features",
+      "options": [
+        {
+          "text": "Stretchable",
+          "rh": "p_n_g-1003497270111:28822805011"
+        },
+        {
+          "text": "Lightweight",
+          "rh": "p_n_g-1003497270111:28822807011"
+        },
+        {
+          "text": "Breathable",
+          "rh": "p_n_g-1003497270111:28822808011"
+        },
+        {
+          "text": "Moisture Wicking",
+          "rh": "p_n_g-1003497270111:28822811011"
+        },
+        {
+          "text": "Quick Dry",
+          "rh": "p_n_g-1003497270111:28822804011"
+        },
+        {
+          "text": "Absorbent",
+          "rh": "p_n_g-1003497270111:203865625011"
+        },
+        {
+          "text": "Adjustable",
+          "rh": "p_n_g-1003497270111:28822809011"
+        },
+        {
+          "text": "Wrinkle Free",
+          "rh": "p_n_g-1003497270111:58126453011"
+        }
+      ]
+    },
+    {
+      "type": "Neckline",
+      "options": [
+        {
+          "text": "Boat Neck",
+          "rh": "p_n_g-101017419697111:215600848011"
+        },
+        {
+          "text": "Choker Neck",
+          "rh": "p_n_g-101017419697111:215600850011"
+        },
+        {
+          "text": "Collared Neck",
+          "rh": "p_n_g-101017419697111:215600846011"
+        },
+        {
+          "text": "Crew Neck",
+          "rh": "p_n_g-101017419697111:215600841011"
+        },
+        {
+          "text": "Henley Neck",
+          "rh": "p_n_g-101017419697111:215600839011"
+        },
+        {
+          "text": "Hooded Neck",
+          "rh": "p_n_g-101017419697111:215600842011"
+        },
+        {
+          "text": "Jewel Neck",
+          "rh": "p_n_g-101017419697111:215600823011"
+        },
+        {
+          "text": "Mock Neck",
+          "rh": "p_n_g-101017419697111:215600824011"
+        },
+        {
+          "text": "Round Neck",
+          "rh": "p_n_g-101017419697111:215600836011"
+        },
+        {
+          "text": "Scoop Neck",
+          "rh": "p_n_g-101017419697111:215600830011"
+        },
+        {
+          "text": "Square Neck",
+          "rh": "p_n_g-101017419697111:215600825011"
+        },
+        {
+          "text": "Turtle Neck",
+          "rh": "p_n_g-101017419697111:215600838011"
+        },
+        {
+          "text": "V-Neck",
+          "rh": "p_n_g-101017419697111:215600832011"
+        }
+      ]
+    },
+    {
+      "type": "Subscribe & Save",
+      "options": [
+        {
+          "text": "Subscribe & Save Eligible",
+          "rh": "p_n_is_sns_available:2617006011"
+        }
+      ]
+    },
+    {
+      "type": "Sleeve Length Description",
+      "options": [
+        {
+          "text": "Sleeveless",
+          "rh": "p_n_g-101017421825111:215638805011"
+        },
+        {
+          "text": "Short Sleeve",
+          "rh": "p_n_g-101017421825111:215638808011"
+        },
+        {
+          "text": "Long Sleeve",
+          "rh": "p_n_g-101017421825111:215638806011"
+        }
+      ]
+    },
+    {
+      "type": "Care Instructions",
+      "options": [
+        {
+          "text": "Dry Clean Only",
+          "rh": "p_n_g-101015182109111:120826545011"
+        },
+        {
+          "text": "Hand Wash Only",
+          "rh": "p_n_g-101015182109111:120826544011"
+        },
+        {
+          "text": "Machine Wash",
+          "rh": "p_n_g-101015182109111:120826543011"
+        }
+      ]
+    },
+    {
+      "type": "Shirt Form",
+      "options": [
+        {
+          "text": "Blouse",
+          "rh": "p_n_feature_two_browse-bin:210962371011"
+        },
+        {
+          "text": "Polo Shirt",
+          "rh": "p_n_feature_two_browse-bin:210962376011"
+        },
+        {
+          "text": "T-Shirt",
+          "rh": "p_n_feature_two_browse-bin:210962378011"
+        },
+        {
+          "text": "Tank Top",
+          "rh": "p_n_feature_two_browse-bin:210962373011"
+        },
+        {
+          "text": "Tuxedo Shirt",
+          "rh": "p_n_feature_two_browse-bin:210962374011"
+        }
+      ]
+    },
+    {
+      "type": "Collar Style",
+      "options": [
+        {
+          "text": "Polo Collar",
+          "rh": "p_n_theme_browse-bin:118641074011"
+        },
+        {
+          "text": "Spread Collar",
+          "rh": "p_n_theme_browse-bin:31347218011"
+        },
+        {
+          "text": "Collarless",
+          "rh": "p_n_theme_browse-bin:118641073011"
+        },
+        {
+          "text": "Button Down Collar",
+          "rh": "p_n_theme_browse-bin:31347205011"
+        },
+        {
+          "text": "Flat Collar",
+          "rh": "p_n_theme_browse-bin:31347220011"
+        },
+        {
+          "text": "Point Collar",
+          "rh": "p_n_theme_browse-bin:31347212011"
+        }
+      ]
+    },
+    {
+      "type": "Lifestyle",
+      "options": [
+        {
+          "text": "Business Casual",
+          "rh": "p_n_g-101015292802111:121226701011"
+        },
+        {
+          "text": "Casual",
+          "rh": "p_n_g-101015292802111:121226703011"
+        },
+        {
+          "text": "Comfort",
+          "rh": "p_n_g-101015292802111:121226702011"
+        },
+        {
+          "text": "Dress",
+          "rh": "p_n_g-101015292802111:211799618011"
+        },
+        {
+          "text": "Formal",
+          "rh": "p_n_g-101015292802111:121226705011"
+        }
+      ]
+    },
+    {
+      "type": "Closure Type",
+      "options": [
+        {
+          "text": "Pull On",
+          "rh": "p_n_g-1003448370111:24224559011"
+        },
+        {
+          "text": "Button",
+          "rh": "p_n_g-1003448370111:24224550011"
+        },
+        {
+          "text": "Zipper",
+          "rh": "p_n_g-1003448370111:24224557011"
+        },
+        {
+          "text": "Snap",
+          "rh": "p_n_g-1003448370111:24224556011"
+        },
+        {
+          "text": "Buckle",
+          "rh": "p_n_g-1003448370111:24224551011"
+        },
+        {
+          "text": "Double Ring",
+          "rh": "p_n_g-1003448370111:24224553011"
+        },
+        {
+          "text": "Hook and Eye",
+          "rh": "p_n_g-1003448370111:24224558011"
+        },
+        {
+          "text": "Hook and Loop",
+          "rh": "p_n_g-1003448370111:24224555011"
+        }
+      ]
+    },
+    {
+      "type": "Sustainability Features",
+      "options": [
+        {
+          "text": "Any Feature",
+          "rh": "p_n_cpf_labels:121136630011"
+        },
+        {
+          "text": "Farming Practices",
+          "rh": "p_n_cpf_labels:121191385011"
+        },
+        {
+          "text": "Organic Content",
+          "rh": "p_n_cpf_labels:116845684011"
+        },
+        {
+          "text": "Safer Chemicals",
+          "rh": "p_n_cpf_labels:116845683011"
+        },
+        {
+          "text": "Worker Wellbeing",
+          "rh": "p_n_cpf_labels:116845686011"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "asin": "B000052ZTY",
+      "title": "Hugo Man Eau de Toilette – Fresh Aromatic Cologne – With Notes of Green Apple & Fir Balsam – Long Lasting Fragrance for Everyday Wear – Luxury Perfume for Men",
+      "link": "https://www.amazon.com/Hugo-Boss-Toilette-Spray-Ounces/dp/B000052ZTY/ref=sr_1_1?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-1",
+      "brand": "Hugo Boss",
+      "rating": 4.6,
+      "reviews": 25477,
+      "recent_sales": "600+ bought in past month",
+      "extracted_recent_sales": 600,
+      "price": "$56.00",
+      "extracted_price": 56.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_overall_pick": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/6164dlK42zL._AC_UL320_.jpg"
+    },
+    {
+      "position": 2,
+      "asin": "B0FY3DWGVS",
+      "title": "Men's Iconic Stripe Swim Trunks",
+      "link": "https://www.amazon.com/BOSS-Iconic-10239741-Shorts-Small/dp/B0FY3DWGVS/ref=sr_1_2_sspa?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo boss&qid=1793050609&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+      "brand": "BOSS",
+      "rating": 4.6,
+      "reviews": 361,
+      "price": "$68.62",
+      "extracted_price": 68.62,
+      "availability": "Only 3 left in stock - order soon.",
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61S+iNsFkjL._AC_UL320_.jpg"
+    },
+    {
+      "position": 3,
+      "asin": "B0BFG2MX26",
+      "title": "Men's Logo Embroidered Cotton Tee 3 Pack",
+      "link": "https://www.amazon.com/BOSS-3-Pack-Cotton-Jersey-T-Shirts/dp/B0BFG2MX26/ref=sr_1_3?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-3",
+      "brand": "BOSS",
+      "rating": 4.4,
+      "reviews": 2245,
+      "price": "$49.00",
+      "extracted_price": 49.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/31rJD+WRTAL._AC_UL320_.jpg"
+    },
+    {
+      "position": 4,
+      "asin": "B00BIO10NS",
+      "title": "Hugo Man Eau de Toilette – Fresh Aromatic Cologne – With Notes of Green Apple & Fir Balsam – Long Lasting Fragrance for Everyday Wear – Luxury Perfume for Men",
+      "link": "https://www.amazon.com/Hugo-Boss-MAN-Eau-Toilette/dp/B00BIO10NS/ref=sr_1_4?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-4",
+      "brand": "Hugo Boss",
+      "rating": 4.6,
+      "reviews": 25477,
+      "recent_sales": "700+ bought in past month",
+      "extracted_recent_sales": 700,
+      "price": "$81.00",
+      "extracted_price": 81.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61Usitp2pkL._AC_UL320_.jpg"
+    },
+    {
+      "position": 5,
+      "asin": "B0DB6G12W7",
+      "title": "Bottled Absolu Parfum Intense – Woody Men's Cologne – With Notes of Leather Accord, Patchouli & Cedarwood Essence – Long Lasting Fragrance",
+      "link": "https://www.amazon.com/Boss-Bottled-Absolu-Parfum-Intense/dp/B0DB6G12W7/ref=sr_1_5?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-5",
+      "brand": "Hugo Boss",
+      "rating": 4.6,
+      "reviews": 2448,
+      "recent_sales": "300+ bought in past month",
+      "extracted_recent_sales": 300,
+      "price": "$143.65",
+      "extracted_price": 143.65,
+      "original_price": "$169.00",
+      "extracted_original_price": 169.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61QF5DvZs3L._AC_UL320_.jpg"
+    },
+    {
+      "position": 6,
+      "asin": "B0C5GNM1BK",
+      "title": "Men's Paddy Pro Polo Shirt",
+      "link": "https://www.amazon.com/BOSS-Paddy-Short-Sleeve-Shirt/dp/B0C5GNM1BK/ref=sr_1_6?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-6",
+      "brand": "BOSS",
+      "rating": 4.6,
+      "reviews": 414,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$109.00",
+      "extracted_price": 109.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51UVcFcRfEL._AC_UL320_.jpg"
+    },
+    {
+      "position": 7,
+      "asin": "B00H8W7N80",
+      "title": "Hugo Man Eau de Toilette – Fresh Aromatic Cologne – With Notes of Green Apple & Fir Balsam – Long Lasting Fragrance for Everyday Wear – Luxury Perfume for Men",
+      "link": "https://www.amazon.com/HUGO-MAN-Eau-de-Toilette/dp/B00H8W7N80/ref=sr_1_7?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-7",
+      "brand": "Hugo Boss",
+      "rating": 4.6,
+      "reviews": 25477,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$104.00",
+      "extracted_price": 104.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/41+uT4oVNvL._AC_UL320_.jpg"
+    },
+    {
+      "position": 8,
+      "asin": "B012NSQMPI",
+      "title": "MAN EXTREME Eau de Parfum, 2.5 Fl Oz",
+      "link": "https://www.amazon.com/Hugo-Boss-MAN-EXTREME-Parfum/dp/B012NSQMPI/ref=sr_1_8?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-8",
+      "brand": "Hugo Boss",
+      "rating": 4.5,
+      "reviews": 1567,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$59.20",
+      "extracted_price": 59.2,
+      "original_price": "$74.00",
+      "extracted_original_price": 74.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Oct 31",
+          "type": "FREE delivery",
+          "date": "Sat, Oct 31"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Fri, Oct 30",
+          "type": "Or fastest delivery",
+          "date": "Fri, Oct 30"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/51tzE9CwZ8L._AC_UL320_.jpg"
+    },
+    {
+      "position": 9,
+      "asin": "B07FKPHYBP",
+      "title": "Men's Saturn Low Profile Sneakers",
+      "link": "https://www.amazon.com/Hugo-Boss-Saturn-Profile-Sneaker/dp/B07FKPHYBP/ref=sr_1_9?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-9",
+      "brand": "BOSS",
+      "rating": 4.6,
+      "reviews": 2048,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$190.00",
+      "extracted_price": 190.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71RNPPD3t5L._AC_UL320_.jpg"
+    },
+    {
+      "position": 10,
+      "asin": "B08VK81H3Q",
+      "title": "Men's Regular Fit Square Logo Jersey Drawstring Joggers",
+      "link": "https://www.amazon.com/HUGO-Hugo-Boss-Regular-Drawstring/dp/B08VK81H3Q/ref=sr_1_10?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-10",
+      "brand": "HUGO",
+      "rating": 4.7,
+      "reviews": 324,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$54.50",
+      "extracted_price": 54.5,
+      "original_price": "$65.22",
+      "extracted_original_price": 65.22,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/612yLFu5lnL._AC_UL320_.jpg"
+    },
+    {
+      "position": 11,
+      "asin": "B0F2N4WT2T",
+      "title": "Men's Polo Shirts Short Sleeve Golf Polo T Shirt Lightweight Casual Button Down Shirts Summer Collared with Pocket",
+      "link": "https://www.amazon.com/QOSOQ-Shirts-Sleeve-Lightweight-Collared/dp/B0F2N4WT2T/ref=sr_1_11_sspa?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo boss&qid=1793050609&sr=8-11-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "rating": 4.0,
+      "reviews": 454,
+      "price": "$27.99",
+      "extracted_price": 27.99,
+      "original_price": "$29.99",
+      "extracted_original_price": 29.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71PvglgZJbL._AC_UL320_.jpg"
+    },
+    {
+      "position": 12,
+      "asin": "B0GLNSB8W9",
+      "title": "Men's Polo Shirts Short Sleeve Casual Summer Cotton Shirts for Men Performance Collared Golf Shirts with Pocket",
+      "link": "https://www.amazon.com/ASYJUMPD-Shirts-Sleeve-Classic-Collared/dp/B0GLNSB8W9/ref=sr_1_12_sspa?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo boss&qid=1793050609&sr=8-12-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "rating": 4.5,
+      "reviews": 225,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$13.49",
+      "extracted_price": 13.49,
+      "original_price": "$24.99",
+      "extracted_original_price": 24.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/81w7fCexI3L._AC_UL320_.jpg"
+    },
+    {
+      "position": 13,
+      "asin": "B0D9GY8LGQ",
+      "title": "Mens Polo Long Sleeve Shirts Casual Collared T-Shirt",
+      "link": "https://www.amazon.com/Qekoma-Collared-Button，Cotton-Fabric，Daily-，Work，Fashion，Gift/dp/B0D9GY8LGQ/ref=sr_1_13_sspa?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo boss&qid=1793050609&sr=8-13-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "rating": 4.2,
+      "reviews": 851,
+      "price": "$18.99",
+      "extracted_price": 18.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71lP4QOarsL._AC_UL320_.jpg"
+    },
+    {
+      "position": 14,
+      "asin": "B0D6ZSPQ21",
+      "title": "Men's Baseball Cap with Logo",
+      "link": "https://www.amazon.com/Calvin-Klein-Plate-Baseball-Cap/dp/B0D6ZSPQ21/ref=sr_1_14_sspa?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo boss&qid=1793050609&sr=8-14-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Calvin Klein",
+      "rating": 4.6,
+      "reviews": 510,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$24.99",
+      "extracted_price": 24.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/51-KVP6o+EL._AC_UL320_.jpg"
+    },
+    {
+      "position": 15,
+      "asin": "B0D6ZBLZCP",
+      "title": "Men's Paul Modern Essential Polo",
+      "link": "https://www.amazon.com/BOSS-Paul-Modern-Essential-night/dp/B0D6ZBLZCP/ref=sr_1_15?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-15",
+      "brand": "BOSS",
+      "rating": 4.5,
+      "reviews": 301,
+      "price": "$109.00",
+      "extracted_price": 109.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71PzL4zXl7L._AC_UL320_.jpg"
+    },
+    {
+      "position": 16,
+      "asin": "B08VPXFMRT",
+      "title": "Mens Ribbed Crew Neck Regular Fit Center Logo T-Shirt",
+      "link": "https://www.amazon.com/HUGO-Hugo-Boss-Regular-T-Shirt/dp/B08VPXFMRT/ref=sr_1_16?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-16",
+      "brand": "HUGO",
+      "rating": 4.6,
+      "reviews": 1135,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$59.00",
+      "extracted_price": 59.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71Sy7RS0RIL._AC_UL320_.jpg"
+    },
+    {
+      "position": 17,
+      "asin": "B01N5VPZJL",
+      "title": "3-Pack Power Trunks",
+      "link": "https://www.amazon.com/BOSS-Trunk-10146061-Black-Medium/dp/B01N5VPZJL/ref=sr_1_17?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-17",
+      "brand": "BOSS",
+      "rating": 4.4,
+      "reviews": 5648,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$42.00",
+      "extracted_price": 42.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/41+cPxRQ21L._AC_UL320_.jpg"
+    },
+    {
+      "position": 18,
+      "asin": "B000RPLZAM",
+      "title": "Bottled Eau de Toilette – Woody Men's Cologne – With Notes of Apple, Cinnamon & Wood – Long Lasting Fragrance",
+      "link": "https://www.amazon.com/Hugo-Boss-BOTTLED-Eau-Toilette/dp/B000RPLZAM/ref=sr_1_18?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-18",
+      "brand": "Hugo Boss",
+      "rating": 4.6,
+      "reviews": 36352,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$130.00",
+      "extracted_price": 130.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51kSl+1btAL._AC_UL320_.jpg"
+    },
+    {
+      "position": 19,
+      "asin": "B0H2645K76",
+      "title": "Men's Oxford Shirts Long Sleeve Button Down Shirt Casual Untucked Shirts for Men",
+      "link": "https://www.amazon.com/COOFANDY-Cotton-Oxford-Sleeve-Casual/dp/B0H2645K76/ref=sr_1_19_sspa?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo boss&qid=1793050609&sr=8-19-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "COOFANDY",
+      "rating": 4.2,
+      "reviews": 77,
+      "price": "$17.98",
+      "extracted_price": 17.98,
+      "original_price": "$29.99",
+      "extracted_original_price": 29.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/7153QwUhISL._AC_UL320_.jpg"
+    },
+    {
+      "position": 20,
+      "asin": "B07FSN9V7V",
+      "title": "Underwear Boxers Pack, 3-Pack, Classic Fit Cotton Knit Boxer, 100% Cotton Moisture Wicking Boxers",
+      "link": "https://www.amazon.com/Lauren-Underwear-Classic-Boxers-3-Pack/dp/B07FSN9V7V/ref=sr_1_20_sspa?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo boss&qid=1793050609&sr=8-20-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "POLO RALPH LAUREN",
+      "rating": 4.7,
+      "reviews": 4873,
+      "recent_sales": "500+ bought in past month",
+      "extracted_recent_sales": 500,
+      "price": "$55.00",
+      "extracted_price": 55.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/719rNKXZM1L._AC_UL320_.jpg"
+    },
+    {
+      "position": 21,
+      "asin": "B08NW6DG7V",
+      "title": "Men's Ratchet Belt, Nylon Web with Automatic Slide Buckle in Gift Box",
+      "link": "https://www.amazon.com/JUKMO-Ratchet-Tactical-Automatic-001-Green/dp/B08NW6DG7V/ref=sr_1_21_sspa?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo boss&qid=1793050609&sr=8-21-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "JUKMO",
+      "rating": 4.3,
+      "reviews": 4658,
+      "price": "$14.98",
+      "extracted_price": 14.98,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/81esaiYKgRL._AC_UL320_.jpg"
+    },
+    {
+      "position": 22,
+      "asin": "B0F8FQPNHY",
+      "title": "Men's T Commuter Slim Pants",
+      "link": "https://www.amazon.com/BOSS-Commuter-Slim-Trousers-Magnet/dp/B0F8FQPNHY/ref=sr_1_22_sspa?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo boss&qid=1793050609&sr=8-22-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "BOSS",
+      "rating": 4.5,
+      "reviews": 9,
+      "price": "$107.40",
+      "extracted_price": 107.4,
+      "original_price": "$179.00",
+      "extracted_original_price": 179.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "availability": "Only 1 left in stock - order soon.",
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/51tWKIUkX0L._AC_UL320_.jpg"
+    },
+    {
+      "position": 23,
+      "asin": "B0F625GLW8",
+      "title": "Men's Titanium Nylon Blend Laceup Sneakers",
+      "link": "https://www.amazon.com/BOSS-Titanium-Nylon-Sneakers-Joshua/dp/B0F625GLW8/ref=sr_1_23?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-23",
+      "brand": "BOSS",
+      "rating": 4.7,
+      "reviews": 46,
+      "price": "$84.95",
+      "extracted_price": 84.95,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81+KWHcsg5L._AC_UL320_.jpg"
+    },
+    {
+      "position": 24,
+      "asin": "B00EOADSWE",
+      "title": "Mens Paddy Short Sleeve Polo Shirt",
+      "link": "https://www.amazon.com/Paddy-Short-Sleeve-Shirt-Medium/dp/B00EOADSWE/ref=sr_1_24?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-24",
+      "brand": "BOSS",
+      "rating": 4.6,
+      "reviews": 1939,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$88.00",
+      "extracted_price": 88.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/31ngXQB5k5L._AC_UL320_.jpg"
+    },
+    {
+      "position": 25,
+      "asin": "B0H96LD9D2",
+      "title": "BOSS Bottled Beyond Eau de Parfum & Eau de Toilette for Men 2-Piece Gift Set ($37 Value) – Notes of Ginger, Leather & Orange Blossom – Long-Lasting Fragrance",
+      "link": "https://www.amazon.com/Hugo-Boss-Bottled-Toilette-2-Piece/dp/B0H96LD9D2/ref=sr_1_25?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-25",
+      "brand": "Hugo Boss",
+      "rating": 4.0,
+      "reviews": 5,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$35.00",
+      "extracted_price": 35.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery",
+          "type": "FREE delivery",
+          "condition": "FREE delivery"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71MuRkEmspL._AC_UL320_.jpg"
+    },
+    {
+      "position": 26,
+      "asin": "B0F61TMTQX",
+      "title": "Ray Zipper Closure Crossbody Bag",
+      "link": "https://www.amazon.com/BOSS-Zipper-Closure-Crossbody-pitch/dp/B0F61TMTQX/ref=sr_1_26?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-26",
+      "brand": "BOSS",
+      "rating": 4.2,
+      "reviews": 19,
+      "price": "$52.92",
+      "extracted_price": 52.92,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81OOIonfuVL._AC_UL320_.jpg"
+    },
+    {
+      "position": 27,
+      "asin": "B0GGJ6B2FS",
+      "title": "Men's Henley Shirt Casual Button Short Sleeve T-Shirt Summer Patchwork Color Block Tee Shirts",
+      "link": "https://www.amazon.com/LINENNMAIN-Henley-T-Shirt-Patchwork-Heather/dp/B0GGJ6B2FS/ref=sr_1_27_sspa?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo boss&qid=1793050609&sr=8-27-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "rating": 4.1,
+      "reviews": 222,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$19.99",
+      "extracted_price": 19.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71BkUb8+seL._AC_UL320_.jpg"
+    },
+    {
+      "position": 28,
+      "asin": "B07PZDG4YW",
+      "title": "mens Boss 1036/S Rectangular Sunglasses",
+      "link": "https://www.amazon.com/Sunglasses-Boss-BOSS-1036-9O/dp/B07PZDG4YW/ref=sr_1_28_sspa?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo boss&qid=1793050609&sr=8-28-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "BOSS by Hugo Boss",
+      "rating": 4.1,
+      "reviews": 199,
+      "price": "$133.91",
+      "extracted_price": 133.91,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/51CftZrJxFL._AC_UL320_.jpg"
+    },
+    {
+      "position": 29,
+      "asin": "B0DZJLY1DC",
+      "title": "Mens 8 Pack Cushioned Dress Crew Work Socks",
+      "link": "https://www.amazon.com/Calvin-Klein-Mens-Crew-Socks/dp/B0DZJLY1DC/ref=sr_1_29_sspa?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo boss&qid=1793050609&sr=8-29-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Calvin Klein",
+      "rating": 4.7,
+      "reviews": 41,
+      "price": "$32.99",
+      "extracted_price": 32.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Mon, Nov 2 on $35 of items shipped by Amazon",
+          "type": "FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Mon, Nov 2"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61281HvtSjL._AC_UL320_.jpg"
+    },
+    {
+      "position": 30,
+      "asin": "B001O8MI2K",
+      "title": "Bottled Eau de Toilette – Woody Men's Cologne – With Notes of Apple, Cinnamon & Wood – Long Lasting Fragrance",
+      "link": "https://www.amazon.com/Hugo-Boss-BOTTLED-Eau-Toilette/dp/B001O8MI2K/ref=sr_1_30?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-30",
+      "brand": "Hugo Boss",
+      "rating": 4.6,
+      "reviews": 36352,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$175.00",
+      "extracted_price": 175.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61dpN38sPOL._AC_UL320_.jpg"
+    },
+    {
+      "position": 31,
+      "asin": "B0992TPMSR",
+      "title": "Men's Print Logo Short Sleeve T-Shirt",
+      "link": "https://www.amazon.com/HUGO-Hugo-Boss-Sleeve-T-Shirt/dp/B0992TPMSR/ref=sr_1_31?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-31",
+      "brand": "HUGO",
+      "rating": 4.6,
+      "reviews": 1122,
+      "price": "$30.91",
+      "extracted_price": 30.91,
+      "original_price": "$35.37",
+      "extracted_original_price": 35.37,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/714PxjqtKrL._AC_UL320_.jpg"
+    },
+    {
+      "position": 32,
+      "asin": "B0CW2BS9HH",
+      "title": "Passenger",
+      "link": "https://www.amazon.com/Square-Patch-Pique-Shirt-Currant/dp/B0CW2BS9HH/ref=sr_1_32?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-32",
+      "brand": "BOSS",
+      "rating": 4.6,
+      "reviews": 182,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$99.00",
+      "extracted_price": 99.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71T30ag+dGL._AC_UL320_.jpg"
+    },
+    {
+      "position": 33,
+      "asin": "B0DB4H2L74",
+      "title": "Bottled Absolu Parfum Intense – Woody Men's Cologne – With Notes of Leather Accord, Patchouli & Cedarwood Essence – Long Lasting Fragrance",
+      "link": "https://www.amazon.com/Boss-Bottled-Absolu-Parfum-Intense/dp/B0DB4H2L74/ref=sr_1_33?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-33",
+      "brand": "Hugo Boss",
+      "rating": 4.6,
+      "reviews": 2448,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$130.00",
+      "extracted_price": 130.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/618C65kAZcL._AC_UL320_.jpg"
+    },
+    {
+      "position": 34,
+      "asin": "B0057UD6XG",
+      "title": "Men's Paddy Polo Shirt",
+      "link": "https://www.amazon.com/BOSS-Paddy-Short-Sleeve-xx-Large/dp/B0057UD6XG/ref=sr_1_34?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-34",
+      "brand": "BOSS",
+      "rating": 4.5,
+      "reviews": 2112,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$86.70",
+      "extracted_price": 86.7,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71BqQEVkYKL._AC_UL320_.jpg"
+    },
+    {
+      "position": 35,
+      "asin": "B012NSQUUA",
+      "title": "The Scent Eau de Toilette – Ambery Men's Cologne – With Notes of Ginger, Manika Fruit & Leather Accords – Long Lasting Fragrance",
+      "link": "https://www.amazon.com/Hugo-Boss-SCENT-Eau-Toilette/dp/B012NSQUUA/ref=sr_1_35?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-35",
+      "brand": "Hugo Boss",
+      "rating": 4.6,
+      "reviews": 11852,
+      "price": "$175.00",
+      "extracted_price": 175.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61yAafFmx8L._AC_UL320_.jpg"
+    },
+    {
+      "position": 36,
+      "asin": "B0B3FBLYP9",
+      "title": "Men's Center Logo Regular Fit T-Shirt",
+      "link": "https://www.amazon.com/BOSS-Center-Regular-shirt-Medium/dp/B0B3FBLYP9/ref=sr_1_36?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-36",
+      "brand": "BOSS",
+      "rating": 4.6,
+      "reviews": 119,
+      "price": "$59.00",
+      "extracted_price": 59.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71eQMOVt+4L._AC_UL320_.jpg"
+    },
+    {
+      "position": 37,
+      "asin": "B0BS43L3MG",
+      "title": "Men's Classic Baseball Cap",
+      "link": "https://www.amazon.com/BOSS-Mens-Classic-Baseball-Black/dp/B0BS43L3MG/ref=sr_1_37?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-37",
+      "brand": "BOSS",
+      "rating": 4.6,
+      "reviews": 4197,
+      "recent_sales": "400+ bought in past month",
+      "extracted_recent_sales": 400,
+      "price": "$45.00",
+      "extracted_price": 45.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/713KIQiQiuL._AC_UL320_.jpg"
+    },
+    {
+      "position": 38,
+      "asin": "B06XH425JH",
+      "title": "Men's Classic Cotton Briefs 3 Pack",
+      "link": "https://www.amazon.com/Hugo-Boss-10145963-Captain-Forged/dp/B06XH425JH/ref=sr_1_38?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-38",
+      "brand": "BOSS",
+      "rating": 4.4,
+      "reviews": 5094,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$29.40",
+      "extracted_price": 29.4,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71Reet1MCNL._AC_UL320_.jpg"
+    },
+    {
+      "position": 39,
+      "asin": "B012NOWOAO",
+      "title": "The Scent Eau de Toilette – Ambery Men's Cologne – With Notes of Ginger, Manika Fruit & Leather Accords – Long Lasting Fragrance",
+      "link": "https://www.amazon.com/Hugo-Boss-SCENT-Eau-Toilette/dp/B012NOWOAO/ref=sr_1_39?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-39",
+      "brand": "Hugo Boss",
+      "rating": 4.6,
+      "reviews": 11852,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$130.00",
+      "extracted_price": 130.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61yBf7wSwjL._AC_UL320_.jpg"
+    },
+    {
+      "position": 40,
+      "asin": "B0FK2PMQVJ",
+      "title": "Men's Icon Logo Twill Cap",
+      "link": "https://www.amazon.com/BOSS-Icon-Logo-Twill-Ashley/dp/B0FK2PMQVJ/ref=sr_1_40?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-40",
+      "brand": "BOSS",
+      "rating": 4.7,
+      "reviews": 19,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$45.00",
+      "extracted_price": 45.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81K9dvOLsiL._AC_UL320_.jpg"
+    },
+    {
+      "position": 41,
+      "asin": "B0F1C2P82S",
+      "title": "Bottled Beyond Eau de Parfum – Woody Men's Cologne – With Notes of Ginger & Leather – Long Lasting Fragrance",
+      "link": "https://www.amazon.com/Hugo-Boss-Bottled-Beyond-Parfum/dp/B0F1C2P82S/ref=sr_1_41?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-41",
+      "brand": "Hugo Boss",
+      "rating": 4.5,
+      "reviews": 1226,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$136.00",
+      "extracted_price": 136.0,
+      "original_price": "$160.00",
+      "extracted_original_price": 160.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Oct 31",
+          "type": "FREE delivery",
+          "date": "Sat, Oct 31"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Fri, Oct 30",
+          "type": "Or fastest delivery",
+          "date": "Fri, Oct 30"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61vvFxFRskL._AC_UL320_.jpg"
+    },
+    {
+      "position": 42,
+      "asin": "B00PZ57M9M",
+      "title": "Bottled Infinite Eau de Parfum – Woody Men's Cologne – With Notes of Apple, Patchouli, Lavender & Sandalwood – Long Lasting Fragrance",
+      "link": "https://www.amazon.com/Hugo-Boss-Bottled-Infinite-Parfum/dp/B00PZ57M9M/ref=sr_1_42?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-42",
+      "brand": "Hugo Boss",
+      "rating": 4.5,
+      "reviews": 5135,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$143.00",
+      "extracted_price": 143.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61yRC1i7rdL._AC_UL320_.jpg"
+    },
+    {
+      "position": 43,
+      "asin": "B000C21488",
+      "title": "Hugo No. 1 Eau de Toilette 3.3 fl oz",
+      "link": "https://www.amazon.com/BOSS-NO-Eau-Toilette-3-3/dp/B000C21488/ref=sr_1_43?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-43",
+      "brand": "Hugo Boss",
+      "rating": 4.5,
+      "reviews": 4505,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$89.00",
+      "extracted_price": 89.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61tYcXndeeL._AC_UL320_.jpg"
+    },
+    {
+      "position": 44,
+      "asin": "B01N5VXKDE",
+      "title": "BOSS Hugo Men's Boxer Brief 3p Co/el 10146061 01, Grey/Charcoal/Black, Large",
+      "link": "https://www.amazon.com/Hugo-Boxer-Brief-10146061-Charcoal/dp/B01N5VXKDE/ref=sr_1_44?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-44",
+      "brand": "Hugo Boss",
+      "rating": 4.5,
+      "reviews": 256,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$45.95",
+      "extracted_price": 45.95,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51WXYZrtYiL._AC_UL320_.jpg"
+    },
+    {
+      "position": 45,
+      "asin": "B0F62DG5J3",
+      "title": "Men's Small Logo Ribbed Wool Beanie",
+      "link": "https://www.amazon.com/BOSS-Small-Ribbed-Beanie-Cream/dp/B0F62DG5J3/ref=sr_1_45?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-45",
+      "brand": "BOSS",
+      "rating": 5.0,
+      "reviews": 9,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$59.00",
+      "extracted_price": 59.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81+Kj4b+IHL._AC_UL320_.jpg"
+    },
+    {
+      "position": 46,
+      "asin": "B0FK17SBVS",
+      "title": "Men's Embossed Center Logo Cotton T-Shirt",
+      "link": "https://www.amazon.com/BOSS-Embossed-Center-T-Shirt-Magnolia/dp/B0FK17SBVS/ref=sr_1_46?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-46",
+      "brand": "BOSS",
+      "rating": 4.2,
+      "reviews": 3,
+      "price": "$43.02",
+      "extracted_price": 43.02,
+      "original_price": "$69.00",
+      "extracted_original_price": 69.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71t98BsbGHL._AC_UL320_.jpg"
+    },
+    {
+      "position": 47,
+      "asin": "B000XE6C2I",
+      "title": "Hugo Man Deodorant Stick With Notes of Green Apple & Fir Balsam 2.4 oz",
+      "link": "https://www.amazon.com/Hugo-Boss-MAN-Deodorant-Stick/dp/B000XE6C2I/ref=sr_1_47?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-47",
+      "brand": "Hugo Boss",
+      "rating": 4.4,
+      "reviews": 2844,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$25.60",
+      "extracted_price": 25.6,
+      "original_price": "$32.00",
+      "extracted_original_price": 32.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61I4wGjPz6L._AC_UL320_.jpg"
+    },
+    {
+      "position": 48,
+      "asin": "B0DYJJ9FSS",
+      "title": "Men's Big Logo Slide Sandals",
+      "link": "https://www.amazon.com/BOSS-Aryeh-Slide-Sandals-Black/dp/B0DYJJ9FSS/ref=sr_1_48?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-48",
+      "brand": "BOSS",
+      "rating": 4.6,
+      "reviews": 295,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$55.00",
+      "extracted_price": 55.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51rq76v9WrL._AC_UL320_.jpg"
+    },
+    {
+      "position": 49,
+      "asin": "B0DPBD1T62",
+      "title": "The Scent Aftershave – With Notes of Ginger, Manika Fruit & Leather Accords – 3.3 Fl Oz.",
+      "link": "https://www.amazon.com/Hugo-Boss-Scent-Aftershave-Leather/dp/B0DPBD1T62/ref=sr_1_49?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-49",
+      "brand": "Hugo Boss",
+      "rating": 4.4,
+      "reviews": 65,
+      "price": "$72.00",
+      "extracted_price": 72.0,
+      "original_price": "$90.00",
+      "extracted_original_price": 90.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Mon, Nov 2",
+          "type": "FREE delivery",
+          "date": "Mon, Nov 2"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Sat, Oct 31",
+          "type": "Or fastest delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61yBf7wSwjL._AC_UL320_.jpg"
+    },
+    {
+      "position": 50,
+      "asin": "B0BSLGNX5S",
+      "title": "Hugo Jeans Eau de Toilette 2.5 fl oz",
+      "link": "https://www.amazon.com/Hugo-Boss-Jeans-Toilette-75ml/dp/B0BSLGNX5S/ref=sr_1_50?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-50",
+      "brand": "Hugo Boss",
+      "rating": 4.5,
+      "reviews": 416,
+      "price": "$64.80",
+      "extracted_price": 64.8,
+      "original_price": "$81.00",
+      "extracted_original_price": 81.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/613Y5n1n44L._AC_UL320_.jpg"
+    },
+    {
+      "position": 51,
+      "asin": "B00007KQF8",
+      "title": "Bottled Eau de Toilette – Woody Men's Cologne – With Notes of Apple, Cinnamon & Wood – Long Lasting Fragrance",
+      "link": "https://www.amazon.com/Hugo-Boss-BOTTLED-Eau-Toilette/dp/B00007KQF8/ref=sr_1_51?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-51",
+      "brand": "Hugo Boss",
+      "rating": 4.6,
+      "reviews": 36352,
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61whdW5Wm+L._AC_UL320_.jpg"
+    },
+    {
+      "position": 52,
+      "asin": "B0F6ZR6XBP",
+      "title": "Men's 3-Pack Long Sleeve Cotton Jersey Shirts",
+      "link": "https://www.amazon.com/BOSS-3-Pack-Sleeve-Charcoal-Peacock/dp/B0F6ZR6XBP/ref=sr_1_52?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-52",
+      "brand": "BOSS",
+      "rating": 3.0,
+      "reviews": 2,
+      "more_offers": {
+        "lowest_price": "$41.27",
+        "extracted_lowest_price": 41.27,
+        "link": "https://www.amazon.com/gp/offer-listing/B0F6ZR6XBP/ref=sr_1_52_olp?keywords=hugo+boss&dib_tag=se&dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&qid=1793050609&sr=8-52",
+        "offers_count": 12,
+        "description": "(12 new offers)"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/519Y8kMKkBL._AC_UL320_.jpg"
+    },
+    {
+      "position": 53,
+      "asin": "B0C51C1D61",
+      "title": "Re.Maine BC-C Jeans",
+      "link": "https://www.amazon.com/BOSS-Maine-Regular-Stretch-Indigo/dp/B0C51C1D61/ref=sr_1_53?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-53",
+      "brand": "BOSS",
+      "rating": 4.2,
+      "reviews": 197,
+      "price": "$159.00",
+      "extracted_price": 159.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71CHbDhC8NL._AC_UL320_.jpg"
+    },
+    {
+      "position": 54,
+      "asin": "B0B8MF6X5L",
+      "title": "Bottled Parfum – Woody Ambery Men's Cologne – With Notes of Leather, Orris & Wood – Luxury Perfumes for Men – Long Lasting Fragrance",
+      "link": "https://www.amazon.com/Hugo-Boss-Bottled-Parfum-1-6/dp/B0B8MF6X5L/ref=sr_1_54?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-54",
+      "brand": "Hugo Boss",
+      "rating": 4.7,
+      "reviews": 3145,
+      "price": "$156.00",
+      "extracted_price": 156.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51JphynD1QL._AC_UL320_.jpg"
+    },
+    {
+      "position": 55,
+      "asin": "B0FXBSHCDF",
+      "title": "Men's Pio Sporty Tonal Collar Polo",
+      "link": "https://www.amazon.com/BOSS-Sporty-Tonal-Collar-Bruce/dp/B0FXBSHCDF/ref=sr_1_55?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-55",
+      "brand": "BOSS",
+      "rating": 4.8,
+      "reviews": 50,
+      "price": "$96.05",
+      "extracted_price": 96.05,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71zfn5WPgpL._AC_UL320_.jpg"
+    },
+    {
+      "position": 56,
+      "asin": "B0BKNBD2VR",
+      "title": "Mens Bold Center Logo Twill Cap",
+      "link": "https://www.amazon.com/BOSS-Center-Cotton-Twill-Grease/dp/B0BKNBD2VR/ref=sr_1_56?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-56",
+      "brand": "BOSS",
+      "rating": 4.7,
+      "reviews": 714,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$39.00",
+      "extracted_price": 39.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61JTSOuNhjL._AC_UL320_.jpg"
+    },
+    {
+      "position": 57,
+      "asin": "B01N6XEU41",
+      "title": "BOSS Hugo Men's Brief 3p Co/el 10146061 01, Black, Large",
+      "link": "https://www.amazon.com/BOSS-Brief-10146061-Black-Large/dp/B01N6XEU41/ref=sr_1_57?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-57",
+      "brand": "Hugo Boss",
+      "rating": 3.9,
+      "reviews": 86,
+      "price": "$37.95",
+      "extracted_price": 37.95,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/41FMdih8zIL._AC_UL320_.jpg"
+    },
+    {
+      "position": 58,
+      "asin": "B0FQCNKYW4",
+      "title": "Deep Red Eau de Parfum - Ambery Women's Perfume - With Notes of Clementine, Freesia, and Sandalwood- Long Lasting Fragrance",
+      "link": "https://www.amazon.com/Hugo-Boss-Deep-Red-Parfum/dp/B0FQCNKYW4/ref=sr_1_58?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-58",
+      "brand": "Hugo Boss",
+      "rating": 4.7,
+      "reviews": 18014,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$73.60",
+      "extracted_price": 73.6,
+      "original_price": "$92.00",
+      "extracted_original_price": 92.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/41gOJ-TcL5L._AC_UL320_.jpg"
+    },
+    {
+      "position": 59,
+      "asin": "B0DGXY5R1R",
+      "title": "Men's Dapolino Relaxed Fit Cotton T-Shirt with Logo Print",
+      "link": "https://www.amazon.com/HUGO-Center-Jersey-Sleeve-T-Shirt/dp/B0DGXY5R1R/ref=sr_1_59?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-59",
+      "brand": "HUGO",
+      "rating": 4.5,
+      "reviews": 243,
+      "price": "$58.00",
+      "extracted_price": 58.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 8 - 18",
+          "type": "FREE delivery",
+          "date": "Nov 8 - 18"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 8 - 16",
+          "type": "Or fastest delivery",
+          "date": "Nov 8 - 16"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71GlNlavcqL._AC_UL320_.jpg"
+    },
+    {
+      "position": 60,
+      "asin": "B09ZVNF4CZ",
+      "title": "Men's Standard Light Weight Quick Dry Short Sleeve 40+ UPF Protection Active Top",
+      "link": "https://www.amazon.com/Calvin-Klein-Standard-Weight-Protection/dp/B09ZVNF4CZ/ref=sr_1_60?dib=eyJ2IjoiMSJ9.haH1OnCpIA6RpIsWiq1UCn2ts2tLHM4QW22N6HSZXqjjS9H4ox2JMGKJNApZNvKqynYMekltHjiNwA0hCjgdsEFuiTfuJ8MJcryRN_ZLnEiBa8C5UKPluTgKghLEiHjlk1_1N5mgVuvnTOFlB7EMrvx61R1j0OEpSvP4Wb6AJM0WcBpXrc1SvbH-d0a0sI3t5sfbt7b4hnmn3R1xuIAUmS52p34_6SWO0al-TZ-AKEHcfQVN8qzBs7M2BxJF0j6fKk_pAnK2p9i72cHHZWqrghj8PrWdmfuEtSOlZrPqfmk.YiK0JR2V7UgWD2VMxgBXxFl_7_B2Q0rFaTCWWOm1CnQ&dib_tag=se&keywords=hugo+boss&qid=1793050609&sr=8-60",
+      "brand": "Calvin Klein",
+      "rating": 4.6,
+      "reviews": 4029,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$15.44",
+      "extracted_price": 15.44,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71s4ghK1JWL._AC_UL320_.jpg"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.amazon.com/s?k=hugo+boss&page=2&xpid=4d4BMD0doAxR3&qid=1793050609&ref=sr_pg_1",
+    "other_pages": {
+      "2": "https://www.amazon.com/s?k=hugo+boss&page=2&xpid=4d4BMD0doAxR3&qid=1793050609&ref=sr_pg_2",
+      "3": "https://www.amazon.com/s?k=hugo+boss&page=3&xpid=4d4BMD0doAxR3&qid=1793050609&ref=sr_pg_3"
+    }
+  }
+}

@@ -1,0 +1,1774 @@
+{
+  "search_metadata": {
+    "id": "search_1r3VbxvXpgtpLjDQ0vB26gOP",
+    "status": "Success",
+    "created_at": "2026-10-26T21:36:45Z",
+    "request_time_taken": 9.62,
+    "parsing_time_taken": 0.13,
+    "total_time_taken": 9.75,
+    "request_url": "https://www.ebay.com/sch/i.html?_nkw=hugo%20boss&_fcid=1",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_1r3VbxvXpgtpLjDQ0vB26gOP.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_1r3VbxvXpgtpLjDQ0vB26gOP"
+  },
+  "search_parameters": {
+    "engine": "ebay_search",
+    "q": "hugo boss",
+    "ebay_domain": "ebay.com",
+    "country": "US",
+    "delivery_country": "US"
+  },
+  "search_information": {
+    "query_displayed": "hugo boss",
+    "total_results": 98000,
+    "sorted_by": "Sort: Best Match",
+    "buying_format": "All",
+    "language": "en"
+  },
+  "categories": [
+    {
+      "name": "Clothing, Shoes & Accessories",
+      "link": "https://www.ebay.com/sch/11450/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "11450"
+    },
+    {
+      "name": "Men",
+      "link": "https://www.ebay.com/sch/260012/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "260012"
+    },
+    {
+      "name": "Men's Clothing",
+      "link": "https://www.ebay.com/sch/1059/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "1059",
+      "subcategories": [
+        {
+          "name": "Shirts",
+          "link": "https://www.ebay.com/sch/185100/i.html?_fcid=1&_nkw=hugo+boss",
+          "category_id": "185100"
+        },
+        {
+          "name": "Suits & Suit Separates",
+          "link": "https://www.ebay.com/sch/3001/i.html?_fcid=1&_nkw=hugo+boss",
+          "category_id": "3001"
+        },
+        {
+          "name": "Coats, Jackets & Vests",
+          "link": "https://www.ebay.com/sch/57988/i.html?_fcid=1&_nkw=hugo+boss",
+          "category_id": "57988"
+        },
+        {
+          "name": "Pants",
+          "link": "https://www.ebay.com/sch/57989/i.html?_fcid=1&_nkw=hugo+boss",
+          "category_id": "57989"
+        },
+        {
+          "name": "Jeans",
+          "link": "https://www.ebay.com/sch/11483/i.html?_fcid=1&_nkw=hugo+boss",
+          "category_id": "11483"
+        },
+        {
+          "name": "Sweaters",
+          "link": "https://www.ebay.com/sch/11484/i.html?_fcid=1&_nkw=hugo+boss",
+          "category_id": "11484"
+        },
+        {
+          "name": "Activewear",
+          "link": "https://www.ebay.com/sch/185099/i.html?_fcid=1&_nkw=hugo+boss",
+          "category_id": "185099"
+        },
+        {
+          "name": "Underwear",
+          "link": "https://www.ebay.com/sch/11507/i.html?_fcid=1&_nkw=hugo+boss",
+          "category_id": "11507"
+        },
+        {
+          "name": "Shorts",
+          "link": "https://www.ebay.com/sch/15689/i.html?_fcid=1&_nkw=hugo+boss",
+          "category_id": "15689"
+        },
+        {
+          "name": "Swimwear",
+          "link": "https://www.ebay.com/sch/15690/i.html?_fcid=1&_nkw=hugo+boss",
+          "category_id": "15690"
+        },
+        {
+          "name": "Socks",
+          "link": "https://www.ebay.com/sch/11511/i.html?_fcid=1&_nkw=hugo+boss",
+          "category_id": "11511"
+        },
+        {
+          "name": "Sleepwear & Robes",
+          "link": "https://www.ebay.com/sch/11510/i.html?_fcid=1&_nkw=hugo+boss",
+          "category_id": "11510"
+        }
+      ]
+    },
+    {
+      "name": "Health & Beauty",
+      "link": "https://www.ebay.com/sch/26395/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "26395"
+    },
+    {
+      "name": "Jewelry & Watches",
+      "link": "https://www.ebay.com/sch/281/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "281"
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "1"
+    },
+    {
+      "name": "Sports Mem, Cards & Fan Shop",
+      "link": "https://www.ebay.com/sch/64482/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "64482"
+    },
+    {
+      "name": "Home & Garden",
+      "link": "https://www.ebay.com/sch/11700/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "11700"
+    },
+    {
+      "name": "Sporting Goods",
+      "link": "https://www.ebay.com/sch/888/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "888"
+    },
+    {
+      "name": "Books & Magazines",
+      "link": "https://www.ebay.com/sch/267/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "267"
+    },
+    {
+      "name": "Toys & Hobbies",
+      "link": "https://www.ebay.com/sch/220/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "220"
+    },
+    {
+      "name": "Crafts",
+      "link": "https://www.ebay.com/sch/14339/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "14339"
+    },
+    {
+      "name": "Music",
+      "link": "https://www.ebay.com/sch/11233/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "11233"
+    },
+    {
+      "name": "Everything Else",
+      "link": "https://www.ebay.com/sch/99/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "99"
+    },
+    {
+      "name": "Business & Industrial",
+      "link": "https://www.ebay.com/sch/12576/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "12576"
+    },
+    {
+      "name": "Travel",
+      "link": "https://www.ebay.com/sch/3252/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "3252"
+    },
+    {
+      "name": "Musical Instruments & Gear",
+      "link": "https://www.ebay.com/sch/619/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "619"
+    },
+    {
+      "name": "eBay Motors",
+      "link": "https://www.ebay.com/sch/6000/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "6000"
+    },
+    {
+      "name": "Entertainment Memorabilia",
+      "link": "https://www.ebay.com/sch/45100/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "45100"
+    },
+    {
+      "name": "Art",
+      "link": "https://www.ebay.com/sch/550/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "550"
+    },
+    {
+      "name": "Computers/Tablets & Networking",
+      "link": "https://www.ebay.com/sch/58058/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "58058"
+    },
+    {
+      "name": "Consumer Electronics",
+      "link": "https://www.ebay.com/sch/293/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "293"
+    },
+    {
+      "name": "Cell Phones & Accessories",
+      "link": "https://www.ebay.com/sch/15032/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "15032"
+    },
+    {
+      "name": "Movies & TV",
+      "link": "https://www.ebay.com/sch/11232/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "11232"
+    },
+    {
+      "name": "Pet Supplies",
+      "link": "https://www.ebay.com/sch/1281/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "1281"
+    },
+    {
+      "name": "Baby",
+      "link": "https://www.ebay.com/sch/2984/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "2984"
+    },
+    {
+      "name": "Coins & Paper Money",
+      "link": "https://www.ebay.com/sch/11116/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "11116"
+    },
+    {
+      "name": "Cameras & Photo",
+      "link": "https://www.ebay.com/sch/625/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "625"
+    },
+    {
+      "name": "Dolls & Bears",
+      "link": "https://www.ebay.com/sch/237/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "237"
+    },
+    {
+      "name": "Antiques",
+      "link": "https://www.ebay.com/sch/20081/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "20081"
+    },
+    {
+      "name": "Pottery & Glass",
+      "link": "https://www.ebay.com/sch/870/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "870"
+    },
+    {
+      "name": "Stamps",
+      "link": "https://www.ebay.com/sch/260/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "260"
+    },
+    {
+      "name": "Gift Cards & Coupons",
+      "link": "https://www.ebay.com/sch/172008/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "172008"
+    },
+    {
+      "name": "Specialty Services",
+      "link": "https://www.ebay.com/sch/316/i.html?_fcid=1&_nkw=hugo+boss",
+      "category_id": "316"
+    }
+  ],
+  "filters": [
+    {
+      "type": "Shipping and pickup",
+      "options": [
+        {
+          "text": "Arrives in 2-4 days",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc&LH_FAST=1"
+        },
+        {
+          "text": "Free Shipping",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc&LH_FS=1"
+        },
+        {
+          "text": "Local Pickup within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc&_fspt=1&_sadis=25&LH_PrefLoc=99&_stpos=44141&LH_LPickup=1"
+        }
+      ]
+    },
+    {
+      "type": "Color",
+      "options": [
+        {
+          "text": "Beige (4,093) Items",
+          "items": 4093,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Color=Beige&_dcat=1059"
+        },
+        {
+          "text": "Black (19,206) Items",
+          "items": 19206,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Color=Black&_dcat=1059"
+        },
+        {
+          "text": "Blue (27,712) Items",
+          "items": 27712,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Color=Blue&_dcat=1059"
+        },
+        {
+          "text": "Brown (4,767) Items",
+          "items": 4767,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Color=Brown&_dcat=1059"
+        },
+        {
+          "text": "Gray (17,543) Items",
+          "items": 17543,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Color=Gray&_dcat=1059"
+        },
+        {
+          "text": "Green (4,014) Items",
+          "items": 4014,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Color=Green&_dcat=1059"
+        },
+        {
+          "text": "Multicolor (6,067) Items",
+          "items": 6067,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Color=Multicolor&_dcat=1059"
+        },
+        {
+          "text": "Orange (2,690) Items",
+          "items": 2690,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Color=Orange&_dcat=1059"
+        },
+        {
+          "text": "Red (4,287) Items",
+          "items": 4287,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Color=Red&_dcat=1059"
+        },
+        {
+          "text": "White (7,503) Items",
+          "items": 7503,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Color=White&_dcat=1059"
+        }
+      ]
+    },
+    {
+      "type": "Brand",
+      "options": [
+        {
+          "text": "Assorted (54) Items",
+          "items": 54,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Brand=Assorted&_dcat=1059"
+        },
+        {
+          "text": "BALDESSARINI (32) Items",
+          "items": 32,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Brand=BALDESSARINI&_dcat=1059"
+        },
+        {
+          "text": "Boss (15,423) Items",
+          "items": 15423,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Brand=Boss&_dcat=1059"
+        },
+        {
+          "text": "Hart Schaffner Marx (44) Items",
+          "items": 44,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Brand=Hart%2520Schaffner%2520Marx&_dcat=1059"
+        },
+        {
+          "text": "HUGO BOSS (92,022) Items",
+          "items": 92022,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Brand=HUGO%2520BOSS&_dcat=1059"
+        },
+        {
+          "text": "johnnie-O (105) Items",
+          "items": 105,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Brand=johnnie%252DO&_dcat=1059"
+        },
+        {
+          "text": "Russell Athletic (32) Items",
+          "items": 32,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Brand=Russell%2520Athletic&_dcat=1059"
+        },
+        {
+          "text": "Unbranded (133) Items",
+          "items": 133,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Brand=Unbranded&_dcat=1059"
+        }
+      ]
+    },
+    {
+      "type": "Material",
+      "options": [
+        {
+          "text": "Cotton (41,885) Items",
+          "items": 41885,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Material=Cotton&_dcat=1059"
+        },
+        {
+          "text": "Wool (20,823) Items",
+          "items": 20823,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Material=Wool&_dcat=1059"
+        },
+        {
+          "text": "Polyester (4,741) Items",
+          "items": 4741,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Material=Polyester&_dcat=1059"
+        },
+        {
+          "text": "Cashmere (831) Items",
+          "items": 831,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Material=Cashmere&_dcat=1059"
+        },
+        {
+          "text": "Cotton Blend (6,275) Items",
+          "items": 6275,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Material=Cotton%2520Blend&_dcat=1059"
+        },
+        {
+          "text": "Linen (1,378) Items",
+          "items": 1378,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Material=Linen&_dcat=1059"
+        },
+        {
+          "text": "Silk (890) Items",
+          "items": 890,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Material=Silk&_dcat=1059"
+        },
+        {
+          "text": "100% Cotton (5,424) Items",
+          "items": 5424,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Material=100%2525%2520Cotton&_dcat=1059"
+        }
+      ]
+    },
+    {
+      "type": "Size Type",
+      "options": [
+        {
+          "text": "Regular (96,102) Items",
+          "items": 96102,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Size%2520Type=Regular&_dcat=1059"
+        },
+        {
+          "text": "Big & Tall (602) Items",
+          "items": 602,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Size%2520Type=Big%2520%2526%2520Tall&_dcat=1059"
+        },
+        {
+          "text": "Not Specified (8,575) Items",
+          "items": 8575,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Size%2520Type=%21&_dcat=1059"
+        }
+      ]
+    },
+    {
+      "type": "Department",
+      "options": [
+        {
+          "text": "Men (99,228) Items",
+          "items": 99228,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Department=Men&_dcat=1059"
+        },
+        {
+          "text": "Unisex Adults (546) Items",
+          "items": 546,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Department=Unisex%2520Adults&_dcat=1059"
+        },
+        {
+          "text": "Teens (30) Items",
+          "items": 30,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Department=Teens&_dcat=1059"
+        },
+        {
+          "text": "Not Specified (9,336) Items",
+          "items": 9336,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&Department=%21&_dcat=1059"
+        }
+      ]
+    },
+    {
+      "type": "Condition",
+      "options": [
+        {
+          "text": "New with tags (41,192) Items",
+          "items": 41192,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc&LH_ItemCondition=1000"
+        },
+        {
+          "text": "New without tags (4,536) Items",
+          "items": 4536,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc&LH_ItemCondition=1500"
+        },
+        {
+          "text": "New with imperfections (617) Items",
+          "items": 617,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc&LH_ItemCondition=1750"
+        },
+        {
+          "text": "Pre-Owned (62,782) Items",
+          "items": 62782,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc&LH_ItemCondition=3000"
+        },
+        {
+          "text": "Not Specified (2) Items",
+          "items": 2,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc&LH_ItemCondition=10"
+        }
+      ]
+    },
+    {
+      "type": "Buying Format",
+      "options": [
+        {
+          "text": "All Listings (109,129) Items",
+          "items": 109129,
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc"
+        },
+        {
+          "text": "Auction (916) Items",
+          "items": 916,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc&LH_Auction=1"
+        },
+        {
+          "text": "Buy It Now (108,396) Items",
+          "items": 108396,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc&LH_BIN=1"
+        },
+        {
+          "text": "Accepts Offers (67,313) Items",
+          "items": 67313,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc&LH_BO=1"
+        }
+      ]
+    },
+    {
+      "type": "Item Location",
+      "options": [
+        {
+          "text": "Default",
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc&LH_PrefLoc=98"
+        },
+        {
+          "text": "Within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&_dcat=1059&_sadis=25&_stpos=44141&_fspt=1"
+        },
+        {
+          "text": "US Only",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc&LH_PrefLoc=1"
+        },
+        {
+          "text": "North America",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc&LH_PrefLoc=3"
+        },
+        {
+          "text": "Worldwide",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc&LH_PrefLoc=2"
+        }
+      ]
+    },
+    {
+      "type": "Show only",
+      "options": [
+        {
+          "text": "Free Returns",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc&LH_FR=1"
+        },
+        {
+          "text": "Returns Accepted",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc&LH_RPA=1"
+        },
+        {
+          "text": "Authorized Seller",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc&LH_AS=1"
+        },
+        {
+          "text": "Completed Items",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc&LH_Complete=1"
+        },
+        {
+          "text": "Sold Items",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc&LH_Sold=1"
+        },
+        {
+          "text": "Deals & Savings",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&rt=nc&LH_Savings=1"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "item_id": "960021135962",
+      "title": "NWT Hugo Boss Sweatshirt Logo Print Gray Size S-2XL",
+      "subtitle": "Size L + more · HUGO BOSS",
+      "link": "https://www.ebay.com/itm/960021135962",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 15% when you buy more"
+      ],
+      "price": "$55.00",
+      "extracted_price": 55.0,
+      "original_price": "$110.00",
+      "extracted_original_price": 110.0,
+      "shipping": "+$6.66 delivery",
+      "extracted_shipping": 6.66,
+      "thumbnail": "https://i.ebayimg.com/images/g/QlEAAeSwsQBqxEdI/s-l500.webp"
+    },
+    {
+      "position": 2,
+      "item_id": "363103171890",
+      "title": "HUGO MAN Hugo Boss 4.2 oz EDT Spray Cologne for Men New In Box",
+      "link": "https://www.ebay.com/itm/363103171890",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 600,
+      "reviews_link": "https://www.ebay.com/p/1928462835?iid=363103171890#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$34.94",
+      "extracted_price": 34.94,
+      "original_price": "$90.00",
+      "extracted_original_price": 90.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/QoAAAeSwWgNq2x1f/s-l500.webp"
+    },
+    {
+      "position": 3,
+      "item_id": "394846944961",
+      "title": "BOSS #6 BOSS BOTTLED by Hugo Boss Cologne for Men EDT 3.3 / 3.4 oz New In Box",
+      "link": "https://www.ebay.com/itm/394846944961",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 81,
+      "reviews_link": "https://www.ebay.com/p/668211274?iid=394846944961#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$46.12",
+      "extracted_price": 46.12,
+      "original_price": "$94.99",
+      "extracted_original_price": 94.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/cpEAAeSwLfZq3tzA/s-l140.webp"
+    },
+    {
+      "position": 4,
+      "item_id": "298576175005",
+      "title": "Hugo Boss Hugo Jeans Eau de Toilette Spray for Men 4.2 oz (125 ml) - Hugo Boss",
+      "link": "https://www.ebay.com/itm/298576175005",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$44.48",
+      "extracted_price": 44.48,
+      "original_price": "$100.00",
+      "extracted_original_price": 100.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/klYAAeSwp0BqyhVM/s-l140.webp"
+    },
+    {
+      "position": 5,
+      "item_id": "336864456487",
+      "title": "BOSS SOUL by Hugo Boss 1.6 oz (50 ml) eau de toilette spray for men",
+      "link": "https://www.ebay.com/itm/336864456487",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$79.99",
+      "extracted_price": 79.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/XqAAAeSwgNJq37g6/s-l140.webp"
+    },
+    {
+      "position": 6,
+      "item_id": "800841232416",
+      "title": "HUGO BOSS Bottled Absolu Parfum Intense Spray Men's Fragrance 3.3 fl oz",
+      "link": "https://www.ebay.com/itm/800841232416",
+      "condition": "Brand New",
+      "buying_format": "0 bids · Time left6d 19h",
+      "extensions": [
+        "+$6.52 delivery",
+        "Located in United States"
+      ],
+      "price": "$43.99",
+      "extracted_price": 43.99,
+      "shipping": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/skEAAeSwtgxq331I/s-l140.webp"
+    },
+    {
+      "position": 7,
+      "item_id": "307250478690",
+      "title": "BOSS Men's Black Crew Neck Short Sleeve Stretch Logo T-Shirt Size S",
+      "subtitle": "Size S · Boss",
+      "link": "https://www.ebay.com/itm/307250478690",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$50.00",
+      "extracted_price": 50.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/DDMAAeSw~K9q337j/s-l140.webp"
+    },
+    {
+      "position": 8,
+      "item_id": "257819198581",
+      "title": "HUGO by Hugo Boss Men's Slim-fit Wool Classic Black Overcoat",
+      "subtitle": "HUGO BOSS",
+      "link": "https://www.ebay.com/itm/257819198581",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left7d",
+      "extensions": [
+        "+$7.22 delivery",
+        "Located in United States"
+      ],
+      "price": "$225.00",
+      "extracted_price": 225.0,
+      "shipping": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/m7wAAeSw1N1qw9pK/s-l140.webp"
+    },
+    {
+      "position": 9,
+      "item_id": "880054180951",
+      "title": "Hugo Boss Mercerized Cotton Slim Fit Polo Shirt Dark Blue Teal Mens size L",
+      "subtitle": "Size L",
+      "link": "https://www.ebay.com/itm/880054180951",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Import fees due prior to delivery",
+        "Located in Canada"
+      ],
+      "price": "$12.85",
+      "extracted_price": 12.85,
+      "shipping": "+$14.93 delivery",
+      "extracted_shipping": 14.93,
+      "thumbnail": "https://i.ebayimg.com/images/g/RcQAAeSwJQhq3AwZ/s-l140.webp"
+    },
+    {
+      "position": 10,
+      "item_id": "287682187848",
+      "title": "HUGO BOSS Boss Orange Denim Shirt Mens Size M Blue Micro Pattern Long Sleeve Edd",
+      "subtitle": "Size M · HUGO BOSS",
+      "link": "https://www.ebay.com/itm/287682187848",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Import fees due prior to delivery",
+        "Located in Lithuania"
+      ],
+      "price": "$32.00",
+      "extracted_price": 32.0,
+      "shipping": "+$16.00 delivery",
+      "extracted_shipping": 16.0,
+      "thumbnail": "https://i.ebayimg.com/images/g/f9kAAeSwMUxq363m/s-l140.webp"
+    },
+    {
+      "position": 11,
+      "item_id": "407308377046",
+      "title": "Hugo Boss Bottled Beyond Eau De Parfum 3.3 oz / 100 ml EDP Spray For Men NIB",
+      "link": "https://www.ebay.com/itm/407308377046",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "6 watchers"
+      ],
+      "price": "$44.59",
+      "extracted_price": 44.59,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/Lb8AAeSwtbBq2ccZ/s-l140.webp"
+    },
+    {
+      "position": 12,
+      "item_id": "407317883406",
+      "title": "Hugo Boss Button Down",
+      "subtitle": "HUGO BOSS",
+      "link": "https://www.ebay.com/itm/407317883406",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$15.00",
+      "extracted_price": 15.0,
+      "shipping": "+$6.52 delivery",
+      "extracted_shipping": 6.52,
+      "thumbnail": "https://i.ebayimg.com/images/g/9pEAAeSwVDtq34Bd/s-l140.webp"
+    },
+    {
+      "position": 13,
+      "item_id": "391610989335",
+      "title": "HUGO MAN by Hugo Boss Cologne for Men EDT 6.7 / 6.8 oz New In Box",
+      "link": "https://www.ebay.com/itm/391610989335",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$43.89",
+      "extracted_price": 43.89,
+      "original_price": "$124.00",
+      "extracted_original_price": 124.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/9IQAAeSwIAdq22Rr/s-l140.webp"
+    },
+    {
+      "position": 14,
+      "item_id": "395181319186",
+      "title": "BOSS BOTTLED TONIC by Hugo Boss Cologne for Men EDT 3.3 / 3.4 oz New In Box",
+      "link": "https://www.ebay.com/itm/395181319186",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 55,
+      "reviews_link": "https://www.ebay.com/p/19033158914?iid=395181319186#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$39.00",
+      "extracted_price": 39.0,
+      "original_price": "$141.99",
+      "extracted_original_price": 141.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/9JcAAeSw3kBq16~-/s-l140.webp"
+    },
+    {
+      "position": 15,
+      "item_id": "295366498726",
+      "title": "Boss In Motion by Hugo Boss Cologne for Men EDT 3.3 / 3.4 oz New In Box",
+      "link": "https://www.ebay.com/itm/295366498726",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$31.98",
+      "extracted_price": 31.98,
+      "original_price": "$71.99",
+      "extracted_original_price": 71.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/BjYAAeSwnFJq0DN1/s-l140.webp"
+    },
+    {
+      "position": 16,
+      "item_id": "296589868965",
+      "title": "BOSS #6 BOSS BOTTLED NIGHT by Hugo Boss Cologne Men EDT 3.3 / 3.4 oz New In Box",
+      "link": "https://www.ebay.com/itm/296589868965",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 45,
+      "reviews_link": "https://www.ebay.com/p/133866635?iid=296589868965#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$38.82",
+      "extracted_price": 38.82,
+      "original_price": "$94.99",
+      "extracted_original_price": 94.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/-0wAAeSwSwpq36Vr/s-l140.webp"
+    },
+    {
+      "position": 17,
+      "item_id": "840063155553",
+      "title": "BOSS Hugo Boss Men’s Green Cotton Polo Short Sleeve Collared Logo 4XL",
+      "subtitle": "Size 4XL · HUGO BOSS",
+      "link": "https://www.ebay.com/itm/840063155553",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$28.00",
+      "extracted_price": 28.0,
+      "shipping": "+$6.71 delivery",
+      "extracted_shipping": 6.71,
+      "thumbnail": "https://i.ebayimg.com/images/g/3foAAeSwRD5q38ZL/s-l140.webp"
+    },
+    {
+      "position": 18,
+      "item_id": "168818050943",
+      "title": "Hugo Boss Extra Fine Merino Wool Sweater Size L Men's NWT",
+      "subtitle": "Size L",
+      "link": "https://www.ebay.com/itm/168818050943",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$39.50",
+      "extracted_price": 39.5,
+      "shipping": "+$6.52 delivery",
+      "extracted_shipping": 6.52,
+      "thumbnail": "https://i.ebayimg.com/images/g/HsIAAeSwVDtq33Mz/s-l140.webp"
+    },
+    {
+      "position": 19,
+      "item_id": "336805345505",
+      "title": "HUGO BOSS Bottled Absolu Parfum Intense Spray for Men 3.3 oz / 100 ml New In Box",
+      "link": "https://www.ebay.com/itm/336805345505",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Almost gone"
+      ],
+      "price": "$34.49",
+      "extracted_price": 34.49,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/OrkAAeSwq8RqsSkU/s-l140.webp"
+    },
+    {
+      "position": 20,
+      "item_id": "404234299352",
+      "title": "Hugo by Hugo Boss 4.2 oz EDT Cologne for Men Tester",
+      "subtitle": "Tester 3.1OZ.-5.0OZ.",
+      "link": "https://www.ebay.com/itm/404234299352",
+      "condition": "Brand New",
+      "tag": "GREAT PRICE",
+      "rating": 5.0,
+      "reviews": 277,
+      "reviews_link": "https://www.ebay.com/p/7030652245?iid=404234299352#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$33.49",
+      "extracted_price": 33.49,
+      "original_price": "$68.00",
+      "extracted_original_price": 68.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/mLAAAOSwIhdkwv2q/s-l140.webp"
+    },
+    {
+      "position": 21,
+      "item_id": "820280894533",
+      "title": "Men’s Hugo Boss shirt",
+      "subtitle": "Size 18 · HUGO BOSS",
+      "link": "https://www.ebay.com/itm/820280894533",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$45.00",
+      "extracted_price": 45.0,
+      "shipping": "+$8.29 delivery",
+      "extracted_shipping": 8.29,
+      "thumbnail": "https://i.ebayimg.com/images/g/TKAAAeSw8bFq38LD/s-l140.webp"
+    },
+    {
+      "position": 22,
+      "item_id": "366763067041",
+      "title": "HUGO Men's San Cassius-C1 Crew Neck Knit Sweater in Grey",
+      "subtitle": "Size 2XL · HUGO BOSS",
+      "link": "https://www.ebay.com/itm/366763067041",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$98.00",
+      "extracted_price": 98.0,
+      "shipping": "+$9.91 delivery",
+      "extracted_shipping": 9.91,
+      "thumbnail": "https://i.ebayimg.com/images/g/3CAAAeSwNRxq38VZ/s-l140.webp"
+    },
+    {
+      "position": 23,
+      "item_id": "301332842947",
+      "title": "Hugo Boss Bottled No # 6 Cologne for Men 3.3 / 3.4 oz Brand New In Box",
+      "link": "https://www.ebay.com/itm/301332842947",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 81,
+      "reviews_link": "https://www.ebay.com/p/668211274?iid=301332842947#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$45.89",
+      "extracted_price": 45.89,
+      "original_price": "$115.00",
+      "extracted_original_price": 115.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/9T8AAeSwjiVp~gB2/s-l140.webp"
+    },
+    {
+      "position": 24,
+      "item_id": "168818418906",
+      "title": "Boss The Scent Cologne by Hugo Boss for Men 1.6 oz (50ml) Edt Gift Set BNIB SEAL",
+      "link": "https://www.ebay.com/itm/168818418906",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 16,
+      "reviews_link": "https://www.ebay.com/p/1041873872?iid=168818418906#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$79.95",
+      "extracted_price": 79.95,
+      "shipping": "+$6.19 delivery",
+      "extracted_shipping": 6.19,
+      "thumbnail": "https://i.ebayimg.com/images/g/~woAAeSwYh9q37JT/s-l140.webp"
+    },
+    {
+      "position": 25,
+      "item_id": "960119067983",
+      "title": "Hugo Boss Shirt Mens Large Blue Plaid Slim Fit Long Sleeve Dress Button Front",
+      "subtitle": "Size L · HUGO BOSS",
+      "link": "https://www.ebay.com/itm/960119067983",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$20.00",
+      "extracted_price": 20.0,
+      "shipping": "+$5.98 delivery",
+      "extracted_shipping": 5.98,
+      "thumbnail": "https://i.ebayimg.com/images/g/cbEAAeSwh79q34iy/s-l140.webp"
+    },
+    {
+      "position": 26,
+      "item_id": "800840857723",
+      "title": "HUGO BOSS HUGO Just Different Eau de Toilette Spray, 1.3 fl oz Regular Size",
+      "link": "https://www.ebay.com/itm/800840857723",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$33.50",
+      "extracted_price": 33.5,
+      "shipping": "+$5.98 delivery",
+      "extracted_shipping": 5.98,
+      "thumbnail": "https://i.ebayimg.com/images/g/M~8AAeSwJ7tq31tS/s-l140.webp"
+    },
+    {
+      "position": 27,
+      "item_id": "294649777631",
+      "title": "Hugo Man by Hugo Boss 4.2 oz EDT Cologne for Men New In Box",
+      "link": "https://www.ebay.com/itm/294649777631",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$34.93",
+      "extracted_price": 34.93,
+      "original_price": "$102.00",
+      "extracted_original_price": 102.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/IggAAeSw73lp~gBu/s-l140.webp"
+    },
+    {
+      "position": 28,
+      "item_id": "920055541362",
+      "title": "Boss red shirt with rhinestone logo, size L",
+      "subtitle": "Size L · Boss",
+      "link": "https://www.ebay.com/itm/920055541362",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "3 watchers"
+      ],
+      "price": "$25.00",
+      "extracted_price": 25.0,
+      "shipping": "+$6.04 delivery",
+      "extracted_shipping": 6.04,
+      "thumbnail": "https://i.ebayimg.com/images/g/3NUAAeSwJcVq0Nkc/s-l140.webp"
+    },
+    {
+      "position": 29,
+      "item_id": "297232879244",
+      "title": "BOSS #6 BOSS BOTTLED NIGHT by Hugo Boss Cologne Men EDT 6.7 / 6.8 oz New In Box",
+      "link": "https://www.ebay.com/itm/297232879244",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$55.80",
+      "extracted_price": 55.8,
+      "original_price": "$102.99",
+      "extracted_original_price": 102.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/Y~wAAeSwIhZq35Zf/s-l140.webp"
+    },
+    {
+      "position": 30,
+      "item_id": "292121323189",
+      "title": "BOSS #6 BOSS BOTTLED UNLIMITED Cologne for Men EDT 3.3 / 3.4 oz New In Box",
+      "link": "https://www.ebay.com/itm/292121323189",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 60,
+      "reviews_link": "https://www.ebay.com/p/20033925143?iid=292121323189#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$36.42",
+      "extracted_price": 36.42,
+      "original_price": "$99.99",
+      "extracted_original_price": 99.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/EoUAAeSwl0pq2ug5/s-l140.webp"
+    },
+    {
+      "position": 31,
+      "item_id": "393471910993",
+      "title": "Dark Blue by Hugo Boss Cologne for Men EDT 2.5 oz New In Box",
+      "link": "https://www.ebay.com/itm/393471910993",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 98,
+      "reviews_link": "https://www.ebay.com/p/127423186?iid=393471910993#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$25.66",
+      "extracted_price": 25.66,
+      "original_price": "$47.99",
+      "extracted_original_price": 47.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/mfQAAeSwfe9q2nNk/s-l140.webp"
+    },
+    {
+      "position": 32,
+      "item_id": "291316300277",
+      "title": "HUGO XY by Hugo Boss Cologne for Men EDT 3.3 / 3.4 oz New In Box",
+      "link": "https://www.ebay.com/itm/291316300277",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 64,
+      "reviews_link": "https://www.ebay.com/p/77598446?iid=291316300277#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$29.21",
+      "extracted_price": 29.21,
+      "original_price": "$80.00",
+      "extracted_original_price": 80.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/Q-EAAeSwWKVq35YZ/s-l140.webp"
+    },
+    {
+      "position": 33,
+      "item_id": "296354903264",
+      "title": "Boss #6 Bottled Unlimited by Hugo Boss 3.3 / 3.4 oz EDT for Men New in Box",
+      "link": "https://www.ebay.com/itm/296354903264",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 60,
+      "reviews_link": "https://www.ebay.com/p/20033925143?iid=296354903264#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$36.44",
+      "extracted_price": 36.44,
+      "original_price": "$65.00",
+      "extracted_original_price": 65.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/PacAAOSwbJ1mFfuK/s-l140.webp"
+    },
+    {
+      "position": 34,
+      "item_id": "940043389469",
+      "title": "Hugo Boss Men's Delaware Slim Performance Pants Blue 36x32 NWT",
+      "subtitle": "Size 36 · Boss",
+      "link": "https://www.ebay.com/itm/940043389469",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$59.00",
+      "extracted_price": 59.0,
+      "shipping": "+$6.99 delivery",
+      "extracted_shipping": 6.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/A8UAAeSwRR5q34lx/s-l140.webp"
+    },
+    {
+      "position": 35,
+      "item_id": "396548859563",
+      "title": "BOSS BOTTLED ELIXIR by Hugo Boss for Men EDP 3.3 / 3.4 oz New In Box",
+      "link": "https://www.ebay.com/itm/396548859563",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$89.41",
+      "extracted_price": 89.41,
+      "original_price": "$161.00",
+      "extracted_original_price": 161.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/WZgAAeSwx6Jq2pTK/s-l140.webp"
+    },
+    {
+      "position": 36,
+      "item_id": "198747524037",
+      "title": "HUGO Hugo Boss Men's Gray V-Neck Button Front Knit Cardigan Sweater M",
+      "subtitle": "Size M",
+      "link": "https://www.ebay.com/itm/198747524037",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$27.00",
+      "extracted_price": 27.0,
+      "shipping": "+$6.94 delivery",
+      "extracted_shipping": 6.94,
+      "thumbnail": "https://i.ebayimg.com/images/g/VHYAAeSwqR5q342z/s-l140.webp"
+    },
+    {
+      "position": 37,
+      "item_id": "304437081843",
+      "title": "Hugo Man Extreme by Hugo Boss 2.5 oz EDP Cologne for Men New In box",
+      "link": "https://www.ebay.com/itm/304437081843",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$29.89",
+      "extracted_price": 29.89,
+      "original_price": "$70.00",
+      "extracted_original_price": 70.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/UyEAAeSwDPJp~gCH/s-l140.webp"
+    },
+    {
+      "position": 38,
+      "item_id": "327073635986",
+      "title": "HUGO BOSS BOTTLED STRIKING LAVENDER EAU DE PARFUM SPRAY FOR MEN 3.3 Oz / 100 ml",
+      "link": "https://www.ebay.com/itm/327073635986",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 10% when you buy more"
+      ],
+      "price": "$108.99",
+      "extracted_price": 108.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/0K0AAeSwfDRpyFnp/s-l140.webp"
+    },
+    {
+      "position": 39,
+      "item_id": "295434333675",
+      "title": "Hugo Dark Blue by Hugo Boss 2.5 oz EDT Cologne for Men New In box",
+      "link": "https://www.ebay.com/itm/295434333675",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 98,
+      "reviews_link": "https://www.ebay.com/p/127423186?iid=295434333675#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$25.68",
+      "extracted_price": 25.68,
+      "original_price": "$60.00",
+      "extracted_original_price": 60.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/xTUAAOSwOntkwv3K/s-l140.webp"
+    },
+    {
+      "position": 40,
+      "item_id": "820063746069",
+      "title": "Hugo Boss Hugo 6.7 oz EDT Spray for Men",
+      "link": "https://www.ebay.com/itm/820063746069",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 139,
+      "reviews_link": "https://www.ebay.com/p/26029960205?iid=820063746069#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$53.99",
+      "extracted_price": 53.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/xCsAAeSwwS5qk35n/s-l140.webp"
+    },
+    {
+      "position": 41,
+      "item_id": "287047505096",
+      "title": "HUGO BOSS Men's Paddy Pro Regular Fit Stretch Short Sleeve Polo Shirt NEW BLACK",
+      "subtitle": "Size M + more · HUGO BOSS",
+      "link": "https://www.ebay.com/itm/287047505096",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$69.88 to $74.88",
+      "extracted_price_range": {
+        "from": 69.88,
+        "to": 74.88
+      },
+      "is_price_range": true,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/fwUAAeSwk89pVx4S/s-l140.webp"
+    },
+    {
+      "position": 42,
+      "item_id": "294931385165",
+      "title": "HUGO MAN by Hugo Boss Cologne for Men EDT 2.5 oz New In Box",
+      "link": "https://www.ebay.com/itm/294931385165",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 6,
+      "reviews_link": "https://www.ebay.com/p/27048261015?iid=294931385165#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$28.42",
+      "extracted_price": 28.42,
+      "original_price": "$72.00",
+      "extracted_original_price": 72.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/lXQAAeSwqalq2HQp/s-l140.webp"
+    },
+    {
+      "position": 43,
+      "item_id": "800841476573",
+      "title": "Hugo Boss 2-Piece Slim Fit Gray Suit (Blazer & Pants) - Size 38S Nested",
+      "subtitle": "Size 38 · HUGO BOSS",
+      "link": "https://www.ebay.com/itm/800841476573",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$65.00",
+      "extracted_price": 65.0,
+      "shipping": "+$7.08 delivery",
+      "extracted_shipping": 7.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/jFoAAeSw1Uhq35No/s-l140.webp"
+    },
+    {
+      "position": 44,
+      "item_id": "800841471456",
+      "title": "Hugo Boss 2-Piece Slim Fit Black Suit (Blazer & Pants) - Size 38R Nested",
+      "subtitle": "Size 38",
+      "link": "https://www.ebay.com/itm/800841471456",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$65.00",
+      "extracted_price": 65.0,
+      "shipping": "+$7.08 delivery",
+      "extracted_shipping": 7.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/zsAAAeSwlYBq35LU/s-l140.webp"
+    },
+    {
+      "position": 45,
+      "item_id": "206484158963",
+      "title": "HUGO BOSS The Scent Elixir Parfum Intense 3.3OZ / 100ML Spray For Men New In Box",
+      "link": "https://www.ebay.com/itm/206484158963",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Almost gone"
+      ],
+      "price": "$52.99",
+      "extracted_price": 52.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/TYwAAeSwvnpqe920/s-l140.webp"
+    },
+    {
+      "position": 46,
+      "item_id": "327369563430",
+      "title": "Hugo Boss Men's White Dulive Logo Boss Box Logo T-Shirt Size M",
+      "subtitle": "Size M · HUGO BOSS",
+      "link": "https://www.ebay.com/itm/327369563430",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "15 watchers"
+      ],
+      "price": "$19.72",
+      "extracted_price": 19.72,
+      "original_price": "$68.00",
+      "extracted_original_price": 68.0,
+      "shipping": "+$9.99 delivery",
+      "extracted_shipping": 9.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/NHMAAeSwnkxqsoN8/s-l140.webp"
+    },
+    {
+      "position": 47,
+      "item_id": "128103673921",
+      "title": "Hugo Boss Bottled Pacific 3.3 Fl Oz Eau de Toilette Spray New In Tester Box",
+      "link": "https://www.ebay.com/itm/128103673921",
+      "condition": "New without box",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "20 watchers"
+      ],
+      "price": "$110.00",
+      "extracted_price": 110.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/UJIAAeSwgQBqupiG/s-l140.webp"
+    },
+    {
+      "position": 48,
+      "item_id": "940043427132",
+      "title": "Hugo Boss Men's Ribbed Black Cotton Henley Slim Size XXL NWT",
+      "subtitle": "Size 2XL",
+      "link": "https://www.ebay.com/itm/940043427132",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$55.00",
+      "extracted_price": 55.0,
+      "shipping": "+$6.99 delivery",
+      "extracted_shipping": 6.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/UK8AAeSw48hq348H/s-l140.webp"
+    },
+    {
+      "position": 49,
+      "item_id": "940043467059",
+      "title": "Boss One Men's Carper Super 120s Wool Jacket Overshirt Dark Blue Size 42R NWT",
+      "subtitle": "Size 42 · Boss",
+      "link": "https://www.ebay.com/itm/940043467059",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$179.00",
+      "extracted_price": 179.0,
+      "shipping": "+$7.99 delivery",
+      "extracted_shipping": 7.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/a1sAAeSwzYlq35Rz/s-l140.webp"
+    },
+    {
+      "position": 50,
+      "item_id": "327383405623",
+      "title": "Hugo Boss Men's Red Deeves Cotton Squid Logo Graphic Tee Size XXL",
+      "subtitle": "Size 2XL · HUGO BOSS",
+      "link": "https://www.ebay.com/itm/327383405623",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "6 watchers"
+      ],
+      "price": "$22.62",
+      "extracted_price": 22.62,
+      "original_price": "$78.00",
+      "extracted_original_price": 78.0,
+      "shipping": "+$9.99 delivery",
+      "extracted_shipping": 9.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/~S8AAeSw7fpqvqo5/s-l140.webp"
+    },
+    {
+      "position": 51,
+      "item_id": "188259753403",
+      "title": "New Hugo Boss Bottled Absolu Parfum Intense 3.3 oz / 100ml – Sealed Box",
+      "link": "https://www.ebay.com/itm/188259753403",
+      "condition": "Brand New",
+      "tag": "NEW LOW PRICE",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "26 sold"
+      ],
+      "price": "$39.00",
+      "extracted_price": 39.0,
+      "shipping": "Free delivery",
+      "deal": "$37.05 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/4w8AAeSwrURp8393/s-l140.webp"
+    },
+    {
+      "position": 52,
+      "item_id": "287451432958",
+      "title": "HUGO BOSS Mens Paule TOC 99 Slim Fit Stretch Short Sleeve Polo Shirt NEW BLACK",
+      "subtitle": "Size L + more · HUGO BOSS",
+      "link": "https://www.ebay.com/itm/287451432958",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$79.88 to $84.88",
+      "extracted_price_range": {
+        "from": 79.88,
+        "to": 84.88
+      },
+      "is_price_range": true,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/apAAAeSwusNqUFj~/s-l140.webp"
+    },
+    {
+      "position": 53,
+      "item_id": "366740983327",
+      "title": "Hugo BOSS T Shirt Mens S Light Blue Mercerised Cotton C Taut 01 Badge $119",
+      "subtitle": "Size S · Boss",
+      "link": "https://www.ebay.com/itm/366740983327",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Last one"
+      ],
+      "price": "$59.99",
+      "extracted_price": 59.99,
+      "shipping": "+$7.99 delivery",
+      "extracted_shipping": 7.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/ZyoAAeSw9spq075L/s-l140.webp"
+    },
+    {
+      "position": 54,
+      "item_id": "294571294120",
+      "title": "Boss Number One by Hugo Boss Cologne for Men EDT 3.3 / 3.4 oz New In Box",
+      "link": "https://www.ebay.com/itm/294571294120",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$30.31",
+      "extracted_price": 30.31,
+      "original_price": "$58.99",
+      "extracted_original_price": 58.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/CXcAAeSwYWFq2uNb/s-l140.webp"
+    },
+    {
+      "position": 55,
+      "item_id": "301354719425",
+      "title": "Hugo Boss Bottled No # 6 Cologne for Men 3.3 / 3.4 oz Brand New Tester",
+      "subtitle": "Tester 3.1OZ.-5.0OZ.",
+      "link": "https://www.ebay.com/itm/301354719425",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 439,
+      "reviews_link": "https://www.ebay.com/p/127407885?iid=301354719425#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$39.98",
+      "extracted_price": 39.98,
+      "original_price": "$65.00",
+      "extracted_original_price": 65.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/N2MAAOSwrQVkwunj/s-l140.webp"
+    },
+    {
+      "position": 56,
+      "item_id": "820276285310",
+      "title": "HUGO WOMAN BY HUGO BOSS Eau De Toilette Spray 2.5 oz/75 ml ORIGINAL CLASSIC RARE",
+      "link": "https://www.ebay.com/itm/820276285310",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Last one"
+      ],
+      "price": "$119.00",
+      "extracted_price": 119.0,
+      "shipping": "+$6.15 delivery",
+      "extracted_shipping": 6.15,
+      "thumbnail": "https://i.ebayimg.com/images/g/TsEAAeSwrr1q3gRs/s-l140.webp"
+    },
+    {
+      "position": 57,
+      "item_id": "237145747030",
+      "title": "Hugo Boss Men White Tee Logo Graphic Crew-Neck Short Sleeve T-Shirt S (fits AsM)",
+      "subtitle": "Size S",
+      "link": "https://www.ebay.com/itm/237145747030",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$55.00",
+      "extracted_price": 55.0,
+      "shipping": "+$6.73 delivery",
+      "extracted_shipping": 6.73,
+      "thumbnail": "https://i.ebayimg.com/images/g/N4YAAeSwL6tq38N3/s-l140.webp"
+    },
+    {
+      "position": 58,
+      "item_id": "820273659200",
+      "title": "Hugo Boss beige hutson blazer slim fit jacket cotton wool sport coat 38 R *NWT*",
+      "subtitle": "Size 38 · HUGO BOSS",
+      "link": "https://www.ebay.com/itm/820273659200",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$115.96",
+      "extracted_price": 115.96,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/woAAAeSwRb5q3O2v/s-l140.webp"
+    },
+    {
+      "position": 59,
+      "item_id": "158277639962",
+      "title": "Hugo Boss Men's Short Sleeve Tropical Palm Frond Print Navy Size L",
+      "subtitle": "Size L · Boss",
+      "link": "https://www.ebay.com/itm/158277639962",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$79.00",
+      "extracted_price": 79.0,
+      "shipping": "+$27.23 delivery",
+      "extracted_shipping": 27.23,
+      "thumbnail": "https://i.ebayimg.com/images/g/P7gAAeSw~iRqomEv/s-l140.webp"
+    },
+    {
+      "position": 60,
+      "item_id": "304861461603",
+      "title": "Element By Hugo Boss For Men Combo Pack: Refreshing Shower Gel 15oz (3x5oz) New",
+      "link": "https://www.ebay.com/itm/304861461603",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Last one"
+      ],
+      "price": "$46.43",
+      "extracted_price": 46.43,
+      "shipping": "Free delivery",
+      "deal": "$41.79 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/gWwAAOSw07tkIxBv/s-l140.webp"
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "hugo boss t shirt",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=hugo+boss+t+shirt&_sop=12"
+    },
+    {
+      "query": "hugo boss cologne",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=hugo+boss+cologne&_sop=12"
+    },
+    {
+      "query": "hugo boss polo",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=hugo+boss+polo&_sop=12"
+    },
+    {
+      "query": "lacoste",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lacoste&_sop=12"
+    },
+    {
+      "query": "hugo boss jacket",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=hugo+boss+jacket&_sop=12"
+    },
+    {
+      "query": "hugo boss shoes",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=hugo+boss+shoes&_sop=12"
+    },
+    {
+      "query": "hugo boss shirt",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=hugo+boss+shirt&_sop=12"
+    },
+    {
+      "query": "hugo boss perfume",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=hugo+boss+perfume&_sop=12"
+    },
+    {
+      "query": "hugo boss suit",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=hugo+boss+suit&_sop=12"
+    },
+    {
+      "query": "hugo boss perfume men",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=hugo+boss+perfume+men&_sop=12"
+    },
+    {
+      "query": "armani exchange",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=armani+exchange&_sop=12"
+    },
+    {
+      "query": "polo ralph lauren",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=polo+ralph+lauren&_sop=12"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&_dcat=1059&_pgn=2",
+    "other_pages": {
+      "2": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&_dcat=1059&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&_dcat=1059&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&_dcat=1059&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&_dcat=1059&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&_dcat=1059&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&_dcat=1059&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&_dcat=1059&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&_dcat=1059&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=hugo+boss&_dcat=1059&_pgn=10&rt=nc"
+    }
+  }
+}
