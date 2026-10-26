@@ -18,3 +18,4 @@
 {"at":"2026-10-26T18:50:33Z","engine":"shein_search","params":{"q":"adidas samba og"},"status":503,"search_id":null,"error":null,"duration_ms":90459}
 {"at":"2026-10-26T19:36:30Z","engine":"shein_search","params":{"q":"adidas samba og"},"status":200,"search_id":"search_d97LXP4moruBaXn9Mk03EOrl","error":null,"duration_ms":11801}
 {"at":"2026-10-26T19:53:36Z","engine":"shein_search","params":{"q":"nike dunk low panda"},"status":503,"search_id":null,"error":null,"api_error":"We could not retrieve results for this search. Please try again later.","duration_ms":90831}
+{"at":"2026-10-26T19:57:03Z","engine":"shein_search","params":{"q":"women's puffer jacket"},"status":503,"search_id":null,"error":null,"api_error":"We could not retrieve results for this search. Please try again later.","duration_ms":90694}

@@ -4,7 +4,7 @@ A small cross-store product search over Amazon and eBay through [SearchApi](http
 
 ## What it does
 
-- **Fetches** 8 fashion queries from `amazon_search` and `ebay_search` through a cache-first client. A request is never paid for twice, nothing is sent without an explicit live flag, and calls stop at a credit cap. (Shein was tried four times: one "no results" answer and three failures, two of them SearchApi 503s after about 90 s. No Shein listings yet.)
+- **Fetches** 8 fashion queries from `amazon_search` and `ebay_search` through a cache-first client. A request is never paid for twice, nothing is sent without an explicit live flag, and calls stop at a credit cap. (Shein was tried five times over about 70 minutes: one "no results" answer and four failures, three of them SearchApi 503s after about 90 s, while status.searchapi.io, which has no per-engine status, said all systems were operational. No Shein listings.)
 - **Normalises** every listing into one validated product record and **groups** the same product across stores: by manufacturer style code, or by brand, title words and price.
 - **Parses eBay directly** and compares it with SearchApi's output, field by field.
 - **Checks field health** (how often a field is filled, and how often its value is plausible), **simulates eBay layout changes**, and lets an agent (`claude -p`) repair the parser, with the tests as the judge.
@@ -23,7 +23,7 @@ eBay hides "Sponsored" from text scrapers. The label is an SVG image whose text 
 
 ## Questions for SearchApi
 
-1. **Is a request billed when the client disconnects before the response?** Ruby's `Net::HTTP` silently resends a GET once after a read timeout (measured: 2 requests for 1 call), so for Ruby customers with short timeouts every timeout could cost double. Shein took 90 s to fail on your side; my 60 s client timed out first.
+1. **Is a request billed when it fails, or when the client disconnects before the response?** Ruby's `Net::HTTP` silently resends a GET once after a read timeout (measured: 2 requests for 1 call), so for Ruby customers with short timeouts every timeout could cost double. Shein took about 90 s to fail on your side; my first, 60 s client timed out before your answer arrived. And do you track health per engine? Shein failed for me 4 times in 5 while the status page, which shows the API as a whole, was green.
 2. **How do you catch fields that are filled but wrong**, like eBay's shipping? Do you run plausibility checks beside fill rates, with baselines per query?
 3. **How do your customers match products across stores without GTINs?** Is there demand for variant-level data, or for a product-detail call that returns GTIN or MPN?
 

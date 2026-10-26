@@ -19,7 +19,9 @@ module CrossShop
       Ledger.new(File.join(data_dir, "ledger.jsonl"))
     end
 
-    def self.client_from_env(env = ENV, data_dir: DATA_DIR, read_timeout: 60)
+    # SEARCHAPI_READ_TIMEOUT (seconds, default 60): Shein needs more, since
+    # SearchApi itself gives up on it after about 90 s.
+    def self.client_from_env(env = ENV, data_dir: DATA_DIR, read_timeout: Integer(env.fetch("SEARCHAPI_READ_TIMEOUT", "60")))
       live = env["SEARCHAPI_LIVE"] == "1"
       Client.new(
         cache: cache(data_dir:),
