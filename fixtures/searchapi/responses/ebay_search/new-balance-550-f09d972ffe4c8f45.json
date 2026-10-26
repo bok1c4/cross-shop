@@ -1,0 +1,1696 @@
+{
+  "search_metadata": {
+    "id": "search_yawpDZvY5Rc1G7MzZvWPdXoM",
+    "status": "Success",
+    "created_at": "2026-10-26T18:47:38Z",
+    "request_time_taken": 3.46,
+    "parsing_time_taken": 0.14,
+    "total_time_taken": 3.6,
+    "request_url": "https://www.ebay.com/sch/i.html?_nkw=new%20balance%20550&_fcid=1",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_yawpDZvY5Rc1G7MzZvWPdXoM.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_yawpDZvY5Rc1G7MzZvWPdXoM"
+  },
+  "search_parameters": {
+    "engine": "ebay_search",
+    "q": "new balance 550",
+    "ebay_domain": "ebay.com",
+    "country": "US",
+    "delivery_country": "US"
+  },
+  "search_information": {
+    "query_displayed": "new balance 550",
+    "total_results": 11000,
+    "sorted_by": "Sort: Best Match",
+    "buying_format": "All",
+    "language": "en"
+  },
+  "categories": [
+    {
+      "name": "Clothing, Shoes & Accessories",
+      "link": "https://www.ebay.com/sch/11450/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "11450"
+    },
+    {
+      "name": "Men",
+      "link": "https://www.ebay.com/sch/260012/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "260012"
+    },
+    {
+      "name": "Men's Shoes",
+      "link": "https://www.ebay.com/sch/93427/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "93427",
+      "subcategories": [
+        {
+          "name": "Athletic Shoes",
+          "link": "https://www.ebay.com/sch/15709/i.html?_fcid=1&_nkw=new+balance+550",
+          "category_id": "15709"
+        },
+        {
+          "name": "Casual Shoes",
+          "link": "https://www.ebay.com/sch/24087/i.html?_fcid=1&_nkw=new+balance+550",
+          "category_id": "24087"
+        },
+        {
+          "name": "Sandals",
+          "link": "https://www.ebay.com/sch/11504/i.html?_fcid=1&_nkw=new+balance+550",
+          "category_id": "11504"
+        },
+        {
+          "name": "Slippers",
+          "link": "https://www.ebay.com/sch/11505/i.html?_fcid=1&_nkw=new+balance+550",
+          "category_id": "11505"
+        }
+      ]
+    },
+    {
+      "name": "eBay Motors",
+      "link": "https://www.ebay.com/sch/6000/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "6000"
+    },
+    {
+      "name": "Sporting Goods",
+      "link": "https://www.ebay.com/sch/888/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "888"
+    },
+    {
+      "name": "Business & Industrial",
+      "link": "https://www.ebay.com/sch/12576/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "12576"
+    },
+    {
+      "name": "Jewelry & Watches",
+      "link": "https://www.ebay.com/sch/281/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "281"
+    },
+    {
+      "name": "Health & Beauty",
+      "link": "https://www.ebay.com/sch/26395/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "26395"
+    },
+    {
+      "name": "Consumer Electronics",
+      "link": "https://www.ebay.com/sch/293/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "293"
+    },
+    {
+      "name": "Toys & Hobbies",
+      "link": "https://www.ebay.com/sch/220/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "220"
+    },
+    {
+      "name": "Home & Garden",
+      "link": "https://www.ebay.com/sch/11700/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "11700"
+    },
+    {
+      "name": "Books & Magazines",
+      "link": "https://www.ebay.com/sch/267/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "267"
+    },
+    {
+      "name": "Musical Instruments & Gear",
+      "link": "https://www.ebay.com/sch/619/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "619"
+    },
+    {
+      "name": "Cameras & Photo",
+      "link": "https://www.ebay.com/sch/625/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "625"
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "1"
+    },
+    {
+      "name": "Crafts",
+      "link": "https://www.ebay.com/sch/14339/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "14339"
+    },
+    {
+      "name": "Cell Phones & Accessories",
+      "link": "https://www.ebay.com/sch/15032/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "15032"
+    },
+    {
+      "name": "Pet Supplies",
+      "link": "https://www.ebay.com/sch/1281/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "1281"
+    },
+    {
+      "name": "Sports Mem, Cards & Fan Shop",
+      "link": "https://www.ebay.com/sch/64482/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "64482"
+    },
+    {
+      "name": "Computers/Tablets & Networking",
+      "link": "https://www.ebay.com/sch/58058/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "58058"
+    },
+    {
+      "name": "Everything Else",
+      "link": "https://www.ebay.com/sch/99/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "99"
+    },
+    {
+      "name": "Art",
+      "link": "https://www.ebay.com/sch/550/i.html?_fcid=1&_nkw=new+balance+550",
+      "category_id": "550"
+    }
+  ],
+  "filters": [
+    {
+      "type": "Shipping and pickup",
+      "options": [
+        {
+          "text": "Arrives in 2-4 days",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&rt=nc&LH_FAST=1"
+        },
+        {
+          "text": "Free Shipping",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&rt=nc&LH_FS=1"
+        },
+        {
+          "text": "Local Pickup within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&rt=nc&_sadis=25&LH_PrefLoc=99&_stpos=21804&_fspt=1&LH_LPickup=1"
+        }
+      ]
+    },
+    {
+      "type": "Model",
+      "options": [
+        {
+          "text": "New Balance 550 (15,493) Items",
+          "items": 15493,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Model=New%2520Balance%2520550&_dcat=15709"
+        },
+        {
+          "text": "New Balance BB550 (4,993) Items",
+          "items": 4993,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Model=New%2520Balance%2520BB550&_dcat=15709"
+        },
+        {
+          "text": "New Balance 500 (4,792) Items",
+          "items": 4792,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Model=New%2520Balance%2520500&_dcat=15709"
+        },
+        {
+          "text": "New Balance 530 (835) Items",
+          "items": 835,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Model=New%2520Balance%2520530&_dcat=15709"
+        },
+        {
+          "text": "New Balance 574 (364) Items",
+          "items": 364,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Model=New%2520Balance%2520574&_dcat=15709"
+        },
+        {
+          "text": "New Balance 9060 (232) Items",
+          "items": 232,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Model=New%2520Balance%25209060&_dcat=15709"
+        },
+        {
+          "text": "New Balance 577 (183) Items",
+          "items": 183,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Model=New%2520Balance%2520577&_dcat=15709"
+        },
+        {
+          "text": "New Balance 515 (177) Items",
+          "items": 177,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Model=New%2520Balance%2520515&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Season",
+      "options": [
+        {
+          "text": "Spring (6,658) Items",
+          "items": 6658,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Season=Spring&_dcat=15709"
+        },
+        {
+          "text": "Summer (6,218) Items",
+          "items": 6218,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Season=Summer&_dcat=15709"
+        },
+        {
+          "text": "Fall (5,808) Items",
+          "items": 5808,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Season=Fall&_dcat=15709"
+        },
+        {
+          "text": "Winter (4,441) Items",
+          "items": 4441,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Season=Winter&_dcat=15709"
+        },
+        {
+          "text": "Not Specified (13,186) Items",
+          "items": 13186,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Season=%21&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Upper Material",
+      "options": [
+        {
+          "text": "Leather (13,520) Items",
+          "items": 13520,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Upper%2520Material=Leather&_dcat=15709"
+        },
+        {
+          "text": "Suede (3,228) Items",
+          "items": 3228,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Upper%2520Material=Suede&_dcat=15709"
+        },
+        {
+          "text": "Mesh (1,095) Items",
+          "items": 1095,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Upper%2520Material=Mesh&_dcat=15709"
+        },
+        {
+          "text": "Synthetic (556) Items",
+          "items": 556,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Upper%2520Material=Synthetic&_dcat=15709"
+        },
+        {
+          "text": "Faux Leather (220) Items",
+          "items": 220,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Upper%2520Material=Faux%2520Leather&_dcat=15709"
+        },
+        {
+          "text": "Fabric (171) Items",
+          "items": 171,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Upper%2520Material=Fabric&_dcat=15709"
+        },
+        {
+          "text": "Patent Leather (162) Items",
+          "items": 162,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Upper%2520Material=Patent%2520Leather&_dcat=15709"
+        },
+        {
+          "text": "Angora (82) Items",
+          "items": 82,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Upper%2520Material=Angora&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Department",
+      "options": [
+        {
+          "text": "Men (17,434) Items",
+          "items": 17434,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Department=Men&_dcat=15709"
+        },
+        {
+          "text": "Unisex Adults (1,360) Items",
+          "items": 1360,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Department=Unisex%2520Adults&_dcat=15709"
+        },
+        {
+          "text": "Teens (52) Items",
+          "items": 52,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Department=Teens&_dcat=15709"
+        },
+        {
+          "text": "Not Specified (190) Items",
+          "items": 190,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Department=%21&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Performance/Activity",
+      "options": [
+        {
+          "text": "Walking (6,153) Items",
+          "items": 6153,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Performance%252FActivity=Walking&_dcat=15709"
+        },
+        {
+          "text": "Basketball (2,126) Items",
+          "items": 2126,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Performance%252FActivity=Basketball&_dcat=15709"
+        },
+        {
+          "text": "Running & Jogging (1,707) Items",
+          "items": 1707,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Performance%252FActivity=Running%2520%2526%2520Jogging&_dcat=15709"
+        },
+        {
+          "text": "Gym & Training (1,153) Items",
+          "items": 1153,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Performance%252FActivity=Gym%2520%2526%2520Training&_dcat=15709"
+        },
+        {
+          "text": "School (982) Items",
+          "items": 982,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Performance%252FActivity=School&_dcat=15709"
+        },
+        {
+          "text": "Cross Training (902) Items",
+          "items": 902,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Performance%252FActivity=Cross%2520Training&_dcat=15709"
+        },
+        {
+          "text": "CrossFit (742) Items",
+          "items": 742,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Performance%252FActivity=CrossFit&_dcat=15709"
+        },
+        {
+          "text": "Boxing (614) Items",
+          "items": 614,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Performance%252FActivity=Boxing&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Occasion",
+      "options": [
+        {
+          "text": "Casual (6,123) Items",
+          "items": 6123,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Occasion=Casual&_dcat=15709"
+        },
+        {
+          "text": "Activewear (3,633) Items",
+          "items": 3633,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Occasion=Activewear&_dcat=15709"
+        },
+        {
+          "text": "Workwear (868) Items",
+          "items": 868,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Occasion=Workwear&_dcat=15709"
+        },
+        {
+          "text": "Not Specified (13,677) Items",
+          "items": 13677,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Occasion=%21&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "options": [
+        {
+          "text": "Comfort (3,776) Items",
+          "items": 3776,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Features=Comfort&_dcat=15709"
+        },
+        {
+          "text": "Cushioned (1,732) Items",
+          "items": 1732,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Features=Cushioned&_dcat=15709"
+        },
+        {
+          "text": "Breathable (1,236) Items",
+          "items": 1236,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Features=Breathable&_dcat=15709"
+        },
+        {
+          "text": "Performance (448) Items",
+          "items": 448,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Features=Performance&_dcat=15709"
+        },
+        {
+          "text": "Arch Support (426) Items",
+          "items": 426,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Features=Arch%2520Support&_dcat=15709"
+        },
+        {
+          "text": "Lightweight (414) Items",
+          "items": 414,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Features=Lightweight&_dcat=15709"
+        },
+        {
+          "text": "Limited Edition (396) Items",
+          "items": 396,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Features=Limited%2520Edition&_dcat=15709"
+        },
+        {
+          "text": "Adjustable (367) Items",
+          "items": 367,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&Features=Adjustable&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Condition",
+      "options": [
+        {
+          "text": "New with box (13,387) Items",
+          "items": 13387,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&rt=nc&LH_ItemCondition=1000"
+        },
+        {
+          "text": "New without box (982) Items",
+          "items": 982,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&rt=nc&LH_ItemCondition=1500"
+        },
+        {
+          "text": "New with defects (289) Items",
+          "items": 289,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&rt=nc&LH_ItemCondition=1750"
+        },
+        {
+          "text": "Pre-Owned (5,356) Items",
+          "items": 5356,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&rt=nc&LH_ItemCondition=3000"
+        }
+      ]
+    },
+    {
+      "type": "Buying Format",
+      "options": [
+        {
+          "text": "All Listings (20,014) Items",
+          "items": 20014,
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&rt=nc"
+        },
+        {
+          "text": "Auction (107) Items",
+          "items": 107,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&rt=nc&LH_Auction=1"
+        },
+        {
+          "text": "Buy It Now (19,943) Items",
+          "items": 19943,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&rt=nc&LH_BIN=1"
+        },
+        {
+          "text": "Accepts Offers (7,249) Items",
+          "items": 7249,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&rt=nc&LH_BO=1"
+        }
+      ]
+    },
+    {
+      "type": "Item Location",
+      "options": [
+        {
+          "text": "Default",
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&rt=nc&LH_PrefLoc=98"
+        },
+        {
+          "text": "Within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&_sadis=25&_stpos=21804&_fspt=1"
+        },
+        {
+          "text": "US Only",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&rt=nc&LH_PrefLoc=1"
+        },
+        {
+          "text": "North America",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&rt=nc&LH_PrefLoc=3"
+        },
+        {
+          "text": "Worldwide",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&rt=nc&LH_PrefLoc=2"
+        }
+      ]
+    },
+    {
+      "type": "Show only",
+      "options": [
+        {
+          "text": "Free Returns",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&rt=nc&LH_FR=1"
+        },
+        {
+          "text": "Returns Accepted",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&rt=nc&LH_RPA=1"
+        },
+        {
+          "text": "Authorized Seller",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&rt=nc&LH_AS=1"
+        },
+        {
+          "text": "Completed Items",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&rt=nc&LH_Complete=1"
+        },
+        {
+          "text": "Sold Items",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&rt=nc&LH_Sold=1"
+        },
+        {
+          "text": "Deals & Savings",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&rt=nc&LH_Savings=1"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "item_id": "800814344956",
+      "title": "New Balance 550 White/Blue/Gray Men's Size 11 Leather Low Top Lace-Up Sneakers",
+      "subtitle": "US M 11 · New Balance",
+      "link": "https://www.ebay.com/itm/800814344956",
+      "condition": "Pre-Owned",
+      "buying_format": "1 bid · Time left52m",
+      "extensions": [
+        "+$14.95 delivery",
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$12.00",
+      "extracted_price": 12.0,
+      "shipping": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/fHwAAeSw8r1q1nHG/s-l500.webp"
+    },
+    {
+      "position": 2,
+      "item_id": "800838939891",
+      "title": "New Balance 550 Men's Sneaker Size 8.5",
+      "subtitle": "US M 8.5 · New Balance",
+      "link": "https://www.ebay.com/itm/800838939891",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$35.00",
+      "extracted_price": 35.0,
+      "shipping": "+$10.43 delivery",
+      "extracted_shipping": 10.43,
+      "thumbnail": "https://i.ebayimg.com/images/g/arEAAeSwZypq3rJ9/s-l500.webp"
+    },
+    {
+      "position": 3,
+      "item_id": "800839220419",
+      "title": "New Balance 550 Oak Leaf Green/Red Men’s US 11 D Leather Low BB550CL1",
+      "subtitle": "US M 11 · New Balance · New Balance 500 Series",
+      "link": "https://www.ebay.com/itm/800839220419",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 1,
+      "reviews_link": "https://www.ebay.com/p/10045985297?iid=800839220419#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$245.00",
+      "extracted_price": 245.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/ttwAAeSwUdlq3srj/s-l140.webp"
+    },
+    {
+      "position": 4,
+      "item_id": "307240143213",
+      "title": "New Balance 550 Men’s Leather Low Top Sneakers Black/White Size 13 BB550SV1",
+      "subtitle": "US M 13 · New Balance",
+      "link": "https://www.ebay.com/itm/307240143213",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "+$10.43 delivery",
+      "extracted_shipping": 10.43,
+      "thumbnail": "https://i.ebayimg.com/images/g/9KkAAeSw7s9q1vY5/s-l140.webp"
+    },
+    {
+      "position": 5,
+      "item_id": "800839219112",
+      "title": "New Balance 550 Team Carolina Blue BB550HL1 White/Blue Men's 12 D Leather",
+      "subtitle": "US M 12 · New Balance",
+      "link": "https://www.ebay.com/itm/800839219112",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 1,
+      "reviews_link": "https://www.ebay.com/p/11051451523?iid=800839219112#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$125.00",
+      "extracted_price": 125.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/2GgAAeSwjqhq3sp3/s-l140.webp"
+    },
+    {
+      "position": 6,
+      "item_id": "168818218675",
+      "title": "New Balance Aime Leon Dore 550 BB550AR1 Size 13",
+      "subtitle": "US M 13 · New Balance",
+      "link": "https://www.ebay.com/itm/168818218675",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$176.00",
+      "extracted_price": 176.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/4lwAAeSwfmdq35Ap/s-l140.webp"
+    },
+    {
+      "position": 7,
+      "item_id": "800839217273",
+      "title": "New Balance 550 Nightwatch Green BB550PWC Men's 12 D Low Top Leather Sneaker",
+      "subtitle": "US M 12 · New Balance",
+      "link": "https://www.ebay.com/itm/800839217273",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$125.00",
+      "extracted_price": 125.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/-KMAAeSwEydq3soG/s-l140.webp"
+    },
+    {
+      "position": 8,
+      "item_id": "860063759978",
+      "title": "New Balance 550 “White Slate Grey” Men’s US 8.5",
+      "subtitle": "US M 8.5 · New Balance",
+      "link": "https://www.ebay.com/itm/860063759978",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$65.00",
+      "extracted_price": 65.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/jJsAAeSwODVq1s1r/s-l140.webp"
+    },
+    {
+      "position": 9,
+      "item_id": "900040130895",
+      "title": "New Balance 550 Men’s Low Top Lace-Up Sneakers Size 11.5 White/Blue",
+      "subtitle": "US M 11.5 · New Balance",
+      "link": "https://www.ebay.com/itm/900040130895",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left5d 23h",
+      "extensions": [
+        "+$7.08 delivery",
+        "Located in United States"
+      ],
+      "price": "$15.00",
+      "extracted_price": 15.0,
+      "shipping": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/54UAAeSwZAxq3jrx/s-l140.webp"
+    },
+    {
+      "position": 10,
+      "item_id": "920055202239",
+      "title": "New Balance 550 Mushroom BB550PHA Brown Suede Low Top Sneaker Mens 6.5",
+      "subtitle": "US M 8 · New Balance",
+      "link": "https://www.ebay.com/itm/920055202239",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$48.00",
+      "extracted_price": 48.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/aAEAAeSwRrtq1oa0/s-l140.webp"
+    },
+    {
+      "position": 11,
+      "item_id": "800837918858",
+      "title": "New Balance 550 White Navy BBW550BA—Women's 7.5 Excellent Condition Original Box",
+      "subtitle": "US W 7.5 · New Balance",
+      "link": "https://www.ebay.com/itm/800837918858",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$89.00",
+      "extracted_price": 89.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/0TwAAeSwRHhq3lx1/s-l140.webp"
+    },
+    {
+      "position": 12,
+      "item_id": "128148838370",
+      "title": "Size 13 - New Balance 550 Varsity Gold",
+      "subtitle": "US M 13 · New Balance",
+      "link": "https://www.ebay.com/itm/128148838370",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left1d 22h",
+      "extensions": [
+        "+$6.19 delivery",
+        "Located in United States"
+      ],
+      "price": "$12.60",
+      "extracted_price": 12.6,
+      "shipping": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/i1AAAeSwfeRq2O6c/s-l140.webp"
+    },
+    {
+      "position": 13,
+      "item_id": "117475301534",
+      "title": "New Balance 550 Navy University Blue White Sneakers BB550FLA Mens 8 Womens 9.5",
+      "subtitle": "US M 8 · New Balance",
+      "link": "https://www.ebay.com/itm/117475301534",
+      "condition": "Brand New",
+      "buying_format": "0 bids · Time left15m",
+      "extensions": [
+        "+$6.66 delivery",
+        "Located in United States"
+      ],
+      "price": "$25.00",
+      "extracted_price": 25.0,
+      "shipping": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/5nYAAeSwLjhqwsnr/s-l140.webp"
+    },
+    {
+      "position": 14,
+      "item_id": "117488607491",
+      "title": "New Balance 550 Women's Sneakers",
+      "subtitle": "US W 7 · New Balance",
+      "link": "https://www.ebay.com/itm/117488607491",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$38.00",
+      "extracted_price": 38.0,
+      "shipping": "+$9.24 delivery",
+      "extracted_shipping": 9.24,
+      "thumbnail": "https://i.ebayimg.com/images/g/41UAAeSwNqlq34Fy/s-l140.webp"
+    },
+    {
+      "position": 15,
+      "item_id": "147632994111",
+      "title": "New balance 550 White Mint Green 10 - Worn Once!",
+      "subtitle": "US M 10 · New Balance",
+      "link": "https://www.ebay.com/itm/147632994111",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "11 watchers"
+      ],
+      "price": "$25.00",
+      "extracted_price": 25.0,
+      "shipping": "+$7.08 delivery",
+      "extracted_shipping": 7.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/SbwAAeSwFhRqzXCN/s-l140.webp"
+    },
+    {
+      "position": 16,
+      "item_id": "880009608036",
+      "title": "New Balance 550 Sneakers in Beige and Green men's 5 women's 6.5",
+      "subtitle": "US M 5 · New Balance",
+      "link": "https://www.ebay.com/itm/880009608036",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$79.00",
+      "extracted_price": 79.0,
+      "shipping": "+$7.90 delivery",
+      "extracted_shipping": 7.9,
+      "thumbnail": "https://i.ebayimg.com/images/g/71MAAeSwcAxqzGQr/s-l140.webp"
+    },
+    {
+      "position": 17,
+      "item_id": "128151183754",
+      "title": "New Balance 550 Oreo - Men's Size 11.5!!",
+      "subtitle": "US M 11.5 · New Balance",
+      "link": "https://www.ebay.com/itm/128151183754",
+      "condition": "Pre-Owned",
+      "tag": "NEW LOW PRICE",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$39.00",
+      "extracted_price": 39.0,
+      "shipping": "+$7.08 delivery",
+      "extracted_shipping": 7.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/NuAAAeSwYWFq2qaJ/s-l140.webp"
+    },
+    {
+      "position": 18,
+      "item_id": "237142486509",
+      "title": "New Balance 550 Triple White BB550WWW Women 8.5",
+      "subtitle": "US M 8.5 · New Balance",
+      "link": "https://www.ebay.com/itm/237142486509",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$147.00",
+      "extracted_price": 147.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/wFoAAeSwwqpq3ST~/s-l140.webp"
+    },
+    {
+      "position": 19,
+      "item_id": "860084290010",
+      "title": "New Balance 550 x Aime Leon Dore Taupe Beige Brown Tan Size 9 Brown White",
+      "subtitle": "US M 9 · New Balance",
+      "link": "https://www.ebay.com/itm/860084290010",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$89.00",
+      "extracted_price": 89.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/tKgAAeSw5Wlq3tlx/s-l140.webp"
+    },
+    {
+      "position": 20,
+      "item_id": "800840845221",
+      "title": "New Balance 550 Men's Sneakers White/Team Royal Blue Size 10.5 US (NO LACES)",
+      "subtitle": "US M 10.5 · New Balance",
+      "link": "https://www.ebay.com/itm/800840845221",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$53.00",
+      "extracted_price": 53.0,
+      "shipping": "+$11.92 delivery",
+      "extracted_shipping": 11.92,
+      "thumbnail": "https://i.ebayimg.com/images/g/gk8AAeSw3rBq31mC/s-l140.webp"
+    },
+    {
+      "position": 21,
+      "item_id": "800837842133",
+      "title": "New Balance 550 Indigo Sea Salt Blue/White size M7 D BB550SLA",
+      "subtitle": "US M 7 · New Balance",
+      "link": "https://www.ebay.com/itm/800837842133",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$75.00",
+      "extracted_price": 75.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/R84AAeSw7oNq3lS3/s-l140.webp"
+    },
+    {
+      "position": 22,
+      "item_id": "117397594348",
+      "title": "New Balance 550 Sea Salt Pack Marsh Green Men's Sport Shoe BB550CPE",
+      "subtitle": "US M 10 + more · New Balance · New Balance 500 Series",
+      "link": "https://www.ebay.com/itm/117397594348",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Authenticity Guarantee"
+      ],
+      "price": "$84.99",
+      "extracted_price": 84.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/ajEAAeSwXlRqnEM~/s-l140.webp"
+    },
+    {
+      "position": 23,
+      "item_id": "820276958784",
+      "title": "2023 New Balance 550 Oreo BB550HA1 Mens Size 10 D White Black Low Top Sneaker",
+      "subtitle": "US M 14 · New Balance",
+      "link": "https://www.ebay.com/itm/820276958784",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$23.00",
+      "extracted_price": 23.0,
+      "shipping": "+$7.08 delivery",
+      "extracted_shipping": 7.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/e-oAAeSwAD5q3lON/s-l140.webp"
+    },
+    {
+      "position": 24,
+      "item_id": "840041271796",
+      "title": "New Balance 550 x Aime Leon Dore Taupe Beige BB550DA1 Brown Tan Size 12",
+      "subtitle": "US M 12 · New Balance · New Balance 550",
+      "link": "https://www.ebay.com/itm/840041271796",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$95.00",
+      "extracted_price": 95.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/GhcAAeSwIHRq126M/s-l140.webp"
+    },
+    {
+      "position": 25,
+      "item_id": "298615654467",
+      "title": "New Balance Aimé Leon Dore 550 Sz 13 BB550ALE Silver/White Leather Low Top 2020",
+      "subtitle": "US M 13 · New Balance",
+      "link": "https://www.ebay.com/itm/298615654467",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 1,
+      "reviews_link": "https://www.ebay.com/p/3045639212?iid=298615654467#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$105.00",
+      "extracted_price": 105.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/46EAAeSwRYJqfOo1/s-l140.webp"
+    },
+    {
+      "position": 26,
+      "item_id": "840041277636",
+      "title": "New Balance 550 x Aime Leon Dore White Leather Sneakers Size 12 BB550AM1",
+      "subtitle": "US M 12 · New Balance",
+      "link": "https://www.ebay.com/itm/840041277636",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$120.00",
+      "extracted_price": 120.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/Ki8AAeSwZuFq12-F/s-l140.webp"
+    },
+    {
+      "position": 27,
+      "item_id": "147650486023",
+      "title": "Size 11.5 - Joe Freshgoods x New Balance 550 Conversations Amongst Us",
+      "subtitle": "US M 11.5 · New Balance",
+      "link": "https://www.ebay.com/itm/147650486023",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 1,
+      "reviews_link": "https://www.ebay.com/p/16054302910?iid=147650486023#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$225.00",
+      "extracted_price": 225.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/zzoAAOSw7DFnaAAz/s-l140.webp"
+    },
+    {
+      "position": 28,
+      "item_id": "407306786005",
+      "title": "New Balance 550 'Varsity Gold'",
+      "subtitle": "US M 11 + more",
+      "link": "https://www.ebay.com/itm/407306786005",
+      "condition": "Brand New",
+      "tag": "GREAT PRICE",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Import fees due prior to delivery",
+        "Located in Canada",
+        "Authenticity Guarantee"
+      ],
+      "price": "$74.98",
+      "extracted_price": 74.98,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/4i4AAeSwYzNq2PP2/s-l140.webp"
+    },
+    {
+      "position": 29,
+      "item_id": "366755728770",
+      "title": "New Balance 550 Navy Electric Sky Gray Mens Size 10 Athletic Shoes Sneakers",
+      "subtitle": "US M 10 · New Balance",
+      "link": "https://www.ebay.com/itm/366755728770",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$69.99",
+      "extracted_price": 69.99,
+      "shipping": "Free delivery",
+      "deal": "$53.54 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/tbMAAeSwRT1qY0xp/s-l140.webp"
+    },
+    {
+      "position": 30,
+      "item_id": "168811923785",
+      "title": "NEW BALANCE 550 OREO WHITE/BLACK COURT MEN'S SHOES SIZE 11.5 M NEW",
+      "subtitle": "US M 11.5 · New Balance",
+      "link": "https://www.ebay.com/itm/168811923785",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$69.95",
+      "extracted_price": 69.95,
+      "shipping": "+$6.78 delivery",
+      "extracted_shipping": 6.78,
+      "thumbnail": "https://i.ebayimg.com/images/g/T6YAAeSwdzJq23LQ/s-l140.webp"
+    },
+    {
+      "position": 31,
+      "item_id": "307249255989",
+      "title": "New Balance 550 Mens Size 8.5 Blue White Athletic Walking Suede Shoes Sneakers",
+      "subtitle": "US M 8.5 · New Balance",
+      "link": "https://www.ebay.com/itm/307249255989",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Free returns"
+      ],
+      "price": "$69.99",
+      "extracted_price": 69.99,
+      "shipping": "Located in United States",
+      "deal": "$53.54 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/tFoAAeSwxIZpIpIr/s-l140.webp"
+    },
+    {
+      "position": 32,
+      "item_id": "137777013677",
+      "title": "New Balance 550 Triple White - Without box - Excellent - Size 11.5",
+      "subtitle": "US M 11.5 · New Balance",
+      "link": "https://www.ebay.com/itm/137777013677",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$79.99",
+      "extracted_price": 79.99,
+      "shipping": "+$10.58 delivery",
+      "extracted_shipping": 10.58,
+      "thumbnail": "https://i.ebayimg.com/images/g/KGIAAeSwDWBqtfWh/s-l140.webp"
+    },
+    {
+      "position": 33,
+      "item_id": "800839224602",
+      "title": "New Balance 550 Varsity Orange BB550HG1 White/Orange Men's US 12 D Leather",
+      "subtitle": "US M 12 · New Balance",
+      "link": "https://www.ebay.com/itm/800839224602",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$125.00",
+      "extracted_price": 125.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/W14AAeSw8Glq3st5/s-l140.webp"
+    },
+    {
+      "position": 34,
+      "item_id": "206639979944",
+      "title": "Size 8.5 - New Balance 550 Permafrost Dark Alpine Green",
+      "subtitle": "US M 8.5 · New Balance",
+      "link": "https://www.ebay.com/itm/206639979944",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$60.00",
+      "extracted_price": 60.0,
+      "shipping": "+$6.19 delivery",
+      "extracted_shipping": 6.19,
+      "thumbnail": "https://i.ebayimg.com/images/g/6RIAAeSwfDBq1uF4/s-l140.webp"
+    },
+    {
+      "position": 35,
+      "item_id": "377593342704",
+      "title": "New Balance 550 Mens Size 12",
+      "subtitle": "US M 12 · New Balance",
+      "link": "https://www.ebay.com/itm/377593342704",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "+$10.43 delivery",
+      "extracted_shipping": 10.43,
+      "thumbnail": "https://i.ebayimg.com/images/g/iu8AAeSwfmdq2~K~/s-l140.webp"
+    },
+    {
+      "position": 36,
+      "item_id": "366748498995",
+      "title": "New Balance 550 White/Black Colorblock Low Top Lace-Up Sneakers, Men’s Size 9",
+      "subtitle": "US M 9 · New Balance",
+      "link": "https://www.ebay.com/itm/366748498995",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$35.00",
+      "extracted_price": 35.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/pocAAeSwk0Vq1~R7/s-l140.webp"
+    },
+    {
+      "position": 37,
+      "item_id": "204957776313",
+      "title": "New Balance 550 White Grey BB550PB1 Men Size",
+      "subtitle": "US M 9 + more · New Balance",
+      "link": "https://www.ebay.com/itm/204957776313",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$49.00 to $129.00",
+      "extracted_price_range": {
+        "from": 49.0,
+        "to": 129.0
+      },
+      "is_price_range": true,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/xqAAAeSwTktq1R9s/s-l140.webp"
+    },
+    {
+      "position": 38,
+      "item_id": "860080455473",
+      "title": "New Balance 550 Men's Sneakers Size 9 White/Black Colorblock Low Top Lace-Up",
+      "subtitle": "US M 9 · New Balance",
+      "link": "https://www.ebay.com/itm/860080455473",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$30.00",
+      "extracted_price": 30.0,
+      "shipping": "+$10.43 delivery",
+      "extracted_shipping": 10.43,
+      "thumbnail": "https://i.ebayimg.com/images/g/qakAAeSw~l9q3Tpf/s-l140.webp"
+    },
+    {
+      "position": 39,
+      "item_id": "267823978743",
+      "title": "New Balance 550 White Black Sneakers Mens Size 10.5 BB550HA1 Low Top Shoes",
+      "subtitle": "US M 10.5 · New Balance",
+      "link": "https://www.ebay.com/itm/267823978743",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$47.00",
+      "extracted_price": 47.0,
+      "shipping": "+$9.99 delivery",
+      "extracted_shipping": 9.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/YNUAAeSwHpxq3rOh/s-l140.webp"
+    },
+    {
+      "position": 40,
+      "item_id": "198747510859",
+      "title": "New Balance Men's Aimé Leon Dore 550 Natural Green Sneakers US 11 EU 45",
+      "subtitle": "US M 11 · New Balance",
+      "link": "https://www.ebay.com/itm/198747510859",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 2,
+      "reviews_link": "https://www.ebay.com/p/8051116395?iid=198747510859#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$59.99",
+      "extracted_price": 59.99,
+      "shipping": "+$8.17 delivery",
+      "extracted_shipping": 8.17,
+      "thumbnail": "https://i.ebayimg.com/images/g/vesAAeSwlWdq34t3/s-l140.webp"
+    },
+    {
+      "position": 41,
+      "item_id": "820277788566",
+      "title": "New Balance 550 White Grey Gum Sole Sneakers | Men’s Size 9.5",
+      "subtitle": "US M 9.5 · New Balance",
+      "link": "https://www.ebay.com/itm/820277788566",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$15.00",
+      "extracted_price": 15.0,
+      "shipping": "+$7.08 delivery",
+      "extracted_shipping": 7.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/UeYAAeSwoitq3rRx/s-l140.webp"
+    },
+    {
+      "position": 42,
+      "item_id": "407302149076",
+      "title": "New Balance 550 Green/Grey/White Colorblock Low Top Men’s 9 BB550FLV",
+      "subtitle": "US M 9 · New Balance",
+      "link": "https://www.ebay.com/itm/407302149076",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$43.31",
+      "extracted_price": 43.31,
+      "shipping": "+$9.28 delivery",
+      "extracted_shipping": 9.28,
+      "thumbnail": "https://i.ebayimg.com/images/g/dwAAAeSwPZNq1n9r/s-l140.webp"
+    },
+    {
+      "position": 43,
+      "item_id": "227579143663",
+      "title": "New Balance 550 White/Team Red/Black Men's Sneakers US 12 D BB550SE1",
+      "subtitle": "US M 12 · New Balance",
+      "link": "https://www.ebay.com/itm/227579143663",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 1,
+      "reviews_link": "https://www.ebay.com/p/12045625301?iid=227579143663#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$90.00",
+      "extracted_price": 90.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/6awAAeSwqGRq2oHO/s-l140.webp"
+    },
+    {
+      "position": 44,
+      "item_id": "206474457429",
+      "title": "Size 10.5 - New Balance 550 White Leather Sneakers Retro Court New In Box",
+      "subtitle": "US M 10.5 · New Balance",
+      "link": "https://www.ebay.com/itm/206474457429",
+      "condition": "Brand New",
+      "rating": 4.0,
+      "reviews": 2,
+      "reviews_link": "https://www.ebay.com/p/21058292294?iid=206474457429#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$99.99",
+      "extracted_price": 99.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/9FMAAeSwDB5qcXr9/s-l140.webp"
+    },
+    {
+      "position": 45,
+      "item_id": "860077281653",
+      "title": "New Balance 550 Men's Black & Gray 8.5",
+      "subtitle": "US M 8.5 · New Balance",
+      "link": "https://www.ebay.com/itm/860077281653",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$25.00",
+      "extracted_price": 25.0,
+      "shipping": "+$11.92 delivery",
+      "extracted_shipping": 11.92,
+      "thumbnail": "https://i.ebayimg.com/images/g/wnUAAeSwEydq2-gc/s-l140.webp"
+    },
+    {
+      "position": 46,
+      "item_id": "366755962116",
+      "title": "New Balance 550 Colorway: White / Red / Black Men's US 14",
+      "subtitle": "US M 14 · New Balance",
+      "link": "https://www.ebay.com/itm/366755962116",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/quMAAeSwOkpq23aN/s-l140.webp"
+    },
+    {
+      "position": 47,
+      "item_id": "318770955334",
+      "title": "New Balance 550 White Grey Mens",
+      "subtitle": "US M 8 + more · New Balance",
+      "link": "https://www.ebay.com/itm/318770955334",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$99.99",
+      "extracted_price": 99.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/SA0AAeSwz0Jqi8PZ/s-l140.webp"
+    },
+    {
+      "position": 48,
+      "item_id": "117486925452",
+      "title": "New Balance 550 x Aime Leon Dore Grey Suede Sz 13 BB550AC1 2022",
+      "subtitle": "US M 13 · New Balance",
+      "link": "https://www.ebay.com/itm/117486925452",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$59.99",
+      "extracted_price": 59.99,
+      "shipping": "+$7.18 delivery",
+      "extracted_shipping": 7.18,
+      "thumbnail": "https://i.ebayimg.com/images/g/SscAAeSwondq3kyW/s-l140.webp"
+    },
+    {
+      "position": 49,
+      "item_id": "880036581024",
+      "title": "New Balance 550 Pink Sand White Soft Suede Retro Low Top Women’s Size 5.5",
+      "subtitle": "US W 5.5 · New Balance",
+      "link": "https://www.ebay.com/itm/880036581024",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$55.00",
+      "extracted_price": 55.0,
+      "shipping": "+$9.66 delivery",
+      "extracted_shipping": 9.66,
+      "thumbnail": "https://i.ebayimg.com/images/g/MiUAAeSwMQdq2DTg/s-l140.webp"
+    },
+    {
+      "position": 50,
+      "item_id": "206439240123",
+      "title": "New Balance 550 Bisque Earth Shadow BB550ETN Men Size",
+      "subtitle": "US M 10 + more · New Balance",
+      "link": "https://www.ebay.com/itm/206439240123",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$65.00 to $150.00",
+      "extracted_price_range": {
+        "from": 65.0,
+        "to": 150.0
+      },
+      "is_price_range": true,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/FOYAAeSw8ZZq1SKp/s-l140.webp"
+    },
+    {
+      "position": 51,
+      "item_id": "307248947418",
+      "title": "New Balance 550 x Aime Leon Dore “Purple” - Mens Size 12 - (BB550AR1)",
+      "subtitle": "US M 12 · New Balance",
+      "link": "https://www.ebay.com/itm/307248947418",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Authenticity Guarantee"
+      ],
+      "price": "$149.99",
+      "extracted_price": 149.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/BfcAAeSwI1xqRubu/s-l140.webp"
+    },
+    {
+      "position": 52,
+      "item_id": "227150370558",
+      "title": "** New Balance 550 x Aime Leon Dore ALD \"Olive\" Men's 8 Women's 9.5 BB550AD1 **",
+      "subtitle": "US M 8 · New Balance",
+      "link": "https://www.ebay.com/itm/227150370558",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$75.00",
+      "extracted_price": 75.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/RgUAAeSwrMVpUYHA/s-l140.webp"
+    },
+    {
+      "position": 53,
+      "item_id": "920056216912",
+      "title": "🆕 New Balance 550 Men's Cream and Green Sneakers Brand New size 8.5",
+      "subtitle": "US M 8.5 · New Balance",
+      "link": "https://www.ebay.com/itm/920056216912",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$89.00",
+      "extracted_price": 89.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/aQUAAeSwKnlps4yP/s-l140.webp"
+    },
+    {
+      "position": 54,
+      "item_id": "800802196986",
+      "title": "New Balance 550 Blue/Gray Suede Low Top Lace-Up Men’s Sneaker US 10.5 D",
+      "subtitle": "US M 10.5 · New Balance",
+      "link": "https://www.ebay.com/itm/800802196986",
+      "condition": "Brand New",
+      "tag": "NEW LOW PRICE",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$45.00",
+      "extracted_price": 45.0,
+      "shipping": "+$7.13 delivery",
+      "extracted_shipping": 7.13,
+      "thumbnail": "https://i.ebayimg.com/images/g/wNgAAeSwZYJq0k9o/s-l140.webp"
+    },
+    {
+      "position": 55,
+      "item_id": "960119217877",
+      "title": "New Balance 550 Women 8.5 Sea Salt/Navy/Raw Sugar, White, Cream, off White SUEDE",
+      "subtitle": "US W 8.5 · New Balance",
+      "link": "https://www.ebay.com/itm/960119217877",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$99.00",
+      "extracted_price": 99.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/yAQAAeSw1A1q3sTl/s-l140.webp"
+    },
+    {
+      "position": 56,
+      "item_id": "257757649073",
+      "title": "Size 11.5 - New Balance 550 Permafrost Dark Alpine Green | BB550LGR",
+      "subtitle": "US M 11.5 · New Balance",
+      "link": "https://www.ebay.com/itm/257757649073",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$110.00",
+      "extracted_price": 110.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/y1IAAeSw1Xpqsdx0/s-l140.webp"
+    },
+    {
+      "position": 57,
+      "item_id": "198254709875",
+      "title": "NEW WITH BOX - Aime Leon Dore New Balance 550 ALD Brown Suede - US SIZE 9 Mens",
+      "subtitle": "US M 9 · New Balance · New Balance 500 Series",
+      "link": "https://www.ebay.com/itm/198254709875",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$79.99",
+      "extracted_price": 79.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/yuYAAeSwRL1p0RK9/s-l140.webp"
+    },
+    {
+      "position": 58,
+      "item_id": "377588329744",
+      "title": "New Balance 550 Low Top White/Purple Colorblock Sneakers Men's US 9",
+      "subtitle": "US M 9 · New Balance",
+      "link": "https://www.ebay.com/itm/377588329744",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/EKUAAeSwurRq2UYy/s-l140.webp"
+    },
+    {
+      "position": 59,
+      "item_id": "158035900229",
+      "title": "BB550GD1 New Balance 550 The Moon Daze Pack (Men's) Size 8.5",
+      "subtitle": "US M 8.5 · New Balance",
+      "link": "https://www.ebay.com/itm/158035900229",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$90.00",
+      "extracted_price": 90.0,
+      "shipping": "+$6.19 delivery",
+      "extracted_shipping": 6.19,
+      "thumbnail": "https://i.ebayimg.com/images/g/kEkAAeSwBsFqQYKR/s-l140.webp"
+    },
+    {
+      "position": 60,
+      "item_id": "128157507524",
+      "title": "Size 10 - New Balance 550 Sea Salt True Red",
+      "subtitle": "US M 10 · New Balance",
+      "link": "https://www.ebay.com/itm/128157507524",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$65.00",
+      "extracted_price": 65.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/tN4AAeSwUjRqjyAi/s-l140.webp"
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "new balance 550 mens",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=new+balance+550+mens&_sop=12"
+    },
+    {
+      "query": "new balance 550 womens",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=new+balance+550+womens&_sop=12"
+    },
+    {
+      "query": "new balance 650",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=new+balance+650&_sop=12"
+    },
+    {
+      "query": "new balance 530",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=new+balance+530&_sop=12"
+    },
+    {
+      "query": "new balance 550 white grey",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=new+balance+550+white+grey&_sop=12"
+    },
+    {
+      "query": "new balance 550 aime leon dore",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=new+balance+550+aime+leon+dore&_sop=12"
+    },
+    {
+      "query": "new balance 574",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=new+balance+574&_sop=12"
+    },
+    {
+      "query": "new balance 9060",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=new+balance+9060&_sop=12"
+    },
+    {
+      "query": "new balance 550 green",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=new+balance+550+green&_sop=12"
+    },
+    {
+      "query": "new balance 2002r",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=new+balance+2002r&_sop=12"
+    },
+    {
+      "query": "new balance 550 oreo - bb550ha1",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=new+balance+550+oreo+-+bb550ha1&_sop=12"
+    },
+    {
+      "query": "nike dunk low",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low&_sop=12"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&_pgn=2",
+    "other_pages": {
+      "2": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=new+balance+550&_pgn=10&rt=nc"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+# Match precision from the hand labels in data/match_labels.csv.
+
+require "bundler/setup"
+$LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
+require "cross_shop/match_labels"
+
+rows = CrossShop::MatchLabels.new(File.expand_path("../data/match_labels.csv", __dir__)).read
+abort "no data/match_labels.csv yet: run bin/label-matches" if rows.empty?
+
+report = CrossShop::MatchLabels.precision(rows)
+report.each do |tier, counts|
+  share = counts[:labelled].zero? ? "-" : "#{(100.0 * counts[:correct] / counts[:labelled]).round}%"
+  puts "#{tier.ljust(10)} #{counts[:correct]}/#{counts[:labelled]} correct (#{share})"
+end
+puts "unlabelled: #{rows.size - report.fetch("all")[:labelled]} of #{rows.size}"
+
+wrong = rows.select { |row| row["label"].to_s.strip == "n" }
+puts "\nwrong matches:" unless wrong.empty?
+wrong.each { |row| puts "  [#{row["tier"]}] #{row["amazon_title"]}\n      ≠ #{row["other_title"]}  #{row["note"]}" }

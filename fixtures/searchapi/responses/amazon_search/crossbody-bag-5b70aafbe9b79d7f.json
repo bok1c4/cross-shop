@@ -1,0 +1,2860 @@
+{
+  "search_metadata": {
+    "id": "search_1XbZBxkZENu6rOMgEv8JaLNR",
+    "status": "Success",
+    "created_at": "2026-10-26T18:48:49Z",
+    "request_time_taken": 1.59,
+    "parsing_time_taken": 0.2,
+    "total_time_taken": 1.79,
+    "request_url": "https://www.amazon.com/s?k=crossbody+bag",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_1XbZBxkZENu6rOMgEv8JaLNR.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_1XbZBxkZENu6rOMgEv8JaLNR"
+  },
+  "search_parameters": {
+    "engine": "amazon_search",
+    "q": "crossbody bag",
+    "amazon_domain": "amazon.com",
+    "delivery_country": "us"
+  },
+  "search_information": {
+    "query_displayed": "crossbody bag",
+    "price_min": "$0",
+    "extracted_price_min": 0,
+    "price_max": "$9,900+",
+    "extracted_price_max": 9900,
+    "delivering_to": "Delivering to Queens 11417"
+  },
+  "filters": [
+    {
+      "type": "Eligible for Free Shipping",
+      "options": [
+        {
+          "text": "Free Shipping by Amazon",
+          "rh": "p_76:2661625011"
+        }
+      ]
+    },
+    {
+      "type": "Delivery Day",
+      "options": [
+        {
+          "text": "Get It by Tomorrow",
+          "rh": "p_90:8308921011"
+        }
+      ]
+    },
+    {
+      "type": "Gender",
+      "options": [
+        {
+          "text": "Men",
+          "rh": "p_n_g-101015233022111:121075132011"
+        },
+        {
+          "text": "Women",
+          "rh": "p_n_g-101015233022111:121075131011"
+        },
+        {
+          "text": "Boys",
+          "rh": "p_n_g-101015233022111:121075136011"
+        },
+        {
+          "text": "Girls",
+          "rh": "p_n_g-101015233022111:121075133011"
+        },
+        {
+          "text": "Babies",
+          "rh": "p_n_g-101015233022111:121833111011"
+        },
+        {
+          "text": "Unisex",
+          "rh": "p_n_g-101015233022111:121833112011"
+        }
+      ]
+    },
+    {
+      "type": "Customer Review",
+      "options": [
+        {
+          "text": "4 Stars",
+          "rh": "p_72:2661618011"
+        }
+      ]
+    },
+    {
+      "type": "Color",
+      "options": [
+        {
+          "text": "Multi",
+          "rh": "p_n_g-1004232833091:2343357011"
+        },
+        {
+          "text": "Black",
+          "rh": "p_n_g-1004232833091:2343349011"
+        },
+        {
+          "text": "Browns",
+          "rh": "p_n_g-1004232833091:2343351011"
+        },
+        {
+          "text": "Greys",
+          "rh": "p_n_g-1004232833091:2343354011"
+        },
+        {
+          "text": "White",
+          "rh": "p_n_g-1004232833091:2343363011"
+        },
+        {
+          "text": "Beige",
+          "rh": "p_n_g-1004232833091:2343348011"
+        },
+        {
+          "text": "Reds",
+          "rh": "p_n_g-1004232833091:2343361011"
+        },
+        {
+          "text": "Pinks",
+          "rh": "p_n_g-1004232833091:2343359011"
+        },
+        {
+          "text": "Oranges",
+          "rh": "p_n_g-1004232833091:2343358011"
+        },
+        {
+          "text": "Yellows",
+          "rh": "p_n_g-1004232833091:2343364011"
+        },
+        {
+          "text": "Ivory",
+          "rh": "p_n_g-1004232833091:2343356011"
+        },
+        {
+          "text": "Greens",
+          "rh": "p_n_g-1004232833091:2343355011"
+        },
+        {
+          "text": "Blues",
+          "rh": "p_n_g-1004232833091:2343350011"
+        },
+        {
+          "text": "Purples",
+          "rh": "p_n_g-1004232833091:2343360011"
+        },
+        {
+          "text": "Golds",
+          "rh": "p_n_g-1004232833091:2343353011"
+        },
+        {
+          "text": "Silvers",
+          "rh": "p_n_g-1004232833091:2343362011"
+        },
+        {
+          "text": "Transparent",
+          "rh": "p_n_g-1004232833091:2343352011"
+        }
+      ]
+    },
+    {
+      "type": "Deals & Discounts",
+      "options": [
+        {
+          "text": "Up to $15",
+          "rh": "p_36:-1500"
+        },
+        {
+          "text": "$15 to $25",
+          "rh": "p_36:1500-2500"
+        },
+        {
+          "text": "$25 to $35",
+          "rh": "p_36:2500-3500"
+        },
+        {
+          "text": "$35 & above",
+          "rh": "p_36:3500-"
+        }
+      ]
+    },
+    {
+      "type": "Brands",
+      "options": [
+        {
+          "text": "Vera Bradley",
+          "rh": "p_123:217324"
+        },
+        {
+          "text": "Michael Kors",
+          "rh": "p_123:427346"
+        },
+        {
+          "text": "Coach",
+          "rh": "p_123:259499"
+        },
+        {
+          "text": "Marc Jacobs",
+          "rh": "p_123:179013"
+        },
+        {
+          "text": "kate spade new york",
+          "rh": "p_123:585756"
+        },
+        {
+          "text": "Kipling",
+          "rh": "p_123:240120"
+        },
+        {
+          "text": "Steve Madden",
+          "rh": "p_123:90637"
+        },
+        {
+          "text": "Baggallini",
+          "rh": "p_123:243814"
+        },
+        {
+          "text": "Herschel",
+          "rh": "p_123:232688"
+        },
+        {
+          "text": "Tory Burch",
+          "rh": "p_123:425155"
+        },
+        {
+          "text": "Fossil",
+          "rh": "p_123:179010"
+        },
+        {
+          "text": "Calvin Klein",
+          "rh": "p_123:232762"
+        },
+        {
+          "text": "The Sak",
+          "rh": "p_123:236706"
+        },
+        {
+          "text": "Fjällräven",
+          "rh": "p_123:258756"
+        },
+        {
+          "text": "GUESS",
+          "rh": "p_123:230590"
+        },
+        {
+          "text": "Dooney & Bourke",
+          "rh": "p_123:362472"
+        },
+        {
+          "text": "Louis Vuitton",
+          "rh": "p_123:423616"
+        },
+        {
+          "text": "Gucci",
+          "rh": "p_123:359001"
+        },
+        {
+          "text": "Betsey Johnson",
+          "rh": "p_123:236451"
+        },
+        {
+          "text": "Travelon",
+          "rh": "p_123:249623"
+        },
+        {
+          "text": "Longchamp",
+          "rh": "p_123:405727"
+        },
+        {
+          "text": "TUMI",
+          "rh": "p_123:232839"
+        },
+        {
+          "text": "Prada",
+          "rh": "p_123:358949"
+        },
+        {
+          "text": "Rebecca Minkoff",
+          "rh": "p_123:438223"
+        },
+        {
+          "text": "Tommy Hilfiger",
+          "rh": "p_123:232763"
+        },
+        {
+          "text": "Madewell",
+          "rh": "p_123:867932"
+        },
+        {
+          "text": "Frye",
+          "rh": "p_123:244599"
+        },
+        {
+          "text": "Nine West",
+          "rh": "p_123:378378"
+        },
+        {
+          "text": "KAVU",
+          "rh": "p_123:233273"
+        },
+        {
+          "text": "Lacoste",
+          "rh": "p_123:3878"
+        },
+        {
+          "text": "CHANEL",
+          "rh": "p_123:543860"
+        },
+        {
+          "text": "RADLEY",
+          "rh": "p_123:855496"
+        },
+        {
+          "text": "BAGGU",
+          "rh": "p_123:25508"
+        },
+        {
+          "text": "Pacsafe",
+          "rh": "p_123:828538"
+        },
+        {
+          "text": "BRAHMIN",
+          "rh": "p_123:158362"
+        },
+        {
+          "text": "HOBO",
+          "rh": "p_123:356985"
+        },
+        {
+          "text": "Timbuk2",
+          "rh": "p_123:239455"
+        },
+        {
+          "text": "BURBERRY",
+          "rh": "p_123:421299"
+        },
+        {
+          "text": "Cole Haan",
+          "rh": "p_123:215951"
+        },
+        {
+          "text": "Sakroots",
+          "rh": "p_123:236707"
+        }
+      ]
+    },
+    {
+      "type": "Amazon Fashion",
+      "options": [
+        {
+          "text": "Premium Brands",
+          "rh": "p_n_g-1004227705091:21451213011"
+        },
+        {
+          "text": "Top Brands",
+          "rh": "p_n_g-1004227705091:14630392011"
+        },
+        {
+          "text": "Amazon Luxury",
+          "rh": "p_n_g-1004227705091:24051913011"
+        }
+      ]
+    },
+    {
+      "type": "Included Components",
+      "options": [
+        {
+          "text": "Crossbody Bag",
+          "rh": "p_n_g-1003379548111:101369865011"
+        },
+        {
+          "text": "Shoulder Strap",
+          "rh": "p_n_g-1003379548111:101369867011"
+        },
+        {
+          "text": "Messenger Bag",
+          "rh": "p_n_g-1003379548111:24040324011"
+        },
+        {
+          "text": "Clutch",
+          "rh": "p_n_g-1003379548111:24040321011"
+        },
+        {
+          "text": "Card Holder",
+          "rh": "p_n_g-1003379548111:101369868011"
+        },
+        {
+          "text": "Cosmetic Bag",
+          "rh": "p_n_g-1003379548111:24040322011"
+        },
+        {
+          "text": "Keychain",
+          "rh": "p_n_g-1003379548111:101369866011"
+        },
+        {
+          "text": "Laptop Sleeve",
+          "rh": "p_n_g-1003379548111:223488636011"
+        },
+        {
+          "text": "Sling Bag",
+          "rh": "p_n_g-1003379548111:24040320011"
+        },
+        {
+          "text": "Wallet",
+          "rh": "p_n_g-1003379548111:24040325011"
+        },
+        {
+          "text": "Wristlet",
+          "rh": "p_n_g-1003379548111:24040323011"
+        }
+      ]
+    },
+    {
+      "type": "Special Features",
+      "options": [
+        {
+          "text": "Lightweight",
+          "rh": "p_n_g-1003378357111:24044876011"
+        },
+        {
+          "text": "Detachable Strap",
+          "rh": "p_n_g-1003378357111:43549492011"
+        },
+        {
+          "text": "Waterproof",
+          "rh": "p_n_g-1003378357111:24044877011"
+        },
+        {
+          "text": "Anti-Theft",
+          "rh": "p_n_g-1003378357111:24044869011"
+        },
+        {
+          "text": "Cell Phone Holder",
+          "rh": "p_n_g-1003378357111:24044867011"
+        },
+        {
+          "text": "Credit Card Slot",
+          "rh": "p_n_g-1003378357111:43549490011"
+        },
+        {
+          "text": "Laptop Compartment",
+          "rh": "p_n_g-1003378357111:24044871011"
+        },
+        {
+          "text": "RFID Blocking",
+          "rh": "p_n_g-1003378357111:24044881011"
+        },
+        {
+          "text": "Anti-Tilt",
+          "rh": "p_n_g-1003378357111:216974611011"
+        },
+        {
+          "text": "Bottle Holder",
+          "rh": "p_n_g-1003378357111:24044872011"
+        },
+        {
+          "text": "Built-In Scale",
+          "rh": "p_n_g-1003378357111:216974609011"
+        },
+        {
+          "text": "Built-In Wallet",
+          "rh": "p_n_g-1003378357111:216974610011"
+        },
+        {
+          "text": "Checkpoint Friendly",
+          "rh": "p_n_g-1003378357111:24044870011"
+        },
+        {
+          "text": "Convertible",
+          "rh": "p_n_g-1003378357111:219527162011"
+        },
+        {
+          "text": "Drop Bottom",
+          "rh": "p_n_g-1003378357111:24044873011"
+        },
+        {
+          "text": "Expandable",
+          "rh": "p_n_g-1003378357111:43549491011"
+        },
+        {
+          "text": "Fade Resistant",
+          "rh": "p_n_g-1003378357111:24044883011"
+        },
+        {
+          "text": "Foldable",
+          "rh": "p_n_g-1003378357111:24044874011"
+        },
+        {
+          "text": "Insulated",
+          "rh": "p_n_g-1003378357111:216974612011"
+        },
+        {
+          "text": "Lipstick Holder",
+          "rh": "p_n_g-1003378357111:216974614011"
+        },
+        {
+          "text": "Locking",
+          "rh": "p_n_g-1003378357111:24044865011"
+        },
+        {
+          "text": "Metal Feet Protection",
+          "rh": "p_n_g-1003378357111:216974615011"
+        },
+        {
+          "text": "Reversible",
+          "rh": "p_n_g-1003378357111:216974607011"
+        },
+        {
+          "text": "Scratch Resistant",
+          "rh": "p_n_g-1003378357111:215461812011"
+        },
+        {
+          "text": "Stain Resistant",
+          "rh": "p_n_g-1003378357111:24044880011"
+        },
+        {
+          "text": "Studded Bottom",
+          "rh": "p_n_g-1003378357111:216974613011"
+        },
+        {
+          "text": "Tablet Compartment",
+          "rh": "p_n_g-1003378357111:24044875011"
+        },
+        {
+          "text": "Tear Resistant",
+          "rh": "p_n_g-1003378357111:216310522011"
+        },
+        {
+          "text": "Transparent",
+          "rh": "p_n_g-1003378357111:204293446011"
+        },
+        {
+          "text": "Trolley Sleeve",
+          "rh": "p_n_g-1003378357111:24044868011"
+        },
+        {
+          "text": "USB Charging Port",
+          "rh": "p_n_g-1003378357111:216974608011"
+        },
+        {
+          "text": "Water Resistant",
+          "rh": "p_n_g-1003378357111:24044866011"
+        }
+      ]
+    },
+    {
+      "type": "Closure Type",
+      "options": [
+        {
+          "text": "Zipper",
+          "rh": "p_n_g-1003449233111:24398394011"
+        },
+        {
+          "text": "Buckle",
+          "rh": "p_n_g-1003449233111:24398389011"
+        },
+        {
+          "text": "Magnetic",
+          "rh": "p_n_g-1003449233111:24398395011"
+        },
+        {
+          "text": "Button",
+          "rh": "p_n_g-1003449233111:24398390011"
+        },
+        {
+          "text": "Clasp",
+          "rh": "p_n_g-1003449233111:24398391011"
+        },
+        {
+          "text": "Drawstring",
+          "rh": "p_n_g-1003449233111:24398397011"
+        },
+        {
+          "text": "Flap",
+          "rh": "p_n_g-1003449233111:24398398011"
+        },
+        {
+          "text": "Hook and Loop",
+          "rh": "p_n_g-1003449233111:24398392011"
+        },
+        {
+          "text": "Kiss Lock",
+          "rh": "p_n_g-1003449233111:24398393011"
+        },
+        {
+          "text": "Push Lock",
+          "rh": "p_n_g-1003449233111:24398400011"
+        },
+        {
+          "text": "Snap",
+          "rh": "p_n_g-1003449233111:24398399011"
+        },
+        {
+          "text": "Twist Lock",
+          "rh": "p_n_g-1003449233111:24398396011"
+        }
+      ]
+    },
+    {
+      "type": "Capacity",
+      "options": [
+        {
+          "text": "Up to 1 L",
+          "rh": "p_n_g-1003523639111:41942907011"
+        },
+        {
+          "text": "1.0 to 1.9 L",
+          "rh": "p_n_g-1003523639111:41942909011"
+        },
+        {
+          "text": "2.0 to 2.9 L",
+          "rh": "p_n_g-1003523639111:41942908011"
+        },
+        {
+          "text": "3.0 L & above",
+          "rh": "p_n_g-1003523639111:41942910011"
+        }
+      ]
+    },
+    {
+      "type": "Lining Description",
+      "options": [
+        {
+          "text": "Polyester",
+          "rh": "p_n_g-1003378079111:24040301011"
+        },
+        {
+          "text": "Leather",
+          "rh": "p_n_g-1003378079111:24040315011"
+        },
+        {
+          "text": "Cotton",
+          "rh": "p_n_g-1003378079111:24040305011"
+        },
+        {
+          "text": "Acrylic",
+          "rh": "p_n_g-1003378079111:24040302011"
+        },
+        {
+          "text": "Faux Fur",
+          "rh": "p_n_g-1003378079111:72948550011"
+        },
+        {
+          "text": "Faux Leather",
+          "rh": "p_n_g-1003378079111:24040306011"
+        },
+        {
+          "text": "Faux Suede",
+          "rh": "p_n_g-1003378079111:24040311011"
+        },
+        {
+          "text": "Linen",
+          "rh": "p_n_g-1003378079111:72948548011"
+        },
+        {
+          "text": "Nylon",
+          "rh": "p_n_g-1003378079111:24040316011"
+        },
+        {
+          "text": "Plastic",
+          "rh": "p_n_g-1003378079111:72948549011"
+        },
+        {
+          "text": "Polycotton",
+          "rh": "p_n_g-1003378079111:24040313011"
+        },
+        {
+          "text": "Polyurethane",
+          "rh": "p_n_g-1003378079111:24040303011"
+        },
+        {
+          "text": "Polyvinyl Chloride",
+          "rh": "p_n_g-1003378079111:24040314011"
+        },
+        {
+          "text": "Rayon",
+          "rh": "p_n_g-1003378079111:24040304011"
+        },
+        {
+          "text": "Rubber",
+          "rh": "p_n_g-1003378079111:24040310011"
+        },
+        {
+          "text": "Silk",
+          "rh": "p_n_g-1003378079111:24040307011"
+        },
+        {
+          "text": "Suede",
+          "rh": "p_n_g-1003378079111:24040308011"
+        },
+        {
+          "text": "Vinyl",
+          "rh": "p_n_g-1003378079111:24040312011"
+        }
+      ]
+    },
+    {
+      "type": "Seller",
+      "options": [
+        {
+          "text": "Amazon.com",
+          "rh": "p_6:ATVPDKIKX0DER"
+        },
+        {
+          "text": "hongtao-1",
+          "rh": "p_6:A33O1DC76V6LY8"
+        },
+        {
+          "text": "VIGTRO",
+          "rh": "p_6:AZ0LA67RZRDBX"
+        },
+        {
+          "text": "Kaltoon",
+          "rh": "p_6:A318F0XTA38ZI1"
+        },
+        {
+          "text": "Amazon Resale",
+          "rh": "p_6:A2L77EE7U53NWQ"
+        }
+      ]
+    },
+    {
+      "type": "Shell Type",
+      "options": [
+        {
+          "text": "Hybrid",
+          "rh": "p_n_g-101018101458111:222824965011"
+        },
+        {
+          "text": "Soft",
+          "rh": "p_n_g-101018101458111:222824963011"
+        }
+      ]
+    },
+    {
+      "type": "Sustainability Features",
+      "options": [
+        {
+          "text": "Any Feature",
+          "rh": "p_n_cpf_labels:121136630011"
+        },
+        {
+          "text": "Carbon Impact",
+          "rh": "p_n_cpf_labels:116845688011"
+        },
+        {
+          "text": "Manufacturing Practices",
+          "rh": "p_n_cpf_labels:116845690011"
+        },
+        {
+          "text": "Recycled Materials",
+          "rh": "p_n_cpf_labels:116845689011"
+        },
+        {
+          "text": "Safer Chemicals",
+          "rh": "p_n_cpf_labels:116845683011"
+        },
+        {
+          "text": "Worker Wellbeing",
+          "rh": "p_n_cpf_labels:116845686011"
+        }
+      ]
+    },
+    {
+      "type": "Item Length Longer Edge",
+      "options": [
+        {
+          "text": "Up to 6.9 in",
+          "rh": "p_n_g-101014951876111:119146731011"
+        },
+        {
+          "text": "7 to 7.9 in",
+          "rh": "p_n_g-101014951876111:119146732011"
+        },
+        {
+          "text": "8 to 8.9 in",
+          "rh": "p_n_g-101014951876111:119146734011"
+        },
+        {
+          "text": "9 to 9.9 in",
+          "rh": "p_n_g-101014951876111:119146729011"
+        },
+        {
+          "text": "10 in & above",
+          "rh": "p_n_g-101014951876111:119146728011"
+        }
+      ]
+    },
+    {
+      "type": "Pocket Description",
+      "options": [
+        {
+          "text": "Concealed Pocket",
+          "rh": "p_n_g-101017864772111:220418027011"
+        },
+        {
+          "text": "Jetted Pocket",
+          "rh": "p_n_g-101017864772111:220418031011"
+        },
+        {
+          "text": "Patch Pocket",
+          "rh": "p_n_g-101017864772111:220418033011"
+        },
+        {
+          "text": "Slash Pocket",
+          "rh": "p_n_g-101017864772111:220418028011"
+        },
+        {
+          "text": "Slip Pocket",
+          "rh": "p_n_g-101017864772111:220418026011"
+        },
+        {
+          "text": "Slit Pocket",
+          "rh": "p_n_g-101017864772111:220418030011"
+        },
+        {
+          "text": "Stash Pocket",
+          "rh": "p_n_g-101017864772111:220418029011"
+        },
+        {
+          "text": "Zipper Pocket",
+          "rh": "p_n_g-101017864772111:220418032011"
+        }
+      ]
+    },
+    {
+      "type": "Top Brands",
+      "options": [
+        {
+          "text": "Top Brands",
+          "rh": "p_n_g-101014971069111:119653281011"
+        }
+      ]
+    },
+    {
+      "type": "Item height surface to top",
+      "options": [
+        {
+          "text": "Up to 2.9 in",
+          "rh": "p_n_g-101014964229111:119186622011"
+        },
+        {
+          "text": "3 to 5.9 in",
+          "rh": "p_n_g-101014964229111:119186621011"
+        },
+        {
+          "text": "6 to 8.9 in",
+          "rh": "p_n_g-101014964229111:119186620011"
+        },
+        {
+          "text": "9 to 11.9 in",
+          "rh": "p_n_g-101014964229111:119186627011"
+        },
+        {
+          "text": "12 in & above",
+          "rh": "p_n_g-101014964229111:119186623011"
+        }
+      ]
+    },
+    {
+      "type": "Item Width Shorter Edge",
+      "options": [
+        {
+          "text": "Up to 1.9 in",
+          "rh": "p_n_g-101014952100111:119151228011"
+        },
+        {
+          "text": "2 to 2.9 in",
+          "rh": "p_n_g-101014952100111:119151227011"
+        },
+        {
+          "text": "3 to 3.9 in",
+          "rh": "p_n_g-101014952100111:119151222011"
+        },
+        {
+          "text": "4 to 4.9 in",
+          "rh": "p_n_g-101014952100111:119151230011"
+        },
+        {
+          "text": "5 to 5.9 in",
+          "rh": "p_n_g-101014952100111:119151231011"
+        },
+        {
+          "text": "6 in & above",
+          "rh": "p_n_g-101014952100111:119151223011"
+        }
+      ]
+    },
+    {
+      "type": "Display Size",
+      "options": [
+        {
+          "text": "Under 7 Inches",
+          "rh": "p_n_g-1004162281091:7817235011"
+        },
+        {
+          "text": "7 to 7.9 Inches",
+          "rh": "p_n_g-1004162281091:7817236011"
+        },
+        {
+          "text": "8 to 8.9 Inches",
+          "rh": "p_n_g-1004162281091:7817237011"
+        },
+        {
+          "text": "9 to 9.9 Inches",
+          "rh": "p_n_g-1004162281091:7817238011"
+        },
+        {
+          "text": "10 to 10.9 Inches",
+          "rh": "p_n_g-1004162281091:7817239011"
+        },
+        {
+          "text": "11 Inches & Up",
+          "rh": "p_n_g-1004162281091:7817240011"
+        }
+      ]
+    },
+    {
+      "type": "Water Resistance Level",
+      "options": [
+        {
+          "text": "Moisture Resistant",
+          "rh": "p_n_g-101017968906111:221385190011"
+        },
+        {
+          "text": "Not Water Resistant",
+          "rh": "p_n_g-101017968906111:221385191011"
+        },
+        {
+          "text": "Water Repellent",
+          "rh": "p_n_g-101017968906111:221385193011"
+        },
+        {
+          "text": "Water Resistant",
+          "rh": "p_n_g-101017968906111:221385192011"
+        },
+        {
+          "text": "Waterproof",
+          "rh": "p_n_g-101017968906111:221385189011"
+        }
+      ]
+    },
+    {
+      "type": "Embellishment Feature",
+      "options": [
+        {
+          "text": "Bow",
+          "rh": "p_n_g-1003377527111:24003443011"
+        },
+        {
+          "text": "Rhinestone",
+          "rh": "p_n_g-1003377527111:24003441011"
+        },
+        {
+          "text": "Tassel",
+          "rh": "p_n_g-1003377527111:24003444011"
+        },
+        {
+          "text": "Bead",
+          "rh": "p_n_g-1003377527111:24003437011"
+        },
+        {
+          "text": "Feather",
+          "rh": "p_n_g-1003377527111:216961171011"
+        },
+        {
+          "text": "Fringe",
+          "rh": "p_n_g-1003377527111:204390180011"
+        },
+        {
+          "text": "Glitter",
+          "rh": "p_n_g-1003377527111:24003445011"
+        },
+        {
+          "text": "Lace",
+          "rh": "p_n_g-1003377527111:24003436011"
+        },
+        {
+          "text": "Mirror Work",
+          "rh": "p_n_g-1003377527111:216961172011"
+        },
+        {
+          "text": "Piping",
+          "rh": "p_n_g-1003377527111:216961170011"
+        },
+        {
+          "text": "Sequin",
+          "rh": "p_n_g-1003377527111:24003438011"
+        }
+      ]
+    },
+    {
+      "type": "Width",
+      "options": [
+        {
+          "text": "Up to 1.9 in",
+          "rh": "p_n_g-101018021769111:222081152011"
+        },
+        {
+          "text": "2 to 3.9 in",
+          "rh": "p_n_g-101018021769111:222081153011"
+        },
+        {
+          "text": "4 to 5.9 in",
+          "rh": "p_n_g-101018021769111:222081154011"
+        },
+        {
+          "text": "6 in & above",
+          "rh": "p_n_g-101018021769111:222081148011"
+        }
+      ]
+    },
+    {
+      "type": "Strap Type",
+      "options": [
+        {
+          "text": "Adjustable",
+          "rh": "p_n_g-101015391303111:122127627011"
+        },
+        {
+          "text": "Cross-Body",
+          "rh": "p_n_g-101015391303111:122127626011"
+        },
+        {
+          "text": "Hand-Carry",
+          "rh": "p_n_g-101015391303111:122127624011"
+        },
+        {
+          "text": "Shoulder",
+          "rh": "p_n_g-101015391303111:122127625011"
+        },
+        {
+          "text": "Waist Strap",
+          "rh": "p_n_g-101015391303111:122127628011"
+        }
+      ]
+    },
+    {
+      "type": "Bag & Case Features",
+      "options": [
+        {
+          "text": "Checkpoint Friendly",
+          "rh": "p_n_g-1001308746111:3102242011"
+        },
+        {
+          "text": "Rolling & Wheeled",
+          "rh": "p_n_g-1001308746111:3102243011"
+        }
+      ]
+    },
+    {
+      "type": "Pattern",
+      "options": [
+        {
+          "text": "Animal Print",
+          "rh": "p_n_g-101017157586111:213409075011"
+        },
+        {
+          "text": "Argyle",
+          "rh": "p_n_g-101017157586111:213409091011"
+        },
+        {
+          "text": "Camouflage",
+          "rh": "p_n_g-101017157586111:213409073011"
+        },
+        {
+          "text": "Cartoon",
+          "rh": "p_n_g-101017157586111:213409074011"
+        },
+        {
+          "text": "Checkered",
+          "rh": "p_n_g-101017157586111:213409082011"
+        },
+        {
+          "text": "Chevron",
+          "rh": "p_n_g-101017157586111:213409097011"
+        },
+        {
+          "text": "Floral",
+          "rh": "p_n_g-101017157586111:213409095011"
+        },
+        {
+          "text": "Fruits",
+          "rh": "p_n_g-101017157586111:213409076011"
+        },
+        {
+          "text": "Geometric",
+          "rh": "p_n_g-101017157586111:213409079011"
+        },
+        {
+          "text": "Graphic",
+          "rh": "p_n_g-101017157586111:213409087011"
+        },
+        {
+          "text": "Heart",
+          "rh": "p_n_g-101017157586111:213409096011"
+        },
+        {
+          "text": "Herringbone",
+          "rh": "p_n_g-101017157586111:213409088011"
+        },
+        {
+          "text": "Houndstooth",
+          "rh": "p_n_g-101017157586111:213409085011"
+        },
+        {
+          "text": "Letter Print",
+          "rh": "p_n_g-101017157586111:213409090011"
+        },
+        {
+          "text": "Marble",
+          "rh": "p_n_g-101017157586111:213409084011"
+        },
+        {
+          "text": "Moire",
+          "rh": "p_n_g-101017157586111:213409083011"
+        },
+        {
+          "text": "Paisley",
+          "rh": "p_n_g-101017157586111:213409093011"
+        },
+        {
+          "text": "Plaid",
+          "rh": "p_n_g-101017157586111:213409081011"
+        },
+        {
+          "text": "Polka Dots",
+          "rh": "p_n_g-101017157586111:213409092011"
+        },
+        {
+          "text": "Solid",
+          "rh": "p_n_g-101017157586111:213409098011"
+        },
+        {
+          "text": "Stars",
+          "rh": "p_n_g-101017157586111:213409078011"
+        },
+        {
+          "text": "Striped",
+          "rh": "p_n_g-101017157586111:213409077011"
+        },
+        {
+          "text": "Tartan",
+          "rh": "p_n_g-101017157586111:213409080011"
+        },
+        {
+          "text": "Tie Dye",
+          "rh": "p_n_g-101017157586111:213409089011"
+        }
+      ]
+    },
+    {
+      "type": "Customizable Products",
+      "options": [
+        {
+          "text": "Customizable",
+          "rh": "p_n_customizable_template_name:16031489011"
+        }
+      ]
+    },
+    {
+      "type": "Handmade Products",
+      "options": [
+        {
+          "text": "Handmade",
+          "rh": "p_n_feature_thirty-four_browse-bin:217421938011"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "asin": "B0FNNCQ8QT",
+      "title": "Wallet and handbag, top handle, shoulder bag, women's mailman bag",
+      "link": "https://www.amazon.com/Womens-Leather-Handbag-Shoulder-Crossbody/dp/B0FNNCQ8QT/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody bag&qid=1793040529&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+      "rating": 4.4,
+      "reviews": 77,
+      "price": "$31.99",
+      "extracted_price": 31.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/81um4wnTnRL._AC_UL320_.jpg"
+    },
+    {
+      "position": 2,
+      "asin": "B0FNR51TPP",
+      "title": "Women's shoulder bag, women's wallet, vintage handbag, synthetic leather crossbody bag with adjustable shoulder strap",
+      "link": "https://www.amazon.com/RTPRTP-Crossbody-Detachable-Shoulder-Decorative/dp/B0FNR51TPP/ref=sr_1_2_sspa?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody bag&qid=1793040529&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+      "rating": 4.6,
+      "reviews": 143,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$31.99",
+      "extracted_price": 31.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71sEWEfvOlL._AC_UL320_.jpg"
+    },
+    {
+      "position": 3,
+      "asin": "B0FNNBQWL7",
+      "title": "Women's Vegan Leather Bucket Purse with Braided Handle Charm, Mini Crossbody Gift Pouch & Strap",
+      "link": "https://www.amazon.com/RTPRTP-Crossbody-Leather-Removable-Shoulder/dp/B0FNNBQWL7/ref=sr_1_3_sspa?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody bag&qid=1793040529&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+      "rating": 4.4,
+      "reviews": 108,
+      "price": "$29.99",
+      "extracted_price": 29.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71v+Rk4aIZL._AC_UL320_.jpg"
+    },
+    {
+      "position": 4,
+      "asin": "B0B7NSB649",
+      "title": "Small Crossbody Bag for Women Designer Cell Phone Purse",
+      "link": "https://www.amazon.com/BOSTANTEN-Leather-Crossbody-Designer-Adjustable/dp/B0B7NSB649/ref=sr_1_4_sspa?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody bag&qid=1793040529&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+      "brand": "BOSTANTEN",
+      "rating": 4.6,
+      "reviews": 11073,
+      "recent_sales": "1K+ bought in past month",
+      "extracted_recent_sales": 1000,
+      "price": "$22.94",
+      "extracted_price": 22.94,
+      "original_price": "$33.73",
+      "extracted_original_price": 33.73,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/91Ve5rY7HLL._AC_UL320_.jpg"
+    },
+    {
+      "position": 5,
+      "asin": "B0C3LRC59F",
+      "title": "Small Sling Backpack Crossbody Bags for Women Men, Small Sling Bag Cross Body Bag Fanny Packs Crossbody Purses - Black",
+      "link": "https://www.amazon.com/Backpack-Crossbody-Daypack-Outdoors-Traveling/dp/B0C3LRC59F/ref=sr_1_5?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-5",
+      "brand": "Banelu",
+      "rating": 4.4,
+      "reviews": 6430,
+      "recent_sales": "5K+ bought in past month",
+      "extracted_recent_sales": 5000,
+      "price": "$8.45",
+      "extracted_price": 8.45,
+      "original_price": "$20.95",
+      "extracted_original_price": 20.95,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "bestseller": {
+        "category": "in Women's Fashion Backpack Handbags"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/816MtFRcmTL._AC_UL320_.jpg"
+    },
+    {
+      "position": 6,
+      "asin": "B0CJFN2HJK",
+      "title": "Crossbody Bags for Women Men Trendy Sling Bag Backpack Casual Chest Bag with Convertible Shoulder Strap",
+      "link": "https://www.amazon.com/Pritent-Crossbody-Convertible-Shoulder-Traveling/dp/B0CJFN2HJK/ref=sr_1_6?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-6",
+      "brand": "Pritent",
+      "rating": 4.5,
+      "reviews": 6542,
+      "recent_sales": "6K+ bought in past month",
+      "extracted_recent_sales": 6000,
+      "price": "$9.30",
+      "extracted_price": 9.3,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_overall_pick": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71ItoIVU2SL._AC_UL320_.jpg"
+    },
+    {
+      "position": 7,
+      "asin": "B0F4XLFZP8",
+      "title": "Cross Body Purse, Mini Crossbody Bags for Women Travel Purse",
+      "link": "https://www.amazon.com/BAGSMART-Crossbody-Shoulder-Blocking-Black-small/dp/B0F4XLFZP8/ref=sr_1_7?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-7",
+      "brand": "BAGSMART",
+      "rating": 4.5,
+      "reviews": 2686,
+      "recent_sales": "5K+ bought in past month",
+      "extracted_recent_sales": 5000,
+      "price": "$15.99",
+      "extracted_price": 15.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61aGCBrk-hL._AC_UL320_.jpg"
+    },
+    {
+      "position": 8,
+      "asin": "B0BGHYFLRH",
+      "title": "Crossbody Crescent Bag for Women Men, Crescent Bag with Adjustable Strap.",
+      "link": "https://www.amazon.com/Crossbody-Crescent-Adjustable-Lightweight-nylon/dp/B0BGHYFLRH/ref=sr_1_8?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-8",
+      "rating": 4.4,
+      "reviews": 3259,
+      "price": "$15.99",
+      "extracted_price": 15.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/41du7hPQg3L._AC_UL320_.jpg"
+    },
+    {
+      "position": 9,
+      "asin": "B07WYKJXXY",
+      "title": "Large Fanny Pack for Women Men Crossbody Bag with 4-Zipper Pockets",
+      "link": "https://www.amazon.com/MAXTOP-Crossbody-4-Zipper-Hands-Free-Traveling/dp/B07WYKJXXY/ref=sr_1_9?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-9",
+      "brand": "MAXTOP",
+      "rating": 4.6,
+      "reviews": 54971,
+      "recent_sales": "9K+ bought in past month",
+      "extracted_recent_sales": 9000,
+      "price": "$13.97",
+      "extracted_price": 13.97,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "bestseller": {
+        "category": "in Hiking Waist Packs"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61uozaua++L._AC_UL320_.jpg"
+    },
+    {
+      "position": 10,
+      "asin": "B07T5D98RW",
+      "title": "Crossbody Sling Backpack Sling Bag Travel Hiking Chest Bag Daypack (Black)",
+      "link": "https://www.amazon.com/Waterfly-Crossbody-Backpack-Travel-Daypack/dp/B07T5D98RW/ref=sr_1_10?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-10",
+      "brand": "WATERFLY",
+      "rating": 4.5,
+      "reviews": 48345,
+      "recent_sales": "4K+ bought in past month",
+      "extracted_recent_sales": 4000,
+      "price": "$24.99",
+      "extracted_price": 24.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "bestseller": {
+        "category": "in Men's Cross-Body Sling Bags"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/610QzKj7tLL._AC_UL320_.jpg"
+    },
+    {
+      "position": 11,
+      "asin": "B0DPKC6NPG",
+      "title": "Cross-body Bag Small Handbag For Men, Shoulder Mini Bag For Women, Travel Chest Daypack for Hiking, Camping, Sports",
+      "link": "https://www.amazon.com/AMJ-SLASH-PROOF-Chest-Bag-Cut-Resistant/dp/B0DPKC6NPG/ref=sr_1_11_sspa?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody bag&qid=1793040529&sr=8-11-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "rating": 4.3,
+      "reviews": 194,
+      "price": "$24.99",
+      "extracted_price": 24.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61+FFHHak3L._AC_UL320_.jpg"
+    },
+    {
+      "position": 12,
+      "asin": "B0GHS53FY8",
+      "title": "Corduroy Small Crossbody Bags for Women Teen Girls Trendy",
+      "link": "https://www.amazon.com/ELONGRIVER-Corduroy-Crossbody-Trendy-Strawberry/dp/B0GHS53FY8/ref=sr_1_12_sspa?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody bag&qid=1793040529&sr=8-12-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "rating": 4.8,
+      "reviews": 119,
+      "recent_sales": "400+ bought in past month",
+      "extracted_recent_sales": 400,
+      "price": "$9.99",
+      "extracted_price": 9.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71HUyl8L36L._AC_UL320_.jpg"
+    },
+    {
+      "position": 13,
+      "asin": "B07MTZHMLX",
+      "title": "RFID Purses for Women Fabric Nylon Multi Pocket Crossbody Bag Ladies Travel Handbag",
+      "link": "https://www.amazon.com/Lightweight-Shoulder-Messenger-Waterproof-Crossbody/dp/B07MTZHMLX/ref=sr_1_13_sspa?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody bag&qid=1793040529&sr=8-13-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "VOLGANIK ROCK",
+      "rating": 4.4,
+      "reviews": 6702,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$24.99",
+      "extracted_price": 24.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61G4owNktuL._AC_UL320_.jpg"
+    },
+    {
+      "position": 14,
+      "asin": "B07PLM5XJP",
+      "title": "Sling Bag for Men, Upgraded Type-C Charging Port Casual Shoulder Chest Bag, Crossbody Sling Bag, Casual Shoulder Backpack, Chest Daypack Satchel for Hiking Travel (Black, Small)",
+      "link": "https://www.amazon.com/AMJ-Shoulder-Backpack-Crossbody-Daypack/dp/B07PLM5XJP/ref=sr_1_14_sspa?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody bag&qid=1793040529&sr=8-14-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "rating": 4.4,
+      "reviews": 7214,
+      "recent_sales": "700+ bought in past month",
+      "extracted_recent_sales": 700,
+      "price": "$26.99",
+      "extracted_price": 26.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61cRtoiPOGL._AC_UL320_.jpg"
+    },
+    {
+      "position": 15,
+      "asin": "B0BM5PD5KB",
+      "title": "Two Way Zipper Fanny Pack Nylon Everywhere Belt Bag for Women, Water Repellent Waist Packs, Crossbody Bags with Adjustable Strap (Black).",
+      "link": "https://www.amazon.com/Pander-Fashion-Crossbody-Everywhere-Adjustable/dp/B0BM5PD5KB/ref=sr_1_15?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-15",
+      "brand": "Pander",
+      "rating": 4.7,
+      "reviews": 7720,
+      "recent_sales": "#1 Top Rated",
+      "extracted_recent_sales": 1,
+      "price": "$14.99",
+      "extracted_price": 14.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "bestseller": {
+        "category": "in Fashion Waist Packs"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81NeFFDFsxL._AC_UL320_.jpg"
+    },
+    {
+      "position": 16,
+      "asin": "B0F4XNBY4Y",
+      "title": "Cross Body Purse, Mini Crossbody Bags for Women Travel Purse",
+      "link": "https://www.amazon.com/BAGSMART-Crossbody-Shoulder-Blocking-Brown-small/dp/B0F4XNBY4Y/ref=sr_1_16?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-16",
+      "brand": "BAGSMART",
+      "rating": 4.5,
+      "reviews": 2686,
+      "recent_sales": "2K+ bought in past month",
+      "extracted_recent_sales": 2000,
+      "price": "$15.99",
+      "extracted_price": 15.99,
+      "original_price": "$19.99",
+      "extracted_original_price": 19.99,
+      "original_price_label": "List Price",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71jFGLYFp7L._AC_UL320_.jpg"
+    },
+    {
+      "position": 17,
+      "asin": "B0CVSGMRHJ",
+      "title": "Crossbody Zip Bag, Durable, Adjustable Crossbody Bag with Zipper Closure for Men and Women",
+      "link": "https://www.amazon.com/Carhartt-Durable-Adjustable-Essential-Crossbody/dp/B0CVSGMRHJ/ref=sr_1_17?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-17",
+      "brand": "Carhartt",
+      "rating": 4.6,
+      "reviews": 822,
+      "recent_sales": "3K+ bought in past month",
+      "extracted_recent_sales": 3000,
+      "price": "$19.79",
+      "extracted_price": 19.79,
+      "original_price": "$32.99",
+      "extracted_original_price": 32.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Oct 31 - Nov 2 on $35 of items shipped by Amazon",
+          "type": "FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Oct 31 - Nov 2"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Sat, Oct 31",
+          "type": "Or fastest delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/812LvkcEo-L._AC_UL320_.jpg"
+    },
+    {
+      "position": 18,
+      "asin": "B0DJXJNNJC",
+      "title": "Crossbody Bags for Women, Sling Bag for Men",
+      "link": "https://www.amazon.com/Crossbody-Hiking-Backpack-Lightweight-Outdoors/dp/B0DJXJNNJC/ref=sr_1_18?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-18",
+      "brand": "Tuwubi",
+      "rating": 4.5,
+      "reviews": 2341,
+      "recent_sales": "2K+ bought in past month",
+      "extracted_recent_sales": 2000,
+      "price": "$9.59",
+      "extracted_price": 9.59,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61JX0iyHKgL._AC_UL320_.jpg"
+    },
+    {
+      "position": 19,
+      "asin": "B0CZNGP66C",
+      "title": "Crossbody Sling Backpack Sling Bag for Men Women, Travel Hiking Chest Bag Daypack, Small over the Shoulder Backpack",
+      "link": "https://www.amazon.com/Voova-Crossbody-Backpack-Daypack-Shoulder/dp/B0CZNGP66C/ref=sr_1_19_sspa?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody bag&qid=1793040529&sr=8-19-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Voova",
+      "rating": 4.6,
+      "reviews": 161,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$18.99",
+      "extracted_price": 18.99,
+      "coupon": {
+        "badge_text": "You pay $13.29",
+        "text": "with coupon (some sizes/colors)"
+      },
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71qgcRCmylL._AC_UL320_.jpg"
+    },
+    {
+      "position": 20,
+      "asin": "B0CDQGPWRN",
+      "title": "Vintage Messenger Bag, Canvas Backpack for Travel, Men's Shoulder Bag, Dual-use Bag for Hand Carry and Crossbody Carry",
+      "link": "https://www.amazon.com/Messenger-Crossbody-Lightweight-Shoulder-Suitable/dp/B0CDQGPWRN/ref=sr_1_20_sspa?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody bag&qid=1793040529&sr=8-20-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "rating": 4.6,
+      "reviews": 306,
+      "price": "$29.98",
+      "extracted_price": 29.98,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71mQZznfjdL._AC_UL320_.jpg"
+    },
+    {
+      "position": 21,
+      "asin": "B089D476W6",
+      "title": "Small Crossbody Bags for Women, Mini Travel Sling Purse",
+      "link": "https://www.amazon.com/INICAT-Crossbody-Synthetic-Leather-Purses/dp/B089D476W6/ref=sr_1_21_sspa?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody bag&qid=1793040529&sr=8-21-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "rating": 4.6,
+      "reviews": 7745,
+      "recent_sales": "500+ bought in past month",
+      "extracted_recent_sales": 500,
+      "price": "$25.99",
+      "extracted_price": 25.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71raFtvQdOL._AC_UL320_.jpg"
+    },
+    {
+      "position": 22,
+      "asin": "B0GC5G9MD3",
+      "title": "Crossbody Bags for Women, Medium Vegan Leather Purses",
+      "link": "https://www.amazon.com/FORUWISH-Crossbody-Leather-Spacious-Shoulder/dp/B0GC5G9MD3/ref=sr_1_22_sspa?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody bag&qid=1793040529&sr=8-22-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "rating": 4.5,
+      "reviews": 142,
+      "recent_sales": "300+ bought in past month",
+      "extracted_recent_sales": 300,
+      "price": "$32.98",
+      "extracted_price": 32.98,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/81FS11eQchL._AC_UL320_.jpg"
+    },
+    {
+      "position": 23,
+      "asin": "B0CJMPYZRL",
+      "title": "Classic Adjustable Sling Bag, Durable, 600-Denier Water Resistant Hip Pack",
+      "link": "https://www.amazon.com/Carhartt-Adjustable-Waist-Durable-Resistant/dp/B0CJMPYZRL/ref=sr_1_23?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-23",
+      "brand": "Carhartt",
+      "rating": 4.7,
+      "reviews": 3394,
+      "recent_sales": "2K+ bought in past month",
+      "extracted_recent_sales": 2000,
+      "price": "$32.99",
+      "extracted_price": 32.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/8119vyL8L2L._AC_UL320_.jpg"
+    },
+    {
+      "position": 24,
+      "asin": "B0DRP2HYXG",
+      "title": "Checkered Crossbody Bum Bags for Women Nylon Checkered Purse Checkerboard Fanny Pack",
+      "link": "https://www.amazon.com/Checkered-Crossbody-Women-Nylon-Checkerboard/dp/B0DRP2HYXG/ref=sr_1_24?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-24",
+      "rating": 4.5,
+      "reviews": 908,
+      "recent_sales": "900+ bought in past month",
+      "extracted_recent_sales": 900,
+      "price": "$7.99",
+      "extracted_price": 7.99,
+      "original_price": "$9.99",
+      "extracted_original_price": 9.99,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61iiCPQjloL._AC_UL320_.jpg"
+    },
+    {
+      "position": 25,
+      "asin": "B0BWH7GP46",
+      "title": "Mini Crossbody Sling Bag - Water-Resistant Dual Pocket Chest Pack - Lightweight Fanny Pack for Running, Travel & Everyday Workout",
+      "link": "https://www.amazon.com/Simptech-Crossbody-Resistant-Hands-Free-Travelling/dp/B0BWH7GP46/ref=sr_1_25?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-25",
+      "brand": "simptech",
+      "rating": 4.5,
+      "reviews": 7175,
+      "price": "$16.99",
+      "extracted_price": 16.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/41gWF9Q-6QL._AC_UL320_.jpg"
+    },
+    {
+      "position": 26,
+      "asin": "B0CN9QN9XH",
+      "title": "Jester Crossbody Bag, TNF Black-NPF, OS",
+      "link": "https://www.amazon.com/North-Face-Crossbody-Adjustable-Water-Repellent/dp/B0CN9QN9XH/ref=sr_1_26?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-26",
+      "brand": "The North Face",
+      "rating": 4.6,
+      "reviews": 3399,
+      "recent_sales": "900+ bought in past month",
+      "extracted_recent_sales": 900,
+      "price": "$35.00",
+      "extracted_price": 35.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71C1ew-T71L._AC_UL320_.jpg"
+    },
+    {
+      "position": 27,
+      "asin": "B0DSPR24RD",
+      "title": "Spacious Nylon Crossbody Bag Bum Bag Handbags Purses for Women",
+      "link": "https://www.amazon.com/FEIBOON-Spacious-Crossbody-Handbags-Shoulder/dp/B0DSPR24RD/ref=sr_1_27?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-27",
+      "brand": "FEIBOON",
+      "rating": 4.5,
+      "reviews": 1173,
+      "recent_sales": "1K+ bought in past month",
+      "extracted_recent_sales": 1000,
+      "price": "$21.99",
+      "extracted_price": 21.99,
+      "original_price": "$26.99",
+      "extracted_original_price": 26.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61cIl1jvODL._AC_UL320_.jpg"
+    },
+    {
+      "position": 28,
+      "asin": "B0CM8HFFQQ",
+      "title": "Small Crossbody Bags for Women Belt Bag Fanny Pack with Adjustable Strap",
+      "link": "https://www.amazon.com/MAXTOP-Crossbody-Cellphone-Adjustable-Traveling/dp/B0CM8HFFQQ/ref=sr_1_28?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-28",
+      "brand": "MAXTOP",
+      "rating": 4.5,
+      "reviews": 3558,
+      "recent_sales": "3K+ bought in past month",
+      "extracted_recent_sales": 3000,
+      "price": "$12.99",
+      "extracted_price": 12.99,
+      "original_price": "$14.99",
+      "extracted_original_price": 14.99,
+      "original_price_label": "List Price",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/514dbA35PBL._AC_UL320_.jpg"
+    },
+    {
+      "position": 29,
+      "asin": "B0DSSZT6QT",
+      "title": "Crossbody Bags for Women Waterproof Sling Bag Fanny Pack",
+      "link": "https://www.amazon.com/Capolo-Waterproof-Crossbody-Convertible-Shoulder/dp/B0DSSZT6QT/ref=sr_1_29?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-29",
+      "rating": 4.5,
+      "reviews": 1571,
+      "recent_sales": "3K+ bought in past month",
+      "extracted_recent_sales": 3000,
+      "price": "$9.99",
+      "extracted_price": 9.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71CWQJqNl1L._AC_UL320_.jpg"
+    },
+    {
+      "position": 30,
+      "asin": "B0F467JWJ2",
+      "title": "Crossbody Snap Bag",
+      "link": "https://www.amazon.com/Carhartt-Crossbody-Adjustable-Shoulder-Greenstone/dp/B0F467JWJ2/ref=sr_1_30?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-30",
+      "brand": "Carhartt",
+      "rating": 4.6,
+      "reviews": 855,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$42.99",
+      "extracted_price": 42.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/819bGZKXniL._AC_UL320_.jpg"
+    },
+    {
+      "position": 31,
+      "asin": "B0GFMXTNPK",
+      "title": "Cross Body Purse, Small Crossbody Bags for Women Travel Purse, Casual Shoulder Handbag Wallet",
+      "link": "https://www.amazon.com/BAGSMART-Crossbody-Travel-Shoulder-Handbag/dp/B0GFMXTNPK/ref=sr_1_31?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-31",
+      "brand": "BAGSMART",
+      "rating": 4.3,
+      "reviews": 270,
+      "recent_sales": "400+ bought in past month",
+      "extracted_recent_sales": 400,
+      "price": "$12.99",
+      "extracted_price": 12.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/711d5XavYCL._AC_UL320_.jpg"
+    },
+    {
+      "position": 32,
+      "asin": "B0FB3XNQ4J",
+      "title": "Sling Bag, Crossbody Bag with Zipper Lock, RFID Blocking & Water Resistant for Men and Women",
+      "link": "https://www.amazon.com/VADOO-Crossbody-Zipper-Blocking-Resistant/dp/B0FB3XNQ4J/ref=sr_1_32?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-32",
+      "rating": 4.6,
+      "reviews": 986,
+      "recent_sales": "2K+ bought in past month",
+      "extracted_recent_sales": 2000,
+      "price": "$28.99",
+      "extracted_price": 28.99,
+      "coupon": {
+        "badge_text": "You pay $26.09",
+        "text": "with coupon (some sizes/colors)"
+      },
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71hHs3rUiVL._AC_UL320_.jpg"
+    },
+    {
+      "position": 33,
+      "asin": "B002B3FWXY",
+      "title": "Anti-Theft Classic Messenger Bag",
+      "link": "https://www.amazon.com/Travelon-Anti-Theft-Classic-Messenger-Size/dp/B002B3FWXY/ref=sr_1_33?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-33",
+      "brand": "Travelon",
+      "rating": 4.4,
+      "reviews": 10978,
+      "recent_sales": "2K+ bought in past month",
+      "extracted_recent_sales": 2000,
+      "price": "$51.99",
+      "extracted_price": 51.99,
+      "original_price": "$88.00",
+      "extracted_original_price": 88.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/91Lzr4uiyYL._AC_UL320_.jpg"
+    },
+    {
+      "position": 34,
+      "asin": "B0CMQCZ76Y",
+      "title": "Trendy Leather Crossbody Purse, Women's Shoulder Handbag",
+      "link": "https://www.amazon.com/APHISON-Crossbody-Adjustable-Shoulder-Handbags/dp/B0CMQCZ76Y/ref=sr_1_34?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-34",
+      "brand": "APHISON",
+      "rating": 4.6,
+      "reviews": 3618,
+      "recent_sales": "1K+ bought in past month",
+      "extracted_recent_sales": 1000,
+      "price": "$21.99",
+      "extracted_price": 21.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81R8d85ohVL._AC_UL320_.jpg"
+    },
+    {
+      "position": 35,
+      "asin": "B0CYTGD2LP",
+      "title": "Essentials Sling Bag",
+      "link": "https://www.amazon.com/adidas-Essentials-Sling-Crossbody-Black/dp/B0CYTGD2LP/ref=sr_1_35?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-35",
+      "brand": "adidas",
+      "rating": 4.5,
+      "reviews": 1278,
+      "recent_sales": "600+ bought in past month",
+      "extracted_recent_sales": 600,
+      "price": "$33.60",
+      "extracted_price": 33.6,
+      "original_price": "$48.00",
+      "extracted_original_price": 48.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61YtqSss94L._AC_UL320_.jpg"
+    },
+    {
+      "position": 36,
+      "asin": "B01LWCSMG2",
+      "title": "Triple Zip Small Crossbody Bag",
+      "link": "https://www.amazon.com/Small-Triple-Zip-Crossbody-Black/dp/B01LWCSMG2/ref=sr_1_36?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-36",
+      "rating": 4.6,
+      "reviews": 34184,
+      "recent_sales": "1K+ bought in past month",
+      "extracted_recent_sales": 1000,
+      "price": "$24.95",
+      "extracted_price": 24.95,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/610RkUswzqL._AC_UL320_.jpg"
+    },
+    {
+      "position": 37,
+      "asin": "B01CG1J7XG",
+      "title": "Anti-Theft Heritage Small Crossbody Bag",
+      "link": "https://www.amazon.com/Travelon-Anti-theft-Heritage-Crossbody-Pewter/dp/B01CG1J7XG/ref=sr_1_37?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-37",
+      "brand": "Travelon",
+      "rating": 4.5,
+      "reviews": 7435,
+      "recent_sales": "1K+ bought in past month",
+      "extracted_recent_sales": 1000,
+      "price": "$44.91",
+      "extracted_price": 44.91,
+      "original_price": "$66.00",
+      "extracted_original_price": 66.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/91qvYSDXf-L._AC_UL320_.jpg"
+    },
+    {
+      "position": 38,
+      "asin": "B0756VCN94",
+      "title": "Hobo Crossbody Bag for Women, Designer Shoulder Purse Handbags",
+      "link": "https://www.amazon.com/Realer-Crossbody-Multi-Pocket-Organization-Adjustable/dp/B0756VCN94/ref=sr_1_38?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-38",
+      "rating": 4.3,
+      "reviews": 27394,
+      "recent_sales": "900+ bought in past month",
+      "extracted_recent_sales": 900,
+      "price": "$37.98",
+      "extracted_price": 37.98,
+      "original_price": "$43.99",
+      "extracted_original_price": 43.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71tDlPKr3vL._AC_UL320_.jpg"
+    },
+    {
+      "position": 39,
+      "asin": "B0FDB444RW",
+      "title": "Small Sling Bag for Women, Puffer Crossbody Bag Hobo Handbag",
+      "link": "https://www.amazon.com/BAGSMART-Quilted-Crossbody-Lightweight-Pockets/dp/B0FDB444RW/ref=sr_1_39?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-39",
+      "brand": "BAGSMART",
+      "rating": 4.3,
+      "reviews": 1346,
+      "recent_sales": "2K+ bought in past month",
+      "extracted_recent_sales": 2000,
+      "price": "$18.69",
+      "extracted_price": 18.69,
+      "original_price": "$21.99",
+      "extracted_original_price": 21.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71PAmT1K+GL._AC_UL320_.jpg"
+    },
+    {
+      "position": 40,
+      "asin": "B07DQR3GLJ",
+      "title": "Crossbody Purse Bag Shoulder Bag Multi Pocket Zipper Purse",
+      "link": "https://www.amazon.com/DELUXITY-Crossbody-Functional-Pocket-Adjustable/dp/B07DQR3GLJ/ref=sr_1_40?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-40",
+      "brand": "DELUXITY",
+      "rating": 4.4,
+      "reviews": 7917,
+      "recent_sales": "1K+ bought in past month",
+      "extracted_recent_sales": 1000,
+      "price": "$13.46",
+      "extracted_price": 13.46,
+      "original_price": "$18.95",
+      "extracted_original_price": 18.95,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "is_small_business": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/819Ua5bDb-L._AC_UL320_.jpg"
+    },
+    {
+      "position": 41,
+      "asin": "B0DS2RKMFC",
+      "title": "Anti-Theft The Voyages Compact Sling",
+      "link": "https://www.amazon.com/Travelon-Anti-Theft-Voyages-Compact-Sling/dp/B0DS2RKMFC/ref=sr_1_41?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-41",
+      "brand": "Travelon",
+      "rating": 4.5,
+      "reviews": 602,
+      "recent_sales": "700+ bought in past month",
+      "extracted_recent_sales": 700,
+      "price": "$43.84",
+      "extracted_price": 43.84,
+      "original_price": "$60.50",
+      "extracted_original_price": 60.5,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81tg3b+HIJL._AC_UL320_.jpg"
+    },
+    {
+      "position": 42,
+      "asin": "B0BCPVLDX6",
+      "title": "Belt bag Fanny pack crossbody bags for women Everywhere belt bag (black)",
+      "link": "https://www.amazon.com/Fanny-crossbody-women-Everywhere-Pockets/dp/B0BCPVLDX6/ref=sr_1_42?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-42",
+      "brand": "WITROMAN",
+      "rating": 4.4,
+      "reviews": 6998,
+      "recent_sales": "5K+ bought in past month",
+      "extracted_recent_sales": 5000,
+      "price": "$6.98",
+      "extracted_price": 6.98,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71u1FfIhrsL._AC_UL320_.jpg"
+    },
+    {
+      "position": 43,
+      "asin": "B0FPD6TNDD",
+      "title": "Unisex Adult Classics Heritage 2.0 Crossbody Bag (2L or 4L) | Mens and Womens",
+      "link": "https://www.amazon.com/Nike-Heritage-Crossbody-Small-Black/dp/B0FPD6TNDD/ref=sr_1_43?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-43",
+      "brand": "Nike",
+      "rating": 4.7,
+      "reviews": 136,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$25.00",
+      "extracted_price": 25.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71e5vcJ3tiL._AC_UL320_.jpg"
+    },
+    {
+      "position": 44,
+      "asin": "B0DPQN4Z6W",
+      "title": "Spacious Checkered Nylon Crossbody Bag Bum Bag Handbags for Women",
+      "link": "https://www.amazon.com/FEIBOON-Spacious-Checkered-Crossbody-Handbags/dp/B0DPQN4Z6W/ref=sr_1_44?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-44",
+      "brand": "FEIBOON",
+      "rating": 4.7,
+      "reviews": 2356,
+      "recent_sales": "1K+ bought in past month",
+      "extracted_recent_sales": 1000,
+      "price": "$21.99",
+      "extracted_price": 21.99,
+      "coupon": {
+        "badge_text": "You pay $16.05",
+        "text": "with coupon (some sizes/colors)"
+      },
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71x9rptslaL._AC_UL320_.jpg"
+    },
+    {
+      "position": 45,
+      "asin": "B0F42DJ6J7",
+      "title": "Quilted Crossbody Bags for Women, Travel Purses Hobo Shoulder Bag",
+      "link": "https://www.amazon.com/BAGSMART-Quilted-Crossbody-Shoulder-Handbag/dp/B0F42DJ6J7/ref=sr_1_45?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-45",
+      "brand": "BAGSMART",
+      "rating": 4.6,
+      "reviews": 1195,
+      "recent_sales": "2K+ bought in past month",
+      "extracted_recent_sales": 2000,
+      "price": "$24.99",
+      "extracted_price": 24.99,
+      "original_price": "$29.99",
+      "extracted_original_price": 29.99,
+      "original_price_label": "List Price",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61KimJBoxXL._AC_UL320_.jpg"
+    },
+    {
+      "position": 46,
+      "asin": "B0C3573L1M",
+      "title": "High Coast Crossbody",
+      "link": "https://www.amazon.com/Fjallraven-High-Coast-Crossbody-Bag/dp/B0C3573L1M/ref=sr_1_46?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-46",
+      "brand": "Fjällräven",
+      "rating": 4.7,
+      "reviews": 650,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$43.21",
+      "extracted_price": 43.21,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71iB33css9L._AC_UL320_.jpg"
+    },
+    {
+      "position": 47,
+      "asin": "B005AIIPLS",
+      "title": "Anti-Theft Classic Mini Shoulder Bag",
+      "link": "https://www.amazon.com/Travelon-Anti-Theft-Classic-Shoulder-Black/dp/B005AIIPLS/ref=sr_1_47?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-47",
+      "brand": "Travelon",
+      "rating": 4.6,
+      "reviews": 10229,
+      "recent_sales": "2K+ bought in past month",
+      "extracted_recent_sales": 2000,
+      "price": "$42.99",
+      "extracted_price": 42.99,
+      "original_price": "$60.50",
+      "extracted_original_price": 60.5,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81T-lS41-nL._AC_UL320_.jpg"
+    },
+    {
+      "position": 48,
+      "asin": "B0FWKTPFXR",
+      "title": "Women's Rogue Bag 31",
+      "link": "https://www.amazon.com/Soft-Grain-Leather-Rogue-Bag/dp/B0FWKTPFXR/ref=sr_1_48?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-48",
+      "brand": "Coach",
+      "rating": 4.9,
+      "reviews": 15,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$795.00",
+      "extracted_price": 795.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81aNqyhsnYL._AC_UL320_.jpg"
+    },
+    {
+      "position": 49,
+      "asin": "B0GD193BPN",
+      "title": "Crossbody Bags for Women, Puffer Cute Bum Bag with Pouch",
+      "link": "https://www.amazon.com/BAGSMART-Crossbody-Puffer-Quilted-College/dp/B0GD193BPN/ref=sr_1_49?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-49",
+      "brand": "BAGSMART",
+      "rating": 4.4,
+      "reviews": 535,
+      "price": "$19.99",
+      "extracted_price": 19.99,
+      "original_price": "$22.99",
+      "extracted_original_price": 22.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71ApAJ8Ye6L._AC_UL320_.jpg"
+    },
+    {
+      "position": 50,
+      "asin": "B085S8CPHY",
+      "title": "Women Shoulder Handbag Roomy Multiple Pockets Bag Ladies Crossbody Purse Fashion Tote Top Handle Satchel",
+      "link": "https://www.amazon.com/MINTEGRA-Shoulder-Handbag-Multiple-Crossbody/dp/B085S8CPHY/ref=sr_1_50?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-50",
+      "brand": "MINTEGRA",
+      "rating": 4.4,
+      "reviews": 23759,
+      "recent_sales": "1K+ bought in past month",
+      "extracted_recent_sales": 1000,
+      "price": "$32.39",
+      "extracted_price": 32.39,
+      "original_price": "$35.99",
+      "extracted_original_price": 35.99,
+      "original_price_label": "Typical price",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61mkAdhVeOL._AC_UL320_.jpg"
+    },
+    {
+      "position": 51,
+      "asin": "B0D5YZ3244",
+      "title": "Daylite Shoulder Sling Bag, Black OS",
+      "link": "https://www.amazon.com/Osprey-Daylite-Shoulder-Sling-Black/dp/B0D5YZ3244/ref=sr_1_51_mod_primary_new?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=8-51",
+      "brand": "Osprey",
+      "rating": 4.6,
+      "reviews": 1255,
+      "recent_sales": "400+ bought in past month",
+      "extracted_recent_sales": 400,
+      "price": "$52.96",
+      "extracted_price": 52.96,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61R8Ecyf17L._AC_UL320_.jpg"
+    },
+    {
+      "position": 52,
+      "asin": "B0GWN7H4C1",
+      "title": "Mini Crossbody Bags for Women Travel Purse, Cross Body Bag with Pockets",
+      "link": "https://www.amazon.com/Crossbody-Women-Travel-Purse-Pockets/dp/B0GWN7H4C1/ref=sr_1_52?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-52",
+      "rating": 4.6,
+      "reviews": 189,
+      "recent_sales": "1K+ bought in past month",
+      "extracted_recent_sales": 1000,
+      "price": "$9.99",
+      "extracted_price": 9.99,
+      "original_price": "$19.99",
+      "extracted_original_price": 19.99,
+      "original_price_label": "List Price",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/617KqU3-saL._AC_UL320_.jpg"
+    },
+    {
+      "position": 53,
+      "asin": "B0GZ1WJ6D1",
+      "title": "Crossbody Hobo Bags for Women, Small Puffer Everyday Purse",
+      "link": "https://www.amazon.com/BAGSMART-Crossbody-Lightweight-Water-Resistant-Adjustable/dp/B0GZ1WJ6D1/ref=sr_1_53?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-53",
+      "brand": "BAGSMART",
+      "rating": 4.6,
+      "reviews": 382,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$17.99",
+      "extracted_price": 17.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61TA0MgDRBL._AC_UL320_.jpg"
+    },
+    {
+      "position": 54,
+      "asin": "B0DXV5XXBL",
+      "title": "Fashion Mini Crossbody Bag, Handbags Purses with Adjustable Strap for Women, Ladies Shoulder Totes Bag",
+      "link": "https://www.amazon.com/Fashion-Crossbody-Handbags-Adjustable-Shoulder/dp/B0DXV5XXBL/ref=sr_1_54?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-54",
+      "rating": 4.2,
+      "reviews": 1143,
+      "price": "$15.99",
+      "extracted_price": 15.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61I3TEy5dcL._AC_UL320_.jpg"
+    },
+    {
+      "position": 55,
+      "asin": "B0FBGGYSX4",
+      "title": "Crossbody Bag for Women, RFID Vegan Leather Medium Purse",
+      "link": "https://www.amazon.com/Lexiyat-Crossbody-Handbags-Shoulder-Adjustable/dp/B0FBGGYSX4/ref=sr_1_55?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-55",
+      "rating": 4.7,
+      "reviews": 998,
+      "recent_sales": "800+ bought in past month",
+      "extracted_recent_sales": 800,
+      "price": "$25.07",
+      "extracted_price": 25.07,
+      "original_price": "$32.99",
+      "extracted_original_price": 32.99,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/817UJA4ja4L._AC_UL320_.jpg"
+    },
+    {
+      "position": 56,
+      "asin": "B0FSQ9XY76",
+      "title": "Anti Theft Crossbody Bags for Women, RFID Travel Sling Purse",
+      "link": "https://www.amazon.com/SYTRAH-Theft-Crossbody-Travel-Purses/dp/B0FSQ9XY76/ref=sr_1_56?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-56",
+      "rating": 4.7,
+      "reviews": 288,
+      "recent_sales": "800+ bought in past month",
+      "extracted_recent_sales": 800,
+      "price": "$29.99",
+      "extracted_price": 29.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71-AuUzgtCL._AC_UL320_.jpg"
+    },
+    {
+      "position": 57,
+      "asin": "B0CKNZCMJB",
+      "title": "Travel Sling Bag for Men, Mini Crossbody Phone Bag for Everyday Carry",
+      "link": "https://www.amazon.com/higouta-Crossbody-Trendy-Casual-Waterproof/dp/B0CKNZCMJB/ref=sr_1_57?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-57",
+      "rating": 4.4,
+      "reviews": 3195,
+      "price": "$13.49",
+      "extracted_price": 13.49,
+      "original_price": "$14.99",
+      "extracted_original_price": 14.99,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71x31p9ssrL._AC_UL320_.jpg"
+    },
+    {
+      "position": 58,
+      "asin": "B0DFNB614Z",
+      "title": "Move Sling Bag – 6L Travel Daypack",
+      "link": "https://www.amazon.com/JanSport-Move-Sling-Crossbody-Bag/dp/B0DFNB614Z/ref=sr_1_58_mod_primary_new?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=8-58",
+      "brand": "JanSport",
+      "rating": 4.5,
+      "reviews": 457,
+      "recent_sales": "300+ bought in past month",
+      "extracted_recent_sales": 300,
+      "price": "$31.50",
+      "extracted_price": 31.5,
+      "original_price": "$35.00",
+      "extracted_original_price": 35.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81+MObG2m+L._AC_UL320_.jpg"
+    },
+    {
+      "position": 59,
+      "asin": "B07Q4C4KGD",
+      "title": "Women's Nylon Crossbody Purse, Anti-Theft RFID Lightweight",
+      "link": "https://www.amazon.com/Crossbody-Anti-Theft-RFID-Pocket/dp/B07Q4C4KGD/ref=sr_1_59?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-59",
+      "brand": "MHCNLL",
+      "rating": 4.5,
+      "reviews": 6761,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$20.98",
+      "extracted_price": 20.98,
+      "original_price": "$27.99",
+      "extracted_original_price": 27.99,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71BTwhQWfcL._AC_UL320_.jpg"
+    },
+    {
+      "position": 60,
+      "asin": "B088X1P414",
+      "title": "High Coast Hip Pack – Lightweight Waist Pack, Crossbody Sling Bag for Travel, Hiking & Everyday Use, Black",
+      "link": "https://www.amazon.com/Fj%C3%A4llr%C3%A4ven-High-Coast-Pack-Black/dp/B088X1P414/ref=sr_1_60?dib=eyJ2IjoiMSJ9.p3q-SWt5BJJEfH5CpMXUbWEg0wlMAvQ8oUzLV65auNSnfQs3KgWCQ90TXNfE4ni7O7et5CQ5Bx8LXaOvlUFNwvb7I82J_SkVcv-1EBSw4YJ76_ybjavE8sd099oDSNBMapc9Xzq8M7eezU4JazOGl3oftkLcLjHHKDk6YDnnfAb1LmT5Efv4jRXHj-x4s3by4C3YsH6q_06KvMMeJxXenbwagRMEeUESs-vnmbbZtniFX4hW4IxS_DfKK2u5MFGdAV7gxUfvyBGhTN9Vr50Lc_ROCwyk498n5Ux4a3nFuS0.hKgMMAWPRcP-S7RQZh2xFEfMyg2uXhDv4rHAY9kg2yg&dib_tag=se&keywords=crossbody+bag&qid=1793040529&sr=8-60",
+      "brand": "Fjällräven",
+      "rating": 4.8,
+      "reviews": 1807,
+      "recent_sales": "300+ bought in past month",
+      "extracted_recent_sales": 300,
+      "price": "$37.80",
+      "extracted_price": 37.8,
+      "original_price": "$41.45",
+      "extracted_original_price": 41.45,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sun, Nov 1",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sun, Nov 1"
+        }
+      },
+      "availability": "Only 5 left in stock - order soon.",
+      "thumbnail": "https://m.media-amazon.com/images/I/61ygslnEkBL._AC_UL320_.jpg"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.amazon.com/s?k=crossbody+bag&page=2&xpid=g3jYEuyfKaruv&qid=1793040529&ref=sr_pg_1",
+    "other_pages": {
+      "2": "https://www.amazon.com/s?k=crossbody+bag&page=2&xpid=g3jYEuyfKaruv&qid=1793040529&ref=sr_pg_2",
+      "3": "https://www.amazon.com/s?k=crossbody+bag&page=3&xpid=g3jYEuyfKaruv&qid=1793040529&ref=sr_pg_3"
+    }
+  }
+}

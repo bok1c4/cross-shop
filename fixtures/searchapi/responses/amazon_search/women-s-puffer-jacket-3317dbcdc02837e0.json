@@ -1,0 +1,2678 @@
+{
+  "search_metadata": {
+    "id": "search_yawpDZvY5Rc1G76nNvWPdXoM",
+    "status": "Success",
+    "created_at": "2026-10-26T18:48:25Z",
+    "request_time_taken": 14.33,
+    "parsing_time_taken": 0.05,
+    "total_time_taken": 14.38,
+    "request_url": "https://www.amazon.com/s?k=women%27s+puffer+jacket",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_yawpDZvY5Rc1G76nNvWPdXoM.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_yawpDZvY5Rc1G76nNvWPdXoM"
+  },
+  "search_parameters": {
+    "engine": "amazon_search",
+    "q": "women's puffer jacket",
+    "amazon_domain": "amazon.com",
+    "delivery_country": "us"
+  },
+  "search_information": {
+    "query_displayed": "women's puffer jacket",
+    "price_min": "$0",
+    "extracted_price_min": 0,
+    "price_max": "$2,000+",
+    "extracted_price_max": 2000,
+    "delivering_to": "Delivering to Jesup 31545"
+  },
+  "filters": [
+    {
+      "type": "Eligible for Free Shipping",
+      "options": [
+        {
+          "text": "Free Shipping by Amazon",
+          "rh": "p_76:2661625011"
+        }
+      ]
+    },
+    {
+      "type": "Delivery Day",
+      "options": [
+        {
+          "text": "Get It by Tomorrow",
+          "rh": "p_90:8308921011"
+        }
+      ]
+    },
+    {
+      "type": "Gender",
+      "options": [
+        {
+          "text": "Men",
+          "rh": "p_n_g-101015233022111:121075132011"
+        },
+        {
+          "text": "Women",
+          "rh": "p_n_g-101015233022111:121075131011"
+        },
+        {
+          "text": "Boys",
+          "rh": "p_n_g-101015233022111:121075136011"
+        },
+        {
+          "text": "Girls",
+          "rh": "p_n_g-101015233022111:121075133011"
+        },
+        {
+          "text": "Babies",
+          "rh": "p_n_g-101015233022111:121833111011"
+        },
+        {
+          "text": "Unisex",
+          "rh": "p_n_g-101015233022111:121833112011"
+        }
+      ]
+    },
+    {
+      "type": "Customer Reviews",
+      "options": [
+        {
+          "text": "4 Stars",
+          "rh": "p_72:2661618011"
+        }
+      ]
+    },
+    {
+      "type": "Color",
+      "options": [
+        {
+          "text": "Black",
+          "rh": "p_n_g-1004232833091:2343349011"
+        },
+        {
+          "text": "Blues",
+          "rh": "p_n_g-1004232833091:2343350011"
+        },
+        {
+          "text": "Greens",
+          "rh": "p_n_g-1004232833091:2343355011"
+        },
+        {
+          "text": "Greys",
+          "rh": "p_n_g-1004232833091:2343354011"
+        },
+        {
+          "text": "White",
+          "rh": "p_n_g-1004232833091:2343363011"
+        },
+        {
+          "text": "Browns",
+          "rh": "p_n_g-1004232833091:2343351011"
+        },
+        {
+          "text": "Beige",
+          "rh": "p_n_g-1004232833091:2343348011"
+        },
+        {
+          "text": "Reds",
+          "rh": "p_n_g-1004232833091:2343361011"
+        },
+        {
+          "text": "Pinks",
+          "rh": "p_n_g-1004232833091:2343359011"
+        },
+        {
+          "text": "Oranges",
+          "rh": "p_n_g-1004232833091:2343358011"
+        },
+        {
+          "text": "Yellows",
+          "rh": "p_n_g-1004232833091:2343364011"
+        },
+        {
+          "text": "Ivory",
+          "rh": "p_n_g-1004232833091:2343356011"
+        },
+        {
+          "text": "Purples",
+          "rh": "p_n_g-1004232833091:2343360011"
+        },
+        {
+          "text": "Golds",
+          "rh": "p_n_g-1004232833091:2343353011"
+        },
+        {
+          "text": "Silvers",
+          "rh": "p_n_g-1004232833091:2343362011"
+        },
+        {
+          "text": "Multi",
+          "rh": "p_n_g-1004232833091:2343357011"
+        },
+        {
+          "text": "Transparent",
+          "rh": "p_n_g-1004232833091:2343352011"
+        }
+      ]
+    },
+    {
+      "type": "Deals & Discounts",
+      "options": [
+        {
+          "text": "Up to $20",
+          "rh": "p_36:-2000"
+        },
+        {
+          "text": "$20 to $30",
+          "rh": "p_36:2000-3000"
+        },
+        {
+          "text": "$30 to $40",
+          "rh": "p_36:3000-4000"
+        },
+        {
+          "text": "$40 & above",
+          "rh": "p_36:4000-"
+        }
+      ]
+    },
+    {
+      "type": "Length",
+      "options": [
+        {
+          "text": "Extra Short Length",
+          "rh": "p_n_g-101018140053111:223488538011"
+        },
+        {
+          "text": "Short Length",
+          "rh": "p_n_g-101018140053111:223488537011"
+        },
+        {
+          "text": "Standard Length",
+          "rh": "p_n_g-101018140053111:223488534011"
+        },
+        {
+          "text": "Long Length",
+          "rh": "p_n_g-101018140053111:223488535011"
+        },
+        {
+          "text": "Extra Long Length",
+          "rh": "p_n_g-101018140053111:223488536011"
+        }
+      ]
+    },
+    {
+      "type": "Women's General Clothing Size",
+      "options": [
+        {
+          "text": "XXS",
+          "rh": "p_n_pt_nav_size_women_size:2475477011"
+        },
+        {
+          "text": "XS",
+          "rh": "p_n_pt_nav_size_women_size:2475478011"
+        },
+        {
+          "text": "S",
+          "rh": "p_n_pt_nav_size_women_size:2475479011"
+        },
+        {
+          "text": "M",
+          "rh": "p_n_pt_nav_size_women_size:2475480011"
+        },
+        {
+          "text": "L",
+          "rh": "p_n_pt_nav_size_women_size:2475481011"
+        },
+        {
+          "text": "XL",
+          "rh": "p_n_pt_nav_size_women_size:2475482011"
+        },
+        {
+          "text": "XXL",
+          "rh": "p_n_pt_nav_size_women_size:2475483011"
+        },
+        {
+          "text": "3XL",
+          "rh": "p_n_pt_nav_size_women_size:84644232011"
+        },
+        {
+          "text": "4XL",
+          "rh": "p_n_pt_nav_size_women_size:84644233011"
+        },
+        {
+          "text": "5XL",
+          "rh": "p_n_pt_nav_size_women_size:84644235011"
+        },
+        {
+          "text": "6XL",
+          "rh": "p_n_pt_nav_size_women_size:84644230011"
+        },
+        {
+          "text": "7XL",
+          "rh": "p_n_pt_nav_size_women_size:84644227011"
+        },
+        {
+          "text": "8XL",
+          "rh": "p_n_pt_nav_size_women_size:84644239011"
+        }
+      ]
+    },
+    {
+      "type": "Women's Plus Numeric Clothing Size",
+      "options": [
+        {
+          "text": "14",
+          "rh": "p_n_pt_nav_size_women_plus_numeric_size:2445369011"
+        },
+        {
+          "text": "18",
+          "rh": "p_n_pt_nav_size_women_plus_numeric_size:2445371011"
+        },
+        {
+          "text": "22",
+          "rh": "p_n_pt_nav_size_women_plus_numeric_size:2445373011"
+        },
+        {
+          "text": "26",
+          "rh": "p_n_pt_nav_size_women_plus_numeric_size:2445375011"
+        },
+        {
+          "text": "30",
+          "rh": "p_n_pt_nav_size_women_plus_numeric_size:6055471011"
+        },
+        {
+          "text": "34",
+          "rh": "p_n_pt_nav_size_women_plus_numeric_size:6055473011"
+        },
+        {
+          "text": "38",
+          "rh": "p_n_pt_nav_size_women_plus_numeric_size:6055475011"
+        },
+        {
+          "text": "42",
+          "rh": "p_n_pt_nav_size_women_plus_numeric_size:84630989011"
+        },
+        {
+          "text": "44",
+          "rh": "p_n_pt_nav_size_women_plus_numeric_size:84630991011"
+        },
+        {
+          "text": "46",
+          "rh": "p_n_pt_nav_size_women_plus_numeric_size:84630986011"
+        },
+        {
+          "text": "48",
+          "rh": "p_n_pt_nav_size_women_plus_numeric_size:84631007011"
+        },
+        {
+          "text": "52",
+          "rh": "p_n_pt_nav_size_women_plus_numeric_size:84631001011"
+        }
+      ]
+    },
+    {
+      "type": "Women's Plus General Clothing Size",
+      "options": [
+        {
+          "text": "1X",
+          "rh": "p_n_feature_fifteen_browse-bin:2479506011"
+        },
+        {
+          "text": "2X",
+          "rh": "p_n_feature_fifteen_browse-bin:2479507011"
+        },
+        {
+          "text": "3X",
+          "rh": "p_n_feature_fifteen_browse-bin:2479508011"
+        },
+        {
+          "text": "4X",
+          "rh": "p_n_feature_fifteen_browse-bin:2479509011"
+        },
+        {
+          "text": "5X",
+          "rh": "p_n_feature_fifteen_browse-bin:2479510011"
+        },
+        {
+          "text": "6X",
+          "rh": "p_n_feature_fifteen_browse-bin:2479511011"
+        },
+        {
+          "text": "10X",
+          "rh": "p_n_feature_fifteen_browse-bin:84630983011"
+        }
+      ]
+    },
+    {
+      "type": "Women's Numeric Clothing Size",
+      "options": [
+        {
+          "text": "0",
+          "rh": "p_n_size_six_browse-vebin:2445378011"
+        },
+        {
+          "text": "1-2",
+          "rh": "p_n_size_six_browse-vebin:2445385011"
+        },
+        {
+          "text": "3-4",
+          "rh": "p_n_size_six_browse-vebin:2445386011"
+        },
+        {
+          "text": "5-6",
+          "rh": "p_n_size_six_browse-vebin:2445387011"
+        },
+        {
+          "text": "9-10",
+          "rh": "p_n_size_six_browse-vebin:2445380011"
+        },
+        {
+          "text": "11-12",
+          "rh": "p_n_size_six_browse-vebin:2445381011"
+        },
+        {
+          "text": "13-14",
+          "rh": "p_n_size_six_browse-vebin:2445382011"
+        },
+        {
+          "text": "16",
+          "rh": "p_n_size_six_browse-vebin:2445383011"
+        },
+        {
+          "text": "18",
+          "rh": "p_n_size_six_browse-vebin:2445384011"
+        }
+      ]
+    },
+    {
+      "type": "Special Clothing Size",
+      "options": [
+        {
+          "text": "Big & Tall",
+          "rh": "p_n_shoe_width_browse-vebin:492380011"
+        },
+        {
+          "text": "Juniors",
+          "rh": "p_n_shoe_width_browse-vebin:13130370011"
+        },
+        {
+          "text": "Petite",
+          "rh": "p_n_shoe_width_browse-vebin:492383011"
+        },
+        {
+          "text": "Plus Size",
+          "rh": "p_n_shoe_width_browse-vebin:492379011"
+        }
+      ]
+    },
+    {
+      "type": "Brands",
+      "options": [
+        {
+          "text": "Columbia",
+          "rh": "p_123:232621"
+        },
+        {
+          "text": "The North Face",
+          "rh": "p_123:196635"
+        },
+        {
+          "text": "Eddie Bauer",
+          "rh": "p_123:29518"
+        },
+        {
+          "text": "Calvin Klein",
+          "rh": "p_123:232762"
+        },
+        {
+          "text": "Tommy Hilfiger",
+          "rh": "p_123:232763"
+        },
+        {
+          "text": "Marmot",
+          "rh": "p_123:237221"
+        },
+        {
+          "text": "Lands' End",
+          "rh": "p_123:446687"
+        },
+        {
+          "text": "Michael Kors",
+          "rh": "p_123:427346"
+        },
+        {
+          "text": "DKNY",
+          "rh": "p_123:544216"
+        },
+        {
+          "text": "Helly Hansen",
+          "rh": "p_123:239591"
+        },
+        {
+          "text": "Levi's",
+          "rh": "p_123:200356"
+        },
+        {
+          "text": "Reebok",
+          "rh": "p_123:232840"
+        },
+        {
+          "text": "Mountain Hardwear",
+          "rh": "p_123:232619"
+        },
+        {
+          "text": "Cole Haan",
+          "rh": "p_123:215951"
+        },
+        {
+          "text": "Rab",
+          "rh": "p_123:438121"
+        },
+        {
+          "text": "Outdoor Research",
+          "rh": "p_123:234665"
+        },
+        {
+          "text": "adidas",
+          "rh": "p_123:198664"
+        },
+        {
+          "text": "Nike",
+          "rh": "p_123:234394"
+        },
+        {
+          "text": "PUMA",
+          "rh": "p_123:256097"
+        },
+        {
+          "text": "Forever 21",
+          "rh": "p_123:560565"
+        },
+        {
+          "text": "Free People",
+          "rh": "p_123:402591"
+        },
+        {
+          "text": "Obermeyer",
+          "rh": "p_123:330819"
+        },
+        {
+          "text": "Amazon Essentials",
+          "rh": "p_123:393482"
+        },
+        {
+          "text": "Berghaus",
+          "rh": "p_123:395166"
+        },
+        {
+          "text": "32 Degrees",
+          "rh": "p_123:248637"
+        },
+        {
+          "text": "Orolay",
+          "rh": "p_123:78792"
+        },
+        {
+          "text": "Nautica",
+          "rh": "p_123:52584"
+        },
+        {
+          "text": "GUESS",
+          "rh": "p_123:230590"
+        },
+        {
+          "text": "wantdo",
+          "rh": "p_123:306154"
+        },
+        {
+          "text": "Kenneth Cole New York",
+          "rh": "p_123:570537"
+        },
+        {
+          "text": "Outdoor Ventures",
+          "rh": "p_123:523176"
+        },
+        {
+          "text": "Bellivera",
+          "rh": "p_123:307478"
+        },
+        {
+          "text": "Spyder",
+          "rh": "p_123:247410"
+        },
+        {
+          "text": "Under Armour",
+          "rh": "p_123:6832"
+        },
+        {
+          "text": "MAGCOMSEN",
+          "rh": "p_123:332241"
+        },
+        {
+          "text": "Dokotoo",
+          "rh": "p_123:146669"
+        },
+        {
+          "text": "Gihuo",
+          "rh": "p_123:262921"
+        },
+        {
+          "text": "Laundry by Shelli Segal",
+          "rh": "p_123:541342"
+        },
+        {
+          "text": "CANADA WEATHER GEAR",
+          "rh": "p_123:395377"
+        },
+        {
+          "text": "CAMEL CROWN",
+          "rh": "p_123:413867"
+        }
+      ]
+    },
+    {
+      "type": "Amazon Fashion",
+      "options": [
+        {
+          "text": "Our Brands",
+          "rh": "p_n_g-1004227705091:16926165011"
+        },
+        {
+          "text": "Premium Brands",
+          "rh": "p_n_g-1004227705091:21451213011"
+        },
+        {
+          "text": "Top Brands",
+          "rh": "p_n_g-1004227705091:14630392011"
+        }
+      ]
+    },
+    {
+      "type": "Seasons",
+      "options": [
+        {
+          "text": "All",
+          "rh": "p_n_g-1003413174111:24196132011"
+        },
+        {
+          "text": "Fall",
+          "rh": "p_n_g-1003413174111:24196135011"
+        },
+        {
+          "text": "Spring",
+          "rh": "p_n_g-1003413174111:24196136011"
+        },
+        {
+          "text": "Summer",
+          "rh": "p_n_g-1003413174111:24196133011"
+        },
+        {
+          "text": "Winter",
+          "rh": "p_n_g-1003413174111:24196134011"
+        }
+      ]
+    },
+    {
+      "type": "Sleeve Type",
+      "options": [
+        {
+          "text": "Balloon Sleeve",
+          "rh": "p_n_g-101017344386111:214322528011"
+        },
+        {
+          "text": "Batwing Sleeve",
+          "rh": "p_n_g-101017344386111:214322542011"
+        },
+        {
+          "text": "Bell Sleeve",
+          "rh": "p_n_g-101017344386111:214322523011"
+        },
+        {
+          "text": "Bishop Sleeve",
+          "rh": "p_n_g-101017344386111:214322541011"
+        },
+        {
+          "text": "Cap Sleeve",
+          "rh": "p_n_g-101017344386111:214322527011"
+        },
+        {
+          "text": "Cape Sleeve",
+          "rh": "p_n_g-101017344386111:214322534011"
+        },
+        {
+          "text": "Cold Shoulder Sleeve",
+          "rh": "p_n_g-101017344386111:214322538011"
+        },
+        {
+          "text": "Cuff Sleeve",
+          "rh": "p_n_g-101017344386111:214322525011"
+        },
+        {
+          "text": "Flutter Sleeve",
+          "rh": "p_n_g-101017344386111:214322531011"
+        },
+        {
+          "text": "Gathered Sleeve",
+          "rh": "p_n_g-101017344386111:214322524011"
+        },
+        {
+          "text": "Kimono Sleeve",
+          "rh": "p_n_g-101017344386111:214322529011"
+        },
+        {
+          "text": "Lantern Sleeve",
+          "rh": "p_n_g-101017344386111:214322535011"
+        },
+        {
+          "text": "Leg of Mutton Sleeve",
+          "rh": "p_n_g-101017344386111:214322530011"
+        },
+        {
+          "text": "Puff Sleeve",
+          "rh": "p_n_g-101017344386111:214322539011"
+        },
+        {
+          "text": "Raglan Sleeve",
+          "rh": "p_n_g-101017344386111:214322532011"
+        },
+        {
+          "text": "Roll Up Sleeve",
+          "rh": "p_n_g-101017344386111:214322526011"
+        },
+        {
+          "text": "Ruffle Sleeve",
+          "rh": "p_n_g-101017344386111:214322533011"
+        },
+        {
+          "text": "Split Sleeve",
+          "rh": "p_n_g-101017344386111:214322537011"
+        },
+        {
+          "text": "Tulip Sleeve",
+          "rh": "p_n_g-101017344386111:214322536011"
+        }
+      ]
+    },
+    {
+      "type": "Care Instructions",
+      "options": [
+        {
+          "text": "Dry Clean Only",
+          "rh": "p_n_g-1003416129111:24046363011"
+        },
+        {
+          "text": "Hand Wash Only",
+          "rh": "p_n_g-1003416129111:24046365011"
+        },
+        {
+          "text": "Machine Wash",
+          "rh": "p_n_g-1003416129111:24046364011"
+        }
+      ]
+    },
+    {
+      "type": "Pattern",
+      "options": [
+        {
+          "text": "Animal Print",
+          "rh": "p_n_g-101017788903111:218913828011"
+        },
+        {
+          "text": "Argyle",
+          "rh": "p_n_g-101017788903111:218913829011"
+        },
+        {
+          "text": "Camouflage",
+          "rh": "p_n_g-101017788903111:218913836011"
+        },
+        {
+          "text": "Checkered",
+          "rh": "p_n_g-101017788903111:218913848011"
+        },
+        {
+          "text": "Chevron",
+          "rh": "p_n_g-101017788903111:218913832011"
+        },
+        {
+          "text": "Floral",
+          "rh": "p_n_g-101017788903111:218913847011"
+        },
+        {
+          "text": "Fruits",
+          "rh": "p_n_g-101017788903111:218913839011"
+        },
+        {
+          "text": "Geometric",
+          "rh": "p_n_g-101017788903111:218913833011"
+        },
+        {
+          "text": "Herringbone",
+          "rh": "p_n_g-101017788903111:218913840011"
+        },
+        {
+          "text": "Houndstooth",
+          "rh": "p_n_g-101017788903111:218913826011"
+        },
+        {
+          "text": "Moire",
+          "rh": "p_n_g-101017788903111:218913825011"
+        },
+        {
+          "text": "Paisley",
+          "rh": "p_n_g-101017788903111:218913835011"
+        },
+        {
+          "text": "Plaid",
+          "rh": "p_n_g-101017788903111:218913842011"
+        },
+        {
+          "text": "Polka Dots",
+          "rh": "p_n_g-101017788903111:218913824011"
+        },
+        {
+          "text": "Solid",
+          "rh": "p_n_g-101017788903111:218913844011"
+        },
+        {
+          "text": "Striped",
+          "rh": "p_n_g-101017788903111:218913837011"
+        },
+        {
+          "text": "Toile",
+          "rh": "p_n_g-101017788903111:221217335011"
+        }
+      ]
+    },
+    {
+      "type": "Closure",
+      "options": [
+        {
+          "text": "Buckle",
+          "rh": "p_n_g-101017440947111:216297592011"
+        },
+        {
+          "text": "Button",
+          "rh": "p_n_g-101017440947111:216297591011"
+        },
+        {
+          "text": "Double Ring",
+          "rh": "p_n_g-101017440947111:216297583011"
+        },
+        {
+          "text": "Drawstring",
+          "rh": "p_n_g-101017440947111:216297585011"
+        },
+        {
+          "text": "Hook & Bar",
+          "rh": "p_n_g-101017440947111:216297584011"
+        },
+        {
+          "text": "Hook & Eye",
+          "rh": "p_n_g-101017440947111:216297590011"
+        },
+        {
+          "text": "Hook & Loop",
+          "rh": "p_n_g-101017440947111:216297581011"
+        },
+        {
+          "text": "Magnetic",
+          "rh": "p_n_g-101017440947111:216297587011"
+        },
+        {
+          "text": "Pull On",
+          "rh": "p_n_g-101017440947111:216297580011"
+        },
+        {
+          "text": "Snap",
+          "rh": "p_n_g-101017440947111:216297582011"
+        },
+        {
+          "text": "Tie",
+          "rh": "p_n_g-101017440947111:216297586011"
+        },
+        {
+          "text": "Toggle",
+          "rh": "p_n_g-101017440947111:216297588011"
+        },
+        {
+          "text": "Zipper",
+          "rh": "p_n_g-101017440947111:216297589011"
+        }
+      ]
+    },
+    {
+      "type": "Fit",
+      "options": [
+        {
+          "text": "Boxy",
+          "rh": "p_n_g-101017424018111:215774329011"
+        },
+        {
+          "text": "Fitted",
+          "rh": "p_n_g-101017424018111:215774325011"
+        },
+        {
+          "text": "Flowy",
+          "rh": "p_n_g-101017424018111:215774328011"
+        },
+        {
+          "text": "Loose",
+          "rh": "p_n_g-101017424018111:215774327011"
+        },
+        {
+          "text": "Oversized",
+          "rh": "p_n_g-101017424018111:215774324011"
+        },
+        {
+          "text": "Regular",
+          "rh": "p_n_g-101017424018111:215774323011"
+        },
+        {
+          "text": "Relaxed",
+          "rh": "p_n_g-101017424018111:215774326011"
+        },
+        {
+          "text": "Skinny",
+          "rh": "p_n_g-101017424018111:215774330011"
+        },
+        {
+          "text": "Slim",
+          "rh": "p_n_g-101017424018111:215774321011"
+        },
+        {
+          "text": "Snug",
+          "rh": "p_n_g-101017424018111:215774322011"
+        },
+        {
+          "text": "Straight",
+          "rh": "p_n_g-101017424018111:215774320011"
+        }
+      ]
+    },
+    {
+      "type": "Material",
+      "options": [
+        {
+          "text": "Acrylic",
+          "rh": "p_n_g-101017762402111:217806923011"
+        },
+        {
+          "text": "Cotton",
+          "rh": "p_n_g-101017762402111:217806938011"
+        },
+        {
+          "text": "Cotton Blend",
+          "rh": "p_n_g-101017762402111:217806958011"
+        },
+        {
+          "text": "Ethylene Vinyl Acetate (EVA)",
+          "rh": "p_n_g-101017762402111:217806921011"
+        },
+        {
+          "text": "Faux Fur",
+          "rh": "p_n_g-101017762402111:217806959011"
+        },
+        {
+          "text": "Faux Leather",
+          "rh": "p_n_g-101017762402111:217806935011"
+        },
+        {
+          "text": "Faux Suede",
+          "rh": "p_n_g-101017762402111:217806956011"
+        },
+        {
+          "text": "Faux Wool",
+          "rh": "p_n_g-101017762402111:217806922011"
+        },
+        {
+          "text": "Fur",
+          "rh": "p_n_g-101017762402111:217806954011"
+        },
+        {
+          "text": "Jute",
+          "rh": "p_n_g-101017762402111:217806944011"
+        },
+        {
+          "text": "Latex",
+          "rh": "p_n_g-101017762402111:217806928011"
+        },
+        {
+          "text": "Leather",
+          "rh": "p_n_g-101017762402111:217806936011"
+        },
+        {
+          "text": "Linen Blend",
+          "rh": "p_n_g-101017762402111:217806925011"
+        },
+        {
+          "text": "Neoprene",
+          "rh": "p_n_g-101017762402111:217806930011"
+        },
+        {
+          "text": "Nylon",
+          "rh": "p_n_g-101017762402111:217806937011"
+        },
+        {
+          "text": "Nylon Blend",
+          "rh": "p_n_g-101017762402111:217806957011"
+        },
+        {
+          "text": "Plastic",
+          "rh": "p_n_g-101017762402111:217806942011"
+        },
+        {
+          "text": "Polycotton",
+          "rh": "p_n_g-101017762402111:217806932011"
+        },
+        {
+          "text": "Polyester",
+          "rh": "p_n_g-101017762402111:217806929011"
+        },
+        {
+          "text": "Polyester Blend",
+          "rh": "p_n_g-101017762402111:217806945011"
+        },
+        {
+          "text": "Polyethylene (PE)",
+          "rh": "p_n_g-101017762402111:217806931011"
+        },
+        {
+          "text": "Polypropylene (PP)",
+          "rh": "p_n_g-101017762402111:217806955011"
+        },
+        {
+          "text": "Polyurethane (PU)",
+          "rh": "p_n_g-101017762402111:217806961011"
+        },
+        {
+          "text": "Polyvinyl Chloride (PVC)",
+          "rh": "p_n_g-101017762402111:217806939011"
+        },
+        {
+          "text": "Rayon",
+          "rh": "p_n_g-101017762402111:217806940011"
+        },
+        {
+          "text": "Rayon Blend",
+          "rh": "p_n_g-101017762402111:217806948011"
+        },
+        {
+          "text": "Recycled Polyester",
+          "rh": "p_n_g-101017762402111:217806926011"
+        },
+        {
+          "text": "Recycled Polyester Blend",
+          "rh": "p_n_g-101017762402111:217806933011"
+        },
+        {
+          "text": "Rubber",
+          "rh": "p_n_g-101017762402111:217806949011"
+        },
+        {
+          "text": "Spandex",
+          "rh": "p_n_g-101017762402111:217806952011"
+        },
+        {
+          "text": "Suede",
+          "rh": "p_n_g-101017762402111:217806950011"
+        },
+        {
+          "text": "Thermoplastic Polyurethane (TPU)",
+          "rh": "p_n_g-101017762402111:217806946011"
+        },
+        {
+          "text": "Vinyl",
+          "rh": "p_n_g-101017762402111:217806934011"
+        },
+        {
+          "text": "Wool",
+          "rh": "p_n_g-101017762402111:217806943011"
+        },
+        {
+          "text": "Wool Blend",
+          "rh": "p_n_g-101017762402111:217806941011"
+        }
+      ]
+    },
+    {
+      "type": "Purpose",
+      "options": [
+        {
+          "text": "Casual Wear",
+          "rh": "p_n_g-101016756034111:214322520011"
+        },
+        {
+          "text": "Hiking",
+          "rh": "p_n_g-101016756034111:207864121011"
+        },
+        {
+          "text": "Walking",
+          "rh": "p_n_g-101016756034111:214322519011"
+        },
+        {
+          "text": "Camping",
+          "rh": "p_n_g-101016756034111:207864116011"
+        },
+        {
+          "text": "Cycling",
+          "rh": "p_n_g-101016756034111:207864118011"
+        },
+        {
+          "text": "Exercising",
+          "rh": "p_n_g-101016756034111:207864122011"
+        },
+        {
+          "text": "Fishing",
+          "rh": "p_n_g-101016756034111:207864120011"
+        },
+        {
+          "text": "Hunting",
+          "rh": "p_n_g-101016756034111:207864115011"
+        },
+        {
+          "text": "Running",
+          "rh": "p_n_g-101016756034111:214322521011"
+        },
+        {
+          "text": "Skiing",
+          "rh": "p_n_g-101016756034111:207864119011"
+        },
+        {
+          "text": "Snowboarding",
+          "rh": "p_n_g-101016756034111:207864117011"
+        }
+      ]
+    },
+    {
+      "type": "Sustainability Features",
+      "options": [
+        {
+          "text": "Any Feature",
+          "rh": "p_n_cpf_labels:121136630011"
+        },
+        {
+          "text": "Farming Practices",
+          "rh": "p_n_cpf_labels:121191385011"
+        },
+        {
+          "text": "Recycled Materials",
+          "rh": "p_n_cpf_labels:116845689011"
+        },
+        {
+          "text": "Safer Chemicals",
+          "rh": "p_n_cpf_labels:116845683011"
+        },
+        {
+          "text": "Worker Wellbeing",
+          "rh": "p_n_cpf_labels:116845686011"
+        }
+      ]
+    },
+    {
+      "type": "Seller",
+      "options": [
+        {
+          "text": "Amazon.com",
+          "rh": "p_6:ATVPDKIKX0DER"
+        },
+        {
+          "text": "Myboilk",
+          "rh": "p_6:AHGHA3VTYWTNB"
+        },
+        {
+          "text": "Lunafina",
+          "rh": "p_6:A23VS63QBZXOTL"
+        },
+        {
+          "text": "shifangshiliuheqiaodianzishangwugongzuoshi",
+          "rh": "p_6:A3IF312F7YGCGD"
+        },
+        {
+          "text": "RSKK.",
+          "rh": "p_6:A2IRYHPOZBVSE5"
+        },
+        {
+          "text": "Sucesuce",
+          "rh": "p_6:A1FWPY60AGVSFY"
+        },
+        {
+          "text": "LanChuBo",
+          "rh": "p_6:A136QL4EOXCKX0"
+        }
+      ]
+    },
+    {
+      "type": "Lining Description",
+      "options": [
+        {
+          "text": "Cashmere",
+          "rh": "p_n_g-101017439662111:216261109011"
+        },
+        {
+          "text": "Cotton",
+          "rh": "p_n_g-101017439662111:216261103011"
+        },
+        {
+          "text": "Cotton Blend",
+          "rh": "p_n_g-101017439662111:216261123011"
+        },
+        {
+          "text": "Down",
+          "rh": "p_n_g-101017439662111:216261119011"
+        },
+        {
+          "text": "Faux Fur",
+          "rh": "p_n_g-101017439662111:216261107011"
+        },
+        {
+          "text": "Flannel",
+          "rh": "p_n_g-101017439662111:216261104011"
+        },
+        {
+          "text": "Fleece",
+          "rh": "p_n_g-101017439662111:216261118011"
+        },
+        {
+          "text": "Fur",
+          "rh": "p_n_g-101017439662111:216261110011"
+        },
+        {
+          "text": "Microfiber",
+          "rh": "p_n_g-101017439662111:223008728011"
+        },
+        {
+          "text": "Nylon",
+          "rh": "p_n_g-101017439662111:216261116011"
+        },
+        {
+          "text": "Nylon Blend",
+          "rh": "p_n_g-101017439662111:216261120011"
+        },
+        {
+          "text": "Polyester",
+          "rh": "p_n_g-101017439662111:216261122011"
+        },
+        {
+          "text": "Polyester Blend",
+          "rh": "p_n_g-101017439662111:216261117011"
+        },
+        {
+          "text": "Polyurethane (PU)",
+          "rh": "p_n_g-101017439662111:216261105011"
+        },
+        {
+          "text": "Rayon",
+          "rh": "p_n_g-101017439662111:216261113011"
+        },
+        {
+          "text": "Shearling",
+          "rh": "p_n_g-101017439662111:223488528011"
+        },
+        {
+          "text": "Sherpa",
+          "rh": "p_n_g-101017439662111:216261121011"
+        },
+        {
+          "text": "Silk",
+          "rh": "p_n_g-101017439662111:216261108011"
+        },
+        {
+          "text": "Spandex",
+          "rh": "p_n_g-101017439662111:216261106011"
+        },
+        {
+          "text": "Unlined",
+          "rh": "p_n_g-101017439662111:216261112011"
+        },
+        {
+          "text": "Velvet",
+          "rh": "p_n_g-101017439662111:223488530011"
+        },
+        {
+          "text": "Wool",
+          "rh": "p_n_g-101017439662111:216261114011"
+        },
+        {
+          "text": "Wool Blend",
+          "rh": "p_n_g-101017439662111:216261115011"
+        }
+      ]
+    },
+    {
+      "type": "Sleeve Length Description",
+      "options": [
+        {
+          "text": "Sleeveless",
+          "rh": "p_n_g-101017420912111:215631301011"
+        },
+        {
+          "text": "Short Sleeve",
+          "rh": "p_n_g-101017420912111:215631300011"
+        },
+        {
+          "text": "Half Sleeve",
+          "rh": "p_n_g-101017420912111:215631302011"
+        },
+        {
+          "text": "3/4 Sleeve",
+          "rh": "p_n_g-101017420912111:215631304011"
+        },
+        {
+          "text": "Bracelet Sleeve",
+          "rh": "p_n_g-101017420912111:215631303011"
+        },
+        {
+          "text": "Long Sleeve",
+          "rh": "p_n_g-101017420912111:215631305011"
+        }
+      ]
+    },
+    {
+      "type": "Customizable Products",
+      "options": [
+        {
+          "text": "Customizable",
+          "rh": "p_n_customizable_template_name:16031489011"
+        }
+      ]
+    },
+    {
+      "type": "Handmade Products",
+      "options": [
+        {
+          "text": "Handmade",
+          "rh": "p_n_feature_thirty-four_browse-bin:217421938011"
+        }
+      ]
+    },
+    {
+      "type": "Department",
+      "options": [
+        {
+          "text": "Women's Down Jackets & Parkas",
+          "rh": "n:12643250011"
+        },
+        {
+          "text": "Women's Quilted Lightweight Jackets",
+          "rh": "n:7132358011"
+        },
+        {
+          "text": "Women's Sports & Recreation Outerwear",
+          "rh": "n:23466341011"
+        },
+        {
+          "text": "Women's Sports & Recreation Jackets",
+          "rh": "n:23466341011,n:23466380011"
+        },
+        {
+          "text": "Women's Hiking & Outdoor Recreation Down Jackets",
+          "rh": "n:23466612011"
+        },
+        {
+          "text": "Women's Insulated Shells",
+          "rh": "n:7132349011"
+        },
+        {
+          "text": "Women's Casual Jackets",
+          "rh": "n:12643253011"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "asin": "B09GXLVWW5",
+      "title": "Women’s Winter Cropped Puffer Jacket Coat Short Warm Quilted Jacket 2026",
+      "link": "https://www.amazon.com/Gihuo-Womens-Winter-Sleeve-Pockets/dp/B09GXLVWW5/ref=sr_1_1?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-1",
+      "brand": "Gihuo",
+      "rating": 4.4,
+      "reviews": 1788,
+      "recent_sales": "1K+ bought in past month",
+      "extracted_recent_sales": 1000,
+      "price": "$39.99",
+      "extracted_price": 39.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_overall_pick": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61NGMuX75ZL._AC_UL320_.jpg"
+    },
+    {
+      "position": 2,
+      "asin": "B07BMKXBVW",
+      "title": "Women's Lightweight Long-Sleeve Water-Resistant Packable Puffer Jacket (Available in Plus Size)",
+      "link": "https://www.amazon.com/Amazon-Essentials-Lightweight-Water-Resistant-Packable/dp/B07BMKXBVW/ref=sr_1_2?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-2",
+      "brand": "Amazon Essentials",
+      "rating": 4.5,
+      "reviews": 6131,
+      "recent_sales": "800+ bought in past month",
+      "extracted_recent_sales": 800,
+      "price": "$35.50",
+      "extracted_price": 35.5,
+      "original_price": "$41.20",
+      "extracted_original_price": 41.2,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71COVlkiXGL._AC_UL320_.jpg"
+    },
+    {
+      "position": 3,
+      "asin": "B0DRJKLG37",
+      "title": "Women's Puffer Jacket Winter Quilted Jackets",
+      "link": "https://www.amazon.com/YUCOLEN-Quilted-Lightweight-Pockets-Stand-collar/dp/B0DRJKLG37/ref=sr_1_3?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-3",
+      "rating": 4.5,
+      "reviews": 240,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$38.38",
+      "extracted_price": 38.38,
+      "original_price": "$47.98",
+      "extracted_original_price": 47.98,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81aSeLz5EmL._AC_UL320_.jpg"
+    },
+    {
+      "position": 4,
+      "asin": "B091TPDLS9",
+      "title": "Women's Packable Lightweight Puffer Jacket with Hood",
+      "link": "https://www.amazon.com/Outdoor-Ventures-Packable-Lightweight-Full-Zip/dp/B091TPDLS9/ref=sr_1_4?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-4",
+      "brand": "Outdoor Ventures",
+      "rating": 4.4,
+      "reviews": 4137,
+      "recent_sales": "600+ bought in past month",
+      "extracted_recent_sales": 600,
+      "price": "$55.99",
+      "extracted_price": 55.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "bestseller": {
+        "category": "in Women's Down Jackets & Parkas"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71yig3q0CLL._AC_UL320_.jpg"
+    },
+    {
+      "position": 5,
+      "asin": "B0CFTK36VM",
+      "title": "Womens Cropped Puffer Jacket Hooded Winter Puffer Coat",
+      "link": "https://www.amazon.com/Yimoon-Cropped-Quilted-Lightweight-Outwear/dp/B0CFTK36VM/ref=sr_1_5?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-5",
+      "rating": 4.2,
+      "reviews": 200,
+      "recent_sales": "300+ bought in past month",
+      "extracted_recent_sales": 300,
+      "price": "$39.99",
+      "extracted_price": 39.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71xtmdcoaeL._AC_UL320_.jpg"
+    },
+    {
+      "position": 6,
+      "asin": "B0GPFCGHWL",
+      "title": "Womens Puffer Jacket - Packable Lightweight Winter Coat",
+      "link": "https://www.amazon.com/CANADA-WEATHER-GEAR-Puffer-Jacket/dp/B0GPFCGHWL/ref=sr_1_6?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-6",
+      "brand": "CANADA WEATHER GEAR",
+      "rating": 4.1,
+      "reviews": 44,
+      "recent_sales": "400+ bought in past month",
+      "extracted_recent_sales": 400,
+      "price": "$44.99",
+      "extracted_price": 44.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71+X8MlDWnL._AC_UL320_.jpg"
+    },
+    {
+      "position": 7,
+      "asin": "B0FGKQMTQR",
+      "title": "Packable Puffer Jacket Womens with Hood, Quilted Winter Puffer Coats",
+      "link": "https://www.amazon.com/Spyder-Packable-Puffer-Lightweight-Quilted/dp/B0FGKQMTQR/ref=sr_1_7?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-7",
+      "brand": "Spyder",
+      "rating": 4.5,
+      "reviews": 299,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$47.02",
+      "extracted_price": 47.02,
+      "original_price": "$54.99",
+      "extracted_original_price": 54.99,
+      "original_price_label": "Typical",
+      "coupon": {
+        "badge_text": "You pay $44.66",
+        "text": "with coupon (some sizes/colors)"
+      },
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71OKzJLDYgL._AC_UL320_.jpg"
+    },
+    {
+      "position": 8,
+      "asin": "B0C9C4QSR9",
+      "title": "Women's Long Warm Winter Puffer Jacket Lightweight Fashions Down Coats",
+      "link": "https://www.amazon.com/Womens-Winter-Puffer-Lightweight-Fashions/dp/B0C9C4QSR9/ref=sr_1_8?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-8",
+      "brand": "MOERDENG",
+      "rating": 4.5,
+      "reviews": 4336,
+      "recent_sales": "400+ bought in past month",
+      "extracted_recent_sales": 400,
+      "price": "$29.99",
+      "extracted_price": 29.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61DIcLpnpQL._AC_UL320_.jpg"
+    },
+    {
+      "position": 9,
+      "asin": "B07BMLZV73",
+      "title": "Women's Lightweight Long-Sleeve Water-Resistant Packable Puffer Jacket (Available in Plus Size)",
+      "link": "https://www.amazon.com/Amazon-Essentials-Lightweight-Water-Resistant-Packable/dp/B07BMLZV73/ref=sr_1_9?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-9",
+      "brand": "Amazon Essentials",
+      "rating": 4.5,
+      "reviews": 6131,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$35.50",
+      "extracted_price": 35.5,
+      "original_price": "$41.60",
+      "extracted_original_price": 41.6,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/814nlx3g+NL._AC_UL320_.jpg"
+    },
+    {
+      "position": 10,
+      "asin": "B0DCRF75HL",
+      "title": "Women's Lightweight Waterproof Puffer Jacket Warm For Cold Winter",
+      "link": "https://www.amazon.com/TDYPCI-Womens-Waterproof-Puffer-Quilted/dp/B0DCRF75HL/ref=sr_1_10?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-10",
+      "rating": 4.6,
+      "reviews": 1581,
+      "recent_sales": "700+ bought in past month",
+      "extracted_recent_sales": 700,
+      "price": "$39.99",
+      "extracted_price": 39.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71QucOHZp3L._AC_UL320_.jpg"
+    },
+    {
+      "position": 11,
+      "asin": "B0DNZM9MBB",
+      "title": "Winter Cropped Puffer Jacket Coats for Women 2026 Warm Quilted Jacket",
+      "link": "https://www.amazon.com/Flygo-Cropped-Puffer-Jacket-Outerwear/dp/B0DNZM9MBB/ref=sr_1_11?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-11",
+      "brand": "Flygo",
+      "rating": 4.4,
+      "reviews": 398,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$35.98",
+      "extracted_price": 35.98,
+      "original_price": "$51.98",
+      "extracted_original_price": 51.98,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61jdMXjuSHL._AC_UL320_.jpg"
+    },
+    {
+      "position": 12,
+      "asin": "B0D765HQ4V",
+      "title": "Women's Cropped Puffer Jackets,Warm Winter Jacket with Removable Hood,Zipped Pockets,Short Ladies Quilted Coat",
+      "link": "https://www.amazon.com/Lightweight-Resistant-Windproof-Insulated-Traveling/dp/B0D765HQ4V/ref=sr_1_12?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-12",
+      "brand": "PUFFIT",
+      "rating": 4.6,
+      "reviews": 957,
+      "recent_sales": "300+ bought in past month",
+      "extracted_recent_sales": 300,
+      "price": "$52.19",
+      "extracted_price": 52.19,
+      "original_price": "$57.99",
+      "extracted_original_price": 57.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71PNvHh+JzL._AC_UL320_.jpg"
+    },
+    {
+      "position": 13,
+      "asin": "B0H8S9MZB4",
+      "title": "Women's Winter Puffer Jacket Coat Warm Quilted Casual Jackets",
+      "link": "https://www.amazon.com/WHN-Womens-Winter-Quilted-Jackets/dp/B0H8S9MZB4/ref=sr_1_13?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-13",
+      "brand": "WHN",
+      "rating": 4.4,
+      "reviews": 42,
+      "price": "$28.48",
+      "extracted_price": 28.48,
+      "original_price": "$29.98",
+      "extracted_original_price": 29.98,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/712ah+8hsvL._AC_UL320_.jpg"
+    },
+    {
+      "position": 14,
+      "asin": "B0BVDM7H3J",
+      "title": "Women's Oversized Splice Quilted Lightweight Puffer Jacket",
+      "link": "https://www.amazon.com/Bianstore-Oversized-Quilted-Lightweight-Khaki-Medium/dp/B0BVDM7H3J/ref=sr_1_14?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-14",
+      "rating": 4.4,
+      "reviews": 711,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$39.99",
+      "extracted_price": 39.99,
+      "original_price": "$49.99",
+      "extracted_original_price": 49.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/81jKKUksP3L._AC_UL320_.jpg"
+    },
+    {
+      "position": 15,
+      "asin": "B0FX3GQG7D",
+      "title": "Aconcagua Hooded Jacket",
+      "link": "https://www.amazon.com/North-Face-Womens-Aconcagua-Hooded/dp/B0FX3GQG7D/ref=sr_1_15?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-15",
+      "brand": "The North Face",
+      "rating": 4.9,
+      "reviews": 18,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$229.95",
+      "extracted_price": 229.95,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61vvlva+ZYL._AC_UL320_.jpg"
+    },
+    {
+      "position": 16,
+      "asin": "B0D6YXWLRJ",
+      "title": "Long Puffer Jacket for Women Thickened Winter Down Coat with Pockets",
+      "link": "https://www.amazon.com/PUFFIT-Puffer-Jacket-Thickened-Pockets/dp/B0D6YXWLRJ/ref=sr_1_16?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-16",
+      "brand": "PUFFIT",
+      "rating": 4.5,
+      "reviews": 1350,
+      "recent_sales": "300+ bought in past month",
+      "extracted_recent_sales": 300,
+      "price": "$61.16",
+      "extracted_price": 61.16,
+      "original_price": "$67.95",
+      "extracted_original_price": 67.95,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/51jPcbkxtDL._AC_UL320_.jpg"
+    },
+    {
+      "position": 17,
+      "asin": "B0FCZHYBSV",
+      "title": "Puffer Jacket Womens - Lightweight Quilted Hooded Winter Coat",
+      "link": "https://www.amazon.com/Gerry-Packable-Puffer-Jacket-Womens/dp/B0FCZHYBSV/ref=sr_1_17?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-17",
+      "brand": "Gerry",
+      "rating": 4.3,
+      "reviews": 223,
+      "price": "$37.99",
+      "extracted_price": 37.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71pKnMzDnfL._AC_UL320_.jpg"
+    },
+    {
+      "position": 18,
+      "asin": "B0H51FPBZV",
+      "title": "Womens Puffer Jacket Winter Coat - Lightweight Quilted Outerwear",
+      "link": "https://www.amazon.com/Reebok-Womens-Puffer-Jacket-Winter/dp/B0H51FPBZV/ref=sr_1_18?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-18",
+      "brand": "Reebok",
+      "rating": 4.5,
+      "reviews": 24,
+      "price": "$27.99",
+      "extracted_price": 27.99,
+      "original_price": "$49.99",
+      "extracted_original_price": 49.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/710OEMyzV8L._AC_UL320_.jpg"
+    },
+    {
+      "position": 19,
+      "asin": "B0C8SPM8LJ",
+      "title": "Womens Oversized Puffer Vest Stand Collar Full Zip Sleeveless Bubble Puffer Vest Quilted Padded Warm Coat Outwear",
+      "link": "https://www.amazon.com/Songling-Oversized-Sleeveless-Quilted-Outwear/dp/B0C8SPM8LJ/ref=sr_1_19?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-19",
+      "rating": 4.5,
+      "reviews": 1850,
+      "recent_sales": "1K+ bought in past month",
+      "extracted_recent_sales": 1000,
+      "price": "$33.99",
+      "extracted_price": 33.99,
+      "original_price": "$39.99",
+      "extracted_original_price": 39.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71KwCLOhdZL._AC_UL320_.jpg"
+    },
+    {
+      "position": 20,
+      "asin": "B0B3XJTWZ8",
+      "title": "Women's Winter Puffer Coat Quilted Jacket with Removable Fur Hood",
+      "link": "https://www.amazon.com/GGleaf-Womens-Quilted-Thicken-Removable/dp/B0B3XJTWZ8/ref=sr_1_20?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-20",
+      "brand": "GGleaf",
+      "rating": 4.5,
+      "reviews": 937,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$59.39",
+      "extracted_price": 59.39,
+      "original_price": "$65.99",
+      "extracted_original_price": 65.99,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61HFXaVu4eL._AC_UL320_.jpg"
+    },
+    {
+      "position": 21,
+      "asin": "B0DCBXQ1B4",
+      "title": "Women's Winter Quilted Jackets Long Sleeve Button Down Diamond Puffer Jacket Outerwear Coats with Pockets",
+      "link": "https://www.amazon.com/Dokotoo-Lightweight-Quilted-Jackets-Outerwear/dp/B0DCBXQ1B4/ref=sr_1_21?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-21",
+      "brand": "Dokotoo",
+      "rating": 4.0,
+      "reviews": 576,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$42.19",
+      "extracted_price": 42.19,
+      "original_price": "$46.88",
+      "extracted_original_price": 46.88,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71l2IeDfmLL._AC_UL320_.jpg"
+    },
+    {
+      "position": 22,
+      "asin": "B0CDKR4TP9",
+      "title": "Women’s Winter Cropped Puffer Jacket Coat Short Warm Quilted Jacket 2026",
+      "link": "https://www.amazon.com/Gihuo-Womens-Cropped-Quilted-Beige-M/dp/B0CDKR4TP9/ref=sr_1_22?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-22",
+      "brand": "Gihuo",
+      "rating": 4.4,
+      "reviews": 1788,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$49.98",
+      "extracted_price": 49.98,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61SzTUZOYkL._AC_UL320_.jpg"
+    },
+    {
+      "position": 23,
+      "asin": "B0C6G74SPM",
+      "title": "Womens Quilted Puffer Jacket Hooded Winter Coat Lightweight Jacket",
+      "link": "https://www.amazon.com/Dyexces-Quilted-Lightweight-Jackets-Pockets/dp/B0C6G74SPM/ref=sr_1_23?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-23",
+      "brand": "Dyexces",
+      "rating": 4.0,
+      "reviews": 542,
+      "price": "$46.98",
+      "extracted_price": 46.98,
+      "original_price": "$68.99",
+      "extracted_original_price": 68.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61eq4eF5DJL._AC_UL320_.jpg"
+    },
+    {
+      "position": 24,
+      "asin": "B0DRJ8XM63",
+      "title": "Women's Puffer Jacket with Hood Lightweight Quilted Warm Coat",
+      "link": "https://www.amazon.com/YUCOLEN-Lightweight-Quilted-Pockets-Jackets/dp/B0DRJ8XM63/ref=sr_1_24?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-24",
+      "rating": 4.6,
+      "reviews": 265,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$42.48",
+      "extracted_price": 42.48,
+      "original_price": "$49.98",
+      "extracted_original_price": 49.98,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81g1DJR4x+L._AC_UL320_.jpg"
+    },
+    {
+      "position": 25,
+      "asin": "B0FGXN81KL",
+      "title": "Puffer Jacket Womens Packable Puffy Coats Down Hood Jacket",
+      "link": "https://www.amazon.com/Puffer-Jacket-Womens-Packable-Coats/dp/B0FGXN81KL/ref=sr_1_25?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-25",
+      "rating": 4.0,
+      "reviews": 172,
+      "price": "$36.98",
+      "extracted_price": 36.98,
+      "original_price": "$44.99",
+      "extracted_original_price": 44.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71T+F-mSkPL._AC_UL320_.jpg"
+    },
+    {
+      "position": 26,
+      "asin": "B0FX3G3VR6",
+      "title": "Women's Junction Insulated Jacket (Standard & Plus Size) | Water Repellent Winter Coat & Zip Hand Pockets",
+      "link": "https://www.amazon.com/North-Face-Junction-Insulated-Standard/dp/B0FX3G3VR6/ref=sr_1_26?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-26",
+      "brand": "The North Face",
+      "rating": 4.5,
+      "reviews": 466,
+      "price": "$129.95",
+      "extracted_price": 129.95,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71F6G6etGLL._AC_UL320_.jpg"
+    },
+    {
+      "position": 27,
+      "asin": "B0H73413VV",
+      "title": "Womens Packable Puffer Jacket with Hood - Quilted Winter Coat",
+      "link": "https://www.amazon.com/Spyder-Womens-Packable-Puffer-Jacket/dp/B0H73413VV/ref=sr_1_27?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-27",
+      "brand": "Spyder",
+      "rating": 4.5,
+      "reviews": 23,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$47.29",
+      "extracted_price": 47.29,
+      "original_price": "$49.99",
+      "extracted_original_price": 49.99,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61nVTCcnUFL._AC_UL320_.jpg"
+    },
+    {
+      "position": 28,
+      "asin": "B0HD8CT28V",
+      "title": "Women's Cropped Puffer Jacket with Faux Fur Lining Quilted Coat Winter",
+      "link": "https://www.amazon.com/Cropped-Quilted-Removable-Wind-blocking-Pockets/dp/B0HD8CT28V/ref=sr_1_28?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-28",
+      "brand": "PUFFIT",
+      "rating": 4.8,
+      "reviews": 19,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$69.99",
+      "extracted_price": 69.99,
+      "coupon": {
+        "badge_text": "You pay $62.99",
+        "text": "with coupon (some sizes/colors)"
+      },
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71hMPiNDfgL._AC_UL320_.jpg"
+    },
+    {
+      "position": 29,
+      "asin": "B0GHB4HKW1",
+      "title": "Women's Heavyweight Winter Jacket Quilted Hooded Puffer Coat",
+      "link": "https://www.amazon.com/Amazon-Essentials-Heavyweight-Quilted-Long-Sleeve/dp/B0GHB4HKW1/ref=sr_1_29?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-29",
+      "brand": "Amazon Essentials",
+      "rating": 4.6,
+      "reviews": 1683,
+      "price": "$43.60",
+      "extracted_price": 43.6,
+      "original_price": "$55.70",
+      "extracted_original_price": 55.7,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71qfcMJe8wL._AC_UL320_.jpg"
+    },
+    {
+      "position": 30,
+      "asin": "B0BRRNTY6V",
+      "title": "Women's Oversized Splice Quilted Lightweight Puffer Jacket",
+      "link": "https://www.amazon.com/Bianstore-Oversized-Quilted-Lightweight-Black-Large/dp/B0BRRNTY6V/ref=sr_1_30?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-30",
+      "rating": 4.4,
+      "reviews": 711,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$39.99",
+      "extracted_price": 39.99,
+      "original_price": "$49.99",
+      "extracted_original_price": 49.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71n+g0axDdL._AC_UL320_.jpg"
+    },
+    {
+      "position": 31,
+      "asin": "B0FL1M9F5R",
+      "title": "Women's Waterproof Long Hooded Down Jacket",
+      "link": "https://www.amazon.com/GOLDLADIES-Womens-Waterproof-Thickened-Outdoor/dp/B0FL1M9F5R/ref=sr_1_31?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-31",
+      "brand": "GOLDLADIES",
+      "rating": 4.6,
+      "reviews": 1489,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$44.99",
+      "extracted_price": 44.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61uWx-lg+sL._AC_UL320_.jpg"
+    },
+    {
+      "position": 32,
+      "asin": "B0CLQVTY3X",
+      "title": "Women’s Heavenly Long Hooded Jacket",
+      "link": "https://www.amazon.com/Columbia-Womens-Heavenly-Hooded-Jacket/dp/B0CLQVTY3X/ref=sr_1_32?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-32",
+      "brand": "Columbia",
+      "rating": 4.6,
+      "reviews": 7013,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$160.24",
+      "extracted_price": 160.24,
+      "original_price": "$175.00",
+      "extracted_original_price": 175.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61uXh6wDWQL._AC_UL320_.jpg"
+    },
+    {
+      "position": 33,
+      "asin": "B0FH9N6RND",
+      "title": "Womens Cropped Puffer Jacket Fur Lined Quilted Jacket",
+      "link": "https://www.amazon.com/Wyeysyt-Cropped-Fur-Lined-All-Weather-Removable/dp/B0FH9N6RND/ref=sr_1_33?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-33",
+      "brand": "Wyeysyt",
+      "rating": 4.6,
+      "reviews": 46,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$44.99",
+      "extracted_price": 44.99,
+      "original_price": "$49.99",
+      "extracted_original_price": 49.99,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71QZSgInuvL._AC_UL320_.jpg"
+    },
+    {
+      "position": 34,
+      "asin": "B07C8M6XLZ",
+      "title": "Women's Lightweight Water-Resistant Packable Hooded Puffer Coat",
+      "link": "https://www.amazon.com/Amazon-Essentials-Lightweight-Water-Resistant-Packable/dp/B07C8M6XLZ/ref=sr_1_34?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-34",
+      "brand": "Amazon Essentials",
+      "rating": 4.2,
+      "reviews": 23639,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$52.00",
+      "extracted_price": 52.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71IB4ycaM9L._AC_UL320_.jpg"
+    },
+    {
+      "position": 35,
+      "asin": "B003NX8CKG",
+      "title": "Women's Benton Springs Full Zip",
+      "link": "https://www.amazon.com/Columbia-Womens-Benton-Springs-Classic/dp/B003NX8CKG/ref=sr_1_35?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-35",
+      "brand": "Columbia",
+      "rating": 4.6,
+      "reviews": 53411,
+      "recent_sales": "#1 Top Rated",
+      "extracted_recent_sales": 1,
+      "price": "$45.50",
+      "extracted_price": 45.5,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "bestseller": {
+        "category": "in Women's Fleece Jackets & Coats"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81rpxp6WFVL._AC_UL320_.jpg"
+    },
+    {
+      "position": 36,
+      "asin": "B0HB71FRH9",
+      "title": "Womens Long Packable Puffer Jacket with Hood Lightweight Travel Coat",
+      "link": "https://www.amazon.com/Spyder-Womens-Packable-Puffer-Lightweight/dp/B0HB71FRH9/ref=sr_1_36?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-36",
+      "brand": "Spyder",
+      "rating": 4.2,
+      "reviews": 35,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$57.99",
+      "extracted_price": 57.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71aBn4nmSsL._AC_UL320_.jpg"
+    },
+    {
+      "position": 37,
+      "asin": "B0FF5CW1WM",
+      "title": "Women's Oversized-Fit Square Quilted Puffer Jacket with Adjustable Waist, Zip Front, Side Pockets",
+      "link": "https://www.amazon.com/Amazon-Essentials-Oversized-Fit-Quilted-Adjustable/dp/B0FF5CW1WM/ref=sr_1_37?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-37",
+      "brand": "Amazon Essentials",
+      "rating": 4.5,
+      "reviews": 190,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$18.27",
+      "extracted_price": 18.27,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/813djEj5UWL._AC_UL320_.jpg"
+    },
+    {
+      "position": 38,
+      "asin": "B0FPCS88JX",
+      "title": "Women's Winter Puffer Jacket Coat Warm Quilted Casual Jackets",
+      "link": "https://www.amazon.com/WHN-Puffer-Jacket-Quilted-Outerwear/dp/B0FPCS88JX/ref=sr_1_38?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-38",
+      "brand": "WHN",
+      "rating": 4.4,
+      "reviews": 42,
+      "price": "$29.98",
+      "extracted_price": 29.98,
+      "original_price": "$49.99",
+      "extracted_original_price": 49.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71-xGBJOa+L._AC_UL320_.jpg"
+    },
+    {
+      "position": 39,
+      "asin": "B0CJ9C3LPF",
+      "title": "Womens Quilted Jackets Long Sleeve Full Zip Puffer Jacket Coats",
+      "link": "https://www.amazon.com/Dokotoo-Fashion-Oversized-Shoulder-Windbreaker/dp/B0CJ9C3LPF/ref=sr_1_39?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-39",
+      "brand": "Dokotoo",
+      "rating": 4.3,
+      "reviews": 747,
+      "price": "$36.99",
+      "extracted_price": 36.99,
+      "original_price": "$42.99",
+      "extracted_original_price": 42.99,
+      "original_price_label": "List",
+      "coupon": {
+        "badge_text": "You pay $29.59",
+        "text": "with coupon (some sizes/colors)"
+      },
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71lgR0ciXvL._AC_UL320_.jpg"
+    },
+    {
+      "position": 40,
+      "asin": "B07XXW8V5N",
+      "title": "Women's Winter Warm Thicken Long Outwear Pockets Coat Parka Jacket XS-3XL",
+      "link": "https://www.amazon.com/BINACL-Thickened-Alternative-Climbing-Sweaters/dp/B07XXW8V5N/ref=sr_1_40?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-40",
+      "rating": 4.7,
+      "reviews": 4373,
+      "recent_sales": "#1 Top Rated",
+      "extracted_recent_sales": 1,
+      "price": "$95.99",
+      "extracted_price": 95.99,
+      "coupon": {
+        "badge_text": "You pay $81.59",
+        "text": "with coupon (some sizes/colors)"
+      },
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Oct 31",
+          "type": "FREE delivery",
+          "date": "Sat, Oct 31"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Fri, Oct 30",
+          "type": "Or fastest delivery",
+          "date": "Fri, Oct 30"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/613jcgU+xEL._AC_UL320_.jpg"
+    },
+    {
+      "position": 41,
+      "asin": "B0CG5Y59D3",
+      "title": "Womens Lightweight Quilted Puffer Jacket Casual Padded Coat",
+      "link": "https://www.amazon.com/Omoone-Oversized-Lightweight-Outerwear-3877-Khaki-M/dp/B0CG5Y59D3/ref=sr_1_41?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-41",
+      "rating": 4.2,
+      "reviews": 295,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$39.99",
+      "extracted_price": 39.99,
+      "original_price": "$48.99",
+      "extracted_original_price": 48.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71iqdA4+ycL._AC_UL320_.jpg"
+    },
+    {
+      "position": 42,
+      "asin": "B0C7H239LN",
+      "title": "Womens Puffer Jacket with Hood Quilted Lightweight Packable Coat",
+      "link": "https://www.amazon.com/MAGCOMSEN-Ultra-light-Quilted-Water-resistant-Full-zip/dp/B0C7H239LN/ref=sr_1_42?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-42",
+      "brand": "MAGCOMSEN",
+      "rating": 4.5,
+      "reviews": 752,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$38.38",
+      "extracted_price": 38.38,
+      "original_price": "$47.98",
+      "extracted_original_price": 47.98,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/81JKI8KjL5L._AC_UL320_.jpg"
+    },
+    {
+      "position": 43,
+      "asin": "B01548G3GM",
+      "title": "Women's Winter Thickened Long Puffer Coat Warm Parka Jacket",
+      "link": "https://www.amazon.com/WenVen-Womens-Winter-Thicken-Puffer/dp/B01548G3GM/ref=sr_1_43?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-43",
+      "brand": "WenVen",
+      "rating": 4.4,
+      "reviews": 9028,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$65.99",
+      "extracted_price": 65.99,
+      "original_price": "$82.99",
+      "extracted_original_price": 82.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71Kmz8dXHLL._AC_UL320_.jpg"
+    },
+    {
+      "position": 44,
+      "asin": "B0D9BC28RX",
+      "title": "Women's Winter Casual Quilted Jackets Long Sleeve Button Down Puffer Jacket Padded Outerwear Coats",
+      "link": "https://www.amazon.com/Dokotoo-Diamond-Quilted-Jackets-Outerwear/dp/B0D9BC28RX/ref=sr_1_44?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-44",
+      "brand": "Dokotoo",
+      "rating": 4.3,
+      "reviews": 576,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$38.88",
+      "extracted_price": 38.88,
+      "original_price": "$43.88",
+      "extracted_original_price": 43.88,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/51HMCtpM6OL._AC_UL320_.jpg"
+    },
+    {
+      "position": 45,
+      "asin": "B07BMP64XD",
+      "title": "Women's Lightweight Long-Sleeve Water-Resistant Packable Puffer Jacket (Available in Plus Size)",
+      "link": "https://www.amazon.com/Amazon-Essentials-Lightweight-Water-Resistant-Packable/dp/B07BMP64XD/ref=sr_1_45?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-45",
+      "brand": "Amazon Essentials",
+      "rating": 4.5,
+      "reviews": 3695,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$35.50",
+      "extracted_price": 35.5,
+      "original_price": "$40.10",
+      "extracted_original_price": 40.1,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71oCcegW-xL._AC_UL320_.jpg"
+    },
+    {
+      "position": 46,
+      "asin": "B0D5VXD21G",
+      "title": "Women's Sienna Hill Quilted Jacket",
+      "link": "https://www.amazon.com/Columbia-Womens-Sienna-Quilted-Jacket/dp/B0D5VXD21G/ref=sr_1_46?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-46",
+      "brand": "Columbia",
+      "rating": 4.3,
+      "reviews": 63,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61wN5plXNiL._AC_UL320_.jpg"
+    },
+    {
+      "position": 47,
+      "asin": "B0CLR7KMJF",
+      "title": "Women's Powder Lite II Full Zip Jacket",
+      "link": "https://www.amazon.com/Columbia-Womens-Powder-Jacket-X-Large/dp/B0CLR7KMJF/ref=sr_1_47?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-47",
+      "brand": "Columbia",
+      "rating": 4.6,
+      "reviews": 255,
+      "price": "$115.50",
+      "extracted_price": 115.5,
+      "original_price": "$165.00",
+      "extracted_original_price": 165.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71aqTlbi7ML._AC_UL320_.jpg"
+    },
+    {
+      "position": 48,
+      "asin": "B0H5WL3SCW",
+      "title": "Womens Winter Puffer Jacket Warm Cropped Quilted Jackets",
+      "link": "https://www.amazon.com/ASPO-Cropped-Quilted-Jackets-Lightweight/dp/B0H5WL3SCW/ref=sr_1_48?dib=eyJ2IjoiMSJ9.jhj7DPSIaAb8yHL6swXuenbocqAMlj5ggLX3dSsdWvyvOR23Pu_3CwMS4OwIzJChhrhxK5xft7NdJPa9RKliv6kOWrxuKKHYeFTUa0YP0Wt-wV_7ozt8HYLTH3oYxtLDyWxJy6SpHxkSyP8EVaMvMVJW6hKhrUu5FzZ3HfPAZbtyWy-nSFADeCSG2bBaH6airu1fh51WNXI7ngXZkvTLsqFQcsRvxNNolgxXlh7slbxx0XgPR44tnLOpL6OxfrJEsjj9lMNLet6SbtRsyIl9P6LJQ8QLv17JYF2wXdBhf_M.1uGBDuGF5vf9K7mGKgS7L0B-_BHmQy9sZVryO9E_Qbs&dib_tag=se&keywords=women%27s+puffer+jacket&qid=1793040518&sr=8-48",
+      "brand": "ASPO",
+      "rating": 4.7,
+      "reviews": 27,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$37.49",
+      "extracted_price": 37.49,
+      "original_price": "$49.99",
+      "extracted_original_price": 49.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Mon, Nov 2",
+          "type": "FREE delivery",
+          "date": "Mon, Nov 2"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71DXeeSSiYL._AC_UL320_.jpg"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.amazon.com/s?k=women%27s+puffer+jacket&page=2&xpid=MIcKuI2MQ-DO9&qid=1793040518&ref=sr_pg_1",
+    "other_pages": {
+      "2": "https://www.amazon.com/s?k=women%27s+puffer+jacket&page=2&xpid=MIcKuI2MQ-DO9&qid=1793040518&ref=sr_pg_2",
+      "3": "https://www.amazon.com/s?k=women%27s+puffer+jacket&page=3&xpid=MIcKuI2MQ-DO9&qid=1793040518&ref=sr_pg_3"
+    }
+  }
+}

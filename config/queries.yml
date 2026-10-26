@@ -1,0 +1,17 @@
+# Phase 2 query set: US stores, engine defaults, `q` only.
+# 8 queries x 3 engines = 24 credits. Editing a query means fetching it again.
+engines:
+  - amazon_search
+  - ebay_search
+  - shein_search
+queries:
+  # Branded: should match across stores; most carry manufacturer style codes.
+  - adidas samba og
+  - nike dunk low panda
+  - new balance 550
+  - converse chuck 70 high
+  - patagonia better sweater
+  - levi's 501 jeans
+  # Generic: few or no cross-store matches expected.
+  - women's puffer jacket
+  - crossbody bag

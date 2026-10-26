@@ -1,0 +1,34 @@
+#!/usr/bin/env ruby
+# Writes data/match_labels.csv: every pair the grouping uses, for hand
+# labelling. Fill `label` with y (same product: same model and colorway) or
+# n, and optionally a `note`. Re-running keeps labels already filled in.
+# Reads only cached responses, so it never spends a credit.
+
+require "bundler/setup"
+$LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
+require "yaml"
+require "cross_shop/catalog"
+require "cross_shop/matcher"
+require "cross_shop/match_labels"
+
+queries = YAML.load_file(File.expand_path("../config/queries.yml", __dir__)).fetch("queries")
+catalog = CrossShop::Catalog.new
+price = ->(product) { (product.price_min == product.price_max) ? product.price_min.to_s : "#{product.price_min}-#{product.price_max}" }
+
+rows = queries.flat_map do |query|
+  products = catalog.search(query).products
+  CrossShop::Matcher.best_matches(CrossShop::Matcher.candidates(products)).map do |other, candidate|
+    amazon = (candidate.a == other) ? candidate.b : candidate.a
+    {
+      "query" => query, "tier" => candidate.tier, "score" => candidate.score.to_s,
+      "amazon_id" => amazon.store_id, "amazon_title" => amazon.title, "amazon_price" => price.call(amazon), "amazon_link" => amazon.link,
+      "other_store" => other.store, "other_id" => other.store_id, "other_title" => other.title,
+      "other_price" => price.call(other), "other_condition" => other.condition, "other_link" => other.link
+    }
+  end
+end
+
+labels = CrossShop::MatchLabels.new(File.expand_path("../data/match_labels.csv", __dir__))
+labels.write(rows)
+labelled = labels.read.count { |row| !row["label"].to_s.strip.empty? }
+puts "#{rows.size} pairs in data/match_labels.csv, #{labelled} labelled"

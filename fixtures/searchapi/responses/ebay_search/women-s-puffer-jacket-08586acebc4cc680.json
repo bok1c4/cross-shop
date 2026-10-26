@@ -1,0 +1,1769 @@
+{
+  "search_metadata": {
+    "id": "search_jOZRYa4201HQlrKL1klD6mVx",
+    "status": "Success",
+    "created_at": "2026-10-26T18:48:43Z",
+    "request_time_taken": 2.84,
+    "parsing_time_taken": 0.12,
+    "total_time_taken": 2.96,
+    "request_url": "https://www.ebay.com/sch/i.html?_nkw=women%27s%20puffer%20jacket&_fcid=1",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_jOZRYa4201HQlrKL1klD6mVx.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_jOZRYa4201HQlrKL1klD6mVx"
+  },
+  "search_parameters": {
+    "engine": "ebay_search",
+    "q": "women's puffer jacket",
+    "ebay_domain": "ebay.com",
+    "country": "US",
+    "delivery_country": "US"
+  },
+  "search_information": {
+    "query_displayed": "women's puffer jacket",
+    "total_results": 440000,
+    "sorted_by": "Sort: Best Match",
+    "buying_format": "All",
+    "language": "en"
+  },
+  "categories": [
+    {
+      "name": "Clothing, Shoes & Accessories",
+      "link": "https://www.ebay.com/sch/11450/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "11450"
+    },
+    {
+      "name": "Women",
+      "link": "https://www.ebay.com/sch/260010/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "260010"
+    },
+    {
+      "name": "Women's Clothing",
+      "link": "https://www.ebay.com/sch/15724/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "15724",
+      "subcategories": [
+        {
+          "name": "Coats, Jackets & Vests",
+          "is_selected": true
+        },
+        {
+          "name": "Activewear",
+          "link": "https://www.ebay.com/sch/185098/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+          "category_id": "185098"
+        },
+        {
+          "name": "Tops",
+          "link": "https://www.ebay.com/sch/53159/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+          "category_id": "53159"
+        },
+        {
+          "name": "Dresses",
+          "link": "https://www.ebay.com/sch/63861/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+          "category_id": "63861"
+        },
+        {
+          "name": "Sweaters",
+          "link": "https://www.ebay.com/sch/63866/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+          "category_id": "63866"
+        },
+        {
+          "name": "Pants",
+          "link": "https://www.ebay.com/sch/63863/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+          "category_id": "63863"
+        },
+        {
+          "name": "Skirts",
+          "link": "https://www.ebay.com/sch/63864/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+          "category_id": "63864"
+        },
+        {
+          "name": "Outfits & Sets",
+          "link": "https://www.ebay.com/sch/260011/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+          "category_id": "260011"
+        },
+        {
+          "name": "Suits & Suit Separates",
+          "link": "https://www.ebay.com/sch/63865/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+          "category_id": "63865"
+        },
+        {
+          "name": "Jeans",
+          "link": "https://www.ebay.com/sch/11554/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+          "category_id": "11554"
+        },
+        {
+          "name": "Intimates & Sleep",
+          "link": "https://www.ebay.com/sch/11514/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+          "category_id": "11514"
+        },
+        {
+          "name": "Shorts",
+          "link": "https://www.ebay.com/sch/11555/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+          "category_id": "11555"
+        },
+        {
+          "name": "Jumpsuits & Rompers",
+          "link": "https://www.ebay.com/sch/3009/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+          "category_id": "3009"
+        },
+        {
+          "name": "Hosiery & Socks",
+          "link": "https://www.ebay.com/sch/11524/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+          "category_id": "11524"
+        },
+        {
+          "name": "Leggings",
+          "link": "https://www.ebay.com/sch/169001/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+          "category_id": "169001"
+        }
+      ]
+    },
+    {
+      "name": "Sporting Goods",
+      "link": "https://www.ebay.com/sch/888/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "888"
+    },
+    {
+      "name": "Sports Mem, Cards & Fan Shop",
+      "link": "https://www.ebay.com/sch/64482/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "64482"
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "1"
+    },
+    {
+      "name": "Home & Garden",
+      "link": "https://www.ebay.com/sch/11700/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "11700"
+    },
+    {
+      "name": "eBay Motors",
+      "link": "https://www.ebay.com/sch/6000/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "6000"
+    },
+    {
+      "name": "Pet Supplies",
+      "link": "https://www.ebay.com/sch/1281/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "1281"
+    },
+    {
+      "name": "Everything Else",
+      "link": "https://www.ebay.com/sch/99/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "99"
+    },
+    {
+      "name": "Crafts",
+      "link": "https://www.ebay.com/sch/14339/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "14339"
+    },
+    {
+      "name": "Art",
+      "link": "https://www.ebay.com/sch/550/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "550"
+    },
+    {
+      "name": "Health & Beauty",
+      "link": "https://www.ebay.com/sch/26395/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "26395"
+    },
+    {
+      "name": "Jewelry & Watches",
+      "link": "https://www.ebay.com/sch/281/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "281"
+    },
+    {
+      "name": "Business & Industrial",
+      "link": "https://www.ebay.com/sch/12576/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "12576"
+    },
+    {
+      "name": "Antiques",
+      "link": "https://www.ebay.com/sch/20081/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "20081"
+    },
+    {
+      "name": "Toys & Hobbies",
+      "link": "https://www.ebay.com/sch/220/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "220"
+    },
+    {
+      "name": "Baby",
+      "link": "https://www.ebay.com/sch/2984/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "2984"
+    },
+    {
+      "name": "Travel",
+      "link": "https://www.ebay.com/sch/3252/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "3252"
+    },
+    {
+      "name": "Entertainment Memorabilia",
+      "link": "https://www.ebay.com/sch/45100/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "45100"
+    },
+    {
+      "name": "Pottery & Glass",
+      "link": "https://www.ebay.com/sch/870/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "870"
+    },
+    {
+      "name": "Books & Magazines",
+      "link": "https://www.ebay.com/sch/267/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "267"
+    },
+    {
+      "name": "Video Games & Consoles",
+      "link": "https://www.ebay.com/sch/1249/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "1249"
+    },
+    {
+      "name": "Consumer Electronics",
+      "link": "https://www.ebay.com/sch/293/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "293"
+    },
+    {
+      "name": "Computers/Tablets & Networking",
+      "link": "https://www.ebay.com/sch/58058/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "58058"
+    },
+    {
+      "name": "Dolls & Bears",
+      "link": "https://www.ebay.com/sch/237/i.html?_nkw=women%27s+puffer+jacket&_fcid=1",
+      "category_id": "237"
+    }
+  ],
+  "filters": [
+    {
+      "type": "Shipping and pickup",
+      "options": [
+        {
+          "text": "Arrives in 2-4 days",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc&LH_FAST=1"
+        },
+        {
+          "text": "Free Shipping",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc&LH_FS=1"
+        },
+        {
+          "text": "Local Pickup within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc&_fspt=1&_sadis=25&LH_PrefLoc=99&_stpos=77449&LH_LPickup=1"
+        }
+      ]
+    },
+    {
+      "type": "Brand",
+      "options": [
+        {
+          "text": "Abercrombie & Fitch (2,548) Items",
+          "items": 2548,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Brand=Abercrombie%2520%2526%2520Fitch&_dcat=63862"
+        },
+        {
+          "text": "Calvin Klein (8,740) Items",
+          "items": 8740,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Brand=Calvin%2520Klein&_dcat=63862"
+        },
+        {
+          "text": "Columbia (11,762) Items",
+          "items": 11762,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Brand=Columbia&_dcat=63862"
+        },
+        {
+          "text": "L.L. Bean (5,234) Items",
+          "items": 5234,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Brand=L%252EL%252E%2520Bean&_dcat=63862"
+        },
+        {
+          "text": "Marmot (2,284) Items",
+          "items": 2284,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Brand=Marmot&_dcat=63862"
+        },
+        {
+          "text": "Patagonia (10,247) Items",
+          "items": 10247,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Brand=Patagonia&_dcat=63862"
+        },
+        {
+          "text": "The North Face (25,113) Items",
+          "items": 25113,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Brand=The%2520North%2520Face&_dcat=63862"
+        },
+        {
+          "text": "Unbranded (103,081) Items",
+          "items": 103081,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Brand=Unbranded&_dcat=63862"
+        }
+      ]
+    },
+    {
+      "type": "Style",
+      "options": [
+        {
+          "text": "Puffer Jacket (274,530) Items",
+          "items": 274530,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Style=Puffer%2520Jacket&_dcat=63862"
+        },
+        {
+          "text": "Parka (32,389) Items",
+          "items": 32389,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Style=Parka&_dcat=63862"
+        },
+        {
+          "text": "Bomber Jacket (5,466) Items",
+          "items": 5466,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Style=Bomber%2520Jacket&_dcat=63862"
+        },
+        {
+          "text": "Varsity Jacket (33,453) Items",
+          "items": 33453,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Style=Varsity%2520Jacket&_dcat=63862"
+        },
+        {
+          "text": "Overcoat (26,919) Items",
+          "items": 26919,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Style=Overcoat&_dcat=63862"
+        },
+        {
+          "text": "Basic Jacket (18,293) Items",
+          "items": 18293,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Style=Basic%2520Jacket&_dcat=63862"
+        },
+        {
+          "text": "Motorcycle Jacket (3,604) Items",
+          "items": 3604,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Style=Motorcycle%2520Jacket&_dcat=63862"
+        },
+        {
+          "text": "Casual (2,676) Items",
+          "items": 2676,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Style=Casual&_dcat=63862"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "options": [
+        {
+          "text": "Quilted (377,715) Items",
+          "items": 377715,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Features=Quilted&_dcat=63862"
+        },
+        {
+          "text": "Lightweight (265,376) Items",
+          "items": 265376,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Features=Lightweight&_dcat=63862"
+        },
+        {
+          "text": "Pockets (167,152) Items",
+          "items": 167152,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Features=Pockets&_dcat=63862"
+        },
+        {
+          "text": "Full Zip (156,604) Items",
+          "items": 156604,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Features=Full%2520Zip&_dcat=63862"
+        },
+        {
+          "text": "Hooded (137,574) Items",
+          "items": 137574,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Features=Hooded&_dcat=63862"
+        },
+        {
+          "text": "Padded (101,332) Items",
+          "items": 101332,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Features=Padded&_dcat=63862"
+        },
+        {
+          "text": "Collared (87,531) Items",
+          "items": 87531,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Features=Collared&_dcat=63862"
+        },
+        {
+          "text": "Insulated (83,965) Items",
+          "items": 83965,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Features=Insulated&_dcat=63862"
+        }
+      ]
+    },
+    {
+      "type": "Season",
+      "options": [
+        {
+          "text": "Winter (389,225) Items",
+          "items": 389225,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Season=Winter&_dcat=63862"
+        },
+        {
+          "text": "Fall (278,053) Items",
+          "items": 278053,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Season=Fall&_dcat=63862"
+        },
+        {
+          "text": "Spring (225,911) Items",
+          "items": 225911,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Season=Spring&_dcat=63862"
+        },
+        {
+          "text": "Summer (38,242) Items",
+          "items": 38242,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Season=Summer&_dcat=63862"
+        },
+        {
+          "text": "Not Specified (163,747) Items",
+          "items": 163747,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Season=%21&_dcat=63862"
+        }
+      ]
+    },
+    {
+      "type": "Theme",
+      "options": [
+        {
+          "text": "Outdoor (154,551) Items",
+          "items": 154551,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Theme=Outdoor&_dcat=63862"
+        },
+        {
+          "text": "Classic (102,104) Items",
+          "items": 102104,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Theme=Classic&_dcat=63862"
+        },
+        {
+          "text": "Designer (65,011) Items",
+          "items": 65011,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Theme=Designer&_dcat=63862"
+        },
+        {
+          "text": "90s (50,858) Items",
+          "items": 50858,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Theme=90s&_dcat=63862"
+        },
+        {
+          "text": "Holiday (36,014) Items",
+          "items": 36014,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Theme=Holiday&_dcat=63862"
+        },
+        {
+          "text": "College (32,911) Items",
+          "items": 32911,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Theme=College&_dcat=63862"
+        },
+        {
+          "text": "City (31,662) Items",
+          "items": 31662,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Theme=City&_dcat=63862"
+        },
+        {
+          "text": "School (29,652) Items",
+          "items": 29652,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Theme=School&_dcat=63862"
+        }
+      ]
+    },
+    {
+      "type": "Occasion",
+      "options": [
+        {
+          "text": "Casual (391,798) Items",
+          "items": 391798,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Occasion=Casual&_dcat=63862"
+        },
+        {
+          "text": "Travel (197,354) Items",
+          "items": 197354,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Occasion=Travel&_dcat=63862"
+        },
+        {
+          "text": "Workwear (95,090) Items",
+          "items": 95090,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Occasion=Workwear&_dcat=63862"
+        },
+        {
+          "text": "Party/Cocktail (74,120) Items",
+          "items": 74120,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Occasion=Party%252FCocktail&_dcat=63862"
+        },
+        {
+          "text": "Business (73,717) Items",
+          "items": 73717,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Occasion=Business&_dcat=63862"
+        },
+        {
+          "text": "Formal (56,094) Items",
+          "items": 56094,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Occasion=Formal&_dcat=63862"
+        },
+        {
+          "text": "Not Specified (178,506) Items",
+          "items": 178506,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Occasion=%21&_dcat=63862"
+        }
+      ]
+    },
+    {
+      "type": "Type",
+      "options": [
+        {
+          "text": "Jacket (310,513) Items",
+          "items": 310513,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Type=Jacket&_dcat=63862"
+        },
+        {
+          "text": "Coat (162,389) Items",
+          "items": 162389,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Type=Coat&_dcat=63862"
+        },
+        {
+          "text": "Vest (142,249) Items",
+          "items": 142249,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Type=Vest&_dcat=63862"
+        },
+        {
+          "text": "Waistcoat (3,696) Items",
+          "items": 3696,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Type=Waistcoat&_dcat=63862"
+        },
+        {
+          "text": "Blazer (3,622) Items",
+          "items": 3622,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Type=Blazer&_dcat=63862"
+        },
+        {
+          "text": "Poncho (252) Items",
+          "items": 252,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Type=Poncho&_dcat=63862"
+        },
+        {
+          "text": "Cape (191) Items",
+          "items": 191,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Type=Cape&_dcat=63862"
+        },
+        {
+          "text": "Coatigan (176) Items",
+          "items": 176,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&Type=Coatigan&_dcat=63862"
+        }
+      ]
+    },
+    {
+      "type": "Condition",
+      "options": [
+        {
+          "text": "New with tags (211,791) Items",
+          "items": 211791,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc&LH_ItemCondition=1000"
+        },
+        {
+          "text": "New without tags (35,345) Items",
+          "items": 35345,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc&LH_ItemCondition=1500"
+        },
+        {
+          "text": "New with imperfections (3,134) Items",
+          "items": 3134,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc&LH_ItemCondition=1750"
+        },
+        {
+          "text": "Pre-Owned (326,499) Items",
+          "items": 326499,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc&LH_ItemCondition=3000"
+        },
+        {
+          "text": "Not Specified (1) Items",
+          "items": 1,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc&LH_ItemCondition=10"
+        }
+      ]
+    },
+    {
+      "type": "Buying Format",
+      "options": [
+        {
+          "text": "All Listings (576,770) Items",
+          "items": 576770,
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc"
+        },
+        {
+          "text": "Auction (7,940) Items",
+          "items": 7940,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc&LH_Auction=1"
+        },
+        {
+          "text": "Buy It Now (570,154) Items",
+          "items": 570154,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc&LH_BIN=1"
+        },
+        {
+          "text": "Accepts Offers (328,863) Items",
+          "items": 328863,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc&LH_BO=1"
+        }
+      ]
+    },
+    {
+      "type": "Item Location",
+      "options": [
+        {
+          "text": "Default",
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc&LH_PrefLoc=98"
+        },
+        {
+          "text": "Within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&_dcat=63862&_sadis=25&_stpos=77449&_fspt=1"
+        },
+        {
+          "text": "US Only",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc&LH_PrefLoc=1"
+        },
+        {
+          "text": "North America",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc&LH_PrefLoc=3"
+        },
+        {
+          "text": "Worldwide",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc&LH_PrefLoc=2"
+        }
+      ]
+    },
+    {
+      "type": "Show only",
+      "options": [
+        {
+          "text": "Free Returns",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc&LH_FR=1"
+        },
+        {
+          "text": "Returns Accepted",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc&LH_RPA=1"
+        },
+        {
+          "text": "Authorized Seller",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc&LH_AS=1"
+        },
+        {
+          "text": "Completed Items",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc&LH_Complete=1"
+        },
+        {
+          "text": "Sold Items",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc&LH_Sold=1"
+        },
+        {
+          "text": "Deals & Savings",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&rt=nc&LH_Savings=1"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "item_id": "940039111331",
+      "title": "Scenario Women's and Women's Plus Quilted Puffer Jacket, Sizes XS-4X",
+      "subtitle": "Size M + more",
+      "link": "https://www.ebay.com/itm/940039111331",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Save up to 6% when you buy more"
+      ],
+      "price": "$76.22 to $78.98",
+      "extracted_price_range": {
+        "from": 76.22,
+        "to": 78.98
+      },
+      "is_price_range": true,
+      "shipping": "Located in United States",
+      "deal": "Free delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/G6YAAeSwcnBq3TpJ/s-l500.webp"
+    },
+    {
+      "position": 2,
+      "item_id": "298338069409",
+      "title": "puffy jacket women, Small, Medium and Large. light-weight jacket",
+      "subtitle": "Size M",
+      "link": "https://www.ebay.com/itm/298338069409",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "23 watchers"
+      ],
+      "price": "$35.00",
+      "extracted_price": 35.0,
+      "shipping": "+$7.29 delivery",
+      "extracted_shipping": 7.29,
+      "thumbnail": "https://i.ebayimg.com/images/g/s2AAAeSwKOdqDofv/s-l500.webp"
+    },
+    {
+      "position": 3,
+      "item_id": "117109795368",
+      "title": "Women's Puffer Jacket Fleece Lined Sherpa Long Winter Coat Hood Warm Parka Coats",
+      "subtitle": "Size S + more",
+      "link": "https://www.ebay.com/itm/117109795368",
+      "condition": "Brand New",
+      "tag": "NEW LOW PRICE",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "3+ watchers"
+      ],
+      "price": "$55.98 to $60.98",
+      "extracted_price_range": {
+        "from": 55.98,
+        "to": 60.98
+      },
+      "is_price_range": true,
+      "original_price": "$58.93",
+      "extracted_original_price": 58.93,
+      "shipping": "Free delivery",
+      "deal": "From $47.58 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/~PwAAeSwthdpxVT~/s-l140.webp"
+    },
+    {
+      "position": 4,
+      "item_id": "800628483401",
+      "title": "a.n.a White Puffer Winter Coat Faux Fur Removable Hood 2-Way Zip Women’s Size S",
+      "subtitle": "Size S · a.n.a",
+      "link": "https://www.ebay.com/itm/800628483401",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$34.99",
+      "extracted_price": 34.99,
+      "shipping": "+$11.92 delivery",
+      "extracted_shipping": 11.92,
+      "thumbnail": "https://i.ebayimg.com/images/g/7sMAAeSwRR1qn2fb/s-l140.webp"
+    },
+    {
+      "position": 5,
+      "item_id": "257819045165",
+      "title": "Wantdo Women’s Full Zip Hooded Faux Fur Trim Quilted Puffer Jacket Blue M",
+      "subtitle": "Size M · Wantdo",
+      "link": "https://www.ebay.com/itm/257819045165",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "+$9.66 delivery",
+      "extracted_shipping": 9.66,
+      "thumbnail": "https://i.ebayimg.com/images/g/N8wAAeSw3ftq35yI/s-l140.webp"
+    },
+    {
+      "position": 6,
+      "item_id": "257819045995",
+      "title": "Calvin Klein Women’s Beige Down Puffer Jacket, Faux Fur Hood, Full Zip, 0X",
+      "subtitle": "Plus 0X · Calvin Klein",
+      "link": "https://www.ebay.com/itm/257819045995",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$85.00",
+      "extracted_price": 85.0,
+      "shipping": "+$9.66 delivery",
+      "extracted_shipping": 9.66,
+      "thumbnail": "https://i.ebayimg.com/images/g/S64AAeSwquRq35zW/s-l140.webp"
+    },
+    {
+      "position": 7,
+      "item_id": "377598718907",
+      "title": "Amazon Essentials Women's Heavyweight Quilted Hooded Puffer Winter Jacket Red M",
+      "subtitle": "Size M · Amazon",
+      "link": "https://www.ebay.com/itm/377598718907",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$28.00",
+      "extracted_price": 28.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/nnwAAeSwZypq31F7/s-l140.webp"
+    },
+    {
+      "position": 8,
+      "item_id": "407317825858",
+      "title": "Fabletics Women's White Quilted Puffer Jacket Insulated Pockets Size M",
+      "subtitle": "Size M · Fabletics",
+      "link": "https://www.ebay.com/itm/407317825858",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$30.00",
+      "extracted_price": 30.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/4TgAAeSwSiVq33kS/s-l140.webp"
+    },
+    {
+      "position": 9,
+      "item_id": "407317665296",
+      "title": "Cisono Black Quilted Puffer Hooded Zip Jacket Women’s Regular Size M",
+      "subtitle": "Size M · CI SONO",
+      "link": "https://www.ebay.com/itm/407317665296",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$7.00",
+      "extracted_price": 7.0,
+      "shipping": "+$9.66 delivery",
+      "extracted_shipping": 9.66,
+      "thumbnail": "https://i.ebayimg.com/images/g/8VAAAeSwiWpq32no/s-l140.webp"
+    },
+    {
+      "position": 10,
+      "item_id": "377599285136",
+      "title": "black puffer jacket with fur hood",
+      "subtitle": "Size L",
+      "link": "https://www.ebay.com/itm/377599285136",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$20.00",
+      "extracted_price": 20.0,
+      "shipping": "+$9.28 delivery",
+      "extracted_shipping": 9.28,
+      "thumbnail": "https://i.ebayimg.com/images/g/BrwAAeSwrr1q35oP/s-l140.webp"
+    },
+    {
+      "position": 11,
+      "item_id": "960119229241",
+      "title": "Forever 21 Women's Pink Quilted Puffer Jacket Full Zip Pockets Satin S",
+      "subtitle": "Size S · FOREVER 21",
+      "link": "https://www.ebay.com/itm/960119229241",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$12.00",
+      "extracted_price": 12.0,
+      "shipping": "+$9.66 delivery",
+      "extracted_shipping": 9.66,
+      "thumbnail": "https://i.ebayimg.com/images/g/nzYAAeSwyhxq35aw/s-l140.webp"
+    },
+    {
+      "position": 12,
+      "item_id": "198746883266",
+      "title": "Womens Lightweight Water Resistant Packable Hooded Puffer Coat Green",
+      "subtitle": "Size M + more",
+      "link": "https://www.ebay.com/itm/198746883266",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$24.53",
+      "extracted_price": 24.53,
+      "shipping": "+$7.07 delivery",
+      "extracted_shipping": 7.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/zFwAAeSwtgFq30Hs/s-l140.webp"
+    },
+    {
+      "position": 13,
+      "item_id": "920076924446",
+      "title": "Women's White Solid Hooded Puffer Jacket Short Full Zip Black Accents",
+      "subtitle": "Size S · Bogner",
+      "link": "https://www.ebay.com/itm/920076924446",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$199.00",
+      "extracted_price": 199.0,
+      "shipping": "+$20.00 delivery",
+      "extracted_shipping": 20.0,
+      "thumbnail": "https://i.ebayimg.com/images/g/w2kAAeSw8oNq35sT/s-l140.webp"
+    },
+    {
+      "position": 14,
+      "item_id": "336385079194",
+      "title": "NEW Women’s Puffer Work Jacket – Durable Quilted Lightweight Warm Coat USA",
+      "subtitle": "Size M + more",
+      "link": "https://www.ebay.com/itm/336385079194",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 20% when you buy more"
+      ],
+      "price": "$24.49",
+      "extracted_price": 24.49,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/DzwAAeSwzadqmDje/s-l140.webp"
+    },
+    {
+      "position": 15,
+      "item_id": "256588880895",
+      "title": "Rokka&Rolla Women's Long Puffer Jacket",
+      "subtitle": "Size M + more",
+      "link": "https://www.ebay.com/itm/256588880895",
+      "condition": "Brand New",
+      "tag": "NEW LOW PRICE",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$49.99",
+      "extracted_price": 49.99,
+      "original_price": "$71.41",
+      "extracted_original_price": 71.41,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/XIoAAeSw5oRqdCUn/s-l140.webp"
+    },
+    {
+      "position": 16,
+      "item_id": "188274742019",
+      "title": "Nautica Women's Puffer Jacket Water Resistant Detachable Hood",
+      "subtitle": "Size L + more · Nautica",
+      "link": "https://www.ebay.com/itm/188274742019",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 12% when you buy more"
+      ],
+      "price": "$34.99",
+      "extracted_price": 34.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/YlgAAeSwn8lp3U42/s-l140.webp"
+    },
+    {
+      "position": 17,
+      "item_id": "227584390473",
+      "title": "Polaris Women's Roseau Packable Puffer Jacket Gray Size M 2847018",
+      "subtitle": "Size M · Polaris",
+      "link": "https://www.ebay.com/itm/227584390473",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$97.99",
+      "extracted_price": 97.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/XJUAAeSwL6tq33HJ/s-l140.webp"
+    },
+    {
+      "position": 18,
+      "item_id": "227584390475",
+      "title": "Polaris Women's Roseau Packable Puffer Jacket Blue/Black Size M 2865342",
+      "subtitle": "Size M · Polaris",
+      "link": "https://www.ebay.com/itm/227584390475",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$97.99",
+      "extracted_price": 97.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/F~sAAeSwXX1q33HI/s-l140.webp"
+    },
+    {
+      "position": 19,
+      "item_id": "920076735664",
+      "title": "Michael Kors Red Quilted Hooded Coat – Size L",
+      "subtitle": "Size L · Michael Kors",
+      "link": "https://www.ebay.com/itm/920076735664",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$30.00",
+      "extracted_price": 30.0,
+      "shipping": "+$6.38 delivery",
+      "extracted_shipping": 6.38,
+      "thumbnail": "https://i.ebayimg.com/images/g/kuQAAeSw8VBq34bl/s-l140.webp"
+    },
+    {
+      "position": 20,
+      "item_id": "920076910604",
+      "title": "Michael Kors Leopard Print Hooded Puffer Jacket w/ Pockets Size M Polyester",
+      "subtitle": "Size M · Michael Kors",
+      "link": "https://www.ebay.com/itm/920076910604",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$90.00",
+      "extracted_price": 90.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/y54AAeSw-w1q35ku/s-l140.webp"
+    },
+    {
+      "position": 21,
+      "item_id": "237145520066",
+      "title": "The North Face Women’s ThermoBall Hooded Puffer Jacket Green XL",
+      "subtitle": "Size XL · The North Face",
+      "link": "https://www.ebay.com/itm/237145520066",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$79.00",
+      "extracted_price": 79.0,
+      "shipping": "+$7.56 delivery",
+      "extracted_shipping": 7.56,
+      "thumbnail": "https://i.ebayimg.com/images/g/iacAAeSw8bFq35Mh/s-l140.webp"
+    },
+    {
+      "position": 22,
+      "item_id": "227584461875",
+      "title": "Lolë Women’s Black Long Hooded Down Puffer Jacket XL Full Zip Quilted",
+      "subtitle": "Size XL",
+      "link": "https://www.ebay.com/itm/227584461875",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left6d 22h",
+      "extensions": [
+        "+$8.17 delivery",
+        "Located in United States"
+      ],
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "shipping": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/oqoAAeSwqTlq34Cd/s-l140.webp"
+    },
+    {
+      "position": 23,
+      "item_id": "920076963830",
+      "title": "Michael Kors Red Quilted Hooded Coat – Size L",
+      "subtitle": "Size L · Michael Kors",
+      "link": "https://www.ebay.com/itm/920076963830",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$38.50",
+      "extracted_price": 38.5,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/kuQAAeSw8VBq34bl/s-l140.webp"
+    },
+    {
+      "position": 24,
+      "item_id": "407317947541",
+      "title": "Laundry by Shelli Segal Women's Ivory Long Quilted Puffer Hooded Zip Coat M",
+      "subtitle": "Size M · Laundry by Shelli Segal",
+      "link": "https://www.ebay.com/itm/407317947541",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$21.00",
+      "extracted_price": 21.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/lUUAAeSwicJq34cO/s-l140.webp"
+    },
+    {
+      "position": 25,
+      "item_id": "168818301224",
+      "title": "Ladies XL Calvin Klein Coat",
+      "subtitle": "Size XL · Calvin Klein",
+      "link": "https://www.ebay.com/itm/168818301224",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "+$7.76 delivery",
+      "extracted_shipping": 7.76,
+      "thumbnail": "https://i.ebayimg.com/images/g/o-IAAeSwGY9q3596/s-l140.webp"
+    },
+    {
+      "position": 26,
+      "item_id": "227584461199",
+      "title": "Michael Kors Red Quilted Puffer Vest Full Zip Sleeveless Women’s Plus 1X",
+      "subtitle": "Plus 1X · Michael Kors",
+      "link": "https://www.ebay.com/itm/227584461199",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$15.00",
+      "extracted_price": 15.0,
+      "shipping": "+$6.71 delivery",
+      "extracted_shipping": 6.71,
+      "thumbnail": "https://i.ebayimg.com/images/g/w7QAAeSwUS9q35Wk/s-l140.webp"
+    },
+    {
+      "position": 27,
+      "item_id": "377599202642",
+      "title": "Patagonia Nano Puff Women’s Hooded Full Zip Quilted Puffer Jacket Black L",
+      "subtitle": "Size L · Patagonia",
+      "link": "https://www.ebay.com/itm/377599202642",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$175.00",
+      "extracted_price": 175.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/waoAAeSw2l1q3453/s-l140.webp"
+    },
+    {
+      "position": 28,
+      "item_id": "407318114554",
+      "title": "Black Rivet -SILVER/GREY Packable Quilted Down Puffer Jacket Full Zip Women's S",
+      "subtitle": "Size S · Black Rivet",
+      "link": "https://www.ebay.com/itm/407318114554",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$20.00",
+      "extracted_price": 20.0,
+      "shipping": "+$6.73 delivery",
+      "extracted_shipping": 6.73,
+      "thumbnail": "https://i.ebayimg.com/images/g/k6oAAeSwQ55q35vu/s-l140.webp"
+    },
+    {
+      "position": 29,
+      "item_id": "128157892120",
+      "title": "XINYIMENG Superior Black Hooded Insulated Full Zip Puffer Jacket Women's S",
+      "subtitle": "Size S",
+      "link": "https://www.ebay.com/itm/128157892120",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$32.00",
+      "extracted_price": 32.0,
+      "shipping": "+$8.17 delivery",
+      "extracted_shipping": 8.17,
+      "thumbnail": "https://i.ebayimg.com/images/g/B4IAAeSwFuJq35yW/s-l140.webp"
+    },
+    {
+      "position": 30,
+      "item_id": "168818145054",
+      "title": "London Fog Women Medium Down Insulated Puffer Jacket Lightweight Packable Hooded",
+      "subtitle": "Size M · London Fog",
+      "link": "https://www.ebay.com/itm/168818145054",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "price": "$24.49",
+      "extracted_price": 24.49,
+      "shipping": "Located in United States",
+      "deal": "$23.27 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/Ik8AAeSwi2Vq34G0/s-l140.webp"
+    },
+    {
+      "position": 31,
+      "item_id": "227559249523",
+      "title": "Womens 24 Zone Heated Jacket Winter Hooded Puffer Coat 3 Heat Levels Outdoor Ski",
+      "subtitle": "Size 2XL + more",
+      "link": "https://www.ebay.com/itm/227559249523",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$52.99",
+      "extracted_price": 52.99,
+      "shipping": "+$9.92 delivery",
+      "extracted_shipping": 9.92,
+      "thumbnail": "https://i.ebayimg.com/images/g/zOsAAeSwNG5qvkIF/s-l140.webp"
+    },
+    {
+      "position": 32,
+      "item_id": "127465031152",
+      "title": "Columbia Women's White Out FS 1.0 Mid Hooded Omni-Heat Jacket, Black",
+      "subtitle": "Size S + more · Columbia",
+      "link": "https://www.ebay.com/itm/127465031152",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "13+ watchers"
+      ],
+      "price": "$119.99",
+      "extracted_price": 119.99,
+      "shipping": "+$12.99 delivery",
+      "extracted_shipping": 12.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/bdwAAeSw8FhpBnjp/s-l140.webp"
+    },
+    {
+      "position": 33,
+      "item_id": "227584390477",
+      "title": "Polaris Women's Roseau Packable Puffer Jacket Rose Size M 2865341",
+      "subtitle": "Size M · Polaris",
+      "link": "https://www.ebay.com/itm/227584390477",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$97.99",
+      "extracted_price": 97.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/g40AAeSwVJFq33HI/s-l140.webp"
+    },
+    {
+      "position": 34,
+      "item_id": "940042683516",
+      "title": "Orolay 092 Thickened Down Jacket Womens Sm Black Puffer Coat Sherpa Hooded",
+      "subtitle": "Size S",
+      "link": "https://www.ebay.com/itm/940042683516",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$59.99",
+      "extracted_price": 59.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/GeoAAeSw5Wlq3yvK/s-l140.webp"
+    },
+    {
+      "position": 35,
+      "item_id": "820280316339",
+      "title": "Forever 21 Women’s Green Quilted Puffer Jacket Full Zip Short Coat L",
+      "subtitle": "Size L · FOREVER 21",
+      "link": "https://www.ebay.com/itm/820280316339",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$20.00",
+      "extracted_price": 20.0,
+      "shipping": "+$7.58 delivery",
+      "extracted_shipping": 7.58,
+      "thumbnail": "https://i.ebayimg.com/images/g/OAcAAeSwqPNq341l/s-l140.webp"
+    },
+    {
+      "position": 36,
+      "item_id": "137877065478",
+      "title": "G.H. Bass & Co. Women's White Hooded Quilted Puffer Jacket Full Zip Size L",
+      "subtitle": "Size L · G.H. Bass & Co.",
+      "link": "https://www.ebay.com/itm/137877065478",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$22.00",
+      "extracted_price": 22.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/ovkAAeSwK9Nq33vW/s-l140.webp"
+    },
+    {
+      "position": 37,
+      "item_id": "227584483399",
+      "title": "Patagonia Women’s Radalie Quilted Insulated Jacket- Cream- XS",
+      "subtitle": "Size XS · Patagonia",
+      "link": "https://www.ebay.com/itm/227584483399",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$86.00",
+      "extracted_price": 86.0,
+      "shipping": "+$6.36 delivery",
+      "extracted_shipping": 6.36,
+      "thumbnail": "https://i.ebayimg.com/images/g/eCIAAeSwynJq34cY/s-l140.webp"
+    },
+    {
+      "position": 38,
+      "item_id": "187752593327",
+      "title": "All In Motion Women's Puffer Jacket Full Zip Side Pockets Nylon",
+      "subtitle": "Juniors L + more · All In Motion",
+      "link": "https://www.ebay.com/itm/187752593327",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "price": "$25.99",
+      "extracted_price": 25.99,
+      "original_price": "$60.00",
+      "extracted_original_price": 60.0,
+      "shipping": "Located in United States",
+      "deal": "Free delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/rQwAAeSwV0xq30jn/s-l140.webp"
+    },
+    {
+      "position": 39,
+      "item_id": "820239340788",
+      "title": "Women's Winter Puffer Jacket Faux Fur Hood Quilted Warm Coat Parka S-3XL",
+      "subtitle": "Size XL",
+      "link": "https://www.ebay.com/itm/820239340788",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Import fees due prior to delivery",
+        "Located in Pakistan",
+        "Last one"
+      ],
+      "price": "$45.17",
+      "extracted_price": 45.17,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/Qh4AAeSwfyVq0Dk7/s-l140.webp"
+    },
+    {
+      "position": 40,
+      "item_id": "178533151750",
+      "title": "Women's Lightweight Water-Resistant Hooded Puffer Jacket Longer Coat, Medium",
+      "subtitle": "Size M",
+      "link": "https://www.ebay.com/itm/178533151750",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Last one"
+      ],
+      "price": "$17.95",
+      "extracted_price": 17.95,
+      "shipping": "+$7.58 delivery",
+      "extracted_shipping": 7.58,
+      "thumbnail": "https://i.ebayimg.com/images/g/9ecAAOSwPd1is67U/s-l140.webp"
+    },
+    {
+      "position": 41,
+      "item_id": "137877248464",
+      "title": "Ging Chia Women's Black Long Quilted Hooded Puffer Coat Snap Closure M",
+      "subtitle": "Size M · Chia",
+      "link": "https://www.ebay.com/itm/137877248464",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$30.00",
+      "extracted_price": 30.0,
+      "shipping": "+$9.66 delivery",
+      "extracted_shipping": 9.66,
+      "thumbnail": "https://i.ebayimg.com/images/g/T04AAeSw3E1q35Yd/s-l140.webp"
+    },
+    {
+      "position": 42,
+      "item_id": "227584396300",
+      "title": "Women's Roseau Quilted Vest Black Size S 2865347",
+      "subtitle": "Size S · Polaris",
+      "link": "https://www.ebay.com/itm/227584396300",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$69.99",
+      "extracted_price": 69.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/7McAAeSw8Glq33Pd/s-l140.webp"
+    },
+    {
+      "position": 43,
+      "item_id": "407317828695",
+      "title": "Mauritius Leather Puffer Jacket Womens M Orange Red Excellent Quilted Lambskin",
+      "subtitle": "Size M · Mauritius",
+      "link": "https://www.ebay.com/itm/407317828695",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$256.00",
+      "extracted_price": 256.0,
+      "shipping": "+$5.95 delivery",
+      "extracted_shipping": 5.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/RcgAAeSwsp9q33nN/s-l140.webp"
+    },
+    {
+      "position": 44,
+      "item_id": "900042730961",
+      "title": "Descente Women Ski Jacket Heat Navi Insulated White US 8",
+      "subtitle": "Size 8 · Descente",
+      "link": "https://www.ebay.com/itm/900042730961",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$165.00",
+      "extracted_price": 165.0,
+      "shipping": "+$6.95 delivery",
+      "extracted_shipping": 6.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/ZmEAAeSwOkpq35gv/s-l140.webp"
+    },
+    {
+      "position": 45,
+      "item_id": "860080150692",
+      "title": "Mackage Hooded Geometric Logo Puffer Jacket Zip Polyester Short Brown/Black XS",
+      "subtitle": "Size XS · Mackage",
+      "link": "https://www.ebay.com/itm/860080150692",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$800.00",
+      "extracted_price": 800.0,
+      "shipping": "+$6.53 delivery",
+      "extracted_shipping": 6.53,
+      "thumbnail": "https://i.ebayimg.com/images/g/EDUAAeSw~ahq3RU6/s-l140.webp"
+    },
+    {
+      "position": 46,
+      "item_id": "960119283168",
+      "title": "Joie Women's Green Quilted Snap-Front Mid-Length Jacket w/ Pockets Size M",
+      "subtitle": "Size M · JOIE",
+      "link": "https://www.ebay.com/itm/960119283168",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$20.00",
+      "extracted_price": 20.0,
+      "shipping": "+$9.28 delivery",
+      "extracted_shipping": 9.28,
+      "thumbnail": "https://i.ebayimg.com/images/g/J6YAAeSwtGFq35sL/s-l140.webp"
+    },
+    {
+      "position": 47,
+      "item_id": "860085850010",
+      "title": "Madewell Women’s Black Hooded Puffer Jacket, Zip Closure, Size XS",
+      "subtitle": "Size XS · Madewell",
+      "link": "https://www.ebay.com/itm/860085850010",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left6d 21h",
+      "extensions": [
+        "+$17.20 delivery",
+        "Located in United States"
+      ],
+      "price": "$12.00",
+      "extracted_price": 12.0,
+      "shipping": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/8QYAAeSwQi1q323G/s-l140.webp"
+    },
+    {
+      "position": 48,
+      "item_id": "206028325885",
+      "title": "JoyLab Women's Puffer Jacket Long Sleeve Side Pockets Nylon",
+      "subtitle": "Juniors L + more",
+      "link": "https://www.ebay.com/itm/206028325885",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "price": "$19.99",
+      "extracted_price": 19.99,
+      "original_price": "$45.00",
+      "extracted_original_price": 45.0,
+      "shipping": "Located in United States",
+      "deal": "$18.99 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/48UAAeSwh79q33-y/s-l140.webp"
+    },
+    {
+      "position": 49,
+      "item_id": "366759369992",
+      "title": "Canada Weather Gear Men’s Black Hooded Faux Fur Trim Puffer Jacket Size S",
+      "subtitle": "Size S · Gear",
+      "link": "https://www.ebay.com/itm/366759369992",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$180.00",
+      "extracted_price": 180.0,
+      "shipping": "+$9.28 delivery",
+      "extracted_shipping": 9.28,
+      "thumbnail": "https://i.ebayimg.com/images/g/tCkAAeSwyIJq3U0e/s-l140.webp"
+    },
+    {
+      "position": 50,
+      "item_id": "287681458916",
+      "title": "Guess Winter Long Jacket--Warm! Size L",
+      "subtitle": "Size L · GUESS",
+      "link": "https://www.ebay.com/itm/287681458916",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left6d 20h",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$55.00",
+      "extracted_price": 55.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/8w4AAeSwrQNq32Fc/s-l140.webp"
+    },
+    {
+      "position": 51,
+      "item_id": "287680436810",
+      "title": "Marks & Spencer Per Una Black Puffer Jacket Faux Fur Trim Size M Down Feather",
+      "subtitle": "Size M · Per Una",
+      "link": "https://www.ebay.com/itm/287680436810",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Import fees due prior to delivery",
+        "Located in Jordan"
+      ],
+      "price": "$20.00",
+      "extracted_price": 20.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/KRwAAeSwkf9q3urr/s-l140.webp"
+    },
+    {
+      "position": 52,
+      "item_id": "287681853687",
+      "title": "LAUREN RALPH LAUREN Women's Quilted Coat, color LITCHFIELD, size S, NWT",
+      "subtitle": "Size S · Lauren",
+      "link": "https://www.ebay.com/itm/287681853687",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$255.00",
+      "extracted_price": 255.0,
+      "shipping": "+$8.27 delivery",
+      "extracted_shipping": 8.27,
+      "thumbnail": "https://i.ebayimg.com/images/g/b8YAAeSwiMFq34iS/s-l140.webp"
+    },
+    {
+      "position": 53,
+      "item_id": "116915099862",
+      "title": "THE NORTH FACE WOMEN BALTIC 600 DOWN PUFFER HOODIE JACKET BLACK Size SMALL~XXL",
+      "subtitle": "Size S + more · The North Face",
+      "link": "https://www.ebay.com/itm/116915099862",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Authenticity Guarantee"
+      ],
+      "price": "$200.00",
+      "extracted_price": 200.0,
+      "original_price": "$250.00",
+      "extracted_original_price": 250.0,
+      "shipping": "Free delivery",
+      "deal": "$185.00 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/ho8AAeSwrX9pKR2r/s-l140.webp"
+    },
+    {
+      "position": 54,
+      "item_id": "267824488581",
+      "title": "Free People Pine Slumber Quilted Zip Cocoon Oversized Jacket XL Green",
+      "subtitle": "Size XL · Free People",
+      "link": "https://www.ebay.com/itm/267824488581",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$120.00",
+      "extracted_price": 120.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/B9YAAeSwOZxq33hI/s-l140.webp"
+    },
+    {
+      "position": 55,
+      "item_id": "116848773663",
+      "title": "The North Face Womens Baltic Hooded Insulated Puffer Down Jacket - TNF Black NWT",
+      "subtitle": "Size L + more · The North Face",
+      "link": "https://www.ebay.com/itm/116848773663",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$200.00",
+      "extracted_price": 200.0,
+      "original_price": "$250.00",
+      "extracted_original_price": 250.0,
+      "shipping": "Free delivery",
+      "deal": "$185.00 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/ZFAAAeSwAXppAC1D/s-l140.webp"
+    },
+    {
+      "position": 56,
+      "item_id": "168818293700",
+      "title": "Patagonia Nano Puff Women's Blue Ripstop Quilted Full Zip Puffer Jacket S",
+      "subtitle": "Size S · Patagonia",
+      "link": "https://www.ebay.com/itm/168818293700",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$45.00",
+      "extracted_price": 45.0,
+      "shipping": "+$6.52 delivery",
+      "extracted_shipping": 6.52,
+      "thumbnail": "https://i.ebayimg.com/images/g/qaoAAeSwvaBq3511/s-l140.webp"
+    },
+    {
+      "position": 57,
+      "item_id": "116908474671",
+      "title": "The North Face Women's Gotham Jacket Hooded 600-Down Winter Jacket - Navy NWT",
+      "subtitle": "Size S + more · The North Face",
+      "link": "https://www.ebay.com/itm/116908474671",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$200.00",
+      "extracted_price": 200.0,
+      "original_price": "$240.00",
+      "extracted_original_price": 240.0,
+      "shipping": "+$11.70 delivery",
+      "extracted_shipping": 11.7,
+      "deal": "$185.00 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/v1gAAeSwae5pLnuV/s-l140.webp"
+    },
+    {
+      "position": 58,
+      "item_id": "800840654713",
+      "title": "Calvin Klein women's chevron-quilted winter puffer jacket Size L M09",
+      "subtitle": "Size L · Calvin Klein",
+      "link": "https://www.ebay.com/itm/800840654713",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Import fees paid at checkout",
+        "Located in United Kingdom",
+        "Benefits charity"
+      ],
+      "price": "$13.37",
+      "extracted_price": 13.37,
+      "shipping": "+$26.61 shipping estimate",
+      "extracted_shipping": 26.61,
+      "thumbnail": "https://i.ebayimg.com/images/g/KDkAAeSwr0dq30sI/s-l140.webp"
+    },
+    {
+      "position": 59,
+      "item_id": "206598787867",
+      "title": "Calvin Klein Puffer Jacket Womens Small Cream Belted Hooded CW302498 - New",
+      "subtitle": "Size S · Calvin Klein",
+      "link": "https://www.ebay.com/itm/206598787867",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$44.87",
+      "extracted_price": 44.87,
+      "shipping": "+$6.90 delivery",
+      "extracted_shipping": 6.9,
+      "thumbnail": "https://i.ebayimg.com/images/g/m10AAeSw52RqwJj5/s-l140.webp"
+    },
+    {
+      "position": 60,
+      "item_id": "920065240309",
+      "title": "The North Face Nuptse Women's Down Puffer Jacket Medium",
+      "subtitle": "Size M · The North Face",
+      "link": "https://www.ebay.com/itm/920065240309",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$145.00",
+      "extracted_price": 145.0,
+      "shipping": "+$15.85 delivery",
+      "extracted_shipping": 15.85,
+      "thumbnail": "https://i.ebayimg.com/images/g/sTQAAeSwvd5qsDMT/s-l140.webp"
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "women s puffer jacket large",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=women+s+puffer+jacket+large&_sop=12"
+    },
+    {
+      "query": "womens puffer jacket medium",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=womens+puffer+jacket+medium&_sop=12"
+    },
+    {
+      "query": "puffer jacket women s alo",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=puffer+jacket+women+s+alo&_sop=12"
+    },
+    {
+      "query": "women s puffer jacket patagonia",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=women+s+puffer+jacket+patagonia&_sop=12"
+    },
+    {
+      "query": "women s puffer jacket all in motion",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=women+s+puffer+jacket+all+in+motion&_sop=12"
+    },
+    {
+      "query": "puffer jacket women s with hood",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=puffer+jacket+women+s+with+hood&_sop=12"
+    },
+    {
+      "query": "women s puffer jacket size xxl",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=women+s+puffer+jacket+size+xxl&_sop=12"
+    },
+    {
+      "query": "puffer jacket women medium",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=puffer+jacket+women+medium&_sop=12"
+    },
+    {
+      "query": "puffer jacket hooded women s",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=puffer+jacket+hooded+women+s&_sop=12"
+    },
+    {
+      "query": "women puffer bomber jacket s",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=women+puffer+bomber+jacket+s&_sop=12"
+    },
+    {
+      "query": "women s long puffer jacket",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=women+s+long+puffer+jacket&_sop=12"
+    },
+    {
+      "query": "women s puffer jacket new",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=women+s+puffer+jacket+new&_sop=12"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&_dcat=63862&_pgn=2",
+    "other_pages": {
+      "2": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&_dcat=63862&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&_dcat=63862&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&_dcat=63862&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&_dcat=63862&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&_dcat=63862&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&_dcat=63862&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&_dcat=63862&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&_dcat=63862&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_nkw=women%27s+puffer+jacket&_fcid=1&_dcat=63862&_pgn=10&rt=nc"
+    }
+  }
+}

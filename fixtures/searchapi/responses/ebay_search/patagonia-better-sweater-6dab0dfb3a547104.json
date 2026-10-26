@@ -1,0 +1,1427 @@
+{
+  "search_metadata": {
+    "id": "search_mMjwVJvBznT1nLxYEvynp5OY",
+    "status": "Success",
+    "created_at": "2026-10-26T18:48:04Z",
+    "request_time_taken": 2.2,
+    "parsing_time_taken": 0.15,
+    "total_time_taken": 2.35,
+    "request_url": "https://www.ebay.com/sch/i.html?_nkw=patagonia%20better%20sweater&_fcid=1",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_mMjwVJvBznT1nLxYEvynp5OY.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_mMjwVJvBznT1nLxYEvynp5OY"
+  },
+  "search_parameters": {
+    "engine": "ebay_search",
+    "q": "patagonia better sweater",
+    "ebay_domain": "ebay.com",
+    "country": "US",
+    "delivery_country": "US"
+  },
+  "search_information": {
+    "query_displayed": "patagonia better sweater",
+    "total_results": 24000,
+    "sorted_by": "Sort: Best Match",
+    "buying_format": "All",
+    "language": "en"
+  },
+  "categories": [
+    {
+      "name": "Clothing, Shoes & Accessories",
+      "is_selected": true,
+      "subcategories": [
+        {
+          "name": "Women",
+          "link": "https://www.ebay.com/sch/260010/i.html?_fcid=1&_nkw=patagonia+better+sweater",
+          "category_id": "260010"
+        },
+        {
+          "name": "Men",
+          "link": "https://www.ebay.com/sch/260012/i.html?_fcid=1&_nkw=patagonia+better+sweater",
+          "category_id": "260012"
+        },
+        {
+          "name": "Kids",
+          "link": "https://www.ebay.com/sch/171146/i.html?_fcid=1&_nkw=patagonia+better+sweater",
+          "category_id": "171146"
+        },
+        {
+          "name": "Specialty",
+          "link": "https://www.ebay.com/sch/260033/i.html?_fcid=1&_nkw=patagonia+better+sweater",
+          "category_id": "260033"
+        },
+        {
+          "name": "Baby",
+          "link": "https://www.ebay.com/sch/260018/i.html?_fcid=1&_nkw=patagonia+better+sweater",
+          "category_id": "260018"
+        }
+      ]
+    },
+    {
+      "name": "Sporting Goods",
+      "link": "https://www.ebay.com/sch/888/i.html?_fcid=1&_nkw=patagonia+better+sweater",
+      "category_id": "888"
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_fcid=1&_nkw=patagonia+better+sweater",
+      "category_id": "1"
+    },
+    {
+      "name": "Sports Mem, Cards & Fan Shop",
+      "link": "https://www.ebay.com/sch/64482/i.html?_fcid=1&_nkw=patagonia+better+sweater",
+      "category_id": "64482"
+    },
+    {
+      "name": "Home & Garden",
+      "link": "https://www.ebay.com/sch/11700/i.html?_fcid=1&_nkw=patagonia+better+sweater",
+      "category_id": "11700"
+    },
+    {
+      "name": "Entertainment Memorabilia",
+      "link": "https://www.ebay.com/sch/45100/i.html?_fcid=1&_nkw=patagonia+better+sweater",
+      "category_id": "45100"
+    },
+    {
+      "name": "Movies & TV",
+      "link": "https://www.ebay.com/sch/11232/i.html?_fcid=1&_nkw=patagonia+better+sweater",
+      "category_id": "11232"
+    }
+  ],
+  "filters": [
+    {
+      "type": "Shipping and pickup",
+      "options": [
+        {
+          "text": "Arrives in 2-4 days",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&rt=nc&LH_FAST=1"
+        },
+        {
+          "text": "Free Shipping",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&rt=nc&LH_FS=1"
+        },
+        {
+          "text": "Local Pickup within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&rt=nc&_fspt=1&_stpos=20147&LH_PrefLoc=99&_sadis=25&LH_LPickup=1"
+        }
+      ]
+    },
+    {
+      "type": "Country of Origin",
+      "options": [
+        {
+          "text": "China (160) Items",
+          "items": 160,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Country%2520of%2520Origin=China&_dcat=11450"
+        },
+        {
+          "text": "El Salvador (149) Items",
+          "items": 149,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Country%2520of%2520Origin=El%2520Salvador&_dcat=11450"
+        },
+        {
+          "text": "Mexico (85) Items",
+          "items": 85,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Country%2520of%2520Origin=Mexico&_dcat=11450"
+        },
+        {
+          "text": "Nicaragua (52) Items",
+          "items": 52,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Country%2520of%2520Origin=Nicaragua&_dcat=11450"
+        },
+        {
+          "text": "Sri Lanka (3,636) Items",
+          "items": 3636,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Country%2520of%2520Origin=Sri%2520Lanka&_dcat=11450"
+        },
+        {
+          "text": "Thailand (7,968) Items",
+          "items": 7968,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Country%2520of%2520Origin=Thailand&_dcat=11450"
+        },
+        {
+          "text": "United States (710) Items",
+          "items": 710,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Country%2520of%2520Origin=United%2520States&_dcat=11450"
+        },
+        {
+          "text": "Vietnam (1,079) Items",
+          "items": 1079,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Country%2520of%2520Origin=Vietnam&_dcat=11450"
+        }
+      ]
+    },
+    {
+      "type": "Size Type",
+      "options": [
+        {
+          "text": "Regular (26,187) Items",
+          "items": 26187,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Size%2520Type=Regular&_dcat=11450"
+        },
+        {
+          "text": "Big & Tall (70) Items",
+          "items": 70,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Size%2520Type=Big%2520%2526%2520Tall&_dcat=11450"
+        },
+        {
+          "text": "Juniors (38) Items",
+          "items": 38,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Size%2520Type=Juniors&_dcat=11450"
+        },
+        {
+          "text": "Plus (9) Items",
+          "items": 9,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Size%2520Type=Plus&_dcat=11450"
+        },
+        {
+          "text": "Petites (4) Items",
+          "items": 4,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Size%2520Type=Petites&_dcat=11450"
+        },
+        {
+          "text": "Tall (3) Items",
+          "items": 3,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Size%2520Type=Tall&_dcat=11450"
+        },
+        {
+          "text": "Maternity (1) Items",
+          "items": 1,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Size%2520Type=Maternity&_dcat=11450"
+        },
+        {
+          "text": "Not Specified (1,127) Items",
+          "items": 1127,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Size%2520Type=%21&_dcat=11450"
+        }
+      ]
+    },
+    {
+      "type": "Brand",
+      "options": [
+        {
+          "text": "Patagonia (26,561) Items",
+          "items": 26561,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Brand=Patagonia&_dcat=11450"
+        },
+        {
+          "text": "Unbranded (228) Items",
+          "items": 228,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Brand=Unbranded&_dcat=11450"
+        },
+        {
+          "text": "Citadel (73) Items",
+          "items": 73,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Brand=Citadel&_dcat=11450"
+        },
+        {
+          "text": "Brooks Brothers (55) Items",
+          "items": 55,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Brand=Brooks%2520Brothers&_dcat=11450"
+        },
+        {
+          "text": "Boxercraft (43) Items",
+          "items": 43,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Brand=Boxercraft&_dcat=11450"
+        },
+        {
+          "text": "Lululemon (25) Items",
+          "items": 25,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Brand=Lululemon&_dcat=11450"
+        },
+        {
+          "text": "The North Face (21) Items",
+          "items": 21,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Brand=The%2520North%2520Face&_dcat=11450"
+        },
+        {
+          "text": "Grays (18) Items",
+          "items": 18,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&Brand=Grays&_dcat=11450"
+        }
+      ]
+    },
+    {
+      "type": "Condition",
+      "options": [
+        {
+          "text": "New with tags (4,272) Items",
+          "items": 4272,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&rt=nc&LH_ItemCondition=1000"
+        },
+        {
+          "text": "New without tags (291) Items",
+          "items": 291,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&rt=nc&LH_ItemCondition=1500"
+        },
+        {
+          "text": "New with imperfections (27) Items",
+          "items": 27,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&rt=nc&LH_ItemCondition=1750"
+        },
+        {
+          "text": "Pre-Owned (22,849) Items",
+          "items": 22849,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&rt=nc&LH_ItemCondition=3000"
+        }
+      ]
+    },
+    {
+      "type": "Buying Format",
+      "options": [
+        {
+          "text": "All Listings (27,439) Items",
+          "items": 27439,
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&rt=nc"
+        },
+        {
+          "text": "Auction (207) Items",
+          "items": 207,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&rt=nc&LH_Auction=1"
+        },
+        {
+          "text": "Buy It Now (27,267) Items",
+          "items": 27267,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&rt=nc&LH_BIN=1"
+        },
+        {
+          "text": "Accepts Offers (18,526) Items",
+          "items": 18526,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&rt=nc&LH_BO=1"
+        }
+      ]
+    },
+    {
+      "type": "Item Location",
+      "options": [
+        {
+          "text": "Default",
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&rt=nc&LH_PrefLoc=98"
+        },
+        {
+          "text": "Within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&_dcat=11450&_sadis=25&_stpos=20147&_fspt=1"
+        },
+        {
+          "text": "US Only",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&rt=nc&LH_PrefLoc=1"
+        },
+        {
+          "text": "North America",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&rt=nc&LH_PrefLoc=3"
+        },
+        {
+          "text": "Worldwide",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&rt=nc&LH_PrefLoc=2"
+        }
+      ]
+    },
+    {
+      "type": "Show only",
+      "options": [
+        {
+          "text": "Free Returns",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&rt=nc&LH_FR=1"
+        },
+        {
+          "text": "Returns Accepted",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&rt=nc&LH_RPA=1"
+        },
+        {
+          "text": "Authorized Seller",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&rt=nc&LH_AS=1"
+        },
+        {
+          "text": "Completed Items",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&rt=nc&LH_Complete=1"
+        },
+        {
+          "text": "Sold Items",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&rt=nc&LH_Sold=1"
+        },
+        {
+          "text": "Deals & Savings",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&rt=nc&LH_Savings=1"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "item_id": "117488683372",
+      "title": "Patagonia 1/4 Zip Better Sweater Mens Medium Fleece Pullover Black Cozy 25523",
+      "subtitle": "Size M · Patagonia",
+      "link": "https://www.ebay.com/itm/117488683372",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$42.00",
+      "extracted_price": 42.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/5MwAAeSw1-Jq3456/s-l500.webp"
+    },
+    {
+      "position": 2,
+      "item_id": "206649165973",
+      "title": "Patagonia Better Sweater Full Zip Jacket Womens Medium M Dark Indigo Blue⁠",
+      "subtitle": "Size M · Patagonia",
+      "link": "https://www.ebay.com/itm/206649165973",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$46.00",
+      "extracted_price": 46.0,
+      "shipping": "+$8.27 delivery",
+      "extracted_shipping": 8.27,
+      "thumbnail": "https://i.ebayimg.com/images/g/cHgAAeSwQ55q2-7D/s-l500.webp"
+    },
+    {
+      "position": 3,
+      "item_id": "800837784807",
+      "title": "Patagonia Men's Better Sweater Fleece Vest New Navy",
+      "subtitle": "Size XL + more · Patagonia",
+      "link": "https://www.ebay.com/itm/800837784807",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$59.45",
+      "extracted_price": 59.45,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/VFYAAeSwpgRq3k9g/s-l140.webp"
+    },
+    {
+      "position": 4,
+      "item_id": "147651520962",
+      "title": "Patagonia Men's Better Sweater Fleece Vest Weathered Stone Full Zip Free Ship",
+      "subtitle": "Size M + more · Patagonia",
+      "link": "https://www.ebay.com/itm/147651520962",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$59.79",
+      "extracted_price": 59.79,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/YcAAAeSwBK9q3i-d/s-l140.webp"
+    },
+    {
+      "position": 5,
+      "item_id": "287675484980",
+      "title": "Patagonia Men’s Better Sweater 1/4 Zip Fleece Pullover. Size Small.",
+      "subtitle": "Size S · Patagonia",
+      "link": "https://www.ebay.com/itm/287675484980",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$50.00",
+      "extracted_price": 50.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/oI8AAeSw495q3Nvn/s-l140.webp"
+    },
+    {
+      "position": 6,
+      "item_id": "206653324846",
+      "title": "Patagonia Men's Better Sweater Fleece Vest May Grey Full Zip Free Ship",
+      "subtitle": "Size M + more",
+      "link": "https://www.ebay.com/itm/206653324846",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$57.89",
+      "extracted_price": 57.89,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/H6sAAeSwFBtq3kwm/s-l140.webp"
+    },
+    {
+      "position": 7,
+      "item_id": "327423708152",
+      "title": "Patagonia Better Sweater 1/4-Zip Fleece Pullover Men's L Green Heather",
+      "subtitle": "Size M · Patagonia",
+      "link": "https://www.ebay.com/itm/327423708152",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$29.00",
+      "extracted_price": 29.0,
+      "shipping": "+$6.19 delivery",
+      "extracted_shipping": 6.19,
+      "thumbnail": "https://i.ebayimg.com/images/g/QMoAAeSw~K9q3pqo/s-l140.webp"
+    },
+    {
+      "position": 8,
+      "item_id": "840060020099",
+      "title": "patagonia better sweater 1/4 zip",
+      "subtitle": "Size L · Patagonia",
+      "link": "https://www.ebay.com/itm/840060020099",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left6d 7h",
+      "extensions": [
+        "+$6.78 delivery",
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/QokAAeSwuM5q3qb1/s-l140.webp"
+    },
+    {
+      "position": 9,
+      "item_id": "377596870576",
+      "title": "Patagonia Men's Better Sweater Fleece Vest Stonewash Full Zip Free Ship",
+      "subtitle": "Size ONE SIZE + more · Patagonia",
+      "link": "https://www.ebay.com/itm/377596870576",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$59.95",
+      "extracted_price": 59.95,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/zmIAAeSwIR1q3jRh/s-l140.webp"
+    },
+    {
+      "position": 10,
+      "item_id": "840060040923",
+      "title": "patagonia better sweater 1/4 zip",
+      "subtitle": "Size M · Patagonia",
+      "link": "https://www.ebay.com/itm/840060040923",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left6d 7h",
+      "extensions": [
+        "+$6.78 delivery",
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/QokAAeSwuM5q3qb1/s-l140.webp"
+    },
+    {
+      "position": 11,
+      "item_id": "377598773890",
+      "title": "PATAGONIA Better Sweater 1/4 Zip Gray Mens Size M Pullover STY25523",
+      "subtitle": "Size M · Patagonia",
+      "link": "https://www.ebay.com/itm/377598773890",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$25.00",
+      "extracted_price": 25.0,
+      "shipping": "+$6.66 delivery",
+      "extracted_shipping": 6.66,
+      "thumbnail": "https://i.ebayimg.com/images/g/aTwAAeSwiAVq31lJ/s-l140.webp"
+    },
+    {
+      "position": 12,
+      "item_id": "407318027648",
+      "title": "Patagonia Better Sweater Jacket Full Zip Womens Size S",
+      "subtitle": "Size S · Patagonia",
+      "link": "https://www.ebay.com/itm/407318027648",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$25.00",
+      "extracted_price": 25.0,
+      "shipping": "+$6.50 delivery",
+      "extracted_shipping": 6.5,
+      "thumbnail": "https://i.ebayimg.com/images/g/Z1IAAeSwuRxq35IM/s-l140.webp"
+    },
+    {
+      "position": 13,
+      "item_id": "407314732589",
+      "title": "Patagonia Better Sweater Men's Full Zip Fleece Jacket Gray L Stand-Up Logo",
+      "subtitle": "Size L · Patagonia",
+      "link": "https://www.ebay.com/itm/407314732589",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$35.00",
+      "extracted_price": 35.0,
+      "shipping": "+$10.43 delivery",
+      "extracted_shipping": 10.43,
+      "thumbnail": "https://i.ebayimg.com/images/g/nXYAAeSw1wBq3am~/s-l140.webp"
+    },
+    {
+      "position": 14,
+      "item_id": "198747020909",
+      "title": "Patagonia Jacket Mens Large Gray Better Sweater Fleece Outdoor Camping 25528 L",
+      "subtitle": "Size L · Patagonia",
+      "link": "https://www.ebay.com/itm/198747020909",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$29.77",
+      "extracted_price": 29.77,
+      "shipping": "+$8.00 delivery",
+      "extracted_shipping": 8.0,
+      "thumbnail": "https://i.ebayimg.com/images/g/7SwAAeSw8M1q31Tn/s-l140.webp"
+    },
+    {
+      "position": 15,
+      "item_id": "168811457772",
+      "title": "Patagonia Mens L Better Sweater 1/4 Zip Fleece Pullover Jacket Gray Heather Hike",
+      "subtitle": "Size L · Patagonia",
+      "link": "https://www.ebay.com/itm/168811457772",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "price": "$35.95",
+      "extracted_price": 35.95,
+      "shipping": "Located in United States",
+      "deal": "+$8.40 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/KewAAeSwSnVq2ylT/s-l140.webp"
+    },
+    {
+      "position": 16,
+      "item_id": "168818297522",
+      "title": "Patagonia Better Sweater 1/4 Zip Fleece Men’s Pullover Green Sweater Size Medium",
+      "subtitle": "Size M · Patagonia",
+      "link": "https://www.ebay.com/itm/168818297522",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$45.00",
+      "extracted_price": 45.0,
+      "shipping": "+$9.95 delivery",
+      "extracted_shipping": 9.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/GH8AAeSwaXJq35mg/s-l140.webp"
+    },
+    {
+      "position": 17,
+      "item_id": "860083753565",
+      "title": "Patagonia Better Sweater Hybrid 1/4 Zip Fleece Pullover Mens Medium Grey Blue",
+      "subtitle": "Size S · Patagonia",
+      "link": "https://www.ebay.com/itm/860083753565",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$25.00",
+      "extracted_price": 25.0,
+      "shipping": "+$8.17 delivery",
+      "extracted_shipping": 8.17,
+      "thumbnail": "https://i.ebayimg.com/images/g/Y80AAeSwaR9q3p5P/s-l140.webp"
+    },
+    {
+      "position": 18,
+      "item_id": "820270582221",
+      "title": "Patagonia Better Sweater Gray Full Zip Fleece Youth Small 7-8",
+      "subtitle": "Size S · Patagonia",
+      "link": "https://www.ebay.com/itm/820270582221",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$35.00",
+      "extracted_price": 35.0,
+      "shipping": "+$6.94 delivery",
+      "extracted_shipping": 6.94,
+      "thumbnail": "https://i.ebayimg.com/images/g/vX4AAeSwqaZq28I8/s-l140.webp"
+    },
+    {
+      "position": 19,
+      "item_id": "840052903488",
+      "title": "Patagonia Better Sweater 1/4 Zip Fleece Men's size XL Gray heather",
+      "subtitle": "Size XL · Patagonia",
+      "link": "https://www.ebay.com/itm/840052903488",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "+$6.50 delivery",
+      "extracted_shipping": 6.5,
+      "thumbnail": "https://i.ebayimg.com/images/g/HBEAAeSwsWpq29j1/s-l140.webp"
+    },
+    {
+      "position": 20,
+      "item_id": "147652283585",
+      "title": "🩶 Patagonia Better Sweater Full Zip Fleece Jacket Mens Large Heather Gray",
+      "subtitle": "Size L · Patagonia",
+      "link": "https://www.ebay.com/itm/147652283585",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$39.99",
+      "extracted_price": 39.99,
+      "shipping": "+$8.27 delivery",
+      "extracted_shipping": 8.27,
+      "thumbnail": "https://i.ebayimg.com/images/g/FcwAAeSwULVq2wVy/s-l140.webp"
+    },
+    {
+      "position": 21,
+      "item_id": "227584492820",
+      "title": "Patagonia Women’s Better Sweater Full Zip Fleece Jacket Fleck Blue XS",
+      "subtitle": "Size XS · Patagonia",
+      "link": "https://www.ebay.com/itm/227584492820",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$56.00",
+      "extracted_price": 56.0,
+      "shipping": "+$6.71 delivery",
+      "extracted_shipping": 6.71,
+      "thumbnail": "https://i.ebayimg.com/images/g/fIYAAeSwQ55q34qM/s-l140.webp"
+    },
+    {
+      "position": 22,
+      "item_id": "840046040496",
+      "title": "Patagonia Mens Better Sweater Full Zip Fleece Jacket Navy Blue XXL",
+      "subtitle": "Size 2XL · Patagonia",
+      "link": "https://www.ebay.com/itm/840046040496",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$70.00",
+      "extracted_price": 70.0,
+      "shipping": "+$10.43 delivery",
+      "extracted_shipping": 10.43,
+      "thumbnail": "https://i.ebayimg.com/images/g/59MAAeSwCV5q2UOX/s-l140.webp"
+    },
+    {
+      "position": 23,
+      "item_id": "287674802612",
+      "title": "Patagonia Better Sweater Jacket Men's Large Black Full Zip Fleece",
+      "subtitle": "Size L · Patagonia",
+      "link": "https://www.ebay.com/itm/287674802612",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$59.99",
+      "extracted_price": 59.99,
+      "shipping": "+$6.19 delivery",
+      "extracted_shipping": 6.19,
+      "thumbnail": "https://i.ebayimg.com/images/g/SbEAAeSw6k5q3J9q/s-l140.webp"
+    },
+    {
+      "position": 24,
+      "item_id": "366760850142",
+      "title": "Patagonia Better Sweater Fleece Pullover Sweatshirt 1/4 Snap Mock Neck Logo M",
+      "subtitle": "Size M · Patagonia",
+      "link": "https://www.ebay.com/itm/366760850142",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$15.00",
+      "extracted_price": 15.0,
+      "shipping": "+$6.19 delivery",
+      "extracted_shipping": 6.19,
+      "thumbnail": "https://i.ebayimg.com/images/g/jM0AAeSwW5Nq3lpZ/s-l140.webp"
+    },
+    {
+      "position": 25,
+      "item_id": "840052898431",
+      "title": "Patagonia Better Sweater Jacket Mens XL Green 1/4 Zip Fleece Pullover Outdoor",
+      "subtitle": "Size XL · Patagonia",
+      "link": "https://www.ebay.com/itm/840052898431",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "+$6.50 delivery",
+      "extracted_shipping": 6.5,
+      "thumbnail": "https://i.ebayimg.com/images/g/DNoAAeSwIvJq29Zl/s-l140.webp"
+    },
+    {
+      "position": 26,
+      "item_id": "117486821193",
+      "title": "Patagonia Better Sweater Men's L Black Full Zip Fleece Jacket Stand-Up Collar",
+      "subtitle": "Size L · Patagonia",
+      "link": "https://www.ebay.com/itm/117486821193",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$52.99",
+      "extracted_price": 52.99,
+      "shipping": "+$10.15 delivery",
+      "extracted_shipping": 10.15,
+      "thumbnail": "https://i.ebayimg.com/images/g/ImEAAeSw6dVq3joX/s-l140.webp"
+    },
+    {
+      "position": 27,
+      "item_id": "920076332832",
+      "title": "Patagonia Men's Better Sweater 1/4-Zip Fleece Pullover Sweatshirt Heathered Navy",
+      "subtitle": "Size L · Patagonia",
+      "link": "https://www.ebay.com/itm/920076332832",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "+$6.66 delivery",
+      "extracted_shipping": 6.66,
+      "thumbnail": "https://i.ebayimg.com/images/g/r1kAAeSw4wxq315H/s-l140.webp"
+    },
+    {
+      "position": 28,
+      "item_id": "920073997174",
+      "title": "Patagonia Better Sweater Full Zip Fleece Vest Green Womens Large",
+      "subtitle": "Size L/XL · Patagonia",
+      "link": "https://www.ebay.com/itm/920073997174",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$30.00",
+      "extracted_price": 30.0,
+      "shipping": "+$6.66 delivery",
+      "extracted_shipping": 6.66,
+      "thumbnail": "https://i.ebayimg.com/images/g/vPsAAeSwwblq3lMg/s-l140.webp"
+    },
+    {
+      "position": 29,
+      "item_id": "307246073367",
+      "title": "Patagonia Sweater Mens Large Green Better Sweater 1/4 Zip Fleece Pullover Warm",
+      "subtitle": "Size L · Patagonia",
+      "link": "https://www.ebay.com/itm/307246073367",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Free returns"
+      ],
+      "price": "$39.95",
+      "extracted_price": 39.95,
+      "shipping": "Located in United States",
+      "deal": "+$8.99 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/dygAAeSwU5Rq2560/s-l140.webp"
+    },
+    {
+      "position": 30,
+      "item_id": "298674971809",
+      "title": "Patagonia Jacket Lightweight Better Sweater Shelled Mens Medium Blue Fleece Zip",
+      "subtitle": "Size M · Patagonia",
+      "link": "https://www.ebay.com/itm/298674971809",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "10% off 3+ with coupon"
+      ],
+      "price": "$25.49",
+      "extracted_price": 25.49,
+      "original_price": "$29.99",
+      "extracted_original_price": 29.99,
+      "shipping": "+$9.99 delivery",
+      "extracted_shipping": 9.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/BlIAAeSwiiJqqFiS/s-l140.webp"
+    },
+    {
+      "position": 31,
+      "item_id": "840059360874",
+      "title": "Patagonia Better Sweater 1/4 Zip Fleece Pullover Gray Mens M 25522 Stonewash",
+      "subtitle": "Size M · Patagonia",
+      "link": "https://www.ebay.com/itm/840059360874",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$38.99",
+      "extracted_price": 38.99,
+      "shipping": "+$7.75 delivery",
+      "extracted_shipping": 7.75,
+      "thumbnail": "https://i.ebayimg.com/images/g/iPUAAeSw50Zq3l3L/s-l140.webp"
+    },
+    {
+      "position": 32,
+      "item_id": "198731987205",
+      "title": "Patagonia Better Sweater Men Gray Full Zip Fleece Jacket Pockets Size L",
+      "subtitle": "Size L · Patagonia",
+      "link": "https://www.ebay.com/itm/198731987205",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "10 watchers"
+      ],
+      "price": "$44.99",
+      "extracted_price": 44.99,
+      "shipping": "Located in United States",
+      "deal": "+$11.10 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/LdIAAeSwzvtq2Abk/s-l140.webp"
+    },
+    {
+      "position": 33,
+      "item_id": "206655783809",
+      "title": "Patagonia Men's Better Sweater 1/4-Zip Fleece Brand New NO IMPORT FEES",
+      "subtitle": "Size M + more · Patagonia",
+      "link": "https://www.ebay.com/itm/206655783809",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Import fees due prior to delivery",
+        "Located in Argentina"
+      ],
+      "price": "$94.99",
+      "extracted_price": 94.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/EKoAAeSwfORq35wB/s-l140.webp"
+    },
+    {
+      "position": 34,
+      "item_id": "377598911890",
+      "title": "Patagonia Better Sweater Jacket Mens Large Gray Full Zip Pockets Fleece Outdoor",
+      "subtitle": "Size L · Patagonia",
+      "link": "https://www.ebay.com/itm/377598911890",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Free returns"
+      ],
+      "price": "$22.99",
+      "extracted_price": 22.99,
+      "shipping": "Located in United States",
+      "deal": "+$8.99 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/EXIAAeSwtbBq32n~/s-l140.webp"
+    },
+    {
+      "position": 35,
+      "item_id": "128156184201",
+      "title": "Patagonia Men's BETTER SWEATER FLEECE JACKET Black Size MEDIUM",
+      "subtitle": "Size M · Patagonia",
+      "link": "https://www.ebay.com/itm/128156184201",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$59.00",
+      "extracted_price": 59.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/0vQAAeSwSMRq3m3w/s-l140.webp"
+    },
+    {
+      "position": 36,
+      "item_id": "377593581349",
+      "title": "Patagonia Better Sweater Vest Men's Large Gray Heather Full Zip Fleece Jacket",
+      "subtitle": "Size L · Patagonia",
+      "link": "https://www.ebay.com/itm/377593581349",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$45.00",
+      "extracted_price": 45.0,
+      "shipping": "+$9.17 delivery",
+      "extracted_shipping": 9.17,
+      "thumbnail": "https://i.ebayimg.com/images/g/mGwAAeSwde9q3Bh0/s-l140.webp"
+    },
+    {
+      "position": 37,
+      "item_id": "820280494593",
+      "title": "Patagonia Better Sweater 1/4 Zip Fleece Pullover Womens XS Sage Green Heather",
+      "subtitle": "Size XS · Patagonia",
+      "link": "https://www.ebay.com/itm/820280494593",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$50.00",
+      "extracted_price": 50.0,
+      "shipping": "+$7.56 delivery",
+      "extracted_shipping": 7.56,
+      "thumbnail": "https://i.ebayimg.com/images/g/OWEAAeSwOE5q3516/s-l140.webp"
+    },
+    {
+      "position": 38,
+      "item_id": "900025867028",
+      "title": "Patagonia Better Sweater Women's L Black 1/4 Zip Fleece Pullover Jacket Pockets",
+      "subtitle": "Size L · Patagonia",
+      "link": "https://www.ebay.com/itm/900025867028",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$25.00",
+      "extracted_price": 25.0,
+      "shipping": "+$6.57 delivery",
+      "extracted_shipping": 6.57,
+      "thumbnail": "https://i.ebayimg.com/images/g/cCEAAeSwyQBq1odz/s-l140.webp"
+    },
+    {
+      "position": 39,
+      "item_id": "407313881307",
+      "title": "Patagonia Better Sweater Fleece Jacket Brown Outdoors Hiking 25521 Men’s Large",
+      "subtitle": "Size L · Patagonia",
+      "link": "https://www.ebay.com/itm/407313881307",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "price": "$29.99",
+      "extracted_price": 29.99,
+      "shipping": "Located in United States",
+      "deal": "+$9.49 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/Qq8AAeSw5J9q3P7G/s-l140.webp"
+    },
+    {
+      "position": 40,
+      "item_id": "377574056818",
+      "title": "Patagonia Womens Better Sweater 1/4 Zip Fleece Pullover Jacket Navy Blue Small",
+      "subtitle": "Size S · Patagonia",
+      "link": "https://www.ebay.com/itm/377574056818",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$31.14",
+      "extracted_price": 31.14,
+      "original_price": "$34.99",
+      "extracted_original_price": 34.99,
+      "shipping": "+$9.99 delivery",
+      "extracted_shipping": 9.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/eQIAAeSwzcxq0Z9v/s-l140.webp"
+    },
+    {
+      "position": 41,
+      "item_id": "820276264198",
+      "title": "Patagonia Men's Better Sweater Quarter Zip Fleece Pullover Black Large",
+      "subtitle": "Size L · Patagonia",
+      "link": "https://www.ebay.com/itm/820276264198",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$55.00",
+      "extracted_price": 55.0,
+      "shipping": "+$71.77 delivery",
+      "extracted_shipping": 71.77,
+      "thumbnail": "https://i.ebayimg.com/images/g/7foAAeSwwblq3gIu/s-l140.webp"
+    },
+    {
+      "position": 42,
+      "item_id": "117483888528",
+      "title": "Patagonia Men's Better Sweater Jacket Small, Light Gray , Full Zip, Fleece",
+      "subtitle": "Size S · Patagonia",
+      "link": "https://www.ebay.com/itm/117483888528",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$50.00",
+      "extracted_price": 50.0,
+      "shipping": "+$10.43 delivery",
+      "extracted_shipping": 10.43,
+      "thumbnail": "https://i.ebayimg.com/images/g/iYMAAeSwYNlq3ANK/s-l140.webp"
+    },
+    {
+      "position": 43,
+      "item_id": "137875175550",
+      "title": "Patagonia Better Sweater 1/4 Zip Fleece Pullover Gray Heather Corporate Logo",
+      "subtitle": "Size XL · Patagonia",
+      "link": "https://www.ebay.com/itm/137875175550",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$35.00",
+      "extracted_price": 35.0,
+      "shipping": "+$9.99 delivery",
+      "extracted_shipping": 9.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/1mgAAeSwi1tq3qIC/s-l140.webp"
+    },
+    {
+      "position": 44,
+      "item_id": "257812131592",
+      "title": "Patagonia Men's Better Sweater Performance 1/4 Zip Pullover Jacket Gray L",
+      "subtitle": "Size L · Patagonia",
+      "link": "https://www.ebay.com/itm/257812131592",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$50.00",
+      "extracted_price": 50.0,
+      "shipping": "+$10.15 delivery",
+      "extracted_shipping": 10.15,
+      "thumbnail": "https://i.ebayimg.com/images/g/dUUAAeSwk31q2kbr/s-l140.webp"
+    },
+    {
+      "position": 45,
+      "item_id": "227578984243",
+      "title": "Patagonia Mens Better Sweater 1/4 Zip Fleece Pullover Gray Size Large L EY Logo",
+      "subtitle": "Size L · Patagonia",
+      "link": "https://www.ebay.com/itm/227578984243",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$39.99",
+      "extracted_price": 39.99,
+      "shipping": "+$8.17 delivery",
+      "extracted_shipping": 8.17,
+      "thumbnail": "https://i.ebayimg.com/images/g/MFsAAeSwfahq2lhW/s-l140.webp"
+    },
+    {
+      "position": 46,
+      "item_id": "137874782682",
+      "title": "PATAGONIA pull over 1/4 zip Better Sweater Ladies winter size M FALL SALE",
+      "subtitle": "Size M · Patagonia",
+      "link": "https://www.ebay.com/itm/137874782682",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left6d 3h",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$4.99",
+      "extracted_price": 4.99,
+      "shipping": "+$7.95 delivery",
+      "extracted_shipping": 7.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/usYAAeSwcnBq3mYB/s-l140.webp"
+    },
+    {
+      "position": 47,
+      "item_id": "117486844135",
+      "title": "Patagonia Men's 1/4 Zip Fleece Better Sweater Pullover Black S 25522",
+      "subtitle": "Size S · Patagonia",
+      "link": "https://www.ebay.com/itm/117486844135",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$34.99",
+      "extracted_price": 34.99,
+      "shipping": "+$7.30 delivery",
+      "extracted_shipping": 7.3,
+      "thumbnail": "https://i.ebayimg.com/images/g/JoAAAeSw8oNq3jzA/s-l140.webp"
+    },
+    {
+      "position": 48,
+      "item_id": "366756556574",
+      "title": "Patagonia Men's Better Sweater Jacket",
+      "subtitle": "Size L · Patagonia",
+      "link": "https://www.ebay.com/itm/366756556574",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "+$10.15 delivery",
+      "extracted_shipping": 10.15,
+      "thumbnail": "https://i.ebayimg.com/images/g/vdEAAeSwRR5q25kM/s-l140.webp"
+    },
+    {
+      "position": 49,
+      "item_id": "287515321009",
+      "title": "Patagonia Better Sweater Jacket Men's M Nickel Forge Grey 25527 SP18 NWT NOS",
+      "subtitle": "Size M · Patagonia",
+      "link": "https://www.ebay.com/itm/287515321009",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "14 watchers"
+      ],
+      "price": "$48.00",
+      "extracted_price": 48.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/DFAAAeSwn~xqePx2/s-l140.webp"
+    },
+    {
+      "position": 50,
+      "item_id": "407315619572",
+      "title": "Patagonia Better Sweater Jacket Mens XL Black Excellent Full Zip Fleece 25528",
+      "subtitle": "Size XL · Patagonia",
+      "link": "https://www.ebay.com/itm/407315619572",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$43.00",
+      "extracted_price": 43.0,
+      "shipping": "+$6.66 delivery",
+      "extracted_shipping": 6.66,
+      "thumbnail": "https://i.ebayimg.com/images/g/MlEAAeSwmKxq3jtC/s-l140.webp"
+    },
+    {
+      "position": 51,
+      "item_id": "407310712451",
+      "title": "Patagonia Men's Better Sweater® 1/4-Zip Fleece Stonewash🔥No Import Fees",
+      "subtitle": "Size M + more · Patagonia",
+      "link": "https://www.ebay.com/itm/407310712451",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Import fees due prior to delivery",
+        "Located in Thailand"
+      ],
+      "price": "$75.50",
+      "extracted_price": 75.5,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/wQIAAeSwVxNq2xRK/s-l140.webp"
+    },
+    {
+      "position": 52,
+      "item_id": "860085879922",
+      "title": "Patagonia Better Sweater 1/4 Zip Fleece Pullover Blue XS",
+      "subtitle": "Size XS · Patagonia",
+      "link": "https://www.ebay.com/itm/860085879922",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "+$6.52 delivery",
+      "extracted_shipping": 6.52,
+      "thumbnail": "https://i.ebayimg.com/images/g/994AAeSwOJJq33HC/s-l140.webp"
+    },
+    {
+      "position": 53,
+      "item_id": "137874795272",
+      "title": "Patagonia Men's M Better Sweater 1/4 Zip Pullover Beige w/ Dark Brown Trim",
+      "subtitle": "Size M · Patagonia",
+      "link": "https://www.ebay.com/itm/137874795272",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$25.00",
+      "extracted_price": 25.0,
+      "shipping": "+$8.27 delivery",
+      "extracted_shipping": 8.27,
+      "thumbnail": "https://i.ebayimg.com/images/g/~QQAAeSwMONq3nd~/s-l140.webp"
+    },
+    {
+      "position": 54,
+      "item_id": "206648020486",
+      "title": "Patagonia Better Sweater 1/4 Zip Fleece Pullover Gray Heather EY Corporate Logo",
+      "subtitle": "Size L · Patagonia",
+      "link": "https://www.ebay.com/itm/206648020486",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$29.99",
+      "extracted_price": 29.99,
+      "shipping": "+$6.55 delivery",
+      "extracted_shipping": 6.55,
+      "thumbnail": "https://i.ebayimg.com/images/g/kuMAAeSw-EZq20x2/s-l140.webp"
+    },
+    {
+      "position": 55,
+      "item_id": "377591364944",
+      "title": "Patagonia Better Sweater 1/4 Zip Fleece Men’s M Gray Two Tone 25522 FA17",
+      "subtitle": "Size M · Patagonia",
+      "link": "https://www.ebay.com/itm/377591364944",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$30.00",
+      "extracted_price": 30.0,
+      "shipping": "+$7.13 delivery",
+      "extracted_shipping": 7.13,
+      "thumbnail": "https://i.ebayimg.com/images/g/5fMAAeSwrYhq2tGQ/s-l140.webp"
+    },
+    {
+      "position": 56,
+      "item_id": "307247937583",
+      "title": "NWT Patagonia Better Sweater Vest Mens XL Navy Full Zip",
+      "subtitle": "Size XL · Patagonia",
+      "link": "https://www.ebay.com/itm/307247937583",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$79.95",
+      "extracted_price": 79.95,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/ZFIAAeSwoP9q3UmE/s-l140.webp"
+    },
+    {
+      "position": 57,
+      "item_id": "147635723483",
+      "title": "Patagonia Better Sweater Mens L Gray Zip Fleece Lined Pullover Knit -Paint Mark",
+      "subtitle": "Size L · Patagonia",
+      "link": "https://www.ebay.com/itm/147635723483",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "price": "$24.99",
+      "extracted_price": 24.99,
+      "shipping": "Located in United States",
+      "deal": "Free delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/IZEAAeSwCblqz50S/s-l140.webp"
+    },
+    {
+      "position": 58,
+      "item_id": "287669100314",
+      "title": "Women’s Patagonia Better Sweater Fleece Jacket",
+      "subtitle": "Size M · Patagonia",
+      "link": "https://www.ebay.com/itm/287669100314",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$38.50",
+      "extracted_price": 38.5,
+      "shipping": "+$6.95 delivery",
+      "extracted_shipping": 6.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/nqkAAeSwELlq2oob/s-l140.webp"
+    },
+    {
+      "position": 59,
+      "item_id": "198671793690",
+      "title": "Patagonia Better Sweater Jacket Men’s M Full Zip Grey Fleece Logo SW1",
+      "subtitle": "Size M · Patagonia",
+      "link": "https://www.ebay.com/itm/198671793690",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$34.97",
+      "extracted_price": 34.97,
+      "shipping": "+$12.10 delivery",
+      "extracted_shipping": 12.1,
+      "thumbnail": "https://i.ebayimg.com/images/g/fC0AAeSw6OVquZ4f/s-l140.webp"
+    },
+    {
+      "position": 60,
+      "item_id": "920071636439",
+      "title": "Patagonia Mens Performance Better Sweater Hoody Gray Full Zip Jacket Size M",
+      "link": "https://www.ebay.com/itm/920071636439",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$35.00",
+      "extracted_price": 35.0,
+      "shipping": "+$10.15 delivery",
+      "extracted_shipping": 10.15,
+      "thumbnail": "https://i.ebayimg.com/images/g/qo0AAeSwK9Nq3SIs/s-l140.webp"
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "patagonia better sweater xl",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=patagonia+better+sweater+xl&_sop=12"
+    },
+    {
+      "query": "patagonia better sweater mens",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=patagonia+better+sweater+mens&_sop=12"
+    },
+    {
+      "query": "patagonia better sweater large",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=patagonia+better+sweater+large&_sop=12"
+    },
+    {
+      "query": "patagonia better sweater medium",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=patagonia+better+sweater+medium&_sop=12"
+    },
+    {
+      "query": "patagonia better sweater womens",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=patagonia+better+sweater+womens&_sop=12"
+    },
+    {
+      "query": "patagonia better sweater mens large",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=patagonia+better+sweater+mens+large&_sop=12"
+    },
+    {
+      "query": "patagonia better sweater full zip",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=patagonia+better+sweater+full+zip&_sop=12"
+    },
+    {
+      "query": "the north face nuptse",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=the+north+face+nuptse&_sop=12"
+    },
+    {
+      "query": "patagonia better sweater 1 4 zip",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=patagonia+better+sweater+1+4+zip&_sop=12"
+    },
+    {
+      "query": "patagonia better sweater vest",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=patagonia+better+sweater+vest&_sop=12"
+    },
+    {
+      "query": "patagonia better sweater mens medium",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=patagonia+better+sweater+mens+medium&_sop=12"
+    },
+    {
+      "query": "patagonia better sweater small",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=patagonia+better+sweater+small&_sop=12"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&_dcat=11450&_pgn=2",
+    "other_pages": {
+      "2": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&_dcat=11450&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&_dcat=11450&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&_dcat=11450&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&_dcat=11450&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&_dcat=11450&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&_dcat=11450&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&_dcat=11450&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&_dcat=11450&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=patagonia+better+sweater&_dcat=11450&_pgn=10&rt=nc"
+    }
+  }
+}

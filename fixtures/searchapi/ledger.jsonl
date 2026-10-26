@@ -1,1 +1,18 @@
 {"at":"2026-10-26T16:09:01Z","engine":"ebay_search","params":{"q":"adidas samba og"},"status":200,"search_id":"search_mxzD17vdE2uX025O3klRw056","error":null,"duration_ms":3372}
+{"at":"2026-10-26T18:44:36Z","engine":"amazon_search","params":{"q":"adidas samba og"},"status":200,"search_id":"search_b65xNDvgndH9B78n748d73q0","error":null,"duration_ms":3108}
+{"at":"2026-10-26T18:45:39Z","engine":"shein_search","params":{"q":"adidas samba og"},"status":null,"search_id":null,"error":"Net::ReadTimeout","duration_ms":60092}
+{"at":"2026-10-26T18:47:16Z","engine":"amazon_search","params":{"q":"nike dunk low panda"},"status":200,"search_id":"search_DWmO1QkoEbuzajAOp4J2r8Ga","error":null,"duration_ms":12698}
+{"at":"2026-10-26T18:47:27Z","engine":"ebay_search","params":{"q":"nike dunk low panda"},"status":200,"search_id":"search_mMjwVJvBznT1nLPRGvynp5OY","error":null,"duration_ms":7959}
+{"at":"2026-10-26T18:47:34Z","engine":"amazon_search","params":{"q":"new balance 550"},"status":200,"search_id":"search_DWmO1QkoEbuzajQDq4J2r8Ga","error":null,"duration_ms":3922}
+{"at":"2026-10-26T18:47:42Z","engine":"ebay_search","params":{"q":"new balance 550"},"status":200,"search_id":"search_yawpDZvY5Rc1G7MzZvWPdXoM","error":null,"duration_ms":4327}
+{"at":"2026-10-26T18:47:49Z","engine":"amazon_search","params":{"q":"converse chuck 70 high"},"status":200,"search_id":"search_pVr1MO4QrQF7WLxQ7vblzoE9","error":null,"duration_ms":4392}
+{"at":"2026-10-26T18:47:55Z","engine":"ebay_search","params":{"q":"converse chuck 70 high"},"status":200,"search_id":"search_MG6OPWeEVjFgna1lD4jR8w7N","error":null,"duration_ms":2916}
+{"at":"2026-10-26T18:48:01Z","engine":"amazon_search","params":{"q":"patagonia better sweater"},"status":200,"search_id":"search_m3WR9zk90VHgnpmbdvyn8YoV","error":null,"duration_ms":3189}
+{"at":"2026-10-26T18:48:07Z","engine":"ebay_search","params":{"q":"patagonia better sweater"},"status":200,"search_id":"search_mMjwVJvBznT1nLxYEvynp5OY","error":null,"duration_ms":2718}
+{"at":"2026-10-26T18:48:16Z","engine":"amazon_search","params":{"q":"levi's 501 jeans"},"status":200,"search_id":"search_mMjwVJvBznT1nLxAPvynp5OY","error":null,"duration_ms":6300}
+{"at":"2026-10-26T18:48:22Z","engine":"ebay_search","params":{"q":"levi's 501 jeans"},"status":200,"search_id":"search_JoY68Me7qNsW08nVbv0axRVb","error":null,"duration_ms":2532}
+{"at":"2026-10-26T18:48:39Z","engine":"amazon_search","params":{"q":"women's puffer jacket"},"status":200,"search_id":"search_yawpDZvY5Rc1G76nNvWPdXoM","error":null,"duration_ms":14635}
+{"at":"2026-10-26T18:48:46Z","engine":"ebay_search","params":{"q":"women's puffer jacket"},"status":200,"search_id":"search_jOZRYa4201HQlrKL1klD6mVx","error":null,"duration_ms":3306}
+{"at":"2026-10-26T18:48:51Z","engine":"amazon_search","params":{"q":"crossbody bag"},"status":200,"search_id":"search_1XbZBxkZENu6rOMgEv8JaLNR","error":null,"duration_ms":2116}
+{"at":"2026-10-26T18:48:57Z","engine":"ebay_search","params":{"q":"crossbody bag"},"status":200,"search_id":"search_JoY68Me7qNsW08AdWv0axRVb","error":null,"duration_ms":2810}
+{"at":"2026-10-26T18:50:33Z","engine":"shein_search","params":{"q":"adidas samba og"},"status":503,"search_id":null,"error":null,"duration_ms":90459}

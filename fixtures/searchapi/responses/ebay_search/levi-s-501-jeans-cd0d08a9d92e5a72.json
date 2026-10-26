@@ -1,0 +1,1658 @@
+{
+  "search_metadata": {
+    "id": "search_JoY68Me7qNsW08nVbv0axRVb",
+    "status": "Success",
+    "created_at": "2026-10-26T18:48:20Z",
+    "request_time_taken": 2.04,
+    "parsing_time_taken": 0.09,
+    "total_time_taken": 2.13,
+    "request_url": "https://www.ebay.com/sch/i.html?_nkw=levi%27s%20501%20jeans&_fcid=1",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_JoY68Me7qNsW08nVbv0axRVb.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_JoY68Me7qNsW08nVbv0axRVb"
+  },
+  "search_parameters": {
+    "engine": "ebay_search",
+    "q": "levi's 501 jeans",
+    "ebay_domain": "ebay.com",
+    "country": "US",
+    "delivery_country": "US"
+  },
+  "search_information": {
+    "query_displayed": "levi's 501 jeans",
+    "total_results": 150000,
+    "sorted_by": "Sort: Best Match",
+    "buying_format": "All",
+    "language": "en"
+  },
+  "categories": [
+    {
+      "name": "Clothing, Shoes & Accessories",
+      "is_selected": true,
+      "subcategories": [
+        {
+          "name": "Men",
+          "link": "https://www.ebay.com/sch/260012/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+          "category_id": "260012"
+        },
+        {
+          "name": "Women",
+          "link": "https://www.ebay.com/sch/260010/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+          "category_id": "260010"
+        },
+        {
+          "name": "Specialty",
+          "link": "https://www.ebay.com/sch/260033/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+          "category_id": "260033"
+        },
+        {
+          "name": "Kids",
+          "link": "https://www.ebay.com/sch/171146/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+          "category_id": "171146"
+        },
+        {
+          "name": "Baby",
+          "link": "https://www.ebay.com/sch/260018/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+          "category_id": "260018"
+        }
+      ]
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+      "category_id": "1"
+    },
+    {
+      "name": "Home & Garden",
+      "link": "https://www.ebay.com/sch/11700/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+      "category_id": "11700"
+    },
+    {
+      "name": "Books & Magazines",
+      "link": "https://www.ebay.com/sch/267/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+      "category_id": "267"
+    },
+    {
+      "name": "Art",
+      "link": "https://www.ebay.com/sch/550/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+      "category_id": "550"
+    },
+    {
+      "name": "Sporting Goods",
+      "link": "https://www.ebay.com/sch/888/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+      "category_id": "888"
+    },
+    {
+      "name": "Everything Else",
+      "link": "https://www.ebay.com/sch/99/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+      "category_id": "99"
+    },
+    {
+      "name": "Computers/Tablets & Networking",
+      "link": "https://www.ebay.com/sch/58058/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+      "category_id": "58058"
+    },
+    {
+      "name": "Sports Mem, Cards & Fan Shop",
+      "link": "https://www.ebay.com/sch/64482/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+      "category_id": "64482"
+    },
+    {
+      "name": "Antiques",
+      "link": "https://www.ebay.com/sch/20081/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+      "category_id": "20081"
+    },
+    {
+      "name": "Crafts",
+      "link": "https://www.ebay.com/sch/14339/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+      "category_id": "14339"
+    },
+    {
+      "name": "Jewelry & Watches",
+      "link": "https://www.ebay.com/sch/281/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+      "category_id": "281"
+    },
+    {
+      "name": "Entertainment Memorabilia",
+      "link": "https://www.ebay.com/sch/45100/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+      "category_id": "45100"
+    },
+    {
+      "name": "Toys & Hobbies",
+      "link": "https://www.ebay.com/sch/220/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+      "category_id": "220"
+    },
+    {
+      "name": "Business & Industrial",
+      "link": "https://www.ebay.com/sch/12576/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+      "category_id": "12576"
+    },
+    {
+      "name": "Movies & TV",
+      "link": "https://www.ebay.com/sch/11232/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+      "category_id": "11232"
+    },
+    {
+      "name": "Music",
+      "link": "https://www.ebay.com/sch/11233/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+      "category_id": "11233"
+    },
+    {
+      "name": "eBay Motors",
+      "link": "https://www.ebay.com/sch/6000/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+      "category_id": "6000"
+    },
+    {
+      "name": "Travel",
+      "link": "https://www.ebay.com/sch/3252/i.html?_nkw=levi%27s+501+jeans&_fcid=1",
+      "category_id": "3252"
+    }
+  ],
+  "filters": [
+    {
+      "type": "Shipping and pickup",
+      "options": [
+        {
+          "text": "Arrives in 2-4 days",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc&LH_FAST=1"
+        },
+        {
+          "text": "Free Shipping",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc&LH_FS=1"
+        },
+        {
+          "text": "Local Pickup within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc&_stpos=28209&LH_PrefLoc=99&_sadis=25&_fspt=1&LH_LPickup=1"
+        }
+      ]
+    },
+    {
+      "type": "Inseam",
+      "options": [
+        {
+          "text": "28 in (5,323) Items",
+          "items": 5323,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Inseam=28%2520in&_dcat=11483"
+        },
+        {
+          "text": "29 in (7,851) Items",
+          "items": 7851,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Inseam=29%2520in&_dcat=11483"
+        },
+        {
+          "text": "30 in (30,910) Items",
+          "items": 30910,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Inseam=30%2520in&_dcat=11483"
+        },
+        {
+          "text": "31 in (6,777) Items",
+          "items": 6777,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Inseam=31%2520in&_dcat=11483"
+        },
+        {
+          "text": "32 in (30,023) Items",
+          "items": 30023,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Inseam=32%2520in&_dcat=11483"
+        },
+        {
+          "text": "33 in (2,907) Items",
+          "items": 2907,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Inseam=33%2520in&_dcat=11483"
+        },
+        {
+          "text": "34 in (12,811) Items",
+          "items": 12811,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Inseam=34%2520in&_dcat=11483"
+        },
+        {
+          "text": "36 in (2,625) Items",
+          "items": 2625,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Inseam=36%2520in&_dcat=11483"
+        }
+      ]
+    },
+    {
+      "type": "Fit",
+      "options": [
+        {
+          "text": "Regular (75,554) Items",
+          "items": 75554,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Fit=Regular&_dcat=11483"
+        },
+        {
+          "text": "Slim (2,569) Items",
+          "items": 2569,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Fit=Slim&_dcat=11483"
+        },
+        {
+          "text": "Relaxed (2,492) Items",
+          "items": 2492,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Fit=Relaxed&_dcat=11483"
+        },
+        {
+          "text": "Classic (13,876) Items",
+          "items": 13876,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Fit=Classic&_dcat=11483"
+        },
+        {
+          "text": "Athletic (148) Items",
+          "items": 148,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Fit=Athletic&_dcat=11483"
+        },
+        {
+          "text": "Loose (25) Items",
+          "items": 25,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Fit=Loose&_dcat=11483"
+        },
+        {
+          "text": "Extra-Slim (21) Items",
+          "items": 21,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Fit=Extra%252DSlim&_dcat=11483"
+        },
+        {
+          "text": "Tailored (4) Items",
+          "items": 4,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Fit=Tailored&_dcat=11483"
+        }
+      ]
+    },
+    {
+      "type": "Season",
+      "options": [
+        {
+          "text": "Spring (68,724) Items",
+          "items": 68724,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Season=Spring&_dcat=11483"
+        },
+        {
+          "text": "Summer (65,690) Items",
+          "items": 65690,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Season=Summer&_dcat=11483"
+        },
+        {
+          "text": "Winter (64,911) Items",
+          "items": 64911,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Season=Winter&_dcat=11483"
+        },
+        {
+          "text": "Fall (64,424) Items",
+          "items": 64424,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Season=Fall&_dcat=11483"
+        },
+        {
+          "text": "Not Specified (45,891) Items",
+          "items": 45891,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Season=%21&_dcat=11483"
+        }
+      ]
+    },
+    {
+      "type": "Theme",
+      "options": [
+        {
+          "text": "USA (33,947) Items",
+          "items": 33947,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Theme=USA&_dcat=11483"
+        },
+        {
+          "text": "90s (26,982) Items",
+          "items": 26982,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Theme=90s&_dcat=11483"
+        },
+        {
+          "text": "Cowboy (11,880) Items",
+          "items": 11880,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Theme=Cowboy&_dcat=11483"
+        },
+        {
+          "text": "Retro (11,868) Items",
+          "items": 11868,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Theme=Retro&_dcat=11483"
+        },
+        {
+          "text": "Grunge (9,559) Items",
+          "items": 9559,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Theme=Grunge&_dcat=11483"
+        },
+        {
+          "text": "80s (9,391) Items",
+          "items": 9391,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Theme=80s&_dcat=11483"
+        },
+        {
+          "text": "Logo (7,877) Items",
+          "items": 7877,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Theme=Logo&_dcat=11483"
+        },
+        {
+          "text": "City (6,829) Items",
+          "items": 6829,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Theme=City&_dcat=11483"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "options": [
+        {
+          "text": "Pockets (73,418) Items",
+          "items": 73418,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Features=Pockets&_dcat=11483"
+        },
+        {
+          "text": "Comfort (25,427) Items",
+          "items": 25427,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Features=Comfort&_dcat=11483"
+        },
+        {
+          "text": "Easy Care (21,042) Items",
+          "items": 21042,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Features=Easy%2520Care&_dcat=11483"
+        },
+        {
+          "text": "Distressed (16,464) Items",
+          "items": 16464,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Features=Distressed&_dcat=11483"
+        },
+        {
+          "text": "Stretch (10,216) Items",
+          "items": 10216,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Features=Stretch&_dcat=11483"
+        },
+        {
+          "text": "Breathable (5,755) Items",
+          "items": 5755,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Features=Breathable&_dcat=11483"
+        },
+        {
+          "text": "Belted (2,513) Items",
+          "items": 2513,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Features=Belted&_dcat=11483"
+        },
+        {
+          "text": "Slimming (2,167) Items",
+          "items": 2167,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Features=Slimming&_dcat=11483"
+        }
+      ]
+    },
+    {
+      "type": "Model",
+      "options": [
+        {
+          "text": "Levi's 501 (93,925) Items",
+          "items": 93925,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Model=Levi%2527s%2520501&_dcat=11483"
+        },
+        {
+          "text": "Levi's 501 Original Fit (12,464) Items",
+          "items": 12464,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Model=Levi%2527s%2520501%2520Original%2520Fit&_dcat=11483"
+        },
+        {
+          "text": "Levi's 501 XX (11,023) Items",
+          "items": 11023,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Model=Levi%2527s%2520501%2520XX&_dcat=11483"
+        },
+        {
+          "text": "Levi's 501 Shrink-To-Fit (3,276) Items",
+          "items": 3276,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Model=Levi%2527s%2520501%2520Shrink%252DTo%252DFit&_dcat=11483"
+        },
+        {
+          "text": "Levi's 505 (1,101) Items",
+          "items": 1101,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Model=Levi%2527s%2520505&_dcat=11483"
+        },
+        {
+          "text": "Levi's 550 (470) Items",
+          "items": 470,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Model=Levi%2527s%2520550&_dcat=11483"
+        },
+        {
+          "text": "Levi's 511 (362) Items",
+          "items": 362,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Model=Levi%2527s%2520511&_dcat=11483"
+        },
+        {
+          "text": "Levi's 514 (191) Items",
+          "items": 191,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&Model=Levi%2527s%2520514&_dcat=11483"
+        }
+      ]
+    },
+    {
+      "type": "Condition",
+      "options": [
+        {
+          "text": "New with tags (37,089) Items",
+          "items": 37089,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc&LH_ItemCondition=1000"
+        },
+        {
+          "text": "New without tags (4,624) Items",
+          "items": 4624,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc&LH_ItemCondition=1500"
+        },
+        {
+          "text": "New with imperfections (781) Items",
+          "items": 781,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc&LH_ItemCondition=1750"
+        },
+        {
+          "text": "Pre-Owned (130,807) Items",
+          "items": 130807,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc&LH_ItemCondition=3000"
+        },
+        {
+          "text": "Not Specified (485) Items",
+          "items": 485,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc&LH_ItemCondition=10"
+        }
+      ]
+    },
+    {
+      "type": "Buying Format",
+      "options": [
+        {
+          "text": "All Listings (173,786) Items",
+          "items": 173786,
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc"
+        },
+        {
+          "text": "Auction (1,232) Items",
+          "items": 1232,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc&LH_Auction=1"
+        },
+        {
+          "text": "Buy It Now (172,883) Items",
+          "items": 172883,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc&LH_BIN=1"
+        },
+        {
+          "text": "Accepts Offers (121,095) Items",
+          "items": 121095,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc&LH_BO=1"
+        }
+      ]
+    },
+    {
+      "type": "Item Location",
+      "options": [
+        {
+          "text": "Default",
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc&LH_PrefLoc=98"
+        },
+        {
+          "text": "Within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&_dcat=11483&_sadis=25&_stpos=28209&_fspt=1"
+        },
+        {
+          "text": "US Only",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc&LH_PrefLoc=1"
+        },
+        {
+          "text": "North America",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc&LH_PrefLoc=3"
+        },
+        {
+          "text": "Worldwide",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc&LH_PrefLoc=2"
+        }
+      ]
+    },
+    {
+      "type": "Show only",
+      "options": [
+        {
+          "text": "Free Returns",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc&LH_FR=1"
+        },
+        {
+          "text": "Returns Accepted",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc&LH_RPA=1"
+        },
+        {
+          "text": "Authorized Seller",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc&LH_AS=1"
+        },
+        {
+          "text": "Completed Items",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc&LH_Complete=1"
+        },
+        {
+          "text": "Sold Items",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc&LH_Sold=1"
+        },
+        {
+          "text": "Deals & Savings",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&rt=nc&LH_Savings=1"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "item_id": "227584390803",
+      "title": "Levi’s 501 Men’s Black Dark Wash Denim Straight Jeans Button Fly W36x30",
+      "subtitle": "Size 36 in x 30 in · Levi's",
+      "link": "https://www.ebay.com/itm/227584390803",
+      "condition": "Pre-Owned",
+      "buying_format": "1 bid · Time left6d 21h",
+      "extensions": [
+        "+$6.50 delivery",
+        "Located in United States"
+      ],
+      "price": "$5.97",
+      "extracted_price": 5.97,
+      "shipping": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/IlkAAeSwynJq33GA/s-l500.webp"
+    },
+    {
+      "position": 2,
+      "item_id": "375403861014",
+      "title": "Levis 501 Original Fit Jeans Straight Leg Button Fly 100% Cotton Blue Black",
+      "subtitle": "Size 30 + more · Levi's",
+      "link": "https://www.ebay.com/itm/375403861014",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$63.92",
+      "extracted_price": 63.92,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/S1MAAOSwzfJmdn1D/s-l500.webp"
+    },
+    {
+      "position": 3,
+      "item_id": "375403592881",
+      "title": "Levis 501 Original Shrink To Fit Button Fly Jeans Rigid Blue Black Jeans New",
+      "subtitle": "Size 31 in x 32 in + more · Levi's",
+      "link": "https://www.ebay.com/itm/375403592881",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "34+ sold"
+      ],
+      "price": "$63.91",
+      "extracted_price": 63.91,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/GpQAAOSwMdhmXDFM/s-l140.webp"
+    },
+    {
+      "position": 4,
+      "item_id": "377067833502",
+      "title": "Levi's 501 150th Anniversary Edition Jeans Mens Vintage Banner Pant 005013424",
+      "subtitle": "Size 33 in x 30 in + more · Levi's",
+      "link": "https://www.ebay.com/itm/377067833502",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "9+ sold"
+      ],
+      "price": "$75.00 to $79.99",
+      "extracted_price_range": {
+        "from": 75.0,
+        "to": 79.99
+      },
+      "is_price_range": true,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/1FQAAeSwd6NpxvTv/s-l140.webp"
+    },
+    {
+      "position": 5,
+      "item_id": "820264179287",
+      "title": "Levi’s Premium 501 Ferry Building Blue Light Wash Jeans 32 Pieces Bulk Pack",
+      "subtitle": "Size 34 · Levi's",
+      "link": "https://www.ebay.com/itm/820264179287",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Import fees due prior to delivery",
+        "Located in Pakistan"
+      ],
+      "price": "$27.00",
+      "extracted_price": 27.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/eWAAAeSw9SBq2Uy2/s-l140.webp"
+    },
+    {
+      "position": 6,
+      "item_id": "940042523529",
+      "title": "Vtg Levi's 501 Jeans Men's 28x31 (Tag W30 L32) Blue Button Fly Made In Haiti",
+      "subtitle": "Size 28 in x 31 in · Levi's",
+      "link": "https://www.ebay.com/itm/940042523529",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$34.99",
+      "extracted_price": 34.99,
+      "shipping": "+$9.91 delivery",
+      "extracted_shipping": 9.91,
+      "thumbnail": "https://i.ebayimg.com/images/g/giAAAeSwRb5q3xwX/s-l140.webp"
+    },
+    {
+      "position": 7,
+      "item_id": "880053154103",
+      "title": "Levi's 501 Light Wash Blue Denim Button Fly Straight Leg Jeans 32x29",
+      "subtitle": "Size 32 in x 29 in · Levi's",
+      "link": "https://www.ebay.com/itm/880053154103",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$12.99",
+      "extracted_price": 12.99,
+      "shipping": "+$10.43 delivery",
+      "extracted_shipping": 10.43,
+      "thumbnail": "https://i.ebayimg.com/images/g/aB0AAeSw4bRq30mE/s-l140.webp"
+    },
+    {
+      "position": 8,
+      "item_id": "960118314055",
+      "title": "Levi's 501 Men's Jeans",
+      "subtitle": "Size 30 in x 30 in · Levi's",
+      "link": "https://www.ebay.com/itm/960118314055",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$10.00",
+      "extracted_price": 10.0,
+      "shipping": "+$6.19 delivery",
+      "extracted_shipping": 6.19,
+      "thumbnail": "https://i.ebayimg.com/images/g/EOgAAeSwqR5q30xY/s-l140.webp"
+    },
+    {
+      "position": 9,
+      "item_id": "237144942344",
+      "title": "Levi's 501 Men’s Jeans Button Fly 31x30 Made in Mexico",
+      "subtitle": "Size 31 in x 30 in · Levi's",
+      "link": "https://www.ebay.com/itm/237144942344",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left6d 16h",
+      "extensions": [
+        "Free delivery",
+        "Located in United States"
+      ],
+      "price": "$60.00",
+      "extracted_price": 60.0,
+      "shipping": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/25IAAeSw0nBq3yRD/s-l140.webp"
+    },
+    {
+      "position": 10,
+      "item_id": "257818920352",
+      "title": "vintage levis 501 made in usa deadstock",
+      "subtitle": "Size 35 in x 38 in · Levi's",
+      "link": "https://www.ebay.com/itm/257818920352",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$1,165.00",
+      "extracted_price": 1165.0,
+      "shipping": "+$19.80 delivery",
+      "extracted_shipping": 19.8,
+      "thumbnail": "https://i.ebayimg.com/images/g/OPUAAeSw6dVq34bj/s-l140.webp"
+    },
+    {
+      "position": 11,
+      "item_id": "128152293196",
+      "title": "Levi's 501 Original Fit Men's Jeans Medium Blue Denim 34x32",
+      "subtitle": "Size 34 in x 32 in · Levi's",
+      "link": "https://www.ebay.com/itm/128152293196",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Last one"
+      ],
+      "price": "$39.00",
+      "extracted_price": 39.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/XkEAAeSwS6hq23GW/s-l140.webp"
+    },
+    {
+      "position": 12,
+      "item_id": "366760777747",
+      "title": "Levi's Premium 501 Original STRAIGHT LEG Jeans Men 34x32- Blue 00501-0101 NWT",
+      "subtitle": "Size 34 in x 34 in · Levi's",
+      "link": "https://www.ebay.com/itm/366760777747",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$29.95",
+      "extracted_price": 29.95,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/zxkAAeSwZmdq3kso/s-l140.webp"
+    },
+    {
+      "position": 13,
+      "item_id": "800841529761",
+      "title": "Levi's 501 Men's Gray Denim Jeans 40x32 Straight Leg Regular Fit Brand New",
+      "subtitle": "Size 40 in x 32 in · Levi's",
+      "link": "https://www.ebay.com/itm/800841529761",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$25.99",
+      "extracted_price": 25.99,
+      "shipping": "+$10.15 delivery",
+      "extracted_shipping": 10.15,
+      "thumbnail": "https://i.ebayimg.com/images/g/0VIAAeSwW5Nq35iI/s-l140.webp"
+    },
+    {
+      "position": 14,
+      "item_id": "127739072362",
+      "title": "Levi's Premium Men's 501 Original Jeans",
+      "subtitle": "Size 31 in x 32 in + more · Levi's",
+      "link": "https://www.ebay.com/itm/127739072362",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "price": "$42.99",
+      "extracted_price": 42.99,
+      "shipping": "Located in United States",
+      "deal": "+$9.99 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/4j0AAeSwnNBpt0Wj/s-l140.webp"
+    },
+    {
+      "position": 15,
+      "item_id": "127745927913",
+      "title": "Levi's Premium Men's 501 Original Jeans",
+      "subtitle": "Size 35 in x 32 in + more · Levi's",
+      "link": "https://www.ebay.com/itm/127745927913",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "24+ watchers"
+      ],
+      "price": "$45.99",
+      "extracted_price": 45.99,
+      "shipping": "Located in United States",
+      "deal": "+$9.99 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/q48AAeSwSltptuW1/s-l140.webp"
+    },
+    {
+      "position": 16,
+      "item_id": "375470449286",
+      "title": "Levis 501 Shrink To Fit Button Fly Jeans Straight Leg Color Black Rigid 1582",
+      "subtitle": "Size 34 + more · Levi's",
+      "link": "https://www.ebay.com/itm/375470449286",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "37+ sold"
+      ],
+      "price": "$64.99",
+      "extracted_price": 64.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/FHQAAOSwnsBmYX0C/s-l140.webp"
+    },
+    {
+      "position": 17,
+      "item_id": "257818681752",
+      "title": "LEVI'S ORIGINAL 501 STRAIGHT LEG BUTTON-FLY BLUE JEANS 36 X 32 NEVER WORN",
+      "subtitle": "Size 36 in x 32 in · Levi's",
+      "link": "https://www.ebay.com/itm/257818681752",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$150.00",
+      "extracted_price": 150.0,
+      "shipping": "+$11.81 delivery",
+      "extracted_shipping": 11.81,
+      "thumbnail": "https://i.ebayimg.com/images/g/Z3AAAeSwUwlq3168/s-l140.webp"
+    },
+    {
+      "position": 18,
+      "item_id": "327417549847",
+      "title": "Levi's Premium 501 Original STRAIGHT LEG Jeans Men 34x32- Blue 00501-0101 NWT",
+      "subtitle": "Size 34 in x 32 in · Levi's",
+      "link": "https://www.ebay.com/itm/327417549847",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 15% when you buy more"
+      ],
+      "price": "$54.00",
+      "extracted_price": 54.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/KIcAAeSwxZRqlJo1/s-l140.webp"
+    },
+    {
+      "position": 19,
+      "item_id": "178542637380",
+      "title": "Levi's Women's 501 Curve Jeans High Rise Straight Leg Blue Solargenic NWT",
+      "subtitle": "Size 30 + more · Levi's",
+      "link": "https://www.ebay.com/itm/178542637380",
+      "condition": "Brand New",
+      "tag": "NEW LOW PRICE",
+      "buying_format": "Buy It Now",
+      "price": "$18.00",
+      "extracted_price": 18.0,
+      "original_price": "$79.99",
+      "extracted_original_price": 79.99,
+      "shipping": "Located in United States",
+      "deal": "Free delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/EggAAeSw-X1q35qZ/s-l140.webp"
+    },
+    {
+      "position": 20,
+      "item_id": "920075636152",
+      "title": "Levi-s Men's Blue Jeans",
+      "subtitle": "Size 26 in x 32 in · Levi's",
+      "link": "https://www.ebay.com/itm/920075636152",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$18.00",
+      "extracted_price": 18.0,
+      "shipping": "+$10.15 delivery",
+      "extracted_shipping": 10.15,
+      "thumbnail": "https://i.ebayimg.com/images/g/g24AAeSwUadq3xn6/s-l140.webp"
+    },
+    {
+      "position": 21,
+      "item_id": "237144911680",
+      "title": "Vintage Levis 501 Men’s Blue Light Wash Made in USA Button Fly, Size 31x30",
+      "subtitle": "Size 31 in x 30 in · Levi's",
+      "link": "https://www.ebay.com/itm/237144911680",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left6d 16h",
+      "extensions": [
+        "Free delivery",
+        "Located in United States"
+      ],
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "shipping": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/BYkAAeSwNqlq3yAJ/s-l140.webp"
+    },
+    {
+      "position": 22,
+      "item_id": "377599313763",
+      "title": "Levi's 501 Men's Blue Medium Wash Denim Jeans Straight Leg Regular Fit 40x30",
+      "subtitle": "Size 40 in x 30 in · Levi's",
+      "link": "https://www.ebay.com/itm/377599313763",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$79.00",
+      "extracted_price": 79.0,
+      "shipping": "+$10.15 delivery",
+      "extracted_shipping": 10.15,
+      "thumbnail": "https://i.ebayimg.com/images/g/twIAAeSwOkpq3516/s-l140.webp"
+    },
+    {
+      "position": 23,
+      "item_id": "375894767920",
+      "title": "Levi's Men's 501 Original Shrink to Fit Camo Men's Jeans 005012884",
+      "subtitle": "Size 35 in x 32 in + more · Levi's",
+      "link": "https://www.ebay.com/itm/375894767920",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "15+ sold"
+      ],
+      "price": "$59.99",
+      "extracted_price": 59.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/i14AAOSwix9ncmEt/s-l140.webp"
+    },
+    {
+      "position": 24,
+      "item_id": "407317971329",
+      "title": "NWT Levi's Men's 501 Original Fit Jeans 27x30 Medium Wash 100% Cotton",
+      "subtitle": "Size 32 in x 30 in · Levi's",
+      "link": "https://www.ebay.com/itm/407317971329",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$49.99",
+      "extracted_price": 49.99,
+      "shipping": "+$7.58 delivery",
+      "extracted_shipping": 7.58,
+      "thumbnail": "https://i.ebayimg.com/images/g/G2MAAeSwaR9q34kG/s-l140.webp"
+    },
+    {
+      "position": 25,
+      "item_id": "287681215780",
+      "title": "Levi's 501 Men's Black Dark Wash Denim Jeans 32x32 Straight Leg Button Fly",
+      "subtitle": "Size 32 in x 32 in · Levi's",
+      "link": "https://www.ebay.com/itm/287681215780",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$20.00",
+      "extracted_price": 20.0,
+      "shipping": "+$7.13 delivery",
+      "extracted_shipping": 7.13,
+      "thumbnail": "https://i.ebayimg.com/images/g/heEAAeSwWtlq30yv/s-l140.webp"
+    },
+    {
+      "position": 26,
+      "item_id": "366762623242",
+      "title": "Levis 501 Original Fit Jeans Mens W38 L29 Dark Wash Blue Denim Straight Leg⁠",
+      "subtitle": "Size 39 in x 29 in · Levi's",
+      "link": "https://www.ebay.com/itm/366762623242",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$24.99",
+      "extracted_price": 24.99,
+      "shipping": "+$7.08 delivery",
+      "extracted_shipping": 7.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/BfIAAeSw495q33kI/s-l140.webp"
+    },
+    {
+      "position": 27,
+      "item_id": "131127122376",
+      "title": "Levis 501 Original Fit Mens Straight Leg Jeans Button Fly FAST FREE SHIPPING",
+      "subtitle": "Size 34 in x 34 in + more · Levi's",
+      "link": "https://www.ebay.com/itm/131127122376",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 17,
+      "reviews_link": "https://www.ebay.com/p/1100920551?iid=131127122376&var=435525512929#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Free returns",
+        "Save up to 7% when you buy more"
+      ],
+      "price": "$49.77 to $66.77",
+      "extracted_price_range": {
+        "from": 49.77,
+        "to": 66.77
+      },
+      "is_price_range": true,
+      "shipping": "Located in United States",
+      "deal": "Free delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/XQcAAOSweNxc8oqf/s-l140.webp"
+    },
+    {
+      "position": 28,
+      "item_id": "377477648248",
+      "title": "Levis 501 Shrink To Fit Button Fly Jeans Color Charcoal Black 005013916",
+      "subtitle": "Size 33 in x 32 in + more · Levi's",
+      "link": "https://www.ebay.com/itm/377477648248",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "5+ watchers"
+      ],
+      "price": "$67.99",
+      "extracted_price": 67.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/xxAAAeSwzadqnh7r/s-l140.webp"
+    },
+    {
+      "position": 29,
+      "item_id": "364975129614",
+      "title": "Levi's 501 Shrink-to-Fit",
+      "subtitle": "Size 33 in x 32 in + more · Levi's",
+      "link": "https://www.ebay.com/itm/364975129614",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$62.00",
+      "extracted_price": 62.0,
+      "shipping": "+$7.95 delivery",
+      "extracted_shipping": 7.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/-vwAAeSwKkRqHjgL/s-l140.webp"
+    },
+    {
+      "position": 30,
+      "item_id": "375468414005",
+      "title": "Levis 501 Original Shrink To Fit Button Fly Jeans Rigid Blue Black Many size",
+      "subtitle": "Size 30 in x 34 in + more · Levi's",
+      "link": "https://www.ebay.com/itm/375468414005",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$63.91",
+      "extracted_price": 63.91,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/GpQAAOSwMdhmXDFM/s-l140.webp"
+    },
+    {
+      "position": 31,
+      "item_id": "176191240762",
+      "title": "Levi's Men's 501 Denim Original Shrink to Fit Button Fly Jeans Many Colors Levis",
+      "subtitle": "Size 31 + more · Levi's",
+      "link": "https://www.ebay.com/itm/176191240762",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "8+ watchers"
+      ],
+      "price": "$59.99",
+      "extracted_price": 59.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/cu4AAOSw0YFlqh~v/s-l140.webp"
+    },
+    {
+      "position": 32,
+      "item_id": "375553553389",
+      "title": "Levis 501 Jeans New Mens Original Button Fly Color Beige 005013400",
+      "subtitle": "Size 30 + more · Levi's",
+      "link": "https://www.ebay.com/itm/375553553389",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "22+ watchers"
+      ],
+      "price": "$67.99",
+      "extracted_price": 67.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/xS4AAOSw~mxmoKx2/s-l140.webp"
+    },
+    {
+      "position": 33,
+      "item_id": "860085265853",
+      "title": "Levi's 501 Original Fit Jeans Mens 34x29 Straight Leg Dark Blue Denim",
+      "subtitle": "Size 34 in x 30 in · Levi's",
+      "link": "https://www.ebay.com/itm/860085265853",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$32.99",
+      "extracted_price": 32.99,
+      "shipping": "+$6.50 delivery",
+      "extracted_shipping": 6.5,
+      "thumbnail": "https://i.ebayimg.com/images/g/MSIAAeSwiwdq3zKN/s-l140.webp"
+    },
+    {
+      "position": 34,
+      "item_id": "820279591804",
+      "title": "Levi's 501 Button Fly Jeans for Men, Light Blue - 5010134 Size 31x30(31x28)",
+      "subtitle": "Size 31 in x 30 in · Levi's",
+      "link": "https://www.ebay.com/itm/820279591804",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 11,
+      "reviews_link": "https://www.ebay.com/p/1000167978?iid=820279591804#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$14.99",
+      "extracted_price": 14.99,
+      "shipping": "+$7.58 delivery",
+      "extracted_shipping": 7.58,
+      "thumbnail": "https://i.ebayimg.com/images/g/s8AAAeSwZe9q30P9/s-l140.webp"
+    },
+    {
+      "position": 35,
+      "item_id": "168818075608",
+      "title": "Levis 501 Big E Selvedge Denim Jeans Mens 34 Dark Wash Button Fly Straight Leg",
+      "subtitle": "Size 32 in x 30 in · Levi's",
+      "link": "https://www.ebay.com/itm/168818075608",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$20.00",
+      "extracted_price": 20.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/LnYAAeSwzwNq33eB/s-l140.webp"
+    },
+    {
+      "position": 36,
+      "item_id": "376915410869",
+      "title": "Levi's Premium 501 '93 Straight Fit Mens Jeans Color Rinse Blue 798300241",
+      "subtitle": "Size 38 in x 32 in + more · Levi's",
+      "link": "https://www.ebay.com/itm/376915410869",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "15+ watchers"
+      ],
+      "price": "$59.99",
+      "extracted_price": 59.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/MXMAAeSwyV5pfJAi/s-l140.webp"
+    },
+    {
+      "position": 37,
+      "item_id": "206655236595",
+      "title": "Levi's 501 Men's Jeans W36 L32 Blue Denim Straight Leg Button Fly",
+      "subtitle": "Size 36 in x 32 in · Levi's",
+      "link": "https://www.ebay.com/itm/206655236595",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$28.00",
+      "extracted_price": 28.0,
+      "shipping": "+$6.66 delivery",
+      "extracted_shipping": 6.66,
+      "thumbnail": "https://i.ebayimg.com/images/g/BKcAAeSw3ftq30qa/s-l140.webp"
+    },
+    {
+      "position": 38,
+      "item_id": "377195049229",
+      "title": "Levi's Men's 501 Original Jeans Dark Blue Indigo Rinse 005013408",
+      "subtitle": "Size 35 in x 32 in + more · Levi's",
+      "link": "https://www.ebay.com/itm/377195049229",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "3+ watchers"
+      ],
+      "price": "$62.99",
+      "extracted_price": 62.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/SJQAAeSwUv5qDDEf/s-l140.webp"
+    },
+    {
+      "position": 39,
+      "item_id": "407129540021",
+      "title": "Levis 501 Jeans Mens 30x32 Blue Original Straight Button Fly Denim Grunge Cowboy",
+      "subtitle": "Size 30 in x 32 in · Levi's",
+      "link": "https://www.ebay.com/itm/407129540021",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Free returns",
+        "12 watchers"
+      ],
+      "price": "$44.99",
+      "extracted_price": 44.99,
+      "shipping": "Located in United States",
+      "deal": "$40.49 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/ac4AAeSwqxhph6hI/s-l140.webp"
+    },
+    {
+      "position": 40,
+      "item_id": "377551039055",
+      "title": "Levis 501 Original Shrink to Fit Jeans Mens 40x32 Brown Rigid Denim NWT",
+      "subtitle": "Size 41 in x 31 in · Levi's",
+      "link": "https://www.ebay.com/itm/377551039055",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Last one"
+      ],
+      "price": "$59.99",
+      "extracted_price": 59.99,
+      "shipping": "+$8.29 delivery",
+      "extracted_shipping": 8.29,
+      "thumbnail": "https://i.ebayimg.com/images/g/D4MAAeSw4tZqxcqB/s-l140.webp"
+    },
+    {
+      "position": 41,
+      "item_id": "327417541904",
+      "title": "Levi's Premium 501 Original STRAIGHT LEG Jeans Men 32x32- Blue 00501-0101 NWT",
+      "subtitle": "Size 32 in x 32 in · Levi's",
+      "link": "https://www.ebay.com/itm/327417541904",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 15% when you buy more"
+      ],
+      "price": "$54.00",
+      "extracted_price": 54.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/93UAAeSwKVhqlJuD/s-l140.webp"
+    },
+    {
+      "position": 42,
+      "item_id": "376547215949",
+      "title": "Levi's Men's 501 Original Shrink to Fit Jeans Color Medium Brown 005011679",
+      "subtitle": "Size 33 in x 30 in + more · Levi's",
+      "link": "https://www.ebay.com/itm/376547215949",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "28+ watchers"
+      ],
+      "price": "$59.99",
+      "extracted_price": 59.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/kNgAAeSwPh9oxUCz/s-l140.webp"
+    },
+    {
+      "position": 43,
+      "item_id": "168818105670",
+      "title": "Levi's 501 Jeans Men 40X34 Blue Denim Straight Leg Button Fly Casual Wear",
+      "subtitle": "Size 40 in x 34 in · Levi's",
+      "link": "https://www.ebay.com/itm/168818105670",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$29.99",
+      "extracted_price": 29.99,
+      "shipping": "+$9.99 delivery",
+      "extracted_shipping": 9.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/yokAAeSwGXxq33zE/s-l140.webp"
+    },
+    {
+      "position": 44,
+      "item_id": "377477694785",
+      "title": "Levi's Men's 501 Original Shrink to Fit Jeans Color Purple 005012598",
+      "subtitle": "Size 31 in x 30 in + more · Levi's",
+      "link": "https://www.ebay.com/itm/377477694785",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$59.99",
+      "extracted_price": 59.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/xrgAAeSwiX1qniNF/s-l140.webp"
+    },
+    {
+      "position": 45,
+      "item_id": "375408817438",
+      "title": "Levi's Men's 501 Original Fit Leopard Print Men's Jeans 005012886",
+      "subtitle": "Size 46 + more · Levi's",
+      "link": "https://www.ebay.com/itm/375408817438",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "28+ sold"
+      ],
+      "price": "$59.99",
+      "extracted_price": 59.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/BSIAAOSwfzFmNHAB/s-l140.webp"
+    },
+    {
+      "position": 46,
+      "item_id": "176441027586",
+      "title": "Levis 501 Original Fit Jeans Straight Leg Button Fly 100% Cotton",
+      "subtitle": "Size 31 + more · Levi's",
+      "link": "https://www.ebay.com/itm/176441027586",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$63.98",
+      "extracted_price": 63.98,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/vdIAAOSwxq5memuh/s-l140.webp"
+    },
+    {
+      "position": 47,
+      "item_id": "880052680633",
+      "title": "Levis 501 Original Fit Jeans Mens 36x32 Blue Button Fly Straight Leg Denim",
+      "subtitle": "Size 36 in x 30 in",
+      "link": "https://www.ebay.com/itm/880052680633",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$27.00",
+      "extracted_price": 27.0,
+      "shipping": "+$8.27 delivery",
+      "extracted_shipping": 8.27,
+      "thumbnail": "https://i.ebayimg.com/images/g/5lAAAeSwcAxq3xfI/s-l140.webp"
+    },
+    {
+      "position": 48,
+      "item_id": "227584490700",
+      "title": "Levis 501 Mens 36x30 Light Wash Button Fly Straight Leg Jeans Vintage 90s",
+      "subtitle": "Size 36 in x 26 in · Levi's",
+      "link": "https://www.ebay.com/itm/227584490700",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$49.99",
+      "extracted_price": 49.99,
+      "shipping": "+$11.72 delivery",
+      "extracted_shipping": 11.72,
+      "thumbnail": "https://i.ebayimg.com/images/g/dCwAAeSwODFq34sB/s-l140.webp"
+    },
+    {
+      "position": 49,
+      "item_id": "375171751462",
+      "title": "Levis 501 Original Fit Mens Jeans Straight Leg Levi's Button Fly 100% Cotton New",
+      "subtitle": "Size 31 + more · Levi's",
+      "link": "https://www.ebay.com/itm/375171751462",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$63.92",
+      "extracted_price": 63.92,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/t~cAAOSw3x1mdn26/s-l140.webp"
+    },
+    {
+      "position": 50,
+      "item_id": "195612521016",
+      "title": "LEVIS MEN'S 501 BUTTON FLY SHRINK TO FIT JEANS STRAIGHT FIT ORIGINAL",
+      "subtitle": "Size 30 in x 32 in + more · Levi's",
+      "link": "https://www.ebay.com/itm/195612521016",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "11+ watchers"
+      ],
+      "price": "$62.99 to $65.99",
+      "extracted_price_range": {
+        "from": 62.99,
+        "to": 65.99
+      },
+      "is_price_range": true,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/LakAAOSwnKlfnDH0/s-l140.webp"
+    },
+    {
+      "position": 51,
+      "item_id": "117250747898",
+      "title": "Levi's 501 Original Fit Men's Jeans 150th Anniversary Banner Print 00501-3424",
+      "subtitle": "Size 32 in x 30 in + more · Levi's",
+      "link": "https://www.ebay.com/itm/117250747898",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$80.50",
+      "extracted_price": 80.5,
+      "shipping": "+$8.29 delivery",
+      "extracted_shipping": 8.29,
+      "thumbnail": "https://i.ebayimg.com/images/g/K9cAAeSw8D1qLy3q/s-l140.webp"
+    },
+    {
+      "position": 52,
+      "item_id": "377225607249",
+      "title": "Levi's 501 Selvedge Men's Premium Straight Fit Jeans Color Black Ash 005013658",
+      "subtitle": "Size 30 in x 30 in + more · Levi's",
+      "link": "https://www.ebay.com/itm/377225607249",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "7+ watchers"
+      ],
+      "price": "$82.99",
+      "extracted_price": 82.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/9p4AAeSwJElqHUht/s-l140.webp"
+    },
+    {
+      "position": 53,
+      "item_id": "376572171960",
+      "title": "Levi's Men's 501 Original Shrink to Fit Jeans Color Brick Red 005012229",
+      "subtitle": "Size 35 in x 32 in + more · Levi's",
+      "link": "https://www.ebay.com/itm/376572171960",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "9+ watchers"
+      ],
+      "price": "$59.99",
+      "extracted_price": 59.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/lmoAAeSwxqdo040S/s-l140.webp"
+    },
+    {
+      "position": 54,
+      "item_id": "326846252337",
+      "title": "Levi's 501 Original Shrink-To-Fit Men's Straight Leg Denim Jeans (International)",
+      "subtitle": "Size 45 in x 30 in + more · Levi's",
+      "link": "https://www.ebay.com/itm/326846252337",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 8% when you buy more"
+      ],
+      "price": "$57.95",
+      "extracted_price": 57.95,
+      "shipping": "+$5.99 delivery",
+      "extracted_shipping": 5.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/lBMAAeSwmE9qfVDu/s-l140.webp"
+    },
+    {
+      "position": 55,
+      "item_id": "940028697183",
+      "title": "NWT MEN'S LEVI JEANS 501 ORIGINAL Straight Leg Rigid Shrink-to-Fit Brown $84.95",
+      "subtitle": "Size 34 + more · Levi's",
+      "link": "https://www.ebay.com/itm/940028697183",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$47.99",
+      "extracted_price": 47.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/TJsAAeSwFqZq17nJ/s-l140.webp"
+    },
+    {
+      "position": 56,
+      "item_id": "375723045230",
+      "title": "Levi's Men's 501 Original Shrink to Fit Bubble Camo Print Men's Jeans 005012871",
+      "subtitle": "Size 40 + more · Levi's",
+      "link": "https://www.ebay.com/itm/375723045230",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "26+ sold"
+      ],
+      "price": "$59.99",
+      "extracted_price": 59.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/zlsAAOSw8BBnEhiB/s-l140.webp"
+    },
+    {
+      "position": 57,
+      "item_id": "326782420067",
+      "title": "Levi's 501 Original Fit Men's Straight Leg Button Fly Denim Jeans *Pre-washed",
+      "subtitle": "Size 44 in x 30 in + more · Levi's",
+      "link": "https://www.ebay.com/itm/326782420067",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 7% when you buy more"
+      ],
+      "price": "$57.95",
+      "extracted_price": 57.95,
+      "shipping": "+$5.99 delivery",
+      "extracted_shipping": 5.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/AMwAAeSwCFxpZwvt/s-l140.webp"
+    },
+    {
+      "position": 58,
+      "item_id": "840062386326",
+      "title": "EUC Levi's 501 Straight Button Fly Jeans Men's tag=30x34 (MEASURED 30x31) hemmed",
+      "subtitle": "Size 30 in x 31 in · Levi's",
+      "link": "https://www.ebay.com/itm/840062386326",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$19.99",
+      "extracted_price": 19.99,
+      "shipping": "+$10.00 delivery",
+      "extracted_shipping": 10.0,
+      "thumbnail": "https://i.ebayimg.com/images/g/jnAAAeSwzvpqIFeS/s-l140.webp"
+    },
+    {
+      "position": 59,
+      "item_id": "398429177688",
+      "title": "Levi's Men's 501 Original Button Fly Straight Leg Denim Cotton Stretch Jeans",
+      "subtitle": "Size 32 in x 32 in + more · Levi's",
+      "link": "https://www.ebay.com/itm/398429177688",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 15% when you buy more"
+      ],
+      "price": "$69.99",
+      "extracted_price": 69.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/v1QAAeSw40FqtbeF/s-l140.webp"
+    },
+    {
+      "position": 60,
+      "item_id": "307215460343",
+      "title": "Levis 501 Mens Straight Leg Medium Wash Blue Denim Button Fly Jeans",
+      "subtitle": "Size 31 in x 28 in · Levi's",
+      "link": "https://www.ebay.com/itm/307215460343",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$24.00",
+      "extracted_price": 24.0,
+      "shipping": "+$10.89 delivery",
+      "extracted_shipping": 10.89,
+      "thumbnail": "https://i.ebayimg.com/images/g/8JoAAeSw2jBqw98w/s-l140.webp"
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "levi s 505 jeans",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=levi+s+505+jeans&_sacat=11483&_sop=12"
+    },
+    {
+      "query": "levis 501 jeans mens",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=levis+501+jeans+mens&_sacat=11483&_sop=12"
+    },
+    {
+      "query": "levi s 501 jeans men",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=levi+s+501+jeans+men&_sacat=11483&_sop=12"
+    },
+    {
+      "query": "levi s 501 jeans button fly",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=levi+s+501+jeans+button+fly&_sacat=11483&_sop=12"
+    },
+    {
+      "query": "levis jeans men",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=levis+jeans+men&_sacat=11483&_sop=12"
+    },
+    {
+      "query": "levi s 501 jeans vintage",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=levi+s+501+jeans+vintage&_sacat=11450&_sop=12"
+    },
+    {
+      "query": "calvin klein jeans men",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=calvin+klein+jeans+men&_sacat=11483&_sop=12"
+    },
+    {
+      "query": "lee jeans",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lee+jeans&_sacat=11483&_sop=12"
+    },
+    {
+      "query": "levis 501 jeans women",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=levis+501+jeans+women&_sacat=11554&_sop=12"
+    },
+    {
+      "query": "levi s 511 jeans",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=levi+s+511+jeans&_sacat=11483&_sop=12"
+    },
+    {
+      "query": "levi s 501 jeans mens",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=levi+s+501+jeans+mens&_sacat=11483&_sop=12"
+    },
+    {
+      "query": "levi s 501 jeans 36 x 32",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=levi+s+501+jeans+36+x+32&_sacat=11483&_sop=12"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&_dcat=11483&_pgn=2",
+    "other_pages": {
+      "2": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&_dcat=11483&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&_dcat=11483&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&_dcat=11483&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&_dcat=11483&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&_dcat=11483&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&_dcat=11483&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&_dcat=11483&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&_dcat=11483&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_nkw=levi%27s+501+jeans&_fcid=1&_dcat=11483&_pgn=10&rt=nc"
+    }
+  }
+}

@@ -1,0 +1,2107 @@
+{
+  "search_metadata": {
+    "id": "search_mMjwVJvBznT1nLxAPvynp5OY",
+    "status": "Success",
+    "created_at": "2026-10-26T18:48:10Z",
+    "request_time_taken": 5.59,
+    "parsing_time_taken": 0.29,
+    "total_time_taken": 5.88,
+    "request_url": "https://www.amazon.com/s?k=levi%27s+501+jeans",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_mMjwVJvBznT1nLxAPvynp5OY.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_mMjwVJvBznT1nLxAPvynp5OY"
+  },
+  "search_parameters": {
+    "engine": "amazon_search",
+    "q": "levi's 501 jeans",
+    "amazon_domain": "amazon.com",
+    "delivery_country": "us"
+  },
+  "search_information": {
+    "query_displayed": "levi's 501 jeans",
+    "price_min": "$6",
+    "extracted_price_min": 6,
+    "price_max": "$165+",
+    "extracted_price_max": 165,
+    "delivering_to": "Delivering to Greenville 29615"
+  },
+  "filters": [
+    {
+      "type": "Eligible for Free Shipping",
+      "options": [
+        {
+          "text": "Free Shipping by Amazon",
+          "rh": "p_76:2661625011"
+        }
+      ]
+    },
+    {
+      "type": "Delivery Day",
+      "options": [
+        {
+          "text": "Get It by Tomorrow",
+          "rh": "p_90:8308921011"
+        }
+      ]
+    },
+    {
+      "type": "Gender",
+      "options": [
+        {
+          "text": "Men",
+          "rh": "p_n_g-101015233022111:121075132011"
+        },
+        {
+          "text": "Women",
+          "rh": "p_n_g-101015233022111:121075131011"
+        },
+        {
+          "text": "Boys",
+          "rh": "p_n_g-101015233022111:121075136011"
+        }
+      ]
+    },
+    {
+      "type": "Brands",
+      "options": [
+        {
+          "text": "Levi's",
+          "rh": "p_123:200356"
+        }
+      ]
+    },
+    {
+      "type": "Amazon Fashion",
+      "options": [
+        {
+          "text": "Premium Brands",
+          "rh": "p_n_g-1004227705091:21451213011"
+        },
+        {
+          "text": "Top Brands",
+          "rh": "p_n_g-1004227705091:14630392011"
+        }
+      ]
+    },
+    {
+      "type": "Men's Pant Inseam Length",
+      "options": [
+        {
+          "text": "28",
+          "rh": "p_n_size_five_browse-vebin:2445332011"
+        },
+        {
+          "text": "29",
+          "rh": "p_n_size_five_browse-vebin:2445333011"
+        },
+        {
+          "text": "30",
+          "rh": "p_n_size_five_browse-vebin:2445334011"
+        },
+        {
+          "text": "32",
+          "rh": "p_n_size_five_browse-vebin:2445335011"
+        },
+        {
+          "text": "34",
+          "rh": "p_n_size_five_browse-vebin:2445336011"
+        },
+        {
+          "text": "36",
+          "rh": "p_n_size_five_browse-vebin:2445337011"
+        }
+      ]
+    },
+    {
+      "type": "Women's Regular Waist Size",
+      "options": [
+        {
+          "text": "24",
+          "rh": "p_n_size_three_browse-vebin:2479845011"
+        },
+        {
+          "text": "25",
+          "rh": "p_n_size_three_browse-vebin:2479846011"
+        },
+        {
+          "text": "26",
+          "rh": "p_n_size_three_browse-vebin:2479847011"
+        },
+        {
+          "text": "27",
+          "rh": "p_n_size_three_browse-vebin:2479848011"
+        },
+        {
+          "text": "28",
+          "rh": "p_n_size_three_browse-vebin:2479849011"
+        },
+        {
+          "text": "29",
+          "rh": "p_n_size_three_browse-vebin:2479850011"
+        },
+        {
+          "text": "30",
+          "rh": "p_n_size_three_browse-vebin:2479851011"
+        },
+        {
+          "text": "31",
+          "rh": "p_n_size_three_browse-vebin:2479852011"
+        },
+        {
+          "text": "32",
+          "rh": "p_n_size_three_browse-vebin:2479853011"
+        },
+        {
+          "text": "33",
+          "rh": "p_n_size_three_browse-vebin:2479854011"
+        },
+        {
+          "text": "34",
+          "rh": "p_n_size_three_browse-vebin:2479855011"
+        }
+      ]
+    },
+    {
+      "type": "Men's Regular Waist Size",
+      "options": [
+        {
+          "text": "28",
+          "rh": "p_n_pt_nav_size_men_waist:2445343011"
+        },
+        {
+          "text": "29",
+          "rh": "p_n_pt_nav_size_men_waist:2445344011"
+        },
+        {
+          "text": "30",
+          "rh": "p_n_pt_nav_size_men_waist:2445345011"
+        },
+        {
+          "text": "31",
+          "rh": "p_n_pt_nav_size_men_waist:2445346011"
+        },
+        {
+          "text": "32",
+          "rh": "p_n_pt_nav_size_men_waist:2445347011"
+        },
+        {
+          "text": "33",
+          "rh": "p_n_pt_nav_size_men_waist:2445348011"
+        },
+        {
+          "text": "34",
+          "rh": "p_n_pt_nav_size_men_waist:2445349011"
+        },
+        {
+          "text": "35",
+          "rh": "p_n_pt_nav_size_men_waist:2445350011"
+        },
+        {
+          "text": "36",
+          "rh": "p_n_pt_nav_size_men_waist:2445351011"
+        },
+        {
+          "text": "38",
+          "rh": "p_n_pt_nav_size_men_waist:2445352011"
+        },
+        {
+          "text": "40",
+          "rh": "p_n_pt_nav_size_men_waist:2445353011"
+        },
+        {
+          "text": "42",
+          "rh": "p_n_pt_nav_size_men_waist:2445354011"
+        },
+        {
+          "text": "44",
+          "rh": "p_n_pt_nav_size_men_waist:2445355011"
+        }
+      ]
+    },
+    {
+      "type": "Men's Big & Tall Pant Size",
+      "options": [
+        {
+          "text": "42",
+          "rh": "p_n_size_four_browse-vebin:2445317011"
+        },
+        {
+          "text": "44",
+          "rh": "p_n_size_four_browse-vebin:2445318011"
+        },
+        {
+          "text": "48",
+          "rh": "p_n_size_four_browse-vebin:2445320011"
+        }
+      ]
+    },
+    {
+      "type": "Color",
+      "options": [
+        {
+          "text": "Blues",
+          "rh": "p_n_g-1004232833091:2343350011"
+        },
+        {
+          "text": "Black",
+          "rh": "p_n_g-1004232833091:2343349011"
+        },
+        {
+          "text": "Greys",
+          "rh": "p_n_g-1004232833091:2343354011"
+        },
+        {
+          "text": "White",
+          "rh": "p_n_g-1004232833091:2343363011"
+        },
+        {
+          "text": "Browns",
+          "rh": "p_n_g-1004232833091:2343351011"
+        },
+        {
+          "text": "Beige",
+          "rh": "p_n_g-1004232833091:2343348011"
+        },
+        {
+          "text": "Reds",
+          "rh": "p_n_g-1004232833091:2343361011"
+        },
+        {
+          "text": "Greens",
+          "rh": "p_n_g-1004232833091:2343355011"
+        }
+      ]
+    },
+    {
+      "type": "Rise Style",
+      "options": [
+        {
+          "text": "Low Rise",
+          "rh": "p_n_g-1003548323111:51635684011"
+        },
+        {
+          "text": "Mid Rise",
+          "rh": "p_n_g-1003548323111:51635686011"
+        },
+        {
+          "text": "High Rise",
+          "rh": "p_n_g-1003548323111:51635685011"
+        }
+      ]
+    },
+    {
+      "type": "Customer Review",
+      "options": [
+        {
+          "text": "4 Stars",
+          "rh": "p_72:2661618011"
+        }
+      ]
+    },
+    {
+      "type": "Closure",
+      "options": [
+        {
+          "text": "Button",
+          "rh": "p_n_g-101017772557111:218454553011"
+        },
+        {
+          "text": "Pull On",
+          "rh": "p_n_g-101017772557111:218454559011"
+        },
+        {
+          "text": "Zipper",
+          "rh": "p_n_g-101017772557111:218454555011"
+        }
+      ]
+    },
+    {
+      "type": "Deals & Discounts",
+      "options": [
+        {
+          "text": "Up to $35",
+          "rh": "p_36:-3500"
+        },
+        {
+          "text": "$35 to $50",
+          "rh": "p_36:3500-5000"
+        },
+        {
+          "text": "$50 to $70",
+          "rh": "p_36:5000-7000"
+        },
+        {
+          "text": "$70 & above",
+          "rh": "p_36:7000-"
+        }
+      ]
+    },
+    {
+      "type": "Care Instructions",
+      "options": [
+        {
+          "text": "Machine Wash",
+          "rh": "p_n_g-1003388910111:24040530011"
+        }
+      ]
+    },
+    {
+      "type": "Leg Style",
+      "options": [
+        {
+          "text": "Ankle",
+          "rh": "p_n_g-101017874840111:220408671011"
+        },
+        {
+          "text": "Boot Cut",
+          "rh": "p_n_g-101017874840111:220408670011"
+        },
+        {
+          "text": "Cropped",
+          "rh": "p_n_g-101017874840111:220408667011"
+        },
+        {
+          "text": "Flared",
+          "rh": "p_n_g-101017874840111:220408669011"
+        },
+        {
+          "text": "Skinny",
+          "rh": "p_n_g-101017874840111:220408675011"
+        },
+        {
+          "text": "Straight",
+          "rh": "p_n_g-101017874840111:220408672011"
+        },
+        {
+          "text": "Tapered",
+          "rh": "p_n_g-101017874840111:220408676011"
+        },
+        {
+          "text": "Wide",
+          "rh": "p_n_g-101017874840111:220408668011"
+        }
+      ]
+    },
+    {
+      "type": "Seller",
+      "options": [
+        {
+          "text": "Amazon.com",
+          "rh": "p_6:ATVPDKIKX0DER"
+        },
+        {
+          "text": "LoRo Shoes",
+          "rh": "p_6:A3AE2380ROK0L0"
+        },
+        {
+          "text": "Zappos",
+          "rh": "p_6:AH1YFAUS3NHX2"
+        },
+        {
+          "text": "Basics Clothing Store",
+          "rh": "p_6:A2BQZVKCL66534"
+        },
+        {
+          "text": "Amazon Resale",
+          "rh": "p_6:A2L77EE7U53NWQ"
+        },
+        {
+          "text": "⭐⭐⭐⭐⭐PETCDIM",
+          "rh": "p_6:A1I76H1GJ5S6EW"
+        },
+        {
+          "text": "OutdoorEquipped",
+          "rh": "p_6:A7ULJO7NAWM0L"
+        }
+      ]
+    },
+    {
+      "type": "Pocket Type",
+      "options": [
+        {
+          "text": "Utility Pocket",
+          "rh": "p_n_g-1003405819111:24044969011"
+        },
+        {
+          "text": "Pork Chop Pocket",
+          "rh": "p_n_g-1003405819111:24044966011"
+        }
+      ]
+    },
+    {
+      "type": "Purpose",
+      "options": [
+        {
+          "text": "Casual Wear",
+          "rh": "p_n_g-101016756036111:214322058011"
+        },
+        {
+          "text": "Relaxing",
+          "rh": "p_n_g-101016756036111:214322055011"
+        },
+        {
+          "text": "Yoga",
+          "rh": "p_n_g-101016756036111:207864139011"
+        },
+        {
+          "text": "Baseball",
+          "rh": "p_n_g-101016756036111:207864135011"
+        },
+        {
+          "text": "Construction",
+          "rh": "p_n_g-101016756036111:214322057011"
+        },
+        {
+          "text": "Dancing",
+          "rh": "p_n_g-101016756036111:207864133011"
+        },
+        {
+          "text": "Exercising",
+          "rh": "p_n_g-101016756036111:207864134011"
+        },
+        {
+          "text": "Golfing",
+          "rh": "p_n_g-101016756036111:207864136011"
+        },
+        {
+          "text": "Hiking",
+          "rh": "p_n_g-101016756036111:207864141011"
+        },
+        {
+          "text": "Running",
+          "rh": "p_n_g-101016756036111:214322056011"
+        },
+        {
+          "text": "Softball",
+          "rh": "p_n_g-101016756036111:207864137011"
+        }
+      ]
+    },
+    {
+      "type": "Length",
+      "options": [
+        {
+          "text": "Extra Short Length",
+          "rh": "p_n_g-101017766521111:218913590011"
+        },
+        {
+          "text": "Short Length",
+          "rh": "p_n_g-101017766521111:218913587011"
+        },
+        {
+          "text": "Standard Length",
+          "rh": "p_n_g-101017766521111:218913586011"
+        },
+        {
+          "text": "Long Length",
+          "rh": "p_n_g-101017766521111:218913588011"
+        }
+      ]
+    },
+    {
+      "type": "Apparel Closure Orientation",
+      "options": [
+        {
+          "text": "Back",
+          "rh": "p_n_g-1003313328111:23949401011"
+        },
+        {
+          "text": "Front",
+          "rh": "p_n_g-1003313328111:23949400011"
+        },
+        {
+          "text": "Side",
+          "rh": "p_n_g-1003313328111:23949399011"
+        }
+      ]
+    },
+    {
+      "type": "Theme",
+      "options": [
+        {
+          "text": "Space",
+          "rh": "p_n_g-101015398651111:122177342011"
+        },
+        {
+          "text": "Sport",
+          "rh": "p_n_g-101015398651111:122177343011"
+        }
+      ]
+    },
+    {
+      "type": "Sustainability Features",
+      "options": [
+        {
+          "text": "Any Feature",
+          "rh": "p_n_cpf_labels:121136630011"
+        },
+        {
+          "text": "Farming Practices",
+          "rh": "p_n_cpf_labels:121191385011"
+        },
+        {
+          "text": "Recycled Materials",
+          "rh": "p_n_cpf_labels:116845689011"
+        },
+        {
+          "text": "Safer Chemicals",
+          "rh": "p_n_cpf_labels:116845683011"
+        },
+        {
+          "text": "Worker Wellbeing",
+          "rh": "p_n_cpf_labels:116845686011"
+        }
+      ]
+    },
+    {
+      "type": "Pants Form Type",
+      "options": [
+        {
+          "text": "Jeans",
+          "rh": "p_n_feature_two_browse-bin:206873765011"
+        }
+      ]
+    },
+    {
+      "type": "Pattern",
+      "options": [
+        {
+          "text": "Graphic",
+          "rh": "p_n_g-101017158019111:213409035011"
+        },
+        {
+          "text": "Solid",
+          "rh": "p_n_g-101017158019111:213409024011"
+        },
+        {
+          "text": "Striped",
+          "rh": "p_n_g-101017158019111:213409019011"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "asin": "B0018ON68A",
+      "title": "Men's 501 Original Fit Jeans",
+      "link": "https://www.amazon.com/Levis-Original-Medium-Stonewash-34x32/dp/B0018ON68A/ref=sr_1_1?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-1",
+      "brand": "Levi's",
+      "rating": 4.5,
+      "reviews": 24410,
+      "recent_sales": "500+ bought in past month",
+      "extracted_recent_sales": 500,
+      "price": "$64.99",
+      "extracted_price": 64.99,
+      "original_price": "$84.95",
+      "extracted_original_price": 84.95,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_overall_pick": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/41NgDv59BaL._AC_UL320_.jpg"
+    },
+    {
+      "position": 2,
+      "asin": "B005PXBZ1U",
+      "title": "Kids Boy's 505™ Regular Jeans (Big Kids)",
+      "link": "https://www.amazon.com/Levis-Boys-Regular-Jeans-Roadie/dp/B005PXBZ1U/ref=sr_1_2_sspa?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi's 501 jeans&qid=1793040492&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+      "brand": "Levi's",
+      "rating": 4.6,
+      "reviews": 5867,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$33.60",
+      "extracted_price": 33.6,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/916BqLCu6dL._AC_UL320_.jpg"
+    },
+    {
+      "position": 3,
+      "asin": "B001H0FX22",
+      "title": "Men's 501 Original Fit Jeans",
+      "link": "https://www.amazon.com/Levis-Mens-Original-Stonewash-32x32/dp/B001H0FX22/ref=sr_1_3?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-3",
+      "brand": "Levi's",
+      "rating": 4.5,
+      "reviews": 22585,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$64.99",
+      "extracted_price": 64.99,
+      "original_price": "$84.95",
+      "extracted_original_price": 84.95,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51TCxh3eoBL._AC_UL320_.jpg"
+    },
+    {
+      "position": 4,
+      "asin": "B0018OOZNU",
+      "title": "Men's 501 Original Fit Jeans",
+      "link": "https://www.amazon.com/Levis-Original-Light-Stonewash-32x32/dp/B0018OOZNU/ref=sr_1_4?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-4",
+      "brand": "Levi's",
+      "rating": 4.5,
+      "reviews": 5950,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$74.99",
+      "extracted_price": 74.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51eqXgQ9T9L._AC_UL320_.jpg"
+    },
+    {
+      "position": 5,
+      "asin": "B0018ON1FI",
+      "title": "Men's 501 Original Fit Jeans",
+      "link": "https://www.amazon.com/Levis-Mens-501-Jean-Rinse/dp/B0018ON1FI/ref=sr_1_5?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-5",
+      "brand": "Levi's",
+      "rating": 4.5,
+      "reviews": 6163,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$74.99",
+      "extracted_price": 74.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81K05CzSPML._AC_UL320_.jpg"
+    },
+    {
+      "position": 6,
+      "asin": "B0018OP1EM",
+      "title": "Men's 501 Original Fit Jeans",
+      "link": "https://www.amazon.com/Levis-Mens-Original-Black-34x30/dp/B0018OP1EM/ref=sr_1_6?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-6",
+      "brand": "Levi's",
+      "rating": 4.6,
+      "reviews": 2625,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$64.99",
+      "extracted_price": 64.99,
+      "original_price": "$84.95",
+      "extracted_original_price": 84.95,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/716D9M+NhUL._AC_UL320_.jpg"
+    },
+    {
+      "position": 7,
+      "asin": "B0GVVQFWSF",
+      "title": "Men's 501 Original Fit Jeans",
+      "link": "https://www.amazon.com/Levis-Original-Available-Gallery-Stretch/dp/B0GVVQFWSF/ref=sr_1_7?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-7",
+      "brand": "Levi's",
+      "rating": 5.0,
+      "reviews": 11,
+      "price": "$53.16",
+      "extracted_price": 53.16,
+      "original_price": "$84.95",
+      "extracted_original_price": 84.95,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51MQpye2+8L._AC_UL320_.jpg"
+    },
+    {
+      "position": 8,
+      "asin": "B001H0FV7O",
+      "title": "Men's 505 Regular Fit Jeans",
+      "link": "https://www.amazon.com/Levis-Regular-Fit-Jeans-Medium-Stonewash/dp/B001H0FV7O/ref=sr_1_8?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-8",
+      "brand": "Levi's",
+      "rating": 4.5,
+      "reviews": 33376,
+      "recent_sales": "800+ bought in past month",
+      "extracted_recent_sales": 800,
+      "price": "$52.46",
+      "extracted_price": 52.46,
+      "original_price": "$74.95",
+      "extracted_original_price": 74.95,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51XquqDhOgL._AC_UL320_.jpg"
+    },
+    {
+      "position": 9,
+      "asin": "B0F6SPFGY6",
+      "title": "Men's Straight Fit Jeans",
+      "link": "https://www.amazon.com/Levi-Strauss-Signature-Gold-Available/dp/B0F6SPFGY6/ref=sr_1_9?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-9",
+      "brand": "Levi Strauss Signature Gold",
+      "rating": 4.4,
+      "reviews": 395,
+      "recent_sales": "300+ bought in past month",
+      "extracted_recent_sales": 300,
+      "price": "$27.73",
+      "extracted_price": 27.73,
+      "original_price": "$29.99",
+      "extracted_original_price": 29.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/5155u8n+AaL._AC_UL320_.jpg"
+    },
+    {
+      "position": 10,
+      "asin": "B0BKR2B9F7",
+      "title": "Men's Regular Fit Flex Jeans",
+      "link": "https://www.amazon.com/SIGNATURE-Gold-Waistband-Available-Horizon-Stretch/dp/B0BKR2B9F7/ref=sr_1_10?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-10",
+      "brand": "Levi Strauss Signature Gold",
+      "rating": 4.6,
+      "reviews": 1592,
+      "recent_sales": "400+ bought in past month",
+      "extracted_recent_sales": 400,
+      "price": "$26.40",
+      "extracted_price": 26.4,
+      "original_price": "$29.99",
+      "extracted_original_price": 29.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51-i+MYV0xL._AC_UL320_.jpg"
+    },
+    {
+      "position": 11,
+      "asin": "B0F9ZXJQ7P",
+      "title": "Women's 501 Curve Jeans",
+      "link": "https://www.amazon.com/Levis-Womens-Memories-Stretch-Regular/dp/B0F9ZXJQ7P/ref=sr_1_11?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-11",
+      "brand": "Levi's",
+      "rating": 3.7,
+      "reviews": 769,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$59.46",
+      "extracted_price": 59.46,
+      "original_price": "$84.95",
+      "extracted_original_price": 84.95,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51mYeyuBgTL._AC_UL320_.jpg"
+    },
+    {
+      "position": 12,
+      "asin": "B0DJWNSK3V",
+      "title": "Womens 501® Jeans",
+      "link": "https://www.amazon.com/Levis-Womens-Original-Jeans-Available/dp/B0DJWNSK3V/ref=sr_1_12?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-12",
+      "brand": "Levi's",
+      "rating": 4.3,
+      "reviews": 66,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$50.24",
+      "extracted_price": 50.24,
+      "original_price": "$84.95",
+      "extracted_original_price": 84.95,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51icdya900L._AC_UL320_.jpg"
+    },
+    {
+      "position": 13,
+      "asin": "B0FB194NY4",
+      "title": "Women's 501 Curve Jeans",
+      "link": "https://www.amazon.com/Levis-Womens-Curve-Jeans-Stretch/dp/B0FB194NY4/ref=sr_1_13?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-13",
+      "brand": "Levi's",
+      "rating": 3.7,
+      "reviews": 769,
+      "price": "$63.71",
+      "extracted_price": 63.71,
+      "original_price": "$84.95",
+      "extracted_original_price": 84.95,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51MyXXDnqyL._AC_UL320_.jpg"
+    },
+    {
+      "position": 14,
+      "asin": "B0018OFKJS",
+      "title": "Men's 505 Regular Fit Jeans",
+      "link": "https://www.amazon.com/Levis-Mens-Regular-Fit-Jeans-Stonewash/dp/B0018OFKJS/ref=sr_1_14?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-14",
+      "brand": "Levi's",
+      "rating": 4.5,
+      "reviews": 29881,
+      "recent_sales": "300+ bought in past month",
+      "extracted_recent_sales": 300,
+      "price": "$54.99",
+      "extracted_price": 54.99,
+      "original_price": "$74.95",
+      "extracted_original_price": 74.95,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51vL9b0iG5L._AC_UL320_.jpg"
+    },
+    {
+      "position": 15,
+      "asin": "B0F9ZM6KNL",
+      "title": "Women's 501 Curve Jeans",
+      "link": "https://www.amazon.com/Levis-Womens-Weather-Stretch-Regular/dp/B0F9ZM6KNL/ref=sr_1_15?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-15",
+      "brand": "Levi's",
+      "rating": 3.7,
+      "reviews": 769,
+      "price": "$53.70",
+      "extracted_price": 53.7,
+      "original_price": "$84.95",
+      "extracted_original_price": 84.95,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/510QwJtdD2L._AC_UL320_.jpg"
+    },
+    {
+      "position": 16,
+      "asin": "B09JYGKTC4",
+      "title": "Men's Slim Straight Jeans",
+      "link": "https://www.amazon.com/Signature-Levi-Strauss-Gold-Label/dp/B09JYGKTC4/ref=sr_1_16?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-16",
+      "brand": "Levi Strauss Signature Gold",
+      "rating": 4.4,
+      "reviews": 6932,
+      "price": "$27.21",
+      "extracted_price": 27.21,
+      "original_price": "$29.99",
+      "extracted_original_price": 29.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51buqS6vIJL._AC_UL320_.jpg"
+    },
+    {
+      "position": 17,
+      "asin": "B0006U68LY",
+      "title": "Men's 13mwz Cowboy Cut Original Fit Jean",
+      "link": "https://www.amazon.com/Wrangler-Cowboy-Original-Rigid-Indigo/dp/B0006U68LY/ref=sr_1_17?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-17",
+      "brand": "Wrangler",
+      "rating": 4.5,
+      "reviews": 44479,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$29.99",
+      "extracted_price": 29.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71FZIR5acuL._AC_UL320_.jpg"
+    },
+    {
+      "position": 18,
+      "asin": "B0BSRZPJ4Z",
+      "title": "Boys' 501 Original Denim Jeans",
+      "link": "https://www.amazon.com/Levis%C2%AE-Original-Denim-Jeans-Stonewash/dp/B0BSRZPJ4Z/ref=sr_1_18?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-18",
+      "brand": "Levi's",
+      "rating": 4.3,
+      "reviews": 80,
+      "price": "$25.63",
+      "extracted_price": 25.63,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81aIs4Y+0ZL._AC_UL320_.jpg"
+    },
+    {
+      "position": 19,
+      "asin": "B09K1LSB61",
+      "title": "Men's Slim Fit Jeans (Available in Big & Tall)",
+      "link": "https://www.amazon.com/Signature-Levi-Strauss-Gold-Label/dp/B09K1LSB61/ref=sr_1_19?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-19",
+      "brand": "Levi Strauss Signature Gold",
+      "rating": 4.5,
+      "reviews": 2748,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$26.77",
+      "extracted_price": 26.77,
+      "original_price": "$29.99",
+      "extracted_original_price": 29.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51jsgA+Y1ML._AC_UL320_.jpg"
+    },
+    {
+      "position": 20,
+      "asin": "B0GVVYNNGW",
+      "title": "Womens 501® Jeans",
+      "link": "https://www.amazon.com/Levis-Womens-Original-Available-Shrink/dp/B0GVVYNNGW/ref=sr_1_20?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-20",
+      "brand": "Levi's",
+      "rating": 4.4,
+      "reviews": 5,
+      "price": "$50.24",
+      "extracted_price": 50.24,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51Y7ZqB-KXL._AC_UL320_.jpg"
+    },
+    {
+      "position": 21,
+      "asin": "B0BQHTPD7J",
+      "title": "Men's Slim Fit Stretch Jeans Ripped Skinny Jeans for Men, Distressed Straight Leg Fashion Comfort Flex Waist Pants",
+      "link": "https://www.amazon.com/HUNGSON-Pockets-Stretch-Skinny-Fashion/dp/B0BQHTPD7J/ref=sr_1_21_sspa?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi's 501 jeans&qid=1793040492&sr=8-21-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "HUNGSON",
+      "rating": 4.2,
+      "reviews": 2667,
+      "price": "$35.99",
+      "extracted_price": 35.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/51RIXnGqBaL._AC_UL320_.jpg"
+    },
+    {
+      "position": 22,
+      "asin": "B0FBKLWGBY",
+      "title": "Women's 501 90s Jeans",
+      "link": "https://www.amazon.com/Levis%C2%AE-Womens-501-90s-Love/dp/B0FBKLWGBY/ref=sr_1_22?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-22",
+      "brand": "Levi's",
+      "rating": 4.0,
+      "reviews": 456,
+      "recent_sales": "300+ bought in past month",
+      "extracted_recent_sales": 300,
+      "price": "$110.00",
+      "extracted_price": 110.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71BqsQ0UEUL._AC_UL320_.jpg"
+    },
+    {
+      "position": 23,
+      "asin": "B0FW7X14FV",
+      "title": "Womens 501® Jeans",
+      "link": "https://www.amazon.com/Levis-Original-Available-Believe-Shrink/dp/B0FW7X14FV/ref=sr_1_23?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-23",
+      "brand": "Levi's",
+      "rating": 4.4,
+      "reviews": 57,
+      "price": "$63.71",
+      "extracted_price": 63.71,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/819kiFCOntL._AC_UL320_.jpg"
+    },
+    {
+      "position": 24,
+      "asin": "B0GVW77LQY",
+      "title": "Men's 501 Original Fit Jeans (Also Available in Big & Tall)",
+      "link": "https://www.amazon.com/Levis-Original-Available-Nantucket-Afternoon/dp/B0GVW77LQY/ref=sr_1_24?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-24",
+      "brand": "Levi's",
+      "rating": 3.0,
+      "reviews": 2,
+      "price": "$51.00",
+      "extracted_price": 51.0,
+      "original_price": "$58.29",
+      "extracted_original_price": 58.29,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51mxqthwu4L._AC_UL320_.jpg"
+    },
+    {
+      "position": 25,
+      "asin": "B0CLQKR4BS",
+      "title": "Men's Regular Fit Flex Jeans",
+      "link": "https://www.amazon.com/Levi-Strauss-Signature-Gold-Available/dp/B0CLQKR4BS/ref=sr_1_25?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-25",
+      "brand": "Levi Strauss Signature Gold",
+      "rating": 4.6,
+      "reviews": 1168,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$29.99",
+      "extracted_price": 29.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51ZioQzQcnL._AC_UL320_.jpg"
+    },
+    {
+      "position": 26,
+      "asin": "B0008EOG3A",
+      "title": "Men's Regular Fit Straight Leg Jean",
+      "link": "https://www.amazon.com/Mens-Regular-Straight-Jean-Pepperstone/dp/B0008EOG3A/ref=sr_1_26?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-26",
+      "brand": "Lee",
+      "rating": 4.5,
+      "reviews": 37746,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$34.49",
+      "extracted_price": 34.49,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71KI2MZQLeS._AC_UL320_.jpg"
+    },
+    {
+      "position": 27,
+      "asin": "B09Z1T241D",
+      "title": "Womens 501® Jeans",
+      "link": "https://www.amazon.com/Levis-Womens-Original-Medium-Regular/dp/B09Z1T241D/ref=sr_1_27?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-27",
+      "brand": "Levi's",
+      "rating": 4.3,
+      "reviews": 780,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$69.99",
+      "extracted_price": 69.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51El6eJjHWL._AC_UL320_.jpg"
+    },
+    {
+      "position": 28,
+      "asin": "B08NV4CQ1L",
+      "title": "Women's 501 Crop Jeans",
+      "link": "https://www.amazon.com/Levis-Womens-Jeans-Salsa-Authentic/dp/B08NV4CQ1L/ref=sr_1_28?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-28",
+      "brand": "Levi's",
+      "rating": 4.1,
+      "reviews": 343,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$40.76",
+      "extracted_price": 40.76,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51Iz0XGSagL._AC_UL320_.jpg"
+    },
+    {
+      "position": 29,
+      "asin": "B0CNGPCCYD",
+      "title": "Men's Chinos Casual Dress Pants Slim Fit Skinny Stretch Lightweight Comfort Slacks",
+      "link": "https://www.amazon.com/ALLABREVE-Stretch-Flat-Front-Lightweight-Comfort/dp/B0CNGPCCYD/ref=sr_1_29_sspa?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi's 501 jeans&qid=1793040492&sr=8-29-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "rating": 4.4,
+      "reviews": 771,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$32.39",
+      "extracted_price": 32.39,
+      "original_price": "$35.99",
+      "extracted_original_price": 35.99,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/719oKVdygjL._AC_UL320_.jpg"
+    },
+    {
+      "position": 30,
+      "asin": "B0DTHYSZS3",
+      "title": "Mens Stretch Jeans Straight Leg Casual Denim Pants",
+      "link": "https://www.amazon.com/JMIERR-Classic-Comfort-Stretch-Straight/dp/B0DTHYSZS3/ref=sr_1_30_sspa?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi's 501 jeans&qid=1793040492&sr=8-30-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "JMIERR",
+      "rating": 4.3,
+      "reviews": 256,
+      "price": "$29.99",
+      "extracted_price": 29.99,
+      "original_price": "$32.99",
+      "extracted_original_price": 32.99,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71q1Mxp-JNL._AC_UL320_.jpg"
+    },
+    {
+      "position": 31,
+      "asin": "B0018OOHWO",
+      "title": "Men's 501 Original Fit Jeans",
+      "link": "https://www.amazon.com/Levis-Original-Shrink-Jeans-30WX32L/dp/B0018OOHWO/ref=sr_1_31?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-31",
+      "brand": "Levi's",
+      "rating": 4.1,
+      "reviews": 83,
+      "price": "$74.99",
+      "extracted_price": 74.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61OnHn3sagL._AC_UL320_.jpg"
+    },
+    {
+      "position": 32,
+      "asin": "B0018OKT8U",
+      "title": "Men's 550 Relaxed Fit Jeans",
+      "link": "https://www.amazon.com/Levis-Relaxed-fit-Medium-Stonewash-34X32/dp/B0018OKT8U/ref=sr_1_32?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-32",
+      "brand": "Levi's",
+      "rating": 4.4,
+      "reviews": 16348,
+      "recent_sales": "400+ bought in past month",
+      "extracted_recent_sales": 400,
+      "price": "$64.99",
+      "extracted_price": 64.99,
+      "original_price": "$74.95",
+      "extracted_original_price": 74.95,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/518qimrnECL._AC_UL320_.jpg"
+    },
+    {
+      "position": 33,
+      "asin": "B0GVTWRZJN",
+      "title": "Men's Loose Fit Jeans",
+      "link": "https://www.amazon.com/Levi-Strauss-Signature-Gold-Overtime/dp/B0GVTWRZJN/ref=sr_1_33?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-33",
+      "brand": "Levi Strauss Signature Gold",
+      "rating": 3.8,
+      "reviews": 22,
+      "price": "$29.99",
+      "extracted_price": 29.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51x5jJ-mtxL._AC_UL320_.jpg"
+    },
+    {
+      "position": 34,
+      "asin": "B0DJTX2YTH",
+      "title": "Men's 578® Baggy Fit Jean",
+      "link": "https://www.amazon.com/Levis-Mens-Baggy-Jean-Blue/dp/B0DJTX2YTH/ref=sr_1_34?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-34",
+      "brand": "Levi's",
+      "rating": 4.6,
+      "reviews": 868,
+      "price": "$52.46",
+      "extracted_price": 52.46,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/610zZmPILZL._AC_UL320_.jpg"
+    },
+    {
+      "position": 35,
+      "asin": "B0BQR29V7Q",
+      "title": "Mens Golf Pants Stretch Work Dress Pants 30\"/32\"/34\" Quick Dry Lightweight Casual Comfy Trousers with Pockets",
+      "link": "https://www.amazon.com/Libin-Stretch-Lightweight-Business-Resistant/dp/B0BQR29V7Q/ref=sr_1_35_sspa?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi's 501 jeans&qid=1793040492&sr=8-35-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Libin",
+      "rating": 4.3,
+      "reviews": 8127,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$33.98",
+      "extracted_price": 33.98,
+      "original_price": "$39.99",
+      "extracted_original_price": 39.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "is_limited_time_deal": true,
+      "bestseller": {
+        "category": "in Men's Golf Pants"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71Nu5p8f98L._AC_UL320_.jpg"
+    },
+    {
+      "position": 36,
+      "asin": "B0G49NCCQ2",
+      "title": "Women's 501 Original Fit Jeans",
+      "link": "https://www.amazon.com/Levis%C2%AE-Womens-Jeans-Fine-Marks/dp/B0G49NCCQ2/ref=sr_1_36?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-36",
+      "brand": "Levi's",
+      "rating": 3.0,
+      "reviews": 5,
+      "price": "$39.60",
+      "extracted_price": 39.6,
+      "original_price": "$110.00",
+      "extracted_original_price": 110.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71QlDCITstL._AC_UL320_.jpg"
+    },
+    {
+      "position": 37,
+      "asin": "B00UV3TGUG",
+      "title": "Men's 559 Relaxed Straight Jeans",
+      "link": "https://www.amazon.com/Levis-Mens-Relaxed-Straight-Jean/dp/B00UV3TGUG/ref=sr_1_37?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-37",
+      "brand": "Levi's",
+      "rating": 4.5,
+      "reviews": 6430,
+      "recent_sales": "400+ bought in past month",
+      "extracted_recent_sales": 400,
+      "price": "$64.97",
+      "extracted_price": 64.97,
+      "original_price": "$74.95",
+      "extracted_original_price": 74.95,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51Un6q2oiQL._AC_UL320_.jpg"
+    },
+    {
+      "position": 38,
+      "asin": "B08P555BY5",
+      "title": "Men's 514 Straight Fit Jeans",
+      "link": "https://www.amazon.com/Levis-Mens-Straight-Jean-Clean/dp/B08P555BY5/ref=sr_1_38?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-38",
+      "brand": "Levi's",
+      "rating": 4.6,
+      "reviews": 1371,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$47.22",
+      "extracted_price": 47.22,
+      "original_price": "$74.95",
+      "extracted_original_price": 74.95,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81Q0QHaMvYL._AC_UL320_.jpg"
+    },
+    {
+      "position": 39,
+      "asin": "B0G2L5W4T7",
+      "title": "Men's 501 Relaxed",
+      "link": "https://www.amazon.com/Levis%C2%AE-Mens-Relaxed-Free-Size/dp/B0G2L5W4T7/ref=sr_1_39?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-39",
+      "brand": "Levi's",
+      "rating": 5.0,
+      "reviews": 5,
+      "price": "$110.00",
+      "extracted_price": 110.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71URYoOnotL._AC_UL320_.jpg"
+    },
+    {
+      "position": 40,
+      "asin": "B0BPYYJDKG",
+      "title": "Jeans for Men - Premium Soft Slim Fit Mens Stretch Jeans",
+      "link": "https://www.amazon.com/DKNY-Jeans-Men-Premium-Stretch/dp/B0BPYYJDKG/ref=sr_1_40_sspa?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi's 501 jeans&qid=1793040492&sr=8-40-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "DKNY",
+      "rating": 4.2,
+      "reviews": 537,
+      "price": "$34.99",
+      "extracted_price": 34.99,
+      "original_price": "$37.99",
+      "extracted_original_price": 37.99,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61csbQIKZGL._AC_UL320_.jpg"
+    },
+    {
+      "position": 41,
+      "asin": "B01MZ6GLPE",
+      "title": "Men's Straight Knit Denim Jeans",
+      "link": "https://www.amazon.com/Agile-Super-Straight-Stretch-AKP44100SL/dp/B01MZ6GLPE/ref=sr_1_41_sspa?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi's 501 jeans&qid=1793040492&sr=8-41-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "ETHANOL",
+      "rating": 4.4,
+      "reviews": 589,
+      "price": "$26.99",
+      "extracted_price": 26.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61WDtx6pAyL._AC_UL320_.jpg"
+    },
+    {
+      "position": 42,
+      "asin": "B0FWTHB8CN",
+      "title": "Men's 557 Western Straight Jeans",
+      "link": "https://www.amazon.com/Levis-Western-Straight-Stretch-34Wx32L/dp/B0FWTHB8CN/ref=sr_1_42?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-42",
+      "brand": "Levi's",
+      "rating": 4.4,
+      "reviews": 217,
+      "price": "$54.99",
+      "extracted_price": 54.99,
+      "original_price": "$64.95",
+      "extracted_original_price": 64.95,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51l3zQCxilL._AC_UL320_.jpg"
+    },
+    {
+      "position": 43,
+      "asin": "B0BR6Z5NFQ",
+      "title": "Men's 506 Comfort Straight Jeans",
+      "link": "https://www.amazon.com/Levis-Comfort-Straight-Jeans-Medium/dp/B0BR6Z5NFQ/ref=sr_1_43?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-43",
+      "brand": "Levi's",
+      "rating": 4.6,
+      "reviews": 470,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$54.99",
+      "extracted_price": 54.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51hn8RiUo+L._AC_UL320_.jpg"
+    },
+    {
+      "position": 44,
+      "asin": "B0G49LGP5S",
+      "title": "Women's 501 90s Lightweight Jeans",
+      "link": "https://www.amazon.com/Levis%C2%AE-Womens-Lightweight-Fine-Forever/dp/B0G49LGP5S/ref=sr_1_44?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-44",
+      "brand": "Levi's",
+      "rating": 3.9,
+      "reviews": 56,
+      "price": "$53.90",
+      "extracted_price": 53.9,
+      "original_price": "$110.00",
+      "extracted_original_price": 110.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81B3VRRy74L._AC_UL320_.jpg"
+    },
+    {
+      "position": 45,
+      "asin": "B0G1ZFBQXT",
+      "title": "Men's 501® Original Beyond The Sky 36 x 30",
+      "link": "https://www.amazon.com/Levis%C2%AE-Mens-501%C2%AE-Original-Beyond/dp/B0G1ZFBQXT/ref=sr_1_45?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-45",
+      "brand": "Levi's",
+      "rating": 5.0,
+      "reviews": 1,
+      "price": "$74.99",
+      "extracted_price": 74.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81NoYZ7n+nL._AC_UL320_.jpg"
+    },
+    {
+      "position": 46,
+      "asin": "B0006U69NG",
+      "title": "Men's Cowboy Cut Slim Fit Jean",
+      "link": "https://www.amazon.com/Wrangler-Mens-Cowboy-Slim-36x32/dp/B0006U69NG/ref=sr_1_46?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-46",
+      "brand": "Wrangler",
+      "rating": 4.4,
+      "reviews": 24512,
+      "price": "$32.98",
+      "extracted_price": 32.98,
+      "original_price": "$37.00",
+      "extracted_original_price": 37.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71P79LYM+2L._AC_UL320_.jpg"
+    },
+    {
+      "position": 47,
+      "asin": "B0F9ZWSXW3",
+      "title": "Women's Superlow Loose Jeans",
+      "link": "https://www.amazon.com/Levis-Superlow-Twisted-Stretch-Regular/dp/B0F9ZWSXW3/ref=sr_1_47?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-47",
+      "brand": "Levi's",
+      "rating": 4.3,
+      "reviews": 2163,
+      "recent_sales": "600+ bought in past month",
+      "extracted_recent_sales": 600,
+      "price": "$71.00",
+      "extracted_price": 71.0,
+      "original_price": "$84.95",
+      "extracted_original_price": 84.95,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51hI2sZAlLL._AC_UL320_.jpg"
+    },
+    {
+      "position": 48,
+      "asin": "B07CZG5ZPQ",
+      "title": "Women's Premium 501 Skinny",
+      "link": "https://www.amazon.com/Levis-Womens-Skinny-Jeans-Touch/dp/B07CZG5ZPQ/ref=sr_1_48?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-48",
+      "brand": "Levi's",
+      "rating": 4.0,
+      "reviews": 631,
+      "price": "$107.06",
+      "extracted_price": 107.06,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51UDRMB49jL._AC_UL320_.jpg"
+    },
+    {
+      "position": 49,
+      "asin": "B0FWTXPVKH",
+      "title": "Men's 501Original Shorts",
+      "link": "https://www.amazon.com/Levis-501%C2%AEOriginal-Shorts-Indigo-Stretch/dp/B0FWTXPVKH/ref=sr_1_49?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-49",
+      "brand": "Levi's",
+      "rating": 4.2,
+      "reviews": 68,
+      "price": "$34.80",
+      "extracted_price": 34.8,
+      "original_price": "$54.95",
+      "extracted_original_price": 54.95,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51tpet+GJ5L._AC_UL320_.jpg"
+    },
+    {
+      "position": 50,
+      "asin": "B077R6QX22",
+      "title": "Men's Relaxed Fit Flex Jeans",
+      "link": "https://www.amazon.com/Signature-Levi-Strauss-Gold-Label/dp/B077R6QX22/ref=sr_1_50?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-50",
+      "brand": "Levi Strauss Signature Gold",
+      "rating": 4.5,
+      "reviews": 3509,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$27.23",
+      "extracted_price": 27.23,
+      "original_price": "$29.99",
+      "extracted_original_price": 29.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51E10OBxlPL._AC_UL320_.jpg"
+    },
+    {
+      "position": 51,
+      "asin": "B0FB11WGPX",
+      "title": "Men's 511 Slim Fit Jeans",
+      "link": "https://www.amazon.com/Levis-Jeans-Available-Reasons-Stretch/dp/B0FB11WGPX/ref=sr_1_51?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-51",
+      "brand": "Levi's",
+      "rating": 4.7,
+      "reviews": 27,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$52.46",
+      "extracted_price": 52.46,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51MPV42MBML._AC_UL320_.jpg"
+    },
+    {
+      "position": 52,
+      "asin": "B0C5YYR6PK",
+      "title": "Women's Wedgie Straight Jeans",
+      "link": "https://www.amazon.com/Levis-Womens-Wedgie-Straight-Jeans/dp/B0C5YYR6PK/ref=sr_1_52?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-52",
+      "brand": "Levi's",
+      "rating": 4.1,
+      "reviews": 6509,
+      "recent_sales": "900+ bought in past month",
+      "extracted_recent_sales": 900,
+      "price": "$44.99",
+      "extracted_price": 44.99,
+      "original_price": "$84.95",
+      "extracted_original_price": 84.95,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51oDaHx95uL._AC_UL320_.jpg"
+    },
+    {
+      "position": 53,
+      "asin": "B0DJWP9LV4",
+      "title": "Women's Cinch Baggy",
+      "link": "https://www.amazon.com/Levis-Womens-Cinch-Chasing-Dreams/dp/B0DJWP9LV4/ref=sr_1_53?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-53",
+      "brand": "Levi's",
+      "rating": 4.2,
+      "reviews": 1609,
+      "recent_sales": "1K+ bought in past month",
+      "extracted_recent_sales": 1000,
+      "price": "$67.12",
+      "extracted_price": 67.12,
+      "original_price": "$84.95",
+      "extracted_original_price": 84.95,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61il-YqaUxL._AC_UL320_.jpg"
+    },
+    {
+      "position": 54,
+      "asin": "B0D4QCQ9CQ",
+      "title": "Women's Wide Leg Jeans High Waisted Stretchy Denim Pants",
+      "link": "https://www.amazon.com/Sidefeel-Womens-Jeans-Waisted-Strechy/dp/B0D4QCQ9CQ/ref=sr_1_54?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-54",
+      "brand": "Sidefeel",
+      "rating": 4.2,
+      "reviews": 7099,
+      "price": "$28.99",
+      "extracted_price": 28.99,
+      "original_price": "$45.99",
+      "extracted_original_price": 45.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "bestseller": {
+        "category": "in Women's Jeans"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71COA9r5sYL._AC_UL320_.jpg"
+    },
+    {
+      "position": 55,
+      "asin": "B0CLQFQZ8M",
+      "title": "Men's Athletic Fit Jeans",
+      "link": "https://www.amazon.com/Signature-Levi-Strauss-Co-Gold/dp/B0CLQFQZ8M/ref=sr_1_55?dib=eyJ2IjoiMSJ9.-7h9D31W6K4WinxXw2tKu2ShWXsj3OhakUF0bbEF3nyW3CppNGtDVSfDPpYze2GUFjOXIZ4ewNsm6QODhph7I8BOSYCnbZpubemizycN82jUYYYD8BRkGNVc1Wcy1Q3WtLHgV8poLnlGF43BEfkO5XdpjoDZ-okfYCqpFzl9JEgR6UiuF6-u9179i84bTzSQ8-7RmC4rB1FQcHWHYxMeldjO6RQlQoCjzNtgt1as7xiiEI1ruKYuxg0mfVfh0lT42erk7kCPTpJLm3Ql6XMnz4XZBCltxGbluAz1Ofqp1pQ.ZXAAm61XOWU8PySYD1pPlsaw-hNpgxG2xZwnyCbNhaM&dib_tag=se&keywords=levi%27s+501+jeans&qid=1793040492&sr=8-55",
+      "brand": "Levi Strauss Signature Gold",
+      "rating": 4.5,
+      "reviews": 331,
+      "price": "$27.14",
+      "extracted_price": 27.14,
+      "original_price": "$29.99",
+      "extracted_original_price": 29.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51WJlGJVFPL._AC_UL320_.jpg"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.amazon.com/s?k=levi%27s+501+jeans&page=2&xpid=Bh3MMcspC-Djy&qid=1793040492&ref=sr_pg_1",
+    "other_pages": {
+      "2": "https://www.amazon.com/s?k=levi%27s+501+jeans&page=2&xpid=Bh3MMcspC-Djy&qid=1793040492&ref=sr_pg_2",
+      "3": "https://www.amazon.com/s?k=levi%27s+501+jeans&page=3&xpid=Bh3MMcspC-Djy&qid=1793040492&ref=sr_pg_3"
+    }
+  }
+}

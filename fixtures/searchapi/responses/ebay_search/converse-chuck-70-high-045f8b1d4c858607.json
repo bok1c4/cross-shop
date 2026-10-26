@@ -1,0 +1,1650 @@
+{
+  "search_metadata": {
+    "id": "search_MG6OPWeEVjFgna1lD4jR8w7N",
+    "status": "Success",
+    "created_at": "2026-10-26T18:47:52Z",
+    "request_time_taken": 2.45,
+    "parsing_time_taken": 0.19,
+    "total_time_taken": 2.64,
+    "request_url": "https://www.ebay.com/sch/i.html?_nkw=converse%20chuck%2070%20high&_fcid=1",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_MG6OPWeEVjFgna1lD4jR8w7N.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_MG6OPWeEVjFgna1lD4jR8w7N"
+  },
+  "search_parameters": {
+    "engine": "ebay_search",
+    "q": "converse chuck 70 high",
+    "ebay_domain": "ebay.com",
+    "country": "US",
+    "delivery_country": "US"
+  },
+  "search_information": {
+    "query_displayed": "converse chuck 70 high",
+    "total_results": 16000,
+    "sorted_by": "Sort: Best Match",
+    "buying_format": "All",
+    "language": "en"
+  },
+  "categories": [
+    {
+      "name": "Clothing, Shoes & Accessories",
+      "link": "https://www.ebay.com/sch/11450/i.html?_nkw=converse+chuck+70+high&_fcid=1",
+      "category_id": "11450"
+    },
+    {
+      "name": "Men",
+      "link": "https://www.ebay.com/sch/260012/i.html?_nkw=converse+chuck+70+high&_fcid=1",
+      "category_id": "260012"
+    },
+    {
+      "name": "Men's Shoes",
+      "link": "https://www.ebay.com/sch/93427/i.html?_nkw=converse+chuck+70+high&_fcid=1",
+      "category_id": "93427",
+      "subcategories": [
+        {
+          "name": "Athletic Shoes",
+          "is_selected": true
+        },
+        {
+          "name": "Casual Shoes",
+          "link": "https://www.ebay.com/sch/24087/i.html?_nkw=converse+chuck+70+high&_fcid=1",
+          "category_id": "24087"
+        },
+        {
+          "name": "Boots",
+          "link": "https://www.ebay.com/sch/11498/i.html?_nkw=converse+chuck+70+high&_fcid=1",
+          "category_id": "11498"
+        },
+        {
+          "name": "Slippers",
+          "link": "https://www.ebay.com/sch/11505/i.html?_nkw=converse+chuck+70+high&_fcid=1",
+          "category_id": "11505"
+        },
+        {
+          "name": "Dress Shoes",
+          "link": "https://www.ebay.com/sch/53120/i.html?_nkw=converse+chuck+70+high&_fcid=1",
+          "category_id": "53120"
+        }
+      ]
+    },
+    {
+      "name": "Sporting Goods",
+      "link": "https://www.ebay.com/sch/888/i.html?_nkw=converse+chuck+70+high&_fcid=1",
+      "category_id": "888"
+    },
+    {
+      "name": "Home & Garden",
+      "link": "https://www.ebay.com/sch/11700/i.html?_nkw=converse+chuck+70+high&_fcid=1",
+      "category_id": "11700"
+    },
+    {
+      "name": "Sports Mem, Cards & Fan Shop",
+      "link": "https://www.ebay.com/sch/64482/i.html?_nkw=converse+chuck+70+high&_fcid=1",
+      "category_id": "64482"
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_nkw=converse+chuck+70+high&_fcid=1",
+      "category_id": "1"
+    }
+  ],
+  "filters": [
+    {
+      "type": "Shipping and pickup",
+      "options": [
+        {
+          "text": "Arrives in 2-4 days",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc&LH_FAST=1"
+        },
+        {
+          "text": "Free Shipping",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc&LH_FS=1"
+        },
+        {
+          "text": "Local Pickup within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc&LH_PrefLoc=99&_stpos=21133&_fspt=1&_sadis=25&LH_LPickup=1"
+        }
+      ]
+    },
+    {
+      "type": "Season",
+      "options": [
+        {
+          "text": "Spring (22,402) Items",
+          "items": 22402,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Season=Spring&_dcat=15709"
+        },
+        {
+          "text": "Summer (21,087) Items",
+          "items": 21087,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Season=Summer&_dcat=15709"
+        },
+        {
+          "text": "Fall (20,875) Items",
+          "items": 20875,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Season=Fall&_dcat=15709"
+        },
+        {
+          "text": "Winter (18,512) Items",
+          "items": 18512,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Season=Winter&_dcat=15709"
+        },
+        {
+          "text": "Not Specified (26,865) Items",
+          "items": 26865,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Season=%21&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Department",
+      "options": [
+        {
+          "text": "Men (48,366) Items",
+          "items": 48366,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Department=Men&_dcat=15709"
+        },
+        {
+          "text": "Unisex Adults (7,625) Items",
+          "items": 7625,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Department=Unisex%2520Adults&_dcat=15709"
+        },
+        {
+          "text": "Teens (35) Items",
+          "items": 35,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Department=Teens&_dcat=15709"
+        },
+        {
+          "text": "Not Specified (173) Items",
+          "items": 173,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Department=%21&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Performance/Activity",
+      "options": [
+        {
+          "text": "Walking (22,661) Items",
+          "items": 22661,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Performance%252FActivity=Walking&_dcat=15709"
+        },
+        {
+          "text": "Skateboarding (2,911) Items",
+          "items": 2911,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Performance%252FActivity=Skateboarding&_dcat=15709"
+        },
+        {
+          "text": "Basketball (2,659) Items",
+          "items": 2659,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Performance%252FActivity=Basketball&_dcat=15709"
+        },
+        {
+          "text": "Cross Training (2,333) Items",
+          "items": 2333,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Performance%252FActivity=Cross%2520Training&_dcat=15709"
+        },
+        {
+          "text": "School (2,332) Items",
+          "items": 2332,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Performance%252FActivity=School&_dcat=15709"
+        },
+        {
+          "text": "Gym & Training (2,100) Items",
+          "items": 2100,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Performance%252FActivity=Gym%2520%2526%2520Training&_dcat=15709"
+        },
+        {
+          "text": "Running & Jogging (1,866) Items",
+          "items": 1866,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Performance%252FActivity=Running%2520%2526%2520Jogging&_dcat=15709"
+        },
+        {
+          "text": "CrossFit (1,610) Items",
+          "items": 1610,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Performance%252FActivity=CrossFit&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Release Year",
+      "options": [
+        {
+          "text": "2020-2029 (26,290) Items",
+          "items": 26290,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Release%2520Year=2020%252D2029&_dcat=15709"
+        },
+        {
+          "text": "2010-2019 (9,548) Items",
+          "items": 9548,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Release%2520Year=2010%252D2019&_dcat=15709"
+        },
+        {
+          "text": "2000-2009 (33) Items",
+          "items": 33,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Release%2520Year=2000%252D2009&_dcat=15709"
+        },
+        {
+          "text": "1990-1999 (3) Items",
+          "items": 3,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Release%2520Year=1990%252D1999&_dcat=15709"
+        },
+        {
+          "text": "1980-1989 (7) Items",
+          "items": 7,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Release%2520Year=1980%252D1989&_dcat=15709"
+        },
+        {
+          "text": "1970-1979 (693) Items",
+          "items": 693,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Release%2520Year=1970%252D1979&_dcat=15709"
+        },
+        {
+          "text": "1960-1969 (1) Items",
+          "items": 1,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Release%2520Year=1960%252D1969&_dcat=15709"
+        },
+        {
+          "text": "1900-1909 (70) Items",
+          "items": 70,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Release%2520Year=1900%252D1909&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Country of Origin",
+      "options": [
+        {
+          "text": "Vietnam (30,519) Items",
+          "items": 30519,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Country%2520of%2520Origin=Vietnam&_dcat=15709"
+        },
+        {
+          "text": "China (1,760) Items",
+          "items": 1760,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Country%2520of%2520Origin=China&_dcat=15709"
+        },
+        {
+          "text": "United States (136) Items",
+          "items": 136,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Country%2520of%2520Origin=United%2520States&_dcat=15709"
+        },
+        {
+          "text": "Indonesia (37) Items",
+          "items": 37,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Country%2520of%2520Origin=Indonesia&_dcat=15709"
+        },
+        {
+          "text": "India (29) Items",
+          "items": 29,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Country%2520of%2520Origin=India&_dcat=15709"
+        },
+        {
+          "text": "Japan (17) Items",
+          "items": 17,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Country%2520of%2520Origin=Japan&_dcat=15709"
+        },
+        {
+          "text": "Angola (3) Items",
+          "items": 3,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Country%2520of%2520Origin=Angola&_dcat=15709"
+        },
+        {
+          "text": "Australia (2) Items",
+          "items": 2,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Country%2520of%2520Origin=Australia&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Theme",
+      "options": [
+        {
+          "text": "Stars (5,094) Items",
+          "items": 5094,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Theme=Stars&_dcat=15709"
+        },
+        {
+          "text": "Colorful (3,349) Items",
+          "items": 3349,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Theme=Colorful&_dcat=15709"
+        },
+        {
+          "text": "Classic (2,835) Items",
+          "items": 2835,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Theme=Classic&_dcat=15709"
+        },
+        {
+          "text": "70s (2,534) Items",
+          "items": 2534,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Theme=70s&_dcat=15709"
+        },
+        {
+          "text": "Retro (1,130) Items",
+          "items": 1130,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Theme=Retro&_dcat=15709"
+        },
+        {
+          "text": "Nature (836) Items",
+          "items": 836,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Theme=Nature&_dcat=15709"
+        },
+        {
+          "text": "Sports (639) Items",
+          "items": 639,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Theme=Sports&_dcat=15709"
+        },
+        {
+          "text": "Love (618) Items",
+          "items": 618,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Theme=Love&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Shoe Width",
+      "options": [
+        {
+          "text": "A (3) Items",
+          "items": 3,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Shoe%2520Width=A&_dcat=15709"
+        },
+        {
+          "text": "B (13) Items",
+          "items": 13,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Shoe%2520Width=B&_dcat=15709"
+        },
+        {
+          "text": "C (20) Items",
+          "items": 20,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Shoe%2520Width=C&_dcat=15709"
+        },
+        {
+          "text": "D (691) Items",
+          "items": 691,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Shoe%2520Width=D&_dcat=15709"
+        },
+        {
+          "text": "M (2,794) Items",
+          "items": 2794,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Shoe%2520Width=M&_dcat=15709"
+        },
+        {
+          "text": "R (1) Items",
+          "items": 1,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Shoe%2520Width=R&_dcat=15709"
+        },
+        {
+          "text": "W (453) Items",
+          "items": 453,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Shoe%2520Width=W&_dcat=15709"
+        },
+        {
+          "text": "Standard (19,233) Items",
+          "items": 19233,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&Shoe%2520Width=Standard&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Condition",
+      "options": [
+        {
+          "text": "New with box (42,588) Items",
+          "items": 42588,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc&LH_ItemCondition=1000"
+        },
+        {
+          "text": "New without box (2,146) Items",
+          "items": 2146,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc&LH_ItemCondition=1500"
+        },
+        {
+          "text": "New with defects (295) Items",
+          "items": 295,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc&LH_ItemCondition=1750"
+        },
+        {
+          "text": "Pre-Owned (4,728) Items",
+          "items": 4728,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc&LH_ItemCondition=3000"
+        },
+        {
+          "text": "Not Specified (1) Items",
+          "items": 1,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc&LH_ItemCondition=10"
+        }
+      ]
+    },
+    {
+      "type": "Buying Format",
+      "options": [
+        {
+          "text": "All Listings (49,758) Items",
+          "items": 49758,
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc"
+        },
+        {
+          "text": "Auction (142) Items",
+          "items": 142,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc&LH_Auction=1"
+        },
+        {
+          "text": "Buy It Now (49,666) Items",
+          "items": 49666,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc&LH_BIN=1"
+        },
+        {
+          "text": "Accepts Offers (7,668) Items",
+          "items": 7668,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc&LH_BO=1"
+        }
+      ]
+    },
+    {
+      "type": "Item Location",
+      "options": [
+        {
+          "text": "Default",
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc&LH_PrefLoc=98"
+        },
+        {
+          "text": "Within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&_dcat=15709&_sadis=25&_stpos=21133&_fspt=1"
+        },
+        {
+          "text": "US Only",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc&LH_PrefLoc=1"
+        },
+        {
+          "text": "North America",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc&LH_PrefLoc=3"
+        },
+        {
+          "text": "Worldwide",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc&LH_PrefLoc=2"
+        }
+      ]
+    },
+    {
+      "type": "Show only",
+      "options": [
+        {
+          "text": "Free Returns",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc&LH_FR=1"
+        },
+        {
+          "text": "Returns Accepted",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc&LH_RPA=1"
+        },
+        {
+          "text": "Authorized Seller",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc&LH_AS=1"
+        },
+        {
+          "text": "Completed Items",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc&LH_Complete=1"
+        },
+        {
+          "text": "Sold Items",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc&LH_Sold=1"
+        },
+        {
+          "text": "Deals & Savings",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&rt=nc&LH_Savings=1"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "item_id": "366750354278",
+      "title": "Converse Chuck 70 High “Clubhouse - Golf Club” Utility Green Canvas Men’s 10",
+      "subtitle": "US M 10 · Converse",
+      "link": "https://www.ebay.com/itm/366750354278",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$65.00",
+      "extracted_price": 65.0,
+      "shipping": "+$6.38 delivery",
+      "extracted_shipping": 6.38,
+      "thumbnail": "https://i.ebayimg.com/images/g/jcEAAeSw-INq2O4i/s-l500.webp"
+    },
+    {
+      "position": 2,
+      "item_id": "920001268262",
+      "title": "CONVERSE Chuck 70 Black High Top Shoes",
+      "subtitle": "US M 9.5 + more",
+      "link": "https://www.ebay.com/itm/920001268262",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$75.99",
+      "extracted_price": 75.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/R10AAeSwXnZqv8Sn/s-l500.webp"
+    },
+    {
+      "position": 3,
+      "item_id": "137877247142",
+      "title": "Converse Chuck 70 High Top Canvas Lace-Up Sneakers Black/Off White Men's 9",
+      "subtitle": "US M 9 · Converse · Converse Chuck Taylor All Star",
+      "link": "https://www.ebay.com/itm/137877247142",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$50.00",
+      "extracted_price": 50.0,
+      "shipping": "+$7.08 delivery",
+      "extracted_shipping": 7.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/Nd8AAeSwOkpq35VD/s-l140.webp"
+    },
+    {
+      "position": 4,
+      "item_id": "820166999711",
+      "title": "Converse Chuck 70 High “Nomad Khaki” Size 8",
+      "subtitle": "US M 8 · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/820166999711",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$70.00",
+      "extracted_price": 70.0,
+      "shipping": "+$14.18 delivery",
+      "extracted_shipping": 14.18,
+      "thumbnail": "https://i.ebayimg.com/images/g/re8AAeSwGABqtUn4/s-l140.webp"
+    },
+    {
+      "position": 5,
+      "item_id": "227581091584",
+      "title": "NIB Converse Chuck 70 High Top Black Canvas US 9",
+      "subtitle": "US M 9 · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/227581091584",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$70.00",
+      "extracted_price": 70.0,
+      "shipping": "+$11.92 delivery",
+      "extracted_shipping": 11.92,
+      "thumbnail": "https://i.ebayimg.com/images/g/0rsAAeSwA2Zq3Br~/s-l140.webp"
+    },
+    {
+      "position": 6,
+      "item_id": "377585504329",
+      "title": "Converse Chuck 70 High Top Midnight Clover Green Men's Sneakers Size 9.5 168508C",
+      "subtitle": "US M 9.5 · Converse",
+      "link": "https://www.ebay.com/itm/377585504329",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left1d",
+      "extensions": [
+        "Free delivery",
+        "Located in United States"
+      ],
+      "price": "$45.00",
+      "extracted_price": 45.0,
+      "shipping": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/N9wAAeSw8Ipq18NR/s-l140.webp"
+    },
+    {
+      "position": 7,
+      "item_id": "147651816283",
+      "title": "Converse Chuck 70 Hi High Top Canvas Sneakers Black/White Men’s US 8 162050C",
+      "subtitle": "US M 8 · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/147651816283",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 3,
+      "reviews_link": "https://www.ebay.com/p/11043971092?iid=147651816283#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "+$6.78 delivery",
+      "extracted_shipping": 6.78,
+      "thumbnail": "https://i.ebayimg.com/images/g/1EAAAeSwFiVq3o7H/s-l140.webp"
+    },
+    {
+      "position": 8,
+      "item_id": "227583438521",
+      "title": "Converse Chuck 70 Hi-top",
+      "subtitle": "US M 9 · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/227583438521",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$35.00",
+      "extracted_price": 35.0,
+      "shipping": "+$8.33 delivery",
+      "extracted_shipping": 8.33,
+      "thumbnail": "https://i.ebayimg.com/images/g/Ru4AAeSw5J9q3oPK/s-l140.webp"
+    },
+    {
+      "position": 9,
+      "item_id": "307241609138",
+      "title": "Converse Turnstile x Chuck 70 High “Blackout” Black/Grey/White Men’s 12",
+      "subtitle": "US M 12 · Converse",
+      "link": "https://www.ebay.com/itm/307241609138",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$60.00",
+      "extracted_price": 60.0,
+      "shipping": "+$8.17 delivery",
+      "extracted_shipping": 8.17,
+      "thumbnail": "https://i.ebayimg.com/images/g/TCMAAeSw5Jxq2COt/s-l140.webp"
+    },
+    {
+      "position": 10,
+      "item_id": "407313985415",
+      "title": "Converse Chuck 70 Hi Apex Green/Egret/Black High Top Canvas Women’s 7.5 A08613F",
+      "subtitle": "US M 7.5 · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/407313985415",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$54.99",
+      "extracted_price": 54.99,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/7lYAAeSw~0pq3RBc/s-l140.webp"
+    },
+    {
+      "position": 11,
+      "item_id": "407316295049",
+      "title": "Size 9 - Converse Chuck 70 High x Tyler The Creator Polka Dots 2020",
+      "subtitle": "US M 9 · Converse",
+      "link": "https://www.ebay.com/itm/407316295049",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$30.00",
+      "extracted_price": 30.0,
+      "shipping": "+$10.43 delivery",
+      "extracted_shipping": 10.43,
+      "thumbnail": "https://i.ebayimg.com/images/g/WR8AAeSwIr1q3rrR/s-l140.webp"
+    },
+    {
+      "position": 12,
+      "item_id": "168808534566",
+      "title": "Converse Chuck 70 Hi Parchment Ivory Canvas US 8 162053C",
+      "subtitle": "US M 8 · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/168808534566",
+      "condition": "Pre-Owned",
+      "tag": "NEW LOW PRICE",
+      "rating": 5.0,
+      "reviews": 1,
+      "reviews_link": "https://www.ebay.com/p/19043984083?iid=168808534566#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$29.00",
+      "extracted_price": 29.0,
+      "shipping": "+$8.33 delivery",
+      "extracted_shipping": 8.33,
+      "thumbnail": "https://i.ebayimg.com/images/g/QV8AAeSw4sRq2VsT/s-l140.webp"
+    },
+    {
+      "position": 13,
+      "item_id": "298488837426",
+      "title": "Men's Size 7.5 - Converse Chuck 70 High - Lakeside Blue/Midnight Pass (retired)",
+      "subtitle": "US M 7.5 · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/298488837426",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$48.00",
+      "extracted_price": 48.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/xnUAAeSwvCNqTac7/s-l140.webp"
+    },
+    {
+      "position": 14,
+      "item_id": "800818022061",
+      "title": "Converse Chuck 70 High Blue Canvas Mens 7.5 Womens 9.5 162055C New No Box",
+      "subtitle": "US M 7.5 · Converse",
+      "link": "https://www.ebay.com/itm/800818022061",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$79.00",
+      "extracted_price": 79.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/zZIAAeSwTslq16j~/s-l140.webp"
+    },
+    {
+      "position": 15,
+      "item_id": "287600454273",
+      "title": "Converse Chuck 70 High 'Slate Lilac'",
+      "subtitle": "US M 10 + more · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/287600454273",
+      "condition": "New (Other)",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "1+ watchers"
+      ],
+      "price": "$69.99",
+      "extracted_price": 69.99,
+      "shipping": "Free delivery",
+      "deal": "$48.99 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/J~8AAeSwfohqsYcw/s-l140.webp"
+    },
+    {
+      "position": 16,
+      "item_id": "336003529083",
+      "title": "Converse Chuck 70 Vintage Canvas High Black Chinatown Market custom",
+      "subtitle": "US M 11 + more · Converse · Converse Custom Chuck 70",
+      "link": "https://www.ebay.com/itm/336003529083",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 1,
+      "reviews_link": "https://www.ebay.com/p/11043970647?iid=336003529083&var=545546622322#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "26+ watchers"
+      ],
+      "price": "$220.00",
+      "extracted_price": 220.0,
+      "shipping": "+$10.00 delivery",
+      "extracted_shipping": 10.0,
+      "deal": "$205.00 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/oEUAAOSwOLNoRE0g/s-l140.webp"
+    },
+    {
+      "position": 17,
+      "item_id": "366760617485",
+      "title": "Converse Tyler the Creator x Chuck 70 High Top Polka Dot Blue Men’s 10 170011C",
+      "subtitle": "US M 10 · Converse",
+      "link": "https://www.ebay.com/itm/366760617485",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$85.00",
+      "extracted_price": 85.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/qXQAAeSwZU1q3i9B/s-l140.webp"
+    },
+    {
+      "position": 18,
+      "item_id": "137875379853",
+      "title": "NEW Converse Chuck 70 Neighborhood triple black high Strap ctas 165603C taylor",
+      "subtitle": "US M 6 + more · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/137875379853",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$115.00",
+      "extracted_price": 115.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/65oAAOSwRJ1gIFnu/s-l140.webp"
+    },
+    {
+      "position": 19,
+      "item_id": "227583078461",
+      "title": "Converse Martine Ali Chuck 70 XX-Hi High Top Black/Egret/White US 8 A08651C",
+      "subtitle": "US M 8 · Converse",
+      "link": "https://www.ebay.com/itm/227583078461",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/w68AAeSwVnJq3jRL/s-l140.webp"
+    },
+    {
+      "position": 20,
+      "item_id": "178564671220",
+      "title": "Mens Converse Chuck 70 Hi High Top Shoes Washed Black Egret New A20047C",
+      "subtitle": "US M 10 + more · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/178564671220",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$107.32",
+      "extracted_price": 107.32,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/GmQAAeSwgyBqxlte/s-l140.webp"
+    },
+    {
+      "position": 21,
+      "item_id": "226267087892",
+      "title": "*NEW* Men CONVERSE CHUCK 70 CANVAS HIGH TOP Black (162050C) 👍",
+      "subtitle": "US M 10 + more · Converse",
+      "link": "https://www.ebay.com/itm/226267087892",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 1,
+      "reviews_link": "https://www.ebay.com/p/12043971402?iid=226267087892&var=526725785392#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$87.21",
+      "extracted_price": 87.21,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/o10AAOSwqvtmp9ya/s-l140.webp"
+    },
+    {
+      "position": 22,
+      "item_id": "880017192972",
+      "title": "Mens Converse Chuck 70 Hi Shoes Black Canvas 1970s Vintage Retro New 162050C",
+      "subtitle": "US M 10 + more · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/880017192972",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 1,
+      "reviews_link": "https://www.ebay.com/p/12043971402?iid=880017192972&var=477905343193#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$87.00",
+      "extracted_price": 87.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/xmAAAeSwO9Zqz6F1/s-l140.webp"
+    },
+    {
+      "position": 23,
+      "item_id": "327418418387",
+      "title": "Converse Chuck 70 De Luxe Squared High 'Black Egret' - A06435C Men Man Size 10.5",
+      "subtitle": "US M 10.5 · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/327418418387",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$109.00",
+      "extracted_price": 109.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/L0oAAeSwFmNq2lR6/s-l140.webp"
+    },
+    {
+      "position": 24,
+      "item_id": "227584245180",
+      "title": "NEW MEN CONVERSE CHUCK 70 HI TOTAL ORANGE/EGRET SNEAKER UNISEX Size 10",
+      "subtitle": "US M 10 · Converse",
+      "link": "https://www.ebay.com/itm/227584245180",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$49.00",
+      "extracted_price": 49.0,
+      "shipping": "+$11.92 delivery",
+      "extracted_shipping": 11.92,
+      "thumbnail": "https://i.ebayimg.com/images/g/XBsAAeSwqaZq30iW/s-l140.webp"
+    },
+    {
+      "position": 25,
+      "item_id": "137802123785",
+      "title": "Converse Chuck 70 High Night Indigo A09466F Men 9 Women 11 NEW No Box",
+      "subtitle": "US M 9 · Converse",
+      "link": "https://www.ebay.com/itm/137802123785",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$79.99",
+      "extracted_price": 79.99,
+      "shipping": "+$11.92 delivery",
+      "extracted_shipping": 11.92,
+      "thumbnail": "https://i.ebayimg.com/images/g/~vUAAeSwdNVqvuFI/s-l140.webp"
+    },
+    {
+      "position": 26,
+      "item_id": "920076879668",
+      "title": "Converse Chuck Taylor All Star 70 White High Top Sneakers - Men's Size 9.5",
+      "subtitle": "US M 9.5 · Converse · Converse Chucks All Star Chuck Taylor",
+      "link": "https://www.ebay.com/itm/920076879668",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$12.00",
+      "extracted_price": 12.0,
+      "shipping": "+$7.08 delivery",
+      "extracted_shipping": 7.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/CecAAeSwUNhq35Xk/s-l140.webp"
+    },
+    {
+      "position": 27,
+      "item_id": "227583068607",
+      "title": "Converse Martine Ali Chuck 70 XX High Top Black Buckles/Zipper Men’s 8 A08651C",
+      "subtitle": "US M 8 · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/227583068607",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/1L8AAeSwGV1q3jLn/s-l140.webp"
+    },
+    {
+      "position": 28,
+      "item_id": "366750337900",
+      "title": "Converse Comme des Garçons PLAY x Chuck 70 High Top Bright Green Men’s 7",
+      "subtitle": "US M 7 · Converse",
+      "link": "https://www.ebay.com/itm/366750337900",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$60.00",
+      "extracted_price": 60.0,
+      "shipping": "+$6.38 delivery",
+      "extracted_shipping": 6.38,
+      "thumbnail": "https://i.ebayimg.com/images/g/Y0oAAeSw2uFq2OoT/s-l140.webp"
+    },
+    {
+      "position": 29,
+      "item_id": "287594616482",
+      "title": "Converse Chuck 70 Hi 'Washed Indigo Hickory Stripes'",
+      "subtitle": "US M 9.5 + more · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/287594616482",
+      "condition": "New (Other)",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "3+ watchers"
+      ],
+      "price": "$69.99",
+      "extracted_price": 69.99,
+      "shipping": "Free delivery",
+      "deal": "$48.99 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/LO0AAeSwTbZqrYmq/s-l140.webp"
+    },
+    {
+      "position": 30,
+      "item_id": "137439677435",
+      "title": "Size 7 - Converse Chuck 70 Ox Obsidian",
+      "subtitle": "US M 7 · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/137439677435",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Last one"
+      ],
+      "price": "$69.98",
+      "extracted_price": 69.98,
+      "shipping": "+$15.70 delivery",
+      "extracted_shipping": 15.7,
+      "thumbnail": "https://i.ebayimg.com/images/g/l~AAAeSwQJtqODTo/s-l140.webp"
+    },
+    {
+      "position": 31,
+      "item_id": "287600087965",
+      "title": "Converse Chuck 70 Hi 'Dark Moss'",
+      "subtitle": "US M 13 + more · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/287600087965",
+      "condition": "New (Other)",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "9+ watchers"
+      ],
+      "price": "$69.99",
+      "extracted_price": 69.99,
+      "shipping": "Free delivery",
+      "deal": "$48.99 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/anUAAeSw3c5qsUXT/s-l140.webp"
+    },
+    {
+      "position": 32,
+      "item_id": "800833830731",
+      "title": "Size 10.5 - Converse Chuck 70 Vintage Canvas High Vitality Green New Without Tag",
+      "subtitle": "US M 10.5 · Converse",
+      "link": "https://www.ebay.com/itm/800833830731",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "price": "$50.00",
+      "extracted_price": 50.0,
+      "shipping": "Located in United States",
+      "deal": "+$6.78 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/yEIAAeSwSiVq3O7L/s-l140.webp"
+    },
+    {
+      "position": 33,
+      "item_id": "820263182844",
+      "title": "Converse - Chuck 70 Hi Craft Mix 'Natural Summit Sage",
+      "subtitle": "US M 9.5 · Converse",
+      "link": "https://www.ebay.com/itm/820263182844",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/Ly4AAeSwsWxq2PIn/s-l140.webp"
+    },
+    {
+      "position": 34,
+      "item_id": "178403597134",
+      "title": "Converse Chuck 70 High Top Parchment Size 9.5",
+      "subtitle": "US M 9.5 · Converse · Converse Chucks All Star Chuck Taylor",
+      "link": "https://www.ebay.com/itm/178403597134",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$75.00",
+      "extracted_price": 75.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/gbwAAeSwJHdqffdg/s-l140.webp"
+    },
+    {
+      "position": 35,
+      "item_id": "840038142946",
+      "title": "Converse Chuck 70 Taylor All Star Blood Stone Mens 10.5 Sneaker High Top Shoes",
+      "subtitle": "US M 10.5 · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/840038142946",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$99.99",
+      "extracted_price": 99.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/3lwAAeSwS2xqr0a7/s-l140.webp"
+    },
+    {
+      "position": 36,
+      "item_id": "940014601549",
+      "title": "Chuck 70 Vintage High Iron Grey/Egret/Black - 11 New",
+      "subtitle": "US M 11 · Converse",
+      "link": "https://www.ebay.com/itm/940014601549",
+      "condition": "New (Other)",
+      "tag": "NEW LOW PRICE",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/OV0AAeSwsUFq0B3J/s-l140.webp"
+    },
+    {
+      "position": 37,
+      "item_id": "920033101329",
+      "title": "Converse Chuck 70 Vintage Canvas High Top Sneakers Black/White US 9.5 162050C",
+      "subtitle": "US M 9.5 · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/920033101329",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 3,
+      "reviews_link": "https://www.ebay.com/p/26043989609?iid=920033101329#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$78.00",
+      "extracted_price": 78.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/0TwAAeSwPoJqzQ68/s-l140.webp"
+    },
+    {
+      "position": 38,
+      "item_id": "840056492514",
+      "title": "(Rarely worn) Size 11 - Converse Chuck 70 Tech Hiker High Rapid Teal",
+      "subtitle": "US M 11 · Converse",
+      "link": "https://www.ebay.com/itm/840056492514",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$65.00",
+      "extracted_price": 65.0,
+      "shipping": "+$6.19 delivery",
+      "extracted_shipping": 6.19,
+      "thumbnail": "https://i.ebayimg.com/images/g/uBIAAeSwFBtq3TSH/s-l140.webp"
+    },
+    {
+      "position": 39,
+      "item_id": "307183127279",
+      "title": "Converse Chuck Taylor 70 High Washed Indigo Hickory Stripes Men or Women A00472C",
+      "subtitle": "US M 6 · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/307183127279",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$69.99",
+      "extracted_price": 69.99,
+      "shipping": "+$7.08 delivery",
+      "extracted_shipping": 7.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/RSgAAeSwuxVqhlnG/s-l140.webp"
+    },
+    {
+      "position": 40,
+      "item_id": "188803321110",
+      "title": "Converrssse-Chuck 70 Hi 'Terracotta Pink' Men's Shoes 170790C",
+      "subtitle": "US M 10 + more · Converse",
+      "link": "https://www.ebay.com/itm/188803321110",
+      "condition": "New (Other)",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "10+ watchers"
+      ],
+      "price": "$55.00",
+      "extracted_price": 55.0,
+      "shipping": "Free delivery",
+      "deal": "$52.25 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/3rQAAeSwhyNqgifz/s-l140.webp"
+    },
+    {
+      "position": 41,
+      "item_id": "267819915852",
+      "title": "Converse Chuck 70 DuPont Tyvek High Top Lace Up Sneakers White/Blue/Red 13",
+      "subtitle": "US M 13 · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/267819915852",
+      "condition": "Brand New",
+      "buying_format": "0 bids · Time left1d 22h",
+      "extensions": [
+        "+$7.22 delivery",
+        "Located in United States"
+      ],
+      "price": "$30.00",
+      "extracted_price": 30.0,
+      "shipping": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/-AgAAeSwPA1q2Ozg/s-l140.webp"
+    },
+    {
+      "position": 42,
+      "item_id": "198740259549",
+      "title": "Converse Chuck 70 2024 High Pink Men 9.5",
+      "subtitle": "US M 9.5 · Converse",
+      "link": "https://www.ebay.com/itm/198740259549",
+      "condition": "Pre-Owned",
+      "tag": "NEW LOW PRICE",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "+$11.92 delivery",
+      "extracted_shipping": 11.92,
+      "thumbnail": "https://i.ebayimg.com/images/g/IToAAeSwRONq2~2U/s-l140.webp"
+    },
+    {
+      "position": 43,
+      "item_id": "198744676544",
+      "title": "SIZE 8.5 WOMEN - CONVERSE CHUCK 70 HI EGRET / FIELD ORANGE RARE DUCK A16575C",
+      "subtitle": "US M 8.5 · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/198744676544",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$173.00",
+      "extracted_price": 173.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/jyUAAeSwIr1q3iCz/s-l140.webp"
+    },
+    {
+      "position": 44,
+      "item_id": "287547510583",
+      "title": "Converse Chuck 70 Plus High Top Mixed Materials Black Mens Size 9 A05260c New",
+      "subtitle": "US M 9 · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/287547510583",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$98.99",
+      "extracted_price": 98.99,
+      "original_price": "$109.99",
+      "extracted_original_price": 109.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/OE0AAOSwP8Rlvh19/s-l140.webp"
+    },
+    {
+      "position": 45,
+      "item_id": "377594698005",
+      "title": "Converse Comme des Garçons Play Chuck 70 High Top Canvas White/Red Heart 5.5",
+      "subtitle": "US M 5.5 · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/377594698005",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left4d 21h",
+      "extensions": [
+        "+$6.78 delivery",
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/wjsAAeSwZLVq3Nst/s-l140.webp"
+    },
+    {
+      "position": 46,
+      "item_id": "237134565199",
+      "title": "Converse Comme des Garçons Play x Chuck 70 High Top White Multi Heart",
+      "subtitle": "US M 5.5 · Converse",
+      "link": "https://www.ebay.com/itm/237134565199",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "+$9.66 delivery",
+      "extracted_shipping": 9.66,
+      "thumbnail": "https://i.ebayimg.com/images/g/gbQAAeSwdrhq18r8/s-l140.webp"
+    },
+    {
+      "position": 47,
+      "item_id": "840042212915",
+      "title": "Comme des Garçons Play x Converse Chuck 70 High Milk",
+      "subtitle": "US M 9 · Converse",
+      "link": "https://www.ebay.com/itm/840042212915",
+      "condition": "Pre-Owned",
+      "rating": 4.0,
+      "reviews": 1,
+      "reviews_link": "https://www.ebay.com/p/7043982353?iid=840042212915#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$39.89",
+      "extracted_price": 39.89,
+      "shipping": "+$8.16 delivery",
+      "extracted_shipping": 8.16,
+      "thumbnail": "https://i.ebayimg.com/images/g/UQMAAeSwGj5q18t-/s-l140.webp"
+    },
+    {
+      "position": 48,
+      "item_id": "800623728177",
+      "title": "[A00916C] -Men- Converse Chuck 70 Plus Chuck Taylor High top Canvas Shoes Unisex",
+      "subtitle": "US M 7.5 · Converse",
+      "link": "https://www.ebay.com/itm/800623728177",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$90.00",
+      "extracted_price": 90.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/YcYAAeSwzMRqnhQP/s-l140.webp"
+    },
+    {
+      "position": 49,
+      "item_id": "206411824939",
+      "title": "Converse Chuck 70 High Midnight Clover 168508C Men Size",
+      "subtitle": "US M 7.5 + more · Converse",
+      "link": "https://www.ebay.com/itm/206411824939",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$113.00",
+      "extracted_price": 113.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/TCkAAeSwL-pq0RfX/s-l140.webp"
+    },
+    {
+      "position": 50,
+      "item_id": "800602509051",
+      "title": "Converse Stranger Things Chuck 70 High Magnet Athletic Sneakers",
+      "subtitle": "US M 10 · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/800602509051",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$165.00",
+      "extracted_price": 165.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/8xoAAeSwoAJqmFkS/s-l140.webp"
+    },
+    {
+      "position": 51,
+      "item_id": "198736789542",
+      "title": "Converse Stussy x Chuck 70 High Fossil/Natural Ivory/Black Men's 9 A02051C",
+      "subtitle": "US M 9 · Converse",
+      "link": "https://www.ebay.com/itm/198736789542",
+      "condition": "New (Other)",
+      "buying_format": "13 bids · Time left2d 21h",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$65.00",
+      "extracted_price": 65.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/DhAAAeSwT9FqyCIE/s-l140.webp"
+    },
+    {
+      "position": 52,
+      "item_id": "267820116627",
+      "title": "CONVERSE Chuck 70 High Leather Bloodstone Fur Lined Men 10 Women 12 NWOB",
+      "subtitle": "US M 10 · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/267820116627",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$79.00",
+      "extracted_price": 79.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/0DUAAeSwgC9q2Sui/s-l140.webp"
+    },
+    {
+      "position": 53,
+      "item_id": "840059971819",
+      "title": "Converse Chuck 70 Ox 'Speed Yellow' (168609C) Men's Size 11 - New in Box",
+      "subtitle": "US M 11 · Converse",
+      "link": "https://www.ebay.com/itm/840059971819",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$95.00",
+      "extracted_price": 95.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/p0kAAeSw0VRq3ons/s-l140.webp"
+    },
+    {
+      "position": 54,
+      "item_id": "407266355787",
+      "title": "Converse Comme des Garçons PLAY Chuck 70 High Top Black/White Red 150204C 8",
+      "subtitle": "US M 8 · Converse · Converse Chuck Taylor All Star",
+      "link": "https://www.ebay.com/itm/407266355787",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 3,
+      "reviews_link": "https://www.ebay.com/p/12043970145?iid=407266355787#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/nokAAeSwfndqwsx0/s-l140.webp"
+    },
+    {
+      "position": 55,
+      "item_id": "187368462521",
+      "title": "Converse Chuck 70 High A02757C Sunny Oasis Chuck Taylor All Star NEW",
+      "subtitle": "US M 9.5 + more · Converse",
+      "link": "https://www.ebay.com/itm/187368462521",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$80.99",
+      "extracted_price": 80.99,
+      "original_price": "$89.99",
+      "extracted_original_price": 89.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "deal": "$76.94 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/fsIAAOSwYG1oXd--/s-l140.webp"
+    },
+    {
+      "position": 56,
+      "item_id": "237136120014",
+      "title": "Converse Devin Booker × Chuck 70 High 'The Next Icon' A05290C Men's Shoes",
+      "subtitle": "US M 9 · Converse · Converse Chuck Taylor All Star",
+      "link": "https://www.ebay.com/itm/237136120014",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$175.00",
+      "extracted_price": 175.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/V98AAeSwek5q2OMW/s-l140.webp"
+    },
+    {
+      "position": 57,
+      "item_id": "307231553457",
+      "title": "Converse Chuck 70 Hi High Top Suede Sneaker Shadow Purple/Dark Whiskey Size 11",
+      "subtitle": "US M 11 · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/307231553457",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/HO0AAeSwqqlqz-n9/s-l140.webp"
+    },
+    {
+      "position": 58,
+      "item_id": "257523921046",
+      "title": "NIB CONVERSE CHUCK 70 HI HIGH RENEW DARK DENIM 10 BLUE WASHED 165647C TAYLOR",
+      "subtitle": "US M 10 + more · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/257523921046",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$79.99",
+      "extracted_price": 79.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/1WgAAeSwn75o5okH/s-l140.webp"
+    },
+    {
+      "position": 59,
+      "item_id": "168245127189",
+      "title": "Converse Chuck 70 AT-CX High Black White Men Size 8 A03277C New",
+      "subtitle": "US M 8 · Converse",
+      "link": "https://www.ebay.com/itm/168245127189",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "13 watchers"
+      ],
+      "price": "$39.99",
+      "extracted_price": 39.99,
+      "original_price": "$79.98",
+      "extracted_original_price": 79.98,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "deal": "$31.99 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/XxMAAeSwhMppuyjU/s-l140.webp"
+    },
+    {
+      "position": 60,
+      "item_id": "407091811544",
+      "title": "Converse Chuck 70 Hi Vintage Canvas High Top Sneakers Black/White 162050C",
+      "subtitle": "US M 9 · Converse · Converse Chuck 70",
+      "link": "https://www.ebay.com/itm/407091811544",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$75.00",
+      "extracted_price": 75.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/rb4AAeSwAbdqYTE4/s-l140.webp"
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "converse chuck 70 high black",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high+black&_sop=12"
+    },
+    {
+      "query": "converse chuck 70 hi",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+hi&_sop=12"
+    },
+    {
+      "query": "converse chuck 70 high size 12",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high+size+12&_sop=12"
+    },
+    {
+      "query": "chuck 70 converse plus high",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=chuck+70+converse+plus+high&_sop=12"
+    },
+    {
+      "query": "converse chuck 70 vintage canvas high black",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+vintage+canvas+high+black&_sop=12"
+    },
+    {
+      "query": "converse chuck 70 low",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+low&_sop=12"
+    },
+    {
+      "query": "converse chuck 70 high obsidian",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high+obsidian&_sop=12"
+    },
+    {
+      "query": "converse chuck 70 high white",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high+white&_sop=12"
+    },
+    {
+      "query": "converse chuck 70 high size 5",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high+size+5&_sop=12"
+    },
+    {
+      "query": "converse chuck 70 high vintage",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high+vintage&_sop=12"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&_dcat=15709&_pgn=2",
+    "other_pages": {
+      "2": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&_dcat=15709&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&_dcat=15709&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&_dcat=15709&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&_dcat=15709&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&_dcat=15709&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&_dcat=15709&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&_dcat=15709&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&_dcat=15709&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+70+high&_fcid=1&_dcat=15709&_pgn=10&rt=nc"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+#!/usr/bin/env ruby
+# Fetch the query set in config/queries.yml, skipping pairs already cached.
+#
+#   bin/fetch-queries                                  # list cached and missing; spends nothing
+#   SEARCHAPI_LIVE=1 bin/fetch-queries                 # fetch up to 15 missing pairs
+#   SEARCHAPI_LIVE=1 bin/fetch-queries ebay_search     # only these engines
+#
+# Optional: MAX_LIVE_CALLS (default and maximum 15, to stay under SearchApi's
+# limit of 20% of plan credits per hour) and SEARCHAPI_READ_TIMEOUT in
+# seconds (default 60).
+
+require "bundler/setup"
+$LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
+require "yaml"
+require "cross_shop/search_api"
+require "cross_shop/search_api/batch_fetch"
+
+config = YAML.load_file(File.expand_path("../config/queries.yml", __dir__))
+engines = config.fetch("engines")
+queries = config.fetch("queries")
+
+unless ARGV.empty?
+  unknown = ARGV - engines
+  abort "not in config/queries.yml: #{unknown.join(", ")}" unless unknown.empty?
+  engines &= ARGV
+end
+
+max_live_calls = Integer(ENV.fetch("MAX_LIVE_CALLS", "15"))
+abort "MAX_LIVE_CALLS must be between 1 and 15" unless (1..15).cover?(max_live_calls)
+read_timeout = Integer(ENV.fetch("SEARCHAPI_READ_TIMEOUT", "60"))
+
+cache = CrossShop::SearchApi.cache
+ledger = CrossShop::SearchApi.ledger
+begin
+  client = CrossShop::SearchApi.client_from_env(read_timeout:)
+rescue KeyError => error
+  abort "#{error.class}: #{error.message}"
+end
+fetch = CrossShop::SearchApi::BatchFetch.new(client:, cache:, max_live_calls:, pause_seconds: 3)
+
+missing = fetch.missing(engines:, queries:)
+total = engines.size * queries.size
+puts "#{total - missing.size}/#{total} cached; ledger #{ledger.count}/#{CrossShop::SearchApi::CREDIT_LIMIT} live calls"
+
+unless ENV["SEARCHAPI_LIVE"] == "1"
+  missing.each { |query, engine| puts "  missing: #{engine} #{query.inspect}" }
+  puts "Set SEARCHAPI_LIVE=1 to fetch up to #{max_live_calls} of them." unless missing.empty?
+  exit
+end
+
+begin
+  result = fetch.run(engines:, queries:) { |engine, query| puts "  fetched: #{engine} #{query.inspect}" }
+rescue CrossShop::SearchApi::Error => error
+  abort "#{error.class}: #{error.message}"
+rescue Net::OpenTimeout, Net::ReadTimeout => error
+  abort "#{error.class} after #{read_timeout}s. The call is in the ledger: it may still have been billed."
+end
+puts "fetched #{result.fetched}, #{result.remaining} left for the next run"

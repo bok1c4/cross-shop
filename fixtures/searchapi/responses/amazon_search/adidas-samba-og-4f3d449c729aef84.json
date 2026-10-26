@@ -1,0 +1,2203 @@
+{
+  "search_metadata": {
+    "id": "search_b65xNDvgndH9B78n748d73q0",
+    "status": "Success",
+    "created_at": "2026-10-26T18:44:33Z",
+    "request_time_taken": 2.32,
+    "parsing_time_taken": 0.14,
+    "total_time_taken": 2.46,
+    "request_url": "https://www.amazon.com/s?k=adidas+samba+og",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_b65xNDvgndH9B78n748d73q0.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_b65xNDvgndH9B78n748d73q0"
+  },
+  "search_parameters": {
+    "engine": "amazon_search",
+    "q": "adidas samba og",
+    "amazon_domain": "amazon.com",
+    "delivery_country": "us"
+  },
+  "search_information": {
+    "query_displayed": "adidas samba og",
+    "price_min": "$39",
+    "extracted_price_min": 39,
+    "price_max": "$690+",
+    "extracted_price_max": 690,
+    "delivering_to": "Delivering to Lemon Grove 91945"
+  },
+  "filters": [
+    {
+      "type": "Eligible for Free Shipping",
+      "options": [
+        {
+          "text": "Free Shipping by Amazon",
+          "rh": "p_76:2661625011"
+        }
+      ]
+    },
+    {
+      "type": "Delivery Day",
+      "options": [
+        {
+          "text": "Get It Today",
+          "rh": "p_90:8308920011"
+        },
+        {
+          "text": "Get It by Tomorrow",
+          "rh": "p_90:8308921011"
+        }
+      ]
+    },
+    {
+      "type": "Gender",
+      "options": [
+        {
+          "text": "Men",
+          "rh": "p_n_g-101015233022111:121075132011"
+        },
+        {
+          "text": "Women",
+          "rh": "p_n_g-101015233022111:121075131011"
+        },
+        {
+          "text": "Boys",
+          "rh": "p_n_g-101015233022111:121075136011"
+        },
+        {
+          "text": "Girls",
+          "rh": "p_n_g-101015233022111:121075133011"
+        },
+        {
+          "text": "Babies",
+          "rh": "p_n_g-101015233022111:121833111011"
+        },
+        {
+          "text": "Unisex",
+          "rh": "p_n_g-101015233022111:121833112011"
+        }
+      ]
+    },
+    {
+      "type": "Color",
+      "options": [
+        {
+          "text": "Multi",
+          "rh": "p_n_size_two_browse-vebin:5391092011"
+        },
+        {
+          "text": "Black",
+          "rh": "p_n_size_two_browse-vebin:5391077011"
+        },
+        {
+          "text": "White",
+          "rh": "p_n_size_two_browse-vebin:5391079011"
+        },
+        {
+          "text": "Grey",
+          "rh": "p_n_size_two_browse-vebin:5391078011"
+        },
+        {
+          "text": "Brown",
+          "rh": "p_n_size_two_browse-vebin:5391080011"
+        },
+        {
+          "text": "Beige",
+          "rh": "p_n_size_two_browse-vebin:5391081011"
+        },
+        {
+          "text": "Red",
+          "rh": "p_n_size_two_browse-vebin:5391082011"
+        },
+        {
+          "text": "Pink",
+          "rh": "p_n_size_two_browse-vebin:5391083011"
+        },
+        {
+          "text": "Orange",
+          "rh": "p_n_size_two_browse-vebin:5391084011"
+        },
+        {
+          "text": "Yellow",
+          "rh": "p_n_size_two_browse-vebin:5391085011"
+        },
+        {
+          "text": "Ivory",
+          "rh": "p_n_size_two_browse-vebin:5391086011"
+        },
+        {
+          "text": "Green",
+          "rh": "p_n_size_two_browse-vebin:5391087011"
+        },
+        {
+          "text": "Blue",
+          "rh": "p_n_size_two_browse-vebin:5391088011"
+        },
+        {
+          "text": "Purple",
+          "rh": "p_n_size_two_browse-vebin:5391089011"
+        },
+        {
+          "text": "Gold",
+          "rh": "p_n_size_two_browse-vebin:5391090011"
+        },
+        {
+          "text": "Silver",
+          "rh": "p_n_size_two_browse-vebin:5391091011"
+        }
+      ]
+    },
+    {
+      "type": "Brands",
+      "options": [
+        {
+          "text": "adidas",
+          "rh": "p_123:198664"
+        },
+        {
+          "text": "adidas Originals",
+          "rh": "p_123:433920"
+        },
+        {
+          "text": "Project Cloud",
+          "rh": "p_123:5209892"
+        }
+      ]
+    },
+    {
+      "type": "Amazon Fashion",
+      "options": [
+        {
+          "text": "Premium Brands",
+          "rh": "p_n_g-1004227705091:21451213011"
+        },
+        {
+          "text": "Top Brands",
+          "rh": "p_n_g-1004227705091:14630392011"
+        }
+      ]
+    },
+    {
+      "type": "Men's Shoe Width",
+      "options": [
+        {
+          "text": "Medium",
+          "rh": "p_n_pt_nav_size_men_shoe_width:1285110011"
+        },
+        {
+          "text": "Wide",
+          "rh": "p_n_pt_nav_size_men_shoe_width:1285111011"
+        }
+      ]
+    },
+    {
+      "type": "Women's Shoe Width",
+      "options": [
+        {
+          "text": "Medium",
+          "rh": "p_n_shoe_width_browse-vebin:1285147011"
+        },
+        {
+          "text": "Wide",
+          "rh": "p_n_shoe_width_browse-vebin:1285154011"
+        }
+      ]
+    },
+    {
+      "type": "Children's Shoe Width",
+      "options": [
+        {
+          "text": "Medium",
+          "rh": "p_n_pt_nav_size_kids_shoe_width:1285066011"
+        },
+        {
+          "text": "Wide",
+          "rh": "p_n_pt_nav_size_kids_shoe_width:1285064011"
+        }
+      ]
+    },
+    {
+      "type": "Men's Shoe Size",
+      "options": [
+        {
+          "text": "4",
+          "rh": "p_n_pt_nav_size_men_shoe:1285090011"
+        },
+        {
+          "text": "4.5",
+          "rh": "p_n_pt_nav_size_men_shoe:1285091011"
+        },
+        {
+          "text": "5",
+          "rh": "p_n_pt_nav_size_men_shoe:1285092011"
+        },
+        {
+          "text": "5.5",
+          "rh": "p_n_pt_nav_size_men_shoe:1285093011"
+        },
+        {
+          "text": "6",
+          "rh": "p_n_pt_nav_size_men_shoe:1285094011"
+        },
+        {
+          "text": "6.5",
+          "rh": "p_n_pt_nav_size_men_shoe:1285095011"
+        },
+        {
+          "text": "7",
+          "rh": "p_n_pt_nav_size_men_shoe:1285096011"
+        },
+        {
+          "text": "7.5",
+          "rh": "p_n_pt_nav_size_men_shoe:1285097011"
+        },
+        {
+          "text": "8",
+          "rh": "p_n_pt_nav_size_men_shoe:1285098011"
+        },
+        {
+          "text": "8.5",
+          "rh": "p_n_pt_nav_size_men_shoe:1285099011"
+        },
+        {
+          "text": "9",
+          "rh": "p_n_pt_nav_size_men_shoe:1285100011"
+        },
+        {
+          "text": "9.5",
+          "rh": "p_n_pt_nav_size_men_shoe:1285101011"
+        },
+        {
+          "text": "10",
+          "rh": "p_n_pt_nav_size_men_shoe:1285069011"
+        },
+        {
+          "text": "10.5",
+          "rh": "p_n_pt_nav_size_men_shoe:1285070011"
+        },
+        {
+          "text": "11",
+          "rh": "p_n_pt_nav_size_men_shoe:1285071011"
+        },
+        {
+          "text": "11.5",
+          "rh": "p_n_pt_nav_size_men_shoe:1285072011"
+        },
+        {
+          "text": "12",
+          "rh": "p_n_pt_nav_size_men_shoe:1285073011"
+        },
+        {
+          "text": "12.5",
+          "rh": "p_n_pt_nav_size_men_shoe:1285074011"
+        },
+        {
+          "text": "13",
+          "rh": "p_n_pt_nav_size_men_shoe:1285075011"
+        },
+        {
+          "text": "13.5",
+          "rh": "p_n_pt_nav_size_men_shoe:1285076011"
+        }
+      ]
+    },
+    {
+      "type": "Customer Review",
+      "options": [
+        {
+          "text": "4 Stars",
+          "rh": "p_72:2661618011"
+        }
+      ]
+    },
+    {
+      "type": "Deals & Discounts",
+      "options": [
+        {
+          "text": "Up to $100",
+          "rh": "p_36:-10000"
+        },
+        {
+          "text": "$100 & above",
+          "rh": "p_36:10000-"
+        }
+      ]
+    },
+    {
+      "type": "Shoe Outer Material",
+      "options": [
+        {
+          "text": "Polyester",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317161011"
+        },
+        {
+          "text": "Leather",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317179011"
+        },
+        {
+          "text": "Suede",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317162011"
+        },
+        {
+          "text": "Faux Fur",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317177011"
+        },
+        {
+          "text": "Faux Leather",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317182011"
+        },
+        {
+          "text": "Mesh",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317165011"
+        },
+        {
+          "text": "Rubber",
+          "rh": "p_n_feature_twenty-three_browse-bin:210968947011"
+        },
+        {
+          "text": "Synthetic Resin",
+          "rh": "p_n_feature_twenty-three_browse-bin:210968944011"
+        }
+      ]
+    },
+    {
+      "type": "Seller",
+      "options": [
+        {
+          "text": "IDEA FOR LIFE",
+          "rh": "p_6:A1A1Z18D3LY8IO"
+        },
+        {
+          "text": "Stadium Goods",
+          "rh": "p_6:AFW7WNX55N5K4"
+        },
+        {
+          "text": "Quality First Shopee",
+          "rh": "p_6:A1C1P4PKIZUP25"
+        },
+        {
+          "text": "El Reino LLC",
+          "rh": "p_6:A2LFEPJOJGRSPG"
+        },
+        {
+          "text": "RA-Investments",
+          "rh": "p_6:A14PF9QYK9T8QM"
+        },
+        {
+          "text": "Fortune LLC Store",
+          "rh": "p_6:A1TV47PUDM9RGE"
+        },
+        {
+          "text": "PearlHouse LLC",
+          "rh": "p_6:A1XNS306EV043T"
+        }
+      ]
+    },
+    {
+      "type": "Occasion",
+      "options": [
+        {
+          "text": "Birthday",
+          "rh": "p_n_g-1003487558111:87570116011"
+        },
+        {
+          "text": "Christmas",
+          "rh": "p_n_g-1003487558111:24677253011"
+        },
+        {
+          "text": "Father's Day",
+          "rh": "p_n_g-1003487558111:122209983011"
+        },
+        {
+          "text": "Graduation",
+          "rh": "p_n_g-1003487558111:122209982011"
+        },
+        {
+          "text": "Prom Homecoming",
+          "rh": "p_n_g-1003487558111:24677256011"
+        },
+        {
+          "text": "New Year",
+          "rh": "p_n_g-1003487558111:24677254011"
+        }
+      ]
+    },
+    {
+      "type": "Shoes Lifestyle",
+      "options": [
+        {
+          "text": "Casual",
+          "rh": "p_n_g-1003446729111:24196138011"
+        },
+        {
+          "text": "Comfort",
+          "rh": "p_n_g-1003446729111:24196137011"
+        }
+      ]
+    },
+    {
+      "type": "Heel Type",
+      "options": [
+        {
+          "text": "Block Heel",
+          "rh": "p_n_g-101018073212111:222412462011"
+        },
+        {
+          "text": "Flat",
+          "rh": "p_n_g-101018073212111:222412461011"
+        },
+        {
+          "text": "No Heel",
+          "rh": "p_n_g-101018073212111:222412466011"
+        }
+      ]
+    },
+    {
+      "type": "Pattern",
+      "options": [
+        {
+          "text": "Animal Print",
+          "rh": "p_n_g-101017157714111:213408760011"
+        },
+        {
+          "text": "Floral",
+          "rh": "p_n_g-101017157714111:213408757011"
+        },
+        {
+          "text": "Solid",
+          "rh": "p_n_g-101017157714111:213408750011"
+        },
+        {
+          "text": "Striped",
+          "rh": "p_n_g-101017157714111:213408753011"
+        }
+      ]
+    },
+    {
+      "type": "Surface Recommendation",
+      "options": [
+        {
+          "text": "Firm Ground",
+          "rh": "p_n_g-101017934180111:221157082011"
+        },
+        {
+          "text": "Indoor",
+          "rh": "p_n_g-101017934180111:221157090011"
+        }
+      ]
+    },
+    {
+      "type": "Shoe Heel Height",
+      "options": [
+        {
+          "text": "Under 1\"",
+          "rh": "p_n_feature_four_browse-bin:2055867011"
+        },
+        {
+          "text": "1\" - 1 3/4\"",
+          "rh": "p_n_feature_four_browse-bin:2055868011"
+        },
+        {
+          "text": "4\" & Up",
+          "rh": "p_n_feature_four_browse-bin:2055871011"
+        }
+      ]
+    },
+    {
+      "type": "Shoes Special Features",
+      "options": [
+        {
+          "text": "Lightweight",
+          "rh": "p_n_g-1003396948111:24045095011"
+        },
+        {
+          "text": "Breathable",
+          "rh": "p_n_g-1003396948111:24045099011"
+        },
+        {
+          "text": "Flexible",
+          "rh": "p_n_g-1003396948111:24045094011"
+        },
+        {
+          "text": "All Weather Grip",
+          "rh": "p_n_g-1003396948111:24045103011"
+        },
+        {
+          "text": "Shock Resistant",
+          "rh": "p_n_g-1003396948111:24045102011"
+        },
+        {
+          "text": "Slip Resistant",
+          "rh": "p_n_g-1003396948111:24045093011"
+        },
+        {
+          "text": "Water Resistant",
+          "rh": "p_n_g-1003396948111:24045096011"
+        },
+        {
+          "text": "Stain Resistant",
+          "rh": "p_n_g-1003396948111:24045098011"
+        }
+      ]
+    },
+    {
+      "type": "Strap Type",
+      "options": [
+        {
+          "text": "Ankle Strap",
+          "rh": "p_n_g-1003499539111:28820566011"
+        },
+        {
+          "text": "Toe Strap",
+          "rh": "p_n_g-1003499539111:28820564011"
+        }
+      ]
+    },
+    {
+      "type": "Shoe Toe Style",
+      "options": [
+        {
+          "text": "Closed Toe",
+          "rh": "p_n_g-1003126687111:23713152011"
+        },
+        {
+          "text": "Round Toe",
+          "rh": "p_n_g-1003126687111:23713160011"
+        },
+        {
+          "text": "Cap Toe",
+          "rh": "p_n_g-1003126687111:23713159011"
+        },
+        {
+          "text": "Open Toe",
+          "rh": "p_n_g-1003126687111:23713153011"
+        },
+        {
+          "text": "Plain Toe",
+          "rh": "p_n_g-1003126687111:23713154011"
+        }
+      ]
+    },
+    {
+      "type": "Height Map",
+      "options": [
+        {
+          "text": "High Top",
+          "rh": "p_n_g-1003563006111:58126450011"
+        },
+        {
+          "text": "Low Top",
+          "rh": "p_n_g-1003563006111:58126448011"
+        },
+        {
+          "text": "Mid Top",
+          "rh": "p_n_g-1003563006111:58126449011"
+        }
+      ]
+    },
+    {
+      "type": "Material",
+      "options": [
+        {
+          "text": "Faux Leather",
+          "rh": "p_n_g-101017771166111:218448009011"
+        },
+        {
+          "text": "Leather",
+          "rh": "p_n_g-101017771166111:218448011011"
+        },
+        {
+          "text": "Polyester",
+          "rh": "p_n_g-101017771166111:218448005011"
+        },
+        {
+          "text": "Rubber",
+          "rh": "p_n_g-101017771166111:218448002011"
+        },
+        {
+          "text": "Suede",
+          "rh": "p_n_g-101017771166111:218448024011"
+        }
+      ]
+    },
+    {
+      "type": "Water Resistance Level",
+      "options": [
+        {
+          "text": "Moisture Resistant",
+          "rh": "p_n_g-101017968916111:221385251011"
+        },
+        {
+          "text": "Not Water Resistant",
+          "rh": "p_n_g-101017968916111:221385250011"
+        },
+        {
+          "text": "Water Repellent",
+          "rh": "p_n_g-101017968916111:221385252011"
+        },
+        {
+          "text": "Water Resistant",
+          "rh": "p_n_g-101017968916111:221385249011"
+        }
+      ]
+    },
+    {
+      "type": "Purpose",
+      "options": [
+        {
+          "text": "Casual Wear",
+          "rh": "p_n_g-101016756037111:214322040011"
+        },
+        {
+          "text": "Soccer",
+          "rh": "p_n_g-101016756037111:207864159011"
+        },
+        {
+          "text": "Walking",
+          "rh": "p_n_g-101016756037111:207864167011"
+        },
+        {
+          "text": "Basketball",
+          "rh": "p_n_g-101016756037111:207864162011"
+        },
+        {
+          "text": "Dancing",
+          "rh": "p_n_g-101016756037111:207864174011"
+        },
+        {
+          "text": "Exercising",
+          "rh": "p_n_g-101016756037111:214322037011"
+        },
+        {
+          "text": "Running",
+          "rh": "p_n_g-101016756037111:207864157011"
+        },
+        {
+          "text": "Tennis",
+          "rh": "p_n_g-101016756037111:207864178011"
+        }
+      ]
+    },
+    {
+      "type": "Lining Description",
+      "options": [
+        {
+          "text": "Cotton",
+          "rh": "p_n_g-101017758228111:217820219011"
+        },
+        {
+          "text": "Faux Fur",
+          "rh": "p_n_g-101017758228111:217820211011"
+        },
+        {
+          "text": "Leather",
+          "rh": "p_n_g-101017758228111:217820216011"
+        },
+        {
+          "text": "Natural Rubber",
+          "rh": "p_n_g-101017758228111:217820226011"
+        },
+        {
+          "text": "Nylon",
+          "rh": "p_n_g-101017758228111:217820217011"
+        },
+        {
+          "text": "Suede",
+          "rh": "p_n_g-101017758228111:217820218011"
+        },
+        {
+          "text": "Unlined",
+          "rh": "p_n_g-101017758228111:217820224011"
+        }
+      ]
+    },
+    {
+      "type": "Shoe Type",
+      "options": [
+        {
+          "text": "Athletic Shoe",
+          "rh": "p_n_feature_thirty_browse-bin:122399094011"
+        },
+        {
+          "text": "Clog",
+          "rh": "p_n_feature_thirty_browse-bin:122399097011"
+        }
+      ]
+    },
+    {
+      "type": "Shoes Closure Type",
+      "options": [
+        {
+          "text": "Lace-Up",
+          "rh": "p_n_g-1003465852111:24436296011"
+        },
+        {
+          "text": "Buckle",
+          "rh": "p_n_g-1003465852111:24436298011"
+        }
+      ]
+    },
+    {
+      "type": "Arch Type",
+      "options": [
+        {
+          "text": "Medium Arch",
+          "rh": "p_n_g-101017868425111:220241091011"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "asin": "B0F9NVFF6G",
+      "title": "Women's Samba OG W Shoes",
+      "link": "https://www.amazon.com/adidas-Samba-Womens-Shoes-Color/dp/B0F9NVFF6G/ref=sr_1_1?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-1",
+      "brand": "adidas",
+      "rating": 4.6,
+      "reviews": 830,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$89.95",
+      "extracted_price": 89.95,
+      "original_price": "$109.90",
+      "extracted_original_price": 109.9,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 4 - 6",
+          "type": "FREE delivery",
+          "date": "Nov 4 - 6"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Wed, Nov 4",
+          "type": "Or fastest delivery",
+          "date": "Wed, Nov 4"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51HX8zYi3JL._AC_UL320_.jpg"
+    },
+    {
+      "position": 2,
+      "asin": "B0CKMLZNVD",
+      "title": "Unisex-Adult Samba Indoor Soccer",
+      "link": "https://www.amazon.com/adidas-Unisex-Samba-Sneaker-White/dp/B0CKMLZNVD/ref=sr_1_2?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-2",
+      "brand": "adidas",
+      "rating": 4.5,
+      "reviews": 4964,
+      "recent_sales": "500+ bought in past month",
+      "extracted_recent_sales": 500,
+      "price": "$94.95",
+      "extracted_price": 94.95,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_overall_pick": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61aDwqK+l3L._AC_UL320_.jpg"
+    },
+    {
+      "position": 3,
+      "asin": "B0CKMM3MNN",
+      "title": "Unisex-Adult Samba Indoor Soccer",
+      "link": "https://www.amazon.com/adidas-Unisex-Samba-Sneaker-Black/dp/B0CKMM3MNN/ref=sr_1_3?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-3",
+      "brand": "adidas",
+      "rating": 4.5,
+      "reviews": 4964,
+      "recent_sales": "400+ bought in past month",
+      "extracted_recent_sales": 400,
+      "price": "$94.95",
+      "extracted_price": 94.95,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "bestseller": {
+        "category": "in Men's Soccer Shoes"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/611OTu374mL._AC_UL320_.jpg"
+    },
+    {
+      "position": 4,
+      "asin": "B0GW2KJH61",
+      "title": "Men's Samba Shoes",
+      "link": "https://www.amazon.com/adidas-Samba-Mens-Shoes-Color/dp/B0GW2KJH61/ref=sr_1_4?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-4",
+      "brand": "adidas",
+      "rating": 4.5,
+      "reviews": 740,
+      "price": "$129.02",
+      "extracted_price": 129.02,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51PSvzi-cpL._AC_UL320_.jpg"
+    },
+    {
+      "position": 5,
+      "asin": "B0CKMB65YP",
+      "title": "Unsiex-Kids Samba Indoor Sneakers",
+      "link": "https://www.amazon.com/adidas-Samba-Sneaker-White-Unisex/dp/B0CKMB65YP/ref=sr_1_5?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-5",
+      "brand": "adidas",
+      "rating": 4.6,
+      "reviews": 2109,
+      "recent_sales": "300+ bought in past month",
+      "extracted_recent_sales": 300,
+      "price": "$74.95",
+      "extracted_price": 74.95,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61hVB++D9AL._AC_UL320_.jpg"
+    },
+    {
+      "position": 6,
+      "asin": "B0F9JJ6DCJ",
+      "title": "Samba OG Womens Sneaker (Black Wonder White Cream, 7.5)",
+      "link": "https://www.amazon.com/adidas-Samba-Womens-Sneaker-Wonder/dp/B0F9JJ6DCJ/ref=sr_1_6?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-6",
+      "brand": "adidas",
+      "rating": 4.6,
+      "reviews": 34,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$95.98",
+      "extracted_price": 95.98,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71Q+BzkqqaL._AC_UL320_.jpg"
+    },
+    {
+      "position": 7,
+      "asin": "B0HK1X7XKN",
+      "title": "Samba OG Women's Sneakers",
+      "link": "https://www.amazon.com/adidas-Originals-Samba-Shoes-Strata/dp/B0HK1X7XKN/ref=sr_1_7?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-7",
+      "brand": "adidas Originals",
+      "rating": 4.6,
+      "reviews": 79,
+      "price": "$96.00",
+      "extracted_price": 96.0,
+      "original_price": "$140.57",
+      "extracted_original_price": 140.57,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51YuCR6H6-L._AC_UL320_.jpg"
+    },
+    {
+      "position": 8,
+      "asin": "B0GYFNR5BW",
+      "title": "adidas Samba OG WMNS Shoes, Cream White/Core Black/Sand Strata, Size 7",
+      "link": "https://www.amazon.com/adidas-Samba-Shoes-Cream-Strata/dp/B0GYFNR5BW/ref=sr_1_8?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-8",
+      "brand": "adidas Originals",
+      "rating": 4.6,
+      "reviews": 5,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sun, Nov 1",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sun, Nov 1"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/614njQ5ytpL._AC_UL320_.jpg"
+    },
+    {
+      "position": 9,
+      "asin": "B0G6GMVPZV",
+      "title": "Men's Samba ADV Skate Shoes - Cloud White/Core Black, Size: 8.5",
+      "link": "https://www.amazon.com/adidas-Samba-ADV-Skate-Shoes/dp/B0G6GMVPZV/ref=sr_1_9?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-9",
+      "brand": "adidas",
+      "rating": 4.7,
+      "reviews": 7,
+      "price": "$86.93",
+      "extracted_price": 86.93,
+      "original_price": "$93.26",
+      "extracted_original_price": 93.26,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61st7XaYVML._AC_UL320_.jpg"
+    },
+    {
+      "position": 10,
+      "asin": "B079YXYQRG",
+      "title": "Samba Og Men's Trainers",
+      "link": "https://www.amazon.com/adidas-Samba-Sneaker-White-Granite/dp/B079YXYQRG/ref=sr_1_10?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-10",
+      "brand": "adidas",
+      "rating": 4.5,
+      "reviews": 2353,
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 2 - 9",
+          "type": "FREE delivery",
+          "date": "Nov 2 - 9"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 2 - 6",
+          "type": "Or fastest delivery",
+          "date": "Nov 2 - 6"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/41B8bgAwK5S._AC_UL320_.jpg"
+    },
+    {
+      "position": 11,
+      "asin": "B0F9JGYFKJ",
+      "title": "Samba OG Womens Sneaker (Black Wonder White Cream, 7)",
+      "link": "https://www.amazon.com/adidas-Samba-Womens-Sneaker-Wonder/dp/B0F9JGYFKJ/ref=sr_1_11?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-11",
+      "brand": "adidas",
+      "rating": 4.8,
+      "reviews": 14,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$99.41",
+      "extracted_price": 99.41,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Oct 30 - Nov 3",
+          "type": "FREE delivery",
+          "date": "Oct 30 - Nov 3"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Wed, Oct 28",
+          "type": "Or fastest delivery",
+          "date": "Wed, Oct 28"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71Q+BzkqqaL._AC_UL320_.jpg"
+    },
+    {
+      "position": 12,
+      "asin": "B0F2FQCNPW",
+      "title": "Women's VL Court 3.0 Sneakers",
+      "link": "https://www.amazon.com/adidas-Womens-Sneaker-Strata-Metallic/dp/B0F2FQCNPW/ref=sr_1_12?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-12",
+      "brand": "adidas",
+      "rating": 4.4,
+      "reviews": 10406,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$79.95",
+      "extracted_price": 79.95,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61n+fX-PWKL._AC_UL320_.jpg"
+    },
+    {
+      "position": 13,
+      "asin": "B07D72RZZC",
+      "title": "Originals | Samba OG | White Sneakers",
+      "link": "https://www.amazon.com/adidas-Originals-Samba-Shoes-Granite/dp/B07D72RZZC/ref=sr_1_13?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-13",
+      "brand": "adidas",
+      "rating": 4.1,
+      "reviews": 91,
+      "price": "$79.99",
+      "extracted_price": 79.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Oct 30 - Nov 3",
+          "type": "FREE delivery",
+          "date": "Oct 30 - Nov 3"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Oct 28 - 30",
+          "type": "Or fastest delivery",
+          "date": "Oct 28 - 30"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51OLJ7wmp5L._AC_UL320_.jpg"
+    },
+    {
+      "position": 14,
+      "asin": "B0FWPF6JRN",
+      "title": "Men's Samba ADV Skate Shoes - Core Black/Cloud White/Gum, Size: 12.0",
+      "link": "https://www.amazon.com/adidas-Samba-ADV-Skate-Shoes/dp/B0FWPF6JRN/ref=sr_1_14?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-14",
+      "brand": "adidas",
+      "rating": 5.0,
+      "reviews": 5,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$86.59",
+      "extracted_price": 86.59,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61KzcxFvo4L._AC_UL320_.jpg"
+    },
+    {
+      "position": 15,
+      "asin": "B0CKMCSYZY",
+      "title": "Men's Daily 4.0 Sneakers",
+      "link": "https://www.amazon.com/adidas-Skateboarding-Low-Cut-Regular-Everyday/dp/B0CKMCSYZY/ref=sr_1_15?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-15",
+      "brand": "adidas",
+      "rating": 4.6,
+      "reviews": 8568,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$48.75",
+      "extracted_price": 48.75,
+      "original_price": "$65.00",
+      "extracted_original_price": 65.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61VzzGPTaBL._AC_UL320_.jpg"
+    },
+    {
+      "position": 16,
+      "asin": "B0C2JYJHDL",
+      "title": "Women's VL Court 3.0 Sneakers",
+      "link": "https://www.amazon.com/adidas-Skateboarding-Inspired-Lightweight-Cushioning-Standard/dp/B0C2JYJHDL/ref=sr_1_16_mod_primary_new?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=8-16",
+      "brand": "adidas",
+      "rating": 4.4,
+      "reviews": 10406,
+      "price": "$70.99",
+      "extracted_price": 70.99,
+      "original_price": "$80.00",
+      "extracted_original_price": 80.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Tue, Nov 3",
+          "type": "FREE delivery",
+          "date": "Tue, Nov 3"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/715DFJx0+qL._AC_UL320_.jpg"
+    },
+    {
+      "position": 17,
+      "asin": "B0D5MXCCFY",
+      "title": "Womens Sneakers - Comfortable Fashion Sneakers for Women",
+      "link": "https://www.amazon.com/Project-Cloud-Sneakers-Women-Footwear/dp/B0D5MXCCFY/ref=sr_1_17_sspa?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas samba og&qid=1793040274&sr=8-17-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Project Cloud",
+      "rating": 3.9,
+      "reviews": 3223,
+      "price": "$29.90",
+      "extracted_price": 29.9,
+      "original_price": "$34.90",
+      "extracted_original_price": 34.9,
+      "original_price_label": "Typical price",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71KYc8y610L._AC_UL320_.jpg"
+    },
+    {
+      "position": 18,
+      "asin": "B0CWP7XHKH",
+      "title": "Men's Women's Bandwidth Edition Lightweight and Comfortable Skateboarding Shoes, Fashion Casual Shoes, Versatile Anti Slip Walking Shoes, Outdoor Jogging Shoes, Leisure Dance Shoes, Park Flats",
+      "link": "https://www.amazon.com/Bandwidth-Lightweight-Comfortable-Skateboarding-Versatile/dp/B0CWP7XHKH/ref=sr_1_18_sspa?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas samba og&qid=1793040274&sr=8-18-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "rating": 4.1,
+      "reviews": 112,
+      "price": "$49.98",
+      "extracted_price": 49.98,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71yXMBZvBoL._AC_UL320_.jpg"
+    },
+    {
+      "position": 19,
+      "asin": "B079YZJVPH",
+      "title": "Samba Og, Men's Fitness Shoes",
+      "link": "https://www.amazon.com/adidas-Originals-Smith-Unisex-Childrens/dp/B079YZJVPH/ref=sr_1_19?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-19",
+      "brand": "adidas",
+      "rating": 4.5,
+      "reviews": 842,
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 5 - 12",
+          "type": "FREE delivery",
+          "date": "Nov 5 - 12"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/41B8bgAwK5S._AC_UL320_.jpg"
+    },
+    {
+      "position": 20,
+      "asin": "B07DKVMFZH",
+      "title": "SAMBA OG B75806 Running White/Core Black/Clear Granite",
+      "link": "https://www.amazon.com/Adidas-Running-kuriaguranaito-Domestic-regular/dp/B07DKVMFZH/ref=sr_1_20?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-20",
+      "brand": "adidas",
+      "rating": 4.6,
+      "reviews": 77,
+      "price": "$77.14",
+      "extracted_price": 77.14,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 9 - 28",
+          "type": "FREE delivery",
+          "date": "Nov 9 - 28"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 9 - 27",
+          "type": "Or fastest delivery",
+          "date": "Nov 9 - 27"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/619xJfeRoGL._AC_UL320_.jpg"
+    },
+    {
+      "position": 21,
+      "asin": "B0GR6CGDDJ",
+      "title": "Samba OG Women's Sneaker (Preloved Red Leopard, 6.5)",
+      "link": "https://www.amazon.com/adidas-Originals-Womens-Sneaker-Leopard/dp/B0GR6CGDDJ/ref=sr_1_21?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-21",
+      "brand": "adidas",
+      "rating": 4.5,
+      "reviews": 9,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$120.00",
+      "extracted_price": 120.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71JknuQfbGL._AC_UL320_.jpg"
+    },
+    {
+      "position": 22,
+      "asin": "B0GFPL8VVC",
+      "title": "Originals Samba OG Women’s Sneaker, Black Rhinestone Silver, Size 8",
+      "link": "https://www.amazon.com/adidas-Originals-Womens-Sneaker-Rhinestone/dp/B0GFPL8VVC/ref=sr_1_22?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-22",
+      "brand": "adidas",
+      "rating": 5.0,
+      "reviews": 3,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$129.95",
+      "extracted_price": 129.95,
+      "original_price": "$200.00",
+      "extracted_original_price": 200.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 4 - 8",
+          "type": "FREE delivery",
+          "date": "Nov 4 - 8"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 4 - 6",
+          "type": "Or fastest delivery",
+          "date": "Nov 4 - 6"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51oPStwtZwL._AC_UL320_.jpg"
+    },
+    {
+      "position": 23,
+      "asin": "B096K31VTG",
+      "title": "Barefoot Shoes Men Minimalist Running Cross Training Shoe",
+      "link": "https://www.amazon.com/Barefoot-Training-Minimalist-Weightlifting-Camouflage/dp/B096K31VTG/ref=sr_1_23_sspa?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas samba og&qid=1793040274&sr=8-23-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Weweya",
+      "rating": 4.3,
+      "reviews": 6540,
+      "price": "$39.99",
+      "extracted_price": 39.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/919Pb3X1V8L._AC_UL320_.jpg"
+    },
+    {
+      "position": 24,
+      "asin": "B0D3LHG735",
+      "title": "Women's Classic Fashion Sneakers",
+      "link": "https://www.amazon.com/LUCKY-STEP-Classic-Fashion-Sneakers/dp/B0D3LHG735/ref=sr_1_24_sspa?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas samba og&qid=1793040274&sr=8-24-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "LUCKY STEP",
+      "rating": 4.3,
+      "reviews": 2564,
+      "price": "$37.99",
+      "extracted_price": 37.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71iOwaQQRcL._AC_UL320_.jpg"
+    },
+    {
+      "position": 25,
+      "asin": "B0FF88L482",
+      "title": "Womens Sneakers 100% Genuine Leather Slip On Shoes for Womens",
+      "link": "https://www.amazon.com/Project-Cloud-Genuine-Leather-Sneakers/dp/B0FF88L482/ref=sr_1_25_sspa?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas samba og&qid=1793040274&sr=8-25-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Project Cloud",
+      "rating": 4.2,
+      "reviews": 1489,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$39.90",
+      "extracted_price": 39.9,
+      "original_price": "$47.90",
+      "extracted_original_price": 47.9,
+      "original_price_label": "Typical price",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/81QYoBkCHDL._AC_UL320_.jpg"
+    },
+    {
+      "position": 26,
+      "asin": "B0DD76XCZC",
+      "title": "Women Retro Gum Sole Fashion Sneakers",
+      "link": "https://www.amazon.com/LUCKY-STEP-Sneakers-Footwear-Trainers/dp/B0DD76XCZC/ref=sr_1_26_sspa?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas samba og&qid=1793040274&sr=8-26-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "LUCKY STEP",
+      "rating": 4.4,
+      "reviews": 4551,
+      "recent_sales": "300+ bought in past month",
+      "extracted_recent_sales": 300,
+      "price": "$40.99",
+      "extracted_price": 40.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71mjUpksj6L._AC_UL320_.jpg"
+    },
+    {
+      "position": 27,
+      "asin": "B0HFKX6TH9",
+      "title": "Samba OG Women's Sneakers",
+      "link": "https://www.amazon.com/adidas-Originals-Womens-Footwear-Metallic/dp/B0HFKX6TH9/ref=sr_1_27?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-27",
+      "brand": "adidas Originals",
+      "rating": 4.6,
+      "reviews": 79,
+      "price": "$129.97",
+      "extracted_price": 129.97,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 12 - Dec 6",
+          "type": "FREE delivery",
+          "date": "Nov 12 - Dec 6"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 12 - Dec 4",
+          "type": "Or fastest delivery",
+          "date": "Nov 12 - Dec 4"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61uD0CXpIwL._AC_UL320_.jpg"
+    },
+    {
+      "position": 28,
+      "asin": "B0BPFBWP2C",
+      "title": "Mens Sneaker",
+      "link": "https://www.amazon.com/Adidas-Samba-Vegan-Sneakers-Green/dp/B0BPFBWP2C/ref=sr_1_28?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-28",
+      "brand": "adidas",
+      "rating": 4.7,
+      "reviews": 87,
+      "price": "$95.00",
+      "extracted_price": 95.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Wed, Oct 28",
+          "type": "FREE delivery",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Tomorrow, Oct 27",
+          "type": "Or fastest delivery",
+          "date": "Tomorrow, Oct 27"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71cNtEm8lQL._AC_UL320_.jpg"
+    },
+    {
+      "position": 29,
+      "asin": "B0GCTXBJJL",
+      "title": "Men's Samba ADV Skate Shoes - Cloud White/Core Black, Size: 6.5",
+      "link": "https://www.amazon.com/adidas-Samba-ADV-Skate-Shoes/dp/B0GCTXBJJL/ref=sr_1_29?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-29",
+      "brand": "adidas",
+      "rating": 4.2,
+      "reviews": 6,
+      "price": "$80.40",
+      "extracted_price": 80.4,
+      "original_price": "$97.96",
+      "extracted_original_price": 97.96,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/612sLc59IXL._AC_UL320_.jpg"
+    },
+    {
+      "position": 30,
+      "asin": "B0FX3D9BQZ",
+      "title": "Men's Samba ADV Skate Shoes - Cloud White/Core Black, Size: 11.0",
+      "link": "https://www.amazon.com/adidas-Samba-ADV-Skate-Shoes/dp/B0FX3D9BQZ/ref=sr_1_30?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-30",
+      "brand": "adidas",
+      "rating": 4.1,
+      "reviews": 4,
+      "price": "$78.45",
+      "extracted_price": 78.45,
+      "original_price": "$99.50",
+      "extracted_original_price": 99.5,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61st7XaYVML._AC_UL320_.jpg"
+    },
+    {
+      "position": 31,
+      "asin": "B0GYTF73HH",
+      "title": "Samba OG Mens Lifestyle Shoes, Core Black/Cloud White/Gum, Size 11",
+      "link": "https://www.amazon.com/adidas-Originals-Samba-Lifestyle-Shoes/dp/B0GYTF73HH/ref=sr_1_31?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-31",
+      "brand": "adidas Originals",
+      "rating": 4.6,
+      "reviews": 3,
+      "price": "$71.10",
+      "extracted_price": 71.1,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/41MPSKreEyL._AC_UL320_.jpg"
+    },
+    {
+      "position": 32,
+      "asin": "B0FM8T326P",
+      "title": "Samba OG Men's Shoes, Core White/Better Scarlet/Shadow Red, Size 9.5",
+      "link": "https://www.amazon.com/adidas-Samba-Better-Scarlet-Shadow/dp/B0FM8T326P/ref=sr_1_32?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-32",
+      "brand": "adidas",
+      "rating": 4.6,
+      "reviews": 3,
+      "price": "$107.00",
+      "extracted_price": 107.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Wed, Nov 4",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Wed, Nov 4"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61MmzzCChKL._AC_UL320_.jpg"
+    },
+    {
+      "position": 33,
+      "asin": "B088QDBZMZ",
+      "title": "Women Esplar Sneakers Extra White",
+      "link": "https://www.amazon.com/Veja-Womens-Esplar-Sneakers-Medium/dp/B088QDBZMZ/ref=sr_1_33_sspa?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas samba og&qid=1793040274&sr=8-33-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Veja",
+      "rating": 4.2,
+      "reviews": 1475,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$114.85",
+      "extracted_price": 114.85,
+      "original_price": "$155.00",
+      "extracted_original_price": 155.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Tue, Nov 3",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Tue, Nov 3"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/51mjnA5cnzL._AC_UL320_.jpg"
+    },
+    {
+      "position": 34,
+      "asin": "B0FW5KT77N",
+      "title": "Samba OG Men's Shoes, Core White/Better Scarlet/Shadow Red, Size 11.5",
+      "link": "https://www.amazon.com/adidas-Samba-Better-Scarlet-Shadow/dp/B0FW5KT77N/ref=sr_1_34?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-34",
+      "brand": "adidas",
+      "price": "$98.01",
+      "extracted_price": 98.01,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 2",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 2"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51mH5+Uf-uL._AC_UL320_.jpg"
+    },
+    {
+      "position": 35,
+      "asin": "B0GW2NRQ4C",
+      "title": "Women's Samba OG W Shoes",
+      "link": "https://www.amazon.com/adidas-Samba-Womens-Shoes-Color/dp/B0GW2NRQ4C/ref=sr_1_35?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-35",
+      "brand": "adidas",
+      "rating": 4.6,
+      "reviews": 830,
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sun, Nov 1",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sun, Nov 1"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51+Disb9voL._AC_UL320_.jpg"
+    },
+    {
+      "position": 36,
+      "asin": "B0DB5WL2Q5",
+      "title": "Women's Originals Trainers",
+      "link": "https://www.amazon.com/adidas-Samba-ID0478-Sneakers-Womens/dp/B0DB5WL2Q5/ref=sr_1_36?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-36",
+      "brand": "adidas",
+      "rating": 4.5,
+      "reviews": 110,
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51ozthbhDBL._AC_UL320_.jpg"
+    },
+    {
+      "position": 37,
+      "asin": "B0HJ4557G6",
+      "title": "Samba Mens Sneakers",
+      "link": "https://www.amazon.com/adidas-Originals-Samba-Shoes-Metallic/dp/B0HJ4557G6/ref=sr_1_37?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-37",
+      "brand": "adidas Originals",
+      "rating": 3.6,
+      "reviews": 4,
+      "more_offers": {
+        "lowest_price": "$129.97",
+        "extracted_lowest_price": 129.97,
+        "link": "https://www.amazon.com/gp/offer-listing/B0HJ4557G6/ref=sr_1_37_olp?keywords=adidas+samba+og&dib_tag=se&dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&qid=1793040274&sr=8-37",
+        "offers_count": 1,
+        "description": "(1 new offer)"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61aLnxN9iXL._AC_UL320_.jpg"
+    },
+    {
+      "position": 38,
+      "asin": "B0BKL5477B",
+      "title": "Men's Casual Dress Sneakers Tennis Walking Shoes",
+      "link": "https://www.amazon.com/VILOCY-Sneakers-Oxfords-Business-Lightweight/dp/B0BKL5477B/ref=sr_1_38_sspa?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas samba og&qid=1793040274&sr=8-38-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "VILOCY",
+      "rating": 4.5,
+      "reviews": 13643,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$43.99",
+      "extracted_price": 43.99,
+      "original_price": "$47.99",
+      "extracted_original_price": 47.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71S6vZQVRlL._AC_UL320_.jpg"
+    },
+    {
+      "position": 39,
+      "asin": "B0F6YHJG8H",
+      "title": "adidas Samba OG Women's Shoes, Silver Metallic/Footwear White/Core White, Size 8.5",
+      "link": "https://www.amazon.com/Adidas-Sneaker-Metallic-Cracked-Leather/dp/B0F6YHJG8H/ref=sr_1_39?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-39",
+      "brand": "adidas Originals",
+      "rating": 4.7,
+      "reviews": 53,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$92.00",
+      "extracted_price": 92.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sun, Nov 1",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sun, Nov 1"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/515mMJ83RBL._AC_UL320_.jpg"
+    },
+    {
+      "position": 40,
+      "asin": "B0GH6YXKP5",
+      "title": "Originals Samba OG WMNS Shoes, Cream White/Core Black/Sand Strata Size 6",
+      "link": "https://www.amazon.com/adidas-Originals-Samba-Shoes-Strata/dp/B0GH6YXKP5/ref=sr_1_40?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-40",
+      "brand": "adidas",
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/614njQ5ytpL._AC_UL320_.jpg"
+    },
+    {
+      "position": 41,
+      "asin": "B0DV5P5NKX",
+      "title": "Samba Og Shoes Code JH8797 White",
+      "link": "https://www.amazon.com/adidas-Samba-Shoes-Collegiate-Granite/dp/B0DV5P5NKX/ref=sr_1_41?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-41",
+      "brand": "adidas",
+      "rating": 4.7,
+      "reviews": 28,
+      "price": "$74.99",
+      "extracted_price": 74.99,
+      "original_price": "$86.08",
+      "extracted_original_price": 86.08,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "$13.78 delivery Wed, Nov 4",
+          "type": "$13.78 delivery",
+          "date": "Wed, Nov 4"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Oct 30 - Nov 2",
+          "type": "Or fastest delivery",
+          "date": "Oct 30 - Nov 2"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/41fQK6Gkb2L._AC_UL320_.jpg"
+    },
+    {
+      "position": 42,
+      "asin": "B0C2JSLSLX",
+      "title": "Men's VL Court 3.0 Sneakers",
+      "link": "https://www.amazon.com/adidas-Skateboarding-Inspired-Lightweight-Cushioning-Standard/dp/B0C2JSLSLX/ref=sr_1_42?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-42",
+      "brand": "adidas",
+      "rating": 4.6,
+      "reviews": 5099,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$79.95",
+      "extracted_price": 79.95,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61R9O5FUI2L._AC_UL320_.jpg"
+    },
+    {
+      "position": 43,
+      "asin": "B0GY4JTTD3",
+      "title": "Women's Samba OG Sneakers",
+      "link": "https://www.amazon.com/adidas-Womens-Samba-Wonder-quartzOff/dp/B0GY4JTTD3/ref=sr_1_43_mod_primary_new?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=8-43",
+      "brand": "adidas",
+      "rating": 4.3,
+      "reviews": 3,
+      "price": "$99.95",
+      "extracted_price": 99.95,
+      "original_price": "$109.99",
+      "extracted_original_price": 109.99,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Tue, Nov 3",
+          "type": "FREE delivery",
+          "date": "Tue, Nov 3"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/51-kmnUrhDL._AC_UL320_.jpg"
+    },
+    {
+      "position": 44,
+      "asin": "B0FS6J68M5",
+      "title": "Women's Courtset Sneaker",
+      "link": "https://www.amazon.com/adidas-Samba-Womens-Shoes-Color/dp/B0FS6J68M5/ref=sr_1_44?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-44",
+      "brand": "adidas",
+      "rating": 4.6,
+      "reviews": 3431,
+      "price": "$106.99",
+      "extracted_price": 106.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Tue, Nov 3",
+          "type": "FREE delivery",
+          "date": "Tue, Nov 3"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Wed, Oct 28",
+          "type": "Or fastest delivery",
+          "date": "Wed, Oct 28"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51h+uyIPTbL._AC_UL320_.jpg"
+    },
+    {
+      "position": 45,
+      "asin": "B0FCY2Y1WQ",
+      "title": "Womens Samba Og Sneakers Shoes Casual - Off White",
+      "link": "https://www.amazon.com/Adidas-Womens-Samba-MaroonOff-White/dp/B0FCY2Y1WQ/ref=sr_1_45?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-45",
+      "brand": "adidas",
+      "rating": 4.6,
+      "reviews": 13,
+      "price": "$130.90",
+      "extracted_price": 130.9,
+      "original_price": "$154.01",
+      "extracted_original_price": 154.01,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "$7.99 delivery Thu, Nov 12",
+          "type": "$7.99 delivery",
+          "date": "Thu, Nov 12"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/517Kt055j2L._AC_UL320_.jpg"
+    },
+    {
+      "position": 46,
+      "asin": "B0F2B6JW72",
+      "title": "Women's Barreda Low",
+      "link": "https://www.amazon.com/adidas-Womens-Barreda-Sneaker-Vanilla/dp/B0F2B6JW72/ref=sr_1_46?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-46",
+      "brand": "adidas",
+      "rating": 4.5,
+      "reviews": 1018,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$69.95",
+      "extracted_price": 69.95,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sun, Nov 1",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sun, Nov 1"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61wNCM8Iw1L._AC_UL320_.jpg"
+    },
+    {
+      "position": 47,
+      "asin": "B0FX39BMW1",
+      "title": "Men's Samba ADV Skate Shoes - Cloud White/Core Black, Size: 9.5",
+      "link": "https://www.amazon.com/adidas-Samba-ADV-Skate-Shoes/dp/B0FX39BMW1/ref=sr_1_47?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-47",
+      "brand": "adidas",
+      "rating": 4.5,
+      "reviews": 12,
+      "price": "$99.95",
+      "extracted_price": 99.95,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 1 - 4",
+          "type": "FREE delivery",
+          "date": "Nov 1 - 4"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 1 - 2",
+          "type": "Or fastest delivery",
+          "date": "Nov 1 - 2"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61st7XaYVML._AC_UL320_.jpg"
+    },
+    {
+      "position": 48,
+      "asin": "B0GTN97G8K",
+      "title": "Women's Samba OG Sneakers",
+      "link": "https://www.amazon.com/adidas-Womens-Samba-met-Off-White/dp/B0GTN97G8K/ref=sr_1_48?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-48",
+      "brand": "adidas",
+      "rating": 4.3,
+      "reviews": 3,
+      "price": "$109.23",
+      "extracted_price": 109.23,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61W-SZAFOzL._AC_UL320_.jpg"
+    },
+    {
+      "position": 49,
+      "asin": "B079YXTKSR",
+      "title": "Samba Og Men's Trainers, Core Black FTWR White Gum5, 10",
+      "link": "https://www.amazon.com/adidas-Samba-Fitness-Shoes-B75807/dp/B079YXTKSR/ref=sr_1_49?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-49",
+      "brand": "adidas",
+      "rating": 4.3,
+      "reviews": 141,
+      "price": "$104.95",
+      "extracted_price": 104.95,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Oct 29 - Nov 2",
+          "type": "FREE delivery",
+          "date": "Oct 29 - Nov 2"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Thu, Oct 29",
+          "type": "Or fastest delivery",
+          "date": "Thu, Oct 29"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51TmVf+71WS._AC_UL320_.jpg"
+    },
+    {
+      "position": 50,
+      "asin": "B0FB478S1G",
+      "title": "Samba Leather Mens Shoes",
+      "link": "https://www.amazon.com/adidas-Samba-Lifestyle-Shoes-White/dp/B0FB478S1G/ref=sr_1_50?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-50",
+      "brand": "adidas",
+      "rating": 4.8,
+      "reviews": 22,
+      "price": "$98.00",
+      "extracted_price": 98.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51WPeSKobJL._AC_UL320_.jpg"
+    },
+    {
+      "position": 51,
+      "asin": "B0FT3Z924W",
+      "title": "Women's Breaknet Sleek Sneakers",
+      "link": "https://www.amazon.com/adidas-Womens-Breaknet-Sleek-Clear/dp/B0FT3Z924W/ref=sr_1_51_mod_primary_new?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=8-51",
+      "brand": "adidas",
+      "rating": 4.5,
+      "reviews": 3192,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$51.95",
+      "extracted_price": 51.95,
+      "original_price": "$65.00",
+      "extracted_original_price": 65.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Mon, Nov 2",
+          "type": "FREE delivery",
+          "date": "Mon, Nov 2"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Thu, Oct 29",
+          "type": "Or fastest delivery",
+          "date": "Thu, Oct 29"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61-pjWIc87L._AC_UL320_.jpg"
+    },
+    {
+      "position": 52,
+      "asin": "B0CPVP5GG3",
+      "title": "Samba OG | Black sneakers",
+      "link": "https://www.amazon.com/Adidas-Samba-Shoes-Cream-Strata/dp/B0CPVP5GG3/ref=sr_1_52?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-52",
+      "brand": "adidas Originals",
+      "rating": 4.7,
+      "reviews": 69,
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 11 - 27",
+          "type": "FREE delivery",
+          "date": "Nov 11 - 27"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 11 - 25",
+          "type": "Or fastest delivery",
+          "date": "Nov 11 - 25"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51YuCR6H6-L._AC_UL320_.jpg"
+    },
+    {
+      "position": 53,
+      "asin": "B0H8F1L9XY",
+      "title": "Samba OG Women's Sneakers, Core Black/Wonder White/Silver Metallic, Size 10",
+      "link": "https://www.amazon.com/adidas-Originals-Womens-Sneakers-Metallic/dp/B0H8F1L9XY/ref=sr_1_53?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-53",
+      "brand": "adidas Originals",
+      "price": "$99.99",
+      "extracted_price": 99.99,
+      "original_price": "$129.93",
+      "extracted_original_price": 129.93,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Oct 30 - Nov 3",
+          "type": "FREE delivery",
+          "date": "Oct 30 - Nov 3"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Oct 28 - 29",
+          "type": "Or fastest delivery",
+          "date": "Oct 28 - 29"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61m2tU3X1+L._AC_UL320_.jpg"
+    },
+    {
+      "position": 54,
+      "asin": "B0F9JBSS63",
+      "title": "Samba OG Womens Sneaker (Black Wonder White Cream, 6.5)",
+      "link": "https://www.amazon.com/adidas-Samba-Womens-Sneaker-Wonder/dp/B0F9JBSS63/ref=sr_1_54?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-54",
+      "brand": "adidas",
+      "rating": 4.4,
+      "reviews": 11,
+      "price": "$99.96",
+      "extracted_price": 99.96,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 4 - 8",
+          "type": "FREE delivery",
+          "date": "Nov 4 - 8"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 4 - 6",
+          "type": "Or fastest delivery",
+          "date": "Nov 4 - 6"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71Q+BzkqqaL._AC_UL320_.jpg"
+    },
+    {
+      "position": 55,
+      "asin": "B07F9922HC",
+      "title": "adidas Men's Samba OG Sneakers",
+      "link": "https://www.amazon.com/adidas-B75806-Samba-OG/dp/B07F9922HC/ref=sr_1_55?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-55",
+      "brand": "adidas Originals",
+      "rating": 4.7,
+      "reviews": 2281,
+      "price": "$99.99",
+      "extracted_price": 99.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 11 - 16",
+          "type": "FREE delivery",
+          "date": "Nov 11 - 16"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 10 - 12",
+          "type": "Or fastest delivery",
+          "date": "Nov 10 - 12"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61wo6fKXOUL._AC_UL320_.jpg"
+    },
+    {
+      "position": 56,
+      "asin": "B079Z12XMQ",
+      "title": "Samba Og, Men's Fitness Shoes",
+      "link": "https://www.amazon.com/Adidas-Samba-Sneaker-Black-White/dp/B079Z12XMQ/ref=sr_1_56?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas+samba+og&qid=1793040274&sr=8-56",
+      "brand": "adidas",
+      "rating": 4.5,
+      "reviews": 842,
+      "price": "$109.95",
+      "extracted_price": 109.95,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Oct 29 - Nov 2",
+          "type": "FREE delivery",
+          "date": "Oct 29 - Nov 2"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Thu, Oct 29",
+          "type": "Or fastest delivery",
+          "date": "Thu, Oct 29"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71iGP-hdiuL._AC_UL320_.jpg"
+    },
+    {
+      "position": 57,
+      "asin": "B0DYNGVH47",
+      "title": "Women's Retro Gum Sole Fashion Sneakers-Lace Detail Casual Retro Walking Shoes-Gum Sole Casual Tennis-Anti Slip Trainers",
+      "link": "https://www.amazon.com/Fashion-Sneakers-Lace-Shoes-Gum-Tennis-Anti-Trainers（Black/dp/B0DYNGVH47/ref=sr_1_57_sspa?dib=eyJ2IjoiMSJ9.RUPjPARUGk2GZCYiLyLrzRtIvLzbPQyfZA7WwZPgVTQUXfO2o_q2SzNxvvUAIXrE7EqscOE_QkcUKc_muJOB-ovjMH0uJJ4MW9-DSx6MTG5OLVG76NjUR9TPllEY8C6ZUIKglXamZFyRz0P00PXGrfDWxZgv1ps56BJ0zJGz0L7zt5t_6DSQFpa-6CS-FFV8lWXhZ3DwJ6aUHfUUa6CnNg2FA0KwQrapZs7SJrpP3820TqMF-tDqWwe_h-d-QUhEZswc4E5EPQVLqXvjodMJoCLkD3zzTjMXbxPCwxJefX0.6O3-CU2VV20tgs8sfx2KTJ672dLZOG1ZAjJ0IQb4VTs&dib_tag=se&keywords=adidas samba og&qid=1793040274&sr=8-57-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9idGY&psc=1",
+      "brand": "OFG",
+      "rating": 4.2,
+      "reviews": 415,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$32.99",
+      "extracted_price": 32.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61cCfkKzPOL._AC_UL320_.jpg"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.amazon.com/s?k=adidas+samba+og&page=2&xpid=Rzn6yKhA6gWO_&qid=1793040274&ref=sr_pg_1",
+    "other_pages": {
+      "2": "https://www.amazon.com/s?k=adidas+samba+og&page=2&xpid=Rzn6yKhA6gWO_&qid=1793040274&ref=sr_pg_2",
+      "3": "https://www.amazon.com/s?k=adidas+samba+og&page=3&xpid=Rzn6yKhA6gWO_&qid=1793040274&ref=sr_pg_3"
+    }
+  }
+}

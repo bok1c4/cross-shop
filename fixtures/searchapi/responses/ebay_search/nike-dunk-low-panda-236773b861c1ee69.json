@@ -1,0 +1,1676 @@
+{
+  "search_metadata": {
+    "id": "search_mMjwVJvBznT1nLPRGvynp5OY",
+    "status": "Success",
+    "created_at": "2026-10-26T18:47:20Z",
+    "request_time_taken": 7.14,
+    "parsing_time_taken": 0.22,
+    "total_time_taken": 7.37,
+    "request_url": "https://www.ebay.com/sch/i.html?_nkw=nike%20dunk%20low%20panda&_fcid=1",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_mMjwVJvBznT1nLPRGvynp5OY.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_mMjwVJvBznT1nLPRGvynp5OY"
+  },
+  "search_parameters": {
+    "engine": "ebay_search",
+    "q": "nike dunk low panda",
+    "ebay_domain": "ebay.com",
+    "country": "US",
+    "delivery_country": "US"
+  },
+  "search_information": {
+    "query_displayed": "nike dunk low panda",
+    "total_results": 12000,
+    "sorted_by": "Sort: Best Match",
+    "buying_format": "All",
+    "language": "en"
+  },
+  "categories": [
+    {
+      "name": "Clothing, Shoes & Accessories",
+      "link": "https://www.ebay.com/sch/11450/i.html?_nkw=nike+dunk+low+panda&_fcid=1",
+      "category_id": "11450",
+      "subcategories": [
+        {
+          "name": "Men's Athletic Shoes",
+          "link": "https://www.ebay.com/sch/15709/i.html?_nkw=nike+dunk+low+panda&_fcid=1",
+          "category_id": "15709"
+        },
+        {
+          "name": "Women's Athletic Shoes",
+          "link": "https://www.ebay.com/sch/95672/i.html?_nkw=nike+dunk+low+panda&_fcid=1",
+          "category_id": "95672"
+        },
+        {
+          "name": "Unisex Kids' Shoes",
+          "link": "https://www.ebay.com/sch/155202/i.html?_nkw=nike+dunk+low+panda&_fcid=1",
+          "category_id": "155202"
+        },
+        {
+          "name": "Baby Shoes",
+          "link": "https://www.ebay.com/sch/147285/i.html?_nkw=nike+dunk+low+panda&_fcid=1",
+          "category_id": "147285"
+        },
+        {
+          "name": "Boys' Shoes",
+          "link": "https://www.ebay.com/sch/57929/i.html?_nkw=nike+dunk+low+panda&_fcid=1",
+          "category_id": "57929"
+        }
+      ]
+    },
+    {
+      "name": "Sporting Goods",
+      "link": "https://www.ebay.com/sch/888/i.html?_nkw=nike+dunk+low+panda&_fcid=1",
+      "category_id": "888"
+    },
+    {
+      "name": "Home & Garden",
+      "link": "https://www.ebay.com/sch/11700/i.html?_nkw=nike+dunk+low+panda&_fcid=1",
+      "category_id": "11700"
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_nkw=nike+dunk+low+panda&_fcid=1",
+      "category_id": "1"
+    },
+    {
+      "name": "Everything Else",
+      "link": "https://www.ebay.com/sch/99/i.html?_nkw=nike+dunk+low+panda&_fcid=1",
+      "category_id": "99"
+    },
+    {
+      "name": "Antiques",
+      "link": "https://www.ebay.com/sch/20081/i.html?_nkw=nike+dunk+low+panda&_fcid=1",
+      "category_id": "20081"
+    }
+  ],
+  "filters": [
+    {
+      "type": "Shipping and pickup",
+      "options": [
+        {
+          "text": "Arrives in 2-4 days",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&rt=nc&LH_FAST=1"
+        },
+        {
+          "text": "Free Shipping",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&rt=nc&LH_FS=1"
+        },
+        {
+          "text": "Local Pickup within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&rt=nc&_fspt=1&_sadis=25&LH_PrefLoc=99&_stpos=75098&LH_LPickup=1"
+        }
+      ]
+    },
+    {
+      "type": "Performance/Activity",
+      "options": [
+        {
+          "text": "Walking (3,484) Items",
+          "items": 3484,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Performance%252FActivity=Walking&_dcat=15709"
+        },
+        {
+          "text": "Basketball (3,442) Items",
+          "items": 3442,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Performance%252FActivity=Basketball&_dcat=15709"
+        },
+        {
+          "text": "Running & Jogging (1,712) Items",
+          "items": 1712,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Performance%252FActivity=Running%2520%2526%2520Jogging&_dcat=15709"
+        },
+        {
+          "text": "Skateboarding (1,574) Items",
+          "items": 1574,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Performance%252FActivity=Skateboarding&_dcat=15709"
+        },
+        {
+          "text": "Cross Training (1,542) Items",
+          "items": 1542,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Performance%252FActivity=Cross%2520Training&_dcat=15709"
+        },
+        {
+          "text": "CrossFit (1,435) Items",
+          "items": 1435,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Performance%252FActivity=CrossFit&_dcat=15709"
+        },
+        {
+          "text": "School (1,394) Items",
+          "items": 1394,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Performance%252FActivity=School&_dcat=15709"
+        },
+        {
+          "text": "Boxing (1,179) Items",
+          "items": 1179,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Performance%252FActivity=Boxing&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Theme",
+      "options": [
+        {
+          "text": "Panda (10,113) Items",
+          "items": 10113,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Theme=Panda&_dcat=15709"
+        },
+        {
+          "text": "Retro (1,754) Items",
+          "items": 1754,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Theme=Retro&_dcat=15709"
+        },
+        {
+          "text": "Nature (669) Items",
+          "items": 669,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Theme=Nature&_dcat=15709"
+        },
+        {
+          "text": "Colorful (616) Items",
+          "items": 616,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Theme=Colorful&_dcat=15709"
+        },
+        {
+          "text": "Sports (539) Items",
+          "items": 539,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Theme=Sports&_dcat=15709"
+        },
+        {
+          "text": "Classic (456) Items",
+          "items": 456,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Theme=Classic&_dcat=15709"
+        },
+        {
+          "text": "Athleisure (361) Items",
+          "items": 361,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Theme=Athleisure&_dcat=15709"
+        },
+        {
+          "text": "College (315) Items",
+          "items": 315,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Theme=College&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Season",
+      "options": [
+        {
+          "text": "Summer (4,675) Items",
+          "items": 4675,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Season=Summer&_dcat=15709"
+        },
+        {
+          "text": "Spring (4,397) Items",
+          "items": 4397,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Season=Spring&_dcat=15709"
+        },
+        {
+          "text": "Fall (4,260) Items",
+          "items": 4260,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Season=Fall&_dcat=15709"
+        },
+        {
+          "text": "Winter (2,618) Items",
+          "items": 2618,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Season=Winter&_dcat=15709"
+        },
+        {
+          "text": "Not Specified (7,388) Items",
+          "items": 7388,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Season=%21&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Department",
+      "options": [
+        {
+          "text": "Men (11,981) Items",
+          "items": 11981,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Department=Men&_dcat=15709"
+        },
+        {
+          "text": "Unisex Adults (516) Items",
+          "items": 516,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Department=Unisex%2520Adults&_dcat=15709"
+        },
+        {
+          "text": "Teens (149) Items",
+          "items": 149,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Department=Teens&_dcat=15709"
+        },
+        {
+          "text": "Not Specified (149) Items",
+          "items": 149,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Department=%21&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Shoe Shaft Style",
+      "options": [
+        {
+          "text": "Low Top (11,045) Items",
+          "items": 11045,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Shoe%2520Shaft%2520Style=Low%2520Top&_dcat=15709"
+        },
+        {
+          "text": "Mid Top (189) Items",
+          "items": 189,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Shoe%2520Shaft%2520Style=Mid%2520Top&_dcat=15709"
+        },
+        {
+          "text": "High Top (1,102) Items",
+          "items": 1102,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Shoe%2520Shaft%2520Style=High%2520Top&_dcat=15709"
+        },
+        {
+          "text": "Not Specified (300) Items",
+          "items": 300,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Shoe%2520Shaft%2520Style=%21&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "options": [
+        {
+          "text": "Comfort (4,116) Items",
+          "items": 4116,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Features=Comfort&_dcat=15709"
+        },
+        {
+          "text": "Cushioned (1,263) Items",
+          "items": 1263,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Features=Cushioned&_dcat=15709"
+        },
+        {
+          "text": "Breathable (1,070) Items",
+          "items": 1070,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Features=Breathable&_dcat=15709"
+        },
+        {
+          "text": "Slip Resistant (918) Items",
+          "items": 918,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Features=Slip%2520Resistant&_dcat=15709"
+        },
+        {
+          "text": "Arch Support (867) Items",
+          "items": 867,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Features=Arch%2520Support&_dcat=15709"
+        },
+        {
+          "text": "Limited Edition (615) Items",
+          "items": 615,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Features=Limited%2520Edition&_dcat=15709"
+        },
+        {
+          "text": "Performance (378) Items",
+          "items": 378,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Features=Performance&_dcat=15709"
+        },
+        {
+          "text": "Adjustable (349) Items",
+          "items": 349,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Features=Adjustable&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Occasion",
+      "options": [
+        {
+          "text": "Casual (5,196) Items",
+          "items": 5196,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Occasion=Casual&_dcat=15709"
+        },
+        {
+          "text": "Activewear (3,183) Items",
+          "items": 3183,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Occasion=Activewear&_dcat=15709"
+        },
+        {
+          "text": "Workwear (1,594) Items",
+          "items": 1594,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Occasion=Workwear&_dcat=15709"
+        },
+        {
+          "text": "Not Specified (7,228) Items",
+          "items": 7228,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&Occasion=%21&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Condition",
+      "options": [
+        {
+          "text": "New (12,897) Items",
+          "items": 12897,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&rt=nc&LH_ItemCondition=3"
+        },
+        {
+          "text": "Used (6,068) Items",
+          "items": 6068,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&rt=nc&LH_ItemCondition=4"
+        },
+        {
+          "text": "Not Specified (1) Items",
+          "items": 1,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&rt=nc&LH_ItemCondition=10"
+        }
+      ]
+    },
+    {
+      "type": "Buying Format",
+      "options": [
+        {
+          "text": "All Listings (18,966) Items",
+          "items": 18966,
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&rt=nc"
+        },
+        {
+          "text": "Auction (127) Items",
+          "items": 127,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&rt=nc&LH_Auction=1"
+        },
+        {
+          "text": "Buy It Now (18,874) Items",
+          "items": 18874,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&rt=nc&LH_BIN=1"
+        },
+        {
+          "text": "Accepts Offers (8,072) Items",
+          "items": 8072,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&rt=nc&LH_BO=1"
+        }
+      ]
+    },
+    {
+      "type": "Item Location",
+      "options": [
+        {
+          "text": "Default",
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&rt=nc&LH_PrefLoc=98"
+        },
+        {
+          "text": "Within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&_dcat=15709&_sadis=25&_stpos=75098&_fspt=1"
+        },
+        {
+          "text": "US Only",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&rt=nc&LH_PrefLoc=1"
+        },
+        {
+          "text": "North America",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&rt=nc&LH_PrefLoc=3"
+        },
+        {
+          "text": "Worldwide",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&rt=nc&LH_PrefLoc=2"
+        }
+      ]
+    },
+    {
+      "type": "Show only",
+      "options": [
+        {
+          "text": "Free Returns",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&rt=nc&LH_FR=1"
+        },
+        {
+          "text": "Returns Accepted",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&rt=nc&LH_RPA=1"
+        },
+        {
+          "text": "Authorized Seller",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&rt=nc&LH_AS=1"
+        },
+        {
+          "text": "Completed Items",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&rt=nc&LH_Complete=1"
+        },
+        {
+          "text": "Sold Items",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&rt=nc&LH_Sold=1"
+        },
+        {
+          "text": "Deals & Savings",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&rt=nc&LH_Savings=1"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "item_id": "800814304020",
+      "title": "Nike Dunk Panda Black/White Men's Size 11 Leather Low Top Lace-Up Sneakers",
+      "subtitle": "US M 11 · Nike",
+      "link": "https://www.ebay.com/itm/800814304020",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left40m",
+      "extensions": [
+        "+$7.08 delivery",
+        "Located in United States"
+      ],
+      "price": "$20.00",
+      "extracted_price": 20.0,
+      "shipping": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/uOMAAeSw-pVq1m60/s-l500.webp"
+    },
+    {
+      "position": 2,
+      "item_id": "356739122665",
+      "title": "Nike Dunk Low Retro MEN'S White Black Panda DD1391-100 Sneakers Shoes",
+      "subtitle": "US M 10 + more · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/356739122665",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 27,
+      "reviews_link": "https://www.ebay.com/p/16058278940?iid=356739122665&var=625693681740#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Free returns",
+        "98+ sold"
+      ],
+      "price": "$69.99",
+      "extracted_price": 69.99,
+      "shipping": "Located in United States",
+      "deal": "+$7.67 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/IHQAAOSwJk9n8DLx/s-l500.webp"
+    },
+    {
+      "position": 3,
+      "item_id": "286551452603",
+      "title": "Nike Dunk Low Retro White Black Panda 3.5-7Y CW1590-100 Kids Sneakers Shoes",
+      "subtitle": "US Kids 6.5 + more · Nike",
+      "link": "https://www.ebay.com/itm/286551452603",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "103+ sold"
+      ],
+      "price": "$44.99",
+      "extracted_price": 44.99,
+      "shipping": "Located in United States",
+      "deal": "+$7.67 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/y7gAAOSwFv1oG8vh/s-l140.webp"
+    },
+    {
+      "position": 4,
+      "item_id": "178387614389",
+      "title": "New Nike Dunk Low Panda Black/White Women Sneakers DD1503-101 Authentic",
+      "subtitle": "US W 8.5 + more · Nike",
+      "link": "https://www.ebay.com/itm/178387614389",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 15,
+      "reviews_link": "https://www.ebay.com/p/6043564735?iid=178387614389&var=477735849463#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$79.99 to $98.00",
+      "extracted_price_range": {
+        "from": 79.99,
+        "to": 98.0
+      },
+      "is_price_range": true,
+      "shipping": "+$15.00 delivery",
+      "extracted_shipping": 15.0,
+      "thumbnail": "https://i.ebayimg.com/images/g/rEIAAOSwypRnVj47/s-l140.webp"
+    },
+    {
+      "position": 5,
+      "item_id": "800814383708",
+      "title": "Nike Dunk Low Panda Men's Low Top Leather Sneakers Black/White US 10.5",
+      "subtitle": "US M 10.5 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/800814383708",
+      "condition": "Pre-Owned",
+      "buying_format": "5 bids · Time left1h 7m",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$22.50",
+      "extracted_price": 22.5,
+      "shipping": "+$8.33 delivery",
+      "extracted_shipping": 8.33,
+      "thumbnail": "https://i.ebayimg.com/images/g/pSIAAeSwHvBq1nVd/s-l140.webp"
+    },
+    {
+      "position": 6,
+      "item_id": "267820905049",
+      "title": "Nike Dunk Low Panda Men's Black/White Low Top Lace Up Leather Basketball",
+      "subtitle": "US M 7.5 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/267820905049",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$15.00",
+      "extracted_price": 15.0,
+      "shipping": "+$9.28 delivery",
+      "extracted_shipping": 9.28,
+      "thumbnail": "https://i.ebayimg.com/images/g/DnkAAeSwGrJq2kVE/s-l140.webp"
+    },
+    {
+      "position": 7,
+      "item_id": "307242635328",
+      "title": "Nike Dunk Low Panda Black/White Women’s US 8 Low Top Sneakers DD1503-101",
+      "subtitle": "US W 8 · Nike",
+      "link": "https://www.ebay.com/itm/307242635328",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 16,
+      "reviews_link": "https://www.ebay.com/p/12043544482?iid=307242635328#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$65.00",
+      "extracted_price": 65.0,
+      "shipping": "+$9.28 delivery",
+      "extracted_shipping": 9.28,
+      "thumbnail": "https://i.ebayimg.com/images/g/WOkAAeSw3bNq2Olt/s-l140.webp"
+    },
+    {
+      "position": 8,
+      "item_id": "128155980760",
+      "title": "Nike Dunk Low Retro Panda Men's size 10 White Black Sneakers DD1391-100 NEW NIB",
+      "subtitle": "US M 10 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/128155980760",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 27,
+      "reviews_link": "https://www.ebay.com/p/16058278940?iid=128155980760#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$57.00",
+      "extracted_price": 57.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/X7YAAeSwYONq3lZS/s-l140.webp"
+    },
+    {
+      "position": 9,
+      "item_id": "377595234911",
+      "title": "Nike Panda Dunks Low Men's 10 Black Sneakers",
+      "subtitle": "US M 10 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/377595234911",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$50.00",
+      "extracted_price": 50.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/XrwAAeSwK9Nq3TPM/s-l140.webp"
+    },
+    {
+      "position": 10,
+      "item_id": "820280376051",
+      "title": "Nike Dunk Low Panda Black White Women's Size 11 / Men's 9.5 DD1503-101",
+      "subtitle": "US W 11 · Nike",
+      "link": "https://www.ebay.com/itm/820280376051",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 7,
+      "reviews_link": "https://www.ebay.com/p/2314599603?iid=820280376051#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$75.00",
+      "extracted_price": 75.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/ew8AAeSw8VBq35WR/s-l140.webp"
+    },
+    {
+      "position": 11,
+      "item_id": "206653181526",
+      "title": "Nike Dunk Low Panda Size 9.5 Used",
+      "subtitle": "US M 9.5 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/206653181526",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$11.00",
+      "extracted_price": 11.0,
+      "shipping": "+$8.33 delivery",
+      "extracted_shipping": 8.33,
+      "thumbnail": "https://i.ebayimg.com/images/g/1oUAAeSwIr1q3jmN/s-l140.webp"
+    },
+    {
+      "position": 12,
+      "item_id": "137867037997",
+      "title": "Nike Dunk Low Panda Men's Black & White Colorblock Lace-Up Sneakers Size 9",
+      "subtitle": "US M 9 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/137867037997",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left3d 4h",
+      "extensions": [
+        "+$8.33 delivery",
+        "Located in United States"
+      ],
+      "price": "$21.00",
+      "extracted_price": 21.0,
+      "shipping": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/T6sAAeSwmedq2prM/s-l140.webp"
+    },
+    {
+      "position": 13,
+      "item_id": "168794586602",
+      "title": "Nike Men's Dunk Low Retro White Black Panda 2 Tone Lace Up Shoes Size 9.5 NIB",
+      "subtitle": "US M 9.5 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/168794586602",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 18,
+      "reviews_link": "https://www.ebay.com/p/27058282535?iid=168794586602#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Last one"
+      ],
+      "price": "$74.99",
+      "extracted_price": 74.99,
+      "shipping": "+$12.99 delivery",
+      "extracted_shipping": 12.99,
+      "deal": "$69.99 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/hpQAAeSwf9tqrHHb/s-l140.webp"
+    },
+    {
+      "position": 14,
+      "item_id": "168781432963",
+      "title": "Size 11 Nike Dunk Low Retro Panda White Black Men's Athletic Shoes (DD1391-100)",
+      "subtitle": "US M 11 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/168781432963",
+      "condition": "New (Other)",
+      "rating": 5.0,
+      "reviews": 22,
+      "reviews_link": "https://www.ebay.com/p/7058293481?iid=168781432963#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "7 watchers"
+      ],
+      "price": "$61.99",
+      "extracted_price": 61.99,
+      "shipping": "+$6.95 delivery",
+      "extracted_shipping": 6.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/FwwAAeSwId9qyS-I/s-l140.webp"
+    },
+    {
+      "position": 15,
+      "item_id": "287659688683",
+      "title": "Men's Nike SIZE 11 Dunk Low Retro \"Panda\" White/Black-White DD1391-100 Sneakers",
+      "subtitle": "US M 11 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/287659688683",
+      "condition": "New (Other)",
+      "rating": 5.0,
+      "reviews": 22,
+      "reviews_link": "https://www.ebay.com/p/7058293481?iid=287659688683#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$56.00",
+      "extracted_price": 56.0,
+      "shipping": "+$12.57 delivery",
+      "extracted_shipping": 12.57,
+      "thumbnail": "https://i.ebayimg.com/images/g/xR8AAeSwstJpm5CY/s-l140.webp"
+    },
+    {
+      "position": 16,
+      "item_id": "168807071642",
+      "title": "Nike Dunk Low Panda Black White Womens 8 / Mens 6.5 DD1503-101 Wmns Sneakers Nib",
+      "subtitle": "US W 8 · Nike",
+      "link": "https://www.ebay.com/itm/168807071642",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 16,
+      "reviews_link": "https://www.ebay.com/p/12043544482?iid=168807071642#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$78.00",
+      "extracted_price": 78.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/mx0AAeSwnCZq2IQP/s-l140.webp"
+    },
+    {
+      "position": 17,
+      "item_id": "257817960152",
+      "title": "Nike dunk low panda Size 5.5",
+      "subtitle": "US W 5.5 · Nike",
+      "link": "https://www.ebay.com/itm/257817960152",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$50.00",
+      "extracted_price": 50.0,
+      "shipping": "+$8.45 delivery",
+      "extracted_shipping": 8.45,
+      "thumbnail": "https://i.ebayimg.com/images/g/DM8AAeSwtkVq3tMB/s-l140.webp"
+    },
+    {
+      "position": 18,
+      "item_id": "880053952175",
+      "title": "Nike Dunk Low Retro Panda White Black",
+      "subtitle": "US M 11.5 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/880053952175",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 10,
+      "reviews_link": "https://www.ebay.com/p/8058290668?iid=880053952175#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$120.00",
+      "extracted_price": 120.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/MP0AAeSwEwJq35Vw/s-l140.webp"
+    },
+    {
+      "position": 19,
+      "item_id": "800816334976",
+      "title": "Nike Dunk Low Premium Vintage Panda Shoes FQ8899-100 W 11.5 / M 10 BRAND NEW",
+      "subtitle": "US W 11.5 · Nike",
+      "link": "https://www.ebay.com/itm/800816334976",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$70.00",
+      "extracted_price": 70.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/2kMAAeSwWe9q1yi5/s-l140.webp"
+    },
+    {
+      "position": 20,
+      "item_id": "287659486152",
+      "title": "Nike Dunk Low Retro Panda Black/White Men's US 11 UK 10 EU 45 DD1391-100",
+      "subtitle": "US M 11 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/287659486152",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 22,
+      "reviews_link": "https://www.ebay.com/p/7058293481?iid=287659486152#UserReviews",
+      "buying_format": "0 bids · Time left4h 36m",
+      "extensions": [
+        "+$14.95 delivery",
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$45.55",
+      "extracted_price": 45.55,
+      "shipping": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/y04AAeSwOXBq1qZR/s-l140.webp"
+    },
+    {
+      "position": 21,
+      "item_id": "407316039906",
+      "title": "Nike Dunk Low Panda Black/White US Women’s 7",
+      "subtitle": "US M 7 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/407316039906",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$50.00",
+      "extracted_price": 50.0,
+      "shipping": "+$9.66 delivery",
+      "extracted_shipping": 9.66,
+      "thumbnail": "https://i.ebayimg.com/images/g/DeEAAeSwRONq3pH-/s-l140.webp"
+    },
+    {
+      "position": 22,
+      "item_id": "137872109555",
+      "title": "Nike Dunk Low 'Panda' White Black Sneakers, Size 10 BNIB DD1391-100",
+      "subtitle": "US M 10 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/137872109555",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 27,
+      "reviews_link": "https://www.ebay.com/p/16058278940?iid=137872109555#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$75.00",
+      "extracted_price": 75.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/TekAAeSw-bJq3RaD/s-l140.webp"
+    },
+    {
+      "position": 23,
+      "item_id": "128064633799",
+      "title": "Men's Nike Dunk Low Retro \"Panda\" White/Black-White (DD1391 100)",
+      "subtitle": "US M 11 + more · Nike",
+      "link": "https://www.ebay.com/itm/128064633799",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 22,
+      "reviews_link": "https://www.ebay.com/p/7058293481?iid=128064633799&var=429550607682#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "5% off $100+"
+      ],
+      "price": "$80.70",
+      "extracted_price": 80.7,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/FXcAAeSw03Nq3rnn/s-l140.webp"
+    },
+    {
+      "position": 24,
+      "item_id": "206655512610",
+      "title": "Nike Dunk Low Panda DD1391-100 White Black Men's 12 Worn Once OG Box",
+      "subtitle": "US M 12 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/206655512610",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 14,
+      "reviews_link": "https://www.ebay.com/p/9058284114?iid=206655512610#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$75.00",
+      "extracted_price": 75.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/J4gAAeSwZe5q33MS/s-l140.webp"
+    },
+    {
+      "position": 25,
+      "item_id": "860085762483",
+      "title": "Nike SB Dunk Low Pro x Jeff Staple \"Panda Pigeon\" Size 9 Bv1310-12",
+      "subtitle": "US M 9 · Nike · Nike SB",
+      "link": "https://www.ebay.com/itm/860085762483",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 1,
+      "reviews_link": "https://www.ebay.com/p/7039828970?iid=860085762483#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$240.00",
+      "extracted_price": 240.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/c6cAAeSwQ~5q32bt/s-l140.webp"
+    },
+    {
+      "position": 26,
+      "item_id": "127014063930",
+      "title": "Women's Nike Dunk Low Black/ White Panda DD1503-101 Fashion Shoes",
+      "subtitle": "US W 6.5 + more · Nike",
+      "link": "https://www.ebay.com/itm/127014063930",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 3,
+      "reviews_link": "https://www.ebay.com/p/12043544458?iid=127014063930&var=428157707194#UserReviews",
+      "buying_format": "Buy It Now",
+      "price": "$71.99",
+      "extracted_price": 71.99,
+      "shipping": "Located in United States",
+      "deal": "Free delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/o~YAAeSwbGVn4voB/s-l140.webp"
+    },
+    {
+      "position": 27,
+      "item_id": "880035255758",
+      "title": "Nike Dunk Low Retro Black/White Panda Mens US 11 Sneaker DD1391-100 2021",
+      "subtitle": "US M 11 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/880035255758",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 22,
+      "reviews_link": "https://www.ebay.com/p/7058293481?iid=880035255758#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$65.00",
+      "extracted_price": 65.0,
+      "shipping": "+$9.28 delivery",
+      "extracted_shipping": 9.28,
+      "thumbnail": "https://i.ebayimg.com/images/g/-QgAAeSw1rFqz~2B/s-l140.webp"
+    },
+    {
+      "position": 28,
+      "item_id": "377597942816",
+      "title": "Nike Dunk Low Panda Men's Green size 10",
+      "subtitle": "US M 10 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/377597942816",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$65.00",
+      "extracted_price": 65.0,
+      "shipping": "+$6.53 delivery",
+      "extracted_shipping": 6.53,
+      "thumbnail": "https://i.ebayimg.com/images/g/phcAAeSwoitq3uym/s-l140.webp"
+    },
+    {
+      "position": 29,
+      "item_id": "287587412705",
+      "title": "BRAND NEW Nike Dunk Low Panda DD1503-101 Black White Women’s 12 Men’s 10.5",
+      "subtitle": "US W 12 · Nike",
+      "link": "https://www.ebay.com/itm/287587412705",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$69.99",
+      "extracted_price": 69.99,
+      "shipping": "+$6.71 delivery",
+      "extracted_shipping": 6.71,
+      "thumbnail": "https://i.ebayimg.com/images/g/lvIAAeSwgQNqqNXs/s-l140.webp"
+    },
+    {
+      "position": 30,
+      "item_id": "820192184363",
+      "title": "Nike Dunk Low Panda Size 7",
+      "subtitle": "US M 7 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/820192184363",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 8,
+      "reviews_link": "https://www.ebay.com/p/11058275453?iid=820192184363#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$84.99",
+      "extracted_price": 84.99,
+      "shipping": "+$7.58 delivery",
+      "extracted_shipping": 7.58,
+      "thumbnail": "https://i.ebayimg.com/images/g/-xcAAeSwx0ZqniIR/s-l140.webp"
+    },
+    {
+      "position": 31,
+      "item_id": "840059495401",
+      "title": "Nike Dunk Low Unisex Sneakers Black/White Low Top PANDA women’s US 9.5",
+      "subtitle": "US M 9.5 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/840059495401",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$69.99",
+      "extracted_price": 69.99,
+      "shipping": "+$9.28 delivery",
+      "extracted_shipping": 9.28,
+      "thumbnail": "https://i.ebayimg.com/images/g/lfwAAeSwvlZq3m5U/s-l140.webp"
+    },
+    {
+      "position": 32,
+      "item_id": "820071589850",
+      "title": "Nike Dunk Low Retro White Black 'Panda' DD1391-100 Men's Sizes New",
+      "subtitle": "US M 4 + more · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/820071589850",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 1,
+      "reviews_link": "https://www.ebay.com/p/7058294431?iid=820071589850&var=626907168894#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$70.00",
+      "extracted_price": 70.0,
+      "shipping": "+$6.99 delivery",
+      "extracted_shipping": 6.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/CLYAAeSwU~lqljf~/s-l140.webp"
+    },
+    {
+      "position": 33,
+      "item_id": "800841211388",
+      "title": "Nike Dunk Low Retro Black Panda 2.0 Black/White Men's US 13 DV0831-002",
+      "subtitle": "US M 13 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/800841211388",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$15.00",
+      "extracted_price": 15.0,
+      "shipping": "+$10.08 delivery",
+      "extracted_shipping": 10.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/edQAAeSwZsRq33tT/s-l140.webp"
+    },
+    {
+      "position": 34,
+      "item_id": "237138656335",
+      "title": "Nike Dunk Low Panda Size 9 BRAND NEW",
+      "subtitle": "US M 9 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/237138656335",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$85.00",
+      "extracted_price": 85.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/gi4AAeSwfahq2raw/s-l140.webp"
+    },
+    {
+      "position": 35,
+      "item_id": "128149043753",
+      "title": "Nike Dunk Low Black Panda 2.0 - Size 9.5 NEW",
+      "subtitle": "US M 9.5 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/128149043753",
+      "condition": "New (Other)",
+      "buying_format": "0 bids · Time left1h 20m",
+      "extensions": [
+        "+$14.95 delivery",
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$59.99",
+      "extracted_price": 59.99,
+      "shipping": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/aOEAAeSw6wNqnZn1/s-l140.webp"
+    },
+    {
+      "position": 36,
+      "item_id": "860063669675",
+      "title": "Nike Panda Dunk Sneaker Men’s US 8.5 EU 42",
+      "subtitle": "US M 8.5 · Nike",
+      "link": "https://www.ebay.com/itm/860063669675",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 11,
+      "reviews_link": "https://www.ebay.com/p/10058291688?iid=860063669675#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/0MsAAeSwRjFq1sYg/s-l140.webp"
+    },
+    {
+      "position": 37,
+      "item_id": "377597522097",
+      "title": "Size 8 - Nike Dunk Low '08 Panda 2011",
+      "subtitle": "US M 8 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/377597522097",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$30.00",
+      "extracted_price": 30.0,
+      "shipping": "+$9.14 delivery",
+      "extracted_shipping": 9.14,
+      "thumbnail": "https://i.ebayimg.com/images/g/PjgAAeSwcnBq3qkC/s-l140.webp"
+    },
+    {
+      "position": 38,
+      "item_id": "960088971125",
+      "title": "Nike Dunk Low Retro White Black Panda DD1391-100 Men's Sizes NEW",
+      "subtitle": "US M 9.5 + more · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/960088971125",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 18,
+      "reviews_link": "https://www.ebay.com/p/27058282535?iid=960088971125&var=459466781432#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$79.88",
+      "extracted_price": 79.88,
+      "original_price": "$109.88",
+      "extracted_original_price": 109.88,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/iNIAAeSwvzFput1f/s-l140.webp"
+    },
+    {
+      "position": 39,
+      "item_id": "286461803063",
+      "title": "Nike Dunk Low Retro WOMEN'S White Black Panda DD1503-101 Sneakers Shoes",
+      "subtitle": "US W 6.5 + more · Nike",
+      "link": "https://www.ebay.com/itm/286461803063",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 3,
+      "reviews_link": "https://www.ebay.com/p/12043544458?iid=286461803063&var=589151007978#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "21+ watchers"
+      ],
+      "price": "$69.99",
+      "extracted_price": 69.99,
+      "shipping": "Located in United States",
+      "deal": "+$7.67 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/90AAAOSww79n8CsK/s-l140.webp"
+    },
+    {
+      "position": 40,
+      "item_id": "287672503967",
+      "title": "Size 12 Nike Dunk Low Retro Panda White Black Men's Athletic Shoes",
+      "subtitle": "US M 12 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/287672503967",
+      "condition": "New (Other)",
+      "tag": "NEW LOW PRICE",
+      "rating": 4.5,
+      "reviews": 14,
+      "reviews_link": "https://www.ebay.com/p/9058284114?iid=287672503967#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$45.00",
+      "extracted_price": 45.0,
+      "shipping": "+$17.20 delivery",
+      "extracted_shipping": 17.2,
+      "thumbnail": "https://i.ebayimg.com/images/g/QEkAAeSw2hFq285o/s-l140.webp"
+    },
+    {
+      "position": 41,
+      "item_id": "366759163241",
+      "title": "Nike Dunk Low Panda Black/White CW1590-100 Size 6",
+      "subtitle": "US Kids 6 · Nike",
+      "link": "https://www.ebay.com/itm/366759163241",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$20.00",
+      "extracted_price": 20.0,
+      "shipping": "+$9.28 delivery",
+      "extracted_shipping": 9.28,
+      "thumbnail": "https://i.ebayimg.com/images/g/yloAAeSwN7lq3SyQ/s-l140.webp"
+    },
+    {
+      "position": 42,
+      "item_id": "800827996380",
+      "title": "Nike Dunk Low Black White Panda Women Low Top Sneakers Size 8.5 DD1391-100",
+      "subtitle": "US M 8.5 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/800827996380",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 11,
+      "reviews_link": "https://www.ebay.com/p/10058291688?iid=800827996380#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$28.00",
+      "extracted_price": 28.0,
+      "shipping": "+$7.13 delivery",
+      "extracted_shipping": 7.13,
+      "thumbnail": "https://i.ebayimg.com/images/g/-44AAeSwFyVq2uvB/s-l140.webp"
+    },
+    {
+      "position": 43,
+      "item_id": "128154557492",
+      "title": "Nike Dunk Low GS Panda White/Black Unisex Kids Sneakers US 5 CW1590-100",
+      "subtitle": "US Kids 5 · Nike",
+      "link": "https://www.ebay.com/itm/128154557492",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 2,
+      "reviews_link": "https://www.ebay.com/p/25059777832?iid=128154557492#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "+$8.17 delivery",
+      "extracted_shipping": 8.17,
+      "thumbnail": "https://i.ebayimg.com/images/g/tM8AAeSwtgFq3TIM/s-l140.webp"
+    },
+    {
+      "position": 44,
+      "item_id": "820278986641",
+      "title": "Preowned near mint Nike Dunk Low Panda Shoes Black White DD1391-100 Men's 11",
+      "subtitle": "US M 11 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/820278986641",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 22,
+      "reviews_link": "https://www.ebay.com/p/7058293481?iid=820278986641#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$170.00",
+      "extracted_price": 170.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/f1oAAeSwZe9q3wkV/s-l140.webp"
+    },
+    {
+      "position": 45,
+      "item_id": "206285914393",
+      "title": "Nike Dunk Low Panda-Monium Pack - White Black Multi-Color IB2263-100",
+      "subtitle": "US M 10 + more · Nike",
+      "link": "https://www.ebay.com/itm/206285914393",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$154.00 to $214.00",
+      "extracted_price_range": {
+        "from": 154.0,
+        "to": 214.0
+      },
+      "is_price_range": true,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/EwoAAeSw6tRq1bza/s-l140.webp"
+    },
+    {
+      "position": 46,
+      "item_id": "940038217199",
+      "title": "Mens Nike Dunk Low Panda Black/White Low Top Size 11.5",
+      "subtitle": "US M 11.5 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/940038217199",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$24.00",
+      "extracted_price": 24.0,
+      "shipping": "+$10.59 delivery",
+      "extracted_shipping": 10.59,
+      "thumbnail": "https://i.ebayimg.com/images/g/dj4AAeSwCYhq3Lyd/s-l140.webp"
+    },
+    {
+      "position": 47,
+      "item_id": "117486588452",
+      "title": "Men's Nike Dunk Low Retro \"Panda\" White/Black-White (DD1391 100)",
+      "subtitle": "US M 10 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/117486588452",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 27,
+      "reviews_link": "https://www.ebay.com/p/16058278940?iid=117486588452#UserReviews",
+      "buying_format": "0 bids · Time left5d 20h",
+      "extensions": [
+        "+$10.08 delivery",
+        "Located in United States"
+      ],
+      "price": "$20.00",
+      "extracted_price": 20.0,
+      "shipping": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/3KYAAeSw3E1q3hP1/s-l140.webp"
+    },
+    {
+      "position": 48,
+      "item_id": "800837286104",
+      "title": "Nike Dunk Low Twist Panda White Black DZ2794-001Women's Size 8 NWOB Authentic",
+      "subtitle": "US W 8 · Nike",
+      "link": "https://www.ebay.com/itm/800837286104",
+      "condition": "New (Other)",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$99.00",
+      "extracted_price": 99.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/EtAAAeSwQX1q3iaU/s-l140.webp"
+    },
+    {
+      "position": 49,
+      "item_id": "940037075985",
+      "title": "Nike Dunk Low Retro Panda Black/White Leather Lace Up Men's Sneakers 10",
+      "subtitle": "US M 10 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/940037075985",
+      "condition": "Brand New",
+      "buying_format": "2 bids · Time left4d 7h",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$26.00",
+      "extracted_price": 26.0,
+      "shipping": "+$10.08 delivery",
+      "extracted_shipping": 10.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/sb0AAeSwXX1q3Bh-/s-l140.webp"
+    },
+    {
+      "position": 50,
+      "item_id": "940019831953",
+      "title": "Nike Dunk Low Retro Black White Panda DD1391-100 Men’s Size 11 New",
+      "subtitle": "US M 11 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/940019831953",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 22,
+      "reviews_link": "https://www.ebay.com/p/7058293481?iid=940019831953#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$79.99",
+      "extracted_price": 79.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/jqIAAeSwcP1q0xis/s-l140.webp"
+    },
+    {
+      "position": 51,
+      "item_id": "880035781631",
+      "title": "Nike Dunk Low Retro 'Panda' Mens Shoes Size 8.5 Black/White DD1391 100 NEW",
+      "subtitle": "US M 8.5 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/880035781631",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 11,
+      "reviews_link": "https://www.ebay.com/p/10058291688?iid=880035781631#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$110.00",
+      "extracted_price": 110.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/mz0AAeSwfxhq1-ay/s-l140.webp"
+    },
+    {
+      "position": 52,
+      "item_id": "237134189664",
+      "title": "men's nike dunk low retro casual shoes size 12.5",
+      "subtitle": "US M 12.5 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/237134189664",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$45.00",
+      "extracted_price": 45.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/f5oAAeSwcqNq13sC/s-l140.webp"
+    },
+    {
+      "position": 53,
+      "item_id": "880047085119",
+      "title": "Nike Dunk Low Black White Leather Low Top Sneakers DD1503-101 Panda",
+      "subtitle": "US W 8 · Nike",
+      "link": "https://www.ebay.com/itm/880047085119",
+      "condition": "New (Other)",
+      "tag": "NEW LOW PRICE",
+      "rating": 5.0,
+      "reviews": 16,
+      "reviews_link": "https://www.ebay.com/p/12043544482?iid=880047085119#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$45.00",
+      "extracted_price": 45.0,
+      "shipping": "+$9.28 delivery",
+      "extracted_shipping": 9.28,
+      "thumbnail": "https://i.ebayimg.com/images/g/hZ8AAeSwVDtq3Nb3/s-l140.webp"
+    },
+    {
+      "position": 54,
+      "item_id": "227526212328",
+      "title": "Nike Dunk Low Black White Panda Lace Up Athletic Sneakers DD1391-100 Men's Sizes",
+      "subtitle": "US M 10 + more · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/227526212328",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 27,
+      "reviews_link": "https://www.ebay.com/p/16058278940?iid=227526212328&var=526696519887#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "7+ watchers"
+      ],
+      "price": "$74.97",
+      "extracted_price": 74.97,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/nkMAAeSwqmVqrDHg/s-l140.webp"
+    },
+    {
+      "position": 55,
+      "item_id": "134452609631",
+      "title": "Nike Dunk Low Retro Black White Panda DD1391-100 Men’s Size 9 Brand New!",
+      "subtitle": "US M 9 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/134452609631",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 16,
+      "reviews_link": "https://www.ebay.com/p/15058286470?iid=134452609631#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$75.00",
+      "extracted_price": 75.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/oRwAAOSwmD1j7V0n/s-l140.webp"
+    },
+    {
+      "position": 56,
+      "item_id": "158309834319",
+      "title": "Nike Dunk Low Retro Black White Panda Men's Low Top Sneaker DD1391-100 (BW)",
+      "subtitle": "US M 11 + more · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/158309834319",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 22,
+      "reviews_link": "https://www.ebay.com/p/7058293481?iid=158309834319&var=459425092559#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Authenticity Guarantee"
+      ],
+      "price": "$79.99",
+      "extracted_price": 79.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/UnAAAeSwFyJqGuPN/s-l140.webp"
+    },
+    {
+      "position": 57,
+      "item_id": "407258045891",
+      "title": "Nike Dunk Low Retro Panda White Black Sneakers DD1391-100, Size-10.5",
+      "subtitle": "US M 10.5 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/407258045891",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 21,
+      "reviews_link": "https://www.ebay.com/p/3058290216?iid=407258045891#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$79.99",
+      "extracted_price": 79.99,
+      "shipping": "+$8.74 delivery",
+      "extracted_shipping": 8.74,
+      "thumbnail": "https://i.ebayimg.com/images/g/Lf4AAeSw7fpqvXuf/s-l140.webp"
+    },
+    {
+      "position": 58,
+      "item_id": "820276750113",
+      "title": "Nike Dunk Low Retro Panda Black White DD1391-100 Mens Size 9 Low Top Sneakers",
+      "subtitle": "US M 9 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/820276750113",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 16,
+      "reviews_link": "https://www.ebay.com/p/15058286470?iid=820276750113#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$19.99",
+      "extracted_price": 19.99,
+      "shipping": "+$11.50 delivery",
+      "extracted_shipping": 11.5,
+      "thumbnail": "https://i.ebayimg.com/images/g/MhkAAeSwIaJq3j0S/s-l140.webp"
+    },
+    {
+      "position": 59,
+      "item_id": "407191068475",
+      "title": "Size 6y - Nike Dunk Low Black White Panda",
+      "subtitle": "US M 6 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/407191068475",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$64.99",
+      "extracted_price": 64.99,
+      "shipping": "+$8.27 delivery",
+      "extracted_shipping": 8.27,
+      "thumbnail": "https://i.ebayimg.com/images/g/bQkAAeSwuRRqmeAf/s-l140.webp"
+    },
+    {
+      "position": 60,
+      "item_id": "206597482319",
+      "title": "Nike Dunk Low Retro MEN'S White Black Panda DD1391-100 Sneakers Shoes",
+      "subtitle": "US M 13 · Nike · Nike Dunk",
+      "link": "https://www.ebay.com/itm/206597482319",
+      "condition": "New (Other)",
+      "rating": 4.5,
+      "reviews": 17,
+      "reviews_link": "https://www.ebay.com/p/19058289984?iid=206597482319#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$60.00",
+      "extracted_price": 60.0,
+      "shipping": "+$8.33 delivery",
+      "extracted_shipping": 8.33,
+      "thumbnail": "https://i.ebayimg.com/images/g/bEEAAeSwrdxqv8Kw/s-l140.webp"
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "nike panda dunk low men",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+panda+dunk+low+men&_sop=12"
+    },
+    {
+      "query": "nike dunk low panda womens",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda+womens&_sop=12"
+    },
+    {
+      "query": "nike air force 1",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+force+1&_sop=12"
+    },
+    {
+      "query": "nike panda dunk low women",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+panda+dunk+low+women&_sop=12"
+    },
+    {
+      "query": "nike dunk low mens",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+mens&_sop=12"
+    },
+    {
+      "query": "nike dunk low red panda",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+red+panda&_sop=12"
+    },
+    {
+      "query": "nike dunk low '08 panda 2011",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+%2708+panda+2011&_sop=12"
+    },
+    {
+      "query": "nike dunk low black white",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+black+white&_sop=12"
+    },
+    {
+      "query": "nike dunk low reverse panda",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+reverse+panda&_sop=12"
+    },
+    {
+      "query": "nike dunk low panda 10.5",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda+10.5&_sop=12"
+    },
+    {
+      "query": "nike panda dunk low 9.5",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+panda+dunk+low+9.5&_sop=12"
+    },
+    {
+      "query": "nike panda dunk low mens 9",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+panda+dunk+low+mens+9&_sop=12"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&_dcat=15709&_pgn=2",
+    "other_pages": {
+      "2": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&_dcat=15709&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&_dcat=15709&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&_dcat=15709&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&_dcat=15709&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&_dcat=15709&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&_dcat=15709&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&_dcat=15709&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&_dcat=15709&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_nkw=nike+dunk+low+panda&_fcid=1&_dcat=15709&_pgn=10&rt=nc"
+    }
+  }
+}

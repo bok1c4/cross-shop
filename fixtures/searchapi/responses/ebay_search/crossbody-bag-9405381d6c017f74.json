@@ -1,0 +1,1825 @@
+{
+  "search_metadata": {
+    "id": "search_JoY68Me7qNsW08AdWv0axRVb",
+    "status": "Success",
+    "created_at": "2026-10-26T18:48:54Z",
+    "request_time_taken": 2.37,
+    "parsing_time_taken": 0.14,
+    "total_time_taken": 2.5,
+    "request_url": "https://www.ebay.com/sch/i.html?_nkw=crossbody%20bag&_fcid=1",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_JoY68Me7qNsW08AdWv0axRVb.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_JoY68Me7qNsW08AdWv0axRVb"
+  },
+  "search_parameters": {
+    "engine": "ebay_search",
+    "q": "crossbody bag",
+    "ebay_domain": "ebay.com",
+    "country": "US",
+    "delivery_country": "US"
+  },
+  "search_information": {
+    "query_displayed": "crossbody bag",
+    "total_results": 1500000,
+    "sorted_by": "Sort: Best Match",
+    "buying_format": "All",
+    "language": "en"
+  },
+  "categories": [
+    {
+      "name": "Clothing, Shoes & Accessories",
+      "link": "https://www.ebay.com/sch/11450/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "11450"
+    },
+    {
+      "name": "Women",
+      "link": "https://www.ebay.com/sch/260010/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "260010",
+      "subcategories": [
+        {
+          "name": "Women's Bags & Handbags",
+          "link": "https://www.ebay.com/sch/169291/i.html?_fcid=1&_nkw=crossbody+bag",
+          "category_id": "169291"
+        },
+        {
+          "name": "Women's Accessories",
+          "link": "https://www.ebay.com/sch/4251/i.html?_fcid=1&_nkw=crossbody+bag",
+          "category_id": "4251"
+        },
+        {
+          "name": "Women's Clothing",
+          "link": "https://www.ebay.com/sch/15724/i.html?_fcid=1&_nkw=crossbody+bag",
+          "category_id": "15724"
+        },
+        {
+          "name": "Women's Shoes",
+          "link": "https://www.ebay.com/sch/3034/i.html?_fcid=1&_nkw=crossbody+bag",
+          "category_id": "3034"
+        }
+      ]
+    },
+    {
+      "name": "Cell Phones & Accessories",
+      "link": "https://www.ebay.com/sch/15032/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "15032"
+    },
+    {
+      "name": "Sporting Goods",
+      "link": "https://www.ebay.com/sch/888/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "888"
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "1"
+    },
+    {
+      "name": "Home & Garden",
+      "link": "https://www.ebay.com/sch/11700/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "11700"
+    },
+    {
+      "name": "Travel",
+      "link": "https://www.ebay.com/sch/3252/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "3252"
+    },
+    {
+      "name": "Crafts",
+      "link": "https://www.ebay.com/sch/14339/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "14339"
+    },
+    {
+      "name": "Computers/Tablets & Networking",
+      "link": "https://www.ebay.com/sch/58058/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "58058"
+    },
+    {
+      "name": "Sports Mem, Cards & Fan Shop",
+      "link": "https://www.ebay.com/sch/64482/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "64482"
+    },
+    {
+      "name": "Cameras & Photo",
+      "link": "https://www.ebay.com/sch/625/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "625"
+    },
+    {
+      "name": "Baby",
+      "link": "https://www.ebay.com/sch/2984/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "2984"
+    },
+    {
+      "name": "Toys & Hobbies",
+      "link": "https://www.ebay.com/sch/220/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "220"
+    },
+    {
+      "name": "Pet Supplies",
+      "link": "https://www.ebay.com/sch/1281/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "1281"
+    },
+    {
+      "name": "Health & Beauty",
+      "link": "https://www.ebay.com/sch/26395/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "26395"
+    },
+    {
+      "name": "Everything Else",
+      "link": "https://www.ebay.com/sch/99/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "99"
+    },
+    {
+      "name": "Entertainment Memorabilia",
+      "link": "https://www.ebay.com/sch/45100/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "45100"
+    },
+    {
+      "name": "Dolls & Bears",
+      "link": "https://www.ebay.com/sch/237/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "237"
+    },
+    {
+      "name": "Video Games & Consoles",
+      "link": "https://www.ebay.com/sch/1249/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "1249"
+    },
+    {
+      "name": "Musical Instruments & Gear",
+      "link": "https://www.ebay.com/sch/619/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "619"
+    },
+    {
+      "name": "Business & Industrial",
+      "link": "https://www.ebay.com/sch/12576/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "12576"
+    },
+    {
+      "name": "Jewelry & Watches",
+      "link": "https://www.ebay.com/sch/281/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "281"
+    },
+    {
+      "name": "Antiques",
+      "link": "https://www.ebay.com/sch/20081/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "20081"
+    },
+    {
+      "name": "eBay Motors",
+      "link": "https://www.ebay.com/sch/6000/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "6000"
+    },
+    {
+      "name": "Consumer Electronics",
+      "link": "https://www.ebay.com/sch/293/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "293"
+    },
+    {
+      "name": "Specialty Services",
+      "link": "https://www.ebay.com/sch/316/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "316"
+    },
+    {
+      "name": "Art",
+      "link": "https://www.ebay.com/sch/550/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "550"
+    },
+    {
+      "name": "Books & Magazines",
+      "link": "https://www.ebay.com/sch/267/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "267"
+    },
+    {
+      "name": "Music",
+      "link": "https://www.ebay.com/sch/11233/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "11233"
+    },
+    {
+      "name": "Stamps",
+      "link": "https://www.ebay.com/sch/260/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "260"
+    },
+    {
+      "name": "Movies & TV",
+      "link": "https://www.ebay.com/sch/11232/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "11232"
+    },
+    {
+      "name": "Pottery & Glass",
+      "link": "https://www.ebay.com/sch/870/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "870"
+    },
+    {
+      "name": "Tickets & Experiences",
+      "link": "https://www.ebay.com/sch/1305/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "1305"
+    },
+    {
+      "name": "Gift Cards & Coupons",
+      "link": "https://www.ebay.com/sch/172008/i.html?_fcid=1&_nkw=crossbody+bag",
+      "category_id": "172008"
+    }
+  ],
+  "filters": [
+    {
+      "type": "Shipping and pickup",
+      "options": [
+        {
+          "text": "Arrives in 2-4 days",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc&LH_FAST=1"
+        },
+        {
+          "text": "Free Shipping",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc&LH_FS=1"
+        },
+        {
+          "text": "Local Pickup within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc&_sadis=25&_fspt=1&_stpos=02301&LH_PrefLoc=99&LH_LPickup=1"
+        }
+      ]
+    },
+    {
+      "type": "Size",
+      "options": [
+        {
+          "text": "Nano (1,192) Items",
+          "items": 1192,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Size=Nano&_dcat=169291"
+        },
+        {
+          "text": "Micro (2,252) Items",
+          "items": 2252,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Size=Micro&_dcat=169291"
+        },
+        {
+          "text": "Mini (82,220) Items",
+          "items": 82220,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Size=Mini&_dcat=169291"
+        },
+        {
+          "text": "Small (417,774) Items",
+          "items": 417774,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Size=Small&_dcat=169291"
+        },
+        {
+          "text": "Medium (404,173) Items",
+          "items": 404173,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Size=Medium&_dcat=169291"
+        },
+        {
+          "text": "Large (168,309) Items",
+          "items": 168309,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Size=Large&_dcat=169291"
+        },
+        {
+          "text": "Extra Large (9,580) Items",
+          "items": 9580,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Size=Extra%2520Large&_dcat=169291"
+        },
+        {
+          "text": "Not Specified (640,075) Items",
+          "items": 640075,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Size=%21&_dcat=169291"
+        }
+      ]
+    },
+    {
+      "type": "Style",
+      "options": [
+        {
+          "text": "Crossbody (1,242,477) Items",
+          "items": 1242477,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Style=Crossbody&_dcat=169291"
+        },
+        {
+          "text": "Shoulder Bag (370,338) Items",
+          "items": 370338,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Style=Shoulder%2520Bag&_dcat=169291"
+        },
+        {
+          "text": "Messenger Bag (84,395) Items",
+          "items": 84395,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Style=Messenger%2520Bag&_dcat=169291"
+        },
+        {
+          "text": "Satchel/Top Handle Bag (83,081) Items",
+          "items": 83081,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Style=Satchel%252FTop%2520Handle%2520Bag&_dcat=169291"
+        },
+        {
+          "text": "Tote (77,525) Items",
+          "items": 77525,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Style=Tote&_dcat=169291"
+        },
+        {
+          "text": "Belt Bag & Fanny Pack (31,335) Items",
+          "items": 31335,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Style=Belt%2520Bag%2520%2526%2520Fanny%2520Pack&_dcat=169291"
+        },
+        {
+          "text": "Duffle (30,746) Items",
+          "items": 30746,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Style=Duffle&_dcat=169291"
+        },
+        {
+          "text": "Hobo Bag (26,051) Items",
+          "items": 26051,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Style=Hobo%2520Bag&_dcat=169291"
+        }
+      ]
+    },
+    {
+      "type": "Exterior Material",
+      "options": [
+        {
+          "text": "Leather (724,740) Items",
+          "items": 724740,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Exterior%2520Material=Leather&_dcat=169291"
+        },
+        {
+          "text": "Canvas (153,094) Items",
+          "items": 153094,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Exterior%2520Material=Canvas&_dcat=169291"
+        },
+        {
+          "text": "Nylon (105,725) Items",
+          "items": 105725,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Exterior%2520Material=Nylon&_dcat=169291"
+        },
+        {
+          "text": "Faux Leather (188,801) Items",
+          "items": 188801,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Exterior%2520Material=Faux%2520Leather&_dcat=169291"
+        },
+        {
+          "text": "Polyester (78,985) Items",
+          "items": 78985,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Exterior%2520Material=Polyester&_dcat=169291"
+        },
+        {
+          "text": "Cotton (77,969) Items",
+          "items": 77969,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Exterior%2520Material=Cotton&_dcat=169291"
+        },
+        {
+          "text": "PVC (35,540) Items",
+          "items": 35540,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Exterior%2520Material=PVC&_dcat=169291"
+        },
+        {
+          "text": "Polyurethane (28,007) Items",
+          "items": 28007,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Exterior%2520Material=Polyurethane&_dcat=169291"
+        }
+      ]
+    },
+    {
+      "type": "Brand",
+      "options": [
+        {
+          "text": "Coach (103,513) Items",
+          "items": 103513,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Brand=Coach&_dcat=169291"
+        },
+        {
+          "text": "Fossil (27,023) Items",
+          "items": 27023,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Brand=Fossil&_dcat=169291"
+        },
+        {
+          "text": "Gucci (42,916) Items",
+          "items": 42916,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Brand=Gucci&_dcat=169291"
+        },
+        {
+          "text": "kate spade new york (53,151) Items",
+          "items": 53151,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Brand=kate%2520spade%2520new%2520york&_dcat=169291"
+        },
+        {
+          "text": "Louis Vuitton (55,062) Items",
+          "items": 55062,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Brand=Louis%2520Vuitton&_dcat=169291"
+        },
+        {
+          "text": "Michael Kors (56,009) Items",
+          "items": 56009,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Brand=Michael%2520Kors&_dcat=169291"
+        },
+        {
+          "text": "Unbranded (293,828) Items",
+          "items": 293828,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Brand=Unbranded&_dcat=169291"
+        },
+        {
+          "text": "Vera Bradley (46,845) Items",
+          "items": 46845,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Brand=Vera%2520Bradley&_dcat=169291"
+        }
+      ]
+    },
+    {
+      "type": "Handle Style",
+      "options": [
+        {
+          "text": "Crossbody Strap (535,579) Items",
+          "items": 535579,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Handle%2520Style=Crossbody%2520Strap&_dcat=169291"
+        },
+        {
+          "text": "Shoulder Strap (241,635) Items",
+          "items": 241635,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Handle%2520Style=Shoulder%2520Strap&_dcat=169291"
+        },
+        {
+          "text": "Double Handles (67,073) Items",
+          "items": 67073,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Handle%2520Style=Double%2520Handles&_dcat=169291"
+        },
+        {
+          "text": "Top Handle (64,913) Items",
+          "items": 64913,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Handle%2520Style=Top%2520Handle&_dcat=169291"
+        },
+        {
+          "text": "Wrist Strap (2,558) Items",
+          "items": 2558,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Handle%2520Style=Wrist%2520Strap&_dcat=169291"
+        },
+        {
+          "text": "Not Specified (825,293) Items",
+          "items": 825293,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Handle%2520Style=%21&_dcat=169291"
+        }
+      ]
+    },
+    {
+      "type": "Closure",
+      "options": [
+        {
+          "text": "Zip (799,025) Items",
+          "items": 799025,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Closure=Zip&_dcat=169291"
+        },
+        {
+          "text": "Magnetic (169,403) Items",
+          "items": 169403,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Closure=Magnetic&_dcat=169291"
+        },
+        {
+          "text": "Snap (130,796) Items",
+          "items": 130796,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Closure=Snap&_dcat=169291"
+        },
+        {
+          "text": "Buckle (128,255) Items",
+          "items": 128255,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Closure=Buckle&_dcat=169291"
+        },
+        {
+          "text": "Turn Lock (41,143) Items",
+          "items": 41143,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Closure=Turn%2520Lock&_dcat=169291"
+        },
+        {
+          "text": "Drawstring (29,586) Items",
+          "items": 29586,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Closure=Drawstring&_dcat=169291"
+        },
+        {
+          "text": "Button (22,252) Items",
+          "items": 22252,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Closure=Button&_dcat=169291"
+        },
+        {
+          "text": "Clasp (16,585) Items",
+          "items": 16585,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Closure=Clasp&_dcat=169291"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "options": [
+        {
+          "text": "Adjustable Strap (713,322) Items",
+          "items": 713322,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Features=Adjustable%2520Strap&_dcat=169291"
+        },
+        {
+          "text": "Cross-Body Strap (393,188) Items",
+          "items": 393188,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Features=Cross%252DBody%2520Strap&_dcat=169291"
+        },
+        {
+          "text": "Inner Pockets (376,816) Items",
+          "items": 376816,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Features=Inner%2520Pockets&_dcat=169291"
+        },
+        {
+          "text": "Pockets (296,030) Items",
+          "items": 296030,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Features=Pockets&_dcat=169291"
+        },
+        {
+          "text": "Lightweight (206,870) Items",
+          "items": 206870,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Features=Lightweight&_dcat=169291"
+        },
+        {
+          "text": "Lined (206,083) Items",
+          "items": 206083,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Features=Lined&_dcat=169291"
+        },
+        {
+          "text": "Outer Pockets (199,089) Items",
+          "items": 199089,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Features=Outer%2520Pockets&_dcat=169291"
+        },
+        {
+          "text": "Eco Friendly (104,756) Items",
+          "items": 104756,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Features=Eco%2520Friendly&_dcat=169291"
+        }
+      ]
+    },
+    {
+      "type": "Occasion",
+      "options": [
+        {
+          "text": "Casual (704,148) Items",
+          "items": 704148,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Occasion=Casual&_dcat=169291"
+        },
+        {
+          "text": "Travel (507,206) Items",
+          "items": 507206,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Occasion=Travel&_dcat=169291"
+        },
+        {
+          "text": "Business (268,208) Items",
+          "items": 268208,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Occasion=Business&_dcat=169291"
+        },
+        {
+          "text": "Party/Cocktail (213,261) Items",
+          "items": 213261,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Occasion=Party%252FCocktail&_dcat=169291"
+        },
+        {
+          "text": "Workwear (209,943) Items",
+          "items": 209943,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Occasion=Workwear&_dcat=169291"
+        },
+        {
+          "text": "Formal (161,166) Items",
+          "items": 161166,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Occasion=Formal&_dcat=169291"
+        },
+        {
+          "text": "Wedding (108,383) Items",
+          "items": 108383,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Occasion=Wedding&_dcat=169291"
+        },
+        {
+          "text": "Not Specified (99,682) Items",
+          "items": 99682,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&Occasion=%21&_dcat=169291"
+        }
+      ]
+    },
+    {
+      "type": "Condition",
+      "options": [
+        {
+          "text": "New with tags (559,082) Items",
+          "items": 559082,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc&LH_ItemCondition=1000"
+        },
+        {
+          "text": "New without tags (242,644) Items",
+          "items": 242644,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc&LH_ItemCondition=1500"
+        },
+        {
+          "text": "New with imperfections (15,938) Items",
+          "items": 15938,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc&LH_ItemCondition=1750"
+        },
+        {
+          "text": "Pre-Owned (908,542) Items",
+          "items": 908542,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc&LH_ItemCondition=3000"
+        },
+        {
+          "text": "Not Specified (4) Items",
+          "items": 4,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc&LH_ItemCondition=10"
+        }
+      ]
+    },
+    {
+      "type": "Buying Format",
+      "options": [
+        {
+          "text": "All Listings (1,726,210) Items",
+          "items": 1726210,
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc"
+        },
+        {
+          "text": "Auction (18,830) Items",
+          "items": 18830,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc&LH_Auction=1"
+        },
+        {
+          "text": "Buy It Now (1,712,730) Items",
+          "items": 1712730,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc&LH_BIN=1"
+        },
+        {
+          "text": "Accepts Offers (963,919) Items",
+          "items": 963919,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc&LH_BO=1"
+        }
+      ]
+    },
+    {
+      "type": "Item Location",
+      "options": [
+        {
+          "text": "Default",
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc&LH_PrefLoc=98"
+        },
+        {
+          "text": "Within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&_dcat=169291&_sadis=25&_stpos=02301&_fspt=1"
+        },
+        {
+          "text": "US Only",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc&LH_PrefLoc=1"
+        },
+        {
+          "text": "North America",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc&LH_PrefLoc=3"
+        },
+        {
+          "text": "Worldwide",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc&LH_PrefLoc=2"
+        }
+      ]
+    },
+    {
+      "type": "Show only",
+      "options": [
+        {
+          "text": "Free Returns",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc&LH_FR=1"
+        },
+        {
+          "text": "Returns Accepted",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc&LH_RPA=1"
+        },
+        {
+          "text": "Authorized Seller",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc&LH_AS=1"
+        },
+        {
+          "text": "Completed Items",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc&LH_Complete=1"
+        },
+        {
+          "text": "Sold Items",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc&LH_Sold=1"
+        },
+        {
+          "text": "Deals & Savings",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&rt=nc&LH_Savings=1"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "item_id": "127984533683",
+      "title": "Women'S Canvas Shoulder Bag Large Capacity Crossbody Bag Cartoon Messenger Tote",
+      "link": "https://www.ebay.com/itm/127984533683",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$22.25 to $22.75",
+      "extracted_price_range": {
+        "from": 22.25,
+        "to": 22.75
+      },
+      "is_price_range": true,
+      "shipping": "+$4.55 delivery",
+      "extracted_shipping": 4.55,
+      "thumbnail": "https://i.ebayimg.com/images/g/VoEAAeSwLqJp6dLB/s-l500.webp"
+    },
+    {
+      "position": 2,
+      "item_id": "127983504690",
+      "title": "Crossbody Bag for Women Chain Strap Banquet Stylish Accessory Shoulder Bag for D",
+      "link": "https://www.ebay.com/itm/127983504690",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$9.22 to $10.20",
+      "extracted_price_range": {
+        "from": 9.22,
+        "to": 10.2
+      },
+      "is_price_range": true,
+      "shipping": "+$4.10 delivery",
+      "extracted_shipping": 4.1,
+      "thumbnail": "https://i.ebayimg.com/images/g/KesAAeSwzp1p6e2u/s-l500.webp"
+    },
+    {
+      "position": 3,
+      "item_id": "287001995959",
+      "title": "Everywhere Belt Bag/Fanny Pack Unisex - Black",
+      "link": "https://www.ebay.com/itm/287001995959",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "135 watchers"
+      ],
+      "price": "$12.99",
+      "extracted_price": 12.99,
+      "shipping": "+$7.73 delivery",
+      "extracted_shipping": 7.73,
+      "thumbnail": "https://i.ebayimg.com/images/g/U4MAAeSw4lZpOahF/s-l140.webp"
+    },
+    {
+      "position": 4,
+      "item_id": "960119034147",
+      "title": "Tommy Hilfiger Navy Quilted Crossbody Bag – Chic Designer Style",
+      "subtitle": "Size SMALL · Tommy Hilfiger",
+      "link": "https://www.ebay.com/itm/960119034147",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$24.99",
+      "extracted_price": 24.99,
+      "shipping": "+$6.16 delivery",
+      "extracted_shipping": 6.16,
+      "thumbnail": "https://i.ebayimg.com/images/g/Ec0AAeSwUxdq34PV/s-l140.webp"
+    },
+    {
+      "position": 5,
+      "item_id": "257818889368",
+      "title": "Coach Large Laurel Maple Bag Zip Closure Detachable Adjustable Crossbody Strap",
+      "subtitle": "Size LARGE · Coach",
+      "link": "https://www.ebay.com/itm/257818889368",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$175.00",
+      "extracted_price": 175.0,
+      "shipping": "+$6.71 delivery",
+      "extracted_shipping": 6.71,
+      "thumbnail": "https://i.ebayimg.com/images/g/1NUAAeSwwqpq34Be/s-l140.webp"
+    },
+    {
+      "position": 6,
+      "item_id": "960119212584",
+      "title": "Steve Madden Pink/Yellow Logo Print Small Crossbody Bag Zip Detachable Strap",
+      "subtitle": "Size SMALL · Steve Madden",
+      "link": "https://www.ebay.com/itm/960119212584",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$13.00",
+      "extracted_price": 13.0,
+      "shipping": "+$6.16 delivery",
+      "extracted_shipping": 6.16,
+      "thumbnail": "https://i.ebayimg.com/images/g/TTgAAeSw8oNq35Ok/s-l140.webp"
+    },
+    {
+      "position": 7,
+      "item_id": "307250589119",
+      "title": "Kate Spade New York Beige Croc Embossed Leather Crossbody Bag Gold Hardware",
+      "subtitle": "kate spade new york",
+      "link": "https://www.ebay.com/itm/307250589119",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$30.00",
+      "extracted_price": 30.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/NlUAAeSw7qVq35WB/s-l140.webp"
+    },
+    {
+      "position": 8,
+      "item_id": "267824492989",
+      "title": "Brown Leather Crossbody Handbag Zip Top Adjustable Detachable Strap Gold HW",
+      "link": "https://www.ebay.com/itm/267824492989",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left6d 22h",
+      "extensions": [
+        "Free delivery",
+        "Located in United States"
+      ],
+      "price": "$4.00",
+      "extracted_price": 4.0,
+      "shipping": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/SmUAAeSwhe5q33mq/s-l140.webp"
+    },
+    {
+      "position": 9,
+      "item_id": "407317731108",
+      "title": "Madden Girl Dusty Rose Crossbody Fanny pack: Adjustable Strap, Gold Hardware",
+      "subtitle": "Madden Girl",
+      "link": "https://www.ebay.com/itm/407317731108",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$20.00",
+      "extracted_price": 20.0,
+      "shipping": "+$6.94 delivery",
+      "extracted_shipping": 6.94,
+      "thumbnail": "https://i.ebayimg.com/images/g/wi4AAeSwIr1q328i/s-l140.webp"
+    },
+    {
+      "position": 10,
+      "item_id": "377585421776",
+      "title": "Women's Gray Small Faux Leather Satchel Top Handle Crossbody Gold Hardware",
+      "subtitle": "Size SMALL",
+      "link": "https://www.ebay.com/itm/377585421776",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$21.99",
+      "extracted_price": 21.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/tfYAAeSwZuFq17gQ/s-l140.webp"
+    },
+    {
+      "position": 11,
+      "item_id": "366762546132",
+      "title": "Beikamu & Bags Brown Pebbled Leather Zip Crossbody Handbag Detachable Strap",
+      "link": "https://www.ebay.com/itm/366762546132",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$12.00",
+      "extracted_price": 12.0,
+      "shipping": "+$7.13 delivery",
+      "extracted_shipping": 7.13,
+      "thumbnail": "https://i.ebayimg.com/images/g/kncAAeSwVDtq32tk/s-l140.webp"
+    },
+    {
+      "position": 12,
+      "item_id": "860085651048",
+      "title": "baggallini Black Nylon Crossbody Handbag, Zip, Adjustable Detachable Strap",
+      "subtitle": "Size MEDIUM · baggallini",
+      "link": "https://www.ebay.com/itm/860085651048",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$9.00",
+      "extracted_price": 9.0,
+      "shipping": "+$6.36 delivery",
+      "extracted_shipping": 6.36,
+      "thumbnail": "https://i.ebayimg.com/images/g/ORoAAeSwJRhq31kv/s-l140.webp"
+    },
+    {
+      "position": 13,
+      "item_id": "257818509939",
+      "title": "Vintage Fossil rich mocha solid leather crossbody",
+      "subtitle": "Fossil",
+      "link": "https://www.ebay.com/itm/257818509939",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$20.00",
+      "extracted_price": 20.0,
+      "shipping": "+$7.13 delivery",
+      "extracted_shipping": 7.13,
+      "thumbnail": "https://i.ebayimg.com/images/g/eJEAAeSwxrdq30B3/s-l140.webp"
+    },
+    {
+      "position": 14,
+      "item_id": "127984518195",
+      "title": "Retro Solid Color PU Leather Shoulder Underarm Bag Women'S Fashion Handbags Casu",
+      "link": "https://www.ebay.com/itm/127984518195",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$10.74 to $12.36",
+      "extracted_price_range": {
+        "from": 10.74,
+        "to": 12.36
+      },
+      "is_price_range": true,
+      "shipping": "+$4.10 delivery",
+      "extracted_shipping": 4.1,
+      "thumbnail": "https://i.ebayimg.com/images/g/xXAAAeSwf2lp6dK4/s-l140.webp"
+    },
+    {
+      "position": 15,
+      "item_id": "206655611145",
+      "title": "Lululemon Everywhere Sling Bag Small 2L",
+      "subtitle": "Size SMALL · Lululemon",
+      "link": "https://www.ebay.com/itm/206655611145",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 49,
+      "reviews_link": "https://www.ebay.com/p/5058133344?iid=206655611145#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$44.00",
+      "extracted_price": 44.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/I4AAAeSwURJprcXv/s-l140.webp"
+    },
+    {
+      "position": 16,
+      "item_id": "127984678254",
+      "title": "Large Capacity Nylon Crossbody Bag Casual Solid Color Messenger Shoulder Bag wit",
+      "link": "https://www.ebay.com/itm/127984678254",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$17.49 to $18.34",
+      "extracted_price_range": {
+        "from": 17.49,
+        "to": 18.34
+      },
+      "is_price_range": true,
+      "shipping": "+$4.10 delivery",
+      "extracted_shipping": 4.1,
+      "thumbnail": "https://i.ebayimg.com/images/g/aJMAAeSwAnFp7Ku2/s-l140.webp"
+    },
+    {
+      "position": 17,
+      "item_id": "227584573278",
+      "title": "Michael Kors Jet Set Saffiano Leather Blue Crossbody Zip Top Chain Strap",
+      "subtitle": "Size SMALL · Michael Kors",
+      "link": "https://www.ebay.com/itm/227584573278",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$50.00",
+      "extracted_price": 50.0,
+      "shipping": "+$6.71 delivery",
+      "extracted_shipping": 6.71,
+      "thumbnail": "https://i.ebayimg.com/images/g/rQUAAeSw5J9q35vJ/s-l140.webp"
+    },
+    {
+      "position": 18,
+      "item_id": "198746420413",
+      "title": "Christmas Print Quilted Sling Backpack for Women Red Crossbody Bag Gold Zippers",
+      "link": "https://www.ebay.com/itm/198746420413",
+      "condition": "New (Other)",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$10.90",
+      "extracted_price": 10.9,
+      "shipping": "+$7.00 delivery",
+      "extracted_shipping": 7.0,
+      "thumbnail": "https://i.ebayimg.com/images/g/Qt4AAeSwU9lq2IKz/s-l140.webp"
+    },
+    {
+      "position": 19,
+      "item_id": "860085670531",
+      "title": "Tommy Hilfiger Beige/Brown Monogram Canvas Crossbody Bag Zip Lined Pockets",
+      "subtitle": "Size MEDIUM · Tommy Hilfiger",
+      "link": "https://www.ebay.com/itm/860085670531",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$15.00",
+      "extracted_price": 15.0,
+      "shipping": "+$6.36 delivery",
+      "extracted_shipping": 6.36,
+      "thumbnail": "https://i.ebayimg.com/images/g/gqYAAeSw4wxq31tz/s-l140.webp"
+    },
+    {
+      "position": 20,
+      "item_id": "307250540237",
+      "title": "Black Woven Wicker Crossbody Handbag Brown Leather Strap Snap Lined Oval",
+      "link": "https://www.ebay.com/itm/307250540237",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$10.00",
+      "extracted_price": 10.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/Ju4AAeSwRD5q34xY/s-l140.webp"
+    },
+    {
+      "position": 21,
+      "item_id": "880053971345",
+      "title": "Large Jack Georges Crossbody Bag Voyager Brown Leather Handbag Unisex",
+      "subtitle": "Size MEDIUM · Jack Georges",
+      "link": "https://www.ebay.com/itm/880053971345",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$55.00",
+      "extracted_price": 55.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/tuYAAeSw0O9q35im/s-l140.webp"
+    },
+    {
+      "position": 22,
+      "item_id": "366762554983",
+      "title": "Floral Woven Fabric Crescent Shoulder Bag Zip Lined Gold Chain Detachable Strap",
+      "link": "https://www.ebay.com/itm/366762554983",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$15.00",
+      "extracted_price": 15.0,
+      "shipping": "+$6.24 delivery",
+      "extracted_shipping": 6.24,
+      "thumbnail": "https://i.ebayimg.com/images/g/xD0AAeSw4Qlq32yE/s-l140.webp"
+    },
+    {
+      "position": 23,
+      "item_id": "860084185022",
+      "title": "Michael Kors Monogram Canvas Crossbody Handbag Zip Top Brown Beige Silver",
+      "subtitle": "Michael Kors",
+      "link": "https://www.ebay.com/itm/860084185022",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$30.00",
+      "extracted_price": 30.0,
+      "shipping": "+$9.28 delivery",
+      "extracted_shipping": 9.28,
+      "thumbnail": "https://i.ebayimg.com/images/g/jHsAAeSwfmdq3sxJ/s-l140.webp"
+    },
+    {
+      "position": 24,
+      "item_id": "307250633491",
+      "title": "Leather Argyle/Diamond Crossbody Handbag, Made in Brazil, Adjustable Strap",
+      "link": "https://www.ebay.com/itm/307250633491",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$68.00",
+      "extracted_price": 68.0,
+      "shipping": "+$6.71 delivery",
+      "extracted_shipping": 6.71,
+      "thumbnail": "https://i.ebayimg.com/images/g/dUQAAeSw4xxq351w/s-l140.webp"
+    },
+    {
+      "position": 25,
+      "item_id": "407316848398",
+      "title": "Black Pebbled Faux Leather Mini Zip Satchel Tote Top Handle Detachable Strap",
+      "subtitle": "Size MEDIUM",
+      "link": "https://www.ebay.com/itm/407316848398",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$6.00",
+      "extracted_price": 6.0,
+      "shipping": "+$6.73 delivery",
+      "extracted_shipping": 6.73,
+      "thumbnail": "https://i.ebayimg.com/images/g/L1cAAeSwVBRq3wF6/s-l140.webp"
+    },
+    {
+      "position": 26,
+      "item_id": "117488560764",
+      "title": "Lauren Ralph Lauren Black Embossed Leather Crossbody Bag Silver Chain Strap",
+      "subtitle": "Size SMALL · Lauren Ralph Lauren",
+      "link": "https://www.ebay.com/itm/117488560764",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$15.00",
+      "extracted_price": 15.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/9-EAAeSwMFJq33cz/s-l140.webp"
+    },
+    {
+      "position": 27,
+      "item_id": "117488646065",
+      "title": "Coach Signature Jacquard Canvas/Leather Crossbody Handbag Gray Zip Adjustable",
+      "subtitle": "Coach",
+      "link": "https://www.ebay.com/itm/117488646065",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$25.00",
+      "extracted_price": 25.0,
+      "shipping": "+$6.52 delivery",
+      "extracted_shipping": 6.52,
+      "thumbnail": "https://i.ebayimg.com/images/g/ktsAAeSw~K9q34eI/s-l140.webp"
+    },
+    {
+      "position": 28,
+      "item_id": "860085708116",
+      "title": "Vintage HandMade Embossed Brown Leather Boho Crossbody Bag",
+      "subtitle": "Size MEDIUM",
+      "link": "https://www.ebay.com/itm/860085708116",
+      "condition": "New (Other)",
+      "buying_format": "0 bids · Time left6d 20h",
+      "extensions": [
+        "+$7.08 delivery",
+        "Located in United States"
+      ],
+      "price": "$28.00",
+      "extracted_price": 28.0,
+      "shipping": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/nFUAAeSwvbdq32BN/s-l140.webp"
+    },
+    {
+      "position": 29,
+      "item_id": "127983504624",
+      "title": "Allover Rhinestone Bucket Bag, Glitter Chain Prom Purse, Women'S Mini Crossbody",
+      "link": "https://www.ebay.com/itm/127983504624",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$10.41 to $13.20",
+      "extracted_price_range": {
+        "from": 10.41,
+        "to": 13.2
+      },
+      "is_price_range": true,
+      "shipping": "+$4.10 delivery",
+      "extracted_shipping": 4.1,
+      "thumbnail": "https://i.ebayimg.com/images/g/n04AAeSwUv5p6e2s/s-l140.webp"
+    },
+    {
+      "position": 30,
+      "item_id": "127984518122",
+      "title": "New Fashion Women'S Shoulder Bag Large Capacity Ribbon Chain Bucket Bag Crossbod",
+      "link": "https://www.ebay.com/itm/127984518122",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$18.22 to $21.01",
+      "extracted_price_range": {
+        "from": 18.22,
+        "to": 21.01
+      },
+      "is_price_range": true,
+      "shipping": "+$4.10 delivery",
+      "extracted_shipping": 4.1,
+      "thumbnail": "https://i.ebayimg.com/images/g/euYAAeSwVRdp6dK4/s-l140.webp"
+    },
+    {
+      "position": 31,
+      "item_id": "127984633254",
+      "title": "Mini Fabric Crossbody Bag, Color Contrast Cell Phone Bag, Vintage Shoulder Purse",
+      "subtitle": "Size MINI + more",
+      "link": "https://www.ebay.com/itm/127984633254",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$11.65 to $12.17",
+      "extracted_price_range": {
+        "from": 11.65,
+        "to": 12.17
+      },
+      "is_price_range": true,
+      "shipping": "+$4.10 delivery",
+      "extracted_shipping": 4.1,
+      "thumbnail": "https://i.ebayimg.com/images/g/66AAAeSw8oNp-GdC/s-l140.webp"
+    },
+    {
+      "position": 32,
+      "item_id": "127984633430",
+      "title": "Mini Fabric Crossbody Bag, Color Contrast Cell Phone Bag, Vintage Shoulder Purse",
+      "link": "https://www.ebay.com/itm/127984633430",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$13.55 to $14.14",
+      "extracted_price_range": {
+        "from": 13.55,
+        "to": 14.14
+      },
+      "is_price_range": true,
+      "shipping": "+$4.10 delivery",
+      "extracted_shipping": 4.1,
+      "thumbnail": "https://i.ebayimg.com/images/g/ztoAAeSwldpp-GdD/s-l140.webp"
+    },
+    {
+      "position": 33,
+      "item_id": "377599083550",
+      "title": "BAMBOO TRADING HAND BEADED CLUB BAG GUITAR CELLPHONE CROSSBODY WRISTLET PURSE",
+      "subtitle": "Size SMALL",
+      "link": "https://www.ebay.com/itm/377599083550",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$28.00",
+      "extracted_price": 28.0,
+      "shipping": "+$6.23 delivery",
+      "extracted_shipping": 6.23,
+      "thumbnail": "https://i.ebayimg.com/images/g/wA8AAeSw8nNq33~k/s-l140.webp"
+    },
+    {
+      "position": 34,
+      "item_id": "287681755931",
+      "title": "NWT Coach 65547 Sadie Crossbody Clutch Pink Pebble Leather Double Zip Purse",
+      "subtitle": "Size SMALL · Coach",
+      "link": "https://www.ebay.com/itm/287681755931",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$150.00",
+      "extracted_price": 150.0,
+      "shipping": "+$6.57 delivery",
+      "extracted_shipping": 6.57,
+      "thumbnail": "https://i.ebayimg.com/images/g/W60AAeSwteJq335R/s-l140.webp"
+    },
+    {
+      "position": 35,
+      "item_id": "407317898358",
+      "title": "befen Women’s Black Leather Croc Small Crossbody Zip Adj Strap Lined Pockets",
+      "subtitle": "Size SMALL",
+      "link": "https://www.ebay.com/itm/407317898358",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$21.00",
+      "extracted_price": 21.0,
+      "shipping": "+$6.09 delivery",
+      "extracted_shipping": 6.09,
+      "thumbnail": "https://i.ebayimg.com/images/g/lW4AAeSwI5Fq34II/s-l140.webp"
+    },
+    {
+      "position": 36,
+      "item_id": "960119064117",
+      "title": "Fabulous Black & White Patterned Crossbody Bag – Chic Statement Handbag",
+      "subtitle": "Size SMALL · Calvin Klein",
+      "link": "https://www.ebay.com/itm/960119064117",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$49.99",
+      "extracted_price": 49.99,
+      "shipping": "+$6.16 delivery",
+      "extracted_shipping": 6.16,
+      "thumbnail": "https://i.ebayimg.com/images/g/VzYAAeSwGwBq34fN/s-l140.webp"
+    },
+    {
+      "position": 37,
+      "item_id": "820279749346",
+      "title": "Fossil Black Leather Crossbody Handbag Adjustable Strap Gold Hardware",
+      "subtitle": "Fossil",
+      "link": "https://www.ebay.com/itm/820279749346",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$20.00",
+      "extracted_price": 20.0,
+      "shipping": "+$9.28 delivery",
+      "extracted_shipping": 9.28,
+      "thumbnail": "https://i.ebayimg.com/images/g/QO0AAeSw-Khq31IC/s-l140.webp"
+    },
+    {
+      "position": 38,
+      "item_id": "377598471192",
+      "title": "Leather Crossbody Bags for Women Purses and Handbags for Everyday",
+      "link": "https://www.ebay.com/itm/377598471192",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$184.99",
+      "extracted_price": 184.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/B0kAAeSwVRBq3zCn/s-l140.webp"
+    },
+    {
+      "position": 39,
+      "item_id": "127984633435",
+      "title": "Cute Cat Crossbody Bag Kawaii Phone Purse Small Shoulder Bag Women Girls",
+      "link": "https://www.ebay.com/itm/127984633435",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$11.52 to $11.97",
+      "extracted_price_range": {
+        "from": 11.52,
+        "to": 11.97
+      },
+      "is_price_range": true,
+      "shipping": "+$4.10 delivery",
+      "extracted_shipping": 4.1,
+      "thumbnail": "https://i.ebayimg.com/images/g/Hw4AAeSwN8dp-GeL/s-l140.webp"
+    },
+    {
+      "position": 40,
+      "item_id": "306983398841",
+      "title": "Women’s Beige Fringe Crossbody Bag, Solid Pattern, Zip Closure",
+      "subtitle": "Caravan",
+      "link": "https://www.ebay.com/itm/306983398841",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "46 watchers"
+      ],
+      "price": "$200.00",
+      "extracted_price": 200.0,
+      "shipping": "+$7.30 delivery",
+      "extracted_shipping": 7.3,
+      "thumbnail": "https://i.ebayimg.com/images/g/coYAAeSwYV9qH0~P/s-l140.webp"
+    },
+    {
+      "position": 41,
+      "item_id": "920076791417",
+      "title": "Michael Kors Black Leather Small Crossbody Bag Zip Closure Gold Chain Strap",
+      "subtitle": "Size SMALL · Michael Kors",
+      "link": "https://www.ebay.com/itm/920076791417",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "+$6.94 delivery",
+      "extracted_shipping": 6.94,
+      "thumbnail": "https://i.ebayimg.com/images/g/IyMAAeSwZAxq3422/s-l140.webp"
+    },
+    {
+      "position": 42,
+      "item_id": "198743338458",
+      "title": "Coach Pink/Black Pebbled Leather Crossbody Bag Front Zip Pocket Gold Hardware",
+      "subtitle": "Size MEDIUM · Coach",
+      "link": "https://www.ebay.com/itm/198743338458",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$195.00",
+      "extracted_price": 195.0,
+      "shipping": "+$10.43 delivery",
+      "extracted_shipping": 10.43,
+      "thumbnail": "https://i.ebayimg.com/images/g/CWQAAeSwtgxq3Quv/s-l140.webp"
+    },
+    {
+      "position": 43,
+      "item_id": "287676142107",
+      "title": "Green Pebbled Leather Small Crossbody Handbag Buckle/Zip, Adj Strap, Pockets",
+      "subtitle": "Size SMALL",
+      "link": "https://www.ebay.com/itm/287676142107",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "+$6.57 delivery",
+      "extracted_shipping": 6.57,
+      "thumbnail": "https://i.ebayimg.com/images/g/TFwAAeSwlWdq3Rkd/s-l140.webp"
+    },
+    {
+      "position": 44,
+      "item_id": "128157892053",
+      "title": "GUCCI Red Leather Matelasse Small GG Marmont Flap Shoulder Bag Crossbody",
+      "subtitle": "Size SMALL · Gucci",
+      "link": "https://www.ebay.com/itm/128157892053",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$600.00",
+      "extracted_price": 600.0,
+      "shipping": "+$10.15 delivery",
+      "extracted_shipping": 10.15,
+      "thumbnail": "https://i.ebayimg.com/images/g/NS4AAeSw991q35ue/s-l140.webp"
+    },
+    {
+      "position": 45,
+      "item_id": "267824500279",
+      "title": "Glad and Young Black Pebbled Leather Crossbody Bag Gold HW Magnetic Gray Lining",
+      "link": "https://www.ebay.com/itm/267824500279",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left6d 22h",
+      "extensions": [
+        "Free delivery",
+        "Located in United States"
+      ],
+      "price": "$5.22",
+      "extracted_price": 5.22,
+      "shipping": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/vw4AAeSwcHtq33x1/s-l140.webp"
+    },
+    {
+      "position": 46,
+      "item_id": "960118800832",
+      "title": "kate spade new york Black Leather Studded Crossbody Top Handle, Dust Bag",
+      "subtitle": "kate spade new york",
+      "link": "https://www.ebay.com/itm/960118800832",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$99.00",
+      "extracted_price": 99.0,
+      "shipping": "+$7.13 delivery",
+      "extracted_shipping": 7.13,
+      "thumbnail": "https://i.ebayimg.com/images/g/9a4AAeSwP7Nq33JM/s-l140.webp"
+    },
+    {
+      "position": 47,
+      "item_id": "800841081012",
+      "title": "Madden NYC Black Pebbled Faux Leather Crescent Zip Crossbody Silver Hardware",
+      "subtitle": "Size SMALL · Madden",
+      "link": "https://www.ebay.com/itm/800841081012",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$12.00",
+      "extracted_price": 12.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/Dp8AAeSw6gpq326J/s-l140.webp"
+    },
+    {
+      "position": 48,
+      "item_id": "206655557875",
+      "title": "Nine West Small Black Faux Leather Crossbody Handbag Zip Silver Hardware",
+      "subtitle": "Size SMALL · Nine West",
+      "link": "https://www.ebay.com/itm/206655557875",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$15.00",
+      "extracted_price": 15.0,
+      "shipping": "+$6.94 delivery",
+      "extracted_shipping": 6.94,
+      "thumbnail": "https://i.ebayimg.com/images/g/hEQAAeSwOkpq33qx/s-l140.webp"
+    },
+    {
+      "position": 49,
+      "item_id": "960118812186",
+      "title": "Calvin Klein CK Signature Monogram Crossbody Bag Adjustable Strap Chic Designer",
+      "subtitle": "Size SMALL · Calvin Klein",
+      "link": "https://www.ebay.com/itm/960118812186",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$54.99",
+      "extracted_price": 54.99,
+      "shipping": "+$6.71 delivery",
+      "extracted_shipping": 6.71,
+      "thumbnail": "https://i.ebayimg.com/images/g/6pUAAeSwXolq33Kc/s-l140.webp"
+    },
+    {
+      "position": 50,
+      "item_id": "860085724211",
+      "title": "Women’s Burgundy Pebbled Leather Crossbody Handbag Tassel Zip Pockets Gold",
+      "link": "https://www.ebay.com/itm/860085724211",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$45.00",
+      "extracted_price": 45.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/9bIAAeSwf5Bq32Ic/s-l140.webp"
+    },
+    {
+      "position": 51,
+      "item_id": "267823947191",
+      "title": "Coach Vintage Y2K Black Signature C Mini Swingpack Crossbody Bag",
+      "subtitle": "Size MINI · Coach",
+      "link": "https://www.ebay.com/itm/267823947191",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left6d 7h",
+      "extensions": [
+        "+$7.07 delivery",
+        "Located in United States"
+      ],
+      "price": "$15.00",
+      "extracted_price": 15.0,
+      "shipping": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/XrIAAeSwq3NqucuI/s-l140.webp"
+    },
+    {
+      "position": 52,
+      "item_id": "237145054082",
+      "title": "Steve Madden Beige Pebbled Faux Leather Satchel Top Handle Crossbody w Pouch",
+      "subtitle": "Steve Madden",
+      "link": "https://www.ebay.com/itm/237145054082",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$30.00",
+      "extracted_price": 30.0,
+      "shipping": "+$6.71 delivery",
+      "extracted_shipping": 6.71,
+      "thumbnail": "https://i.ebayimg.com/images/g/0F8AAeSwQ~5q3zw7/s-l140.webp"
+    },
+    {
+      "position": 53,
+      "item_id": "366762242451",
+      "title": "Michael Kors Pink Saffiano Leather Zip Crossbody Bag Gold Hardware Det Strap",
+      "subtitle": "Michael Kors",
+      "link": "https://www.ebay.com/itm/366762242451",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$20.00",
+      "extracted_price": 20.0,
+      "shipping": "+$6.24 delivery",
+      "extracted_shipping": 6.24,
+      "thumbnail": "https://i.ebayimg.com/images/g/8IMAAeSwIvJq3zvs/s-l140.webp"
+    },
+    {
+      "position": 54,
+      "item_id": "800830314819",
+      "title": "Michael Kors Signature Logo Beige/Brown Crossbody Bag Chain Strap Gold Hardware",
+      "subtitle": "Size SMALL · Michael Kors",
+      "link": "https://www.ebay.com/itm/800830314819",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$199.00",
+      "extracted_price": 199.0,
+      "shipping": "+$10.43 delivery",
+      "extracted_shipping": 10.43,
+      "thumbnail": "https://i.ebayimg.com/images/g/~vYAAeSw8nNq26fr/s-l140.webp"
+    },
+    {
+      "position": 55,
+      "item_id": "407317682779",
+      "title": "bebe Black Quilted Faux Leather Crossbody Handbag Chain Strap Gold Hardware",
+      "subtitle": "Size SMALL · bebe",
+      "link": "https://www.ebay.com/itm/407317682779",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$8.50",
+      "extracted_price": 8.5,
+      "shipping": "+$6.09 delivery",
+      "extracted_shipping": 6.09,
+      "thumbnail": "https://i.ebayimg.com/images/g/lssAAeSw1-Jq32uF/s-l140.webp"
+    },
+    {
+      "position": 56,
+      "item_id": "227583577413",
+      "title": "bags women kate spade 100% Cow leather",
+      "subtitle": "kate spade new york",
+      "link": "https://www.ebay.com/itm/227583577413",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$90.00",
+      "extracted_price": 90.0,
+      "shipping": "+$6.71 delivery",
+      "extracted_shipping": 6.71,
+      "thumbnail": "https://i.ebayimg.com/images/g/iRwAAeSwiRtq3qi8/s-l140.webp"
+    },
+    {
+      "position": 57,
+      "item_id": "267824496218",
+      "title": "HOBO Brown Pebbled Leather Small Crossbody Handbag Braided Handle Double Zip",
+      "subtitle": "Size SMALL · Hobo",
+      "link": "https://www.ebay.com/itm/267824496218",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left6d 22h",
+      "extensions": [
+        "Free delivery",
+        "Located in United States"
+      ],
+      "price": "$15.00",
+      "extracted_price": 15.0,
+      "shipping": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/mpwAAeSwVDtq33re/s-l140.webp"
+    },
+    {
+      "position": 58,
+      "item_id": "800840241015",
+      "title": "kate spade new york Black/Beige Colorblock Leather Crossbody Chain small handbag",
+      "subtitle": "kate spade new york",
+      "link": "https://www.ebay.com/itm/800840241015",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left6d 16h",
+      "extensions": [
+        "+$7.58 delivery",
+        "Located in United States"
+      ],
+      "price": "$10.34",
+      "extracted_price": 10.34,
+      "shipping": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/FooAAeSwondq3yRU/s-l140.webp"
+    },
+    {
+      "position": 59,
+      "item_id": "127984498701",
+      "title": "Embroidery Messenger Bags Women Leather Handbags Bags for Women Sac a Main Ladie",
+      "subtitle": "Size SMALL + more",
+      "link": "https://www.ebay.com/itm/127984498701",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$13.55 to $19.68",
+      "extracted_price_range": {
+        "from": 13.55,
+        "to": 19.68
+      },
+      "is_price_range": true,
+      "shipping": "+$4.55 delivery",
+      "extracted_shipping": 4.55,
+      "thumbnail": "https://i.ebayimg.com/images/g/h2wAAeSw8K9p6dK9/s-l140.webp"
+    },
+    {
+      "position": 60,
+      "item_id": "127984498669",
+      "title": "Fashionable Womens Hellokitty Black Tote Bag Cute Cartoon Embroidery Large Capac",
+      "link": "https://www.ebay.com/itm/127984498669",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$17.58",
+      "extracted_price": 17.58,
+      "shipping": "+$4.10 delivery",
+      "extracted_shipping": 4.1,
+      "thumbnail": "https://i.ebayimg.com/images/g/hnQAAeSwr9dp6dL0/s-l140.webp"
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "cross body bag men",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=cross+body+bag+men&_sop=12"
+    },
+    {
+      "query": "crossbody bag men",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=crossbody+bag+men&_sop=12"
+    },
+    {
+      "query": "cross body bag",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=cross+body+bag&_sop=12"
+    },
+    {
+      "query": "crossbody bag coach",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=crossbody+bag+coach&_sop=12"
+    },
+    {
+      "query": "vintage crossbody bag",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=vintage+crossbody+bag&_sop=12"
+    },
+    {
+      "query": "crossbody bag leather",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=crossbody+bag+leather&_sop=12"
+    },
+    {
+      "query": "crossbody bag mens",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=crossbody+bag+mens&_sop=12"
+    },
+    {
+      "query": "messenger bag",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=messenger+bag&_sop=12"
+    },
+    {
+      "query": "sling bag",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=sling+bag&_sop=12"
+    },
+    {
+      "query": "crossbody bags for women",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=crossbody+bags+for+women&_sop=12"
+    },
+    {
+      "query": "crossbody bag canvas",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=crossbody+bag+canvas&_sop=12"
+    },
+    {
+      "query": "crossbody bag for men",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=crossbody+bag+for+men&_sop=12"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&_dcat=169291&_pgn=2",
+    "other_pages": {
+      "2": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&_dcat=169291&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&_dcat=169291&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&_dcat=169291&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&_dcat=169291&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&_dcat=169291&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&_dcat=169291&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&_dcat=169291&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&_dcat=169291&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=crossbody+bag&_dcat=169291&_pgn=10&rt=nc"
+    }
+  }
+}

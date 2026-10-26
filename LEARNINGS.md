@@ -27,6 +27,20 @@ Observations from a single response, not conclusions. Phase 3 (the hand-captured
 - Condition: 39 "Brand New", 15 "Pre-Owned", 6 "New (Other)". A third of the listings aren't new, so matching must look at condition.
 - Style codes (two letters plus four digits, e.g. `JH5633`) appear in 19/60 titles.
 
+## Phase 2: unified record and matching (2026-10-26)
+
+- Fetched 8 queries from Amazon and eBay: 14 calls in one run, no errors. Latency per call: Amazon 2.1–14.6 s, eBay 2.5–8.0 s (one sample each, from Belgrade).
+- Shein failed twice on "adidas samba og": first our client timed out at 60 s, then SearchApi answered 503 "We could not retrieve results for this search. Please try again later." after 90.5 s. Both are in the ledger; whether they were billed is for the dashboard to say.
+- Conversion: Amazon 448 listings became 441 products and 7 rejects (no price, only "more offers"); eBay 480 became 480 products. A test checks that every cached listing becomes a product or a reject with a reason, so nothing disappears silently.
+- eBay: 215 of 480 listings (45%) are used. Condition has to be part of the record.
+- eBay's misplaced shipping text holds across all 8 queries: 53 of 480 listings (11%).
+- Amazon: `is_sponsored` is `true` on 64 of 448 listings and never `false`. `recent_sales` sometimes holds a badge instead ("Top Brand", "New on Amazon in past month").
+- Brand: Amazon's field covers 392 of 441 products. eBay has no field: brands came from 357 titles and 6 subtitles, and 117 have none (mostly the generic queries, because our brand list only covers the queried brands).
+- Style codes: 26% of eBay titles carry one (124/480) and 5% of Amazon titles (22/441). Sellers write codes; Amazon's catalogue titles mostly don't.
+- Matching: the grouping uses 39 Amazon–eBay pairs (11 by style code, 28 by title). Precision: waiting for hand labels. First reading: style-code pairs look right, and some title pairs are clearly wrong (Dunk Low Twist vs Retro, a kids' "PS" 550 vs a men's, a leopard-print 501 vs the plain one).
+- The variant problem, seen in real data: Amazon titles like "Mens Nike Dunk Low Retro" name no colorway. They are parent listings that cover many colours and sizes, so "the same product" is not well defined for them.
+- No cross-store matches at all for "patagonia better sweater", "women's puffer jacket" or "crossbody bag".
+
 ## Bugs and surprises
 
 Each entry: what happened, how we found it, the evidence, the fix.
@@ -40,4 +54,9 @@ Each entry: what happened, how we found it, the evidence, the fix.
 4. **Path traversal through the engine name** (ours, fixed). Found in review: `engine` goes straight into a file path, and the CLI takes it from the command line, so `bin/searchapi ../x q=y` pointed outside the cache folder. Fix: the cache accepts only `/\A[a-z0-9_]+\z/`, so every caller is protected, not just the CLI. Test: `test_an_engine_name_that_could_leave_the_cache_folder_is_rejected`.
    - Ruby trap: `^` and `$` match at every line break, not at the ends of the string, so `/^[a-z0-9_]+$/` accepts `"ebay_search\n../x"`. Checked by planting `^…$` in a copy: the newline case fails the suite.
 5. **A shared constant could be changed in place** (ours, prevented). Ruby constants stop reassignment, not mutation. `Client::ENDPOINT` is a `URI` object, and a transport that set `.query` on it without copying would have changed where every later request goes. Fix: `ENDPOINT` is frozen. Test: `test_a_transport_that_mutates_the_endpoint_fails_loudly`. The first run of that test failed with `NameError` (a nested class can't see constants the outer test class gets through `include`), which is why you watch a test fail before trusting it.
-6. **SearchApi's eBay `shipping` field sometimes holds other text** (theirs, observed once, unverified). In the first response, 7/60 items have "Buy It Now", "or Best Offer" or "Located in United States" in `shipping`. On auction listings the real cost ("+$14.95 delivery") sits in `extensions`. That looks like rows shifting by one when an auction card has an extra line. Also seen: "Free delivery" leaves `extracted_shipping` absent rather than `0.0`, and `buying_format` reads "0 bids · Time left1d 3h", with words glued together. To check against the HTML in Phase 3.
+6. **SearchApi's eBay `shipping` field sometimes holds other text** (theirs, observed once, unverified). In the first response, 7/60 items have "Buy It Now", "or Best Offer" or "Located in United States" in `shipping`. On auction listings the real cost ("+$14.95 delivery") sits in `extensions`. That looks like rows shifting by one when an auction card has an extra line. Also seen: "Free delivery" leaves `extracted_shipping` absent rather than `0.0`, and `buying_format` reads "0 bids · Time left1d 3h", with words glued together. To check against the HTML in Phase 3. Across all 8 queries: 53 of 480 listings (11%).
+7. **Our timeout was shorter than SearchApi's own deadline** (ours, worked around). Shein: our client gave up at 60 s; on the next attempt SearchApi itself answered 503 at 90.5 s. With the shorter timeout we got a blind `Net::ReadTimeout` instead of their reason, and possibly paid for it. Fix: `SEARCHAPI_READ_TIMEOUT` for slow engines. Lesson: a client's timeout should be longer than the provider's.
+   - SearchApi's Search History API (documented as free) would show whether a timed-out search finished on their side, but it answers 403 "You need an active subscription" on the trial.
+8. **Grouping chained unrelated listings together** (ours, fixed). Joining every chain of matches (A~B and B~C puts A with C) merged 33 adidas listings into one group on real data. Fix: each eBay listing joins only its single best Amazon match. Test: `test_a_listing_joins_only_its_best_match_so_groups_do_not_chain`.
+9. **A test broke when a column was added** (ours, test bug). The labels test edited the CSV by matching column positions as text; adding a link column shifted them. Fix: the test edits through the CSV parser, like a person in a spreadsheet would.
+10. **The locale trap again, in a one-off command.** Reading the labels CSV without `encoding:` failed on "’". The library passes the encoding, so its tests were green. The fix belongs in the code that reads, not in remembering.

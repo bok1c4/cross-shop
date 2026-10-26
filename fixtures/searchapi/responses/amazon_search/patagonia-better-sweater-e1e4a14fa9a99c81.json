@@ -1,0 +1,2154 @@
+{
+  "search_metadata": {
+    "id": "search_m3WR9zk90VHgnpmbdvyn8YoV",
+    "status": "Success",
+    "created_at": "2026-10-26T18:47:58Z",
+    "request_time_taken": 2.68,
+    "parsing_time_taken": 0.12,
+    "total_time_taken": 2.79,
+    "request_url": "https://www.amazon.com/s?k=patagonia+better+sweater",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_m3WR9zk90VHgnpmbdvyn8YoV.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_m3WR9zk90VHgnpmbdvyn8YoV"
+  },
+  "search_parameters": {
+    "engine": "amazon_search",
+    "q": "patagonia better sweater",
+    "amazon_domain": "amazon.com",
+    "delivery_country": "us"
+  },
+  "search_information": {
+    "query_displayed": "patagonia better sweater",
+    "price_min": "$12",
+    "extracted_price_min": 12,
+    "price_max": "$430+",
+    "extracted_price_max": 430,
+    "delivering_to": "Delivering to Camp Verde 86322"
+  },
+  "filters": [
+    {
+      "type": "Eligible for Free Shipping",
+      "options": [
+        {
+          "text": "Free Shipping by Amazon",
+          "rh": "p_76:2661625011"
+        }
+      ]
+    },
+    {
+      "type": "Delivery Day",
+      "options": [
+        {
+          "text": "Get It by Tomorrow",
+          "rh": "p_90:8308921011"
+        }
+      ]
+    },
+    {
+      "type": "Gender",
+      "options": [
+        {
+          "text": "Men",
+          "rh": "p_n_g-101015233022111:121075132011"
+        },
+        {
+          "text": "Women",
+          "rh": "p_n_g-101015233022111:121075131011"
+        },
+        {
+          "text": "Boys",
+          "rh": "p_n_g-101015233022111:121075136011"
+        },
+        {
+          "text": "Unisex",
+          "rh": "p_n_g-101015233022111:121833112011"
+        }
+      ]
+    },
+    {
+      "type": "Men's Clothing Size",
+      "options": [
+        {
+          "text": "S",
+          "rh": "p_n_pt_nav_size_men_international_size:2475467011"
+        },
+        {
+          "text": "M",
+          "rh": "p_n_pt_nav_size_men_international_size:2475468011"
+        },
+        {
+          "text": "L",
+          "rh": "p_n_pt_nav_size_men_international_size:2475469011"
+        },
+        {
+          "text": "XL",
+          "rh": "p_n_pt_nav_size_men_international_size:2475470011"
+        },
+        {
+          "text": "2XL",
+          "rh": "p_n_pt_nav_size_men_international_size:2475471011"
+        },
+        {
+          "text": "3XL",
+          "rh": "p_n_pt_nav_size_men_international_size:2475472011"
+        },
+        {
+          "text": "4XL",
+          "rh": "p_n_pt_nav_size_men_international_size:2475473011"
+        },
+        {
+          "text": "5XL",
+          "rh": "p_n_pt_nav_size_men_international_size:2475474011"
+        }
+      ]
+    },
+    {
+      "type": "Special Clothing Size",
+      "options": [
+        {
+          "text": "Big & Tall",
+          "rh": "p_n_shoe_width_browse-vebin:492380011"
+        },
+        {
+          "text": "Petite",
+          "rh": "p_n_shoe_width_browse-vebin:492383011"
+        }
+      ]
+    },
+    {
+      "type": "Brands",
+      "options": [
+        {
+          "text": "The North Face",
+          "rh": "p_123:196635"
+        },
+        {
+          "text": "Columbia",
+          "rh": "p_123:232621"
+        },
+        {
+          "text": "Patagonia",
+          "rh": "p_123:233588"
+        },
+        {
+          "text": "Marmot",
+          "rh": "p_123:237221"
+        },
+        {
+          "text": "Lands' End",
+          "rh": "p_123:446687"
+        },
+        {
+          "text": "Carhartt",
+          "rh": "p_123:130951"
+        },
+        {
+          "text": "Amazon Essentials",
+          "rh": "p_123:393482"
+        },
+        {
+          "text": "33,000ft",
+          "rh": "p_123:334925"
+        },
+        {
+          "text": "GIMECEN",
+          "rh": "p_123:1120268"
+        }
+      ]
+    },
+    {
+      "type": "Amazon Fashion",
+      "options": [
+        {
+          "text": "Our Brands",
+          "rh": "p_n_g-1004227705091:16926165011"
+        },
+        {
+          "text": "Premium Brands",
+          "rh": "p_n_g-1004227705091:21451213011"
+        },
+        {
+          "text": "Top Brands",
+          "rh": "p_n_g-1004227705091:14630392011"
+        }
+      ]
+    },
+    {
+      "type": "Color",
+      "options": [
+        {
+          "text": "Black",
+          "rh": "p_n_g-1004232833091:2343349011"
+        },
+        {
+          "text": "Greys",
+          "rh": "p_n_g-1004232833091:2343354011"
+        },
+        {
+          "text": "Blues",
+          "rh": "p_n_g-1004232833091:2343350011"
+        },
+        {
+          "text": "White",
+          "rh": "p_n_g-1004232833091:2343363011"
+        },
+        {
+          "text": "Browns",
+          "rh": "p_n_g-1004232833091:2343351011"
+        },
+        {
+          "text": "Beige",
+          "rh": "p_n_g-1004232833091:2343348011"
+        },
+        {
+          "text": "Reds",
+          "rh": "p_n_g-1004232833091:2343361011"
+        },
+        {
+          "text": "Pinks",
+          "rh": "p_n_g-1004232833091:2343359011"
+        },
+        {
+          "text": "Oranges",
+          "rh": "p_n_g-1004232833091:2343358011"
+        },
+        {
+          "text": "Yellows",
+          "rh": "p_n_g-1004232833091:2343364011"
+        },
+        {
+          "text": "Ivory",
+          "rh": "p_n_g-1004232833091:2343356011"
+        },
+        {
+          "text": "Greens",
+          "rh": "p_n_g-1004232833091:2343355011"
+        },
+        {
+          "text": "Purples",
+          "rh": "p_n_g-1004232833091:2343360011"
+        },
+        {
+          "text": "Silvers",
+          "rh": "p_n_g-1004232833091:2343362011"
+        },
+        {
+          "text": "Multi",
+          "rh": "p_n_g-1004232833091:2343357011"
+        }
+      ]
+    },
+    {
+      "type": "Customer Reviews",
+      "options": [
+        {
+          "text": "4 Stars",
+          "rh": "p_72:2661618011"
+        }
+      ]
+    },
+    {
+      "type": "Deals & Discounts",
+      "options": [
+        {
+          "text": "Up to $20",
+          "rh": "p_36:-2000"
+        },
+        {
+          "text": "$20 to $30",
+          "rh": "p_36:2000-3000"
+        },
+        {
+          "text": "$30 to $35",
+          "rh": "p_36:3000-3500"
+        },
+        {
+          "text": "$35 to $50",
+          "rh": "p_36:3500-5000"
+        },
+        {
+          "text": "$50 & above",
+          "rh": "p_36:5000-"
+        }
+      ]
+    },
+    {
+      "type": "Seller",
+      "options": [
+        {
+          "text": "Amazon.com",
+          "rh": "p_6:ATVPDKIKX0DER"
+        },
+        {
+          "text": "Backcountry",
+          "rh": "p_6:AU8KF031TC39C"
+        },
+        {
+          "text": "Amazon Export Sales LLC",
+          "rh": "p_6:A2XZ7JICGUQ1CX"
+        },
+        {
+          "text": "Zappos",
+          "rh": "p_6:AH1YFAUS3NHX2"
+        },
+        {
+          "text": "Minus33 New Hampshire",
+          "rh": "p_6:A2E2BM5IUTB6Z6"
+        },
+        {
+          "text": "Minus33 Merino Wool FBA",
+          "rh": "p_6:A3L0OXM7HUNG5P"
+        },
+        {
+          "text": "Mammoth Mart",
+          "rh": "p_6:A20FLYA0IW2L9O"
+        }
+      ]
+    },
+    {
+      "type": "Material",
+      "options": [
+        {
+          "text": "Nylon",
+          "rh": "p_n_g-101017762402111:217806937011"
+        },
+        {
+          "text": "Polyester",
+          "rh": "p_n_g-101017762402111:217806929011"
+        },
+        {
+          "text": "Recycled Polyester",
+          "rh": "p_n_g-101017762402111:217806926011"
+        },
+        {
+          "text": "Thermoplastic Polyurethane (TPU)",
+          "rh": "p_n_g-101017762402111:217806946011"
+        }
+      ]
+    },
+    {
+      "type": "Pattern",
+      "options": [
+        {
+          "text": "Plaid",
+          "rh": "p_n_g-101017788903111:218913842011"
+        },
+        {
+          "text": "Solid",
+          "rh": "p_n_g-101017788903111:218913844011"
+        }
+      ]
+    },
+    {
+      "type": "Sleeve Type",
+      "options": [
+        {
+          "text": "Cuff Sleeve",
+          "rh": "p_n_g-101017344386111:214322525011"
+        },
+        {
+          "text": "Raglan Sleeve",
+          "rh": "p_n_g-101017344386111:214322532011"
+        }
+      ]
+    },
+    {
+      "type": "Seasons",
+      "options": [
+        {
+          "text": "All",
+          "rh": "p_n_g-1003413174111:24196132011"
+        },
+        {
+          "text": "Fall",
+          "rh": "p_n_g-1003413174111:24196135011"
+        },
+        {
+          "text": "Spring",
+          "rh": "p_n_g-1003413174111:24196136011"
+        },
+        {
+          "text": "Summer",
+          "rh": "p_n_g-1003413174111:24196133011"
+        },
+        {
+          "text": "Winter",
+          "rh": "p_n_g-1003413174111:24196134011"
+        }
+      ]
+    },
+    {
+      "type": "Care Instructions",
+      "options": [
+        {
+          "text": "Hand Wash Only",
+          "rh": "p_n_g-1003416129111:24046365011"
+        },
+        {
+          "text": "Machine Wash",
+          "rh": "p_n_g-1003416129111:24046364011"
+        }
+      ]
+    },
+    {
+      "type": "Fit",
+      "options": [
+        {
+          "text": "Fitted",
+          "rh": "p_n_g-101017424018111:215774325011"
+        },
+        {
+          "text": "Loose",
+          "rh": "p_n_g-101017424018111:215774327011"
+        },
+        {
+          "text": "Oversized",
+          "rh": "p_n_g-101017424018111:215774324011"
+        },
+        {
+          "text": "Regular",
+          "rh": "p_n_g-101017424018111:215774323011"
+        },
+        {
+          "text": "Relaxed",
+          "rh": "p_n_g-101017424018111:215774326011"
+        },
+        {
+          "text": "Slim",
+          "rh": "p_n_g-101017424018111:215774321011"
+        },
+        {
+          "text": "Straight",
+          "rh": "p_n_g-101017424018111:215774320011"
+        }
+      ]
+    },
+    {
+      "type": "Sustainability Features",
+      "options": [
+        {
+          "text": "Any Feature",
+          "rh": "p_n_cpf_labels:121136630011"
+        },
+        {
+          "text": "Recycled Materials",
+          "rh": "p_n_cpf_labels:116845689011"
+        },
+        {
+          "text": "Safer Chemicals",
+          "rh": "p_n_cpf_labels:116845683011"
+        },
+        {
+          "text": "Worker Wellbeing",
+          "rh": "p_n_cpf_labels:116845686011"
+        }
+      ]
+    },
+    {
+      "type": "Sleeve Length Description",
+      "options": [
+        {
+          "text": "Sleeveless",
+          "rh": "p_n_g-101017420912111:215631301011"
+        },
+        {
+          "text": "Long Sleeve",
+          "rh": "p_n_g-101017420912111:215631305011"
+        }
+      ]
+    },
+    {
+      "type": "Purpose",
+      "options": [
+        {
+          "text": "Hiking",
+          "rh": "p_n_g-101016756034111:207864121011"
+        },
+        {
+          "text": "Casual Wear",
+          "rh": "p_n_g-101016756034111:214322520011"
+        },
+        {
+          "text": "Fishing",
+          "rh": "p_n_g-101016756034111:207864120011"
+        },
+        {
+          "text": "Camping",
+          "rh": "p_n_g-101016756034111:207864116011"
+        },
+        {
+          "text": "Cycling",
+          "rh": "p_n_g-101016756034111:207864118011"
+        },
+        {
+          "text": "Exercising",
+          "rh": "p_n_g-101016756034111:207864122011"
+        },
+        {
+          "text": "Hunting",
+          "rh": "p_n_g-101016756034111:207864115011"
+        },
+        {
+          "text": "Running",
+          "rh": "p_n_g-101016756034111:214322521011"
+        },
+        {
+          "text": "Skiing",
+          "rh": "p_n_g-101016756034111:207864119011"
+        },
+        {
+          "text": "Snowboarding",
+          "rh": "p_n_g-101016756034111:207864117011"
+        },
+        {
+          "text": "Walking",
+          "rh": "p_n_g-101016756034111:214322519011"
+        }
+      ]
+    },
+    {
+      "type": "Length",
+      "options": [
+        {
+          "text": "Short Length",
+          "rh": "p_n_g-101018140053111:223488537011"
+        },
+        {
+          "text": "Standard Length",
+          "rh": "p_n_g-101018140053111:223488534011"
+        },
+        {
+          "text": "Long Length",
+          "rh": "p_n_g-101018140053111:223488535011"
+        }
+      ]
+    },
+    {
+      "type": "Lining Description",
+      "options": [
+        {
+          "text": "Fleece",
+          "rh": "p_n_g-101017439662111:216261118011"
+        },
+        {
+          "text": "Nylon",
+          "rh": "p_n_g-101017439662111:216261116011"
+        },
+        {
+          "text": "Polyester",
+          "rh": "p_n_g-101017439662111:216261122011"
+        },
+        {
+          "text": "Sherpa",
+          "rh": "p_n_g-101017439662111:216261121011"
+        },
+        {
+          "text": "Unlined",
+          "rh": "p_n_g-101017439662111:216261112011"
+        }
+      ]
+    },
+    {
+      "type": "Closure",
+      "options": [
+        {
+          "text": "Pull On",
+          "rh": "p_n_g-101017440947111:216297580011"
+        },
+        {
+          "text": "Snap",
+          "rh": "p_n_g-101017440947111:216297582011"
+        },
+        {
+          "text": "Zipper",
+          "rh": "p_n_g-101017440947111:216297589011"
+        }
+      ]
+    },
+    {
+      "type": "Department",
+      "options": [
+        {
+          "text": "Clothing, Shoes & Jewelry",
+          "rh": "n:7141123011"
+        },
+        {
+          "text": "Men's Fleece Jackets & Coats",
+          "rh": "n:7141123011,n:2476496011"
+        },
+        {
+          "text": "Women's Fleece Jackets & Coats",
+          "rh": "n:7141123011,n:2348897011"
+        },
+        {
+          "text": "Men's Hiking & Outdoor Recreation Fleece Jackets",
+          "rh": "n:7141123011,n:23466622011"
+        },
+        {
+          "text": "Men's Pullover Sweaters",
+          "rh": "n:7141123011,n:2476516011"
+        },
+        {
+          "text": "Men's Activewear Sweaters",
+          "rh": "n:7141123011,n:2361329011"
+        },
+        {
+          "text": "Men's Sweatshirts",
+          "rh": "n:7141123011,n:1045664"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "asin": "B07XH3HHNT",
+      "title": "womens W's Better Sweater Jkt",
+      "link": "https://www.amazon.com/Patagonia-Womens-Better-Sweater-Fleece/dp/B07XH3HHNT/ref=sr_1_1?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-1",
+      "brand": "Patagonia",
+      "rating": 3.6,
+      "reviews": 21,
+      "price": "$169.00",
+      "extracted_price": 169.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Tue, Nov 3",
+          "type": "FREE delivery",
+          "date": "Tue, Nov 3"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/91V76dDmQrL._AC_UL320_.jpg"
+    },
+    {
+      "position": 2,
+      "asin": "B0DRBZZDK9",
+      "title": "Hoodies for Men Zip Up Heavyweight Fleece Sweatshirt Thick Jacket",
+      "link": "https://www.amazon.com/SCODI-Hoodies-Heavyweight-Fleece-Sweatshirt/dp/B0DRBZZDK9/ref=sr_1_2_sspa?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia better sweater&qid=1793040479&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+      "brand": "SCODI",
+      "rating": 4.5,
+      "reviews": 2038,
+      "price": "$39.99",
+      "extracted_price": 39.99,
+      "original_price": "$75.99",
+      "extracted_original_price": 75.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71zThSlCy4L._AC_UL320_.jpg"
+    },
+    {
+      "position": 3,
+      "asin": "B0D66S57F6",
+      "title": "Men's Polar Fleece Pullover Quarter Zip 1/4 Jacket Golf Sweatshirt",
+      "link": "https://www.amazon.com/33-000ft-Quarter-Zip-Pullover-Sweatshirt/dp/B0D66S57F6/ref=sr_1_3_sspa?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia better sweater&qid=1793040479&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+      "brand": "33,000ft",
+      "rating": 4.3,
+      "reviews": 171,
+      "price": "$35.99",
+      "extracted_price": 35.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/91GwXicWRrL._AC_UL320_.jpg"
+    },
+    {
+      "position": 4,
+      "asin": "B09C2KC13S",
+      "title": "Women's Fleece Full Zip Jacket",
+      "link": "https://www.amazon.com/Lands-End-Womens-Fleece-Regular/dp/B09C2KC13S/ref=sr_1_4_sspa?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia better sweater&qid=1793040479&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+      "brand": "Lands' End",
+      "rating": 4.6,
+      "reviews": 1589,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$34.96",
+      "extracted_price": 34.96,
+      "original_price": "$49.95",
+      "extracted_original_price": 49.95,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61AtkQKjYvL._AC_UL320_.jpg"
+    },
+    {
+      "position": 5,
+      "asin": "B00Q7B3ADK",
+      "title": "Men's Steens Mountain Full Zip 2.0",
+      "link": "https://www.amazon.com/Columbia-Steens-Mountain-Fleece-Classic/dp/B00Q7B3ADK/ref=sr_1_5?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-5",
+      "brand": "Columbia",
+      "rating": 4.7,
+      "reviews": 53952,
+      "recent_sales": "#1 Top Rated",
+      "extracted_recent_sales": 1,
+      "price": "$45.50",
+      "extracted_price": 45.5,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_overall_pick": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71Cz7xFCSlL._AC_UL320_.jpg"
+    },
+    {
+      "position": 6,
+      "asin": "B0DG1L3PKX",
+      "title": "Men's Drop Line Jacket",
+      "link": "https://www.amazon.com/Marmot-Full-Zip-Polyester-Lightweight-DriClime-lined/dp/B0DG1L3PKX/ref=sr_1_6?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-6",
+      "brand": "Marmot",
+      "rating": 4.4,
+      "reviews": 195,
+      "price": "$110.00",
+      "extracted_price": 110.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/91MMFNEdwbL._AC_UL320_.jpg"
+    },
+    {
+      "position": 7,
+      "asin": "B07XH4L36Z",
+      "title": "womens W's Better Sweater Jkt",
+      "link": "https://www.amazon.com/Patagonia-Womens-Better-Sweater-Fleece/dp/B07XH4L36Z/ref=sr_1_7?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-7",
+      "brand": "Patagonia",
+      "rating": 3.6,
+      "reviews": 21,
+      "price": "$169.00",
+      "extracted_price": 169.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Tue, Nov 3",
+          "type": "FREE delivery",
+          "date": "Tue, Nov 3"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81GrcNIEuOL._AC_UL320_.jpg"
+    },
+    {
+      "position": 8,
+      "asin": "B08C6K86LD",
+      "title": "Tsillan Full Zip",
+      "link": "https://www.amazon.com/North-Face-Mens-Tsillan-Heather/dp/B08C6K86LD/ref=sr_1_8?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-8",
+      "brand": "The North Face",
+      "rating": 4.5,
+      "reviews": 1171,
+      "price": "$79.87",
+      "extracted_price": 79.87,
+      "original_price": "$100.00",
+      "extracted_original_price": 100.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Oct 29 - Nov 2",
+          "type": "FREE delivery",
+          "date": "Oct 29 - Nov 2"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81IVl-YencL._AC_UL320_.jpg"
+    },
+    {
+      "position": 9,
+      "asin": "B076VTDB7B",
+      "title": "Women's Benton Springs Full Zip",
+      "link": "https://www.amazon.com/Columbia-Womens-Springs-Classic-Heather/dp/B076VTDB7B/ref=sr_1_9?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-9",
+      "brand": "Columbia",
+      "rating": 4.6,
+      "reviews": 53411,
+      "recent_sales": "#1 Top Rated",
+      "extracted_recent_sales": 1,
+      "price": "$45.50",
+      "extracted_price": 45.5,
+      "original_price": "$65.00",
+      "extracted_original_price": 65.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "bestseller": {
+        "category": "in Women's Fleece Jackets & Coats"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71Y2JsTfhXL._AC_UL320_.jpg"
+    },
+    {
+      "position": 10,
+      "asin": "B0B625DZZ2",
+      "title": "Scrubs C81023 Women's Rugged Flex® Modern Fit Bonded Fleece Ja",
+      "link": "https://www.amazon.com/Carhartt-Pockets-All-Day-Comfort-Polished/dp/B0B625DZZ2/ref=sr_1_10?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-10",
+      "brand": "Carhartt",
+      "rating": 4.5,
+      "reviews": 1101,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$69.99",
+      "extracted_price": 69.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71+Cxkt9H0L._AC_UL320_.jpg"
+    },
+    {
+      "position": 11,
+      "asin": "B0C6TQNLP4",
+      "title": "Heated Fleece Jackets for Women with 12V 16000mAh Power Bank",
+      "link": "https://www.amazon.com/HENNCHEE-Jackets-Heating-Sweater-Sweatshirt/dp/B0C6TQNLP4/ref=sr_1_11_sspa?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia better sweater&qid=1793040479&sr=8-11-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "rating": 4.2,
+      "reviews": 170,
+      "price": "$99.99",
+      "extracted_price": 99.99,
+      "original_price": "$139.99",
+      "extracted_original_price": 139.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/815VfHSM1TL._AC_UL320_.jpg"
+    },
+    {
+      "position": 12,
+      "asin": "B0FY1QGLV1",
+      "title": "Mens Sweaters Pullover Sweater Casual Athletic Long Sleeve Quarter Zipper Stand Collar Sweatshirt",
+      "link": "https://www.amazon.com/LINENNMAIN-Sweaters-Pullover-Athletic-Sweatshirt/dp/B0FY1QGLV1/ref=sr_1_12_sspa?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia better sweater&qid=1793040479&sr=8-12-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "rating": 4.4,
+      "reviews": 195,
+      "price": "$31.34",
+      "extracted_price": 31.34,
+      "original_price": "$37.99",
+      "extracted_original_price": 37.99,
+      "original_price_label": "List Price",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/711N-N1M08L._AC_UL320_.jpg"
+    },
+    {
+      "position": 13,
+      "asin": "B0FWQCD971",
+      "title": "3 Pack Men's Waffle Knit Henley Long Sleeve Shirts",
+      "link": "https://www.amazon.com/Velvelhall-Waffle-Henley-Sleeve-Casual/dp/B0FWQCD971/ref=sr_1_13_sspa?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia better sweater&qid=1793040479&sr=8-13-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "rating": 4.4,
+      "reviews": 285,
+      "price": "$42.99",
+      "extracted_price": 42.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/9124jpHR+gL._AC_UL320_.jpg"
+    },
+    {
+      "position": 14,
+      "asin": "B0BCPQQNRM",
+      "title": "Mens Casual Pullover Waffle Textured Cable Knit v Neck Sweater",
+      "link": "https://www.amazon.com/Arcciit-Pullover-Sweaters-Knitted-Buttons/dp/B0BCPQQNRM/ref=sr_1_14_sspa?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia better sweater&qid=1793040479&sr=8-14-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "rating": 4.6,
+      "reviews": 1461,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$35.99",
+      "extracted_price": 35.99,
+      "original_price": "$38.99",
+      "extracted_original_price": 38.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/81+0Q5iOqcL._AC_UL320_.jpg"
+    },
+    {
+      "position": 15,
+      "asin": "B096YJYY9C",
+      "title": "Men's Full-Zip Polar Fleece Jacket with Zippered Pockets for Cold Outdoor Weather",
+      "link": "https://www.amazon.com/Amazon-Essentials-Full-Zip-Jacket-DNU-Charcoal/dp/B096YJYY9C/ref=sr_1_15?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-15",
+      "brand": "Amazon Essentials",
+      "rating": 4.6,
+      "reviews": 1162,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$24.40",
+      "extracted_price": 24.4,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/91bp1VlXveL._AC_UL320_.jpg"
+    },
+    {
+      "position": 16,
+      "asin": "B0H4GY3SR3",
+      "title": "Sweaters for Women 2026 Loose Fit Chunky Knit Casual Fall Outfits",
+      "link": "https://www.amazon.com/Zeagoo-Crewneck-Sweaters-Clothing-Business/dp/B0H4GY3SR3/ref=sr_1_16?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-16",
+      "brand": "Zeagoo",
+      "rating": 4.5,
+      "reviews": 130,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$36.99",
+      "extracted_price": 36.99,
+      "original_price": "$39.99",
+      "extracted_original_price": 39.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71GmuSXACrL._AC_UL320_.jpg"
+    },
+    {
+      "position": 17,
+      "asin": "B0CNBFXPB9",
+      "title": "Cedar Trail Grid Fleece Full Zip Jacket",
+      "link": "https://www.amazon.com/Lightweight-Breathable-Stretchy-Performance-Sweatshirt/dp/B0CNBFXPB9/ref=sr_1_17?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-17",
+      "brand": "The North Face",
+      "rating": 4.5,
+      "reviews": 287,
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61VI30aiBYL._AC_UL320_.jpg"
+    },
+    {
+      "position": 18,
+      "asin": "B004L63RBS",
+      "title": "Men's The Original Westerley Wool Cable Knit Zip Cardigan Sweater",
+      "link": "https://www.amazon.com/Pendleton-Original-Westerley-Cardigan-Sweater/dp/B004L63RBS/ref=sr_1_18?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-18",
+      "brand": "Pendleton",
+      "rating": 4.8,
+      "reviews": 1234,
+      "recent_sales": "#1 Top Rated",
+      "extracted_recent_sales": 1,
+      "price": "$269.00",
+      "extracted_price": 269.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81TlfYKKHoL._AC_UL320_.jpg"
+    },
+    {
+      "position": 19,
+      "asin": "B00MXDAD54",
+      "title": "Mens Thermal Lined Shirt Jacket Insulated Shacket",
+      "link": "https://www.amazon.com/Legendary-Whitetails-Archer-Thermal-Jacket/dp/B00MXDAD54/ref=sr_1_19_sspa?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia better sweater&qid=1793040479&sr=8-19-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Legendary Whitetails",
+      "rating": 4.4,
+      "reviews": 5722,
+      "price": "$69.99",
+      "extracted_price": 69.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/81AGBVroP3L._AC_UL320_.jpg"
+    },
+    {
+      "position": 20,
+      "asin": "B0H8WF5KJN",
+      "title": "Women's Glacier Sunset Sherpa Fleece Jacket Relaxed Fit Zip-Front",
+      "link": "https://www.amazon.com/Pendleton-Sherpa-Fleece-Jacket-Women/dp/B0H8WF5KJN/ref=sr_1_20_sspa?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia better sweater&qid=1793040479&sr=8-20-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Pendleton",
+      "rating": 4.6,
+      "reviews": 9,
+      "price": "$248.00",
+      "extracted_price": 248.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sun, Nov 1",
+          "type": "FREE delivery",
+          "date": "Sun, Nov 1"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71HdcAoN49L._AC_UL320_.jpg"
+    },
+    {
+      "position": 21,
+      "asin": "B0FGXKFK17",
+      "title": "Fleece Jacket Men Lightweight Zip Up Warm Jacket",
+      "link": "https://www.amazon.com/LZACTOIN-X-Lightweight-Outdoor-Jackets-Multi-Pockets/dp/B0FGXKFK17/ref=sr_1_21_sspa?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia better sweater&qid=1793040479&sr=8-21-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "rating": 4.4,
+      "reviews": 111,
+      "price": "$30.99",
+      "extracted_price": 30.99,
+      "original_price": "$32.99",
+      "extracted_original_price": 32.99,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61P1YUqrAwL._AC_UL320_.jpg"
+    },
+    {
+      "position": 22,
+      "asin": "B0HF4BK378",
+      "title": "Men's Fleece-Lined Thick Jacket with Multiple Pockets Full-Zip Fleece Warm Coat",
+      "link": "https://www.amazon.com/YuKaiChen-Fleece-Lined-Multiple-Pockets-Full-Zip/dp/B0HF4BK378/ref=sr_1_22_sspa?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia better sweater&qid=1793040479&sr=8-22-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "YuKaiChen",
+      "rating": 4.6,
+      "reviews": 15,
+      "recent_sales": "New on Amazon in past month",
+      "price": "$39.19",
+      "extracted_price": 39.19,
+      "original_price": "$55.99",
+      "extracted_original_price": 55.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/81k5n4ejasL._AC_UL320_.jpg"
+    },
+    {
+      "position": 23,
+      "asin": "B0FYQBCX8V",
+      "title": "Fjallraven Ovik Solid Knit Women's Round Neck Sweater - Regular Fit",
+      "link": "https://www.amazon.com/Fj%C3%A4llr%C3%A4ven-Womens-Solid-Jacquard-Medium/dp/B0FYQBCX8V/ref=sr_1_23?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-23",
+      "brand": "Fjällräven",
+      "price": "$158.35",
+      "extracted_price": 158.35,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Wed, Oct 28",
+          "type": "FREE delivery",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Tomorrow, Oct 27",
+          "type": "Or fastest delivery",
+          "date": "Tomorrow, Oct 27"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81uufbviudL._AC_UL320_.jpg"
+    },
+    {
+      "position": 24,
+      "asin": "B08B88C37D",
+      "title": "Women's Long Sleeve Sweater Fleece Zip Up Speckled Jacket with Pockets",
+      "link": "https://www.amazon.com/Dolcevida-Womens-Sweater-Speckled-Pockets/dp/B08B88C37D/ref=sr_1_24?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-24",
+      "rating": 4.5,
+      "reviews": 1970,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$37.99",
+      "extracted_price": 37.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81uv5NYwYAL._AC_UL320_.jpg"
+    },
+    {
+      "position": 25,
+      "asin": "B07XCZB8ML",
+      "title": "womens W's Better Sweater Jkt",
+      "link": "https://www.amazon.com/Patagonia-Womens-Better-Sweater-Fleece/dp/B07XCZB8ML/ref=sr_1_25?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-25",
+      "brand": "Patagonia",
+      "rating": 3.6,
+      "reviews": 21,
+      "price": "$169.00",
+      "extracted_price": 169.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Tue, Nov 3",
+          "type": "FREE delivery",
+          "date": "Tue, Nov 3"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/91PK+ONd8RS._AC_UL320_.jpg"
+    },
+    {
+      "position": 26,
+      "asin": "B09KTH4G26",
+      "title": "Men's Gilliam Jacket",
+      "link": "https://www.amazon.com/Carhartt-Defender-Relaxed-Lightweight-Insulated/dp/B09KTH4G26/ref=sr_1_26?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-26",
+      "brand": "Carhartt",
+      "rating": 4.7,
+      "reviews": 3634,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$109.99",
+      "extracted_price": 109.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/615F95AfPsL._AC_UL320_.jpg"
+    },
+    {
+      "position": 27,
+      "asin": "B0CCN9WNCG",
+      "title": "Mens Hoodies Knit Sweater Fleece Cardigan Hooded Men's Sweaters Jacket",
+      "link": "https://www.amazon.com/Mylldey-Hoodies-Sweater-Cardigan-Sweaters/dp/B0CCN9WNCG/ref=sr_1_27_sspa?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia better sweater&qid=1793040479&sr=8-27-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "rating": 4.6,
+      "reviews": 919,
+      "price": "$31.99",
+      "extracted_price": 31.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/815wn3chTdL._AC_UL320_.jpg"
+    },
+    {
+      "position": 28,
+      "asin": "B09V3L9LLQ",
+      "title": "Tsillan Men'sVest",
+      "link": "https://www.amazon.com/North-Face-Tsillan-Heather-Small/dp/B09V3L9LLQ/ref=sr_1_28?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-28",
+      "brand": "The North Face",
+      "rating": 4.6,
+      "reviews": 232,
+      "price": "$56.17",
+      "extracted_price": 56.17,
+      "original_price": "$90.00",
+      "extracted_original_price": 90.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81qADg+-nML._AC_UL320_.jpg"
+    },
+    {
+      "position": 29,
+      "asin": "B0D8GGBQGS",
+      "title": "Men's Drop Line Fleece Half-Zip",
+      "link": "https://www.amazon.com/Marmot-Half-Zip-Polyester-Lightweight-DriClime-lined/dp/B0D8GGBQGS/ref=sr_1_29?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-29",
+      "brand": "Marmot",
+      "rating": 4.5,
+      "reviews": 175,
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sun, Nov 1",
+          "type": "FREE delivery",
+          "date": "Sun, Nov 1"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/817W83ebtOL._AC_UL320_.jpg"
+    },
+    {
+      "position": 30,
+      "asin": "B0B624WF58",
+      "title": "Scrubs C80023 Men's Rugged Flex® Modern Fit Bonded Fleece Jack",
+      "link": "https://www.amazon.com/Carhartt-Rugged-Modern-Resistant-Bonded/dp/B0B624WF58/ref=sr_1_30?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-30",
+      "brand": "Carhartt",
+      "rating": 4.6,
+      "reviews": 460,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$60.00",
+      "extracted_price": 60.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61mxKG4xoAL._AC_UL320_.jpg"
+    },
+    {
+      "position": 31,
+      "asin": "B0DBHJ1JDT",
+      "title": "Women's Long Sleeve Sweater Fleece Zip Up Speckled Jacket with Pockets",
+      "link": "https://www.amazon.com/Dolcevida-Sweater-Speckled-Pockets%EF%BC%88Oatmeal-Heather%EF%BC%8CS%EF%BC%89/dp/B0DBHJ1JDT/ref=sr_1_31?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-31",
+      "rating": 4.5,
+      "reviews": 1970,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$37.99",
+      "extracted_price": 37.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sun, Nov 1",
+          "type": "FREE delivery",
+          "date": "Sun, Nov 1"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81dwj0k5k5L._AC_UL320_.jpg"
+    },
+    {
+      "position": 32,
+      "asin": "B0CY1HP2JP",
+      "title": "Men's Full Zip Fleece Jacket Lightweight Warm Soft Polar Jackets",
+      "link": "https://www.amazon.com/33-000ft-Lightweight-Jackets-Pockets/dp/B0CY1HP2JP/ref=sr_1_32?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-32",
+      "brand": "33,000ft",
+      "rating": 4.4,
+      "reviews": 485,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$28.89",
+      "extracted_price": 28.89,
+      "original_price": "$33.99",
+      "extracted_original_price": 33.99,
+      "original_price_label": "Typical price",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/81j48i-nIqL._AC_UL320_.jpg"
+    },
+    {
+      "position": 33,
+      "asin": "B0BRQ33X59",
+      "title": "Womens Fleece Zip Up Jacket with Pockets Lightweight Soft Coat",
+      "link": "https://www.amazon.com/MAGCOMSEN-Jackets-Fleece-Weather-Workout/dp/B0BRQ33X59/ref=sr_1_33?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-33",
+      "brand": "MAGCOMSEN",
+      "rating": 4.3,
+      "reviews": 452,
+      "price": "$32.28",
+      "extracted_price": 32.28,
+      "original_price": "$42.99",
+      "extracted_original_price": 42.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81n5ldXcJWL._AC_UL320_.jpg"
+    },
+    {
+      "position": 34,
+      "asin": "B0F7TGVK17",
+      "title": "Women's Clarksburg Quarter-Zip Sweatshirt",
+      "link": "https://www.amazon.com/Carhartt-Midweight-Quarter-Zip-Mock-Neck-Sweatshirt/dp/B0F7TGVK17/ref=sr_1_34?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-34",
+      "brand": "Carhartt",
+      "rating": 4.8,
+      "reviews": 864,
+      "recent_sales": "400+ bought in past month",
+      "extracted_recent_sales": 400,
+      "price": "$54.99",
+      "extracted_price": 54.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61iID-vfJPL._AC_UL320_.jpg"
+    },
+    {
+      "position": 35,
+      "asin": "B0FXN4CBR5",
+      "title": "Men's Sherpa Lined Hoodie Jacket",
+      "link": "https://www.amazon.com/Billabong-Sherpa-Lined-Hoodie-Jacket/dp/B0FXN4CBR5/ref=sr_1_35?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-35",
+      "brand": "Billabong",
+      "rating": 4.3,
+      "reviews": 120,
+      "price": "$23.48",
+      "extracted_price": 23.48,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71FKQfnfJxL._AC_UL320_.jpg"
+    },
+    {
+      "position": 36,
+      "asin": "B0CY14FS82",
+      "title": "Men's Full Zip Fleece Jacket Lightweight Warm Soft Polar Jackets",
+      "link": "https://www.amazon.com/33-000ft-Lightweight-Jackets-Pockets/dp/B0CY14FS82/ref=sr_1_36?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-36",
+      "brand": "33,000ft",
+      "rating": 4.4,
+      "reviews": 485,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$28.89",
+      "extracted_price": 28.89,
+      "original_price": "$33.99",
+      "extracted_original_price": 33.99,
+      "original_price_label": "Typical price",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71K3Ozv48NL._AC_UL320_.jpg"
+    },
+    {
+      "position": 37,
+      "asin": "B01KWHVPKO",
+      "title": "Men's Classic Zip Front Polar Fleece Jacket",
+      "link": "https://www.amazon.com/Tommy-Hilfiger-Classic-Fleece-Jacket/dp/B01KWHVPKO/ref=sr_1_37?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-37",
+      "brand": "Tommy Hilfiger",
+      "rating": 4.7,
+      "reviews": 7993,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$45.11",
+      "extracted_price": 45.11,
+      "original_price": "$49.07",
+      "extracted_original_price": 49.07,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81rETb9793L._AC_UL320_.jpg"
+    },
+    {
+      "position": 38,
+      "asin": "B0CLR9THJ3",
+      "title": "womens Benton Springs 1/2 Snap Pull Over Ii",
+      "link": "https://www.amazon.com/Columbia-Womens-Benton-Springs-Heather/dp/B0CLR9THJ3/ref=sr_1_38?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-38",
+      "brand": "Columbia",
+      "rating": 4.5,
+      "reviews": 1989,
+      "price": "$45.50",
+      "extracted_price": 45.5,
+      "original_price": "$65.00",
+      "extracted_original_price": 65.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71voH3t2o1L._AC_UL320_.jpg"
+    },
+    {
+      "position": 39,
+      "asin": "B01KTUK3PM",
+      "title": "Mens Flannel Long Sleeve Button Down 100% Cotton Shirt",
+      "link": "https://www.amazon.com/Legendary-Whitetails-Flannels-Charcoal-Heather/dp/B01KTUK3PM/ref=sr_1_39?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-39",
+      "brand": "Legendary Whitetails",
+      "rating": 4.6,
+      "reviews": 98751,
+      "price": "$36.99",
+      "extracted_price": 36.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/818b3hI8d9L._AC_UL320_.jpg"
+    },
+    {
+      "position": 40,
+      "asin": "B0BJ1PG3BX",
+      "title": "Women's Fleece Jacket Zip Up Coat Lightweight Soft Warm Long Sleeve Jackets with Pockets for Winter",
+      "link": "https://www.amazon.com/MAGCOMSEN-Fleece-Lightweight-Outdoor-Windproof/dp/B0BJ1PG3BX/ref=sr_1_40?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-40",
+      "brand": "MAGCOMSEN",
+      "rating": 4.4,
+      "reviews": 1427,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$29.98",
+      "extracted_price": 29.98,
+      "original_price": "$38.98",
+      "extracted_original_price": 38.98,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/819IUGUEXHL._AC_UL320_.jpg"
+    },
+    {
+      "position": 41,
+      "asin": "B0DG496DCV",
+      "title": "Men's Upward Fleece Half-zip Pullover",
+      "link": "https://www.amazon.com/Marmot-Half-Zip-Lightweight-Polyester-High-pile/dp/B0DG496DCV/ref=sr_1_41?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-41",
+      "brand": "Marmot",
+      "rating": 4.7,
+      "reviews": 4,
+      "price": "$69.00",
+      "extracted_price": 69.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/713gZkQTLZL._AC_UL320_.jpg"
+    },
+    {
+      "position": 42,
+      "asin": "B0CZ8TFN8F",
+      "title": "Hoodies for Women Oversized V Neck Hooded Sweatshirts",
+      "link": "https://www.amazon.com/ANRABESS-Hoodies-Oversized-Sweatshirts-Pullover/dp/B0CZ8TFN8F/ref=sr_1_42?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-42",
+      "brand": "ANRABESS",
+      "rating": 4.3,
+      "reviews": 1025,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$24.98",
+      "extracted_price": 24.98,
+      "original_price": "$36.99",
+      "extracted_original_price": 36.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71mGj-6mdVL._AC_UL320_.jpg"
+    },
+    {
+      "position": 43,
+      "asin": "B0BC8MQ51P",
+      "title": "Women's Sweater Fleece Jacket Full Zip Knit Jacket with Pockets",
+      "link": "https://www.amazon.com/COZZIPLUS-Sweater-Interior-Knitted-Pockets/dp/B0BC8MQ51P/ref=sr_1_43?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-43",
+      "brand": "COZZIPLUS",
+      "rating": 4.5,
+      "reviews": 19,
+      "price": "$35.99",
+      "extracted_price": 35.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81wXVacX9tL._AC_UL320_.jpg"
+    },
+    {
+      "position": 44,
+      "asin": "B09KP2RML2",
+      "title": "Men's Big Great Hart Mountain III Big & Tall Half Zip",
+      "link": "https://www.amazon.com/Columbia-Mountain-Collegiate-Heather-Medium/dp/B09KP2RML2/ref=sr_1_44?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-44",
+      "brand": "Columbia",
+      "rating": 4.6,
+      "reviews": 1129,
+      "price": "$55.30",
+      "extracted_price": 55.3,
+      "original_price": "$79.00",
+      "extracted_original_price": 79.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81eqSSK2T1L._AC_UL320_.jpg"
+    },
+    {
+      "position": 45,
+      "asin": "B0CLRB4QLM",
+      "title": "Men's Ascender Softshell Jacket",
+      "link": "https://www.amazon.com/Columbia-Ascender-Softshell-Jacket-Black/dp/B0CLRB4QLM/ref=sr_1_45_mod_primary_new?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=8-45",
+      "brand": "Columbia",
+      "rating": 4.7,
+      "reviews": 1718,
+      "recent_sales": "1K+ bought in past month",
+      "extracted_recent_sales": 1000,
+      "price": "$64.95",
+      "extracted_price": 64.95,
+      "original_price": "$125.00",
+      "extracted_original_price": 125.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "$5.16 delivery Tue, Nov 3",
+          "type": "$5.16 delivery",
+          "date": "Tue, Nov 3"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61trWp7GqWL._AC_UL320_.jpg"
+    },
+    {
+      "position": 46,
+      "asin": "B098D5WSM8",
+      "title": "Women's Full Zip Soft Polar Fleece Jacket Outdoor Recreation Coat",
+      "link": "https://www.amazon.com/Womens-Lightweight-Outdoor-Recreation-Pockets/dp/B098D5WSM8/ref=sr_1_46?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-46",
+      "rating": 4.5,
+      "reviews": 6453,
+      "price": "$38.99",
+      "extracted_price": 38.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81ziU7S3b9L._AC_UL320_.jpg"
+    },
+    {
+      "position": 47,
+      "asin": "B0DG1RPND3",
+      "title": "Men's Drop Line Vest",
+      "link": "https://www.amazon.com/Marmot-Recycled-Polyester-Lightweight-DriClime-lined/dp/B0DG1RPND3/ref=sr_1_47?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-47",
+      "brand": "Marmot",
+      "rating": 4.0,
+      "reviews": 20,
+      "price": "$90.00",
+      "extracted_price": 90.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81Kl73Tg8uL._AC_UL320_.jpg"
+    },
+    {
+      "position": 48,
+      "asin": "B097NKWCRB",
+      "title": "Men's Textured Cap Rock Quarter Zip Pullover - 1/4 Zip Fleece Jacket with a Classic Fit & Embroidered Logo",
+      "link": "https://www.amazon.com/North-Face-Textured-Pullover-Sweatshirt/dp/B097NKWCRB/ref=sr_1_48?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-48",
+      "brand": "The North Face",
+      "rating": 4.5,
+      "reviews": 210,
+      "price": "$75.00",
+      "extracted_price": 75.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81gGioxzZTL._AC_UL320_.jpg"
+    },
+    {
+      "position": 49,
+      "asin": "B08F35CFRJ",
+      "title": "Quarter Zip Sweatshirt For Women Fall Outfits",
+      "link": "https://www.amazon.com/BTFBM-Fashion-Lightweight-Sweatshirts-Pullovers/dp/B08F35CFRJ/ref=sr_1_49?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-49",
+      "brand": "BTFBM",
+      "rating": 4.3,
+      "reviews": 12396,
+      "price": "$34.99",
+      "extracted_price": 34.99,
+      "coupon": {
+        "badge_text": "You pay $31.49",
+        "text": "with coupon (some sizes/colors)"
+      },
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71ekwzldowL._AC_UL320_.jpg"
+    },
+    {
+      "position": 50,
+      "asin": "B08616P7PC",
+      "title": "Men's Long-Sleeve Soft Touch Rib Quarter-Zip Sweater",
+      "link": "https://www.amazon.com/Amazon-Essentials-Long-Sleeve-Quarter-Zip-Charcoal/dp/B08616P7PC/ref=sr_1_50?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-50",
+      "brand": "Amazon Essentials",
+      "rating": 4.5,
+      "reviews": 3886,
+      "price": "$25.20",
+      "extracted_price": 25.2,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/A1wPxSdu67L._AC_UL320_.jpg"
+    },
+    {
+      "position": 51,
+      "asin": "B09CT43WHL",
+      "title": "Hoodies for Women Button Collar Drawstring Sweatshirt Hooded Tops",
+      "link": "https://www.amazon.com/Dokotoo-Sweatshirt-Drawstring-Sweatshirts-Pullover/dp/B09CT43WHL/ref=sr_1_51?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-51",
+      "brand": "Dokotoo",
+      "rating": 4.4,
+      "reviews": 5848,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$23.44",
+      "extracted_price": 23.44,
+      "original_price": "$33.98",
+      "extracted_original_price": 33.98,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/51eFYaKiNFL._AC_UL320_.jpg"
+    },
+    {
+      "position": 52,
+      "asin": "B07YG1QJNN",
+      "title": "Men's Better Sweater Vest",
+      "link": "https://www.amazon.com/Patagonia-Mens-Better-Sweater-Fleece/dp/B07YG1QJNN/ref=sr_1_52?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-52",
+      "brand": "Patagonia",
+      "rating": 4.7,
+      "reviews": 55,
+      "more_offers": {
+        "lowest_price": "$160.04",
+        "extracted_lowest_price": 160.04,
+        "link": "https://www.amazon.com/gp/offer-listing/B07YG1QJNN/ref=sr_1_52_olp?keywords=patagonia+better+sweater&dib_tag=se&dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&qid=1793040479&sr=8-52",
+        "offers_count": 1,
+        "description": "(1 new offer)"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61wSTiEGbnL._AC_UL320_.jpg"
+    },
+    {
+      "position": 53,
+      "asin": "B083N45ZB1",
+      "title": "Men's Shetland Wool Pullover Men's Sweater",
+      "link": "https://www.amazon.com/Pendleton-Shetland-Sweater-Indigo-Heather/dp/B083N45ZB1/ref=sr_1_53?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-53",
+      "brand": "Pendleton",
+      "rating": 4.5,
+      "reviews": 261,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$99.50",
+      "extracted_price": 99.5,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/91-CmqlXXYL._AC_UL320_.jpg"
+    },
+    {
+      "position": 54,
+      "asin": "B0CNBQJJFB",
+      "title": "Men's Crest Full Zip Jacket | Water Repellent Fleece Coat, Double Layer Stand Collar & Zip Hand Pockets",
+      "link": "https://www.amazon.com/Moisture-Athletic-Sweatshirt-Breathable-Polyester/dp/B0CNBQJJFB/ref=sr_1_54?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-54",
+      "brand": "The North Face",
+      "rating": 4.2,
+      "reviews": 163,
+      "price": "$110.00",
+      "extracted_price": 110.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61CZ-2ppLcL._AC_UL320_.jpg"
+    },
+    {
+      "position": 55,
+      "asin": "B002G9UD8C",
+      "title": "Men's Iconic K288 Logo Sweatshirt",
+      "link": "https://www.amazon.com/Carhartt-Midweight-Sleeve-Sweatshirt-Regular/dp/B002G9UD8C/ref=sr_1_55?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-55",
+      "brand": "Carhartt",
+      "rating": 4.8,
+      "reviews": 52385,
+      "recent_sales": "#1 Top Rated",
+      "extracted_recent_sales": 1,
+      "price": "$64.99",
+      "extracted_price": 64.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71OG5R-tfYL._AC_UL320_.jpg"
+    },
+    {
+      "position": 56,
+      "asin": "B0CB6JCDGJ",
+      "title": "Mens Waffle Knit Sweaters Casual Crewneck Pullover Sweaters",
+      "link": "https://www.amazon.com/PJ-PAUL-JONES-Sweaters-Crewneck/dp/B0CB6JCDGJ/ref=sr_1_56?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-56",
+      "brand": "PJ PAUL JONES",
+      "rating": 4.4,
+      "reviews": 898,
+      "price": "$34.99",
+      "extracted_price": 34.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71okQ8buyLL._AC_UL320_.jpg"
+    },
+    {
+      "position": 57,
+      "asin": "B0FCM73QQQ",
+      "title": "Mens Zip Up Sweatshirt Mock Neck Quilted Jacket Casual Lightweight Sweater Jackets with Pocket",
+      "link": "https://www.amazon.com/COOFANDY-Sweatshirt-Stylish-Jackets-Quilted/dp/B0FCM73QQQ/ref=sr_1_57?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-57",
+      "brand": "COOFANDY",
+      "rating": 4.3,
+      "reviews": 421,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$28.49",
+      "extracted_price": 28.49,
+      "original_price": "$45.99",
+      "extracted_original_price": 45.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/81gv+eo8zyL._AC_UL320_.jpg"
+    },
+    {
+      "position": 58,
+      "asin": "B09HFNS46L",
+      "title": "Men's Drop Line Fleece Half-Zip",
+      "link": "https://www.amazon.com/Marmot-Half-Zip-Polyester-Lightweight-DriClime-lined/dp/B09HFNS46L/ref=sr_1_58?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-58",
+      "brand": "Marmot",
+      "rating": 4.5,
+      "reviews": 175,
+      "price": "$90.00",
+      "extracted_price": 90.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71qgv96w8ML._AC_UL320_.jpg"
+    },
+    {
+      "position": 59,
+      "asin": "B0BD6RKHRZ",
+      "title": "Womens Half Zip Pullover Fleece Stand Collar Crop Sweatshirt",
+      "link": "https://www.amazon.com/Womens-Pullover-Sweatshirt-Fleece-Pockets/dp/B0BD6RKHRZ/ref=sr_1_59?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-59",
+      "brand": "THE GYM PEOPLE",
+      "rating": 4.3,
+      "reviews": 4330,
+      "price": "$31.99",
+      "extracted_price": 31.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71zqWli-RdL._AC_UL320_.jpg"
+    },
+    {
+      "position": 60,
+      "asin": "B0721C21RJ",
+      "title": "Men's Sweatshirt, EcoSmart Fleece Crewneck Sweatshirt, Big & Tall Available, 1 or 2-Pack",
+      "link": "https://www.amazon.com/Hanes-EcoSmart-Fleece-Sweatshirt-Stonewashed/dp/B0721C21RJ/ref=sr_1_60?dib=eyJ2IjoiMSJ9.cpaj54wHpLkamX_jw_5H32vCeQHS3YvmRMo6Z1ThHk_At3zONnlCNw-qE2sPRi8zbUKWwBOrPFRvMyLeP0hI_YBtGKrcv4AL04xyfkqHipkTYUj3OM5iME-_kmmTqKiKzWCQeTqfAbc0v-FNzo_ELS8x6X7pcF4u_HQ3utuh5GSLOMvF7kyWSxDkBfjyHxmnzk61e4KquJMWSJw-ChSOLW7NRBQFXP46sMsAT5e9mMSHLQnyLrW0x-fMAIItv6pW9N-3l5hi9ETGXpW-Wbyq-A52dnqIK0I2CSn9qmxvbtk.QrLu9rS8rqKnJcEv4iygSiv7AhndS4-1qDTmg6ckfhc&dib_tag=se&keywords=patagonia+better+sweater&qid=1793040479&sr=8-60",
+      "brand": "Hanes",
+      "rating": 4.6,
+      "reviews": 142442,
+      "recent_sales": "4K+ bought in past month",
+      "extracted_recent_sales": 4000,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "bestseller": {
+        "category": "in Men's Sweatshirts"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81D+bCgn8hL._AC_UL320_.jpg"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.amazon.com/s?k=patagonia+better+sweater&page=2&xpid=9v-DE_mrCZ9B8&qid=1793040479&ref=sr_pg_1",
+    "other_pages": {
+      "2": "https://www.amazon.com/s?k=patagonia+better+sweater&page=2&xpid=9v-DE_mrCZ9B8&qid=1793040479&ref=sr_pg_2",
+      "3": "https://www.amazon.com/s?k=patagonia+better+sweater&page=3&xpid=9v-DE_mrCZ9B8&qid=1793040479&ref=sr_pg_3"
+    }
+  }
+}

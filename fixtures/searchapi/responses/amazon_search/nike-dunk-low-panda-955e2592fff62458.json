@@ -1,0 +1,1739 @@
+{
+  "search_metadata": {
+    "id": "search_DWmO1QkoEbuzajAOp4J2r8Ga",
+    "status": "Success",
+    "created_at": "2026-10-26T18:47:04Z",
+    "request_time_taken": 11.9,
+    "parsing_time_taken": 0.08,
+    "total_time_taken": 11.98,
+    "request_url": "https://www.amazon.com/s?k=nike+dunk+low+panda",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_DWmO1QkoEbuzajAOp4J2r8Ga.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_DWmO1QkoEbuzajAOp4J2r8Ga"
+  },
+  "search_parameters": {
+    "engine": "amazon_search",
+    "q": "nike dunk low panda",
+    "amazon_domain": "amazon.com",
+    "delivery_country": "us"
+  },
+  "search_information": {
+    "query_displayed": "nike dunk low panda",
+    "price_min": "$41",
+    "extracted_price_min": 41,
+    "price_max": "$195+",
+    "extracted_price_max": 195,
+    "delivering_to": "Delivering to Tulsa 74136"
+  },
+  "filters": [
+    {
+      "type": "Eligible for Free Shipping",
+      "options": [
+        {
+          "text": "Free Shipping by Amazon",
+          "rh": "p_76:2661625011"
+        }
+      ]
+    },
+    {
+      "type": "Delivery Day",
+      "options": [
+        {
+          "text": "Get It by Tomorrow",
+          "rh": "p_90:8308921011"
+        }
+      ]
+    },
+    {
+      "type": "Gender",
+      "options": [
+        {
+          "text": "Men",
+          "rh": "p_n_g-101015233022111:121075132011"
+        },
+        {
+          "text": "Women",
+          "rh": "p_n_g-101015233022111:121075131011"
+        },
+        {
+          "text": "Boys",
+          "rh": "p_n_g-101015233022111:121075136011"
+        },
+        {
+          "text": "Girls",
+          "rh": "p_n_g-101015233022111:121075133011"
+        },
+        {
+          "text": "Babies",
+          "rh": "p_n_g-101015233022111:121833111011"
+        },
+        {
+          "text": "Unisex",
+          "rh": "p_n_g-101015233022111:121833112011"
+        }
+      ]
+    },
+    {
+      "type": "Deals & Discounts",
+      "options": [
+        {
+          "text": "Up to $90",
+          "rh": "p_36:-9000"
+        },
+        {
+          "text": "$90 to $100",
+          "rh": "p_36:9000-10000"
+        },
+        {
+          "text": "$100 to $150",
+          "rh": "p_36:10000-15000"
+        },
+        {
+          "text": "$150 to $200",
+          "rh": "p_36:15000-20000"
+        },
+        {
+          "text": "$200 & above",
+          "rh": "p_36:20000-"
+        }
+      ]
+    },
+    {
+      "type": "Color",
+      "options": [
+        {
+          "text": "White",
+          "rh": "p_n_size_two_browse-vebin:5391079011"
+        },
+        {
+          "text": "Black",
+          "rh": "p_n_size_two_browse-vebin:5391077011"
+        },
+        {
+          "text": "Brown",
+          "rh": "p_n_size_two_browse-vebin:5391080011"
+        },
+        {
+          "text": "Multi",
+          "rh": "p_n_size_two_browse-vebin:5391092011"
+        },
+        {
+          "text": "Grey",
+          "rh": "p_n_size_two_browse-vebin:5391078011"
+        },
+        {
+          "text": "Red",
+          "rh": "p_n_size_two_browse-vebin:5391082011"
+        },
+        {
+          "text": "Pink",
+          "rh": "p_n_size_two_browse-vebin:5391083011"
+        },
+        {
+          "text": "Orange",
+          "rh": "p_n_size_two_browse-vebin:5391084011"
+        },
+        {
+          "text": "Ivory",
+          "rh": "p_n_size_two_browse-vebin:5391086011"
+        },
+        {
+          "text": "Green",
+          "rh": "p_n_size_two_browse-vebin:5391087011"
+        },
+        {
+          "text": "Blue",
+          "rh": "p_n_size_two_browse-vebin:5391088011"
+        }
+      ]
+    },
+    {
+      "type": "Brands",
+      "options": [
+        {
+          "text": "Nike",
+          "rh": "p_123:234394"
+        }
+      ]
+    },
+    {
+      "type": "Amazon Fashion",
+      "options": [
+        {
+          "text": "Premium Brands",
+          "rh": "p_n_g-1004227705091:21451213011"
+        },
+        {
+          "text": "Top Brands",
+          "rh": "p_n_g-1004227705091:14630392011"
+        }
+      ]
+    },
+    {
+      "type": "Children's Shoe Width",
+      "options": [
+        {
+          "text": "Medium",
+          "rh": "p_n_pt_nav_size_kids_shoe_width:1285066011"
+        }
+      ]
+    },
+    {
+      "type": "Women's Shoe Width",
+      "options": [
+        {
+          "text": "Medium",
+          "rh": "p_n_shoe_width_browse-vebin:1285147011"
+        }
+      ]
+    },
+    {
+      "type": "Women's Shoe Size",
+      "options": [
+        {
+          "text": "5.5",
+          "rh": "p_n_g-1004158520091:1285131011"
+        },
+        {
+          "text": "6",
+          "rh": "p_n_g-1004158520091:1285132011"
+        },
+        {
+          "text": "6.5",
+          "rh": "p_n_g-1004158520091:1285133011"
+        },
+        {
+          "text": "7",
+          "rh": "p_n_g-1004158520091:1285134011"
+        },
+        {
+          "text": "7.5",
+          "rh": "p_n_g-1004158520091:1285135011"
+        },
+        {
+          "text": "8",
+          "rh": "p_n_g-1004158520091:1285136011"
+        },
+        {
+          "text": "9",
+          "rh": "p_n_g-1004158520091:1285138011"
+        },
+        {
+          "text": "9.5",
+          "rh": "p_n_g-1004158520091:1285139011"
+        },
+        {
+          "text": "10.5",
+          "rh": "p_n_g-1004158520091:1285114011"
+        },
+        {
+          "text": "11.5",
+          "rh": "p_n_g-1004158520091:1285116011"
+        }
+      ]
+    },
+    {
+      "type": "Men's Shoe Width",
+      "options": [
+        {
+          "text": "Medium",
+          "rh": "p_n_pt_nav_size_men_shoe_width:1285110011"
+        },
+        {
+          "text": "Wide",
+          "rh": "p_n_pt_nav_size_men_shoe_width:1285111011"
+        }
+      ]
+    },
+    {
+      "type": "Customer Review",
+      "options": [
+        {
+          "text": "4 Stars",
+          "rh": "p_72:2661618011"
+        }
+      ]
+    },
+    {
+      "type": "Height Map",
+      "options": [
+        {
+          "text": "High Top",
+          "rh": "p_n_g-1003563006111:58126450011"
+        },
+        {
+          "text": "Low Top",
+          "rh": "p_n_g-1003563006111:58126448011"
+        },
+        {
+          "text": "Mid Top",
+          "rh": "p_n_g-1003563006111:58126449011"
+        }
+      ]
+    },
+    {
+      "type": "Pattern",
+      "options": [
+        {
+          "text": "Solid",
+          "rh": "p_n_g-101017157714111:213408750011"
+        }
+      ]
+    },
+    {
+      "type": "Heel Type",
+      "options": [
+        {
+          "text": "Flat",
+          "rh": "p_n_g-101018073212111:222412461011"
+        },
+        {
+          "text": "No Heel",
+          "rh": "p_n_g-101018073212111:222412466011"
+        }
+      ]
+    },
+    {
+      "type": "Surface Recommendation",
+      "options": [
+        {
+          "text": "Indoor",
+          "rh": "p_n_g-101017934180111:221157090011"
+        }
+      ]
+    },
+    {
+      "type": "Shoes Lifestyle",
+      "options": [
+        {
+          "text": "Casual",
+          "rh": "p_n_g-1003446729111:24196138011"
+        },
+        {
+          "text": "Comfort",
+          "rh": "p_n_g-1003446729111:24196137011"
+        }
+      ]
+    },
+    {
+      "type": "Seller",
+      "options": [
+        {
+          "text": "Stadium Goods",
+          "rh": "p_6:AFW7WNX55N5K4"
+        },
+        {
+          "text": "Bixemi",
+          "rh": "p_6:A3P8U6BAN7HQM8"
+        },
+        {
+          "text": "ISOMETRIX L.L.C",
+          "rh": "p_6:A1EK7LD4ZSCFPB"
+        },
+        {
+          "text": "Sole_Secret",
+          "rh": "p_6:A9QLM40YZ1BOZ"
+        },
+        {
+          "text": "SNKR Paradise",
+          "rh": "p_6:A1HUBJ4H8FIZG0"
+        },
+        {
+          "text": "NATURAL SHOES",
+          "rh": "p_6:A3211FPPS63ST7"
+        },
+        {
+          "text": "SF0 Athletics",
+          "rh": "p_6:A2TVRE2CB5TELZ"
+        }
+      ]
+    },
+    {
+      "type": "Shoe Toe Style",
+      "options": [
+        {
+          "text": "Closed Toe",
+          "rh": "p_n_g-1003126687111:23713152011"
+        },
+        {
+          "text": "Round Toe",
+          "rh": "p_n_g-1003126687111:23713160011"
+        },
+        {
+          "text": "Plain Toe",
+          "rh": "p_n_g-1003126687111:23713154011"
+        }
+      ]
+    },
+    {
+      "type": "Water Resistance Level",
+      "options": [
+        {
+          "text": "Not Water Resistant",
+          "rh": "p_n_g-101017968916111:221385250011"
+        },
+        {
+          "text": "Water Resistant",
+          "rh": "p_n_g-101017968916111:221385249011"
+        }
+      ]
+    },
+    {
+      "type": "Shoes Closure Type",
+      "options": [
+        {
+          "text": "Lace-Up",
+          "rh": "p_n_g-1003465852111:24436296011"
+        },
+        {
+          "text": "Hook & Loop",
+          "rh": "p_n_g-1003465852111:24436294011"
+        }
+      ]
+    },
+    {
+      "type": "Purpose",
+      "options": [
+        {
+          "text": "Basketball",
+          "rh": "p_n_g-101016756037111:207864162011"
+        },
+        {
+          "text": "Running",
+          "rh": "p_n_g-101016756037111:207864157011"
+        },
+        {
+          "text": "Walking",
+          "rh": "p_n_g-101016756037111:207864167011"
+        },
+        {
+          "text": "Casual Wear",
+          "rh": "p_n_g-101016756037111:214322040011"
+        },
+        {
+          "text": "Dancing",
+          "rh": "p_n_g-101016756037111:207864174011"
+        },
+        {
+          "text": "Exercising",
+          "rh": "p_n_g-101016756037111:214322037011"
+        }
+      ]
+    },
+    {
+      "type": "Seasons",
+      "options": [
+        {
+          "text": "Fall",
+          "rh": "p_n_g-1003397347111:24045080011"
+        },
+        {
+          "text": "Winter",
+          "rh": "p_n_g-1003397347111:24045079011"
+        },
+        {
+          "text": "All",
+          "rh": "p_n_g-1003397347111:204067898011"
+        }
+      ]
+    },
+    {
+      "type": "Shoe Outer Material",
+      "options": [
+        {
+          "text": "Leather",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317179011"
+        },
+        {
+          "text": "Faux Leather",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317182011"
+        },
+        {
+          "text": "Rubber",
+          "rh": "p_n_feature_twenty-three_browse-bin:210968947011"
+        },
+        {
+          "text": "Mesh",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317165011"
+        },
+        {
+          "text": "Nylon",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317164011"
+        },
+        {
+          "text": "Polyester",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317161011"
+        },
+        {
+          "text": "Suede",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317162011"
+        }
+      ]
+    },
+    {
+      "type": "Strap Type",
+      "options": [
+        {
+          "text": "Ankle Strap",
+          "rh": "p_n_g-1003499539111:28820566011"
+        }
+      ]
+    },
+    {
+      "type": "Lining Description",
+      "options": [
+        {
+          "text": "Cotton",
+          "rh": "p_n_g-101017758228111:217820219011"
+        },
+        {
+          "text": "Leather",
+          "rh": "p_n_g-101017758228111:217820216011"
+        },
+        {
+          "text": "Natural Rubber",
+          "rh": "p_n_g-101017758228111:217820226011"
+        },
+        {
+          "text": "Unlined",
+          "rh": "p_n_g-101017758228111:217820224011"
+        }
+      ]
+    },
+    {
+      "type": "Shoe Heel Height",
+      "options": [
+        {
+          "text": "Under 1\"",
+          "rh": "p_n_feature_four_browse-bin:2055867011"
+        },
+        {
+          "text": "1\" - 1 3/4\"",
+          "rh": "p_n_feature_four_browse-bin:2055868011"
+        }
+      ]
+    },
+    {
+      "type": "Shoe Type",
+      "options": [
+        {
+          "text": "Athletic Shoe",
+          "rh": "p_n_feature_thirty_browse-bin:122399094011"
+        }
+      ]
+    },
+    {
+      "type": "Shoes Special Features",
+      "options": [
+        {
+          "text": "Lightweight",
+          "rh": "p_n_g-1003396948111:24045095011"
+        },
+        {
+          "text": "Slip Resistant",
+          "rh": "p_n_g-1003396948111:24045093011"
+        },
+        {
+          "text": "Breathable",
+          "rh": "p_n_g-1003396948111:24045099011"
+        },
+        {
+          "text": "Flexible",
+          "rh": "p_n_g-1003396948111:24045094011"
+        },
+        {
+          "text": "Shock Resistant",
+          "rh": "p_n_g-1003396948111:24045102011"
+        }
+      ]
+    },
+    {
+      "type": "Material",
+      "options": [
+        {
+          "text": "Cotton",
+          "rh": "p_n_g-101017771166111:218448019011"
+        },
+        {
+          "text": "Ethylene Vinyl Acetate",
+          "rh": "p_n_g-101017771166111:218448008011"
+        },
+        {
+          "text": "Faux Leather",
+          "rh": "p_n_g-101017771166111:218448009011"
+        },
+        {
+          "text": "Leather",
+          "rh": "p_n_g-101017771166111:218448011011"
+        },
+        {
+          "text": "Mesh",
+          "rh": "p_n_g-101017771166111:218448015011"
+        },
+        {
+          "text": "Nylon",
+          "rh": "p_n_g-101017771166111:218448023011"
+        },
+        {
+          "text": "Rubber",
+          "rh": "p_n_g-101017771166111:218448002011"
+        }
+      ]
+    },
+    {
+      "type": "Arch Type",
+      "options": [
+        {
+          "text": "Low Arch",
+          "rh": "p_n_g-101017868425111:220241090011"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "asin": "B08QB842SZ",
+      "title": "Women's Dunk Low Sneaker",
+      "link": "https://www.amazon.com/Nike-Womens-DD1503-Black-White/dp/B08QB842SZ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-1",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 3712,
+      "price": "$75.00",
+      "extracted_price": 75.0,
+      "original_price": "$120.00",
+      "extracted_original_price": 120.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_overall_pick": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61PQSiTkywL._AC_UL320_.jpg"
+    },
+    {
+      "position": 2,
+      "asin": "B08QBBHFN5",
+      "title": "Dunk Low RETRO \"Reverse Panda\" DJ6188 101 Sneakers",
+      "link": "https://www.amazon.com/Nike-Retro-DD1391-Black-White/dp/B08QBBHFN5/ref=sr_1_2?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-2",
+      "brand": "Nike",
+      "rating": 4.7,
+      "reviews": 141,
+      "price": "$99.89",
+      "extracted_price": 99.89,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Oct 31",
+          "type": "FREE delivery",
+          "date": "Sat, Oct 31"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Tomorrow, Oct 27",
+          "type": "Or fastest delivery",
+          "date": "Tomorrow, Oct 27"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61J6jXUA7YL._AC_UL320_.jpg"
+    },
+    {
+      "position": 3,
+      "asin": "B0D1YFDQH7",
+      "title": "Dunk Low Retro SE Men's Shoes",
+      "link": "https://www.amazon.com/Nike-Retro-Shoes-FQ8249-100-White/dp/B0D1YFDQH7/ref=sr_1_3?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-3",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 290,
+      "price": "$95.00",
+      "extracted_price": 95.0,
+      "original_price": "$113.99",
+      "extracted_original_price": 113.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "$5 delivery Wed, Nov 4",
+          "type": "$5 delivery",
+          "date": "Wed, Nov 4"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/719KjLOSOFL._AC_UL320_.jpg"
+    },
+    {
+      "position": 4,
+      "asin": "B08QBTRMBT",
+      "title": "Dunk Low SE Women's Trainers",
+      "link": "https://www.amazon.com/Nike-Womens-DD1503-Black-White/dp/B08QBTRMBT/ref=sr_1_4?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-4",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 713,
+      "price": "$95.00",
+      "extracted_price": 95.0,
+      "original_price": "$120.00",
+      "extracted_original_price": 120.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "$5 delivery Wed, Nov 4",
+          "type": "$5 delivery",
+          "date": "Wed, Nov 4"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61PQSiTkywL._AC_UL320_.jpg"
+    },
+    {
+      "position": 5,
+      "asin": "B08QB2RHQV",
+      "title": "Men's Dunk Low Retro Shoes",
+      "link": "https://www.amazon.com/Nike-Retro-DD1391-Black-White/dp/B08QB2RHQV/ref=sr_1_5?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-5",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 407,
+      "price": "$96.28",
+      "extracted_price": 96.28,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61J6jXUA7YL._AC_UL320_.jpg"
+    },
+    {
+      "position": 6,
+      "asin": "B0D966BKBG",
+      "title": "Women's Court Vision Low Next Nature Shoes",
+      "link": "https://www.amazon.com/Nike-Womens-Low-Top-Sneakers-Black/dp/B0D966BKBG/ref=sr_1_6?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-6",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 7947,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$85.00",
+      "extracted_price": 85.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61aocnk7QBL._AC_UL320_.jpg"
+    },
+    {
+      "position": 7,
+      "asin": "B08Q9W5GMT",
+      "title": "Men's Dunk Low Sneakers",
+      "link": "https://www.amazon.com/Nike-Retro-DD1391-Black-White/dp/B08Q9W5GMT/ref=sr_1_7?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-7",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 2872,
+      "price": "$108.00",
+      "extracted_price": 108.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 12 - 27",
+          "type": "FREE delivery",
+          "date": "Nov 12 - 27"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 12 - 25",
+          "type": "Or fastest delivery",
+          "date": "Nov 12 - 25"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61J6jXUA7YL._AC_UL320_.jpg"
+    },
+    {
+      "position": 8,
+      "asin": "B09P7CS975",
+      "title": "Kid's Dunk Low Sneaker",
+      "link": "https://www.amazon.com/Nike-Panda-Black-Preschool-CW1588-100/dp/B09P7CS975/ref=sr_1_8?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-8",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 338,
+      "price": "$117.00",
+      "extracted_price": 117.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Oct 31",
+          "type": "FREE delivery",
+          "date": "Sat, Oct 31"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Fri, Oct 30",
+          "type": "Or fastest delivery",
+          "date": "Fri, Oct 30"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61cWDdscIZL._AC_UL320_.jpg"
+    },
+    {
+      "position": 9,
+      "asin": "B08QB6RL66",
+      "title": "Dunk Low RETRO \"Reverse Panda\" DJ6188 101 Sneakers",
+      "link": "https://www.amazon.com/Nike-Retro-Hyper-Cobalt-Black/dp/B08QB6RL66/ref=sr_1_9?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-9",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 92,
+      "price": "$124.50",
+      "extracted_price": 124.5,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Mon, Nov 2",
+          "type": "FREE delivery",
+          "date": "Mon, Nov 2"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61J6jXUA7YL._AC_UL320_.jpg"
+    },
+    {
+      "position": 10,
+      "asin": "B0F83XWCL9",
+      "title": "Dunk Low Retro Mens Trainers DD1391 Sneakers Shoes (UK 9.5 US 10.5 EU 44.5, White Black White 100)",
+      "link": "https://www.amazon.com/Nike-Retro-Trainers-DD1391-Sneakers/dp/B0F83XWCL9/ref=sr_1_10_mod_primary_new?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=8-10",
+      "brand": "Nike",
+      "rating": 4.3,
+      "reviews": 15,
+      "price": "$92.00",
+      "extracted_price": 92.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Oct 31",
+          "type": "FREE delivery",
+          "date": "Sat, Oct 31"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Fri, Oct 30",
+          "type": "Or fastest delivery",
+          "date": "Fri, Oct 30"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61sjdqudRFL._AC_UL320_.jpg"
+    },
+    {
+      "position": 11,
+      "asin": "B08QBZFVY5",
+      "title": "Men's Free Run 2018 Running Shoes",
+      "link": "https://www.amazon.com/Nike-Retro-DD1391-Black-White/dp/B08QBZFVY5/ref=sr_1_11?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-11",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 3256,
+      "price": "$83.44",
+      "extracted_price": 83.44,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "$1.99 delivery Fri, Oct 30",
+          "type": "$1.99 delivery",
+          "date": "Fri, Oct 30"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61J6jXUA7YL._AC_UL320_.jpg"
+    },
+    {
+      "position": 12,
+      "asin": "B08ZGP1VBH",
+      "title": "Men's Dunk Low Mystic Red Shoes",
+      "link": "https://www.amazon.com/Nike-Toddler-CW1589-Black-White/dp/B08ZGP1VBH/ref=sr_1_12?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-12",
+      "brand": "Nike",
+      "rating": 4.1,
+      "reviews": 184,
+      "price": "$60.00",
+      "extracted_price": 60.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/6147WWXHvBL._AC_UL320_.jpg"
+    },
+    {
+      "position": 13,
+      "asin": "B0FBRZ52QZ",
+      "title": "mens Court Vision Lo Nn Shoes",
+      "link": "https://www.amazon.com/Nike-Court-Vision-Nature-Pencil/dp/B0FBRZ52QZ/ref=sr_1_13?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-13",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 12557,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$85.00",
+      "extracted_price": 85.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71m5FNm+xhL._AC_UL320_.jpg"
+    },
+    {
+      "position": 14,
+      "asin": "B0CD2V5LX9",
+      "title": "Women's W Dunk Low Basketball Shoes",
+      "link": "https://www.amazon.com/Nike-Women-Cacao-Wow-Coconut-DD1503-124/dp/B0CD2V5LX9/ref=sr_1_14?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-14",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 362,
+      "price": "$77.48",
+      "extracted_price": 77.48,
+      "original_price": "$116.00",
+      "extracted_original_price": 116.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "$21.87 delivery Fri, Oct 30",
+          "type": "$21.87 delivery",
+          "date": "Fri, Oct 30"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Thu, Oct 29",
+          "type": "Or fastest delivery",
+          "date": "Thu, Oct 29"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61+UJRx38RL._AC_UL320_.jpg"
+    },
+    {
+      "position": 15,
+      "asin": "B0FHBZ19JS",
+      "title": "Dunk Low Big Kids' Shoes (White/White/White/Medium Soft Pink)",
+      "link": "https://www.amazon.com/Nike-Dunk-Shoes-White-Medium/dp/B0FHBZ19JS/ref=sr_1_15?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-15",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 16,
+      "price": "$71.85",
+      "extracted_price": 71.85,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61VR6wpjCTL._AC_UL320_.jpg"
+    },
+    {
+      "position": 16,
+      "asin": "B09P7BXJNG",
+      "title": "Kid's Dunk Low Sneaker",
+      "link": "https://www.amazon.com/Nike-Dunk-Low-Little-Kid/dp/B09P7BXJNG/ref=sr_1_16?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-16",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 338,
+      "price": "$80.39",
+      "extracted_price": 80.39,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61cWDdscIZL._AC_UL320_.jpg"
+    },
+    {
+      "position": 17,
+      "asin": "B0F8J5VN94",
+      "title": "Mens Dunk Low Retro",
+      "link": "https://www.amazon.com/Nike-Retro-Sneakers-White-Medium/dp/B0F8J5VN94/ref=sr_1_17?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-17",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 662,
+      "price": "$110.00",
+      "extracted_price": 110.0,
+      "original_price": "$120.00",
+      "extracted_original_price": 120.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61pLygTNCJL._AC_UL320_.jpg"
+    },
+    {
+      "position": 18,
+      "asin": "B0H13BQNTX",
+      "title": "Dunk Low Preschool Lifestyle Shoes (White/Black/White)",
+      "link": "https://www.amazon.com/Nike-Preschool-Lifestyle-Shoes-White/dp/B0H13BQNTX/ref=sr_1_18?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-18",
+      "brand": "Nike",
+      "rating": 5.0,
+      "reviews": 5,
+      "price": "$86.79",
+      "extracted_price": 86.79,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61fLJEQdT5L._AC_UL320_.jpg"
+    },
+    {
+      "position": 19,
+      "asin": "B0D9YJ5ZDC",
+      "title": "mens Court Vision Lo Nn Shoes",
+      "link": "https://www.amazon.com/Nike-Court-Vision-Sneaker-Black/dp/B0D9YJ5ZDC/ref=sr_1_19?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-19",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 12557,
+      "price": "$67.97",
+      "extracted_price": 67.97,
+      "original_price": "$85.00",
+      "extracted_original_price": 85.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Oct 31",
+          "type": "FREE delivery",
+          "date": "Sat, Oct 31"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Fri, Oct 30",
+          "type": "Or fastest delivery",
+          "date": "Fri, Oct 30"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61aMcrx0IqL._AC_UL320_.jpg"
+    },
+    {
+      "position": 20,
+      "asin": "B0B1VZNZJ7",
+      "title": "Dunk High Black White (2021) Style Code: DD1399-105",
+      "link": "https://www.amazon.com/Nike-Retro-DD1399-Black-White/dp/B0B1VZNZJ7/ref=sr_1_20?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-20",
+      "brand": "Nike",
+      "rating": 4.7,
+      "reviews": 1425,
+      "price": "$87.97",
+      "extracted_price": 87.97,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 11 - 20",
+          "type": "FREE delivery",
+          "date": "Nov 11 - 20"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 11 - 18",
+          "type": "Or fastest delivery",
+          "date": "Nov 11 - 18"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51JO+tbTL3L._AC_UL320_.jpg"
+    },
+    {
+      "position": 21,
+      "asin": "B08ZGWKZ3Q",
+      "title": "Jordan Mens Basketball",
+      "link": "https://www.amazon.com/Nike-Preschool-CW1588-Black-White/dp/B08ZGWKZ3Q/ref=sr_1_21?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-21",
+      "brand": "Nike",
+      "rating": 4.7,
+      "reviews": 1817,
+      "price": "$64.44",
+      "extracted_price": 64.44,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61mXysos5oL._AC_UL320_.jpg"
+    },
+    {
+      "position": 22,
+      "asin": "B0F137Z7BB",
+      "title": "Women's Court Vision Low Nubuck Shoes",
+      "link": "https://www.amazon.com/Nike-Womens-Vision-Sneaker-Coconut/dp/B0F137Z7BB/ref=sr_1_22?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-22",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 334,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$68.97",
+      "extracted_price": 68.97,
+      "original_price": "$85.00",
+      "extracted_original_price": 85.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61vi3re34KL._AC_UL320_.jpg"
+    },
+    {
+      "position": 23,
+      "asin": "B0DP2VXYJJ",
+      "title": "Mens Dunk Low Retro",
+      "link": "https://www.amazon.com/Nike-Retro-White-Midnight-Navy-White/dp/B0DP2VXYJJ/ref=sr_1_23?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-23",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 662,
+      "price": "$110.00",
+      "extracted_price": 110.0,
+      "original_price": "$120.00",
+      "extracted_original_price": 120.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Mon, Nov 2",
+          "type": "FREE delivery",
+          "date": "Mon, Nov 2"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Oct 28 - 29",
+          "type": "Or fastest delivery",
+          "date": "Oct 28 - 29"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61mG9kERJwL._AC_UL320_.jpg"
+    },
+    {
+      "position": 24,
+      "asin": "B0DWFRSZLD",
+      "title": "Kids' Court Borough Low Recraft Shoes - Boys Girls Toddler Sneakers",
+      "link": "https://www.amazon.com/Nike-Borough-Sneaker-Unisex-Little/dp/B0DWFRSZLD/ref=sr_1_24?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-24",
+      "brand": "Nike",
+      "rating": 4.7,
+      "reviews": 7763,
+      "recent_sales": "#1 Top Rated",
+      "extracted_recent_sales": 1,
+      "price": "$45.00",
+      "extracted_price": 45.0,
+      "original_price": "$60.00",
+      "extracted_original_price": 60.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61LQLojrseL._AC_UL320_.jpg"
+    },
+    {
+      "position": 25,
+      "asin": "B07M67RXPY",
+      "title": "Men's Nike Ebernon Low Athletic Shoe",
+      "link": "https://www.amazon.com/Nike-Ebernon-Premium-Basketball-Shoes/dp/B07M67RXPY/ref=sr_1_25_mod_primary_new?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=8-25",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 362,
+      "price": "$76.11",
+      "extracted_price": 76.11,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Oct 31",
+          "type": "FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71PDVrIyd5L._AC_UL320_.jpg"
+    },
+    {
+      "position": 26,
+      "asin": "B0DP7PNXPH",
+      "title": "Women's Dunk Low Leather Sneakers",
+      "link": "https://www.amazon.com/Nike-Womens-Leather-Sneakers-Medium/dp/B0DP7PNXPH/ref=sr_1_26?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-26",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 60,
+      "price": "$118.95",
+      "extracted_price": 118.95,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Wed, Nov 4",
+          "type": "FREE delivery",
+          "date": "Wed, Nov 4"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Wed, Oct 28",
+          "type": "Or fastest delivery",
+          "date": "Wed, Oct 28"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51wibQqFzLL._AC_UL320_.jpg"
+    },
+    {
+      "position": 27,
+      "asin": "B0DP2VD9JN",
+      "title": "Mens Dunk Low Retro",
+      "link": "https://www.amazon.com/White-Light-Smoke-Grey-Nike/dp/B0DP2VD9JN/ref=sr_1_27?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-27",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 662,
+      "price": "$114.16",
+      "extracted_price": 114.16,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71eygonVKTL._AC_UL320_.jpg"
+    },
+    {
+      "position": 28,
+      "asin": "B0DP2VXSPN",
+      "title": "Mens Dunk Low Retro",
+      "link": "https://www.amazon.com/Nike-Retro-White-Black-White-HF5441/dp/B0DP2VXSPN/ref=sr_1_28?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-28",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 662,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$107.76",
+      "extracted_price": 107.76,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71wdztBjLbL._AC_UL320_.jpg"
+    },
+    {
+      "position": 29,
+      "asin": "B0DP2TSZ56",
+      "title": "Mens Dunk Low Retro",
+      "link": "https://www.amazon.com/Retro-Nike-Dunk-Trainers-HF5441/dp/B0DP2TSZ56/ref=sr_1_29?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-29",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 662,
+      "price": "$113.00",
+      "extracted_price": 113.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71eygonVKTL._AC_UL320_.jpg"
+    },
+    {
+      "position": 30,
+      "asin": "B08QBPJFKB",
+      "title": "Kids Dunk Low (Big Kid)",
+      "link": "https://www.amazon.com/Nike-Youth-Retro-CW1590-Black/dp/B08QBPJFKB/ref=sr_1_30?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-30",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 692,
+      "price": "$64.97",
+      "extracted_price": 64.97,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 12 - Dec 2",
+          "type": "FREE delivery",
+          "date": "Nov 12 - Dec 2"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 12 - 30",
+          "type": "Or fastest delivery",
+          "date": "Nov 12 - 30"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61jUZBjtGCL._AC_UL320_.jpg"
+    },
+    {
+      "position": 31,
+      "asin": "B09WJ6X419",
+      "title": "womens Classic",
+      "link": "https://www.amazon.com/Nike-Unisex-Nature-Leather-Trainers/dp/B09WJ6X419/ref=sr_1_31?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-31",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 121,
+      "more_offers": {
+        "lowest_price": "$144.00",
+        "extracted_lowest_price": 144.0,
+        "link": "https://www.amazon.com/gp/offer-listing/B09WJ6X419/ref=sr_1_31_olp?keywords=nike+dunk+low+panda&dib_tag=se&dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&qid=1793040430&sr=8-31",
+        "offers_count": 2,
+        "description": "(2 new offers)"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/41pfyN7mImL._AC_UL320_.jpg"
+    },
+    {
+      "position": 32,
+      "asin": "B09WJ3XPT2",
+      "title": "Jordan Mens Air 1 Low",
+      "link": "https://www.amazon.com/Nike-Unisex-Nature-Leather-Trainers/dp/B09WJ3XPT2/ref=sr_1_32?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-32",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 4892,
+      "price": "$131.00",
+      "extracted_price": 131.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Fri, Oct 30",
+          "type": "FREE delivery",
+          "date": "Fri, Oct 30"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/41pfyN7mImL._AC_UL320_.jpg"
+    },
+    {
+      "position": 33,
+      "asin": "B0H1YLPNDF",
+      "title": "Dunk Low N - Boys' Grade School (White/Black/White)",
+      "link": "https://www.amazon.com/Nike-Dunk-Low-Grade-School/dp/B0H1YLPNDF/ref=sr_1_33?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-33",
+      "brand": "Nike",
+      "rating": 4.3,
+      "reviews": 6,
+      "price": "$97.61",
+      "extracted_price": 97.61,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Oct 31",
+          "type": "FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61mvezmy4VL._AC_UL320_.jpg"
+    },
+    {
+      "position": 34,
+      "asin": "B0H96G6NDL",
+      "title": "Mens Nike Dunk Low Retro",
+      "link": "https://www.amazon.com/Nike-Dunk-Retro-Shoes-Color/dp/B0H96G6NDL/ref=sr_1_34?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-34",
+      "brand": "Nike",
+      "rating": 4.3,
+      "reviews": 46,
+      "price": "$119.90",
+      "extracted_price": 119.9,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Oct 30 - Nov 5",
+          "type": "FREE delivery",
+          "date": "Oct 30 - Nov 5"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Wed, Oct 28",
+          "type": "Or fastest delivery",
+          "date": "Wed, Oct 28"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51d090GFV6L._AC_UL320_.jpg"
+    },
+    {
+      "position": 35,
+      "asin": "B0DSCS543H",
+      "title": "Men's Dunk Low Sneakers",
+      "link": "https://www.amazon.com/Nike-Sneakers-Black-Light-Medium/dp/B0DSCS543H/ref=sr_1_35?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-35",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 47,
+      "price": "$162.00",
+      "extracted_price": 162.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Fri, Nov 6",
+          "type": "FREE delivery",
+          "date": "Fri, Nov 6"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 2 - 4",
+          "type": "Or fastest delivery",
+          "date": "Nov 2 - 4"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71R9Gyg-pIL._AC_UL320_.jpg"
+    },
+    {
+      "position": 36,
+      "asin": "B0BJ7HT9GH",
+      "title": "Men's 480 V1 Sneakers",
+      "link": "https://www.amazon.com/New-Balance-Unisex-Adult-BB480-Sneaker/dp/B0BJ7HT9GH/ref=sr_1_36?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-36",
+      "brand": "New Balance",
+      "rating": 4.5,
+      "reviews": 3506,
+      "price": "$99.95",
+      "extracted_price": 99.95,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61SaZaF4xWL._AC_UL320_.jpg"
+    },
+    {
+      "position": 37,
+      "asin": "B0C7WL3271",
+      "title": "Unisex Adult Knu Skool",
+      "link": "https://www.amazon.com/Vans-Unisex-Low-Top-Fashion-Sneakers/dp/B0C7WL3271/ref=sr_1_37?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-37",
+      "brand": "Vans",
+      "rating": 4.6,
+      "reviews": 3954,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$79.99",
+      "extracted_price": 79.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71scox7n+5L._AC_UL320_.jpg"
+    },
+    {
+      "position": 38,
+      "asin": "B0DWHR939Z",
+      "title": "Women's Dunk Low Next Nature Sneaker",
+      "link": "https://www.amazon.com/Nike-Nature-Women-White-Fuchsia/dp/B0DWHR939Z/ref=sr_1_38?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-38",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 484,
+      "price": "$100.44",
+      "extracted_price": 100.44,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Thu, Oct 29",
+          "type": "FREE delivery",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Wed, Oct 28",
+          "type": "Or fastest delivery",
+          "date": "Wed, Oct 28"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51smVz9bfuL._AC_UL320_.jpg"
+    },
+    {
+      "position": 39,
+      "asin": "B0CJ31MTHR",
+      "title": "W NIKE DUNK LOW TWIST - BLACK/WHITE-BLACK",
+      "link": "https://www.amazon.com/Nike-Dunk-Twist-Womens-Shoes/dp/B0CJ31MTHR/ref=sr_1_39?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-39",
+      "brand": "Nike",
+      "rating": 4.2,
+      "reviews": 98,
+      "price": "$122.00",
+      "extracted_price": 122.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Fri, Oct 30",
+          "type": "FREE delivery",
+          "date": "Fri, Oct 30"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61j5CctHo2L._AC_UL320_.jpg"
+    },
+    {
+      "position": 40,
+      "asin": "B0D7QF23X2",
+      "title": "Women's Brooklyn LS Shoe",
+      "link": "https://www.amazon.com/Vans-Brooklyn-Low-Top-Sneakers-Everyday/dp/B0D7QF23X2/ref=sr_1_40?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-40",
+      "brand": "Vans",
+      "rating": 4.6,
+      "reviews": 3922,
+      "recent_sales": "600+ bought in past month",
+      "extracted_recent_sales": 600,
+      "price": "$52.50",
+      "extracted_price": 52.5,
+      "original_price": "$70.00",
+      "extracted_original_price": 70.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71x2i9qY+NL._AC_UL320_.jpg"
+    },
+    {
+      "position": 41,
+      "asin": "B0DWHRNVFN",
+      "title": "Women's Dunk Low Next Nature Sneaker",
+      "link": "https://www.amazon.com/DUNK-LOW-NEXT-NATURE-FUSCHIA/dp/B0DWHRNVFN/ref=sr_1_41?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-41",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 484,
+      "price": "$84.50",
+      "extracted_price": 84.5,
+      "original_price": "$99.00",
+      "extracted_original_price": 99.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Wed, Oct 28",
+          "type": "FREE delivery",
+          "date": "Wed, Oct 28"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51smVz9bfuL._AC_UL320_.jpg"
+    },
+    {
+      "position": 42,
+      "asin": "B09BC395NZ",
+      "title": "Womens Dunk Hi Retro",
+      "link": "https://www.amazon.com/Nike-Womens-Panda-Black-White/dp/B09BC395NZ/ref=sr_1_42?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-42",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 1565,
+      "price": "$103.01",
+      "extracted_price": 103.01,
+      "original_price": "$114.96",
+      "extracted_original_price": 114.96,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "$8.99 delivery Mon, Nov 9",
+          "type": "$8.99 delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71PJZWpNIaL._AC_UL320_.jpg"
+    },
+    {
+      "position": 43,
+      "asin": "B09VNVH87P",
+      "title": "Men's Dunk Low Sneakers",
+      "link": "https://www.amazon.com/NIKE-Womens-Basketball-Shoes-White/dp/B09VNVH87P/ref=sr_1_43?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-43",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 2872,
+      "price": "$226.00",
+      "extracted_price": 226.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Fri, Oct 30",
+          "type": "FREE delivery",
+          "date": "Fri, Oct 30"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51jaDz9urZL._AC_UL320_.jpg"
+    },
+    {
+      "position": 44,
+      "asin": "B0DP2VF2Z1",
+      "title": "Women's Dunk Low Next Nature Sneaker",
+      "link": "https://www.amazon.com/Nike-Nature-Womens-DD1873-112-Elemental/dp/B0DP2VF2Z1/ref=sr_1_44?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-44",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 484,
+      "price": "$125.00",
+      "extracted_price": 125.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71Q34gZUKBL._AC_UL320_.jpg"
+    },
+    {
+      "position": 45,
+      "asin": "B0CJ313QQ3",
+      "title": "Women's Dunk Low Twist Sneakers",
+      "link": "https://www.amazon.com/Nike-Dunk-Twist-Womens-Shoes/dp/B0CJ313QQ3/ref=sr_1_45?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-45",
+      "brand": "Nike",
+      "rating": 3.9,
+      "reviews": 19,
+      "price": "$105.00",
+      "extracted_price": 105.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61j5CctHo2L._AC_UL320_.jpg"
+    },
+    {
+      "position": 46,
+      "asin": "B0DP2YBDJJ",
+      "title": "White Light Smoke Grey Nike Dunk Low",
+      "link": "https://www.amazon.com/White-Light-Smoke-Grey-Nike/dp/B0DP2YBDJJ/ref=sr_1_46?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-46",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 11,
+      "price": "$92.96",
+      "extracted_price": 92.96,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Wed, Oct 28",
+          "type": "FREE delivery",
+          "date": "Wed, Oct 28"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71eygonVKTL._AC_UL320_.jpg"
+    },
+    {
+      "position": 47,
+      "asin": "B073NDP31Y",
+      "title": "Men's Big Low Shoes",
+      "link": "https://www.amazon.com/Nike-Sneaker-Black-Bright-Crimson/dp/B073NDP31Y/ref=sr_1_47?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-47",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 935,
+      "price": "$95.00",
+      "extracted_price": 95.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Oct 31",
+          "type": "FREE delivery",
+          "date": "Sat, Oct 31"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Fri, Oct 30",
+          "type": "Or fastest delivery",
+          "date": "Fri, Oct 30"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61yE0xJIJYL._AC_UL320_.jpg"
+    },
+    {
+      "position": 48,
+      "asin": "B0G31DHMRW",
+      "title": "Dunk Low Women's Shoes (Seaweed/White/Sail/Metallic Silver)",
+      "link": "https://www.amazon.com/Nike-Womens-Seaweed-Metallic-Silver/dp/B0G31DHMRW/ref=sr_1_48?dib=eyJ2IjoiMSJ9.XxOw3qCt73IsUkOnTPrRuP6IbYWfrRNWmLUfvSF5OMQtyzZmnwq84rCqNTkdb05yIIKHgmtW4yr140uHpvyffHCEy1O705ERhQn5y_8IaSUJ9BDId0ii5YkZ1CwrVn3q3XTttcgoLStAjmikWd1WCHOXKEM3ImLf4mzZ73Ul7up5p5vJjaXanhuWY9YfoBoWexQJSuYGPhyK2kebC6XhG_6V3VGbCA7HzNK_MZDaWqMfXH7ufxuIa0gTLYEnpnq9tVpt55V83kdyaaqgeB85HFbjiM_NV_KYwF6dFMkh4Rk.Ws49aEWNi-NgwwhPc5oXHuKUGxs5UBP8Ftg4lBnSxvw&dib_tag=se&keywords=nike+dunk+low+panda&qid=1793040430&sr=8-48",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 8,
+      "price": "$134.00",
+      "extracted_price": 134.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Tue, Nov 3",
+          "type": "FREE delivery",
+          "date": "Tue, Nov 3"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Oct 29 - Nov 2",
+          "type": "Or fastest delivery",
+          "date": "Oct 29 - Nov 2"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71js3L2ZGxL._AC_UL320_.jpg"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.amazon.com/s?k=nike+dunk+low+panda&page=2&xpid=BJZAKwgMeDKLn&qid=1793040430&ref=sr_pg_1",
+    "other_pages": {
+      "2": "https://www.amazon.com/s?k=nike+dunk+low+panda&page=2&xpid=BJZAKwgMeDKLn&qid=1793040430&ref=sr_pg_2",
+      "3": "https://www.amazon.com/s?k=nike+dunk+low+panda&page=3&xpid=BJZAKwgMeDKLn&qid=1793040430&ref=sr_pg_3",
+      "4": "https://www.amazon.com/s?k=nike+dunk+low+panda&page=4&xpid=BJZAKwgMeDKLn&qid=1793040430&ref=sr_pg_4"
+    }
+  }
+}
