@@ -1,0 +1,14 @@
+# Secrets: the SearchApi key lives in the environment or .env, never in git
+.env
+.env.*
+!.env.example
+
+# Bundler
+/.bundle/
+/vendor/bundle/
+
+# Tool output
+/coverage/
+/tmp/
+
+.DS_Store
