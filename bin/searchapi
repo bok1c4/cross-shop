@@ -1,0 +1,40 @@
+#!/usr/bin/env ruby
+# Fetch one SearchApi response, from the cache unless live mode is on.
+#
+#   bin/searchapi ebay_search q="adidas samba og"                     # cache only
+#   SEARCHAPI_LIVE=1 bin/searchapi ebay_search q="adidas samba og"    # may spend 1 credit
+#
+# Responses land in fixtures/searchapi/responses/, live calls in
+# fixtures/searchapi/ledger.jsonl. Both are meant to be committed.
+
+require "bundler/setup"
+$LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
+require "cross_shop/search_api"
+
+# Arguments arrive labelled with the locale's encoding, which is not UTF-8
+# when LANG is unset (cron, CI, containers). Queries are UTF-8 text.
+args = ARGV.map { |arg| arg.dup.force_encoding(Encoding::UTF_8) }
+invalid = args.find { |arg| !arg.valid_encoding? }
+abort "argument is not valid UTF-8: #{invalid.b.inspect}" if invalid
+
+engine, *pairs = args
+abort "usage: bin/searchapi ENGINE key=value [key=value ...]" if engine.nil? || pairs.empty?
+
+params = pairs.to_h do |pair|
+  key, value = pair.split("=", 2)
+  abort "expected key=value, got #{pair.inspect}" if value.nil? || key.empty?
+  [key.to_sym, value]
+end
+
+begin
+  result = CrossShop::SearchApi.client_from_env.search(engine, **params)
+rescue CrossShop::SearchApi::Error, KeyError => error
+  abort "#{error.class}: #{error.message}"
+end
+
+results = result.fetch("organic_results", [])
+puts "search_id: #{result.dig("search_metadata", "id")}"
+puts "organic_results: #{results.size}"
+results.first(5).each do |item|
+  puts "  #{item["extracted_price"].inspect.rjust(8)}  #{item["title"]}"
+end

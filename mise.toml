@@ -1,2 +1,6 @@
 [tools]
 ruby = "3.4"
+
+[env]
+# Loads SEARCHAPI_API_KEY from the git-ignored .env; redact hides it in mise output.
+_.file = { path = ".env", redact = true }

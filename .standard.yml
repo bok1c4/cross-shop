@@ -1,0 +1,5 @@
+# Standard ignores bin/* by default, but our bin scripts are real code.
+default_ignores: false
+ignore:
+  - "vendor/**/*"
+  - "tmp/**/*"

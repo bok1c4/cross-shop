@@ -1,0 +1,1703 @@
+{
+  "search_metadata": {
+    "id": "search_mxzD17vdE2uX025O3klRw056",
+    "status": "Success",
+    "created_at": "2026-10-26T16:08:58Z",
+    "request_time_taken": 2.39,
+    "parsing_time_taken": 0.18,
+    "total_time_taken": 2.57,
+    "request_url": "https://www.ebay.com/sch/i.html?_nkw=adidas%20samba%20og&_fcid=1",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_mxzD17vdE2uX025O3klRw056.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_mxzD17vdE2uX025O3klRw056"
+  },
+  "search_parameters": {
+    "engine": "ebay_search",
+    "q": "adidas samba og",
+    "ebay_domain": "ebay.com",
+    "country": "US",
+    "delivery_country": "US"
+  },
+  "search_information": {
+    "query_displayed": "adidas samba og",
+    "total_results": 25000,
+    "sorted_by": "Sort: Best Match",
+    "buying_format": "All",
+    "language": "en"
+  },
+  "categories": [
+    {
+      "name": "Clothing, Shoes & Accessories",
+      "is_selected": true,
+      "subcategories": [
+        {
+          "name": "Men",
+          "link": "https://www.ebay.com/sch/260012/i.html?_nkw=adidas+samba+og&_fcid=1",
+          "category_id": "260012"
+        },
+        {
+          "name": "Women",
+          "link": "https://www.ebay.com/sch/260010/i.html?_nkw=adidas+samba+og&_fcid=1",
+          "category_id": "260010"
+        },
+        {
+          "name": "Kids",
+          "link": "https://www.ebay.com/sch/171146/i.html?_nkw=adidas+samba+og&_fcid=1",
+          "category_id": "171146"
+        },
+        {
+          "name": "Specialty",
+          "link": "https://www.ebay.com/sch/260033/i.html?_nkw=adidas+samba+og&_fcid=1",
+          "category_id": "260033"
+        },
+        {
+          "name": "Baby",
+          "link": "https://www.ebay.com/sch/260018/i.html?_nkw=adidas+samba+og&_fcid=1",
+          "category_id": "260018"
+        }
+      ]
+    },
+    {
+      "name": "Sporting Goods",
+      "link": "https://www.ebay.com/sch/888/i.html?_nkw=adidas+samba+og&_fcid=1",
+      "category_id": "888"
+    },
+    {
+      "name": "Home & Garden",
+      "link": "https://www.ebay.com/sch/11700/i.html?_nkw=adidas+samba+og&_fcid=1",
+      "category_id": "11700"
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_nkw=adidas+samba+og&_fcid=1",
+      "category_id": "1"
+    },
+    {
+      "name": "Computers/Tablets & Networking",
+      "link": "https://www.ebay.com/sch/58058/i.html?_nkw=adidas+samba+og&_fcid=1",
+      "category_id": "58058"
+    },
+    {
+      "name": "Business & Industrial",
+      "link": "https://www.ebay.com/sch/12576/i.html?_nkw=adidas+samba+og&_fcid=1",
+      "category_id": "12576"
+    },
+    {
+      "name": "Art",
+      "link": "https://www.ebay.com/sch/550/i.html?_nkw=adidas+samba+og&_fcid=1",
+      "category_id": "550"
+    },
+    {
+      "name": "Cell Phones & Accessories",
+      "link": "https://www.ebay.com/sch/15032/i.html?_nkw=adidas+samba+og&_fcid=1",
+      "category_id": "15032"
+    },
+    {
+      "name": "Musical Instruments & Gear",
+      "link": "https://www.ebay.com/sch/619/i.html?_nkw=adidas+samba+og&_fcid=1",
+      "category_id": "619"
+    },
+    {
+      "name": "Entertainment Memorabilia",
+      "link": "https://www.ebay.com/sch/45100/i.html?_nkw=adidas+samba+og&_fcid=1",
+      "category_id": "45100"
+    },
+    {
+      "name": "Toys & Hobbies",
+      "link": "https://www.ebay.com/sch/220/i.html?_nkw=adidas+samba+og&_fcid=1",
+      "category_id": "220"
+    }
+  ],
+  "filters": [
+    {
+      "type": "Shipping and pickup",
+      "options": [
+        {
+          "text": "Arrives in 2-4 days",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&rt=nc&LH_FAST=1"
+        },
+        {
+          "text": "Free Shipping",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&rt=nc&LH_FS=1"
+        },
+        {
+          "text": "Local Pickup within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&rt=nc&LH_PrefLoc=99&_sadis=25&_fspt=1&_stpos=28269&LH_LPickup=1"
+        }
+      ]
+    },
+    {
+      "type": "Performance/Activity",
+      "options": [
+        {
+          "text": "Walking (19,444) Items",
+          "items": 19444,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Performance%252FActivity=Walking&_dcat=15709"
+        },
+        {
+          "text": "Running & Jogging (7,094) Items",
+          "items": 7094,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Performance%252FActivity=Running%2520%2526%2520Jogging&_dcat=15709"
+        },
+        {
+          "text": "Basketball (5,548) Items",
+          "items": 5548,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Performance%252FActivity=Basketball&_dcat=15709"
+        },
+        {
+          "text": "Gym & Training (4,834) Items",
+          "items": 4834,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Performance%252FActivity=Gym%2520%2526%2520Training&_dcat=15709"
+        },
+        {
+          "text": "School (4,613) Items",
+          "items": 4613,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Performance%252FActivity=School&_dcat=15709"
+        },
+        {
+          "text": "Cross Training (4,588) Items",
+          "items": 4588,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Performance%252FActivity=Cross%2520Training&_dcat=15709"
+        },
+        {
+          "text": "Skateboarding (4,393) Items",
+          "items": 4393,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Performance%252FActivity=Skateboarding&_dcat=15709"
+        },
+        {
+          "text": "CrossFit (3,935) Items",
+          "items": 3935,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Performance%252FActivity=CrossFit&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Season",
+      "options": [
+        {
+          "text": "Spring (20,425) Items",
+          "items": 20425,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Season=Spring&_dcat=15709"
+        },
+        {
+          "text": "Summer (18,389) Items",
+          "items": 18389,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Season=Summer&_dcat=15709"
+        },
+        {
+          "text": "Fall (17,052) Items",
+          "items": 17052,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Season=Fall&_dcat=15709"
+        },
+        {
+          "text": "Winter (14,285) Items",
+          "items": 14285,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Season=Winter&_dcat=15709"
+        },
+        {
+          "text": "Not Specified (34,342) Items",
+          "items": 34342,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Season=%21&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Model",
+      "options": [
+        {
+          "text": "adidas Samba OG (33,044) Items",
+          "items": 33044,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Model=adidas%2520Samba%2520OG&_dcat=15709"
+        },
+        {
+          "text": "adidas Samba (20,785) Items",
+          "items": 20785,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Model=adidas%2520Samba&_dcat=15709"
+        },
+        {
+          "text": "adidas Originals Samba (8,729) Items",
+          "items": 8729,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Model=adidas%2520Originals%2520Samba&_dcat=15709"
+        },
+        {
+          "text": "adidas Originals (1,449) Items",
+          "items": 1449,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Model=adidas%2520Originals&_dcat=15709"
+        },
+        {
+          "text": "adidas Core (854) Items",
+          "items": 854,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Model=adidas%2520Core&_dcat=15709"
+        },
+        {
+          "text": "adidas X (570) Items",
+          "items": 570,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Model=adidas%2520X&_dcat=15709"
+        },
+        {
+          "text": "adidas Originals X (418) Items",
+          "items": 418,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Model=adidas%2520Originals%2520X&_dcat=15709"
+        },
+        {
+          "text": "adidas Handball Spezial (178) Items",
+          "items": 178,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Model=adidas%2520Handball%2520Spezial&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Department",
+      "options": [
+        {
+          "text": "Men (49,995) Items",
+          "items": 49995,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Department=Men&_dcat=15709"
+        },
+        {
+          "text": "Unisex Adults (7,565) Items",
+          "items": 7565,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Department=Unisex%2520Adults&_dcat=15709"
+        },
+        {
+          "text": "Teens (102) Items",
+          "items": 102,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Department=Teens&_dcat=15709"
+        },
+        {
+          "text": "Not Specified (594) Items",
+          "items": 594,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Department=%21&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Upper Material",
+      "options": [
+        {
+          "text": "Leather (29,017) Items",
+          "items": 29017,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Upper%2520Material=Leather&_dcat=15709"
+        },
+        {
+          "text": "Suede (5,111) Items",
+          "items": 5111,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Upper%2520Material=Suede&_dcat=15709"
+        },
+        {
+          "text": "Synthetic (3,327) Items",
+          "items": 3327,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Upper%2520Material=Synthetic&_dcat=15709"
+        },
+        {
+          "text": "Mesh (2,342) Items",
+          "items": 2342,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Upper%2520Material=Mesh&_dcat=15709"
+        },
+        {
+          "text": "Nylon (1,081) Items",
+          "items": 1081,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Upper%2520Material=Nylon&_dcat=15709"
+        },
+        {
+          "text": "Fur (433) Items",
+          "items": 433,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Upper%2520Material=Fur&_dcat=15709"
+        },
+        {
+          "text": "Patent Leather (344) Items",
+          "items": 344,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Upper%2520Material=Patent%2520Leather&_dcat=15709"
+        },
+        {
+          "text": "Faux Leather (291) Items",
+          "items": 291,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Upper%2520Material=Faux%2520Leather&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Product Line",
+      "options": [
+        {
+          "text": "adidas Samba (17,295) Items",
+          "items": 17295,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Product%2520Line=adidas%2520Samba&_dcat=15709"
+        },
+        {
+          "text": "adidas Samba OG (5,854) Items",
+          "items": 5854,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Product%2520Line=adidas%2520Samba%2520OG&_dcat=15709"
+        },
+        {
+          "text": "adidas Original (3,195) Items",
+          "items": 3195,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Product%2520Line=adidas%2520Original&_dcat=15709"
+        },
+        {
+          "text": "adidas Originals (2,889) Items",
+          "items": 2889,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Product%2520Line=adidas%2520Originals&_dcat=15709"
+        },
+        {
+          "text": "adidas X (287) Items",
+          "items": 287,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Product%2520Line=adidas%2520X&_dcat=15709"
+        },
+        {
+          "text": "adidas Gazelle (281) Items",
+          "items": 281,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Product%2520Line=adidas%2520Gazelle&_dcat=15709"
+        },
+        {
+          "text": "adidas New (187) Items",
+          "items": 187,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Product%2520Line=adidas%2520New&_dcat=15709"
+        },
+        {
+          "text": "adidas Samba Originals (139) Items",
+          "items": 139,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Product%2520Line=adidas%2520Samba%2520Originals&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Country of Origin",
+      "options": [
+        {
+          "text": "Vietnam (25,192) Items",
+          "items": 25192,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Country%2520of%2520Origin=Vietnam&_dcat=15709"
+        },
+        {
+          "text": "Indonesia (1,258) Items",
+          "items": 1258,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Country%2520of%2520Origin=Indonesia&_dcat=15709"
+        },
+        {
+          "text": "China (859) Items",
+          "items": 859,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Country%2520of%2520Origin=China&_dcat=15709"
+        },
+        {
+          "text": "Japan (486) Items",
+          "items": 486,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Country%2520of%2520Origin=Japan&_dcat=15709"
+        },
+        {
+          "text": "India (180) Items",
+          "items": 180,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Country%2520of%2520Origin=India&_dcat=15709"
+        },
+        {
+          "text": "United States (138) Items",
+          "items": 138,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Country%2520of%2520Origin=United%2520States&_dcat=15709"
+        },
+        {
+          "text": "Cambodia (98) Items",
+          "items": 98,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Country%2520of%2520Origin=Cambodia&_dcat=15709"
+        },
+        {
+          "text": "Italy (32) Items",
+          "items": 32,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&Country%2520of%2520Origin=Italy&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Condition",
+      "options": [
+        {
+          "text": "New with tags (92,253) Items",
+          "items": 92253,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&rt=nc&LH_ItemCondition=1000"
+        },
+        {
+          "text": "New without tags (2,966) Items",
+          "items": 2966,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&rt=nc&LH_ItemCondition=1500"
+        },
+        {
+          "text": "New with imperfections (350) Items",
+          "items": 350,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&rt=nc&LH_ItemCondition=1750"
+        },
+        {
+          "text": "Pre-Owned (4,435) Items",
+          "items": 4435,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&rt=nc&LH_ItemCondition=3000"
+        }
+      ]
+    },
+    {
+      "type": "Buying Format",
+      "options": [
+        {
+          "text": "All Listings (100,004) Items",
+          "items": 100004,
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&rt=nc"
+        },
+        {
+          "text": "Auction (200) Items",
+          "items": 200,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&rt=nc&LH_Auction=1"
+        },
+        {
+          "text": "Buy It Now (99,873) Items",
+          "items": 99873,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&rt=nc&LH_BIN=1"
+        },
+        {
+          "text": "Accepts Offers (10,114) Items",
+          "items": 10114,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&rt=nc&LH_BO=1"
+        }
+      ]
+    },
+    {
+      "type": "Item Location",
+      "options": [
+        {
+          "text": "Default",
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&rt=nc&LH_PrefLoc=98"
+        },
+        {
+          "text": "Within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&_dcat=15709&_sadis=25&_stpos=28269&_fspt=1"
+        },
+        {
+          "text": "US Only",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&rt=nc&LH_PrefLoc=1"
+        },
+        {
+          "text": "North America",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&rt=nc&LH_PrefLoc=3"
+        },
+        {
+          "text": "Worldwide",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&rt=nc&LH_PrefLoc=2"
+        }
+      ]
+    },
+    {
+      "type": "Show only",
+      "options": [
+        {
+          "text": "Free Returns",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&rt=nc&LH_FR=1"
+        },
+        {
+          "text": "Returns Accepted",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&rt=nc&LH_RPA=1"
+        },
+        {
+          "text": "Authorized Seller",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&rt=nc&LH_AS=1"
+        },
+        {
+          "text": "Completed Items",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&rt=nc&LH_Complete=1"
+        },
+        {
+          "text": "Sold Items",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&rt=nc&LH_Sold=1"
+        },
+        {
+          "text": "Deals & Savings",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&rt=nc&LH_Savings=1"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "item_id": "366518449313",
+      "title": "Adidas Samba OG, Men's",
+      "subtitle": "US M 5 + more · adidas",
+      "link": "https://www.ebay.com/itm/366518449313",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 4,
+      "reviews_link": "https://www.ebay.com/p/13044373314?iid=366518449313&var=636234720696#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "14+ watchers"
+      ],
+      "price": "$54.99",
+      "extracted_price": 54.99,
+      "shipping": "Located in United States",
+      "deal": "+$4.99 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/4ykAAeSwm6tqRsIm/s-l500.webp"
+    },
+    {
+      "position": 2,
+      "item_id": "206415224883",
+      "title": "Adidas Samba OG White Night Indigo Cream JH5633",
+      "subtitle": "US M 11 + more · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/206415224883",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Authenticity Guarantee"
+      ],
+      "price": "$99.99",
+      "extracted_price": 99.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/rp4AAeSwwrlqVqfn/s-l500.webp"
+    },
+    {
+      "position": 3,
+      "item_id": "397825118342",
+      "title": "Adidas Sambae Denim Women's II0001",
+      "subtitle": "Size ONE SIZE + more",
+      "link": "https://www.ebay.com/itm/397825118342",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Includes import fees",
+        "Located in China"
+      ],
+      "price": "$126.50",
+      "extracted_price": 126.5,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/vDgAAOSw3oln0FH7/s-l140.webp"
+    },
+    {
+      "position": 4,
+      "item_id": "366518426992",
+      "title": "Adidas Originals Samba XLG, Unisex",
+      "subtitle": "US M 6 + more · adidas",
+      "link": "https://www.ebay.com/itm/366518426992",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "price": "$64.99",
+      "extracted_price": 64.99,
+      "shipping": "Located in United States",
+      "deal": "+$4.99 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/yx4AAeSwWbdqRr9n/s-l140.webp"
+    },
+    {
+      "position": 5,
+      "item_id": "366759526692",
+      "title": "adidas Samba OG Off White/Earth Strata/Gum Women’s US 6 Low Top JR8842",
+      "subtitle": "US W 6 · adidas",
+      "link": "https://www.ebay.com/itm/366759526692",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$90.00",
+      "extracted_price": 90.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/RGQAAeSwuM5q3Wwe/s-l140.webp"
+    },
+    {
+      "position": 6,
+      "item_id": "206646332899",
+      "title": "adidas Samba OG B75806 White/Black Gum Low Top Sneaker Men’s US 8",
+      "subtitle": "US M 8 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/206646332899",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$25.00",
+      "extracted_price": 25.0,
+      "shipping": "+$8.27 delivery",
+      "extracted_shipping": 8.27,
+      "thumbnail": "https://i.ebayimg.com/images/g/ahUAAeSw9e1q2llH/s-l140.webp"
+    },
+    {
+      "position": 7,
+      "item_id": "900038418738",
+      "title": "adidas Originals Samba OG Low White Black Gum Men's US 13 Style B75806",
+      "subtitle": "US M 13 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/900038418738",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 1,
+      "reviews_link": "https://www.ebay.com/p/19039794707?iid=900038418738#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$75.00",
+      "extracted_price": 75.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/iQsAAeSwRD5q3Tum/s-l140.webp"
+    },
+    {
+      "position": 8,
+      "item_id": "800837827086",
+      "title": "adidas Samba ADV Men’s Skate Sneakers US 10.5 White/Black/Gum GZ8477",
+      "subtitle": "US M 10.5 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/800837827086",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/Y4YAAeSwf5Bq3lOq/s-l140.webp"
+    },
+    {
+      "position": 9,
+      "item_id": "860082776104",
+      "title": "adidas Samba Low Top Sneakers US 8 White/Navy Gingham Laces",
+      "subtitle": "US M 8 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/860082776104",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "+$9.66 delivery",
+      "extracted_shipping": 9.66,
+      "thumbnail": "https://i.ebayimg.com/images/g/q9gAAeSw-w1q3jHx/s-l140.webp"
+    },
+    {
+      "position": 10,
+      "item_id": "940038772846",
+      "title": "adidas Samba Low Top Sneaker Core Black/Hazy Green Lace-Up Shoes US Women's 8",
+      "subtitle": "US W 8 · adidas",
+      "link": "https://www.ebay.com/itm/940038772846",
+      "condition": "New (Other)",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$42.00",
+      "extracted_price": 42.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/l5gAAeSw-Khq3QPT/s-l140.webp"
+    },
+    {
+      "position": 11,
+      "item_id": "860070202435",
+      "title": "adidas Samba OG Unisex Size 8 Pink/White Low Top Lace-Up Leather Gum Sole",
+      "subtitle": "US M 8 · adidas",
+      "link": "https://www.ebay.com/itm/860070202435",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$65.00",
+      "extracted_price": 65.0,
+      "shipping": "+$9.28 delivery",
+      "extracted_shipping": 9.28,
+      "thumbnail": "https://i.ebayimg.com/images/g/rYsAAeSwKohq2S8A/s-l140.webp"
+    },
+    {
+      "position": 12,
+      "item_id": "880050548922",
+      "title": "adidas Samba Burgundy/White Gum Sole Low Top Lace Up Mens Sneakers Size 13",
+      "subtitle": "US M 13 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/880050548922",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$25.00",
+      "extracted_price": 25.0,
+      "shipping": "+$9.28 delivery",
+      "extracted_shipping": 9.28,
+      "thumbnail": "https://i.ebayimg.com/images/g/ksMAAeSwEDNq3kVX/s-l140.webp"
+    },
+    {
+      "position": 13,
+      "item_id": "128153437149",
+      "title": "Adidas Samba OG Cloud White Core Black Grey - Size 8 - *FAST SHIPPING*",
+      "subtitle": "US M 8 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/128153437149",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 2,
+      "reviews_link": "https://www.ebay.com/p/12039783295?iid=128153437149#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$62.99",
+      "extracted_price": 62.99,
+      "shipping": "+$7.08 delivery",
+      "extracted_shipping": 7.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/CwkAAeSwelRq2pBm/s-l140.webp"
+    },
+    {
+      "position": 14,
+      "item_id": "128151061093",
+      "title": "Adidas Samba OG Cloud White Core Black Grey - Size 11 - *FAST SHIPPING*",
+      "subtitle": "US M 11 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/128151061093",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 7,
+      "reviews_link": "https://www.ebay.com/p/3039802616?iid=128151061093#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$62.99",
+      "extracted_price": 62.99,
+      "shipping": "+$7.08 delivery",
+      "extracted_shipping": 7.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/oIcAAeSwpl1q2pBV/s-l140.webp"
+    },
+    {
+      "position": 15,
+      "item_id": "128151035684",
+      "title": "Adidas Samba OG Low White Black Gum - Size 11 - *FAST SHIPPING*",
+      "subtitle": "US M 11 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/128151035684",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$69.99",
+      "extracted_price": 69.99,
+      "shipping": "+$7.08 delivery",
+      "extracted_shipping": 7.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/tV8AAeSwDptq2okB/s-l140.webp"
+    },
+    {
+      "position": 16,
+      "item_id": "407316636660",
+      "title": "Adidas Samba OG Black White Gum Men’s Size 11 Brand New No Box",
+      "subtitle": "US M 11 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/407316636660",
+      "condition": "New (Other)",
+      "rating": 5.0,
+      "reviews": 7,
+      "reviews_link": "https://www.ebay.com/p/3039802616?iid=407316636660#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$50.00",
+      "extracted_price": 50.0,
+      "shipping": "+$11.92 delivery",
+      "extracted_shipping": 11.92,
+      "thumbnail": "https://i.ebayimg.com/images/g/GlAAAeSwGXxq3uNY/s-l140.webp"
+    },
+    {
+      "position": 17,
+      "item_id": "960107935933",
+      "title": "Adidas Samba Classic Men's Size 9 Black White Gum Indoor Soccer Shoes 034563",
+      "subtitle": "US M 9 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/960107935933",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$45.99",
+      "extracted_price": 45.99,
+      "shipping": "+$7.08 delivery",
+      "extracted_shipping": 7.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/sfQAAeSw9uFq2zEN/s-l140.webp"
+    },
+    {
+      "position": 18,
+      "item_id": "336859910772",
+      "title": "adidas Samba OG Mens Low Top Sneakers JP9504 Cloud White Earth Strata Gum 7",
+      "subtitle": "US M 7 · adidas · adidas Samba OG",
+      "link": "https://www.ebay.com/itm/336859910772",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/lOcAAeSwYsZq2~OY/s-l140.webp"
+    },
+    {
+      "position": 19,
+      "item_id": "237143831882",
+      "title": "adidas Samba OG Black/White Suede Low Top Lace-Up Sneakers US 10 A",
+      "subtitle": "US M 10 · adidas",
+      "link": "https://www.ebay.com/itm/237143831882",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$50.00",
+      "extracted_price": 50.0,
+      "shipping": "+$7.13 delivery",
+      "extracted_shipping": 7.13,
+      "thumbnail": "https://i.ebayimg.com/images/g/edkAAeSw8dVq3kFV/s-l140.webp"
+    },
+    {
+      "position": 20,
+      "item_id": "198731490866",
+      "title": "adidas Samba OG Black/White Gum Low Top Lace-Up Men’s US 9.5 UK 9 B75807",
+      "subtitle": "US M 9.5 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/198731490866",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 3,
+      "reviews_link": "https://www.ebay.com/p/17039795729?iid=198731490866#UserReviews",
+      "buying_format": "0 bids · Time left1d 3h",
+      "extensions": [
+        "+$11.30 delivery",
+        "Located in United States"
+      ],
+      "price": "$10.00",
+      "extracted_price": 10.0,
+      "shipping": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/1hkAAeSwB8dq178O/s-l140.webp"
+    },
+    {
+      "position": 21,
+      "item_id": "257808778550",
+      "title": "Adidas Samba OG Double White Gum Cloud White/Gum Men’s US 9",
+      "subtitle": "US M 9 · adidas · adidas Originals",
+      "link": "https://www.ebay.com/itm/257808778550",
+      "condition": "Brand New",
+      "buying_format": "8 bids · Time left1d 5h",
+      "extensions": [
+        "+$14.95 delivery",
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$30.00",
+      "extracted_price": 30.0,
+      "shipping": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/glAAAeSwT55q19-L/s-l140.webp"
+    },
+    {
+      "position": 22,
+      "item_id": "366760200220",
+      "title": "Adidas Mens Samba OG White/ Core Black Sneakers Size 7 Worn Once",
+      "subtitle": "US M 7 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/366760200220",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 2,
+      "reviews_link": "https://www.ebay.com/p/21063552160?iid=366760200220#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$60.00",
+      "extracted_price": 60.0,
+      "shipping": "+$8.99 delivery",
+      "extracted_shipping": 8.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/8w4AAeSw3E1q3evh/s-l140.webp"
+    },
+    {
+      "position": 23,
+      "item_id": "840042329566",
+      "title": "Tapestry Sambas Size 13 Brand New",
+      "subtitle": "US M 13 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/840042329566",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$150.00",
+      "extracted_price": 150.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/zDQAAeSw2VhqxEca/s-l140.webp"
+    },
+    {
+      "position": 24,
+      "item_id": "227116035586",
+      "title": "adidas Unisex Samba Indoor Sneaker, White/Black/Vivid Red, 11 US Men - NEW",
+      "subtitle": "US M 11 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/227116035586",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "123 sold"
+      ],
+      "price": "$48.88",
+      "extracted_price": 48.88,
+      "original_price": "$57.50",
+      "extracted_original_price": 57.5,
+      "shipping": "Located in United States",
+      "deal": "Free delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/te4AAeSwusNpMYIL/s-l140.webp"
+    },
+    {
+      "position": 25,
+      "item_id": "147634263489",
+      "title": "Size 8.5 - adidas Samba OG Low White Black Gum/Damaged Box B75806",
+      "subtitle": "US M 8.5 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/147634263489",
+      "condition": "New (Other)",
+      "rating": 5.0,
+      "reviews": 3,
+      "reviews_link": "https://www.ebay.com/p/22039799060?iid=147634263489#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "21 sold"
+      ],
+      "price": "$65.00",
+      "extracted_price": 65.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/gGoAAeSwx6lqqbr~/s-l140.webp"
+    },
+    {
+      "position": 26,
+      "item_id": "257813983052",
+      "title": "Adidas Samba OG Size 8 Men Crystal White PreLoved Red Gum Soles IG1380 UK 7.5",
+      "subtitle": "US M 8 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/257813983052",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$78.78",
+      "extracted_price": 78.78,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/SvUAAOSw7fBn~9SF/s-l140.webp"
+    },
+    {
+      "position": 27,
+      "item_id": "920066220320",
+      "title": "Adidas Samba OG Cloud White Core Black Gum B75806 Mens Size 11 Sneakers",
+      "subtitle": "US M 11 · adidas · adidas Original",
+      "link": "https://www.ebay.com/itm/920066220320",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$79.99",
+      "extracted_price": 79.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/UUEAAeSwjYJq2ts-/s-l140.webp"
+    },
+    {
+      "position": 28,
+      "item_id": "860076023635",
+      "title": "Adidas Originals SAMBA OG Low top German Army Trainers Women Women's Size JR0035",
+      "subtitle": "US W 10.5 + more · adidas",
+      "link": "https://www.ebay.com/itm/860076023635",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Includes import fees",
+        "Located in Hong Kong",
+        "Authenticity Guarantee"
+      ],
+      "price": "$84.00 to $128.00",
+      "extracted_price_range": {
+        "from": 84.0,
+        "to": 128.0
+      },
+      "is_price_range": true,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/n74AAeSw2l9q224~/s-l140.webp"
+    },
+    {
+      "position": 29,
+      "item_id": "128151062874",
+      "title": "Adidas Samba OG Cloud White Core Black Grey - Size 9.5 - *FAST SHIPPING*",
+      "subtitle": "US M 9.5 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/128151062874",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 3,
+      "reviews_link": "https://www.ebay.com/p/17039795729?iid=128151062874#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$62.99",
+      "extracted_price": 62.99,
+      "shipping": "+$7.08 delivery",
+      "extracted_shipping": 7.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/oIcAAeSwpl1q2pBV/s-l140.webp"
+    },
+    {
+      "position": 30,
+      "item_id": "128150949827",
+      "title": "Adidas Samba OG Black Gum White - Size 10 - *FAST SHIPPING*",
+      "subtitle": "US M 10 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/128150949827",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 5,
+      "reviews_link": "https://www.ebay.com/p/14039795153?iid=128150949827#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$72.99",
+      "extracted_price": 72.99,
+      "shipping": "+$7.08 delivery",
+      "extracted_shipping": 7.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/jSsAAeSw0sNq2nlY/s-l140.webp"
+    },
+    {
+      "position": 31,
+      "item_id": "128150948917",
+      "title": "Adidas Samba OG Black Gum White - Size 9.5 - *FAST SHIPPING*",
+      "subtitle": "US M 9.5 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/128150948917",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 3,
+      "reviews_link": "https://www.ebay.com/p/17039795729?iid=128150948917#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$72.99",
+      "extracted_price": 72.99,
+      "shipping": "+$7.08 delivery",
+      "extracted_shipping": 7.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/jSsAAeSw0sNq2nlY/s-l140.webp"
+    },
+    {
+      "position": 32,
+      "item_id": "128150950504",
+      "title": "Adidas Samba OG Black Gum White - Size 11 - *FAST SHIPPING*",
+      "subtitle": "US M 11 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/128150950504",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 7,
+      "reviews_link": "https://www.ebay.com/p/3039802616?iid=128150950504#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$72.99",
+      "extracted_price": 72.99,
+      "shipping": "+$7.08 delivery",
+      "extracted_shipping": 7.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/jSsAAeSw0sNq2nlY/s-l140.webp"
+    },
+    {
+      "position": 33,
+      "item_id": "407315833439",
+      "title": "ADIDAS SAMBA OG BROWN/COFFEE SIZE 9.5 RARE ORIGINALS IH4387",
+      "subtitle": "US M 9.5 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/407315833439",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$35.00",
+      "extracted_price": 35.0,
+      "shipping": "+$11.92 delivery",
+      "extracted_shipping": 11.92,
+      "thumbnail": "https://i.ebayimg.com/images/g/f5AAAeSwlHlq3mhv/s-l140.webp"
+    },
+    {
+      "position": 34,
+      "item_id": "860067068492",
+      "title": "adidas Samba Women’s Low Top Lace Up Sneakers Brown/Pink US 9.5 UK 8",
+      "subtitle": "US W 9.5 · adidas",
+      "link": "https://www.ebay.com/itm/860067068492",
+      "condition": "Brand New",
+      "buying_format": "0 bids · Time left1d 8h",
+      "extensions": [
+        "+$14.95 delivery",
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$50.00",
+      "extracted_price": 50.0,
+      "shipping": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/u6sAAeSwy4hq2AIE/s-l140.webp"
+    },
+    {
+      "position": 35,
+      "item_id": "860063885750",
+      "title": "adidas Samba Men’s US 6.5 White/Red Low Top Lace-Up Gum Rubber Sneakers",
+      "subtitle": "US M 6.5 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/860063885750",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 1,
+      "reviews_link": "https://www.ebay.com/p/24039793776?iid=860063885750#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$25.00",
+      "extracted_price": 25.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/wn8AAeSwOSZq1tmC/s-l140.webp"
+    },
+    {
+      "position": 36,
+      "item_id": "840058776812",
+      "title": "Adidas women’s Sambae",
+      "subtitle": "US W 7 · adidas",
+      "link": "https://www.ebay.com/itm/840058776812",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$50.00",
+      "extracted_price": 50.0,
+      "shipping": "+$6.55 delivery",
+      "extracted_shipping": 6.55,
+      "thumbnail": "https://i.ebayimg.com/images/g/AFsAAeSwRepq3iJM/s-l140.webp"
+    },
+    {
+      "position": 37,
+      "item_id": "166139269528",
+      "title": "Adidas Samba OG Shoes Men's (White) B75806",
+      "subtitle": "US M 8 + more · adidas",
+      "link": "https://www.ebay.com/itm/166139269528",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/9aoAAOSwtYtkd5P8/s-l140.webp"
+    },
+    {
+      "position": 38,
+      "item_id": "287678063635",
+      "title": "11.5M - [NEW] Men's adidas Samba OG Casual Shoes 'Grey' JR0913",
+      "subtitle": "US M 11.5 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/287678063635",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$99.00",
+      "extracted_price": 99.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/u2AAAeSwQ1JpTXSX/s-l140.webp"
+    },
+    {
+      "position": 39,
+      "item_id": "128151062347",
+      "title": "Adidas Samba OG Cloud White Core Black Grey - Size 10 - *FAST SHIPPING*",
+      "subtitle": "US M 10 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/128151062347",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 5,
+      "reviews_link": "https://www.ebay.com/p/14039795153?iid=128151062347#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$62.99",
+      "extracted_price": 62.99,
+      "shipping": "+$7.08 delivery",
+      "extracted_shipping": 7.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/oIcAAeSwpl1q2pBV/s-l140.webp"
+    },
+    {
+      "position": 40,
+      "item_id": "176307476548",
+      "title": "ADIDAS Originals Samba OG Cloud White Core Black B75806 Men's shoes sz 4-13",
+      "subtitle": "US M 10 + more · adidas · adidas Original",
+      "link": "https://www.ebay.com/itm/176307476548",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 4,
+      "reviews_link": "https://www.ebay.com/p/20039801045?iid=176307476548&var=475818690010#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$84.99",
+      "extracted_price": 84.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/Zj0AAOSwciJmBHC1/s-l140.webp"
+    },
+    {
+      "position": 41,
+      "item_id": "800834591472",
+      "title": "Adidas Samba, Size 11, White with Brown bottoms",
+      "subtitle": "US M 11 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/800834591472",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$19.00",
+      "extracted_price": 19.0,
+      "shipping": "+$10.43 delivery",
+      "extracted_shipping": 10.43,
+      "thumbnail": "https://i.ebayimg.com/images/g/HZEAAeSwfYdq3T8Q/s-l140.webp"
+    },
+    {
+      "position": 42,
+      "item_id": "900038864236",
+      "title": "adidas Samba OG J IE3676 Unisex Kids 6.5 Black/White/Gum Athletic Sneaker",
+      "subtitle": "US Kids 6.5 · adidas",
+      "link": "https://www.ebay.com/itm/900038864236",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$35.00",
+      "extracted_price": 35.0,
+      "shipping": "+$9.66 delivery",
+      "extracted_shipping": 9.66,
+      "thumbnail": "https://i.ebayimg.com/images/g/-9cAAeSwoVlq3YKa/s-l140.webp"
+    },
+    {
+      "position": 43,
+      "item_id": "407315769489",
+      "title": "adidas Samba JP Men's Low Top Lace-Up Sneakers Black/Red/White US 10.5",
+      "subtitle": "US M 10.5 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/407315769489",
+      "condition": "New (Other)",
+      "buying_format": "0 bids · Time left6d 4h",
+      "extensions": [
+        "+$14.95 delivery",
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$50.00",
+      "extracted_price": 50.0,
+      "shipping": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/AJ0AAeSwP1pq3l0g/s-l140.webp"
+    },
+    {
+      "position": 44,
+      "item_id": "820277460756",
+      "title": "adidas Originals Samba OG W’s White Blue Gum Low Top Lace Up Leather 9 JR0909",
+      "subtitle": "US M 9",
+      "link": "https://www.ebay.com/itm/820277460756",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$75.00",
+      "extracted_price": 75.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/ANoAAeSwvbRq3pDE/s-l140.webp"
+    },
+    {
+      "position": 45,
+      "item_id": "298706691632",
+      "title": "adidas Samba OG Cream White Sand Strata Women's ID0478",
+      "subtitle": "US W 10 + more · adidas",
+      "link": "https://www.ebay.com/itm/298706691632",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$75.00",
+      "extracted_price": 75.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/VgIAAeSw1Opq2yu0/s-l140.webp"
+    },
+    {
+      "position": 46,
+      "item_id": "407314300248",
+      "title": "adidas Samba Men's Low Top Lace-Up Sneakers White/Black/Gray Rubber Sole",
+      "subtitle": "US M 13 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/407314300248",
+      "condition": "Pre-Owned",
+      "tag": "NEW LOW PRICE",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$35.00",
+      "extracted_price": 35.0,
+      "shipping": "+$11.92 delivery",
+      "extracted_shipping": 11.92,
+      "thumbnail": "https://i.ebayimg.com/images/g/s84AAeSwiEJq3VEo/s-l140.webp"
+    },
+    {
+      "position": 47,
+      "item_id": "189058160165",
+      "title": "Adidas Samba OG Brown Putty Grey Mens ID1481 *NEW* Multi Sz",
+      "subtitle": "US M 9.5 + more · adidas",
+      "link": "https://www.ebay.com/itm/189058160165",
+      "condition": "New (Other)",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "1+ watchers"
+      ],
+      "price": "$59.99 to $74.99",
+      "extracted_price_range": {
+        "from": 59.99,
+        "to": 74.99
+      },
+      "is_price_range": true,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/7aoAAeSwfW9q1oqh/s-l140.webp"
+    },
+    {
+      "position": 48,
+      "item_id": "920049573070",
+      "title": "Samba OG Shoes Black Size Mens 9",
+      "subtitle": "US M 9 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/920049573070",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$85.00",
+      "extracted_price": 85.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/JwgAAeSw6LVq0~-C/s-l140.webp"
+    },
+    {
+      "position": 49,
+      "item_id": "198737661726",
+      "title": "adidas sambas size 10",
+      "subtitle": "US M 10 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/198737661726",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$80.00",
+      "extracted_price": 80.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/OX4AAeSwl6Jq2qUD/s-l140.webp"
+    },
+    {
+      "position": 50,
+      "item_id": "128154393482",
+      "title": "Adidas Samba OG Shoes Brown",
+      "subtitle": "US W 8.5 · adidas",
+      "link": "https://www.ebay.com/itm/128154393482",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$90.00",
+      "extracted_price": 90.0,
+      "shipping": "+$9.28 delivery",
+      "extracted_shipping": 9.28,
+      "thumbnail": "https://i.ebayimg.com/images/g/FIMAAeSwD2Fq3RM8/s-l140.webp"
+    },
+    {
+      "position": 51,
+      "item_id": "800837265179",
+      "title": "adidas Wales Bonner Samba Pony Men’s US 12 Cream White/Mystery Brown IE0586",
+      "subtitle": "US M 12 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/800837265179",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$200.00",
+      "extracted_price": 200.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/ABsAAeSwpdZq3iO3/s-l140.webp"
+    },
+    {
+      "position": 52,
+      "item_id": "117476880999",
+      "title": "adidas Samba OG Size US 12 1/2 Sneakers",
+      "subtitle": "US M 12.5 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/117476880999",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$41.50",
+      "extracted_price": 41.5,
+      "shipping": "+$8.33 delivery",
+      "extracted_shipping": 8.33,
+      "thumbnail": "https://i.ebayimg.com/images/g/zrIAAeSwT55q14n8/s-l140.webp"
+    },
+    {
+      "position": 53,
+      "item_id": "820257022998",
+      "title": "Adidas Samba OG Night Indigo Warm Vanilla Gum Shoes Mens SIze 12 KK2273 NEW",
+      "subtitle": "US M 12 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/820257022998",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$109.95",
+      "extracted_price": 109.95,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/mnUAAeSwLbdq1p9H/s-l140.webp"
+    },
+    {
+      "position": 54,
+      "item_id": "204956950440",
+      "title": "adidas Samba OG Black Gum B75807 Men Size",
+      "subtitle": "US M 10 + more · adidas",
+      "link": "https://www.ebay.com/itm/204956950440",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 5,
+      "reviews_link": "https://www.ebay.com/p/14039795153?iid=204956950440&var=505972503764#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$69.00 to $122.00",
+      "extracted_price_range": {
+        "from": 69.0,
+        "to": 122.0
+      },
+      "is_price_range": true,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/f4MAAeSwbNtq3QH7/s-l140.webp"
+    },
+    {
+      "position": 55,
+      "item_id": "860076051926",
+      "title": "Adidas Originals SAMBA OG Low top Skateboard Shoes Unisex Dark Blue JI3217",
+      "subtitle": "US M 10 + more · adidas",
+      "link": "https://www.ebay.com/itm/860076051926",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Includes import fees",
+        "Located in Hong Kong",
+        "Authenticity Guarantee"
+      ],
+      "price": "$92.00 to $201.00",
+      "extracted_price_range": {
+        "from": 92.0,
+        "to": 201.0
+      },
+      "is_price_range": true,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/LpMAAeSwVRBq23Bu/s-l140.webp"
+    },
+    {
+      "position": 56,
+      "item_id": "287675861221",
+      "title": "13M - [NEW] Men's adidas Samba OG Casual Shoes 'Black' JS3832",
+      "subtitle": "US M 13 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/287675861221",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$79.00",
+      "extracted_price": 79.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/ckUAAeSwr4lpTIK4/s-l140.webp"
+    },
+    {
+      "position": 57,
+      "item_id": "117477059664",
+      "title": "Size 7 - Adidas Samba OG Cream White/Core Black/Sand Strata",
+      "subtitle": "US W 7 · adidas",
+      "link": "https://www.ebay.com/itm/117477059664",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Authenticity Guarantee"
+      ],
+      "price": "$77.70",
+      "extracted_price": 77.7,
+      "original_price": "$111.00",
+      "extracted_original_price": 111.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/qYAAAeSwvJJq16ab/s-l140.webp"
+    },
+    {
+      "position": 58,
+      "item_id": "168814327211",
+      "title": "adidas Samba OG Women’s Leopard Print Low Top Lace-Up Sneakers US 7 KI6674",
+      "subtitle": "US W 7 · adidas",
+      "link": "https://www.ebay.com/itm/168814327211",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$40.00",
+      "extracted_price": 40.0,
+      "shipping": "+$6.71 delivery",
+      "extracted_shipping": 6.71,
+      "thumbnail": "https://i.ebayimg.com/images/g/BScAAeSw03Nq3R~M/s-l140.webp"
+    },
+    {
+      "position": 59,
+      "item_id": "128150953236",
+      "title": "Adidas Samba OG Black Gum White - Size 7 - *FAST SHIPPING*",
+      "subtitle": "US M 7 · adidas · adidas Samba",
+      "link": "https://www.ebay.com/itm/128150953236",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 1,
+      "reviews_link": "https://www.ebay.com/p/12039783300?iid=128150953236#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$72.99",
+      "extracted_price": 72.99,
+      "shipping": "+$7.08 delivery",
+      "extracted_shipping": 7.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/jSsAAeSw0sNq2nlY/s-l140.webp"
+    },
+    {
+      "position": 60,
+      "item_id": "840021551915",
+      "title": "adidas Samba OG Silver Green Chalk White JI1866 Men's New",
+      "subtitle": "US M 8 + more · adidas",
+      "link": "https://www.ebay.com/itm/840021551915",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "8+ watchers"
+      ],
+      "price": "$56.39",
+      "extracted_price": 56.39,
+      "original_price": "$59.99",
+      "extracted_original_price": 59.99,
+      "shipping": "+$11.99 delivery",
+      "extracted_shipping": 11.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/3PoAAeSwaqVq0OG0/s-l140.webp"
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "adidas samba og women",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og+women&_sop=12"
+    },
+    {
+      "query": "adidas samba og low white black gum",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og+low+white+black+gum&_sop=12"
+    },
+    {
+      "query": "adidas samba og men",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og+men&_sop=12"
+    },
+    {
+      "query": "adidas samba og black gum",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og+black+gum&_sop=12"
+    },
+    {
+      "query": "adidas samba og black",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og+black&_sop=12"
+    },
+    {
+      "query": "adidas samba men",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+men&_sop=12"
+    },
+    {
+      "query": "adidas samba og brown",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og+brown&_sop=12"
+    },
+    {
+      "query": "adidas gazelle men",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+gazelle+men&_sop=12"
+    },
+    {
+      "query": "adidas samba og green",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og+green&_sop=12"
+    },
+    {
+      "query": "adidas samba xlg",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+xlg&_sop=12"
+    },
+    {
+      "query": "adidas spezial",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+spezial&_sop=12"
+    },
+    {
+      "query": "adidas samba og white",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og+white&_sop=12"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&_dcat=15709&_pgn=2",
+    "other_pages": {
+      "2": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&_dcat=15709&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&_dcat=15709&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&_dcat=15709&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&_dcat=15709&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&_dcat=15709&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&_dcat=15709&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&_dcat=15709&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&_dcat=15709&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_nkw=adidas+samba+og&_fcid=1&_dcat=15709&_pgn=10&rt=nc"
+    }
+  }
+}
