@@ -1,7 +1,7 @@
 <h1>Searching “<%= @run.query %>”</h1>
 <p class="muted">
   Started <%= @run.started_at.strftime("%H:%M:%S UTC") %> · <%= @run.engines.join(", ") %>.
-  Every line is a step the code really took, reported as it happened. Shein can take 90 seconds.
+  Every line is a step the code really took, reported as it happened.<% if @run.engines.include?("shein_search") %> Shein can take 90 seconds.<% end %>
 </p>
 
 <pre class="console" id="console" data-run="<%= @run.id %>" data-from="<%= @events.size %>" data-done="<%= @done %>"><% @events.each do |event| %><%= console_line(event) %>

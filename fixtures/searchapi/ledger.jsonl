@@ -21,3 +21,4 @@
 {"at":"2026-10-26T19:57:03Z","engine":"shein_search","params":{"q":"women's puffer jacket"},"status":503,"search_id":null,"error":null,"api_error":"We could not retrieve results for this search. Please try again later.","duration_ms":90694}
 {"at":"2026-10-26T20:15:43Z","engine":"shein_search","params":{"q":"dress"},"status":503,"search_id":null,"error":null,"api_error":"We could not retrieve results for this search. Please try again later.","duration_ms":90876}
 {"at":"2026-10-26T20:30:19Z","engine":"shein_search","params":{"q":"nike air 1"},"status":200,"search_id":"search_8A9g6Ov07XHo3jKz34JlbW2m","error":null,"api_error":"Shein didn't return any results.","duration_ms":75271}
+{"at":"2026-10-26T20:53:42Z","engine":"ebay_search","params":{"q":"nike air force 1"},"status":200,"search_id":"search_K0EOpDkpY6hY6LENVe3wzYN9","error":null,"api_error":null,"duration_ms":4279}

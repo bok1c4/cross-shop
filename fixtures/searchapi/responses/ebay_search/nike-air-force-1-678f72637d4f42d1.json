@@ -1,0 +1,1837 @@
+{
+  "search_metadata": {
+    "id": "search_K0EOpDkpY6hY6LENVe3wzYN9",
+    "status": "Success",
+    "created_at": "2026-10-26T20:53:39Z",
+    "request_time_taken": 3.18,
+    "parsing_time_taken": 0.12,
+    "total_time_taken": 3.3,
+    "request_url": "https://www.ebay.com/sch/i.html?_nkw=nike%20air%20force%201&_fcid=1",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_K0EOpDkpY6hY6LENVe3wzYN9.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_K0EOpDkpY6hY6LENVe3wzYN9"
+  },
+  "search_parameters": {
+    "engine": "ebay_search",
+    "q": "nike air force 1",
+    "ebay_domain": "ebay.com",
+    "country": "US",
+    "delivery_country": "US"
+  },
+  "search_information": {
+    "query_displayed": "nike air force 1",
+    "total_results": 190000,
+    "sorted_by": "Sort: Best Match",
+    "buying_format": "All",
+    "language": "en"
+  },
+  "categories": [
+    {
+      "name": "Clothing, Shoes & Accessories",
+      "is_selected": true,
+      "subcategories": [
+        {
+          "name": "Men",
+          "link": "https://www.ebay.com/sch/260012/i.html?_fcid=1&_nkw=nike+air+force+1",
+          "category_id": "260012"
+        },
+        {
+          "name": "Women",
+          "link": "https://www.ebay.com/sch/260010/i.html?_fcid=1&_nkw=nike+air+force+1",
+          "category_id": "260010"
+        },
+        {
+          "name": "Kids",
+          "link": "https://www.ebay.com/sch/171146/i.html?_fcid=1&_nkw=nike+air+force+1",
+          "category_id": "171146"
+        },
+        {
+          "name": "Baby",
+          "link": "https://www.ebay.com/sch/260018/i.html?_fcid=1&_nkw=nike+air+force+1",
+          "category_id": "260018"
+        },
+        {
+          "name": "Specialty",
+          "link": "https://www.ebay.com/sch/260033/i.html?_fcid=1&_nkw=nike+air+force+1",
+          "category_id": "260033"
+        }
+      ]
+    },
+    {
+      "name": "Home & Garden",
+      "link": "https://www.ebay.com/sch/11700/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "11700"
+    },
+    {
+      "name": "Sporting Goods",
+      "link": "https://www.ebay.com/sch/888/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "888"
+    },
+    {
+      "name": "Sports Mem, Cards & Fan Shop",
+      "link": "https://www.ebay.com/sch/64482/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "64482"
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "1"
+    },
+    {
+      "name": "Everything Else",
+      "link": "https://www.ebay.com/sch/99/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "99"
+    },
+    {
+      "name": "Art",
+      "link": "https://www.ebay.com/sch/550/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "550"
+    },
+    {
+      "name": "Books & Magazines",
+      "link": "https://www.ebay.com/sch/267/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "267"
+    },
+    {
+      "name": "Toys & Hobbies",
+      "link": "https://www.ebay.com/sch/220/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "220"
+    },
+    {
+      "name": "Jewelry & Watches",
+      "link": "https://www.ebay.com/sch/281/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "281"
+    },
+    {
+      "name": "Antiques",
+      "link": "https://www.ebay.com/sch/20081/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "20081"
+    },
+    {
+      "name": "Musical Instruments & Gear",
+      "link": "https://www.ebay.com/sch/619/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "619"
+    },
+    {
+      "name": "Baby",
+      "link": "https://www.ebay.com/sch/2984/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "2984"
+    },
+    {
+      "name": "Entertainment Memorabilia",
+      "link": "https://www.ebay.com/sch/45100/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "45100"
+    },
+    {
+      "name": "Crafts",
+      "link": "https://www.ebay.com/sch/14339/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "14339"
+    },
+    {
+      "name": "Video Games & Consoles",
+      "link": "https://www.ebay.com/sch/1249/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "1249"
+    },
+    {
+      "name": "Travel",
+      "link": "https://www.ebay.com/sch/3252/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "3252"
+    },
+    {
+      "name": "Business & Industrial",
+      "link": "https://www.ebay.com/sch/12576/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "12576"
+    },
+    {
+      "name": "Computers/Tablets & Networking",
+      "link": "https://www.ebay.com/sch/58058/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "58058"
+    },
+    {
+      "name": "eBay Motors",
+      "link": "https://www.ebay.com/sch/6000/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "6000"
+    },
+    {
+      "name": "Cell Phones & Accessories",
+      "link": "https://www.ebay.com/sch/15032/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "15032"
+    },
+    {
+      "name": "Stamps",
+      "link": "https://www.ebay.com/sch/260/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "260"
+    },
+    {
+      "name": "Movies & TV",
+      "link": "https://www.ebay.com/sch/11232/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "11232"
+    },
+    {
+      "name": "Health & Beauty",
+      "link": "https://www.ebay.com/sch/26395/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "26395"
+    },
+    {
+      "name": "Consumer Electronics",
+      "link": "https://www.ebay.com/sch/293/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "293"
+    },
+    {
+      "name": "Pottery & Glass",
+      "link": "https://www.ebay.com/sch/870/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "870"
+    },
+    {
+      "name": "Gift Cards & Coupons",
+      "link": "https://www.ebay.com/sch/172008/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "172008"
+    },
+    {
+      "name": "Dolls & Bears",
+      "link": "https://www.ebay.com/sch/237/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "237"
+    },
+    {
+      "name": "Specialty Services",
+      "link": "https://www.ebay.com/sch/316/i.html?_fcid=1&_nkw=nike+air+force+1",
+      "category_id": "316"
+    }
+  ],
+  "filters": [
+    {
+      "type": "Shipping and pickup",
+      "options": [
+        {
+          "text": "Arrives in 2-4 days",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc&LH_FAST=1"
+        },
+        {
+          "text": "Free Shipping",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc&LH_FS=1"
+        },
+        {
+          "text": "Local Pickup within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc&LH_PrefLoc=99&_sadis=25&_fspt=1&_stpos=01851&LH_LPickup=1"
+        }
+      ]
+    },
+    {
+      "type": "Theme",
+      "options": [
+        {
+          "text": "Air Force (69,149) Items",
+          "items": 69149,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Theme=Air%2520Force&_dcat=15709"
+        },
+        {
+          "text": "Colorful (45,180) Items",
+          "items": 45180,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Theme=Colorful&_dcat=15709"
+        },
+        {
+          "text": "Retro (41,145) Items",
+          "items": 41145,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Theme=Retro&_dcat=15709"
+        },
+        {
+          "text": "Sports (38,025) Items",
+          "items": 38025,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Theme=Sports&_dcat=15709"
+        },
+        {
+          "text": "Classic (34,293) Items",
+          "items": 34293,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Theme=Classic&_dcat=15709"
+        },
+        {
+          "text": "University (33,427) Items",
+          "items": 33427,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Theme=University&_dcat=15709"
+        },
+        {
+          "text": "Royal (31,349) Items",
+          "items": 31349,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Theme=Royal&_dcat=15709"
+        },
+        {
+          "text": "90s (31,171) Items",
+          "items": 31171,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Theme=90s&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Performance/Activity",
+      "options": [
+        {
+          "text": "Walking (98,702) Items",
+          "items": 98702,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Performance%252FActivity=Walking&_dcat=15709"
+        },
+        {
+          "text": "Basketball (66,841) Items",
+          "items": 66841,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Performance%252FActivity=Basketball&_dcat=15709"
+        },
+        {
+          "text": "School (48,471) Items",
+          "items": 48471,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Performance%252FActivity=School&_dcat=15709"
+        },
+        {
+          "text": "Gym & Training (48,169) Items",
+          "items": 48169,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Performance%252FActivity=Gym%2520%2526%2520Training&_dcat=15709"
+        },
+        {
+          "text": "Running & Jogging (47,520) Items",
+          "items": 47520,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Performance%252FActivity=Running%2520%2526%2520Jogging&_dcat=15709"
+        },
+        {
+          "text": "Cross Training (44,912) Items",
+          "items": 44912,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Performance%252FActivity=Cross%2520Training&_dcat=15709"
+        },
+        {
+          "text": "CrossFit (43,404) Items",
+          "items": 43404,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Performance%252FActivity=CrossFit&_dcat=15709"
+        },
+        {
+          "text": "Weightlifting (32,622) Items",
+          "items": 32622,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Performance%252FActivity=Weightlifting&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "options": [
+        {
+          "text": "Comfort (69,690) Items",
+          "items": 69690,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Features=Comfort&_dcat=15709"
+        },
+        {
+          "text": "Cushioned (54,829) Items",
+          "items": 54829,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Features=Cushioned&_dcat=15709"
+        },
+        {
+          "text": "Breathable (46,548) Items",
+          "items": 46548,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Features=Breathable&_dcat=15709"
+        },
+        {
+          "text": "Performance (41,254) Items",
+          "items": 41254,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Features=Performance&_dcat=15709"
+        },
+        {
+          "text": "Adjustable (38,968) Items",
+          "items": 38968,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Features=Adjustable&_dcat=15709"
+        },
+        {
+          "text": "Limited Edition (38,692) Items",
+          "items": 38692,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Features=Limited%2520Edition&_dcat=15709"
+        },
+        {
+          "text": "Arch Support (34,010) Items",
+          "items": 34010,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Features=Arch%2520Support&_dcat=15709"
+        },
+        {
+          "text": "Slip Resistant (31,628) Items",
+          "items": 31628,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Features=Slip%2520Resistant&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Season",
+      "options": [
+        {
+          "text": "Spring (115,073) Items",
+          "items": 115073,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Season=Spring&_dcat=15709"
+        },
+        {
+          "text": "Summer (107,862) Items",
+          "items": 107862,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Season=Summer&_dcat=15709"
+        },
+        {
+          "text": "Fall (106,357) Items",
+          "items": 106357,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Season=Fall&_dcat=15709"
+        },
+        {
+          "text": "Winter (92,755) Items",
+          "items": 92755,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Season=Winter&_dcat=15709"
+        },
+        {
+          "text": "Not Specified (166,706) Items",
+          "items": 166706,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Season=%21&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Model",
+      "options": [
+        {
+          "text": "Nike Air Force 1 (187,856) Items",
+          "items": 187856,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Model=Nike%2520Air%2520Force%25201&_dcat=15709"
+        },
+        {
+          "text": "Nike Air Force 1 '07 (69,520) Items",
+          "items": 69520,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Model=Nike%2520Air%2520Force%25201%2520%252707&_dcat=15709"
+        },
+        {
+          "text": "Nike Air Force 1 Low (61,555) Items",
+          "items": 61555,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Model=Nike%2520Air%2520Force%25201%2520Low&_dcat=15709"
+        },
+        {
+          "text": "Nike Air Force 1 '07 LV8 (33,162) Items",
+          "items": 33162,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Model=Nike%2520Air%2520Force%25201%2520%252707%2520LV8&_dcat=15709"
+        },
+        {
+          "text": "Nike Air Force 1 Mid (5,564) Items",
+          "items": 5564,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Model=Nike%2520Air%2520Force%25201%2520Mid&_dcat=15709"
+        },
+        {
+          "text": "Nike Air Force (5,491) Items",
+          "items": 5491,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Model=Nike%2520Air%2520Force&_dcat=15709"
+        },
+        {
+          "text": "Nike Air Force 1 '07 LX (4,824) Items",
+          "items": 4824,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Model=Nike%2520Air%2520Force%25201%2520%252707%2520LX&_dcat=15709"
+        },
+        {
+          "text": "Nike One (4,452) Items",
+          "items": 4452,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Model=Nike%2520One&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Product Line",
+      "options": [
+        {
+          "text": "Nike Air Force (158,908) Items",
+          "items": 158908,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Product%2520Line=Nike%2520Air%2520Force&_dcat=15709"
+        },
+        {
+          "text": "Nike Air (130,739) Items",
+          "items": 130739,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Product%2520Line=Nike%2520Air&_dcat=15709"
+        },
+        {
+          "text": "Air Jordan (1,265) Items",
+          "items": 1265,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Product%2520Line=Air%2520Jordan&_dcat=15709"
+        },
+        {
+          "text": "Nike Dunk (1,023) Items",
+          "items": 1023,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Product%2520Line=Nike%2520Dunk&_dcat=15709"
+        },
+        {
+          "text": "Nike SB (936) Items",
+          "items": 936,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Product%2520Line=Nike%2520SB&_dcat=15709"
+        },
+        {
+          "text": "Nike Air Max (896) Items",
+          "items": 896,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Product%2520Line=Nike%2520Air%2520Max&_dcat=15709"
+        },
+        {
+          "text": "Nike LeBron (362) Items",
+          "items": 362,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Product%2520Line=Nike%2520LeBron&_dcat=15709"
+        },
+        {
+          "text": "Nike Force (313) Items",
+          "items": 313,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Product%2520Line=Nike%2520Force&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Closure",
+      "options": [
+        {
+          "text": "Lace Up (128,153) Items",
+          "items": 128153,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Closure=Lace%2520Up&_dcat=15709"
+        },
+        {
+          "text": "Pull On (29,267) Items",
+          "items": 29267,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Closure=Pull%2520On&_dcat=15709"
+        },
+        {
+          "text": "Slip On (29,259) Items",
+          "items": 29259,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Closure=Slip%2520On&_dcat=15709"
+        },
+        {
+          "text": "Tie (28,666) Items",
+          "items": 28666,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Closure=Tie&_dcat=15709"
+        },
+        {
+          "text": "Hook & Loop (14,513) Items",
+          "items": 14513,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Closure=Hook%2520%2526%2520Loop&_dcat=15709"
+        },
+        {
+          "text": "Hook & Eye (11,864) Items",
+          "items": 11864,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Closure=Hook%2520%2526%2520Eye&_dcat=15709"
+        },
+        {
+          "text": "Drawstring (10,354) Items",
+          "items": 10354,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Closure=Drawstring&_dcat=15709"
+        },
+        {
+          "text": "Buckle (9,208) Items",
+          "items": 9208,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&Closure=Buckle&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Condition",
+      "options": [
+        {
+          "text": "New with tags (325,639) Items",
+          "items": 325639,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc&LH_ItemCondition=1000"
+        },
+        {
+          "text": "New without tags (16,221) Items",
+          "items": 16221,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc&LH_ItemCondition=1500"
+        },
+        {
+          "text": "New with imperfections (4,258) Items",
+          "items": 4258,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc&LH_ItemCondition=1750"
+        },
+        {
+          "text": "Pre-Owned (103,083) Items",
+          "items": 103083,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc&LH_ItemCondition=3000"
+        },
+        {
+          "text": "Not Specified (13) Items",
+          "items": 13,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc&LH_ItemCondition=10"
+        }
+      ]
+    },
+    {
+      "type": "Buying Format",
+      "options": [
+        {
+          "text": "All Listings (449,214) Items",
+          "items": 449214,
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc"
+        },
+        {
+          "text": "Auction (2,137) Items",
+          "items": 2137,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc&LH_Auction=1"
+        },
+        {
+          "text": "Buy It Now (447,769) Items",
+          "items": 447769,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc&LH_BIN=1"
+        },
+        {
+          "text": "Accepts Offers (116,952) Items",
+          "items": 116952,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc&LH_BO=1"
+        }
+      ]
+    },
+    {
+      "type": "Item Location",
+      "options": [
+        {
+          "text": "Default",
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc&LH_PrefLoc=98"
+        },
+        {
+          "text": "Within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&_dcat=15709&_sadis=25&_stpos=01851&_fspt=1"
+        },
+        {
+          "text": "US Only",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc&LH_PrefLoc=1"
+        },
+        {
+          "text": "North America",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc&LH_PrefLoc=3"
+        },
+        {
+          "text": "Worldwide",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc&LH_PrefLoc=2"
+        }
+      ]
+    },
+    {
+      "type": "Show only",
+      "options": [
+        {
+          "text": "Free Returns",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc&LH_FR=1"
+        },
+        {
+          "text": "Returns Accepted",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc&LH_RPA=1"
+        },
+        {
+          "text": "Authorized Seller",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc&LH_AS=1"
+        },
+        {
+          "text": "Completed Items",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc&LH_Complete=1"
+        },
+        {
+          "text": "Sold Items",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc&LH_Sold=1"
+        },
+        {
+          "text": "Deals & Savings",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&rt=nc&LH_Savings=1"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "item_id": "168777440747",
+      "title": "Size 3.5 - Nike Air Force 1 '07 LV8 Multi-Material (1052)",
+      "subtitle": "US M 3.5 · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/168777440747",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$153.97",
+      "extracted_price": 153.97,
+      "original_price": "$219.95",
+      "extracted_original_price": 219.95,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/3asAAeSwrbhqx9TB/s-l500.webp"
+    },
+    {
+      "position": 2,
+      "item_id": "407318293138",
+      "title": "Nike Air Force 1 '07 LV8 Black/White-Sail Men's US 5 DZ4855-001",
+      "subtitle": "US M 5 · Nike",
+      "link": "https://www.ebay.com/itm/407318293138",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$90.00",
+      "extracted_price": 90.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/69cAAeSw5Wlq37tm/s-l500.webp"
+    },
+    {
+      "position": 3,
+      "item_id": "198747760184",
+      "title": "Nike Air Force 1 Low White Lace-Up Sneakers Unisex Adults US 9.5 Men",
+      "subtitle": "US M 9.5 · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/198747760184",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$65.00",
+      "extracted_price": 65.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/ySwAAeSwSMRq37II/s-l140.webp"
+    },
+    {
+      "position": 4,
+      "item_id": "800841582403",
+      "title": "Nike Air Force 1 '07 LV8 Certified Fresh - Rattan - Size 13",
+      "subtitle": "US M 13 · Nike",
+      "link": "https://www.ebay.com/itm/800841582403",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$24.23",
+      "extracted_price": 24.23,
+      "shipping": "+$10.43 delivery",
+      "extracted_shipping": 10.43,
+      "thumbnail": "https://i.ebayimg.com/images/g/ticAAeSwFthq35z4/s-l140.webp"
+    },
+    {
+      "position": 5,
+      "item_id": "407318291393",
+      "title": "Custom!! Nike Air Force 1 Low Triple Black Blood Drip - Men's US 10.5 Sneakers",
+      "subtitle": "US M 10.5 · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/407318291393",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 8,
+      "reviews_link": "https://www.ebay.com/p/5045642385?iid=407318291393#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$175.00",
+      "extracted_price": 175.0,
+      "shipping": "+$10.43 delivery",
+      "extracted_shipping": 10.43,
+      "thumbnail": "https://i.ebayimg.com/images/g/UEwAAeSw6bdq37m3/s-l140.webp"
+    },
+    {
+      "position": 6,
+      "item_id": "800841247369",
+      "title": "Nike Air Force 1 Mid SP White/Clear White Men's US 13 DO6290-100 2022",
+      "subtitle": "US M 13 · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/800841247369",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 3,
+      "reviews_link": "https://www.ebay.com/p/7054559289?iid=800841247369#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$90.00",
+      "extracted_price": 90.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/p0UAAeSwVYlq34AS/s-l140.webp"
+    },
+    {
+      "position": 7,
+      "item_id": "800835903986",
+      "title": "Nike Air Force 1 Low Men’s Sneakers US 8.5 White/Blue Low Top Lace-Up",
+      "subtitle": "US M 8.5 · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/800835903986",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/DJUAAeSwV0xq3a7N/s-l140.webp"
+    },
+    {
+      "position": 8,
+      "item_id": "267753019349",
+      "title": "Nike Air Force 1 Low '07 White Fir FJ4146-132 Men's Size New",
+      "subtitle": "US M 10 + more · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/267753019349",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$115.99",
+      "extracted_price": 115.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/M0QAAeSw2RBqdlXC/s-l140.webp"
+    },
+    {
+      "position": 9,
+      "item_id": "198747726421",
+      "title": "Nike Air Force 1 Low Top Sneakers Black/White Lace Up Unisex Adult 6.5",
+      "subtitle": "US M 6.5 · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/198747726421",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$80.00",
+      "extracted_price": 80.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/tLMAAeSwY-Fq36zy/s-l140.webp"
+    },
+    {
+      "position": 10,
+      "item_id": "267770045745",
+      "title": "Nike Air Force 1 Low '07 Dark Blue Obsidian IH1698-400 Men's Size New",
+      "subtitle": "US M 10 + more · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/267770045745",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$106.39",
+      "extracted_price": 106.39,
+      "original_price": "$111.99",
+      "extracted_original_price": 111.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/Lg4AAeSwqlBqkJRM/s-l140.webp"
+    },
+    {
+      "position": 11,
+      "item_id": "267760112821",
+      "title": "Nike Air Force 1 Low '07 Carbon Fiber Swoosh Grey IV5732-001 Men's Size New",
+      "subtitle": "US M 9 + more · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/267760112821",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$112.99",
+      "extracted_price": 112.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/8MkAAeSw5TlqfhBj/s-l140.webp"
+    },
+    {
+      "position": 12,
+      "item_id": "800841556095",
+      "title": "Nike Air Force 1 Black White - Size 13",
+      "subtitle": "US M 13 · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/800841556095",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 1,
+      "reviews_link": "https://www.ebay.com/p/14045634097?iid=800841556095#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$35.00",
+      "extracted_price": 35.0,
+      "shipping": "+$10.43 delivery",
+      "extracted_shipping": 10.43,
+      "thumbnail": "https://i.ebayimg.com/images/g/76QAAeSw6k5q35td/s-l140.webp"
+    },
+    {
+      "position": 13,
+      "item_id": "920076733552",
+      "title": "Nike Air Force 1 Low Men's Low Top Sneakers Blue/Green Lace-Up US 8.5 NIB",
+      "subtitle": "US M 8.5 · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/920076733552",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$120.99",
+      "extracted_price": 120.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/-rIAAeSwsZJq34bX/s-l140.webp"
+    },
+    {
+      "position": 14,
+      "item_id": "168550478001",
+      "title": "Men's Air Force 1 \"Triple White\" Low Top Classic Sneakers US Size 7-13",
+      "subtitle": "US M 7 + more · Air force",
+      "link": "https://www.ebay.com/itm/168550478001",
+      "condition": "New (Other)",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "47+ sold"
+      ],
+      "price": "$59.99",
+      "extracted_price": 59.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/ZZAAAeSwIX5qXoh1/s-l140.webp"
+    },
+    {
+      "position": 15,
+      "item_id": "168665439186",
+      "title": "Size 5 - Nike Air Force 1 Shadow Multi-Material W (684)",
+      "subtitle": "US W 5 · Nike",
+      "link": "https://www.ebay.com/itm/168665439186",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$104.97",
+      "extracted_price": 104.97,
+      "original_price": "$149.95",
+      "extracted_original_price": 149.95,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/amUAAeSwLKFqm7XZ/s-l140.webp"
+    },
+    {
+      "position": 16,
+      "item_id": "168781969938",
+      "title": "Size 14 men - Nike Air Force 270 Utility Racer Blue (1172)",
+      "subtitle": "US M 14 · Nike · Nike Air",
+      "link": "https://www.ebay.com/itm/168781969938",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$167.97",
+      "extracted_price": 167.97,
+      "original_price": "$239.95",
+      "extracted_original_price": 239.95,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/uf8AAeSwjXpqyX9F/s-l140.webp"
+    },
+    {
+      "position": 17,
+      "item_id": "336864224138",
+      "title": "Size 10.5-Nike Air Force 1 '07 LV8 Neutral Olive",
+      "subtitle": "US M 10.5 · Nike · Nike Air",
+      "link": "https://www.ebay.com/itm/336864224138",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$50.00",
+      "extracted_price": 50.0,
+      "shipping": "+$11.26 delivery",
+      "extracted_shipping": 11.26,
+      "thumbnail": "https://i.ebayimg.com/images/g/2ygAAeSwAUBq34a-/s-l140.webp"
+    },
+    {
+      "position": 18,
+      "item_id": "336864396077",
+      "title": "Nike Air Force 1 '07 White/Court Blue White Low Top Sneakers Men’s 11.5",
+      "subtitle": "US M 11.5 · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/336864396077",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$79.99",
+      "extracted_price": 79.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/U9IAAeSwQX1q36i-/s-l140.webp"
+    },
+    {
+      "position": 19,
+      "item_id": "117487268040",
+      "title": "Nike Air Force 1 Low Shoes Oregon Apple Green JF5453-300 Men's Sizes NEW",
+      "subtitle": "US M 10 + more · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/117487268040",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$164.99",
+      "extracted_price": 164.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/4u8AAeSwaR9q3pGw/s-l140.webp"
+    },
+    {
+      "position": 20,
+      "item_id": "275273440086",
+      "title": "Nike Air Force 1 Low Triple White ‘07 Men and Women sizes. BRAND NEW IN THE BOX",
+      "subtitle": "US M 10.5 + more · Nike",
+      "link": "https://www.ebay.com/itm/275273440086",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Free returns",
+        "Save up to 5% when you buy more"
+      ],
+      "price": "$59.95",
+      "extracted_price": 59.95,
+      "shipping": "Located in United States",
+      "deal": "+$7.99 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/R0kAAOSwkCVgenWt/s-l140.webp"
+    },
+    {
+      "position": 21,
+      "item_id": "800364192935",
+      "title": "Nike Air Force 1 Low Top Triple White '07 Mens White Sports Classic Sneaker",
+      "subtitle": "US M 10 + more · Nike",
+      "link": "https://www.ebay.com/itm/800364192935",
+      "condition": "New (Other)",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "104+ sold"
+      ],
+      "price": "$69.99",
+      "extracted_price": 69.99,
+      "shipping": "Located in United States",
+      "deal": "Free delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/PmAAAeSw4oNqW03F/s-l140.webp"
+    },
+    {
+      "position": 22,
+      "item_id": "168808069585",
+      "title": "Nike Air Force 1 '07 LV8 University Red Lt Crimson IX4088-657 Men's Sizes NEW",
+      "subtitle": "US M 10 + more · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/168808069585",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/KLQAAeSw6pNq2iq5/s-l140.webp"
+    },
+    {
+      "position": 23,
+      "item_id": "920076891983",
+      "title": "flyknit air force size 13 mens",
+      "subtitle": "US M 13 · Nike",
+      "link": "https://www.ebay.com/itm/920076891983",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$85.00",
+      "extracted_price": 85.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/pWAAAeSwVJFq35dv/s-l140.webp"
+    },
+    {
+      "position": 24,
+      "item_id": "128155642806",
+      "title": "Nike Air Force 1 Low Top Lace Up Solid Tan Sneakers Unisex Adults 12.5",
+      "subtitle": "US M 12.5 · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/128155642806",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left5d 18h",
+      "extensions": [
+        "+$8.33 delivery",
+        "Located in United States"
+      ],
+      "price": "$8.20",
+      "extracted_price": 8.2,
+      "shipping": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/iQEAAeSw3E1q3g2w/s-l140.webp"
+    },
+    {
+      "position": 25,
+      "item_id": "267736661813",
+      "title": "Nike Air Force 1 Low '07 LV8 Carbon Fiber Swoosh IR5599-002 Men's Size New",
+      "subtitle": "US M 9 + more · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/267736661813",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$109.79",
+      "extracted_price": 109.79,
+      "original_price": "$121.99",
+      "extracted_original_price": 121.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/z0UAAeSwycZqXo3R/s-l140.webp"
+    },
+    {
+      "position": 26,
+      "item_id": "168631195019",
+      "title": "Nike Air Force 1 '07 Triple White CW2288-111 Men's Sizes NEW",
+      "subtitle": "US M 10 + more · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/168631195019",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 24,
+      "reviews_link": "https://www.ebay.com/p/4060761739?iid=168631195019&var=467998422115#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/M6gAAeSwu7ZqiJLZ/s-l140.webp"
+    },
+    {
+      "position": 27,
+      "item_id": "227471735404",
+      "title": "*NEW* MEN NIKE Air Force 1 '07 Low WHITE / FIR GREEN (FJ4146 132) 👍",
+      "subtitle": "US M 9 + more · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/227471735404",
+      "condition": "Brand New",
+      "tag": "NEW LOW PRICE",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$105.48",
+      "extracted_price": 105.48,
+      "original_price": "$112.21",
+      "extracted_original_price": 112.21,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/BeAAAeSwvgtqe0V8/s-l140.webp"
+    },
+    {
+      "position": 28,
+      "item_id": "257674762933",
+      "title": "Nike Air Force 1 '07 White Game Royal Blue FJ4146-126 Men's Sizes NEW",
+      "subtitle": "US M 10 + more · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/257674762933",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$104.50",
+      "extracted_price": 104.5,
+      "original_price": "$110.00",
+      "extracted_original_price": 110.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/3poAAeSwSG9qfMwX/s-l140.webp"
+    },
+    {
+      "position": 29,
+      "item_id": "168564955353",
+      "title": "SIZE 5 YOUTH- NIKE AIR FORCE 1 (GS) CT3839-008",
+      "subtitle": "US Kids 5 · Nike",
+      "link": "https://www.ebay.com/itm/168564955353",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$62.97",
+      "extracted_price": 62.97,
+      "original_price": "$89.95",
+      "extracted_original_price": 89.95,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/PlsAAeSw1vZqZifu/s-l140.webp"
+    },
+    {
+      "position": 30,
+      "item_id": "407225163776",
+      "title": "Men's Air Force 1 Low Top Triple White Classic Sneaker Sport US Size 7-13 New",
+      "subtitle": "US M 7.5 + more · Air force",
+      "link": "https://www.ebay.com/itm/407225163776",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "48+ watchers"
+      ],
+      "price": "$49.99",
+      "extracted_price": 49.99,
+      "shipping": "+$10.00 delivery",
+      "extracted_shipping": 10.0,
+      "thumbnail": "https://i.ebayimg.com/images/g/GnkAAeSwGClqrEpR/s-l140.webp"
+    },
+    {
+      "position": 31,
+      "item_id": "287655863133",
+      "title": "Size 9.5 - Nike Air Force 1 Low '07 White (NO BOX) 315122-111",
+      "subtitle": "US M 9.5 · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/287655863133",
+      "condition": "New (Other)",
+      "rating": 5.0,
+      "reviews": 4,
+      "reviews_link": "https://www.ebay.com/p/15061626162?iid=287655863133#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Last one"
+      ],
+      "price": "$44.73",
+      "extracted_price": 44.73,
+      "shipping": "+$14.20 delivery",
+      "extracted_shipping": 14.2,
+      "thumbnail": "https://i.ebayimg.com/images/g/mh8AAeSw9spq1Jug/s-l140.webp"
+    },
+    {
+      "position": 32,
+      "item_id": "820003688213",
+      "title": "Nike Air Force 1 '07 Low Triple White- sizes available in mens",
+      "subtitle": "US W 10 + more · Nike",
+      "link": "https://www.ebay.com/itm/820003688213",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$80.00",
+      "extracted_price": 80.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/UoQAAeSwp49qf83H/s-l140.webp"
+    },
+    {
+      "position": 33,
+      "item_id": "188115732652",
+      "title": "NEW Nike Air Force 1 '07 Men's Multi Size White/Black CT2302 100 (Box No Lid)",
+      "subtitle": "US M 11 + more · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/188115732652",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 7,
+      "reviews_link": "https://www.ebay.com/p/14060759471?iid=188115732652&var=695748436095#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$84.99",
+      "extracted_price": 84.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "deal": "$79.99 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/8soAAeSwm1lppqbM/s-l140.webp"
+    },
+    {
+      "position": 34,
+      "item_id": "800841587072",
+      "title": "Size 13 - Nike Air Force 1 '07 LV8 Winterized - Phantom",
+      "subtitle": "US M 13 · Nike",
+      "link": "https://www.ebay.com/itm/800841587072",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$45.00",
+      "extracted_price": 45.0,
+      "shipping": "+$13.12 delivery",
+      "extracted_shipping": 13.12,
+      "thumbnail": "https://i.ebayimg.com/images/g/BfYAAeSwFppq3518/s-l140.webp"
+    },
+    {
+      "position": 35,
+      "item_id": "137857372239",
+      "title": "Nike Air Force 1'07 Men's Sneakers Black Safety Orange JA1013*010",
+      "subtitle": "US M 9 + more · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/137857372239",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$135.99",
+      "extracted_price": 135.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/1RgAAeSw~EFq1jtc/s-l140.webp"
+    },
+    {
+      "position": 36,
+      "item_id": "366616623945",
+      "title": "Nike Air Force 1 Low '07 \"White\" Triple White Men's Size CW2288-111 Ship Now",
+      "subtitle": "US M 10 + more · Nike",
+      "link": "https://www.ebay.com/itm/366616623945",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 24,
+      "reviews_link": "https://www.ebay.com/p/4060761739?iid=366616623945&var=636287978371#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$84.88",
+      "extracted_price": 84.88,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "deal": "$72.15 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/59wAAeSwvDhqhgTJ/s-l140.webp"
+    },
+    {
+      "position": 37,
+      "item_id": "960075808314",
+      "title": "Nike Air Force 1 '07 LV8 Sail Night Maroon DQ7659-102 Men's Sizes NEW",
+      "subtitle": "US M 9 + more · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/960075808314",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$104.88",
+      "extracted_price": 104.88,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/QTUAAeSw88tq0mQj/s-l140.webp"
+    },
+    {
+      "position": 38,
+      "item_id": "366762722715",
+      "title": "Size 7.5 (Size 9- W)- Nike Air Force 1 New York Liberty Low Mint Mint White",
+      "subtitle": "US M 7.5 · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/366762722715",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$205.00",
+      "extracted_price": 205.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/dVgAAeSwZe5q34gy/s-l140.webp"
+    },
+    {
+      "position": 39,
+      "item_id": "318357675291",
+      "title": "Men's Air Force 1 '07 Low Triple Black/White/Brown Classic Sneakers US Size 7-12",
+      "subtitle": "US M 7 + more · Nike",
+      "link": "https://www.ebay.com/itm/318357675291",
+      "condition": "New (Other)",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "6+ sold"
+      ],
+      "price": "$39.99 to $59.99",
+      "extracted_price_range": {
+        "from": 39.99,
+        "to": 59.99
+      },
+      "is_price_range": true,
+      "shipping": "+$10.00 delivery",
+      "extracted_shipping": 10.0,
+      "thumbnail": "https://i.ebayimg.com/images/g/BdQAAeSwBtJqFBCH/s-l140.webp"
+    },
+    {
+      "position": 40,
+      "item_id": "800841828191",
+      "title": "Nike Air Force 1 Men's Low Top Lace-Up Sneakers Black US 9.5 New w/ Box",
+      "subtitle": "US M 9.5 · Nike",
+      "link": "https://www.ebay.com/itm/800841828191",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$180.99",
+      "extracted_price": 180.99,
+      "shipping": "+$9.66 delivery",
+      "extracted_shipping": 9.66,
+      "thumbnail": "https://i.ebayimg.com/images/g/l-0AAeSwbNtq37iE/s-l140.webp"
+    },
+    {
+      "position": 41,
+      "item_id": "226730327902",
+      "title": "*NEW* MEN Nike Air Force 1 '07 Low WHITE / GUM LIGHT BROWN (DJ2739 100) 👍",
+      "subtitle": "US M 9.5 + more · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/226730327902",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 4,
+      "reviews_link": "https://www.ebay.com/p/2316681825?iid=226730327902&var=525898007157#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$94.21",
+      "extracted_price": 94.21,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/pkoAAOSwcuJoGQYV/s-l140.webp"
+    },
+    {
+      "position": 42,
+      "item_id": "336826480346",
+      "title": "Nike Air Force 1 Low '07 \"White\" Triple White Men's Shoes CW2288-111 Ship Now",
+      "subtitle": "US M 10 + more · Nike",
+      "link": "https://www.ebay.com/itm/336826480346",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 24,
+      "reviews_link": "https://www.ebay.com/p/4060761739?iid=336826480346&var=546146216301#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$84.88",
+      "extracted_price": 84.88,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/ZuUAAeSwQi1qy861/s-l140.webp"
+    },
+    {
+      "position": 43,
+      "item_id": "137448828731",
+      "title": "Nike Air Force 1 Low '07 LV8 Men's Black Cool Grey AF1 Sneakers IW3476-001",
+      "subtitle": "US M 10 + more · Nike",
+      "link": "https://www.ebay.com/itm/137448828731",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$150.99",
+      "extracted_price": 150.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/JJoAAeSwlv5qO9QA/s-l140.webp"
+    },
+    {
+      "position": 44,
+      "item_id": "237145669066",
+      "title": "Size 8 - Nike Air Force 1 '07 LV8 Black Dark Smoke",
+      "subtitle": "US M 11.5 · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/237145669066",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$99.99",
+      "extracted_price": 99.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/7KsAAeSwITNq36~z/s-l140.webp"
+    },
+    {
+      "position": 45,
+      "item_id": "168810170567",
+      "title": "Nike Air Force 1 '07 LV8 Vast Grey White Gum IR0951-001 Men's Sizes NEW",
+      "subtitle": "US M 10 + more · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/168810170567",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "original_price": "$130.00",
+      "extracted_original_price": 130.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/LysAAeSwmnlq2khw/s-l140.webp"
+    },
+    {
+      "position": 46,
+      "item_id": "398329102421",
+      "title": "Nike Air Force 1 \"Triple White\" Low Top Classic Sneakers",
+      "subtitle": "US M 10 + more · Nike",
+      "link": "https://www.ebay.com/itm/398329102421",
+      "condition": "New (Other)",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "10+ sold"
+      ],
+      "price": "$69.98",
+      "extracted_price": 69.98,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/9pUAAeSwnp1qi-jP/s-l140.webp"
+    },
+    {
+      "position": 47,
+      "item_id": "237082708401",
+      "title": "Nike Air Force 1 Low '07 White",
+      "subtitle": "US M 10 + more · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/237082708401",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 88,
+      "reviews_link": "https://www.ebay.com/p/21039806768?iid=237082708401&var=537482202298#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$84.99",
+      "extracted_price": 84.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/38EAAeSwdo1qscV3/s-l140.webp"
+    },
+    {
+      "position": 48,
+      "item_id": "407255218696",
+      "title": "Nike Air Force 1 Low ‘07 ALL BLACK 100% Authentic Guaranteed CW2288-001",
+      "subtitle": "US M 10 + more · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/407255218696",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 3,
+      "reviews_link": "https://www.ebay.com/p/28045635880?iid=407255218696&var=677432635916#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$84.98",
+      "extracted_price": 84.98,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/1U8AAeSwNxRqzlx8/s-l140.webp"
+    },
+    {
+      "position": 49,
+      "item_id": "287681756191",
+      "title": "RARE 2007 Nike Air Force 1 Low Premium China Tweed 315180-222 Size 7 US Mens",
+      "subtitle": "US M 7 · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/287681756191",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$250.00",
+      "extracted_price": 250.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/XvAAAeSw991q335K/s-l140.webp"
+    },
+    {
+      "position": 50,
+      "item_id": "127912927002",
+      "title": "Nike Air Force 1 '07 WB Shoes Flax Wheat Gum Brown CJ9179-200 Men's Sizes NEW",
+      "subtitle": "US M 9 + more · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/127912927002",
+      "condition": "New (Other)",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$89.99",
+      "extracted_price": 89.99,
+      "original_price": "$99.99",
+      "extracted_original_price": 99.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "deal": "$85.49 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/nTMAAeSwQ3NqKHGk/s-l140.webp"
+    },
+    {
+      "position": 51,
+      "item_id": "147630536318",
+      "title": "Nike Air Force 1 07 Low Triple Black Men's Sneakers CW2288-001 Sz 8-11 BRAND NEW",
+      "subtitle": "US M 8 + more · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/147630536318",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 8,
+      "reviews_link": "https://www.ebay.com/p/3045640597?iid=147630536318&var=445872721957#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$89.99",
+      "extracted_price": 89.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/uGYAAeSwFoVqyywS/s-l140.webp"
+    },
+    {
+      "position": 52,
+      "item_id": "336858473785",
+      "title": "Nike Air Force 1 07 LV8 \"What The LA\" CT1117-100 Size 6 - 13 NEW",
+      "subtitle": "US M 9 + more · Nike · Nike Sportswear",
+      "link": "https://www.ebay.com/itm/336858473785",
+      "condition": "Brand New",
+      "tag": "GREAT PRICE",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$159.99",
+      "extracted_price": 159.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/DKoAAeSwxLFq2uYE/s-l140.webp"
+    },
+    {
+      "position": 53,
+      "item_id": "407287968886",
+      "title": "Nike Air Force 1 low Cargo Sequoia NIB IM5752 301 100% Authentic",
+      "subtitle": "US M 10 + more · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/407287968886",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$94.99",
+      "extracted_price": 94.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/ONoAAeSwhyZqznJ6/s-l140.webp"
+    },
+    {
+      "position": 54,
+      "item_id": "960097327930",
+      "title": "Nike Air Force 1 Low '07 LV8 Denim Desert Khaki IR0951-201 Men's Sizes New",
+      "subtitle": "US M 10 + more · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/960097327930",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "original_price": "$130.00",
+      "extracted_original_price": 130.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/SXIAAeSwy3xq2P0B/s-l140.webp"
+    },
+    {
+      "position": 55,
+      "item_id": "800841310361",
+      "title": "Size 13 - Billie Eilish x Nike Air Force 1 Low Sequoia",
+      "subtitle": "US M 13 · Nike",
+      "link": "https://www.ebay.com/itm/800841310361",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/xNAAAeSwUnhq34YC/s-l140.webp"
+    },
+    {
+      "position": 56,
+      "item_id": "128032945463",
+      "title": "Nike Air Force 1 Low 07 Carbon Fiber Swoosh Grey Men's Sports Sneaker IV5732-001",
+      "subtitle": "US M 9 + more · Nike · Air Force One",
+      "link": "https://www.ebay.com/itm/128032945463",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$113.04",
+      "extracted_price": 113.04,
+      "original_price": "$132.99",
+      "extracted_original_price": 132.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/FDsAAeSwvLhqfzmS/s-l140.webp"
+    },
+    {
+      "position": 57,
+      "item_id": "205603484525",
+      "title": "Nike Supreme x Air Force 1 Mid Box Logo - Triple White FZ8784-100 Men Size",
+      "subtitle": "US M 8.5 + more · Nike",
+      "link": "https://www.ebay.com/itm/205603484525",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$125.00 to $227.00",
+      "extracted_price_range": {
+        "from": 125.0,
+        "to": 227.0
+      },
+      "is_price_range": true,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/4FUAAeSwZxpq0Kp3/s-l140.webp"
+    },
+    {
+      "position": 58,
+      "item_id": "960097253567",
+      "title": "Nike Air Force 1 Retro Patent Denim Coastal Blue IM5757-400 Men's Sizes NEW",
+      "subtitle": "US M 10 + more · Nike · Nike Air Force",
+      "link": "https://www.ebay.com/itm/960097253567",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$104.88",
+      "extracted_price": 104.88,
+      "original_price": "$134.88",
+      "extracted_original_price": 134.88,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/eT8AAeSw8Mdq2PWV/s-l140.webp"
+    },
+    {
+      "position": 59,
+      "item_id": "800841841703",
+      "title": "Nike Air Force 1 Patent Leather Premium Black US 9.5 IV2857-010",
+      "subtitle": "US M 9.5 · Nike",
+      "link": "https://www.ebay.com/itm/800841841703",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$120.00",
+      "extracted_price": 120.0,
+      "shipping": "+$8.07 delivery",
+      "extracted_shipping": 8.07,
+      "thumbnail": "https://i.ebayimg.com/images/g/gdEAAeSw4bRq37p1/s-l140.webp"
+    },
+    {
+      "position": 60,
+      "item_id": "389947530890",
+      "title": "Men's Air Force 1 \"Triple White\" Low Top Classic Sneakers US Size 7-13",
+      "subtitle": "US M 7 + more · Air force",
+      "link": "https://www.ebay.com/itm/389947530890",
+      "condition": "New (Other)",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "18+ sold"
+      ],
+      "price": "$55.00",
+      "extracted_price": 55.0,
+      "shipping": "+$15.00 delivery",
+      "extracted_shipping": 15.0,
+      "thumbnail": "https://i.ebayimg.com/images/g/cEkAAeSwcCJp8HII/s-l140.webp"
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "nike air force 1 men",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+force+1+men&_sop=12"
+    },
+    {
+      "query": "nike air max",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+max&_sop=12"
+    },
+    {
+      "query": "nike air force 1 high",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+force+1+high&_sop=12"
+    },
+    {
+      "query": "nike air force 1 black",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+force+1+black&_sop=12"
+    },
+    {
+      "query": "nike air force 1 low",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+force+1+low&_sop=12"
+    },
+    {
+      "query": "nike shoes",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+shoes&_sop=12"
+    },
+    {
+      "query": "nike air force 1 women",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+force+1+women&_sop=12"
+    },
+    {
+      "query": "nike air force 1 white",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+force+1+white&_sop=12"
+    },
+    {
+      "query": "nike air force 1 low 07 white",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+force+1+low+07+white&_sop=12"
+    },
+    {
+      "query": "nike air max 90",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+max+90&_sop=12"
+    },
+    {
+      "query": "jordan",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=jordan&_sop=12"
+    },
+    {
+      "query": "nike air force 1 07 low triple black",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+force+1+07+low+triple+black&_sop=12"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&_dcat=15709&_pgn=2",
+    "other_pages": {
+      "2": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&_dcat=15709&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&_dcat=15709&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&_dcat=15709&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&_dcat=15709&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&_dcat=15709&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&_dcat=15709&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&_dcat=15709&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&_dcat=15709&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+force+1&_dcat=15709&_pgn=10&rt=nc"
+    }
+  }
+}

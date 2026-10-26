@@ -19,8 +19,7 @@
 
   <% if @live %>
     <form method="post" action="/search" class="live-search"
-          data-question="This spends up to N SearchApi credits. Continue?"
-          onsubmit="return confirm(this.dataset.question.replace('N', this.querySelectorAll('input[type=checkbox]:checked').length))">
+          onsubmit="const n = this.querySelectorAll('input[type=checkbox]:checked').length; return confirm(`This spends up to ${n} SearchApi credit${n === 1 ? '' : 's'}. Continue?`)">
       <input type="hidden" name="authenticity_token" value="<%= Rack::Protection::AuthenticityToken.token(session) %>">
       <input type="hidden" name="q" value="<%= @query %>">
       <input type="hidden" name="refresh" value="<%= @saved_engines.any? ? "1" : "0" %>">
