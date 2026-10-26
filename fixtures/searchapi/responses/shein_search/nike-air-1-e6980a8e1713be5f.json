@@ -1,0 +1,19 @@
+{
+  "search_metadata": {
+    "id": "search_8A9g6Ov07XHo3jKz34JlbW2m",
+    "status": "Success",
+    "created_at": "2026-10-26T20:29:04Z",
+    "request_time_taken": 74.47,
+    "parsing_time_taken": 0.03,
+    "total_time_taken": 74.51,
+    "request_url": "https://us.shein.com/pdsearch/nike%20air%201/?ici=s1`EditSearch`nike%20air%201`_fb`d0`PageHome&src_identifier=st=2`sc=nike%20air%201`sr=0`ps=1",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_8A9g6Ov07XHo3jKz34JlbW2m.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_8A9g6Ov07XHo3jKz34JlbW2m"
+  },
+  "search_parameters": {
+    "engine": "shein_search",
+    "q": "nike air 1",
+    "shein_domain": "us.shein.com"
+  },
+  "error": "Shein didn't return any results."
+}
