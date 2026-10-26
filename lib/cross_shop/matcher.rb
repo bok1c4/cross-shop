@@ -23,10 +23,16 @@ module CrossShop
 
     # Tokens of six or more characters mixing letters and digits, optionally
     # with one hyphen: JH5633, DD1391-100, BB550WT1, 162050C. Six keeps out
-    # sizes and model families such as "4XL" or "BB550".
+    # sizes and model families such as "4XL" or "BB550". The part before the
+    # hyphen must mix on its own, or a hyphen joins a number to a word:
+    # "2-Piece", "3-Pack" (bug 24 in LEARNINGS.md).
     def self.style_codes(title)
       tokens = title.upcase.scan(/[A-Z0-9]+(?:-[A-Z0-9]+)?/)
-      tokens.select { |token| token.length >= 6 && token.match?(/[A-Z]/) && token.match?(/\d/) }.uniq
+      tokens.select { |token| token.length >= 6 && letters_and_digits?(token.split("-").first) }.uniq
+    end
+
+    def self.letters_and_digits?(text)
+      text.match?(/[A-Z]/) && text.match?(/\d/)
     end
 
     def self.title_words(title)

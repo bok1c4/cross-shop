@@ -82,11 +82,12 @@ module CrossShop
       # The credit is reserved in the ledger before the call and released
       # once the call is recorded, so parallel calls cannot overshoot the cap.
       def fetch_and_store(engine, params)
-        unless @ledger.reserve(@credit_limit)
+        reservation = @ledger.reserve(@credit_limit)
+        unless reservation
           raise BudgetExceeded, "the ledger has reached the credit limit of #{@credit_limit}, counting calls in flight"
         end
 
-        notify(:credit_reserved, engine, used: @ledger.count, limit: @credit_limit)
+        notify(:credit_reserved, engine, used: reservation.recorded, in_flight: reservation.in_flight, limit: @credit_limit)
         begin
           body = fetch(engine, params)
         ensure

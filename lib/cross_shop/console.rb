@@ -13,7 +13,7 @@ module CrossShop
       when :run_started
         %(searching #{data[:engines].join(", ")} for "#{data[:query]}") + (data[:refresh] ? " (run again: every ticked store is fetched fresh)" : "")
       when :cache_hit then "already saved, no credit spent: #{short_path(data[:path])}"
-      when :credit_reserved then "reserved 1 credit (#{data[:used]} of #{data[:limit]} used before this call)"
+      when :credit_reserved then reserved(data)
       when :request_sent then "→ GET #{data[:url]} (API key sent in a header, not shown)"
       when :response_received then response(data)
       when :request_failed then "✗ #{data[:error]} after #{seconds(data[:duration_ms])}"
@@ -39,6 +39,13 @@ module CrossShop
       parts << data[:search_id] if data[:search_id]
       parts << %(SearchApi says: "#{data[:api_error]}") if data[:api_error]
       parts.join(" · ")
+    end
+
+    # Parallel calls are in flight together; without them the line would
+    # show every call as the next one (bug 25).
+    def self.reserved(data)
+      in_flight = data[:in_flight].to_i.positive? ? ", #{data[:in_flight]} more in flight" : ""
+      "reserved 1 credit (#{data[:used]} of #{data[:limit]} used before this call#{in_flight})"
     end
 
     def self.second_opinion(data)

@@ -43,6 +43,14 @@ class ConsoleTest < Minitest::Test
       line(:second_opinion, listings: 0, searchapi_said: "Shein didn't return any results.")
   end
 
+  # Bug 25: parallel calls each said "27 of 90 used before this call".
+  def test_a_reservation_mentions_calls_still_in_flight
+    assert_equal "20:29:04  shein_search  reserved 1 credit (27 of 90 used before this call)",
+      line(:credit_reserved, used: 27, in_flight: 0, limit: 90)
+    assert_equal "20:29:04  shein_search  reserved 1 credit (27 of 90 used before this call, 2 more in flight)",
+      line(:credit_reserved, used: 27, in_flight: 2, limit: 90)
+  end
+
   def test_failures_and_saves_read_plainly
     assert_equal "20:29:04  shein_search  ✗ CrossShop::SearchApi::ApiError: SearchApi returned 503 after 90.9 s",
       line(:request_failed, error: "CrossShop::SearchApi::ApiError: SearchApi returned 503", duration_ms: 90_876)

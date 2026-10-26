@@ -25,6 +25,22 @@ class LedgerTest < Minitest::Test
     assert_equal 2, CrossShop::SearchApi::Ledger.new(@path).count
   end
 
+  # The console's credit line reports this snapshot, taken in the same step
+  # as the reservation, so a call finishing in between cannot skew it (bug 25).
+  def test_a_reservation_reports_calls_recorded_and_already_in_flight
+    ledger = CrossShop::SearchApi::Ledger.new(@path)
+    2.times { ledger.record(engine: "ebay_search", status: 200) }
+
+    first = ledger.reserve(5)
+    second = ledger.reserve(5)
+
+    assert_equal [2, 0], [first.recorded, first.in_flight]
+    assert_equal [2, 1], [second.recorded, second.in_flight]
+    assert_nil ledger.reserve(4)
+  ensure
+    2.times { ledger.release }
+  end
+
   # Live searches fetch stores in parallel threads. Every record must stay a
   # whole line, or the count and the JSON both break.
   def test_records_from_parallel_threads_stay_whole_lines

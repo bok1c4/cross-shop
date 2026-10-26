@@ -230,6 +230,19 @@ class ClientTest < Minitest::Test
     refute_includes events.map { |event| event.data.inspect }.join, API_KEY
   end
 
+  # Bug 25: three parallel calls all printed "27 of 90 used before this
+  # call". Each reservation reports what was already committed when it was
+  # made: calls recorded, and calls still in flight.
+  def test_parallel_calls_report_the_calls_already_in_flight
+    events = Thread::Queue.new
+    client = observed_client(SlowTransport.new, events)
+
+    %w[a b c].map { |query| Thread.new { client.search("ebay_search", q: query) } }.each(&:join)
+
+    reserved = Array.new(events.size) { events.pop }.select { |event| event.kind == :credit_reserved }
+    assert_equal [[0, 0], [0, 1], [0, 2]], reserved.map { |event| event.data.values_at(:used, :in_flight) }.sort
+  end
+
   def test_a_cache_hit_reports_that_nothing_was_spent
     @cache.write("ebay_search", {q: "samba og"}, body)
     events = []

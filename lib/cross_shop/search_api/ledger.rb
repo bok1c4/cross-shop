@@ -19,16 +19,22 @@ module CrossShop
         @key = File.expand_path(path)
       end
 
+      # What was committed when a call was reserved, read under the lock.
+      Reservation = Data.define(:recorded, :in_flight)
+
       # Reserves one live call if calls recorded plus calls in flight stay
       # under the limit, in one step. Checking the count and then calling
       # let parallel callers all pass (reproduced by tests: 3 calls on 2
-      # credits). Release once the call has been recorded.
+      # credits). Returns a Reservation, or nil once the limit is reached.
+      # Release once the call has been recorded.
       def reserve(limit)
         LOCK.synchronize do
-          return false if count + RESERVATIONS[@key] >= limit
+          recorded = count
+          in_flight = RESERVATIONS[@key]
+          return if recorded + in_flight >= limit
 
           RESERVATIONS[@key] += 1
-          true
+          Reservation.new(recorded:, in_flight:)
         end
       end
 

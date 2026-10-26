@@ -22,6 +22,34 @@ class MatcherTest < Minitest::Test
     end
   end
 
+  # Bug 24: a hyphen joined a number to a word, and a fragrance set matched
+  # two suits through "2-PIECE". The part before the hyphen must mix letters
+  # and digits on its own, as real codes do. Titles from the cached responses.
+  def test_a_style_code_needs_a_letter_and_digit_head
+    {
+      "BOSS Bottled Beyond Eau de Parfum & Eau de Toilette for Men 2-Piece Gift Set ($37 Value)" => [],
+      "3-Pack Power Trunks" => [],
+      "Classic Adjustable Sling Bag, Durable, 600-Denier Water Resistant Hip Pack" => [],
+      "Women's Winter Warm Thicken Long Outwear Pockets Coat Parka Jacket XS-3XL" => [],
+      "Size 10.5-Nike Air Force 1 '07 LV8 Neutral Olive" => [],
+      "Nike Dunk Low Retro Panda White Black Sneakers DD1391-100, Size-10.5" => ["DD1391-100"],
+      # Possibly a real model number. The rule drops it too: the cost of a
+      # simple rule, accepted while it appears in one store only.
+      "Men's AG-LT23 Ultra Tennis Shoes" => []
+    }.each do |title, codes|
+      assert_equal codes, CrossShop::Matcher.style_codes(title), title
+    end
+  end
+
+  # The group a live "hugo boss" search showed: $35 against $65 is also too
+  # far apart for a title match, so nothing pairs them.
+  def test_a_fragrance_set_does_not_match_a_suit_through_2_piece
+    amazon = product("amazon", "A1", "BOSS Bottled Beyond Eau de Parfum & Eau de Toilette for Men 2-Piece Gift Set ($37 Value)", 35, brand: "hugo boss")
+    ebay = product("ebay", "E1", "Hugo Boss 2-Piece Slim Fit Gray Suit (Blazer & Pants) - Size 38S Nested", 65, brand: "hugo boss")
+
+    assert_empty CrossShop::Matcher.candidates([amazon, ebay])
+  end
+
   def test_shared_style_code_matches_across_stores_even_with_different_titles_and_prices
     amazon = product("amazon", "A1", "Samba OG Shoes JH5633", 100)
     ebay = product("ebay", "E1", "adidas Originals Samba OG Night Indigo Size 9 JH5633", 180)
