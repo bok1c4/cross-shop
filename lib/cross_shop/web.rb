@@ -4,6 +4,7 @@ require "sinatra/base"
 require "cross_shop/catalog"
 require "cross_shop/matcher"
 require "cross_shop/search_api"
+require "cross_shop/searchapi_health"
 
 module CrossShop
   # The demo site. It reads only cached SearchApi responses (through
@@ -49,6 +50,29 @@ module CrossShop
       @matched.sort_by! { |group| -group.size }
       @unmatched = singles.flatten.group_by(&:store)
       erb :search
+    end
+
+    get "/how" do
+      @live_calls = SearchApi.ledger.count
+      @bugs = File.foreach(File.join(PROJECT_ROOT, "LEARNINGS.md"), encoding: Encoding::UTF_8).count { |line| line.match?(/\A\d+\. \*\*/) }
+      erb :how
+    end
+
+    # Field health of every saved SearchApi response, computed on each load,
+    # and the agent fix log when there is one.
+    get "/health" do
+      cache = SearchApi.cache
+      queries = QuerySet.load.queries
+      @tables = SearchApiHealth::RULES.keys.to_h do |engine|
+        rows = queries.filter_map do |query|
+          raw = cache.read(engine, q: query)
+          [query, SearchApiHealth.check(engine, JSON.parse(raw))] if raw
+        end
+        [engine, rows]
+      end
+      log = File.join(PROJECT_ROOT, "data/agent_fix_log.jsonl")
+      @attempts = File.exist?(log) ? File.foreach(log, encoding: Encoding::UTF_8).map { |line| JSON.parse(line) } : []
+      erb :health
     end
 
     get "/notes" do

@@ -1,0 +1,52 @@
+<section class="intro">
+  <h1>Field health</h1>
+  <p>For every saved SearchApi response: how often each field is filled, and how often the value is plausible. Red cells fail the rule. A fill-rate check alone would call eBay's shipping field healthy.</p>
+</section>
+
+<% @tables.each do |engine, rows| %>
+  <h2><%= engine %></h2>
+  <% if rows.empty? %>
+    <p class="muted">No saved responses.</p>
+  <% else %>
+    <div class="group">
+      <table class="health">
+        <tr>
+          <td><strong>query</strong></td>
+          <% rows.first[1].each do |report| %><td><strong><%= report.field %></strong></td><% end %>
+        </tr>
+        <% rows.each do |query, reports| %>
+          <tr>
+            <td><a href="/search?q=<%= Rack::Utils.escape(query) %>"><%= query %></a></td>
+            <% reports.each do |report| %>
+              <td class="<%= report.passed ? "ok" : "bad" %>" title="<%= report.problem %>">
+                <%= report.filled %>/<%= report.total %> filled<% if report.valid != report.filled %>, <%= report.valid %> plausible<% end %>
+              </td>
+            <% end %>
+          </tr>
+        <% end %>
+      </table>
+    </div>
+  <% end %>
+<% end %>
+
+<h2>Agent fix attempts</h2>
+<% if @attempts.empty? %>
+  <p class="muted">No runs logged yet (bin/agent-fix).</p>
+<% else %>
+  <div class="group">
+    <table>
+      <tr><td><strong>scenario</strong></td><td><strong>attempt</strong></td><td><strong>result</strong></td><td><strong>time</strong></td><td><strong>turns</strong></td><td><strong>lines +/−</strong></td><td><strong>agent's summary</strong></td></tr>
+      <% @attempts.each do |entry| %>
+        <tr>
+          <td><%= entry["scenario"] %></td>
+          <td><%= entry["attempt"] || "—" %></td>
+          <td><span class="tier <%= entry["passed"] ? "style_code" : "title" %>"><%= entry["agent_error"] ? "agent error" : (entry["passed"] ? "passed" : "failed") %></span></td>
+          <td><%= entry["seconds"] ? "#{entry["seconds"]} s" : "—" %></td>
+          <td><%= entry["turns"] || "—" %></td>
+          <td><%= entry["lines_added"].to_i %>/<%= entry["lines_removed"].to_i %></td>
+          <td class="title"><%= entry["agent_summary"].to_s[0, 300] %></td>
+        </tr>
+      <% end %>
+    </table>
+  </div>
+<% end %>

@@ -1,0 +1,59 @@
+<section class="intro">
+  <h1>How it works</h1>
+  <p>Two halves: a customer using SearchApi for cross-store search, and an engineer parsing eBay directly to compare. Every step has a guardrail that fails loudly instead of relying on care.</p>
+</section>
+
+<section class="pipeline">
+  <div class="lane">
+    <h2>Customer side</h2>
+    <div class="step">
+      <h3>SearchApi client</h3>
+      <p>Cache first: a request on disk is never paid for again. Live calls only with <code>SEARCHAPI_LIVE=1</code>, never retried, and stopped at 90 by the <strong>Ledger</strong>.</p>
+      <p class="guard">Used so far: <%= @live_calls %> of 90 live calls.</p>
+    </div>
+    <div class="arrow">↓</div>
+    <div class="step">
+      <h3>Store converters → Product</h3>
+      <p>Amazon and eBay listings become one validated record. Bad data becomes a reject with a reason; a test checks that no listing disappears.</p>
+    </div>
+    <div class="arrow">↓</div>
+    <div class="step">
+      <h3>Matcher</h3>
+      <p>Same manufacturer style code, or same brand with similar title words and close prices. Each eBay listing joins only its best Amazon match, so groups cannot chain.</p>
+    </div>
+    <div class="arrow">↓</div>
+    <div class="step">
+      <h3>This site</h3>
+      <p>Reads only saved responses, so it cannot spend credits. Missing stores are shown as missing, never as “no results”. All listing text is escaped.</p>
+    </div>
+  </div>
+
+  <div class="lane">
+    <h2>Engineer side</h2>
+    <div class="step">
+      <h3>Own eBay parser</h3>
+      <p>eBay's rows have no meaningful class names, so rows are recognised by what they say, not where they sit. Output has SearchApi's shape, so everything downstream works on both.</p>
+    </div>
+    <div class="arrow">↓</div>
+    <div class="step">
+      <h3>Comparison and field health</h3>
+      <p>Paired by item ID against SearchApi. Each field is checked for how often it is filled <em>and</em> how often the value is plausible, against the page's own baseline.</p>
+    </div>
+    <div class="arrow">↓</div>
+    <div class="step">
+      <h3>Simulated layout changes</h3>
+      <p>Renamed classes, a new price format, renamed cards. Detection names the broken field; a change the parser does not depend on is ignored.</p>
+    </div>
+    <div class="arrow">↓</div>
+    <div class="step">
+      <h3>Agent fix loop</h3>
+      <p><code>claude -p</code> repairs the parser in its own git worktree. It may edit only the parser and run only its tests; the harness is the judge, with a held-out page no test reads.</p>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="stat"><span class="number"><%= @bugs %></span><span class="label">bugs and surprises logged, each with evidence</span></div>
+  <div class="stat"><span class="number"><a href="/health">Health</a></span><span class="label">field health of every saved response</span></div>
+  <div class="stat"><span class="number"><a href="/notes">Notes</a></span><span class="label">all findings and the bug log</span></div>
+</section>

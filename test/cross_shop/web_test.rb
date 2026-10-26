@@ -65,6 +65,22 @@ class WebTest < Minitest::Test
     assert_includes last_response.body, "&lt;script&gt;"
   end
 
+  def test_how_it_works_explains_the_pipeline
+    get "/how"
+
+    assert last_response.ok?
+    assert_includes last_response.body, "Ledger"
+    assert_includes last_response.body, "Matcher"
+  end
+
+  # Field health for every saved response, computed when the page loads.
+  def test_health_page_shows_the_ebay_shipping_problem
+    get "/health"
+
+    assert last_response.ok?
+    assert_match(/shipping.*plausible/m, last_response.body)
+  end
+
   def test_notes_render_the_learnings_file
     get "/notes"
 

@@ -1,0 +1,184 @@
+#!/usr/bin/env ruby
+# Phase 5b: the fix loop. For each simulated eBay layout change, an agent
+# (`claude -p`) is asked to repair the parser, and this script judges the
+# result. Usage: bin/agent-fix [scenario ...]  (default: every breaking one)
+#
+# Guardrails are structural, not instructions:
+# - each scenario runs in its own git worktree of HEAD (no .env inside), and
+#   the agent's environment has no SEARCHAPI_API_KEY;
+# - the agent may edit only lib/cross_shop/ebay_parser.rb and run only the
+#   parser test command;
+# - the judge is this script: tests and fixtures must be untouched, the parser
+#   tests must pass, and a held-out page no test reads must show no
+#   regressions against its baseline;
+# - at most 3 attempts per scenario, 15 minutes each.
+# Every attempt is appended to data/agent_fix_log.jsonl; final diffs go to
+# data/agent_fixes/.
+
+require "bundler/setup"
+$LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
+require "digest"
+require "fileutils"
+require "json"
+require "open3"
+require "rbconfig"
+require "time"
+require "tmpdir"
+require "cross_shop/breakages"
+
+ROOT = File.expand_path("..", __dir__)
+RUBY = RbConfig.ruby
+PARSER = "lib/cross_shop/ebay_parser.rb"
+TEST_COMMAND = "ruby -Ilib:test test/cross_shop/ebay_parser_test.rb"
+PAGES = %w[fixtures/ebay_html/adidas-samba-og.html fixtures/ebay_html/nike-dunk-low-panda.html].freeze
+HELD_OUT = "fixtures/ebay_html/nike-dunk-low-panda.html"
+MAX_ATTEMPTS = 3
+ATTEMPT_SECONDS = 900
+LOG = File.join(ROOT, "data/agent_fix_log.jsonl")
+
+PROMPT = <<~TEXT
+  You are fixing a web-scraping parser after the target site changed its markup.
+
+  This is a Ruby 3.4 project. #{PARSER} parses eBay search-result pages
+  into listing hashes. The saved pages in fixtures/ebay_html/ were just
+  re-captured and eBay's markup has changed, so the parser tests now fail:
+
+  %<failures>s
+
+  Rules:
+  - Change only #{PARSER}. Do not edit tests or fixtures: they are the judge.
+  - Keep recognising rows by what they say, not by their position.
+  - Run the tests with exactly: #{TEST_COMMAND}
+  - Stop when they pass. Then reply in one short paragraph: what changed in
+    the markup, and what you changed in the parser.
+TEXT
+
+FEEDBACK = <<~TEXT
+  Your change did not pass the judge. Its findings:
+
+  %<failures>s
+
+  Fix #{PARSER} again under the same rules.
+TEXT
+
+def run_env(dir)
+  {"BUNDLE_GEMFILE" => File.join(dir, "Gemfile"), "RUBYOPT" => "-rbundler/setup",
+   "PATH" => "#{File.dirname(RUBY)}:#{ENV.fetch("PATH")}", "SEARCHAPI_API_KEY" => nil}
+end
+
+# Health of the held-out page, measured with the worktree's (possibly edited) parser.
+def held_out_health(dir)
+  script = 'require "json"; require "cross_shop/breakages"; h = CrossShop::Breakages.health(File.read(ARGV[0], encoding: "UTF-8")); ' \
+    "puts JSON.generate(listings: h.listings, reports: h.reports.map { |r| r.to_h.slice(:field, :total, :filled, :valid) })"
+  out, status = Open3.capture2e(run_env(dir), RUBY, "-Ilib", "-e", script, HELD_OUT, chdir: dir)
+  return nil unless status.success?
+
+  data = JSON.parse(out.lines.last, symbolize_names: true)
+  reports = data[:reports].map { |r| CrossShop::FieldHealth::Report.new(**r, passed: true, problem: nil) }
+  CrossShop::Breakages::Health.new(listings: data[:listings], reports:)
+end
+
+def judge(dir, fixture_digests, held_out_baseline)
+  findings = []
+  changed = `git -C #{dir} status --porcelain`.lines.map { |line| line[3..].strip }
+  outside = changed - [PARSER] - PAGES
+  findings << "Files changed outside #{PARSER}: #{outside.join(", ")}" unless outside.empty?
+  PAGES.each do |page|
+    findings << "Fixture #{page} was modified" unless Digest::SHA256.file(File.join(dir, page)).hexdigest == fixture_digests.fetch(page)
+  end
+
+  test_output, status = Open3.capture2e(run_env(dir), RUBY, "-Ilib:test", "test/cross_shop/ebay_parser_test.rb", chdir: dir)
+  findings << "Parser tests failed:\n#{test_output.lines.last(40).join}" unless status.success?
+
+  current = held_out_health(dir)
+  if current.nil?
+    findings << "The held-out page could not be parsed at all."
+  else
+    regressions = CrossShop::Breakages.regressions(held_out_baseline, current)
+    findings << "Held-out page regressions: #{regressions.map(&:to_h).inspect}" unless regressions.empty?
+  end
+  findings
+end
+
+def ask_agent(dir, prompt, session_id)
+  args = ["claude", "-p", prompt, "--output-format", "json",
+    "--allowedTools", "Read", "Grep", "Glob", "Edit(#{PARSER})", "Bash(#{TEST_COMMAND})"]
+  args += ["--resume", session_id] if session_id
+  out = +""
+  Open3.popen2e(run_env(dir), *args, chdir: dir) do |_stdin, output, wait|
+    reader = Thread.new { out << output.read }
+    unless wait.join(ATTEMPT_SECONDS)
+      Process.kill("TERM", wait.pid)
+      reader.join(5)
+      return {"is_error" => true, "result" => "timed out after #{ATTEMPT_SECONDS}s"}
+    end
+    reader.join
+  end
+  JSON.parse(out.lines.last.to_s)
+rescue JSON::ParserError
+  {"is_error" => true, "result" => "unreadable output: #{out[-300..] || out}"}
+end
+
+def record(entry)
+  FileUtils.mkdir_p(File.dirname(LOG))
+  File.open(LOG, "a") { |file| file.puts(JSON.generate(entry)) }
+end
+
+wanted = ARGV.empty? ? CrossShop::Breakages::ALL.keys - ["price_class_renamed"] : ARGV
+held_out_baseline = CrossShop::Breakages.health(File.read(File.join(ROOT, HELD_OUT), encoding: Encoding::UTF_8))
+
+wanted.each do |name|
+  scenario = CrossShop::Breakages::ALL.fetch(name)
+  dir = File.join(Dir.tmpdir, "agent-fix-#{name}-#{Time.now.to_i}")
+  system("git", "-C", ROOT, "worktree", "add", "--detach", "--quiet", dir, "HEAD", exception: true)
+  # The agent's shell loads mise, which ignores config files it has not been
+  # told to trust; untrusted, `ruby` would be the system's Ruby 2.6.
+  system("mise", "trust", "--quiet", File.join(dir, "mise.toml"))
+  begin
+    digests = PAGES.to_h do |page|
+      path = File.join(dir, page)
+      File.write(path, scenario.apply.call(File.read(path, encoding: Encoding::UTF_8)))
+      [page, Digest::SHA256.file(path).hexdigest]
+    end
+
+    findings = judge(dir, digests, held_out_baseline)
+    if findings.empty?
+      puts "#{name}: the parser already copes; nothing to fix"
+      next
+    end
+
+    puts "#{name}: #{scenario.description}"
+    session_id = nil
+    MAX_ATTEMPTS.times do |index|
+      prompt = format(index.zero? ? PROMPT : FEEDBACK, failures: findings.join("\n\n")[0, 6000])
+      started = Time.now
+      reply = ask_agent(dir, prompt, session_id)
+      # An agent that never ran has not failed a fix: record it as an error
+      # and stop, instead of logging it as an attempt (the first run counted
+      # an expired login as three failed attempts).
+      if reply["is_error"]
+        record(at: Time.now.utc.iso8601, scenario: name, attempt: nil, agent_error: true, agent_summary: reply["result"].to_s[0, 300])
+        abort "#{name}: the agent did not run: #{reply["result"]}"
+      end
+      session_id ||= reply["session_id"]
+      findings = judge(dir, digests, held_out_baseline)
+      passed = findings.empty?
+      numstat = `git -C #{dir} diff --numstat -- #{PARSER}`.split
+      record(
+        at: Time.now.utc.iso8601, scenario: name, attempt: index + 1, passed:,
+        seconds: (Time.now - started).round, agent_error: reply["is_error"], turns: reply["num_turns"],
+        cost_usd: reply["total_cost_usd"], lines_added: numstat[0].to_i, lines_removed: numstat[1].to_i,
+        judge_findings: findings.map { |finding| finding[0, 400] }, agent_summary: reply["result"].to_s[0, 800]
+      )
+      puts "  attempt #{index + 1}: #{passed ? "PASSED" : "failed"} (#{(Time.now - started).round}s, turns #{reply["num_turns"].inspect})"
+      next unless passed
+
+      FileUtils.mkdir_p(File.join(ROOT, "data/agent_fixes"))
+      File.write(File.join(ROOT, "data/agent_fixes/#{name}.diff"), `git -C #{dir} diff -- #{PARSER}`)
+      break
+    end
+  ensure
+    system("mise", "trust", "--untrust", "--quiet", File.join(dir, "mise.toml"))
+    system("git", "-C", ROOT, "worktree", "remove", "--force", dir)
+  end
+end

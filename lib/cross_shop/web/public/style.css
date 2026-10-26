@@ -153,6 +153,18 @@ details.unmatched table { border-top: 1px solid var(--border); }
 ul.rejects { padding-left: 18px; }
 ul.rejects li { margin-bottom: 4px; }
 
+.pipeline { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; margin-top: 8px; }
+.lane h2 { margin-top: 8px; }
+.step { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 12px 16px; }
+.step h3 { margin: 0 0 6px; font-size: 15px; }
+.step p { margin: 0 0 6px; color: var(--muted); font-size: 14px; }
+.step p.guard { color: var(--good); font-weight: 600; }
+.arrow { text-align: center; color: var(--muted); font-size: 18px; line-height: 1; padding: 6px 0; }
+
+table.health td { white-space: nowrap; }
+td.ok { color: var(--good); }
+td.bad { color: var(--warn); background: var(--warn-bg); font-weight: 600; }
+
 .prose { max-width: 760px; }
 .prose h1 { margin-top: 8px; }
 .prose h2 { margin-top: 36px; padding-top: 12px; border-top: 1px solid var(--border); }
