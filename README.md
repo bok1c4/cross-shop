@@ -1,10 +1,28 @@
 # cross-shop
 
+[![tests](https://github.com/bok1c4/cross-shop/actions/workflows/test.yml/badge.svg)](https://github.com/bok1c4/cross-shop/actions/workflows/test.yml)
+
 A small cross-store product search over Amazon and eBay through [SearchApi](https://www.searchapi.io), plus my own eBay parser to compare against theirs. Built on 26 October 2026 to understand SearchApi's e-commerce engines from both sides: as a customer, and as the engineer who keeps them working. It is the core of a product aggregator I once planned to build.
+
+## Demo
+
+![The site's live console during a real search of Amazon, eBay and Shein](docs/console.gif)
+
+A real search for "nike air max 90" (26 October 2026, 22:23 UTC), as the site's live console showed it. Every line is a step the code took, with SearchApi's own timings; the API key travels in a header and is never shown. Amazon answered in 3.3 s and eBay in 4.4 s; Shein got SearchApi's 503 after 90.9 s. The GIF is shortened: no frame stays on screen longer than 2 s, and the clock at the start of each line shows the real wait.
+
+![Nine listings matched across Amazon, eBay and Shein by one style code](docs/matched.png)
+
+Nine listings for "adidas samba og" grouped by the style code B75806: an Amazon listing as the anchor, six from eBay, and two from Shein, read by cross-shop from the page SearchApi saved after answering "no results".
+
+![Field health of SearchApi's eBay results: shipping is filled everywhere but not always plausible](docs/health.png)
+
+SearchApi's eBay `shipping` is filled on every listing, but on 53 of 480 it holds "Buy It Now", "or Best Offer" or a location instead. A fill-rate check would call it healthy.
+
+The images come from the local site: `bin/screenshots` (stills, and the console recording) and `bin/frames-to-gif`.
 
 ## What it does
 
-- **Fetches** 8 fashion queries from `amazon_search` and `ebay_search` through a cache-first client. A request is never paid for twice, nothing is sent without an explicit live flag, and calls stop at a credit cap. (Shein was tried 9 times over three hours: SearchApi answered "no results" twice, for pages that contained 20 products each, and failed with a 503 after about 90 s six times; once my client gave up first. Meanwhile status.searchapi.io, which has no per-engine status, said all systems were operational. The site reads the two pages SearchApi saved itself, so 40 Shein listings appear, marked as read by cross-shop.)
+- **Fetches** 8 fashion queries from `amazon_search` and `ebay_search` through a cache-first client. A request is never paid for twice, nothing is sent without an explicit live flag, and calls stop at a credit cap. (Shein was tried 10 times over four hours: SearchApi answered "no results" twice, for pages that contained 20 products each, and failed with a 503 after about 90 s seven times; once my client gave up first. Meanwhile status.searchapi.io, which has no per-engine status, said all systems were operational. The site reads the two pages SearchApi saved itself, so 40 Shein listings appear, marked as read by cross-shop.)
 - **Normalises** every listing into one validated product record and **groups** the same product across stores: by manufacturer style code, or by brand, title words and price.
 - **Parses eBay directly** and compares it with SearchApi's output, field by field.
 - **Checks field health** (how often a field is filled, and how often its value is plausible), **simulates eBay layout changes**, and lets an agent (`claude -p`) repair the parser, with the tests as the judge.
@@ -23,7 +41,7 @@ eBay hides "Sponsored" from text scrapers. The label is an SVG image whose text 
 
 ## Questions for SearchApi
 
-1. **Should a parser miss be billed?** Measured with your Account API: failed searches are not billed, but both Shein "no results" answers were, although the pages you fetched contained the products. And do you track health per engine? Shein failed for me 7 times in 9 (six of them your 503, each after 90.4–90.9 s) while the status page, which shows the API as a whole, was green. (A side note for Ruby customers: `Net::HTTP` silently resends a GET once after a read timeout, measured as 2 requests for 1 call.)
+1. **Should a parser miss be billed?** Measured with your Account API: failed searches are not billed, but both Shein "no results" answers were, although the pages you fetched contained the products. And do you track health per engine? Shein failed for me 8 times in 10 (seven of them your 503, each after 90.4–90.9 s) while the status page, which shows the API as a whole, was green. (A side note for Ruby customers: `Net::HTTP` silently resends a GET once after a read timeout, measured as 2 requests for 1 call.)
 2. **How do you catch output that is wrong but looks valid?** eBay's shipping field is filled but sometimes holds "Buy It Now". And for Shein, both "no results" answers I got came from pages that contained the products: the HTML you saved (`html_url`) has 20 listings in its embedded product JSON for each: 19 Adidas Sambas for "adidas samba og", and 20 Nike Air Force 1 / Air Jordan 1 for "nike air 1". Do you compare "no results" against the fetched page, or run plausibility checks beside fill rates, with baselines per query?
 3. **How do your customers match products across stores without GTINs?** Is there demand for variant-level data, or for a product-detail call that returns GTIN or MPN?
 

@@ -28,3 +28,8 @@
 {"at":"2026-10-26T21:36:51Z","engine":"amazon_search","params":{"q":"hugo boss"},"status":200,"search_id":"search_mOgBEZe50gHpAJ7GJkzwL3jW","error":null,"api_error":null,"duration_ms":6323}
 {"at":"2026-10-26T21:36:55Z","engine":"ebay_search","params":{"q":"hugo boss"},"status":200,"search_id":"search_1r3VbxvXpgtpLjDQ0vB26gOP","error":null,"api_error":null,"duration_ms":10523}
 {"at":"2026-10-26T21:38:15Z","engine":"shein_search","params":{"q":"hugo boss"},"status":503,"search_id":null,"error":null,"api_error":"We could not retrieve results for this search. Please try again later.","duration_ms":90742}
+{"at":"2026-10-26T22:23:09Z","engine":"amazon_search","params":{"q":"nike air max 90"},"status":200,"search_id":"search_z9qLVyexP1TBExqRQeMEoPrY","error":null,"api_error":null,"duration_ms":3285}
+{"at":"2026-10-26T22:23:10Z","engine":"ebay_search","params":{"q":"nike air max 90"},"status":200,"search_id":"search_M92XEY4l2JF3B1jQzkQG3b0J","error":null,"api_error":null,"duration_ms":4429}
+{"at":"2026-10-26T22:23:15Z","engine":"amazon_search","params":{"q":"saphora"},"status":200,"search_id":"search_J70QVB41KphlamzLVkqLy9mx","error":null,"api_error":null,"duration_ms":2600}
+{"at":"2026-10-26T22:23:16Z","engine":"ebay_search","params":{"q":"saphora"},"status":200,"search_id":"search_WDz0ZKeWNOcWqymQZkQyABpo","error":null,"api_error":null,"duration_ms":3621}
+{"at":"2026-10-26T22:24:37Z","engine":"shein_search","params":{"q":"nike air max 90"},"status":503,"search_id":null,"error":null,"api_error":"We could not retrieve results for this search. Please try again later.","duration_ms":90903}

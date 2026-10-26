@@ -1,0 +1,51 @@
+#!/usr/bin/env python3
+"""Turns the console frames from bin/screenshots into docs/console.gif.
+
+Ruby has no maintained GIF encoder, so this step uses Pillow
+(python3 -m pip install pillow). A real three-store search takes about
+90 s, because SearchApi waits that long for Shein. Identical frames are
+merged and no frame stays on screen longer than MAX_HOLD, so the wait
+shrinks to a pause; the clock at the start of every console line still
+shows the real gap.
+"""
+
+import json
+from pathlib import Path
+
+from PIL import Image, ImageChops
+
+ROOT = Path(__file__).resolve().parent.parent
+FRAMES = ROOT / "tmp" / "console-frames"
+OUT = ROOT / "docs" / "console.gif"
+MAX_HOLD = 2.0  # seconds a frame may stay on screen
+LAST_HOLD = 6.0  # the finished console stays longer before the loop restarts
+COLORS = 64  # plenty for text, and keeps the file small
+
+
+def main():
+    timeline = json.loads((FRAMES / "timeline.json").read_text(encoding="utf-8"))
+    crop = timeline["crop"]
+    box = tuple(round(v) for v in (crop["x"], crop["y"], crop["x"] + crop["width"], crop["y"] + crop["height"]))
+
+    frames, times = [], []
+    for entry in timeline["frames"]:
+        image = Image.open(FRAMES / entry["file"]).convert("RGB")
+        # Past the frame's edge there is no page, only an empty strip.
+        image = image.crop((box[0], box[1], min(box[2], image.width), min(box[3], image.height)))
+        if frames and ImageChops.difference(image, frames[-1]).getbbox() is None:
+            continue  # nothing changed: the previous frame stays on screen
+        frames.append(image)
+        times.append(entry["at"])
+
+    holds = [min(later - earlier, MAX_HOLD) for earlier, later in zip(times, times[1:])] + [LAST_HOLD]
+    # One palette for every frame, taken from the last (it has every line),
+    # so colours do not flicker between frames.
+    palette = frames[-1].quantize(colors=COLORS, method=Image.Quantize.MEDIANCUT)
+    gif = [frame.quantize(palette=palette, dither=Image.Dither.NONE) for frame in frames]
+    gif[0].save(OUT, save_all=True, append_images=gif[1:], duration=[round(hold * 1000) for hold in holds], loop=0, optimize=True)
+
+    print(f"{OUT.relative_to(ROOT)}: {len(gif)} frames, {sum(holds):.1f} s for a {times[-1]:.0f} s run, {OUT.stat().st_size // 1024} KB")
+
+
+if __name__ == "__main__":
+    main()

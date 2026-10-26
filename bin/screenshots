@@ -1,0 +1,121 @@
+#!/usr/bin/env ruby
+# Demo images for the README, taken from the local site with headless Chrome
+# (Ferrum), so they can be taken again whenever the site changes.
+#
+#   bin/screenshots                        two stills from saved data (free)
+#   bin/screenshots console QUERY --spend  records a real search on the live
+#                                          site, frame by frame (one credit
+#                                          per store that answers)
+#
+# The stills read the site on port 4567 (bin/web). The recording needs the
+# live site on port 4568 (SEARCHAPI_LIVE=1 PORT=4568 bin/web); its frames go
+# to tmp/console-frames, and bin/frames-to-gif turns them into the GIF.
+
+require "bundler/setup"
+require "ferrum"
+require "fileutils"
+require "json"
+require "uri"
+
+ROOT = File.expand_path("..", __dir__)
+DOCS = File.join(ROOT, "docs")
+FRAMES = File.join(ROOT, "tmp/console-frames")
+CHROME = ENV.fetch("BROWSER_PATH") { Dir["/Applications/Google Chrome*.app/Contents/MacOS/*"].first }
+abort "Chrome not found; set BROWSER_PATH" if CHROME.nil?
+
+# Tall windows, so every box is measured and captured without scrolling.
+def open_browser(height)
+  Ferrum::Browser.new(headless: true, timeout: 30, browser_path: CHROME, window_size: [1000, height])
+end
+
+# The box around everything from the element `first` finds to the element
+# `last` finds (JavaScript expressions), padded and as wide as the page body.
+def box(page, first, last, pad: 16)
+  rect = page.evaluate(<<~JS)
+    (() => {
+      const top = (#{first}).getBoundingClientRect();
+      const bottom = (#{last}).getBoundingClientRect();
+      const main = document.querySelector("main").getBoundingClientRect();
+      return [main.x, top.y, main.width, bottom.bottom - top.y, window.innerWidth];
+    })()
+  JS
+  x, y, width, height, window_width = rect
+  left = [x - pad, 0].max
+  # Past the window's edge there is no page, only an empty strip.
+  {x: left, y: [y - pad, 0].max, width: [width + 2 * pad, window_width - left].min, height: height + 2 * pad}
+end
+
+HEADING = ->(text) { %([...document.querySelectorAll("h2")].find((h) => h.textContent.trim() === #{text.to_json})) }
+
+# Product thumbnails come from the stores' image servers; a screenshot taken
+# before they arrive shows blank squares.
+def wait_for_images(page, timeout: 15)
+  deadline = Process.clock_gettime(Process::CLOCK_MONOTONIC) + timeout
+  until page.evaluate("[...document.images].every((image) => image.complete && image.naturalWidth > 0)")
+    abort "images still loading after #{timeout} s" if Process.clock_gettime(Process::CLOCK_MONOTONIC) > deadline
+    sleep 0.2
+  end
+end
+
+def stills
+  FileUtils.mkdir_p(DOCS)
+  browser = open_browser(2400)
+  page = browser.page
+
+  page.go_to("http://127.0.0.1:4567/search?q=adidas+samba+og")
+  wait_for_images(page)
+  # The first group: every listing carries the same style code.
+  area = box(page, HEADING.call("Matched across stores"), %(document.querySelector("article.group")), pad: 12)
+  page.screenshot(path: File.join(DOCS, "matched.png"), area:, scale: 2)
+
+  page.go_to("http://127.0.0.1:4567/health")
+  area = box(page, HEADING.call("ebay_search"), "#{HEADING.call("ebay_search")}.nextElementSibling")
+  page.screenshot(path: File.join(DOCS, "health.png"), area:, scale: 2)
+
+  puts "saved docs/matched.png and docs/health.png"
+ensure
+  browser&.quit
+end
+
+def console(query)
+  FileUtils.rm_rf(FRAMES)
+  FileUtils.mkdir_p(FRAMES)
+  browser = open_browser(900)
+  page = browser.page
+  # The site asks "This spends up to N SearchApi credits. Continue?" first.
+  page.on(:dialog) { |dialog| dialog.accept }
+
+  page.go_to("http://127.0.0.1:4568/search?q=#{URI.encode_www_form_component(query)}")
+  abort "the site on port 4568 is not in live mode" unless page.at_css("form.live-search")
+  page.at_css("form.live-search button[type=submit]").click
+
+  started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+  sleep 0.1 until page.url.include?("/runs/") || Process.clock_gettime(Process::CLOCK_MONOTONIC) - started > 10
+  abort "no run started: #{page.url}" unless page.url.include?("/runs/")
+
+  frames = []
+  loop do
+    file = format("%04d.png", frames.size)
+    page.screenshot(path: File.join(FRAMES, file))
+    frames << {file:, at: (Process.clock_gettime(Process::CLOCK_MONOTONIC) - started).round(2)}
+    break if page.evaluate(%(!document.getElementById("finished").hidden))
+    abort "still running after 3 minutes" if frames.last[:at] > 180
+
+    sleep 0.5
+  end
+
+  crop = box(page, %(document.querySelector("main h1")), %(document.getElementById("finished")))
+  File.write(File.join(FRAMES, "timeline.json"), JSON.pretty_generate(query:, frames:, crop:))
+  puts "#{frames.size} frames over #{frames.last[:at]} s in tmp/console-frames; now run bin/frames-to-gif"
+ensure
+  browser&.quit
+end
+
+case ARGV[0]
+when nil then stills
+when "console"
+  query = ARGV[1] or abort "usage: bin/screenshots console QUERY --spend"
+  abort "a real search spends credits; add --spend to confirm" unless ARGV.include?("--spend")
+  console(query)
+else abort "usage: bin/screenshots [console QUERY --spend]"
+end

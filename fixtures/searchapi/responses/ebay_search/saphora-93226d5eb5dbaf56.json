@@ -1,0 +1,1764 @@
+{
+  "search_metadata": {
+    "id": "search_WDz0ZKeWNOcWqymQZkQyABpo",
+    "status": "Success",
+    "created_at": "2026-10-26T22:23:12Z",
+    "request_time_taken": 2.85,
+    "parsing_time_taken": 0.09,
+    "total_time_taken": 2.94,
+    "request_url": "https://www.ebay.com/sch/i.html?_nkw=saphora&_fcid=1",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_WDz0ZKeWNOcWqymQZkQyABpo.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_WDz0ZKeWNOcWqymQZkQyABpo"
+  },
+  "search_parameters": {
+    "engine": "ebay_search",
+    "q": "saphora",
+    "ebay_domain": "ebay.com",
+    "country": "US",
+    "delivery_country": "US"
+  },
+  "search_information": {
+    "query_displayed": "sephora",
+    "total_results": 11000,
+    "sorted_by": "Sort: Best Match",
+    "buying_format": "All",
+    "language": "en"
+  },
+  "categories": [
+    {
+      "name": "Health & Beauty",
+      "link": "https://www.ebay.com/sch/26395/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "26395"
+    },
+    {
+      "name": "Makeup",
+      "link": "https://www.ebay.com/sch/31786/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "31786",
+      "subcategories": [
+        {
+          "name": "Eyes",
+          "link": "https://www.ebay.com/sch/172020/i.html?_fcid=1&_nkw=saphora",
+          "category_id": "172020"
+        },
+        {
+          "name": "Makeup Tools & Accessories",
+          "link": "https://www.ebay.com/sch/36409/i.html?_fcid=1&_nkw=saphora",
+          "category_id": "36409"
+        },
+        {
+          "name": "Lips",
+          "link": "https://www.ebay.com/sch/172027/i.html?_fcid=1&_nkw=saphora",
+          "category_id": "172027"
+        },
+        {
+          "name": "Makeup Sets & Kits",
+          "link": "https://www.ebay.com/sch/107956/i.html?_fcid=1&_nkw=saphora",
+          "category_id": "107956"
+        },
+        {
+          "name": "Face",
+          "link": "https://www.ebay.com/sch/172025/i.html?_fcid=1&_nkw=saphora",
+          "category_id": "172025"
+        },
+        {
+          "name": "Makeup Mixed Lots",
+          "link": "https://www.ebay.com/sch/11985/i.html?_fcid=1&_nkw=saphora",
+          "category_id": "11985"
+        },
+        {
+          "name": "Makeup Bags & Cases",
+          "link": "https://www.ebay.com/sch/36413/i.html?_fcid=1&_nkw=saphora",
+          "category_id": "36413"
+        },
+        {
+          "name": "Body",
+          "link": "https://www.ebay.com/sch/172016/i.html?_fcid=1&_nkw=saphora",
+          "category_id": "172016"
+        }
+      ]
+    },
+    {
+      "name": "Clothing, Shoes & Accessories",
+      "link": "https://www.ebay.com/sch/11450/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "11450"
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "1"
+    },
+    {
+      "name": "Home & Garden",
+      "link": "https://www.ebay.com/sch/11700/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "11700"
+    },
+    {
+      "name": "Books & Magazines",
+      "link": "https://www.ebay.com/sch/267/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "267"
+    },
+    {
+      "name": "Jewelry & Watches",
+      "link": "https://www.ebay.com/sch/281/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "281"
+    },
+    {
+      "name": "Toys & Hobbies",
+      "link": "https://www.ebay.com/sch/220/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "220"
+    },
+    {
+      "name": "Art",
+      "link": "https://www.ebay.com/sch/550/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "550"
+    },
+    {
+      "name": "Sports Mem, Cards & Fan Shop",
+      "link": "https://www.ebay.com/sch/64482/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "64482"
+    },
+    {
+      "name": "Everything Else",
+      "link": "https://www.ebay.com/sch/99/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "99"
+    },
+    {
+      "name": "Crafts",
+      "link": "https://www.ebay.com/sch/14339/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "14339"
+    },
+    {
+      "name": "Gift Cards & Coupons",
+      "link": "https://www.ebay.com/sch/172008/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "172008"
+    },
+    {
+      "name": "Dolls & Bears",
+      "link": "https://www.ebay.com/sch/237/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "237"
+    },
+    {
+      "name": "Entertainment Memorabilia",
+      "link": "https://www.ebay.com/sch/45100/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "45100"
+    },
+    {
+      "name": "Sporting Goods",
+      "link": "https://www.ebay.com/sch/888/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "888"
+    },
+    {
+      "name": "Business & Industrial",
+      "link": "https://www.ebay.com/sch/12576/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "12576"
+    },
+    {
+      "name": "Computers/Tablets & Networking",
+      "link": "https://www.ebay.com/sch/58058/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "58058"
+    },
+    {
+      "name": "Travel",
+      "link": "https://www.ebay.com/sch/3252/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "3252"
+    },
+    {
+      "name": "Cell Phones & Accessories",
+      "link": "https://www.ebay.com/sch/15032/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "15032"
+    },
+    {
+      "name": "Video Games & Consoles",
+      "link": "https://www.ebay.com/sch/1249/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "1249"
+    },
+    {
+      "name": "eBay Motors",
+      "link": "https://www.ebay.com/sch/6000/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "6000"
+    },
+    {
+      "name": "Music",
+      "link": "https://www.ebay.com/sch/11233/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "11233"
+    },
+    {
+      "name": "Consumer Electronics",
+      "link": "https://www.ebay.com/sch/293/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "293"
+    },
+    {
+      "name": "Baby",
+      "link": "https://www.ebay.com/sch/2984/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "2984"
+    },
+    {
+      "name": "Musical Instruments & Gear",
+      "link": "https://www.ebay.com/sch/619/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "619"
+    },
+    {
+      "name": "Antiques",
+      "link": "https://www.ebay.com/sch/20081/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "20081"
+    },
+    {
+      "name": "Pet Supplies",
+      "link": "https://www.ebay.com/sch/1281/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "1281"
+    },
+    {
+      "name": "Stamps",
+      "link": "https://www.ebay.com/sch/260/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "260"
+    },
+    {
+      "name": "Pottery & Glass",
+      "link": "https://www.ebay.com/sch/870/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "870"
+    },
+    {
+      "name": "Coins & Paper Money",
+      "link": "https://www.ebay.com/sch/11116/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "11116"
+    },
+    {
+      "name": "Cameras & Photo",
+      "link": "https://www.ebay.com/sch/625/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "625"
+    },
+    {
+      "name": "Movies & TV",
+      "link": "https://www.ebay.com/sch/11232/i.html?_fcid=1&_nkw=saphora",
+      "category_id": "11232"
+    }
+  ],
+  "filters": [
+    {
+      "type": "Shipping and pickup",
+      "options": [
+        {
+          "text": "Arrives in 2-4 days",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&rt=nc&LH_FAST=1"
+        },
+        {
+          "text": "Free Shipping",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&rt=nc&LH_FS=1"
+        },
+        {
+          "text": "Local Pickup within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&rt=nc&_fspt=1&_sadis=25&LH_PrefLoc=99&_stpos=01001&LH_LPickup=1"
+        }
+      ]
+    },
+    {
+      "type": "Brand",
+      "options": [
+        {
+          "text": "Sephora (10,417) Items",
+          "items": 10417,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&Brand=Sephora&_dcat=31786"
+        },
+        {
+          "text": "Charlotte Tilbury (28) Items",
+          "items": 28,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&Brand=Charlotte%2520Tilbury&_dcat=31786"
+        },
+        {
+          "text": "Dior (20) Items",
+          "items": 20,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&Brand=Dior&_dcat=31786"
+        },
+        {
+          "text": "M·A·C (8) Items",
+          "items": 8,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&Brand=M%25C2%25B7A%25C2%25B7C&_dcat=31786"
+        },
+        {
+          "text": "Benefit (17) Items",
+          "items": 17,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&Brand=Benefit&_dcat=31786"
+        },
+        {
+          "text": "Unbranded (237) Items",
+          "items": 237,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&Brand=Unbranded&_dcat=31786"
+        },
+        {
+          "text": "NARS (104) Items",
+          "items": 104,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&Brand=NARS&_dcat=31786"
+        },
+        {
+          "text": "Clinique (24) Items",
+          "items": 24,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&Brand=Clinique&_dcat=31786"
+        }
+      ]
+    },
+    {
+      "type": "Size",
+      "options": [
+        {
+          "text": "Full Size (218) Items",
+          "items": 218,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&Size=Full%2520Size&_dcat=31786"
+        },
+        {
+          "text": "Sample Size (166) Items",
+          "items": 166,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&Size=Sample%2520Size&_dcat=31786"
+        },
+        {
+          "text": "Travel Size (166) Items",
+          "items": 166,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&Size=Travel%2520Size&_dcat=31786"
+        },
+        {
+          "text": "Bulk (36) Items",
+          "items": 36,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&Size=Bulk&_dcat=31786"
+        },
+        {
+          "text": "Not Specified (5,906) Items",
+          "items": 5906,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&Size=%21&_dcat=31786"
+        }
+      ]
+    },
+    {
+      "type": "Condition",
+      "options": [
+        {
+          "text": "New with box (6,813) Items",
+          "items": 6813,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&rt=nc&LH_ItemCondition=1000"
+        },
+        {
+          "text": "New without box (5,389) Items",
+          "items": 5389,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&rt=nc&LH_ItemCondition=1500"
+        }
+      ]
+    },
+    {
+      "type": "Buying Format",
+      "options": [
+        {
+          "text": "All Listings (12,512) Items",
+          "items": 12512,
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&rt=nc"
+        },
+        {
+          "text": "Auction (130) Items",
+          "items": 130,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&rt=nc&LH_Auction=1"
+        },
+        {
+          "text": "Buy It Now (12,407) Items",
+          "items": 12407,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&rt=nc&LH_BIN=1"
+        },
+        {
+          "text": "Accepts Offers (4,833) Items",
+          "items": 4833,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&rt=nc&LH_BO=1"
+        }
+      ]
+    },
+    {
+      "type": "Item Location",
+      "options": [
+        {
+          "text": "Default",
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&rt=nc&LH_PrefLoc=98"
+        },
+        {
+          "text": "Within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&_sadis=25&_stpos=01001&_fspt=1"
+        },
+        {
+          "text": "US Only",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&rt=nc&LH_PrefLoc=1"
+        },
+        {
+          "text": "North America",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&rt=nc&LH_PrefLoc=3"
+        },
+        {
+          "text": "Worldwide",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&rt=nc&LH_PrefLoc=2"
+        }
+      ]
+    },
+    {
+      "type": "Show only",
+      "options": [
+        {
+          "text": "Free Returns",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&rt=nc&LH_FR=1"
+        },
+        {
+          "text": "Returns Accepted",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&rt=nc&LH_RPA=1"
+        },
+        {
+          "text": "Authorized Seller",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&rt=nc&LH_AS=1"
+        },
+        {
+          "text": "Completed Items",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&rt=nc&LH_Complete=1"
+        },
+        {
+          "text": "Sold Items",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&rt=nc&LH_Sold=1"
+        },
+        {
+          "text": "Deals & Savings",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&rt=nc&LH_Savings=1"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "item_id": "377135616103",
+      "title": "Sephora Black Synthetic Makeup Brush Set 5pc with Quilted Zippered Case",
+      "link": "https://www.ebay.com/itm/377135616103",
+      "seller": {
+        "name": "unitedhousecollection",
+        "reviews": 18,
+        "positive_feedback_percent": 93.3
+      },
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$60.00",
+      "extracted_price": 60.0,
+      "shipping": "+$5.73 delivery",
+      "extracted_shipping": 5.73,
+      "thumbnail": "https://i.ebayimg.com/images/g/SS4AAeSwzANp6cod/s-l500.webp"
+    },
+    {
+      "position": 2,
+      "item_id": "237144366638",
+      "title": "Sephora Beauty Insider 10 Pc Sample Set Bag",
+      "link": "https://www.ebay.com/itm/237144366638",
+      "seller": {
+        "name": "janfou0",
+        "reviews": 3,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "tag": "New Listing",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$12.00",
+      "extracted_price": 12.0,
+      "shipping": "+$5.98 delivery",
+      "extracted_shipping": 5.98,
+      "thumbnail": "https://i.ebayimg.com/images/g/KUUAAeSwyhxq3sB4/s-l500.webp"
+    },
+    {
+      "position": 3,
+      "item_id": "940028350762",
+      "title": "Sephora Favorites Perfect Pout Lip Set 5-Piece Makeup Kit - NEW SEALED",
+      "link": "https://www.ebay.com/itm/940028350762",
+      "seller": {
+        "name": "renas_vintage_market",
+        "reviews": 1300,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$35.00",
+      "extracted_price": 35.0,
+      "shipping": "+$7.58 delivery",
+      "extracted_shipping": 7.58,
+      "thumbnail": "https://i.ebayimg.com/images/g/12cAAeSwk8Jq14yv/s-l140.webp"
+    },
+    {
+      "position": 4,
+      "item_id": "920073477029",
+      "title": "Sephora Collection Mini Travel Vegan Synthetic Makeup Brush Set w/ Pouch",
+      "link": "https://www.ebay.com/itm/920073477029",
+      "seller": {
+        "name": "chalu-66",
+        "reviews": 17,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$16.00",
+      "extracted_price": 16.0,
+      "shipping": "+$5.61 delivery",
+      "extracted_shipping": 5.61,
+      "thumbnail": "https://i.ebayimg.com/images/g/yLkAAeSwdz1q3hDg/s-l140.webp"
+    },
+    {
+      "position": 5,
+      "item_id": "327418415055",
+      "title": "Sephora Favorites Summer Showstoppers Beauty Kit, Free Shipping, New! (10 pcs)",
+      "link": "https://www.ebay.com/itm/327418415055",
+      "seller": {
+        "name": "shoppingaddict247",
+        "reviews": 1500,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$90.00",
+      "extracted_price": 90.0,
+      "shipping": "+$6.19 delivery",
+      "extracted_shipping": 6.19,
+      "thumbnail": "https://i.ebayimg.com/images/g/Av8AAeSwXihq2lNC/s-l140.webp"
+    },
+    {
+      "position": 6,
+      "item_id": "287676812601",
+      "title": "Assorted Sample Size Makeup Lot BISHA City Palette & Sephora Stretch",
+      "link": "https://www.ebay.com/itm/287676812601",
+      "seller": {
+        "name": "veljeanc0",
+        "reviews": 1,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "New without box",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$30.00",
+      "extracted_price": 30.0,
+      "shipping": "+$6.73 delivery",
+      "extracted_shipping": 6.73,
+      "thumbnail": "https://i.ebayimg.com/images/g/2KMAAeSwW-pq3V4U/s-l140.webp"
+    },
+    {
+      "position": 7,
+      "item_id": "840051476085",
+      "title": "Sephora 25-Days of Beauty Must Haves Advent Calendar 2026 In Hand SHIPS FAST",
+      "link": "https://www.ebay.com/itm/840051476085",
+      "seller": {
+        "name": "mrmprofess",
+        "reviews": 17,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$149.99",
+      "extracted_price": 149.99,
+      "shipping": "+$6.66 delivery",
+      "extracted_shipping": 6.66,
+      "thumbnail": "https://i.ebayimg.com/images/g/JUcAAeSw9tNq20nc/s-l140.webp"
+    },
+    {
+      "position": 8,
+      "item_id": "407303139863",
+      "title": "NIB 100% Authentic Sephora Favorites Holiday Must-Haves Value Set",
+      "link": "https://www.ebay.com/itm/407303139863",
+      "seller": {
+        "name": "batuk_17",
+        "reviews": 928,
+        "positive_feedback_percent": 99.9
+      },
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "5 watchers"
+      ],
+      "price": "$24.00",
+      "extracted_price": 24.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/HLcAAeSwXoRq1x7S/s-l140.webp"
+    },
+    {
+      "position": 9,
+      "item_id": "198739945367",
+      "title": "Sephora Collection Cream mirror",
+      "link": "https://www.ebay.com/itm/198739945367",
+      "seller": {
+        "name": "4gk9k2",
+        "reviews": 0,
+        "positive_feedback_percent": 0.0
+      },
+      "condition": "New: Other (See Details)",
+      "rating": 5.0,
+      "reviews": 4,
+      "reviews_link": "https://www.ebay.com/p/1365116111?iid=198739945367#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$50.00",
+      "extracted_price": 50.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/gEoAAeSw~l9q266b/s-l140.webp"
+    },
+    {
+      "position": 10,
+      "item_id": "206646092302",
+      "title": "Sephora Favorites Makeup Experts Kit 2026 13 Piece Set NEW SEALED",
+      "link": "https://www.ebay.com/itm/206646092302",
+      "seller": {
+        "name": "bjpawar",
+        "reviews": 788,
+        "positive_feedback_percent": 99.8
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "9 watchers"
+      ],
+      "price": "$79.99",
+      "extracted_price": 79.99,
+      "shipping": "Located in United States",
+      "deal": "+$6.63 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/fQgAAeSwfahq2jVh/s-l140.webp"
+    },
+    {
+      "position": 11,
+      "item_id": "327418447287",
+      "title": "Sephora Favorites Gleamy Dreamy Makeup Kit 10 Piece Set~Rare beauty, Prada, Saie",
+      "link": "https://www.ebay.com/itm/327418447287",
+      "seller": {
+        "name": "shoppingaddict247",
+        "reviews": 1500,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$99.00",
+      "extracted_price": 99.0,
+      "shipping": "+$6.19 delivery",
+      "extracted_shipping": 6.19,
+      "thumbnail": "https://i.ebayimg.com/images/g/YL4AAeSwb3xq2loE/s-l140.webp"
+    },
+    {
+      "position": 12,
+      "item_id": "287638463354",
+      "title": "Sephora Favorites Holiday Perfume Sampler Vault Set w/Certificate",
+      "link": "https://www.ebay.com/itm/287638463354",
+      "seller": {
+        "name": "glowgirl1",
+        "reviews": 522,
+        "positive_feedback_percent": 96.7
+      },
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Last one",
+        "18 watchers",
+        "10% off 2+ with coupon"
+      ],
+      "price": "$173.00",
+      "extracted_price": 173.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/thUAAeSwET5qyYRm/s-l140.webp"
+    },
+    {
+      "position": 13,
+      "item_id": "137874184089",
+      "title": "Sephora Favorites Perfume Sampler Set - New",
+      "link": "https://www.ebay.com/itm/137874184089",
+      "seller": {
+        "name": "piratequeen143",
+        "reviews": 7,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 2,
+      "reviews_link": "https://www.ebay.com/p/28050737472?iid=137874184089#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$128.00",
+      "extracted_price": 128.0,
+      "shipping": "+$5.72 delivery",
+      "extracted_shipping": 5.72,
+      "thumbnail": "https://i.ebayimg.com/images/g/Q2sAAeSw4xxq3iuq/s-l140.webp"
+    },
+    {
+      "position": 14,
+      "item_id": "407111549616",
+      "title": "SEPHORA COLLECTION PRO 10-Piece Professional Makeup Brush Set – Full Size",
+      "link": "https://www.ebay.com/itm/407111549616",
+      "seller": {
+        "name": "brushmastersempire",
+        "reviews": 1600,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$176.00",
+      "extracted_price": 176.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/5QwAAeSw6XlqbSnj/s-l140.webp"
+    },
+    {
+      "position": 15,
+      "item_id": "287651995473",
+      "title": "Advent Calendar SEPHORA FAVORITES 2026 Advent Calendar EU",
+      "link": "https://www.ebay.com/itm/287651995473",
+      "seller": {
+        "name": "robertshopping3",
+        "reviews": 10,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Import fees due prior to delivery",
+        "Located in Italy"
+      ],
+      "price": "$339.42",
+      "extracted_price": 339.42,
+      "shipping": "+$22.40 delivery",
+      "extracted_shipping": 22.4,
+      "thumbnail": "https://i.ebayimg.com/images/g/CucAAeSwmuxqqGjU/s-l140.webp"
+    },
+    {
+      "position": 16,
+      "item_id": "920016090946",
+      "title": "Sephora Beauty Mystery Box New Sealed Makeup Skincare Fragrance Liquidation Deal",
+      "link": "https://www.ebay.com/itm/920016090946",
+      "seller": {
+        "name": "southernking",
+        "reviews": 407,
+        "positive_feedback_percent": 98.1
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$199.99",
+      "extracted_price": 199.99,
+      "shipping": "+$9.99 delivery",
+      "extracted_shipping": 9.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/s9gAAeSwZ2hqxbXS/s-l140.webp"
+    },
+    {
+      "position": 17,
+      "item_id": "227577649189",
+      "title": "Sephora Favorite 2026 New 7 Piece Lip Kit",
+      "link": "https://www.ebay.com/itm/227577649189",
+      "seller": {
+        "name": "beautiful26",
+        "reviews": 261,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "New without box",
+      "buying_format": "0 bids · Time left1h 13m left (Today 04:36 PM)",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$49.00",
+      "extracted_price": 49.0,
+      "shipping": "+$8.65 delivery",
+      "extracted_shipping": 8.65,
+      "thumbnail": "https://i.ebayimg.com/images/g/EZ0AAeSwYaxqbToI/s-l140.webp"
+    },
+    {
+      "position": 18,
+      "item_id": "127941114359",
+      "title": "Makeup by Mario Plumping Lip Serum & Suede Lip Pencil Sephora Birthday Gift Set",
+      "link": "https://www.ebay.com/itm/127941114359",
+      "seller": {
+        "name": "cosmemo",
+        "reviews": 743,
+        "positive_feedback_percent": 99.5
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "76 sold"
+      ],
+      "price": "$13.55",
+      "extracted_price": 13.55,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/NEUAAeSw~49qPOf1/s-l140.webp"
+    },
+    {
+      "position": 19,
+      "item_id": "168818307636",
+      "title": "The Original SEPHORA Pro! Sculpting Brush #99, (MSRP $34)",
+      "link": "https://www.ebay.com/itm/168818307636",
+      "seller": {
+        "name": "kecarv_80",
+        "reviews": 20,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "tag": "New Listing",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$15.50",
+      "extracted_price": 15.5,
+      "shipping": "+$5.54 delivery",
+      "extracted_shipping": 5.54,
+      "thumbnail": "https://i.ebayimg.com/images/g/Gl4AAeSweo5q36DT/s-l140.webp"
+    },
+    {
+      "position": 20,
+      "item_id": "227582423140",
+      "title": "Sephora Collection Makeup Brush Set with White Travel Case",
+      "link": "https://www.ebay.com/itm/227582423140",
+      "seller": {
+        "name": "dainval-0",
+        "reviews": 9,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "New without box",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$21.00",
+      "extracted_price": 21.0,
+      "shipping": "+$5.00 delivery",
+      "extracted_shipping": 5.0,
+      "thumbnail": "https://i.ebayimg.com/images/g/DxUAAeSwyMVq3Yvp/s-l140.webp"
+    },
+    {
+      "position": 21,
+      "item_id": "880053885534",
+      "title": "Sephora Favorites Holiday Lips",
+      "link": "https://www.ebay.com/itm/880053885534",
+      "seller": {
+        "name": "whoopsiboughtit",
+        "reviews": 929,
+        "positive_feedback_percent": 99.9
+      },
+      "condition": "Brand New",
+      "tag": "New Listing",
+      "buying_format": "Buy It Now",
+      "price": "$49.00",
+      "extracted_price": 49.0,
+      "shipping": "Located in United States",
+      "deal": "+$7.00 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/e8UAAeSwFiVq343e/s-l140.webp"
+    },
+    {
+      "position": 22,
+      "item_id": "327418813973",
+      "title": "Sephora Favorites Vacay All Day Set Merit Patrick Ta Ouai Rare Beauty YSL +More",
+      "link": "https://www.ebay.com/itm/327418813973",
+      "seller": {
+        "name": "shoppingaddict247",
+        "reviews": 1500,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$99.00",
+      "extracted_price": 99.0,
+      "shipping": "+$6.19 delivery",
+      "extracted_shipping": 6.19,
+      "thumbnail": "https://i.ebayimg.com/images/g/TnQAAeSwVftq2yy2/s-l140.webp"
+    },
+    {
+      "position": 23,
+      "item_id": "840042526972",
+      "title": "Sephora Favorites Skin Wonderland VHTF!",
+      "link": "https://www.ebay.com/itm/840042526972",
+      "seller": {
+        "name": "vintageshack",
+        "reviews": 40900,
+        "positive_feedback_percent": 99.4
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$64.80",
+      "extracted_price": 64.8,
+      "original_price": "$108.00",
+      "extracted_original_price": 108.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/S~IAAeSw6tRq1~GD/s-l140.webp"
+    },
+    {
+      "position": 24,
+      "item_id": "820180905740",
+      "title": "Makeup by Mario Plumping Lip Serum & Suede Lip Pencil Sephora Birthday Gift Set",
+      "link": "https://www.ebay.com/itm/820180905740",
+      "seller": {
+        "name": "momosales_0508",
+        "reviews": 3100,
+        "positive_feedback_percent": 99.2
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "31 watchers"
+      ],
+      "price": "$13.49",
+      "extracted_price": 13.49,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/H0wAAeSwC7lqufQT/s-l140.webp"
+    },
+    {
+      "position": 25,
+      "item_id": "236573803390",
+      "title": "NARS LAGUNA Bronzer & Afterglow Lip Balm Sephora Beauty Insider Birthday Set",
+      "link": "https://www.ebay.com/itm/236573803390",
+      "seller": {
+        "name": "beadel-9513",
+        "reviews": 8400,
+        "positive_feedback_percent": 99.6
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "87 sold"
+      ],
+      "price": "$13.22",
+      "extracted_price": 13.22,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/h-IAAeSws9FpYZ2j/s-l140.webp"
+    },
+    {
+      "position": 26,
+      "item_id": "336835708268",
+      "title": "Tower 28 Sephora Beauty Insider Birthday SOS Daily Rescue & Lip Jelly Pistachio",
+      "link": "https://www.ebay.com/itm/336835708268",
+      "seller": {
+        "name": "beautydealsandbeyond",
+        "reviews": 5100,
+        "positive_feedback_percent": 99.0
+      },
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$11.89",
+      "extracted_price": 11.89,
+      "original_price": "$13.99",
+      "extracted_original_price": 13.99,
+      "shipping": "Free delivery",
+      "deal": "$10.11 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/yRIAAeSwDThqx~0L/s-l140.webp"
+    },
+    {
+      "position": 27,
+      "item_id": "198740216701",
+      "title": "Huge 50+ Beauty Makeup Skincare Lot Deluxe Sample &Full Sz Ulta Sephora $350+5lb",
+      "link": "https://www.ebay.com/itm/198740216701",
+      "seller": {
+        "name": "doubleknock",
+        "reviews": 9700,
+        "positive_feedback_percent": 99.9
+      },
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$58.95",
+      "extracted_price": 58.95,
+      "shipping": "+$10.99 delivery",
+      "extracted_shipping": 10.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/1osAAeSwQ~5q29NS/s-l140.webp"
+    },
+    {
+      "position": 28,
+      "item_id": "237144088179",
+      "title": "CUP OF COFFEE No 350 Sephora Colorful Nacre Eye Shimmer - Discontinued NOS",
+      "link": "https://www.ebay.com/itm/237144088179",
+      "seller": {
+        "name": "justasuitcase",
+        "reviews": 45,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$22.00",
+      "extracted_price": 22.0,
+      "shipping": "+$5.96 delivery",
+      "extracted_shipping": 5.96,
+      "thumbnail": "https://i.ebayimg.com/images/g/fCUAAeSwsjVq3n68/s-l140.webp"
+    },
+    {
+      "position": 29,
+      "item_id": "227574740618",
+      "title": "Sephora Favorites 2026 Holiday Must Haves Gift Set",
+      "link": "https://www.ebay.com/itm/227574740618",
+      "seller": {
+        "name": "beautiful26",
+        "reviews": 261,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "21 watchers"
+      ],
+      "price": "$69.45",
+      "extracted_price": 69.45,
+      "shipping": "+$9.84 delivery",
+      "extracted_shipping": 9.84,
+      "thumbnail": "https://i.ebayimg.com/images/g/rxQAAeSwr6tqapwS/s-l140.webp"
+    },
+    {
+      "position": 30,
+      "item_id": "197708145908",
+      "title": "Sephora Favorites Holiday Must Haves 14 Pc Makeup Skincare Hair LIMITED EDITION",
+      "link": "https://www.ebay.com/itm/197708145908",
+      "seller": {
+        "name": "pieperpicks1",
+        "reviews": 5300,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Last one",
+        "11 sold"
+      ],
+      "price": "$107.99",
+      "extracted_price": 107.99,
+      "original_price": "$119.99",
+      "extracted_original_price": 119.99,
+      "shipping": "+$8.95 delivery",
+      "extracted_shipping": 8.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/KjkAAeSwjnRozBs7/s-l140.webp"
+    },
+    {
+      "position": 31,
+      "item_id": "820179125954",
+      "title": "Sephora Favorites Gleamy Dreamy Makeup & Skincare Set $148 Value Tarte Haus Labs",
+      "link": "https://www.ebay.com/itm/820179125954",
+      "seller": {
+        "name": "barta3165",
+        "reviews": 802,
+        "positive_feedback_percent": 99.2
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Last one",
+        "16 watchers",
+        "Save up to 18% when you buy more"
+      ],
+      "price": "$67.99",
+      "extracted_price": 67.99,
+      "shipping": "+$11.70 delivery",
+      "extracted_shipping": 11.7,
+      "thumbnail": "https://i.ebayimg.com/images/g/kFcAAeSwU2FquWlG/s-l140.webp"
+    },
+    {
+      "position": 32,
+      "item_id": "198669118499",
+      "title": "SEPHORA FAVORITES Holiday Must-Haves Makeup & Skincare Value Set 9pc 2026 SEALED",
+      "link": "https://www.ebay.com/itm/198669118499",
+      "seller": {
+        "name": "pieperpicks1",
+        "reviews": 5300,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "10 watchers"
+      ],
+      "price": "$109.99",
+      "extracted_price": 109.99,
+      "shipping": "+$9.95 delivery",
+      "extracted_shipping": 9.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/lBAAAeSwCbVquAzw/s-l140.webp"
+    },
+    {
+      "position": 33,
+      "item_id": "920076963014",
+      "title": "Sephora Collection Limited Edition Advent Calendar - 24 Beauty Surprises",
+      "link": "https://www.ebay.com/itm/920076963014",
+      "seller": {
+        "name": "jerembrow_55",
+        "reviews": 254,
+        "positive_feedback_percent": 99.0
+      },
+      "condition": "Brand New",
+      "tag": "New Listing",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$90.99",
+      "extracted_price": 90.99,
+      "shipping": "+$10.75 delivery",
+      "extracted_shipping": 10.75,
+      "thumbnail": "https://i.ebayimg.com/images/g/OJAAAeSwG55q35yf/s-l140.webp"
+    },
+    {
+      "position": 34,
+      "item_id": "257808355189",
+      "title": "Sephora #EyeStories Southwest Sunrise 6 Eyeshadow Palette NEW",
+      "link": "https://www.ebay.com/itm/257808355189",
+      "seller": {
+        "name": "billysjean",
+        "reviews": 1100,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$12.95",
+      "extracted_price": 12.95,
+      "shipping": "+$5.83 delivery",
+      "extracted_shipping": 5.83,
+      "thumbnail": "https://i.ebayimg.com/images/g/zEgAAeSwF-5qzp7z/s-l140.webp"
+    },
+    {
+      "position": 35,
+      "item_id": "407312144406",
+      "title": "Sephora Collection Deluxe 6-Piece Face & Eye Makeup Brush Set with Travel Bag",
+      "link": "https://www.ebay.com/itm/407312144406",
+      "seller": {
+        "name": "brushmastersempire",
+        "reviews": 1600,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 6% when you buy more"
+      ],
+      "price": "$35.00",
+      "extracted_price": 35.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/xvQAAeSwh9lq29My/s-l140.webp"
+    },
+    {
+      "position": 36,
+      "item_id": "168806332378",
+      "title": "Dagne Dover Makeup Bag X Sephora MARA Sling Phone Spice Bag New So Cute !!",
+      "link": "https://www.ebay.com/itm/168806332378",
+      "seller": {
+        "name": "eliz-105583",
+        "reviews": 8,
+        "positive_feedback_percent": 90.0
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$13.00",
+      "extracted_price": 13.0,
+      "shipping": "+$5.85 delivery",
+      "extracted_shipping": 5.85,
+      "thumbnail": "https://i.ebayimg.com/images/g/N7IAAeSwRjFq2BOa/s-l140.webp"
+    },
+    {
+      "position": 37,
+      "item_id": "327418483292",
+      "title": "Sephora Favorites Sun Safety Kit",
+      "link": "https://www.ebay.com/itm/327418483292",
+      "seller": {
+        "name": "shoppingaddict247",
+        "reviews": 1500,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$99.00",
+      "extracted_price": 99.0,
+      "shipping": "+$6.19 delivery",
+      "extracted_shipping": 6.19,
+      "thumbnail": "https://i.ebayimg.com/images/g/awMAAeSwCuBq2lr-/s-l140.webp"
+    },
+    {
+      "position": 38,
+      "item_id": "307239864275",
+      "title": "Sephora Birthday Glossier You Eau de Parfum Set & Cloud Paint Cream Blush",
+      "link": "https://www.ebay.com/itm/307239864275",
+      "seller": {
+        "name": "luna18*2012",
+        "reviews": 1200,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "0 bids · Time left1h 50m left (Today 05:13 PM)",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$9.95",
+      "extracted_price": 9.95,
+      "shipping": "+$6.73 delivery",
+      "extracted_shipping": 6.73,
+      "thumbnail": "https://i.ebayimg.com/images/g/xgwAAeSwnSFq1rH2/s-l140.webp"
+    },
+    {
+      "position": 39,
+      "item_id": "820196828872",
+      "title": "SEPHORA FAVORITES Holiday Must Haves Makeup & Skincare Value Set 9pc 2026 NEW",
+      "link": "https://www.ebay.com/itm/820196828872",
+      "seller": {
+        "name": "barta3165",
+        "reviews": 802,
+        "positive_feedback_percent": 99.2
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "33 watchers",
+        "Save up to 18% when you buy more"
+      ],
+      "price": "$79.99",
+      "extracted_price": 79.99,
+      "shipping": "+$13.19 delivery",
+      "extracted_shipping": 13.19,
+      "thumbnail": "https://i.ebayimg.com/images/g/9r8AAeSwgRpqv~ci/s-l140.webp"
+    },
+    {
+      "position": 40,
+      "item_id": "206230828601",
+      "title": "SEPHORA~Favorites Holiday Must Haves Set~Limited Edition~New~",
+      "link": "https://www.ebay.com/itm/206230828601",
+      "seller": {
+        "name": "bjpawar",
+        "reviews": 788,
+        "positive_feedback_percent": 99.8
+      },
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "47 watchers"
+      ],
+      "price": "$89.99",
+      "extracted_price": 89.99,
+      "shipping": "Located in United States",
+      "deal": "+$6.63 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/ZuAAAeSwwSZp68uU/s-l140.webp"
+    },
+    {
+      "position": 41,
+      "item_id": "147651919226",
+      "title": "SEPHORA Blush & Go Trio Set Liquid Blushes, 3 x 7 ml (0.23 fl oz)",
+      "link": "https://www.ebay.com/itm/147651919226",
+      "seller": {
+        "name": "hairycow",
+        "reviews": 17,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "tag": "New Listing",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$22.00",
+      "extracted_price": 22.0,
+      "shipping": "+$6.73 delivery",
+      "extracted_shipping": 6.73,
+      "thumbnail": "https://i.ebayimg.com/images/g/pxoAAeSw1wBq3qnn/s-l140.webp"
+    },
+    {
+      "position": 42,
+      "item_id": "117466767651",
+      "title": "Sephora Favorites Cozy & Clean Makeup Value Set 7 PC NEW Haus, Labs, Ciele",
+      "link": "https://www.ebay.com/itm/117466767651",
+      "seller": {
+        "name": "poll16",
+        "reviews": 1200,
+        "positive_feedback_percent": 99.8
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$67.95",
+      "extracted_price": 67.95,
+      "shipping": "+$7.58 delivery",
+      "extracted_shipping": 7.58,
+      "thumbnail": "https://i.ebayimg.com/images/g/logAAeSwQvlqz-El/s-l140.webp"
+    },
+    {
+      "position": 43,
+      "item_id": "820264092613",
+      "title": "Laura Mercier Sephora Birthday Gift Set Translucent Powder Caviar Stick NEW",
+      "link": "https://www.ebay.com/itm/820264092613",
+      "seller": {
+        "name": "sulli82",
+        "reviews": 30,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$14.99",
+      "extracted_price": 14.99,
+      "shipping": "+$5.88 delivery",
+      "extracted_shipping": 5.88,
+      "thumbnail": "https://i.ebayimg.com/images/g/1C4AAeSwqNRq2UJy/s-l140.webp"
+    },
+    {
+      "position": 44,
+      "item_id": "178448334579",
+      "title": "Sephora Favorites Give Me More Lip Lipstick Wardrobe 14pc VHTF",
+      "link": "https://www.ebay.com/itm/178448334579",
+      "seller": {
+        "name": "vintageshack",
+        "reviews": 40900,
+        "positive_feedback_percent": 99.4
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "13 watchers"
+      ],
+      "price": "$84.00",
+      "extracted_price": 84.0,
+      "original_price": "$140.00",
+      "extracted_original_price": 140.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/v4AAAeSwQMRqPIL0/s-l140.webp"
+    },
+    {
+      "position": 45,
+      "item_id": "820273511808",
+      "title": "Sephora False Eyelashes & Lash Glue Bundle 5 Lash Sets + Adhesive",
+      "link": "https://www.ebay.com/itm/820273511808",
+      "seller": {
+        "name": "hilsuthe_62",
+        "reviews": 10,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$22.00",
+      "extracted_price": 22.0,
+      "shipping": "+$5.72 delivery",
+      "extracted_shipping": 5.72,
+      "thumbnail": "https://i.ebayimg.com/images/g/04QAAeSwYh9q3N1H/s-l140.webp"
+    },
+    {
+      "position": 46,
+      "item_id": "267759302321",
+      "title": "NEW Sephora collection Pink frosting 01 lip liner pencil 8hr longwear viral",
+      "link": "https://www.ebay.com/itm/267759302321",
+      "seller": {
+        "name": "allthisauthenticstuff",
+        "reviews": 2400,
+        "positive_feedback_percent": 99.7
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Last one",
+        "12 watchers"
+      ],
+      "price": "$27.00",
+      "extracted_price": 27.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/v3sAAeSwYEVqghTZ/s-l140.webp"
+    },
+    {
+      "position": 47,
+      "item_id": "327343755719",
+      "title": "New SEPHORA FAVORITES Makeup Experts Value Set 2026 Bag Brand New in Packaging",
+      "link": "https://www.ebay.com/itm/327343755719",
+      "seller": {
+        "name": "watermelonglow",
+        "reviews": 3900,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "15 sold"
+      ],
+      "price": "$124.99",
+      "extracted_price": 124.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/lOQAAeSwoAJqnePc/s-l140.webp"
+    },
+    {
+      "position": 48,
+      "item_id": "127154004956",
+      "title": "$1000 Makeup Lot Sephora Birchbox FabFitFun Beauty Bundle *READ DESCRIPTION!*",
+      "link": "https://www.ebay.com/itm/127154004956",
+      "seller": {
+        "name": "luxe.operandi",
+        "reviews": 363,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "37 watchers"
+      ],
+      "price": "$299.00",
+      "extracted_price": 299.0,
+      "shipping": "+$13.55 delivery",
+      "extracted_shipping": 13.55,
+      "thumbnail": "https://i.ebayimg.com/images/g/qEgAAOSwLIlmic5Z/s-l140.webp"
+    },
+    {
+      "position": 49,
+      "item_id": "306544137221",
+      "title": "💕Lot of 3 💕SEPHORA COLLECTION Matte Velvet Lipstick 17 Break The Rules # Read",
+      "link": "https://www.ebay.com/itm/306544137221",
+      "seller": {
+        "name": "maengpong",
+        "reviews": 12300,
+        "positive_feedback_percent": 99.9
+      },
+      "condition": "New without box",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "15 watchers",
+        "Save up to 30% when you buy more"
+      ],
+      "price": "$11.99",
+      "extracted_price": 11.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/mHAAAeSwwb1o6m93/s-l140.webp"
+    },
+    {
+      "position": 50,
+      "item_id": "168817008696",
+      "title": "Sephora Favorites Deluxe Perfume Sampler Set 7 Mini Fragrances NO CERTIFICATE",
+      "link": "https://www.ebay.com/itm/168817008696",
+      "seller": {
+        "name": "thequirkybirdco",
+        "reviews": 424,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "tag": "New Listing",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$39.00",
+      "extracted_price": 39.0,
+      "shipping": "+$7.96 delivery",
+      "extracted_shipping": 7.96,
+      "thumbnail": "https://i.ebayimg.com/images/g/ga0AAeSwRt9q3uGG/s-l140.webp"
+    },
+    {
+      "position": 51,
+      "item_id": "188965614586",
+      "title": "Sephora 25-Days of Beauty Must Haves Advent Calendar 2026 In Hand",
+      "link": "https://www.ebay.com/itm/188965614586",
+      "seller": {
+        "name": "matrixaio",
+        "reviews": 1400,
+        "positive_feedback_percent": 99.8
+      },
+      "condition": "Brand New",
+      "tag": "NEW LOW PRICE",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "21 watchers"
+      ],
+      "price": "$150.00",
+      "extracted_price": 150.0,
+      "shipping": "+$10.00 delivery",
+      "extracted_shipping": 10.0,
+      "thumbnail": "https://i.ebayimg.com/images/g/eSQAAeSwna9qspWv/s-l140.webp"
+    },
+    {
+      "position": 52,
+      "item_id": "157519294489",
+      "title": "Sephora Favorites Gleamy Dreamy Makeup Kit 8 Piece Set",
+      "link": "https://www.ebay.com/itm/157519294489",
+      "seller": {
+        "name": "kuehlthrifter",
+        "reviews": 1700,
+        "positive_feedback_percent": 99.6
+      },
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "32 watchers"
+      ],
+      "price": "$75.00",
+      "extracted_price": 75.0,
+      "shipping": "+$15.85 delivery",
+      "extracted_shipping": 15.85,
+      "thumbnail": "https://i.ebayimg.com/images/g/H2sAAeSw7ltpMIaR/s-l140.webp"
+    },
+    {
+      "position": 53,
+      "item_id": "318195828824",
+      "title": "Sephora Samplers Bundle( 35+ pcs)",
+      "link": "https://www.ebay.com/itm/318195828824",
+      "seller": {
+        "name": "cmhouseoflux",
+        "reviews": 1,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "New without box",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "8 watchers"
+      ],
+      "price": "$17.99",
+      "extracted_price": 17.99,
+      "shipping": "+$7.75 delivery",
+      "extracted_shipping": 7.75,
+      "thumbnail": "https://i.ebayimg.com/images/g/vTQAAeSwvdFpqT-Y/s-l140.webp"
+    },
+    {
+      "position": 54,
+      "item_id": "237124510373",
+      "title": "Sephora Favorites Cozy & Clean Makeup Value Set 7-Piece 2026 Holiday Gift Kit",
+      "link": "https://www.ebay.com/itm/237124510373",
+      "seller": {
+        "name": "glowgoessential",
+        "reviews": 247,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$77.37",
+      "extracted_price": 77.37,
+      "shipping": "+$5.90 delivery",
+      "extracted_shipping": 5.9,
+      "thumbnail": "https://i.ebayimg.com/images/g/MHUAAeSwztNq0Dif/s-l140.webp"
+    },
+    {
+      "position": 55,
+      "item_id": "307089997627",
+      "title": "Sephora 12HR Retractable Eyeliner CHOOSE YOUR COLOR NWT MSRP $15",
+      "link": "https://www.ebay.com/itm/307089997627",
+      "seller": {
+        "name": "savingmoneydeals",
+        "reviews": 349,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 20% when you buy more"
+      ],
+      "price": "$13.00",
+      "extracted_price": 13.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/DrkAAeSw1stqZ5IG/s-l140.webp"
+    },
+    {
+      "position": 56,
+      "item_id": "285480055876",
+      "title": "SEPHORA Deluxe Charcoal Antibacterial Brush Set – MSRP $62 Beauty Deal",
+      "link": "https://www.ebay.com/itm/285480055876",
+      "seller": {
+        "name": "buyerscollectionstore",
+        "reviews": 3500,
+        "positive_feedback_percent": 99.9
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Save up to 15% when you buy more"
+      ],
+      "price": "$35.00",
+      "extracted_price": 35.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/xFoAAOSwhxtmZ-yF/s-l140.webp"
+    },
+    {
+      "position": 57,
+      "item_id": "407304701264",
+      "title": "Huge 50 Beauty Makeup Skincare Lot Deluxe Sample Sz Ulta Sephora Lot 31",
+      "link": "https://www.ebay.com/itm/407304701264",
+      "seller": {
+        "name": "wensells100",
+        "reviews": 80,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "New without box",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$52.99",
+      "extracted_price": 52.99,
+      "shipping": "+$11.99 delivery",
+      "extracted_shipping": 11.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/TNAAAeSwrQBqzNaR/s-l140.webp"
+    },
+    {
+      "position": 58,
+      "item_id": "167463644421",
+      "title": "Sephora Birthday Gift Set Makeup by Mario Plumping Lip Serum & Suede Lip Pencil",
+      "link": "https://www.ebay.com/itm/167463644421",
+      "seller": {
+        "name": "m.a.e.sales",
+        "reviews": 1500,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "50 sold"
+      ],
+      "price": "$14.99",
+      "extracted_price": 14.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/Xv4AAeSwf0FoAq2t/s-l140.webp"
+    },
+    {
+      "position": 59,
+      "item_id": "127765250552",
+      "title": "Sephora Favorites Vacay All Day Set Merit Patrick Ta Ouai Rare Beauty YSL +More",
+      "link": "https://www.ebay.com/itm/127765250552",
+      "seller": {
+        "name": "shopwithkev_1",
+        "reviews": 45,
+        "positive_feedback_percent": 100.0
+      },
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$79.99",
+      "extracted_price": 79.99,
+      "shipping": "+$6.19 delivery",
+      "extracted_shipping": 6.19,
+      "thumbnail": "https://i.ebayimg.com/images/g/lPkAAeSws~JpwSrM/s-l140.webp"
+    },
+    {
+      "position": 60,
+      "item_id": "147591660000",
+      "title": "120+ ITEM Sephora Ulta SAMPLE/FULLSIZE LOT Jo Malone Tom Ford Estee Mac Aveda AA",
+      "link": "https://www.ebay.com/itm/147591660000",
+      "seller": {
+        "name": "local_love",
+        "reviews": 5900,
+        "positive_feedback_percent": 99.9
+      },
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$199.99",
+      "extracted_price": 199.99,
+      "shipping": "+$29.99 delivery",
+      "extracted_shipping": 29.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/tycAAeSwgNdqssHZ/s-l140.webp"
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "saphe one",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=saphe+one&_sop=12"
+    },
+    {
+      "query": "sapphire",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=sapphire&_sop=12"
+    },
+    {
+      "query": "ruby",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=ruby&_sop=12"
+    },
+    {
+      "query": "cannondale",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=cannondale&_sop=12"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=sephora&_pgn=2",
+    "other_pages": {
+      "2": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=saphora&_pgn=10&rt=nc"
+    }
+  }
+}

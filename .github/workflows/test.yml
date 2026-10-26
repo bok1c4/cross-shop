@@ -1,0 +1,26 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4"
+          bundler-cache: true
+      # Tests and standardrb. Everything runs against saved files: no API
+      # key, no network, no credits.
+      - run: bundle exec rake
+      # Again without a UTF-8 locale: every text input must name its encoding.
+      - run: bundle exec rake test
+        env:
+          LANG: C
+          LC_ALL: C

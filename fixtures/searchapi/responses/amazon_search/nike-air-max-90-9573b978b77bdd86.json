@@ -1,0 +1,2206 @@
+{
+  "search_metadata": {
+    "id": "search_z9qLVyexP1TBExqRQeMEoPrY",
+    "status": "Success",
+    "created_at": "2026-10-26T22:23:06Z",
+    "request_time_taken": 2.2,
+    "parsing_time_taken": 0.18,
+    "total_time_taken": 2.38,
+    "request_url": "https://www.amazon.com/s?k=nike+air+max+90",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_z9qLVyexP1TBExqRQeMEoPrY.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_z9qLVyexP1TBExqRQeMEoPrY"
+  },
+  "search_parameters": {
+    "engine": "amazon_search",
+    "q": "nike air max 90",
+    "amazon_domain": "amazon.com",
+    "delivery_country": "us"
+  },
+  "search_information": {
+    "query_displayed": "nike air max 90",
+    "price_min": "$29",
+    "extracted_price_min": 29,
+    "price_max": "$790+",
+    "extracted_price_max": 790,
+    "delivering_to": "Delivering to Martinsburg 25401"
+  },
+  "filters": [
+    {
+      "type": "Eligible for Free Shipping",
+      "options": [
+        {
+          "text": "Free Shipping by Amazon",
+          "rh": "p_76:2661625011"
+        }
+      ]
+    },
+    {
+      "type": "Delivery Day",
+      "options": [
+        {
+          "text": "Get It by Tomorrow",
+          "rh": "p_90:8308921011"
+        }
+      ]
+    },
+    {
+      "type": "Gender",
+      "options": [
+        {
+          "text": "Men",
+          "rh": "p_n_g-101015233022111:121075132011"
+        },
+        {
+          "text": "Women",
+          "rh": "p_n_g-101015233022111:121075131011"
+        },
+        {
+          "text": "Boys",
+          "rh": "p_n_g-101015233022111:121075136011"
+        },
+        {
+          "text": "Girls",
+          "rh": "p_n_g-101015233022111:121075133011"
+        },
+        {
+          "text": "Babies",
+          "rh": "p_n_g-101015233022111:121833111011"
+        },
+        {
+          "text": "Unisex",
+          "rh": "p_n_g-101015233022111:121833112011"
+        }
+      ]
+    },
+    {
+      "type": "Color",
+      "options": [
+        {
+          "text": "White",
+          "rh": "p_n_size_two_browse-vebin:5391079011"
+        },
+        {
+          "text": "Grey",
+          "rh": "p_n_size_two_browse-vebin:5391078011"
+        },
+        {
+          "text": "Black",
+          "rh": "p_n_size_two_browse-vebin:5391077011"
+        },
+        {
+          "text": "Brown",
+          "rh": "p_n_size_two_browse-vebin:5391080011"
+        },
+        {
+          "text": "Beige",
+          "rh": "p_n_size_two_browse-vebin:5391081011"
+        },
+        {
+          "text": "Red",
+          "rh": "p_n_size_two_browse-vebin:5391082011"
+        },
+        {
+          "text": "Pink",
+          "rh": "p_n_size_two_browse-vebin:5391083011"
+        },
+        {
+          "text": "Orange",
+          "rh": "p_n_size_two_browse-vebin:5391084011"
+        },
+        {
+          "text": "Yellow",
+          "rh": "p_n_size_two_browse-vebin:5391085011"
+        },
+        {
+          "text": "Ivory",
+          "rh": "p_n_size_two_browse-vebin:5391086011"
+        },
+        {
+          "text": "Green",
+          "rh": "p_n_size_two_browse-vebin:5391087011"
+        },
+        {
+          "text": "Blue",
+          "rh": "p_n_size_two_browse-vebin:5391088011"
+        },
+        {
+          "text": "Purple",
+          "rh": "p_n_size_two_browse-vebin:5391089011"
+        },
+        {
+          "text": "Gold",
+          "rh": "p_n_size_two_browse-vebin:5391090011"
+        },
+        {
+          "text": "Silver",
+          "rh": "p_n_size_two_browse-vebin:5391091011"
+        },
+        {
+          "text": "Multi",
+          "rh": "p_n_size_two_browse-vebin:5391092011"
+        }
+      ]
+    },
+    {
+      "type": "Brands",
+      "options": [
+        {
+          "text": "Nike",
+          "rh": "p_123:234394"
+        },
+        {
+          "text": "Reebok",
+          "rh": "p_123:232840"
+        },
+        {
+          "text": "New Balance",
+          "rh": "p_123:197955"
+        }
+      ]
+    },
+    {
+      "type": "Amazon Fashion",
+      "options": [
+        {
+          "text": "Premium Brands",
+          "rh": "p_n_g-1004227705091:21451213011"
+        },
+        {
+          "text": "Top Brands",
+          "rh": "p_n_g-1004227705091:14630392011"
+        }
+      ]
+    },
+    {
+      "type": "Women's Shoe Width",
+      "options": [
+        {
+          "text": "Medium",
+          "rh": "p_n_shoe_width_browse-vebin:1285147011"
+        }
+      ]
+    },
+    {
+      "type": "Men's Shoe Size",
+      "options": [
+        {
+          "text": "4",
+          "rh": "p_n_pt_nav_size_men_shoe:1285090011"
+        },
+        {
+          "text": "5",
+          "rh": "p_n_pt_nav_size_men_shoe:1285092011"
+        },
+        {
+          "text": "5.5",
+          "rh": "p_n_pt_nav_size_men_shoe:1285093011"
+        },
+        {
+          "text": "6",
+          "rh": "p_n_pt_nav_size_men_shoe:1285094011"
+        },
+        {
+          "text": "6.5",
+          "rh": "p_n_pt_nav_size_men_shoe:1285095011"
+        },
+        {
+          "text": "7",
+          "rh": "p_n_pt_nav_size_men_shoe:1285096011"
+        },
+        {
+          "text": "7.5",
+          "rh": "p_n_pt_nav_size_men_shoe:1285097011"
+        },
+        {
+          "text": "8",
+          "rh": "p_n_pt_nav_size_men_shoe:1285098011"
+        },
+        {
+          "text": "8.5",
+          "rh": "p_n_pt_nav_size_men_shoe:1285099011"
+        },
+        {
+          "text": "9",
+          "rh": "p_n_pt_nav_size_men_shoe:1285100011"
+        },
+        {
+          "text": "9.5",
+          "rh": "p_n_pt_nav_size_men_shoe:1285101011"
+        },
+        {
+          "text": "10",
+          "rh": "p_n_pt_nav_size_men_shoe:1285069011"
+        },
+        {
+          "text": "10.5",
+          "rh": "p_n_pt_nav_size_men_shoe:1285070011"
+        },
+        {
+          "text": "11",
+          "rh": "p_n_pt_nav_size_men_shoe:1285071011"
+        },
+        {
+          "text": "11.5",
+          "rh": "p_n_pt_nav_size_men_shoe:1285072011"
+        },
+        {
+          "text": "12",
+          "rh": "p_n_pt_nav_size_men_shoe:1285073011"
+        },
+        {
+          "text": "12.5",
+          "rh": "p_n_pt_nav_size_men_shoe:1285074011"
+        },
+        {
+          "text": "13",
+          "rh": "p_n_pt_nav_size_men_shoe:1285075011"
+        },
+        {
+          "text": "14",
+          "rh": "p_n_pt_nav_size_men_shoe:1285077011"
+        },
+        {
+          "text": "14.5",
+          "rh": "p_n_pt_nav_size_men_shoe:1285078011"
+        },
+        {
+          "text": "15",
+          "rh": "p_n_pt_nav_size_men_shoe:1285079011"
+        }
+      ]
+    },
+    {
+      "type": "Women's Shoe Size",
+      "options": [
+        {
+          "text": "5",
+          "rh": "p_n_g-1004158520091:1285130011"
+        },
+        {
+          "text": "5.5",
+          "rh": "p_n_g-1004158520091:1285131011"
+        },
+        {
+          "text": "6",
+          "rh": "p_n_g-1004158520091:1285132011"
+        },
+        {
+          "text": "6.5",
+          "rh": "p_n_g-1004158520091:1285133011"
+        },
+        {
+          "text": "7",
+          "rh": "p_n_g-1004158520091:1285134011"
+        },
+        {
+          "text": "7.5",
+          "rh": "p_n_g-1004158520091:1285135011"
+        },
+        {
+          "text": "8",
+          "rh": "p_n_g-1004158520091:1285136011"
+        },
+        {
+          "text": "8.5",
+          "rh": "p_n_g-1004158520091:1285137011"
+        },
+        {
+          "text": "9",
+          "rh": "p_n_g-1004158520091:1285138011"
+        },
+        {
+          "text": "9.5",
+          "rh": "p_n_g-1004158520091:1285139011"
+        },
+        {
+          "text": "10",
+          "rh": "p_n_g-1004158520091:1285113011"
+        },
+        {
+          "text": "10.5",
+          "rh": "p_n_g-1004158520091:1285114011"
+        },
+        {
+          "text": "11",
+          "rh": "p_n_g-1004158520091:1285115011"
+        },
+        {
+          "text": "11.5",
+          "rh": "p_n_g-1004158520091:1285116011"
+        },
+        {
+          "text": "12",
+          "rh": "p_n_g-1004158520091:1285117011"
+        },
+        {
+          "text": "12.5",
+          "rh": "p_n_g-1004158520091:1285118011"
+        },
+        {
+          "text": "13",
+          "rh": "p_n_g-1004158520091:1285119011"
+        },
+        {
+          "text": "14.5",
+          "rh": "p_n_g-1004158520091:1285122011"
+        },
+        {
+          "text": "15.5",
+          "rh": "p_n_g-1004158520091:1285124011"
+        }
+      ]
+    },
+    {
+      "type": "Children's Shoe Width",
+      "options": [
+        {
+          "text": "Medium",
+          "rh": "p_n_pt_nav_size_kids_shoe_width:1285066011"
+        }
+      ]
+    },
+    {
+      "type": "Deals & Discounts",
+      "options": [
+        {
+          "text": "Up to $100",
+          "rh": "p_36:-10000"
+        },
+        {
+          "text": "$100 to $150",
+          "rh": "p_36:10000-15000"
+        },
+        {
+          "text": "$150 & above",
+          "rh": "p_36:15000-"
+        }
+      ]
+    },
+    {
+      "type": "Customer Review",
+      "options": [
+        {
+          "text": "4 Stars",
+          "rh": "p_72:2661618011"
+        }
+      ]
+    },
+    {
+      "type": "Height Map",
+      "options": [
+        {
+          "text": "High Top",
+          "rh": "p_n_g-1003563006111:58126450011"
+        },
+        {
+          "text": "Low Top",
+          "rh": "p_n_g-1003563006111:58126448011"
+        },
+        {
+          "text": "Mid Top",
+          "rh": "p_n_g-1003563006111:58126449011"
+        }
+      ]
+    },
+    {
+      "type": "Shoe Outer Material",
+      "options": [
+        {
+          "text": "Leather",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317179011"
+        },
+        {
+          "text": "Mesh",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317165011"
+        },
+        {
+          "text": "Suede",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317162011"
+        },
+        {
+          "text": "Canvas",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317173011"
+        },
+        {
+          "text": "Faux Leather",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317182011"
+        },
+        {
+          "text": "Plastic",
+          "rh": "p_n_feature_twenty-three_browse-bin:210968941011"
+        },
+        {
+          "text": "Polyester",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317161011"
+        },
+        {
+          "text": "Polyurethane (PU)",
+          "rh": "p_n_feature_twenty-three_browse-bin:211728571011"
+        },
+        {
+          "text": "Rubber",
+          "rh": "p_n_feature_twenty-three_browse-bin:210968947011"
+        },
+        {
+          "text": "Synthetic Resin",
+          "rh": "p_n_feature_twenty-three_browse-bin:210968944011"
+        },
+        {
+          "text": "Thermoplastic Polyurethane (TPU)",
+          "rh": "p_n_feature_twenty-three_browse-bin:122265019011"
+        }
+      ]
+    },
+    {
+      "type": "Seller",
+      "options": [
+        {
+          "text": "Stadium Goods",
+          "rh": "p_6:AFW7WNX55N5K4"
+        },
+        {
+          "text": "Bixemi",
+          "rh": "p_6:A3P8U6BAN7HQM8"
+        },
+        {
+          "text": "NATURAL SHOES",
+          "rh": "p_6:A3211FPPS63ST7"
+        },
+        {
+          "text": "ISOMETRIX L.L.C",
+          "rh": "p_6:A1EK7LD4ZSCFPB"
+        },
+        {
+          "text": "Revel Commerce",
+          "rh": "p_6:A1PKYT90J02XDY"
+        },
+        {
+          "text": "M T clothing LTD",
+          "rh": "p_6:A1RIIAX5ON26EB"
+        },
+        {
+          "text": "Amazon.com",
+          "rh": "p_6:ATVPDKIKX0DER"
+        }
+      ]
+    },
+    {
+      "type": "Water Resistance Level",
+      "options": [
+        {
+          "text": "Not Water Resistant",
+          "rh": "p_n_g-101017968916111:221385250011"
+        },
+        {
+          "text": "Water Repellent",
+          "rh": "p_n_g-101017968916111:221385252011"
+        },
+        {
+          "text": "Water Resistant",
+          "rh": "p_n_g-101017968916111:221385249011"
+        },
+        {
+          "text": "Waterproof",
+          "rh": "p_n_g-101017968916111:221385253011"
+        }
+      ]
+    },
+    {
+      "type": "Shoes Special Features",
+      "options": [
+        {
+          "text": "Lightweight",
+          "rh": "p_n_g-1003396948111:24045095011"
+        },
+        {
+          "text": "Breathable",
+          "rh": "p_n_g-1003396948111:24045099011"
+        },
+        {
+          "text": "Flexible",
+          "rh": "p_n_g-1003396948111:24045094011"
+        },
+        {
+          "text": "Shock Resistant",
+          "rh": "p_n_g-1003396948111:24045102011"
+        },
+        {
+          "text": "Slip Resistant",
+          "rh": "p_n_g-1003396948111:24045093011"
+        },
+        {
+          "text": "All Weather Grip",
+          "rh": "p_n_g-1003396948111:24045103011"
+        },
+        {
+          "text": "Stain Resistant",
+          "rh": "p_n_g-1003396948111:24045098011"
+        }
+      ]
+    },
+    {
+      "type": "Shoe Heel Height",
+      "options": [
+        {
+          "text": "Under 1\"",
+          "rh": "p_n_feature_four_browse-bin:2055867011"
+        },
+        {
+          "text": "1\" - 1 3/4\"",
+          "rh": "p_n_feature_four_browse-bin:2055868011"
+        }
+      ]
+    },
+    {
+      "type": "Shoe Toe Style",
+      "options": [
+        {
+          "text": "Closed Toe",
+          "rh": "p_n_g-1003126687111:23713152011"
+        },
+        {
+          "text": "Round Toe",
+          "rh": "p_n_g-1003126687111:23713160011"
+        },
+        {
+          "text": "Open Toe",
+          "rh": "p_n_g-1003126687111:23713153011"
+        },
+        {
+          "text": "Cap Toe",
+          "rh": "p_n_g-1003126687111:23713159011"
+        },
+        {
+          "text": "Plain Toe",
+          "rh": "p_n_g-1003126687111:23713154011"
+        }
+      ]
+    },
+    {
+      "type": "Lining Description",
+      "options": [
+        {
+          "text": "Cotton",
+          "rh": "p_n_g-101017758228111:217820219011"
+        },
+        {
+          "text": "Leather",
+          "rh": "p_n_g-101017758228111:217820216011"
+        },
+        {
+          "text": "Nylon",
+          "rh": "p_n_g-101017758228111:217820217011"
+        },
+        {
+          "text": "Polyester",
+          "rh": "p_n_g-101017758228111:217820221011"
+        },
+        {
+          "text": "Suede",
+          "rh": "p_n_g-101017758228111:217820218011"
+        },
+        {
+          "text": "Unlined",
+          "rh": "p_n_g-101017758228111:217820224011"
+        }
+      ]
+    },
+    {
+      "type": "Purpose",
+      "options": [
+        {
+          "text": "Running",
+          "rh": "p_n_g-101016756037111:207864157011"
+        },
+        {
+          "text": "Casual Wear",
+          "rh": "p_n_g-101016756037111:214322040011"
+        },
+        {
+          "text": "Walking",
+          "rh": "p_n_g-101016756037111:207864167011"
+        },
+        {
+          "text": "Badminton",
+          "rh": "p_n_g-101016756037111:207864176011"
+        },
+        {
+          "text": "Baseball",
+          "rh": "p_n_g-101016756037111:207864175011"
+        },
+        {
+          "text": "Basketball",
+          "rh": "p_n_g-101016756037111:207864162011"
+        },
+        {
+          "text": "Dancing",
+          "rh": "p_n_g-101016756037111:207864174011"
+        },
+        {
+          "text": "Exercising",
+          "rh": "p_n_g-101016756037111:214322037011"
+        },
+        {
+          "text": "Golfing",
+          "rh": "p_n_g-101016756037111:207864169011"
+        },
+        {
+          "text": "Hiking",
+          "rh": "p_n_g-101016756037111:207864158011"
+        },
+        {
+          "text": "Soccer",
+          "rh": "p_n_g-101016756037111:207864159011"
+        },
+        {
+          "text": "Softball",
+          "rh": "p_n_g-101016756037111:207864165011"
+        },
+        {
+          "text": "Tennis",
+          "rh": "p_n_g-101016756037111:207864178011"
+        },
+        {
+          "text": "Volleyball",
+          "rh": "p_n_g-101016756037111:207864172011"
+        },
+        {
+          "text": "Weightlifting",
+          "rh": "p_n_g-101016756037111:207864180011"
+        }
+      ]
+    },
+    {
+      "type": "Material",
+      "options": [
+        {
+          "text": "Cotton",
+          "rh": "p_n_g-101017771166111:218448019011"
+        },
+        {
+          "text": "Faux Leather",
+          "rh": "p_n_g-101017771166111:218448009011"
+        },
+        {
+          "text": "Leather",
+          "rh": "p_n_g-101017771166111:218448011011"
+        },
+        {
+          "text": "Mesh",
+          "rh": "p_n_g-101017771166111:218448015011"
+        },
+        {
+          "text": "Neoprene",
+          "rh": "p_n_g-101017771166111:218448026011"
+        },
+        {
+          "text": "Rubber",
+          "rh": "p_n_g-101017771166111:218448002011"
+        },
+        {
+          "text": "Straw",
+          "rh": "p_n_g-101017771166111:218448013011"
+        },
+        {
+          "text": "Suede",
+          "rh": "p_n_g-101017771166111:218448024011"
+        },
+        {
+          "text": "Thermoplastic Polyurethane",
+          "rh": "p_n_g-101017771166111:218448021011"
+        }
+      ]
+    },
+    {
+      "type": "Shoes Lifestyle",
+      "options": [
+        {
+          "text": "Casual",
+          "rh": "p_n_g-1003446729111:24196138011"
+        },
+        {
+          "text": "Comfort",
+          "rh": "p_n_g-1003446729111:24196137011"
+        },
+        {
+          "text": "Business Casual",
+          "rh": "p_n_g-1003446729111:24196140011"
+        },
+        {
+          "text": "Formal",
+          "rh": "p_n_g-1003446729111:24196141011"
+        }
+      ]
+    },
+    {
+      "type": "Surface Recommendation",
+      "options": [
+        {
+          "text": "Artificial Ground",
+          "rh": "p_n_g-101017934180111:221157086011"
+        },
+        {
+          "text": "Firm Ground",
+          "rh": "p_n_g-101017934180111:221157082011"
+        },
+        {
+          "text": "Road",
+          "rh": "p_n_g-101017934180111:221157088011"
+        },
+        {
+          "text": "Treadmill",
+          "rh": "p_n_g-101017934180111:221157084011"
+        },
+        {
+          "text": "Turf",
+          "rh": "p_n_g-101017934180111:221157087011"
+        }
+      ]
+    },
+    {
+      "type": "Strap Type",
+      "options": [
+        {
+          "text": "Ankle Strap",
+          "rh": "p_n_g-1003499539111:28820566011"
+        },
+        {
+          "text": "T-Strap",
+          "rh": "p_n_g-1003499539111:28820567011"
+        },
+        {
+          "text": "Toe Strap",
+          "rh": "p_n_g-1003499539111:28820564011"
+        }
+      ]
+    },
+    {
+      "type": "Occasion",
+      "options": [
+        {
+          "text": "Birthday",
+          "rh": "p_n_g-1003487558111:87570116011"
+        },
+        {
+          "text": "Wedding",
+          "rh": "p_n_g-1003487558111:24677255011"
+        },
+        {
+          "text": "New Year",
+          "rh": "p_n_g-1003487558111:24677254011"
+        },
+        {
+          "text": "Anniversary",
+          "rh": "p_n_g-1003487558111:122209981011"
+        },
+        {
+          "text": "Christmas",
+          "rh": "p_n_g-1003487558111:24677253011"
+        },
+        {
+          "text": "Easter",
+          "rh": "p_n_g-1003487558111:24677258011"
+        }
+      ]
+    },
+    {
+      "type": "Shoe Type",
+      "options": [
+        {
+          "text": "Athletic Shoe",
+          "rh": "p_n_feature_thirty_browse-bin:122399094011"
+        }
+      ]
+    },
+    {
+      "type": "Heel Type",
+      "options": [
+        {
+          "text": "Block Heel",
+          "rh": "p_n_g-101018073212111:222412462011"
+        },
+        {
+          "text": "Flat",
+          "rh": "p_n_g-101018073212111:222412461011"
+        },
+        {
+          "text": "Kitten Heel",
+          "rh": "p_n_g-101018073212111:222412458011"
+        },
+        {
+          "text": "No Heel",
+          "rh": "p_n_g-101018073212111:222412466011"
+        },
+        {
+          "text": "Platform Heel",
+          "rh": "p_n_g-101018073212111:222412464011"
+        },
+        {
+          "text": "Wedge Heel",
+          "rh": "p_n_g-101018073212111:222412468011"
+        }
+      ]
+    },
+    {
+      "type": "Shoes Closure Type",
+      "options": [
+        {
+          "text": "Lace-Up",
+          "rh": "p_n_g-1003465852111:24436296011"
+        },
+        {
+          "text": "Hook & Loop",
+          "rh": "p_n_g-1003465852111:24436294011"
+        },
+        {
+          "text": "Zipper",
+          "rh": "p_n_g-1003465852111:24436293011"
+        }
+      ]
+    },
+    {
+      "type": "Pattern",
+      "options": [
+        {
+          "text": "Camouflage",
+          "rh": "p_n_g-101017157714111:213408764011"
+        },
+        {
+          "text": "Geometric",
+          "rh": "p_n_g-101017157714111:213408758011"
+        },
+        {
+          "text": "Polka Dot",
+          "rh": "p_n_g-101017157714111:213408761011"
+        },
+        {
+          "text": "Solid",
+          "rh": "p_n_g-101017157714111:213408750011"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "asin": "B07ZTV2D9Q",
+      "title": "Men's Air Max 90 Leather Low-Top Sneakers",
+      "link": "https://www.amazon.com/Nike-Mens-Black-White-CN8490-003/dp/B07ZTV2D9Q/ref=sr_1_1?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-1",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 1755,
+      "price": "$119.97",
+      "extracted_price": 119.97,
+      "original_price": "$126.00",
+      "extracted_original_price": 126.0,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Tue, Nov 3",
+          "type": "FREE delivery",
+          "date": "Tue, Nov 3"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Wed, Oct 28",
+          "type": "Or fastest delivery",
+          "date": "Wed, Oct 28"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61wymPxcFOL._AC_UL320_.jpg"
+    },
+    {
+      "position": 2,
+      "asin": "B07ZTV8YMH",
+      "title": "Men's Air Max 90 Leather Low-Top Sneakers",
+      "link": "https://www.amazon.com/Nike-Mens-Running-Shoe-Black/dp/B07ZTV8YMH/ref=sr_1_2?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-2",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 1755,
+      "price": "$104.84",
+      "extracted_price": 104.84,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sun, Nov 1",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sun, Nov 1"
+        }
+      },
+      "is_overall_pick": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/712adsp2bQL._AC_UL320_.jpg"
+    },
+    {
+      "position": 3,
+      "asin": "B0CRXRWQ9F",
+      "title": "Air Max Excee Mens Shoes",
+      "link": "https://www.amazon.com/Nike-Excee-FN7304-001-White-Cool-Grey-Wolf/dp/B0CRXRWQ9F/ref=sr_1_3?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-3",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 9200,
+      "recent_sales": "800+ bought in past month",
+      "extracted_recent_sales": 800,
+      "price": "$80.97",
+      "extracted_price": 80.97,
+      "original_price": "$100.00",
+      "extracted_original_price": 100.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 3 - 7",
+          "type": "FREE delivery",
+          "date": "Nov 3 - 7"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 3 - 5",
+          "type": "Or fastest delivery",
+          "date": "Nov 3 - 5"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61enWtztGtL._AC_UL320_.jpg"
+    },
+    {
+      "position": 4,
+      "asin": "B07ZTV3G3Z",
+      "title": "Men's Air Max 90 Leather Low-Top Sneakers",
+      "link": "https://www.amazon.com/Nike-Mens-Running-Shoe-White/dp/B07ZTV3G3Z/ref=sr_1_4?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-4",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 1755,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$134.99",
+      "extracted_price": 134.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Tue, Nov 3",
+          "type": "FREE delivery",
+          "date": "Tue, Nov 3"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71xAjeQeKdL._AC_UL320_.jpg"
+    },
+    {
+      "position": 5,
+      "asin": "B07ZTVFSYZ",
+      "title": "Men's Air Max 90 Sneaker",
+      "link": "https://www.amazon.com/Nike-Running-White-Smoke-Black/dp/B07ZTVFSYZ/ref=sr_1_5_mod_primary_new?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=8-5",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 320,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$94.82",
+      "extracted_price": 94.82,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Thu, Oct 29",
+          "type": "FREE delivery",
+          "date": "Thu, Oct 29"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71LO8EkfROL._AC_UL320_.jpg"
+    },
+    {
+      "position": 6,
+      "asin": "B0G39V49MD",
+      "title": "Air Max 90 Men's Shoes (Smoke Grey/Black/Dark Smoke Grey/Photon Dust)",
+      "link": "https://www.amazon.com/Nike-Shoes-Smoke-Black-Photon/dp/B0G39V49MD/ref=sr_1_6?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-6",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 38,
+      "price": "$148.22",
+      "extracted_price": 148.22,
+      "original_price": "$156.30",
+      "extracted_original_price": 156.3,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Nov 7",
+          "type": "FREE delivery",
+          "date": "Sat, Nov 7"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/419WWOrNdJL._AC_UL320_.jpg"
+    },
+    {
+      "position": 7,
+      "asin": "B0DB6HNDJN",
+      "title": "Mens Nike Air Max 90 Premium",
+      "link": "https://www.amazon.com/Sneaker-White-Khaki-Racer-Black/dp/B0DB6HNDJN/ref=sr_1_7_mod_primary_new?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=8-7",
+      "brand": "Nike",
+      "rating": 5.0,
+      "reviews": 11,
+      "price": "$126.36",
+      "extracted_price": 126.36,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Oct 31",
+          "type": "FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51yBIOcEkOL._AC_UL320_.jpg"
+    },
+    {
+      "position": 8,
+      "asin": "B0HBNDL8CS",
+      "title": "Air Max 90 Drift Men's Trainers Sneakers",
+      "link": "https://www.amazon.com/Nike-Trainers-Sneakers-Cactus-Anthracite/dp/B0HBNDL8CS/ref=sr_1_8?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-8",
+      "brand": "Nike",
+      "rating": 3.5,
+      "reviews": 3,
+      "price": "$125.00",
+      "extracted_price": 125.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Tue, Nov 3",
+          "type": "FREE delivery",
+          "date": "Tue, Nov 3"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Sun, Nov 1",
+          "type": "Or fastest delivery",
+          "date": "Sun, Nov 1"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61QmbnZCpXL._AC_UL320_.jpg"
+    },
+    {
+      "position": 9,
+      "asin": "B07TNFZ248",
+      "title": "Women's Air Max Excee Shoes",
+      "link": "https://www.amazon.com/Nike-Womens-Excee-CD5432-Numeric_7/dp/B07TNFZ248/ref=sr_1_9?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-9",
+      "brand": "Nike",
+      "rating": 4.3,
+      "reviews": 3912,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61EhzYSznCL._AC_UL320_.jpg"
+    },
+    {
+      "position": 10,
+      "asin": "B0FQN1GW88",
+      "title": "Air Max Excee Mens Shoes",
+      "link": "https://www.amazon.com/Nike-Excee-Shoes-Crystal-Light-Grey-Black/dp/B0FQN1GW88/ref=sr_1_10?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-10",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 9200,
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61tFBU5DSKL._AC_UL320_.jpg"
+    },
+    {
+      "position": 11,
+      "asin": "B07ZTTXNYV",
+      "title": "Men's Air Max 90 Leather Low-Top Sneakers",
+      "link": "https://www.amazon.com/Nike-Running-White-Smoke-Black/dp/B07ZTTXNYV/ref=sr_1_11?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-11",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 1755,
+      "price": "$106.17",
+      "extracted_price": 106.17,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Oct 31",
+          "type": "FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61HCrC+2g8L._AC_UL320_.jpg"
+    },
+    {
+      "position": 12,
+      "asin": "B0CMBHSWQJ",
+      "title": "Air Max Excee Mens Shoes",
+      "link": "https://www.amazon.com/Nike-Mens-Air-Max-Excee/dp/B0CMBHSWQJ/ref=sr_1_12?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-12",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 9200,
+      "price": "$70.97",
+      "extracted_price": 70.97,
+      "original_price": "$100.00",
+      "extracted_original_price": 100.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61fGtHE153L._AC_UL320_.jpg"
+    },
+    {
+      "position": 13,
+      "asin": "B0GT1L4TNV",
+      "title": "Air Max 90 PRM Reflect - Men's (Neon Yellow/Anthracite/Black)",
+      "link": "https://www.amazon.com/Nike-Air-Max-PRM-Reflect/dp/B0GT1L4TNV/ref=sr_1_13?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-13",
+      "brand": "Nike",
+      "rating": 5.0,
+      "reviews": 7,
+      "price": "$110.00",
+      "extracted_price": 110.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61XxP0D3WjL._AC_UL320_.jpg"
+    },
+    {
+      "position": 14,
+      "asin": "B0CSF1TX93",
+      "title": "Men's Air Max",
+      "link": "https://www.amazon.com/Nike-Shoes-FB9658-400-Midnight-Medium/dp/B0CSF1TX93/ref=sr_1_14?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-14",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 129,
+      "price": "$142.68",
+      "extracted_price": 142.68,
+      "original_price": "$155.65",
+      "extracted_original_price": 155.65,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Fri, Oct 30",
+          "type": "FREE delivery",
+          "date": "Fri, Oct 30"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/41HA1Gfc2nL._AC_UL320_.jpg"
+    },
+    {
+      "position": 15,
+      "asin": "B0G39Q4WH5",
+      "title": "Air Max 90 Men's Shoes (Peony/Light Crimson/Team Crimson/White)",
+      "link": "https://www.amazon.com/Nike-Shoes-Peony-Light-Crimson/dp/B0G39Q4WH5/ref=sr_1_15?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-15",
+      "brand": "Nike",
+      "rating": 4.0,
+      "reviews": 13,
+      "price": "$113.77",
+      "extracted_price": 113.77,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71itGmHK5tL._AC_UL320_.jpg"
+    },
+    {
+      "position": 16,
+      "asin": "B07ZTTND37",
+      "title": "Men's Air Max 90",
+      "link": "https://www.amazon.com/Nike-Running-White-Smoke-Black/dp/B07ZTTND37/ref=sr_1_16?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-16",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 304,
+      "price": "$99.87",
+      "extracted_price": 99.87,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Oct 31",
+          "type": "FREE delivery",
+          "date": "Sat, Oct 31"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Thu, Oct 29",
+          "type": "Or fastest delivery",
+          "date": "Thu, Oct 29"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71LO8EkfROL._AC_UL320_.jpg"
+    },
+    {
+      "position": 17,
+      "asin": "B0FBRRG5SY",
+      "title": "Men's Air Max Fire Shoes",
+      "link": "https://www.amazon.com/Nike-Lifestyle-Shoes-Sneaker-Summit/dp/B0FBRRG5SY/ref=sr_1_17?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-17",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 1822,
+      "price": "$105.00",
+      "extracted_price": 105.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61LMtQrClUL._AC_UL320_.jpg"
+    },
+    {
+      "position": 18,
+      "asin": "B09Q27M76Y",
+      "title": "Womens Race",
+      "link": "https://www.amazon.com/NIKE-Running-Shoes-White-Black/dp/B09Q27M76Y/ref=sr_1_18?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-18",
+      "brand": "Nike",
+      "rating": 4.3,
+      "reviews": 1478,
+      "price": "$109.99",
+      "extracted_price": 109.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 8 - 13",
+          "type": "FREE delivery",
+          "date": "Nov 8 - 13"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 8 - 11",
+          "type": "Or fastest delivery",
+          "date": "Nov 8 - 11"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61zJOEEj5IL._AC_UL320_.jpg"
+    },
+    {
+      "position": 19,
+      "asin": "B07ZTVT6JM",
+      "title": "Men's Air Max 90 Premium Trainers",
+      "link": "https://www.amazon.com/Nike-Mens-Black-White-CN8490-003/dp/B07ZTVT6JM/ref=sr_1_19?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-19",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 419,
+      "price": "$112.73",
+      "extracted_price": 112.73,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sun, Nov 1",
+          "type": "FREE delivery",
+          "date": "Sun, Nov 1"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61wymPxcFOL._AC_UL320_.jpg"
+    },
+    {
+      "position": 20,
+      "asin": "B0H6RBSRDN",
+      "title": "Air Max 90 Women's Shoes (White/Tattoo/Light Violet/Violet Ore)",
+      "link": "https://www.amazon.com/Nike-Womens-Shoes-Tattoo-Violet/dp/B0H6RBSRDN/ref=sr_1_20?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-20",
+      "brand": "Nike",
+      "price": "$129.97",
+      "extracted_price": 129.97,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Mon, Nov 2",
+          "type": "FREE delivery",
+          "date": "Mon, Nov 2"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Sat, Oct 31",
+          "type": "Or fastest delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61B1J+nAJxL._AC_UL320_.jpg"
+    },
+    {
+      "position": 21,
+      "asin": "B01I467WYI",
+      "title": "Men's Air Max LTD 3 Shoes",
+      "link": "https://www.amazon.com/Nike-Mens-Sneaker-White-White-Black-Cool/dp/B01I467WYI/ref=sr_1_21_sspa?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike air max 90&qid=1793053387&sr=8-21-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 11531,
+      "price": "$135.00",
+      "extracted_price": 135.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 2 - 5",
+          "type": "FREE delivery",
+          "date": "Nov 2 - 5"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 2 - 3",
+          "type": "Or fastest delivery",
+          "date": "Nov 2 - 3"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61Xi409qERL._AC_UL320_.jpg"
+    },
+    {
+      "position": 22,
+      "asin": "B0949H5H5L",
+      "title": "Men's Fashion Sneakers Breathable Mesh Running Shoes Blade Non Slip Soft Sole Casual Athletic Walking Shoes",
+      "link": "https://www.amazon.com/Vooncosir-Comfortable-Sneakers-Athletic-Trainers/dp/B0949H5H5L/ref=sr_1_22_sspa?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike air max 90&qid=1793053387&sr=8-22-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Vooncosir",
+      "rating": 4.2,
+      "reviews": 5837,
+      "price": "$39.99",
+      "extracted_price": 39.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "availability": "Only 1 left in stock - order soon.",
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/81tPjaiTQ6S._AC_UL320_.jpg"
+    },
+    {
+      "position": 23,
+      "asin": "B0BWY9PD6V",
+      "title": "Mens Slip on Loafers Walking Tennis Shoes Laceless Running Blade Sneakers Mesh Trail Jogging Casual Athletic",
+      "link": "https://www.amazon.com/Poramea-Laceless-Sneakers-Running-Gradient/dp/B0BWY9PD6V/ref=sr_1_23_sspa?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike air max 90&qid=1793053387&sr=8-23-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Poramea",
+      "rating": 4.4,
+      "reviews": 1109,
+      "price": "$40.99",
+      "extracted_price": 40.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/614BanOSRxL._AC_UL320_.jpg"
+    },
+    {
+      "position": 24,
+      "asin": "B07ZTVBYWP",
+      "title": "Womens Nike Air Max Oketo",
+      "link": "https://www.amazon.com/Nike-Mens-90Sneaker-Iron-Grey/dp/B07ZTVBYWP/ref=sr_1_24_mod_primary_new?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=8-24",
+      "brand": "Nike",
+      "rating": 4.2,
+      "reviews": 586,
+      "price": "$89.65",
+      "extracted_price": 89.65,
+      "original_price": "$108.99",
+      "extracted_original_price": 108.99,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Mon, Nov 2",
+          "type": "FREE delivery",
+          "date": "Mon, Nov 2"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Wed, Oct 28",
+          "type": "Or fastest delivery",
+          "date": "Wed, Oct 28"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71LO8EkfROL._AC_UL320_.jpg"
+    },
+    {
+      "position": 25,
+      "asin": "B08CXTKG7P",
+      "title": "Men's Air Max 90 LTR Running Shoe",
+      "link": "https://www.amazon.com/Nike-Gymnastics-Shoes-Sneaker-Black/dp/B08CXTKG7P/ref=sr_1_25?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-25",
+      "brand": "Nike",
+      "rating": 4.3,
+      "reviews": 474,
+      "price": "$118.00",
+      "extracted_price": 118.0,
+      "original_price": "$139.98",
+      "extracted_original_price": 139.98,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Oct 30 - Nov 3",
+          "type": "FREE delivery",
+          "date": "Oct 30 - Nov 3"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Oct 28 - 30",
+          "type": "Or fastest delivery",
+          "date": "Oct 28 - 30"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/51DMo1X94bL._AC_UL320_.jpg"
+    },
+    {
+      "position": 26,
+      "asin": "B0H8FTB9VG",
+      "title": "Air Max 90 Men's Shoes (Black/Black/Tough Red)",
+      "link": "https://www.amazon.com/Nike-Mens-Shoes-Black-Tough/dp/B0H8FTB9VG/ref=sr_1_26?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-26",
+      "brand": "Nike",
+      "price": "$136.12",
+      "extracted_price": 136.12,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Oct 31",
+          "type": "FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/41yjsj7l8fL._AC_UL320_.jpg"
+    },
+    {
+      "position": 27,
+      "asin": "B0H2BGXJPS",
+      "title": "Air Max 90 'Mercurial' Men's Shoes (Black/Gold Leaf/Pair/White)",
+      "link": "https://www.amazon.com/Nike-Mercurial-Shoes-Black-White/dp/B0H2BGXJPS/ref=sr_1_27?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-27",
+      "brand": "Nike",
+      "price": "$135.94",
+      "extracted_price": 135.94,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Mon, Nov 2",
+          "type": "FREE delivery",
+          "date": "Mon, Nov 2"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Oct 28 - 29",
+          "type": "Or fastest delivery",
+          "date": "Oct 28 - 29"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71FLb6+w+GL._AC_UL320_.jpg"
+    },
+    {
+      "position": 28,
+      "asin": "B0BK39361S",
+      "title": "Women's Air Max 90 Futura",
+      "link": "https://www.amazon.com/Nike-Futura-Womens-Shoes-Size-7/dp/B0BK39361S/ref=sr_1_28?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-28",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 55,
+      "price": "$113.49",
+      "extracted_price": 113.49,
+      "original_price": "$119.95",
+      "extracted_original_price": 119.95,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Oct 31",
+          "type": "FREE delivery",
+          "date": "Sat, Oct 31"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Wed, Oct 28",
+          "type": "Or fastest delivery",
+          "date": "Wed, Oct 28"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/7160HD+iXtL._AC_UL320_.jpg"
+    },
+    {
+      "position": 29,
+      "asin": "B09P3SZYKY",
+      "title": "Men's Fashion Sneaker Non Slip Air Running Shoes for Men Athletics Sport Trainer Tennis Basketball Shoes",
+      "link": "https://www.amazon.com/Fashion-Sneaker-Running-Athletics-Basketball/dp/B09P3SZYKY/ref=sr_1_29_sspa?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike air max 90&qid=1793053387&sr=8-29-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Socviis",
+      "rating": 4.4,
+      "reviews": 1667,
+      "price": "$35.99",
+      "extracted_price": 35.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71E2aJla3JL._AC_UL320_.jpg"
+    },
+    {
+      "position": 30,
+      "asin": "B001DCZAP4",
+      "title": "Unisex Authentic Sneakers",
+      "link": "https://www.amazon.com/Vans-Authentic-Classics-Womens-Medium/dp/B001DCZAP4/ref=sr_1_30_sspa?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike air max 90&qid=1793053387&sr=8-30-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Vans",
+      "rating": 4.4,
+      "reviews": 185,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$60.00",
+      "extracted_price": 60.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 2",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 2"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/51oKHobncxL._AC_UL320_.jpg"
+    },
+    {
+      "position": 31,
+      "asin": "B0C1B39ZJH",
+      "title": "Men's Casual Dress Sneakers Tennis Walking Shoes",
+      "link": "https://www.amazon.com/VILOCY-Sneakers-Lightweight-Comfortable-Breathable/dp/B0C1B39ZJH/ref=sr_1_31_sspa?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike air max 90&qid=1793053387&sr=8-31-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "VILOCY",
+      "rating": 4.5,
+      "reviews": 13643,
+      "price": "$43.99",
+      "extracted_price": 43.99,
+      "original_price": "$47.99",
+      "extracted_original_price": 47.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "availability": "Only 5 left in stock - order soon.",
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/81w7R0zu2hL._AC_UL320_.jpg"
+    },
+    {
+      "position": 32,
+      "asin": "B089W174GF",
+      "title": "Mens Fashion Walking Lace Up High Top Shoes Stylish Running Athletic Casual Sneaker",
+      "link": "https://www.amazon.com/RUNMAXX-Fashion-Walking-Stylish-Athletic/dp/B089W174GF/ref=sr_1_32_sspa?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike air max 90&qid=1793053387&sr=8-32-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "RUNMAXX",
+      "rating": 4.4,
+      "reviews": 5019,
+      "price": "$44.99",
+      "extracted_price": 44.99,
+      "coupon": {
+        "badge_text": "You pay $40.49",
+        "text": "with coupon (some sizes/colors)"
+      },
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71eMOSnhr+L._AC_UL320_.jpg"
+    },
+    {
+      "position": 33,
+      "asin": "B0CJZF9NGV",
+      "title": "Women's Air Max 90 LV8 Sneaker",
+      "link": "https://www.amazon.com/Futura-Womens-Trainers-Beige-beige/dp/B0CJZF9NGV/ref=sr_1_33_mod_primary_new?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=8-33",
+      "brand": "Nike",
+      "rating": 4.7,
+      "reviews": 68,
+      "price": "$101.49",
+      "extracted_price": 101.49,
+      "original_price": "$107.03",
+      "extracted_original_price": 107.03,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Fri, Oct 30",
+          "type": "FREE delivery",
+          "date": "Fri, Oct 30"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/41JXhPIHjYL._AC_UL320_.jpg"
+    },
+    {
+      "position": 34,
+      "asin": "B0G2MZPQ66",
+      "title": "Air Max 90 Hyper Crimson Dm0029-018",
+      "link": "https://www.amazon.com/Nike-Mens-Smoke-Limelight-DM0029/dp/B0G2MZPQ66/ref=sr_1_34?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-34",
+      "brand": "Nike",
+      "rating": 4.2,
+      "reviews": 24,
+      "price": "$160.00",
+      "extracted_price": 160.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Thu, Oct 29",
+          "type": "FREE delivery",
+          "date": "Thu, Oct 29"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/418ZdvbdhHL._AC_UL320_.jpg"
+    },
+    {
+      "position": 35,
+      "asin": "B0F8J9JN55",
+      "title": "Women's Air Max 90 Sneaker, Burgundy Crush Black Sail, 7.5 US",
+      "link": "https://www.amazon.com/Nike-Womens-Sneaker-Burgundy-Crush/dp/B0F8J9JN55/ref=sr_1_35?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-35",
+      "brand": "Nike",
+      "rating": 5.0,
+      "reviews": 2,
+      "price": "$201.00",
+      "extracted_price": 201.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Fri, Oct 30",
+          "type": "FREE delivery",
+          "date": "Fri, Oct 30"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71b-9zUqu8L._AC_UL320_.jpg"
+    },
+    {
+      "position": 36,
+      "asin": "B0H2BS75L1",
+      "title": "Air Max 90 Iron Grey University Red Hv4517-001",
+      "link": "https://www.amazon.com/Nike-Premium-Unisex-Shoes-Color/dp/B0H2BS75L1/ref=sr_1_36?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-36",
+      "brand": "Nike",
+      "rating": 5.0,
+      "reviews": 1,
+      "price": "$121.76",
+      "extracted_price": 121.76,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Thu, Oct 29",
+          "type": "FREE delivery",
+          "date": "Thu, Oct 29"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/4140bv1VKNL._AC_UL320_.jpg"
+    },
+    {
+      "position": 37,
+      "asin": "B0G4LC84QT",
+      "title": "Men's Air Cushion Running Shoes Breathable Tennis Basketball Sneakers Non Slip Workout Casual Sport Shoes Gym Training Comfortable Fashion Shoes",
+      "link": "https://www.amazon.com/Luogoks-Breathable-Basketball-Sneakers-Comfortable/dp/B0G4LC84QT/ref=sr_1_37_sspa?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike air max 90&qid=1793053387&sr=8-37-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Luogoks",
+      "rating": 4.1,
+      "reviews": 185,
+      "price": "$29.99",
+      "extracted_price": 29.99,
+      "original_price": "$35.99",
+      "extracted_original_price": 35.99,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Tue, Nov 3 on $35 of items shipped by Amazon",
+          "type": "FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Tue, Nov 3"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Sun, Nov 1",
+          "type": "Or fastest delivery",
+          "date": "Sun, Nov 1"
+        }
+      },
+      "availability": "Only 1 left in stock - order soon.",
+      "is_sponsored": true,
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/7124Yjp8wrL._AC_UL320_.jpg"
+    },
+    {
+      "position": 38,
+      "asin": "B0GKJ98RRS",
+      "title": "Air Max 90 Premium Men's Shoes with Reflective Accents (Smoke Grey/Smoke Grey/Black)",
+      "link": "https://www.amazon.com/Nike-Premium-Shoes-Reflective-Accents/dp/B0GKJ98RRS/ref=sr_1_38?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-38",
+      "brand": "Nike",
+      "rating": 5.0,
+      "reviews": 6,
+      "price": "$171.59",
+      "extracted_price": 171.59,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Tue, Nov 3",
+          "type": "FREE delivery",
+          "date": "Tue, Nov 3"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/41mQ+rTkFyL._AC_UL320_.jpg"
+    },
+    {
+      "position": 39,
+      "asin": "B09Q25JKY7",
+      "title": "Men's Kyrie Flytrap IV Track Shoes",
+      "link": "https://www.amazon.com/Nike-Womens-White-Black-White-DH8010/dp/B09Q25JKY7/ref=sr_1_39?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-39",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 3314,
+      "price": "$105.00",
+      "extracted_price": 105.0,
+      "original_price": "$113.39",
+      "extracted_original_price": 113.39,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61zJOEEj5IL._AC_UL320_.jpg"
+    },
+    {
+      "position": 40,
+      "asin": "B0GZLW9FV2",
+      "title": "Air Max 90 - Men's (Blue Crystal/Light Smoke Grey/White)",
+      "link": "https://www.amazon.com/Nike-Air-Max-90-Crystal/dp/B0GZLW9FV2/ref=sr_1_40?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-40",
+      "brand": "Nike",
+      "rating": 4.8,
+      "reviews": 22,
+      "more_offers": {
+        "lowest_price": "$100.31",
+        "extracted_lowest_price": 100.31,
+        "link": "https://www.amazon.com/gp/offer-listing/B0GZLW9FV2/ref=sr_1_40_olp?keywords=nike+air+max+90&dib_tag=se&dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&qid=1793053387&sr=8-40",
+        "offers_count": 15,
+        "description": "(15 new offers)"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51RtMwS8XeL._AC_UL320_.jpg"
+    },
+    {
+      "position": 41,
+      "asin": "B0DZVH4Z1N",
+      "title": "Men's Air Max 90 G",
+      "link": "https://www.amazon.com/Nike-Mens-Sneaker-White-Black/dp/B0DZVH4Z1N/ref=sr_1_41?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-41",
+      "brand": "Nike",
+      "rating": 4.2,
+      "reviews": 112,
+      "more_offers": {
+        "lowest_price": "$176.47",
+        "extracted_lowest_price": 176.47,
+        "link": "https://www.amazon.com/gp/offer-listing/B0DZVH4Z1N/ref=sr_1_41_olp?keywords=nike+air+max+90&dib_tag=se&dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&qid=1793053387&sr=8-41",
+        "offers_count": 5,
+        "description": "(5 new offers)"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61LESDG6+bL._AC_UL320_.jpg"
+    },
+    {
+      "position": 42,
+      "asin": "B0FHPDCHDW",
+      "title": "Men's Cushioned Cotton Crew Socks, Multi-Pack for Work & Running",
+      "link": "https://www.amazon.com/WANDER-Cushion-Athletic-Performance-Trekking/dp/B0FHPDCHDW/ref=sr_1_42_sspa?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike air max 90&qid=1793053387&sr=8-42-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "WANDER",
+      "rating": 4.6,
+      "reviews": 15704,
+      "price": "$25.99",
+      "extracted_price": 25.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Oct 27",
+          "type": "Join Prime",
+          "date": "Tomorrow, Oct 27"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71vJElzAY4L._AC_UL320_.jpg"
+    },
+    {
+      "position": 43,
+      "asin": "B0F138BKFH",
+      "title": "Men's Air Max Alpha Trainer 6 Workout Shoes",
+      "link": "https://www.amazon.com/Nike-Alpha-Sneaker-White-Medium/dp/B0F138BKFH/ref=sr_1_43?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-43",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 3109,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$69.97",
+      "extracted_price": 69.97,
+      "original_price": "$100.00",
+      "extracted_original_price": 100.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61EJpQkpCIL._AC_UL320_.jpg"
+    },
+    {
+      "position": 44,
+      "asin": "B0CTJ615DV",
+      "title": "Air Max 90 Women’s",
+      "link": "https://www.amazon.com/Nike-Futura-Womens-DM9922-102-Summit/dp/B0CTJ615DV/ref=sr_1_44?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-44",
+      "brand": "Nike",
+      "rating": 4.3,
+      "reviews": 175,
+      "price": "$76.37",
+      "extracted_price": 76.37,
+      "original_price": "$104.89",
+      "extracted_original_price": 104.89,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "$21.69 delivery Fri, Oct 30",
+          "type": "$21.69 delivery",
+          "date": "Fri, Oct 30"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Thu, Oct 29",
+          "type": "Or fastest delivery",
+          "date": "Thu, Oct 29"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61zaF8ScZaL._AC_UL320_.jpg"
+    },
+    {
+      "position": 45,
+      "asin": "B0BTN3Z3MN",
+      "title": "Mens Air Max 90",
+      "link": "https://www.amazon.com/Nike-Running-Shoes-Baroque-Picante/dp/B0BTN3Z3MN/ref=sr_1_45?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-45",
+      "brand": "Nike",
+      "rating": 4.1,
+      "reviews": 6,
+      "price": "$194.00",
+      "extracted_price": 194.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Thu, Oct 29",
+          "type": "FREE delivery",
+          "date": "Thu, Oct 29"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51BDzYHlQqL._AC_UL320_.jpg"
+    },
+    {
+      "position": 46,
+      "asin": "B097HKBSB6",
+      "title": "Womens Sneaker",
+      "link": "https://www.amazon.com/Running-Black-White-Bright-Crimson/dp/B097HKBSB6/ref=sr_1_46?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-46",
+      "brand": "Nike",
+      "rating": 4.3,
+      "reviews": 1723,
+      "price": "$70.00",
+      "extracted_price": 70.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/712ZtRiRLQL._AC_UL320_.jpg"
+    },
+    {
+      "position": 47,
+      "asin": "B0H2BN97KY",
+      "title": "Air Max 'Laser 90' Men's Shoes (Zest/Fire Red/GIM Red/Black)",
+      "link": "https://www.amazon.com/Nike-Laser-Mens-Shoes-Black/dp/B0H2BN97KY/ref=sr_1_47?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-47",
+      "brand": "Nike",
+      "rating": 4.9,
+      "reviews": 10,
+      "price": "$234.12",
+      "extracted_price": 234.12,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Nov 7",
+          "type": "FREE delivery",
+          "date": "Sat, Nov 7"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71V0xm6rp+L._AC_UL320_.jpg"
+    },
+    {
+      "position": 48,
+      "asin": "B0CKW49CMV",
+      "title": "Men's Air Max 1 Sneakers",
+      "link": "https://www.amazon.com/Nike-Air-Mens-Shoes-Size/dp/B0CKW49CMV/ref=sr_1_48?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-48",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 287,
+      "price": "$163.95",
+      "extracted_price": 163.95,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Oct 29 - Nov 2",
+          "type": "FREE delivery",
+          "date": "Oct 29 - Nov 2"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Oct 28 - 30",
+          "type": "Or fastest delivery",
+          "date": "Oct 28 - 30"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51BUflo1aaL._AC_UL320_.jpg"
+    },
+    {
+      "position": 49,
+      "asin": "B0H8FTFTRZ",
+      "title": "Air Max 90 Men's Shoes (White/White/Smoke Gray)",
+      "link": "https://www.amazon.com/Nike-Mens-Shoes-White-Smoke/dp/B0H8FTFTRZ/ref=sr_1_49?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-49",
+      "brand": "Nike",
+      "price": "$224.00",
+      "extracted_price": 224.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Nov 7",
+          "type": "FREE delivery",
+          "date": "Sat, Nov 7"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/41kmsLyt2yL._AC_UL320_.jpg"
+    },
+    {
+      "position": 50,
+      "asin": "B0H2BKBX3P",
+      "title": "Air Max 90 'Timpo' Men's Shoes (Black/Black/Vintage Green/White)",
+      "link": "https://www.amazon.com/Nike-Timpo-Shoes-Black-Vintage/dp/B0H2BKBX3P/ref=sr_1_50?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-50",
+      "brand": "Nike",
+      "price": "$119.65",
+      "extracted_price": 119.65,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Tue, Nov 3",
+          "type": "FREE delivery",
+          "date": "Tue, Nov 3"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Sun, Nov 1",
+          "type": "Or fastest delivery",
+          "date": "Sun, Nov 1"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71mHCeuZZYL._AC_UL320_.jpg"
+    },
+    {
+      "position": 51,
+      "asin": "B0H2BJVQR1",
+      "title": "Air Max 90 'Hypervenom' Men's Shoes (Bright Citrus/Total Orange/Black)",
+      "link": "https://www.amazon.com/Nike-Hypervenom-Bright-Citrus-Orange/dp/B0H2BJVQR1/ref=sr_1_51?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-51",
+      "brand": "Nike",
+      "rating": 3.8,
+      "reviews": 15,
+      "price": "$132.67",
+      "extracted_price": 132.67,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Thu, Oct 29",
+          "type": "Join Prime",
+          "date": "Thu, Oct 29"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/619dggf+1xL._AC_UL320_.jpg"
+    },
+    {
+      "position": 52,
+      "asin": "B0DHLG8JHR",
+      "title": "Air Max 90 Men's Shoes (DM0029-107, White/Cyber/Dark Smoke Grey/Khaki) Size 14",
+      "link": "https://www.amazon.com/Nike-Shoes-DM0029-107-White-Cyber/dp/B0DHLG8JHR/ref=sr_1_52?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-52",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 2,
+      "more_offers": {
+        "lowest_price": "$184.00",
+        "extracted_lowest_price": 184.0,
+        "link": "https://www.amazon.com/gp/offer-listing/B0DHLG8JHR/ref=sr_1_52_olp?keywords=nike+air+max+90&dib_tag=se&dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&qid=1793053387&sr=8-52",
+        "offers_count": 1,
+        "description": "(1 new offer)"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61gCFGcs9jL._AC_UL320_.jpg"
+    },
+    {
+      "position": 53,
+      "asin": "B09Y9LX62T",
+      "title": "Women's Air Max Sneaker",
+      "link": "https://www.amazon.com/NIKE-Womens-Sneaker-White-11-5/dp/B09Y9LX62T/ref=sr_1_53?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-53",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 476,
+      "price": "$77.94",
+      "extracted_price": 77.94,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Fri, Oct 30",
+          "type": "FREE delivery",
+          "date": "Fri, Oct 30"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61E7H2GjgEL._AC_UL320_.jpg"
+    },
+    {
+      "position": 54,
+      "asin": "B0G5Q9XD1K",
+      "title": "Men's AIR MAX 90 Premium Sneakers",
+      "link": "https://www.amazon.com/Nike-Mens-White-Particle-Medium/dp/B0G5Q9XD1K/ref=sr_1_54?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-54",
+      "brand": "Nike",
+      "more_offers": {
+        "lowest_price": "$192.15",
+        "extracted_lowest_price": 192.15,
+        "link": "https://www.amazon.com/gp/offer-listing/B0G5Q9XD1K/ref=sr_1_54_olp?keywords=nike+air+max+90&dib_tag=se&dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&qid=1793053387&sr=8-54",
+        "offers_count": 5,
+        "description": "(5 new offers)"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61titI5xTrL._AC_UL320_.jpg"
+    },
+    {
+      "position": 55,
+      "asin": "B0FFP1HMBV",
+      "title": "Men's Air Max 90 Sneakers",
+      "link": "https://www.amazon.com/Nike-Mens-White-University-Medium/dp/B0FFP1HMBV/ref=sr_1_55?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-55",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 3,
+      "more_offers": {
+        "lowest_price": "$234.49",
+        "extracted_lowest_price": 234.49,
+        "link": "https://www.amazon.com/gp/offer-listing/B0FFP1HMBV/ref=sr_1_55_olp?keywords=nike+air+max+90&dib_tag=se&dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&qid=1793053387&sr=8-55",
+        "offers_count": 1,
+        "description": "(1 new offer)"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51RtP3JgTzL._AC_UL320_.jpg"
+    },
+    {
+      "position": 56,
+      "asin": "B07YDGL6QM",
+      "title": "Air Max Excee Mens Shoes",
+      "link": "https://www.amazon.com/Nike-Training-Running-Bianco-Cactus/dp/B07YDGL6QM/ref=sr_1_56?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-56",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 9200,
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Wed, Oct 28",
+          "type": "Join Prime",
+          "date": "Wed, Oct 28"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Sat, Oct 31",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Sat, Oct 31"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61RA5TeJcnL._AC_UL320_.jpg"
+    },
+    {
+      "position": 57,
+      "asin": "B0788YG5H8",
+      "title": "Men's Air Max 2017 Sneaker",
+      "link": "https://www.amazon.com/Nike-Mens-2017-Grey-849559-106/dp/B0788YG5H8/ref=sr_1_57?dib=eyJ2IjoiMSJ9.HckhHczNCepkGYmWKb0PrcxehlpBnOEAcvdoRPX_AUx5MzGjGXezDj9nz-bh0bmwqjOnp7MklZQMhavqFtGk9CCQPGzahrXLm46DEV3A5lx_JsyCy4YLxaWwBzZSuCmQmLyzj2wJYru-9oH2st3KKqnHdagaEqILgcdD0GGgl92RQ9_LRyFx_ufU1AjLEg8im3OIE2qnbLKQ9IPfHzmIXEGJEpMlhnxVEnokjyLw1pSSFtA6JIk5tbf2NKKnG9h8KLXm32ec0m6XdsDAwb5e8y6NbvQ0_J527QYZXiNouJc.Gw8m1EdbuTP9dCF0cJs29D_OLztyDZ6I-mwvRSDsr8M&dib_tag=se&keywords=nike+air+max+90&qid=1793053387&sr=8-57",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 4408,
+      "price": "$159.90",
+      "extracted_price": 159.9,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Mon, Nov 2",
+          "type": "FREE delivery",
+          "date": "Mon, Nov 2"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Wed, Oct 28",
+          "type": "Or fastest delivery",
+          "date": "Wed, Oct 28"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71r8H7NeSML._AC_UL320_.jpg"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.amazon.com/s?k=nike+air+max+90&page=2&xpid=kGG2F1CR4v1cT&qid=1793053387&ref=sr_pg_1",
+    "other_pages": {
+      "2": "https://www.amazon.com/s?k=nike+air+max+90&page=2&xpid=kGG2F1CR4v1cT&qid=1793053387&ref=sr_pg_2",
+      "3": "https://www.amazon.com/s?k=nike+air+max+90&page=3&xpid=kGG2F1CR4v1cT&qid=1793053387&ref=sr_pg_3"
+    }
+  }
+}

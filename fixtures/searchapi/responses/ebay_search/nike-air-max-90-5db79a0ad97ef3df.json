@@ -1,0 +1,1781 @@
+{
+  "search_metadata": {
+    "id": "search_M92XEY4l2JF3B1jQzkQG3b0J",
+    "status": "Success",
+    "created_at": "2026-10-26T22:23:06Z",
+    "request_time_taken": 3.38,
+    "parsing_time_taken": 0.18,
+    "total_time_taken": 3.56,
+    "request_url": "https://www.ebay.com/sch/i.html?_nkw=nike%20air%20max%2090&_fcid=1",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_M92XEY4l2JF3B1jQzkQG3b0J.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_M92XEY4l2JF3B1jQzkQG3b0J"
+  },
+  "search_parameters": {
+    "engine": "ebay_search",
+    "q": "nike air max 90",
+    "ebay_domain": "ebay.com",
+    "country": "US",
+    "delivery_country": "US"
+  },
+  "search_information": {
+    "query_displayed": "nike air max 90",
+    "total_results": 54000,
+    "sorted_by": "Sort: Best Match",
+    "buying_format": "All",
+    "language": "en"
+  },
+  "categories": [
+    {
+      "name": "Clothing, Shoes & Accessories",
+      "is_selected": true,
+      "subcategories": [
+        {
+          "name": "Men",
+          "link": "https://www.ebay.com/sch/260012/i.html?_fcid=1&_nkw=nike+air+max+90",
+          "category_id": "260012"
+        },
+        {
+          "name": "Women",
+          "link": "https://www.ebay.com/sch/260010/i.html?_fcid=1&_nkw=nike+air+max+90",
+          "category_id": "260010"
+        },
+        {
+          "name": "Kids",
+          "link": "https://www.ebay.com/sch/171146/i.html?_fcid=1&_nkw=nike+air+max+90",
+          "category_id": "171146"
+        },
+        {
+          "name": "Baby",
+          "link": "https://www.ebay.com/sch/260018/i.html?_fcid=1&_nkw=nike+air+max+90",
+          "category_id": "260018"
+        },
+        {
+          "name": "Specialty",
+          "link": "https://www.ebay.com/sch/260033/i.html?_fcid=1&_nkw=nike+air+max+90",
+          "category_id": "260033"
+        }
+      ]
+    },
+    {
+      "name": "Sporting Goods",
+      "link": "https://www.ebay.com/sch/888/i.html?_fcid=1&_nkw=nike+air+max+90",
+      "category_id": "888"
+    },
+    {
+      "name": "Home & Garden",
+      "link": "https://www.ebay.com/sch/11700/i.html?_fcid=1&_nkw=nike+air+max+90",
+      "category_id": "11700"
+    },
+    {
+      "name": "Sports Mem, Cards & Fan Shop",
+      "link": "https://www.ebay.com/sch/64482/i.html?_fcid=1&_nkw=nike+air+max+90",
+      "category_id": "64482"
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_fcid=1&_nkw=nike+air+max+90",
+      "category_id": "1"
+    },
+    {
+      "name": "Everything Else",
+      "link": "https://www.ebay.com/sch/99/i.html?_fcid=1&_nkw=nike+air+max+90",
+      "category_id": "99"
+    },
+    {
+      "name": "Jewelry & Watches",
+      "link": "https://www.ebay.com/sch/281/i.html?_fcid=1&_nkw=nike+air+max+90",
+      "category_id": "281"
+    },
+    {
+      "name": "Art",
+      "link": "https://www.ebay.com/sch/550/i.html?_fcid=1&_nkw=nike+air+max+90",
+      "category_id": "550"
+    },
+    {
+      "name": "Books & Magazines",
+      "link": "https://www.ebay.com/sch/267/i.html?_fcid=1&_nkw=nike+air+max+90",
+      "category_id": "267"
+    },
+    {
+      "name": "eBay Motors",
+      "link": "https://www.ebay.com/sch/6000/i.html?_fcid=1&_nkw=nike+air+max+90",
+      "category_id": "6000"
+    },
+    {
+      "name": "Travel",
+      "link": "https://www.ebay.com/sch/3252/i.html?_fcid=1&_nkw=nike+air+max+90",
+      "category_id": "3252"
+    },
+    {
+      "name": "Health & Beauty",
+      "link": "https://www.ebay.com/sch/26395/i.html?_fcid=1&_nkw=nike+air+max+90",
+      "category_id": "26395"
+    },
+    {
+      "name": "Business & Industrial",
+      "link": "https://www.ebay.com/sch/12576/i.html?_fcid=1&_nkw=nike+air+max+90",
+      "category_id": "12576"
+    },
+    {
+      "name": "Video Games & Consoles",
+      "link": "https://www.ebay.com/sch/1249/i.html?_fcid=1&_nkw=nike+air+max+90",
+      "category_id": "1249"
+    },
+    {
+      "name": "Pottery & Glass",
+      "link": "https://www.ebay.com/sch/870/i.html?_fcid=1&_nkw=nike+air+max+90",
+      "category_id": "870"
+    },
+    {
+      "name": "Baby",
+      "link": "https://www.ebay.com/sch/2984/i.html?_fcid=1&_nkw=nike+air+max+90",
+      "category_id": "2984"
+    },
+    {
+      "name": "Entertainment Memorabilia",
+      "link": "https://www.ebay.com/sch/45100/i.html?_fcid=1&_nkw=nike+air+max+90",
+      "category_id": "45100"
+    },
+    {
+      "name": "Antiques",
+      "link": "https://www.ebay.com/sch/20081/i.html?_fcid=1&_nkw=nike+air+max+90",
+      "category_id": "20081"
+    },
+    {
+      "name": "Toys & Hobbies",
+      "link": "https://www.ebay.com/sch/220/i.html?_fcid=1&_nkw=nike+air+max+90",
+      "category_id": "220"
+    }
+  ],
+  "filters": [
+    {
+      "type": "Shipping and pickup",
+      "options": [
+        {
+          "text": "Arrives in 2-4 days",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc&LH_FAST=1"
+        },
+        {
+          "text": "Free Shipping",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc&LH_FS=1"
+        },
+        {
+          "text": "Local Pickup within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc&_stpos=11207&LH_PrefLoc=99&_sadis=25&_fspt=1&LH_LPickup=1"
+        }
+      ]
+    },
+    {
+      "type": "Performance/Activity",
+      "options": [
+        {
+          "text": "Walking (19,095) Items",
+          "items": 19095,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Performance%252FActivity=Walking&_dcat=15709"
+        },
+        {
+          "text": "Running & Jogging (19,049) Items",
+          "items": 19049,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Performance%252FActivity=Running%2520%2526%2520Jogging&_dcat=15709"
+        },
+        {
+          "text": "Gym & Training (13,716) Items",
+          "items": 13716,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Performance%252FActivity=Gym%2520%2526%2520Training&_dcat=15709"
+        },
+        {
+          "text": "Cross Training (13,178) Items",
+          "items": 13178,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Performance%252FActivity=Cross%2520Training&_dcat=15709"
+        },
+        {
+          "text": "CrossFit (11,433) Items",
+          "items": 11433,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Performance%252FActivity=CrossFit&_dcat=15709"
+        },
+        {
+          "text": "Basketball (10,604) Items",
+          "items": 10604,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Performance%252FActivity=Basketball&_dcat=15709"
+        },
+        {
+          "text": "School (10,340) Items",
+          "items": 10340,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Performance%252FActivity=School&_dcat=15709"
+        },
+        {
+          "text": "Bodybuilding (6,208) Items",
+          "items": 6208,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Performance%252FActivity=Bodybuilding&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "options": [
+        {
+          "text": "Comfort (20,277) Items",
+          "items": 20277,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Features=Comfort&_dcat=15709"
+        },
+        {
+          "text": "Cushioned (15,106) Items",
+          "items": 15106,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Features=Cushioned&_dcat=15709"
+        },
+        {
+          "text": "Breathable (10,043) Items",
+          "items": 10043,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Features=Breathable&_dcat=15709"
+        },
+        {
+          "text": "Performance (8,209) Items",
+          "items": 8209,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Features=Performance&_dcat=15709"
+        },
+        {
+          "text": "Limited Edition (6,053) Items",
+          "items": 6053,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Features=Limited%2520Edition&_dcat=15709"
+        },
+        {
+          "text": "Lightweight (5,073) Items",
+          "items": 5073,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Features=Lightweight&_dcat=15709"
+        },
+        {
+          "text": "Adjustable (4,905) Items",
+          "items": 4905,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Features=Adjustable&_dcat=15709"
+        },
+        {
+          "text": "Arch Support (4,881) Items",
+          "items": 4881,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Features=Arch%2520Support&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Season",
+      "options": [
+        {
+          "text": "Spring (23,698) Items",
+          "items": 23698,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Season=Spring&_dcat=15709"
+        },
+        {
+          "text": "Summer (23,004) Items",
+          "items": 23004,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Season=Summer&_dcat=15709"
+        },
+        {
+          "text": "Fall (20,788) Items",
+          "items": 20788,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Season=Fall&_dcat=15709"
+        },
+        {
+          "text": "Winter (17,680) Items",
+          "items": 17680,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Season=Winter&_dcat=15709"
+        },
+        {
+          "text": "Not Specified (31,446) Items",
+          "items": 31446,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Season=%21&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Theme",
+      "options": [
+        {
+          "text": "90s (11,448) Items",
+          "items": 11448,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Theme=90s&_dcat=15709"
+        },
+        {
+          "text": "Retro (7,521) Items",
+          "items": 7521,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Theme=Retro&_dcat=15709"
+        },
+        {
+          "text": "Colorful (7,516) Items",
+          "items": 7516,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Theme=Colorful&_dcat=15709"
+        },
+        {
+          "text": "Sports (7,004) Items",
+          "items": 7004,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Theme=Sports&_dcat=15709"
+        },
+        {
+          "text": "Classic (3,889) Items",
+          "items": 3889,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Theme=Classic&_dcat=15709"
+        },
+        {
+          "text": "80s (3,873) Items",
+          "items": 3873,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Theme=80s&_dcat=15709"
+        },
+        {
+          "text": "Athleisure (3,110) Items",
+          "items": 3110,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Theme=Athleisure&_dcat=15709"
+        },
+        {
+          "text": "Air Force (2,492) Items",
+          "items": 2492,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Theme=Air%2520Force&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Product Line",
+      "options": [
+        {
+          "text": "Nike Air (38,152) Items",
+          "items": 38152,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Product%2520Line=Nike%2520Air&_dcat=15709"
+        },
+        {
+          "text": "Nike Air Max (33,894) Items",
+          "items": 33894,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Product%2520Line=Nike%2520Air%2520Max&_dcat=15709"
+        },
+        {
+          "text": "Nike Max (1,825) Items",
+          "items": 1825,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Product%2520Line=Nike%2520Max&_dcat=15709"
+        },
+        {
+          "text": "Air Jordan (725) Items",
+          "items": 725,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Product%2520Line=Air%2520Jordan&_dcat=15709"
+        },
+        {
+          "text": "Nike Air Force (517) Items",
+          "items": 517,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Product%2520Line=Nike%2520Air%2520Force&_dcat=15709"
+        },
+        {
+          "text": "Nike Zoom (320) Items",
+          "items": 320,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Product%2520Line=Nike%2520Zoom&_dcat=15709"
+        },
+        {
+          "text": "Nike Air VaporMax (232) Items",
+          "items": 232,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Product%2520Line=Nike%2520Air%2520VaporMax&_dcat=15709"
+        },
+        {
+          "text": "Nike Air Zoom (222) Items",
+          "items": 222,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Product%2520Line=Nike%2520Air%2520Zoom&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Model",
+      "options": [
+        {
+          "text": "Nike Air Max 90 (37,309) Items",
+          "items": 37309,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Model=Nike%2520Air%2520Max%252090&_dcat=15709"
+        },
+        {
+          "text": "Nike Air Max 90 Premium (3,185) Items",
+          "items": 3185,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Model=Nike%2520Air%2520Max%252090%2520Premium&_dcat=15709"
+        },
+        {
+          "text": "Nike Air Max (2,562) Items",
+          "items": 2562,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Model=Nike%2520Air%2520Max&_dcat=15709"
+        },
+        {
+          "text": "Nike Air Max 95 (2,088) Items",
+          "items": 2088,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Model=Nike%2520Air%2520Max%252095&_dcat=15709"
+        },
+        {
+          "text": "Nike Air Max 90 Golf (1,643) Items",
+          "items": 1643,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Model=Nike%2520Air%2520Max%252090%2520Golf&_dcat=15709"
+        },
+        {
+          "text": "Nike Air Max 1 (1,044) Items",
+          "items": 1044,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Model=Nike%2520Air%2520Max%25201&_dcat=15709"
+        },
+        {
+          "text": "Nike Air Max 90 SE (869) Items",
+          "items": 869,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Model=Nike%2520Air%2520Max%252090%2520SE&_dcat=15709"
+        },
+        {
+          "text": "Nike Air Max 90 Essential (790) Items",
+          "items": 790,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Model=Nike%2520Air%2520Max%252090%2520Essential&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Occasion",
+      "options": [
+        {
+          "text": "Casual (23,939) Items",
+          "items": 23939,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Occasion=Casual&_dcat=15709"
+        },
+        {
+          "text": "Activewear (22,196) Items",
+          "items": 22196,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Occasion=Activewear&_dcat=15709"
+        },
+        {
+          "text": "Workwear (7,685) Items",
+          "items": 7685,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Occasion=Workwear&_dcat=15709"
+        },
+        {
+          "text": "Not Specified (29,871) Items",
+          "items": 29871,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&Occasion=%21&_dcat=15709"
+        }
+      ]
+    },
+    {
+      "type": "Condition",
+      "options": [
+        {
+          "text": "New with tags (53,673) Items",
+          "items": 53673,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc&LH_ItemCondition=1000"
+        },
+        {
+          "text": "New without tags (8,193) Items",
+          "items": 8193,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc&LH_ItemCondition=1500"
+        },
+        {
+          "text": "New with imperfections (1,483) Items",
+          "items": 1483,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc&LH_ItemCondition=1750"
+        },
+        {
+          "text": "Pre-Owned (41,163) Items",
+          "items": 41163,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc&LH_ItemCondition=3000"
+        },
+        {
+          "text": "Not Specified (9) Items",
+          "items": 9,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc&LH_ItemCondition=10"
+        }
+      ]
+    },
+    {
+      "type": "Buying Format",
+      "options": [
+        {
+          "text": "All Listings (104,521) Items",
+          "items": 104521,
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc"
+        },
+        {
+          "text": "Auction (586) Items",
+          "items": 586,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc&LH_Auction=1"
+        },
+        {
+          "text": "Buy It Now (104,088) Items",
+          "items": 104088,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc&LH_BIN=1"
+        },
+        {
+          "text": "Accepts Offers (45,005) Items",
+          "items": 45005,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc&LH_BO=1"
+        }
+      ]
+    },
+    {
+      "type": "Item Location",
+      "options": [
+        {
+          "text": "Default",
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc&LH_PrefLoc=98"
+        },
+        {
+          "text": "Within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&_dcat=15709&_sadis=25&_stpos=11207&_fspt=1"
+        },
+        {
+          "text": "US Only",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc&LH_PrefLoc=1"
+        },
+        {
+          "text": "North America",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc&LH_PrefLoc=3"
+        },
+        {
+          "text": "Worldwide",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc&LH_PrefLoc=2"
+        }
+      ]
+    },
+    {
+      "type": "Show only",
+      "options": [
+        {
+          "text": "Free Returns",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc&LH_FR=1"
+        },
+        {
+          "text": "Returns Accepted",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc&LH_RPA=1"
+        },
+        {
+          "text": "Authorized Seller",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc&LH_AS=1"
+        },
+        {
+          "text": "Completed Items",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc&LH_Complete=1"
+        },
+        {
+          "text": "Sold Items",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc&LH_Sold=1"
+        },
+        {
+          "text": "Deals & Savings",
+          "link": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&rt=nc&LH_Savings=1"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "item_id": "226379737344",
+      "title": "Nike Serena Williams x Off-White x Air Max 97 OG Queen Size 4.5 Mens / 6 Womens",
+      "subtitle": "US M 4.5 · Nike · Nike Air",
+      "link": "https://www.ebay.com/itm/226379737344",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$699.99",
+      "extracted_price": 699.99,
+      "original_price": "$799.99",
+      "extracted_original_price": 799.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "deal": "$628.99 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/sP8AAOSw7bFm~CmT/s-l500.webp"
+    },
+    {
+      "position": 2,
+      "item_id": "317507689108",
+      "title": "Nike Air Max 90 SE Black and White Men's DM6178-010",
+      "subtitle": "US M 10 + more · Nike",
+      "link": "https://www.ebay.com/itm/317507689108",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 1,
+      "reviews_link": "https://www.ebay.com/p/13050254795?iid=317507689108&var=616043516796#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in Puerto Rico",
+        "32+ sold"
+      ],
+      "price": "$157.70",
+      "extracted_price": 157.7,
+      "original_price": "$166.00",
+      "extracted_original_price": 166.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/Yn0AAeSwd3lpC-yV/s-l500.webp"
+    },
+    {
+      "position": 3,
+      "item_id": "334508378270",
+      "title": "Nike Men's Air Max 1 Patta Waves Noise Aqua Blue w Bracelet 2021 Sail DH1348-004",
+      "subtitle": "US M 4 + more · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/334508378270",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Import fees due prior to delivery",
+        "Located in Taiwan"
+      ],
+      "price": "$299.95",
+      "extracted_price": 299.95,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/QCIAAOSw5sZjekqG/s-l140.webp"
+    },
+    {
+      "position": 4,
+      "item_id": "295103319795",
+      "title": "Nike Men's Air Max 1 Patta Waves Monarch Orange w/ Bracelet 2021 Sail DH1348-001",
+      "subtitle": "US M 4 + more · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/295103319795",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Import fees due prior to delivery",
+        "Located in Taiwan"
+      ],
+      "price": "$299.95",
+      "extracted_price": 299.95,
+      "shipping": "+$19.95 delivery",
+      "extracted_shipping": 19.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/w5MAAOSw9ltjeko8/s-l140.webp"
+    },
+    {
+      "position": 5,
+      "item_id": "307248978591",
+      "title": "Nike Air Max 90 Men's Black Leather Low Top Lace-Up Sneakers US 9.5",
+      "subtitle": "US M 9.5 · Nike",
+      "link": "https://www.ebay.com/itm/307248978591",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$18.00",
+      "extracted_price": 18.0,
+      "shipping": "+$6.38 delivery",
+      "extracted_shipping": 6.38,
+      "thumbnail": "https://i.ebayimg.com/images/g/5EcAAeSwiMFq3jpz/s-l140.webp"
+    },
+    {
+      "position": 6,
+      "item_id": "900042567340",
+      "title": "Nike Air Max 90 Drift Black Anthracite Dusty Cactus Sz 10 IO1908-010 VNDS OG Box",
+      "subtitle": "US M 10 · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/900042567340",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$129.99",
+      "extracted_price": 129.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/xYQAAeSwjJlq34GO/s-l140.webp"
+    },
+    {
+      "position": 7,
+      "item_id": "137789180698",
+      "title": "Nike Air Max 90 Men's JA1015 411",
+      "subtitle": "US M 9 + more · Nike",
+      "link": "https://www.ebay.com/itm/137789180698",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$165.99",
+      "extracted_price": 165.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/cfIAAeSwhp5qumTD/s-l140.webp"
+    },
+    {
+      "position": 8,
+      "item_id": "407302377170",
+      "title": "Nike Air Max 90 Ice Blue/ White 100% Authentic Guaranteed NIB JA1015 411",
+      "subtitle": "US M 10 + more · Nike · Nike Air",
+      "link": "https://www.ebay.com/itm/407302377170",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$109.99",
+      "extracted_price": 109.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/T6MAAeSwvvtq1qni/s-l140.webp"
+    },
+    {
+      "position": 9,
+      "item_id": "407318419353",
+      "title": "Nike Air Max 90 LTR Pearl Pink/Baroque Brown 3.5Y Women's 5 FD0789-600",
+      "subtitle": "US M 3.5 · Nike",
+      "link": "https://www.ebay.com/itm/407318419353",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/SZAAAeSw-7Bq380U/s-l140.webp"
+    },
+    {
+      "position": 10,
+      "item_id": "307248990847",
+      "title": "Nike Air Max 90 Men's Black Low Top Lace-Up Sneakers US 9 2022 DQ4071-001",
+      "subtitle": "US M 9 · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/307248990847",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$34.00",
+      "extracted_price": 34.0,
+      "shipping": "+$6.38 delivery",
+      "extracted_shipping": 6.38,
+      "thumbnail": "https://i.ebayimg.com/images/g/BNsAAeSwvaBq3j0s/s-l140.webp"
+    },
+    {
+      "position": 11,
+      "item_id": "327405481323",
+      "title": "Nike Air Max 90 Sequoia Newstone IQ0225-002 Men’s Shoes NEW",
+      "subtitle": "US M 10 + more · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/327405481323",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$113.04",
+      "extracted_price": 113.04,
+      "original_price": "$118.99",
+      "extracted_original_price": 118.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/WcgAAeSwixNq0CKl/s-l140.webp"
+    },
+    {
+      "position": 12,
+      "item_id": "860086520626",
+      "title": "Nike Air Max 90 Black Sapphire DM0029-021 Men's Casual Running Sneakers Shoes",
+      "subtitle": "US M 11.5 · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/860086520626",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$127.00",
+      "extracted_price": 127.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/Yr0AAeSwqQFq37a9/s-l140.webp"
+    },
+    {
+      "position": 13,
+      "item_id": "366683280427",
+      "title": "Nike Air Max 90 Drift Black Dusty Cactus IO1908-010 Men's Sneakers Multi Size",
+      "subtitle": "US M 9 + more · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/366683280427",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$94.99",
+      "extracted_price": 94.99,
+      "original_price": "$99.99",
+      "extracted_original_price": 99.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "deal": "$90.24 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/-FkAAeSw4~BqsZk7/s-l140.webp"
+    },
+    {
+      "position": 14,
+      "item_id": "820277570879",
+      "title": "Size 12 - Nike Air Max 90 Premium Cinder Cone New",
+      "subtitle": "US M 12 · Nike",
+      "link": "https://www.ebay.com/itm/820277570879",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "price": "$151.00",
+      "extracted_price": 151.0,
+      "shipping": "Located in United States",
+      "deal": "+$7.06 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/-6cAAeSwiAVq3pzr/s-l140.webp"
+    },
+    {
+      "position": 15,
+      "item_id": "377599518100",
+      "title": "Nike Air Max 90 Neon Black/Neon Yellow/Gray Low Top Sneakers Men’s 10.5",
+      "subtitle": "US M 10.5 · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/377599518100",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$80.00",
+      "extracted_price": 80.0,
+      "shipping": "+$6.38 delivery",
+      "extracted_shipping": 6.38,
+      "thumbnail": "https://i.ebayimg.com/images/g/ogYAAeSwuKhq38A1/s-l140.webp"
+    },
+    {
+      "position": 16,
+      "item_id": "297454311804",
+      "title": "Nike Air Max 90 Custom – Royal Blue Black Drip | Hand-Painted | Dripped Custom",
+      "subtitle": "US M 14.5 + more · Nike",
+      "link": "https://www.ebay.com/itm/297454311804",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "2+ watchers"
+      ],
+      "price": "$279.99 to $329.99",
+      "extracted_price_range": {
+        "from": 279.99,
+        "to": 329.99
+      },
+      "is_price_range": true,
+      "shipping": "Free delivery",
+      "deal": "From $264.99 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/HdIAAeSwwTlqiwpP/s-l140.webp"
+    },
+    {
+      "position": 17,
+      "item_id": "147653014523",
+      "title": "Nike Air Max 90 Bucktan Team Navy DZ5175-200 Men's Size 15",
+      "subtitle": "US M 15 · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/147653014523",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$125.00",
+      "extracted_price": 125.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/~mQAAeSw26lq37PI/s-l140.webp"
+    },
+    {
+      "position": 18,
+      "item_id": "136345245738",
+      "title": "Nike Air Max 90 Triple Black CN8490-003 Fashion Shoes",
+      "subtitle": "US M 10 + more · Nike",
+      "link": "https://www.ebay.com/itm/136345245738",
+      "condition": "Brand New",
+      "rating": 4.5,
+      "reviews": 3,
+      "reviews_link": "https://www.ebay.com/p/23039820416?iid=136345245738&var=435204542657#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$92.99 to $99.99",
+      "extracted_price_range": {
+        "from": 92.99,
+        "to": 99.99
+      },
+      "is_price_range": true,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/H4IAAeSw1VBoph6e/s-l140.webp"
+    },
+    {
+      "position": 19,
+      "item_id": "267736651722",
+      "title": "Nike Air Max 90 Perforated Leather White Black IV2867-100 Men's Size New",
+      "subtitle": "US M 10 + more · Nike · Nike Air",
+      "link": "https://www.ebay.com/itm/267736651722",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$122.99",
+      "extracted_price": 122.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/XGcAAeSwlktqXnBS/s-l140.webp"
+    },
+    {
+      "position": 20,
+      "item_id": "267712795182",
+      "title": "Nike Air Max 90 Drift Anthracite Black Wolf Grey IO1908-003 Men's Size New",
+      "subtitle": "US M 9 + more · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/267712795182",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$107.24",
+      "extracted_price": 107.24,
+      "original_price": "$142.99",
+      "extracted_original_price": 142.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/aTIAAeSwfZRqcj3Z/s-l140.webp"
+    },
+    {
+      "position": 21,
+      "item_id": "900042617928",
+      "title": "Nike Air Max 90 Surplus Midnight Navy Hyper Jade Size 8 DC9389-400 9.5/10 OG Box",
+      "subtitle": "US M 8 · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/900042617928",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$149.99",
+      "extracted_price": 149.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/fhAAAeSw919q34j4/s-l140.webp"
+    },
+    {
+      "position": 22,
+      "item_id": "227486964711",
+      "title": "New NIKE Air Max 90 Classic Retro Men's Athletic Sneakers black gum all sizes",
+      "subtitle": "US M 10 + more · Nike · Nike Air",
+      "link": "https://www.ebay.com/itm/227486964711",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$169.95",
+      "extracted_price": 169.95,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/WXUAAeSwiOxqijCl/s-l140.webp"
+    },
+    {
+      "position": 23,
+      "item_id": "168818134744",
+      "title": "Size 10.5 Nike Air Max 90 Infrared 2010 Read Description",
+      "subtitle": "US M 10.5 · Nike · Nike Air",
+      "link": "https://www.ebay.com/itm/168818134744",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 1,
+      "reviews_link": "https://www.ebay.com/p/23039818199?iid=168818134744#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$39.00",
+      "extracted_price": 39.0,
+      "shipping": "+$6.78 delivery",
+      "extracted_shipping": 6.78,
+      "thumbnail": "https://i.ebayimg.com/images/g/IMMAAeSwQ~5q34B4/s-l140.webp"
+    },
+    {
+      "position": 24,
+      "item_id": "398316211097",
+      "title": "Nike Air Max 90 White Wolf Grey Diffused Blue IB7680-100 Men's Sizes NEW",
+      "subtitle": "US M 10 + more · Nike",
+      "link": "https://www.ebay.com/itm/398316211097",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$150.00",
+      "extracted_price": 150.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/ivoAAeSwiTNqixG7/s-l140.webp"
+    },
+    {
+      "position": 25,
+      "item_id": "287681358330",
+      "title": "Nike Air Max 90 Gray/White/Orange Low Top Leather Lace-Up Men's Sneakers",
+      "subtitle": "US M 7 · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/287681358330",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$20.00",
+      "extracted_price": 20.0,
+      "shipping": "+$10.08 delivery",
+      "extracted_shipping": 10.08,
+      "thumbnail": "https://i.ebayimg.com/images/g/yh4AAeSwoitq31wK/s-l140.webp"
+    },
+    {
+      "position": 26,
+      "item_id": "880015961990",
+      "title": "Nike Air Max 90 Premium Light Smoke Grey Volt IM5759-004 Multi Men Sizes New",
+      "subtitle": "US M 10 + more · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/880015961990",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$99.97",
+      "extracted_price": 99.97,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/39cAAeSwfNpqzwhx/s-l140.webp"
+    },
+    {
+      "position": 27,
+      "item_id": "267696233921",
+      "title": "Nike Air Max 90 White Hyper Turquoise IB7680-101 Men's Size New",
+      "subtitle": "US M 9 + more · Nike · Nike Air",
+      "link": "https://www.ebay.com/itm/267696233921",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$123.99",
+      "extracted_price": 123.99,
+      "original_price": "$154.99",
+      "extracted_original_price": 154.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/ELsAAeSwI5lqKsYK/s-l140.webp"
+    },
+    {
+      "position": 28,
+      "item_id": "188904361794",
+      "title": "Nike Air Max 90 White Black Hot Curry DM0029-100 Men's New",
+      "subtitle": "US M 10 + more · Nike",
+      "link": "https://www.ebay.com/itm/188904361794",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$121.25",
+      "extracted_price": 121.25,
+      "original_price": "$128.99",
+      "extracted_original_price": 128.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/nHQAAeSw4jlqoSee/s-l140.webp"
+    },
+    {
+      "position": 29,
+      "item_id": "198737678826",
+      "title": "Nike Air Max 90 Green Black Yellow, Dc3621-991 Men’s 9 Excellent Shape Rare Find",
+      "subtitle": "US M 9 · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/198737678826",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$139.99",
+      "extracted_price": 139.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/OeIAAeSwDptq2qgH/s-l140.webp"
+    },
+    {
+      "position": 30,
+      "item_id": "147563684085",
+      "title": "Nike Air Max 90 Men Shoe DO6706-002 Smoke Grey Light USA NO DUTY FEE",
+      "subtitle": "US M 10 + more · Nike · Nike Air",
+      "link": "https://www.ebay.com/itm/147563684085",
+      "condition": "New (Other)",
+      "rating": 5.0,
+      "reviews": 1,
+      "reviews_link": "https://www.ebay.com/p/5052112271?iid=147563684085&var=445839562491#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Import fees due prior to delivery",
+        "Located in Kenya",
+        "2+ watchers"
+      ],
+      "price": "$75.00",
+      "extracted_price": 75.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/RhoAAeSwBzxq2tkT/s-l140.webp"
+    },
+    {
+      "position": 31,
+      "item_id": "366659396558",
+      "title": "Nike Air Max 90 Triple Black CN8490-003 Men Shoe Running Sneaker",
+      "subtitle": "US M 9.5 + more · Nike · Nike Air",
+      "link": "https://www.ebay.com/itm/366659396558",
+      "condition": "New (Other)",
+      "rating": 4.5,
+      "reviews": 3,
+      "reviews_link": "https://www.ebay.com/p/14039806471?iid=366659396558&var=636321351197#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "7+ sold"
+      ],
+      "price": "$69.00",
+      "extracted_price": 69.0,
+      "shipping": "+$6.00 delivery",
+      "extracted_shipping": 6.0,
+      "thumbnail": "https://i.ebayimg.com/images/g/SuAAAeSwPEtqogRQ/s-l140.webp"
+    },
+    {
+      "position": 32,
+      "item_id": "198729318298",
+      "title": "Men’s 10 Nike Air Max 90 Navy Blue Grey 325018-402 No Box Excellent Shape",
+      "subtitle": "US M 10 · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/198729318298",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$115.00",
+      "extracted_price": 115.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/P0wAAeSwyQBq1soE/s-l140.webp"
+    },
+    {
+      "position": 33,
+      "item_id": "327291156362",
+      "title": "Men’s Size 10.5 Nike Air Max 90 Triple Black CN8490-003 ((No Lid))",
+      "subtitle": "US M 10.5 · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/327291156362",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 2,
+      "reviews_link": "https://www.ebay.com/p/3039812270?iid=327291156362#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$89.99",
+      "extracted_price": 89.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/RTgAAeSwH-dp4YKR/s-l140.webp"
+    },
+    {
+      "position": 34,
+      "item_id": "198747943278",
+      "title": "Nike Air Max 90 white / white wold grey. Size 9 M",
+      "subtitle": "US M 9 · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/198747943278",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 3,
+      "reviews_link": "https://www.ebay.com/p/16051937958?iid=198747943278#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$50.00",
+      "extracted_price": 50.0,
+      "shipping": "+$11.92 delivery",
+      "extracted_shipping": 11.92,
+      "thumbnail": "https://i.ebayimg.com/images/g/xG8AAeSwAD5q38uX/s-l140.webp"
+    },
+    {
+      "position": 35,
+      "item_id": "189005641736",
+      "title": "Nike Air Max 90 Premium Light Smoke Grey Volt IM5759-004 Men's New",
+      "subtitle": "US M 10 + more · Nike",
+      "link": "https://www.ebay.com/itm/189005641736",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$116.55",
+      "extracted_price": 116.55,
+      "original_price": "$123.99",
+      "extracted_original_price": 123.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/LrkAAeSwU6JqusZQ/s-l140.webp"
+    },
+    {
+      "position": 36,
+      "item_id": "285476012746",
+      "title": "Nike Air Max 90 Triple White Wolf Grey CN8490-100 Men's Retro OG",
+      "subtitle": "US M 10 + more · Nike · Nike Air",
+      "link": "https://www.ebay.com/itm/285476012746",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 1,
+      "reviews_link": "https://www.ebay.com/p/8051948844?iid=285476012746&var=587416535923#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$104.49",
+      "extracted_price": 104.49,
+      "original_price": "$109.99",
+      "extracted_original_price": 109.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/JrAAAOSwxAFfyZlE/s-l140.webp"
+    },
+    {
+      "position": 37,
+      "item_id": "237080360798",
+      "title": "New NIKE Air Max 90 Classic Retro Men's Athletic Sneakers black gray all sizes",
+      "subtitle": "US M 10 + more · Nike · Nike Air",
+      "link": "https://www.ebay.com/itm/237080360798",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$169.95",
+      "extracted_price": 169.95,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/GFMAAeSwCjBqtBfF/s-l140.webp"
+    },
+    {
+      "position": 38,
+      "item_id": "137876911329",
+      "title": "Nike Air Max 90 \"Cargo Khaki Total Orange\" Men's IZ9645-325",
+      "subtitle": "US M 9 + more · Nike · Nike Air",
+      "link": "https://www.ebay.com/itm/137876911329",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$169.99",
+      "extracted_price": 169.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/SDQAAeSwyhVq32uE/s-l140.webp"
+    },
+    {
+      "position": 39,
+      "item_id": "860018333043",
+      "title": "Nike Air Max 90 Premium Iron Grey University Red",
+      "subtitle": "US M 8 · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/860018333043",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$69.00",
+      "extracted_price": 69.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/HpUAAeSw5s1qxe6B/s-l140.webp"
+    },
+    {
+      "position": 40,
+      "item_id": "198729022612",
+      "title": "Men’s Size 9.5 - Nike Air Max 90 Exeter Edition - Aurora Green No Box Excellent",
+      "subtitle": "US M 9.5 · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/198729022612",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$117.99",
+      "extracted_price": 117.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/wj0AAeSwyXJq1qWF/s-l140.webp"
+    },
+    {
+      "position": 41,
+      "item_id": "267677616956",
+      "title": "Nike Air Max 90 Smoke Grey Black IQ0580-084 Men's Size New",
+      "subtitle": "US M 10 + more · Nike · Nike Air",
+      "link": "https://www.ebay.com/itm/267677616956",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$104.99",
+      "extracted_price": 104.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/a-QAAeSw1URqEL~H/s-l140.webp"
+    },
+    {
+      "position": 42,
+      "item_id": "227476162113",
+      "title": "Nike Air Max 90 Triple Black CN8490-003 Size 9.5, 10, 10.5 Men",
+      "subtitle": "US M 9.5 + more · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/227476162113",
+      "condition": "New (Other)",
+      "rating": 4.5,
+      "reviews": 3,
+      "reviews_link": "https://www.ebay.com/p/14039806471?iid=227476162113&var=526655340722#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Authenticity Guarantee"
+      ],
+      "price": "$88.00",
+      "extracted_price": 88.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "deal": "$83.60 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/iNYAAeSwkB5qaPvR/s-l140.webp"
+    },
+    {
+      "position": 43,
+      "item_id": "267580678453",
+      "title": "Nike Air Max 90 Drift Black Bright Ceramic IO1908-001 Men's Size New",
+      "subtitle": "US M 9 + more · Nike · Nike Air",
+      "link": "https://www.ebay.com/itm/267580678453",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$119.99",
+      "extracted_price": 119.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/fmsAAeSwhZ9qZ8Kb/s-l140.webp"
+    },
+    {
+      "position": 44,
+      "item_id": "287682380307",
+      "title": "Nike Air Max 90 x Off-White Black Cone White 2019 Men's Size 10.5 AA7293-001",
+      "subtitle": "US M 10.5 · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/287682380307",
+      "condition": "New (Other)",
+      "rating": 5.0,
+      "reviews": 1,
+      "reviews_link": "https://www.ebay.com/p/24039806497?iid=287682380307#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$770.00",
+      "extracted_price": 770.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/LvMAAeSw6gpq38TE/s-l140.webp"
+    },
+    {
+      "position": 45,
+      "item_id": "128149147018",
+      "title": "Men's Nike Air Max 90 Black/Black-Chrome Yellow (IM9616 002)",
+      "subtitle": "US M 9 + more · Nike",
+      "link": "https://www.ebay.com/itm/128149147018",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "5% off $100+"
+      ],
+      "price": "$129.95",
+      "extracted_price": 129.95,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/OIoAAeSwDh9q2oHF/s-l140.webp"
+    },
+    {
+      "position": 46,
+      "item_id": "398072165675",
+      "title": "Nike Air Max 90 Iron Grey Dark Smoke Grey Sneakers CN8490-002 Mens Size",
+      "subtitle": "US M 9 + more · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/398072165675",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$89.99",
+      "extracted_price": 89.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "deal": "$71.99 with coupon",
+      "thumbnail": "https://i.ebayimg.com/images/g/aoUAAeSw0vRqMXaR/s-l140.webp"
+    },
+    {
+      "position": 47,
+      "item_id": "960061198307",
+      "title": "Nike Air Max 90 Iron Grey Dark Smoke Grey Sneakers CN8490-002 Mens (B2B)",
+      "subtitle": "US M 9 + more · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/960061198307",
+      "condition": "Brand New",
+      "rating": 4.0,
+      "reviews": 6,
+      "reviews_link": "https://www.ebay.com/p/10039814456?iid=960061198307&var=459457498810#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Authenticity Guarantee"
+      ],
+      "price": "$79.99",
+      "extracted_price": 79.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/I2QAAeSw0~tqzfWl/s-l140.webp"
+    },
+    {
+      "position": 48,
+      "item_id": "318377428964",
+      "title": "Nike Air Max 90 Smoke Grey Black Sneakers IQ0580-084 Mens Size BRAND NEW",
+      "subtitle": "US M 9 + more · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/318377428964",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$99.97",
+      "extracted_price": 99.97,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/O-YAAeSwolFqGOsU/s-l140.webp"
+    },
+    {
+      "position": 49,
+      "item_id": "860030460845",
+      "title": "Nike Air Max 90 Total 90 Laser Zest Yellow Sneakers HJ0624-758 Mens Size NEW",
+      "subtitle": "US M 9.5 + more · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/860030460845",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$139.97",
+      "extracted_price": 139.97,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/IsAAAeSwRypqyobA/s-l140.webp"
+    },
+    {
+      "position": 50,
+      "item_id": "800021418828",
+      "title": "Nike Air Max 90 Premium Iron Grey University Red HV4517-001 Men's Size 10-13",
+      "subtitle": "US M 9 + more · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/800021418828",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$99.97",
+      "extracted_price": 99.97,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/XXkAAeSwW-FqIerO/s-l140.webp"
+    },
+    {
+      "position": 51,
+      "item_id": "407318424452",
+      "title": "Nike Air Max 90 Terrascape White Croc Blue Tint (IU3638 100)",
+      "subtitle": "US M 9.5 + more · Nike",
+      "link": "https://www.ebay.com/itm/407318424452",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$143.97 to $149.97",
+      "extracted_price_range": {
+        "from": 143.97,
+        "to": 149.97
+      },
+      "is_price_range": true,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/LncAAeSwsEpq3841/s-l140.webp"
+    },
+    {
+      "position": 52,
+      "item_id": "377598911389",
+      "title": "New NIKE Air Max 90 Classic Retro Men's Athletic Sneakers gray teal all sizes",
+      "subtitle": "US M 9 + more · Nike · Nike Air",
+      "link": "https://www.ebay.com/itm/377598911389",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$159.95",
+      "extracted_price": 159.95,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/aWoAAeSwtgFq32my/s-l140.webp"
+    },
+    {
+      "position": 53,
+      "item_id": "900042941138",
+      "title": "Nike Air Max 90 SE Summit White Neptune Green Women's Size 10",
+      "subtitle": "US W 10 · Nike",
+      "link": "https://www.ebay.com/itm/900042941138",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$75.00",
+      "extracted_price": 75.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/I9AAAeSwiMFq37TG/s-l140.webp"
+    },
+    {
+      "position": 54,
+      "item_id": "278381902379",
+      "title": "Nike Air Max 90 PRM Light Violet Ore Iron Grey Black IQ0612-226 sz 10.5 Men's",
+      "subtitle": "US M 10.5 + more · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/278381902379",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$113.99",
+      "extracted_price": 113.99,
+      "original_price": "$119.99",
+      "extracted_original_price": 119.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/gHEAAeSwcSpp19gK/s-l140.webp"
+    },
+    {
+      "position": 55,
+      "item_id": "267799846340",
+      "title": "Nike Air Max 90 Premium Mesh Mudguard Light Smoke Grey IM5759-005 Men's Size New",
+      "subtitle": "US M 9 + more · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/267799846340",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$118.74",
+      "extracted_price": 118.74,
+      "original_price": "$124.99",
+      "extracted_original_price": 124.99,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/SZoAAeSwu-lqvTNf/s-l140.webp"
+    },
+    {
+      "position": 56,
+      "item_id": "287682361683",
+      "title": "NEW Nike Air Max 90 Men's Shoes DM0029-011 9 Men’s 10.5 Women’s",
+      "subtitle": "US M 9 · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/287682361683",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$105.00",
+      "extracted_price": 105.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/s18AAeSwAeRq38Kj/s-l140.webp"
+    },
+    {
+      "position": 57,
+      "item_id": "226549278990",
+      "title": "*NEW* MEN Nike Air Max 90 Recraft Triple White (CN8490 100), Sz 8.0 - 12.0 👍",
+      "subtitle": "US M 8.5 + more · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/226549278990",
+      "condition": "Brand New",
+      "rating": 5.0,
+      "reviews": 3,
+      "reviews_link": "https://www.ebay.com/p/16051938450?iid=226549278990&var=525728921493#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$101.72",
+      "extracted_price": 101.72,
+      "original_price": "$108.21",
+      "extracted_original_price": 108.21,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/Om4AAOSw2ANniU7U/s-l140.webp"
+    },
+    {
+      "position": 58,
+      "item_id": "940043402297",
+      "title": "Nike Air Max 90 QS \"Viotech\" Blue Green CD0917-300 Running Shoes Men's 10.5",
+      "subtitle": "US M 10.5 · Nike · Nike Air",
+      "link": "https://www.ebay.com/itm/940043402297",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 5,
+      "reviews_link": "https://www.ebay.com/p/28039814855?iid=940043402297#UserReviews",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$80.00",
+      "extracted_price": 80.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/S10AAeSwqR5q340j/s-l140.webp"
+    },
+    {
+      "position": 59,
+      "item_id": "198734988025",
+      "title": "Woman’s Size 11 Men’s 9.5 Nike Air Max 90 Animal White 2022 - DH5075-100 No Box",
+      "subtitle": "US M 11 · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/198734988025",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$115.25",
+      "extracted_price": 115.25,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/rbEAAeSw~vFq2V10/s-l140.webp"
+    },
+    {
+      "position": 60,
+      "item_id": "137718440095",
+      "title": "Nike Air Max 90 Recraft Triple Black CN8490-003 Mens 10",
+      "subtitle": "US M 10 · Nike · Nike Air Max",
+      "link": "https://www.ebay.com/itm/137718440095",
+      "condition": "Brand New",
+      "tag": "NEW LOW PRICE",
+      "rating": 4.5,
+      "reviews": 3,
+      "reviews_link": "https://www.ebay.com/p/23039820416?iid=137718440095#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Authenticity Guarantee"
+      ],
+      "price": "$103.49",
+      "extracted_price": 103.49,
+      "original_price": "$125.00",
+      "extracted_original_price": 125.0,
+      "shipping": "+$14.95 delivery",
+      "extracted_shipping": 14.95,
+      "thumbnail": "https://i.ebayimg.com/images/g/ZOIAAeSwB9Zp1-TD/s-l140.webp"
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "nike air max 95",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+max+95&_sop=12"
+    },
+    {
+      "query": "nike air max 1",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+max+1&_sop=12"
+    },
+    {
+      "query": "nike air max 270",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+max+270&_sop=12"
+    },
+    {
+      "query": "nike air max 90 men",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+max+90+men&_sop=12"
+    },
+    {
+      "query": "nike air max 97",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+max+97&_sop=12"
+    },
+    {
+      "query": "nike air max 90 size 11",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+max+90+size+11&_sop=12"
+    },
+    {
+      "query": "nike air max 90 women",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+max+90+women&_sop=12"
+    },
+    {
+      "query": "nike air force 1",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+force+1&_sop=12"
+    },
+    {
+      "query": "nike air max 90 size 10",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+max+90+size+10&_sop=12"
+    },
+    {
+      "query": "nike air max plus",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+max+plus&_sop=12"
+    },
+    {
+      "query": "nike air max 90 midnight navy gum",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+max+90+midnight+navy+gum&_sop=12"
+    },
+    {
+      "query": "nike air max 90 size 13",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+air+max+90+size+13&_sop=12"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&_dcat=15709&_pgn=2",
+    "other_pages": {
+      "2": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&_dcat=15709&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&_dcat=15709&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&_dcat=15709&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&_dcat=15709&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&_dcat=15709&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&_dcat=15709&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&_dcat=15709&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&_dcat=15709&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_fcid=1&_nkw=nike+air+max+90&_dcat=15709&_pgn=10&rt=nc"
+    }
+  }
+}
