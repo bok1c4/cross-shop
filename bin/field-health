@@ -1,0 +1,31 @@
+#!/usr/bin/env ruby
+# Runs the field-health rules over every saved SearchApi response and prints
+# what fails. Exits 1 if anything fails, so it can gate a scheduled job.
+# Reads only the cache; spends nothing.
+
+require "bundler/setup"
+$LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
+require "json"
+require "cross_shop/query_set"
+require "cross_shop/search_api"
+require "cross_shop/searchapi_health"
+
+cache = CrossShop::SearchApi.cache
+query_set = CrossShop::QuerySet.load
+failures = 0
+
+CrossShop::SearchApiHealth::RULES.each_key do |engine|
+  query_set.queries.each do |query|
+    raw = cache.read(engine, q: query)
+    next puts("#{engine} #{query.inspect}: not cached") if raw.nil?
+
+    reports = CrossShop::SearchApiHealth.check(engine, JSON.parse(raw))
+    bad = reports.reject(&:passed)
+    failures += bad.size
+    status = bad.empty? ? "ok" : bad.map { |report| "#{report.field}: #{report.problem}" }.join("; ")
+    puts "#{engine.ljust(14)} #{query.ljust(26)} #{status}"
+  end
+end
+
+puts "\n#{failures} failing checks"
+exit(failures.zero? ? 0 : 1)

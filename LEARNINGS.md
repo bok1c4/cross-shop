@@ -58,6 +58,14 @@ Measured on tls.peet.ws and bot.sannysoft.com, test services built to be probed.
 - bot.sannysoft.com: default headless Chrome failed 3 of 31 checks (the `HeadlessChrome` User-Agent, twice, and `CHR_MEMORY`). It passed WebDriver, plugins, WebGL and permissions. The real browser pane failed 1 (`HEADCHR_IFRAME`, a false positive). Page-level checks only catch the obvious; the network-level fingerprint separates a browser from an HTTP library far more reliably.
 - Limits: one machine, one network, one run per client; the two Chromium builds are different versions (152 and 158), so their small JA4 difference may be the version, not headless mode. curl-impersonate was not tested (no Homebrew formula). No store was fetched with these clients.
 
+## Phase 5, part 1: field health on SearchApi responses (2026-10-26)
+
+- For each field in one response, the check measures how often it is filled and how often the value is plausible (`bin/field-health`). An empty response never passes, because zero listings is a signal of its own.
+- Plausibility catches what fill rates miss. On the 16 saved responses, eBay's `shipping` fails plausibility in all 8 queries (85–93% against a 95% bar), because the field is filled, just sometimes with "Buy It Now". A fill-rate-only monitor would report it healthy.
+- One false alarm: Amazon `brand` on "crossbody bag" is 67% filled against a 70% bar, because generic bags are often unbranded. One fixed threshold does not fit every query; canary queries need their own baselines.
+- A simulated breakage (prices removed from a third of a real eBay response, like the Walmart fix in SearchApi's changelog) is caught. Test: `test_prices_emptied_on_a_third_of_listings_are_caught`.
+- Still to do: our own eBay parser (Phase 3) and the agent-fix loop on top of it.
+
 ## Bugs and surprises
 
 Each entry: what happened, how we found it, the evidence, the fix.
