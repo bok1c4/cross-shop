@@ -30,7 +30,7 @@ Observations from a single response, not conclusions. Phase 3 (the hand-captured
 ## Phase 2: unified record and matching (2026-10-26)
 
 - Fetched 8 queries from Amazon and eBay: 14 calls in one run, no errors. Latency per call: Amazon 2.1–14.6 s, eBay 2.5–8.0 s (one sample each, from Belgrade).
-- Shein failed twice on "adidas samba og": first our client timed out at 60 s, then SearchApi answered 503 "We could not retrieve results for this search. Please try again later." after 90.5 s. Both are in the ledger; whether they were billed is for the dashboard to say.
+- Shein, four attempts: "adidas samba og" timed out in our client at 60 s (18:45 UTC), then got SearchApi 503 "We could not retrieve results for this search. Please try again later." after 90.5 s (18:50), then 200 "Shein didn't return any results." in 11.8 s (19:36). "nike dunk low panda" got the same 503 after 90.8 s (19:53). Both 503s arrived at about 90 s, which looks like SearchApi's deadline for Shein. No Shein listings so far; all four calls are in the ledger, and whether failures are billed is for the dashboard to say.
 - Conversion: Amazon 448 listings became 441 products and 7 rejects (no price, only "more offers"); eBay 480 became 480 products. A test checks that every cached listing becomes a product or a reject with a reason, so nothing disappears silently.
 - eBay: 215 of 480 listings (45%) are used. Condition has to be part of the record.
 - eBay's misplaced shipping text holds across all 8 queries: 53 of 480 listings (11%).
