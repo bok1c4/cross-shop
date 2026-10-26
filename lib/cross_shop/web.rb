@@ -34,8 +34,8 @@ module CrossShop
     set :live, live
     # Read only in live mode, so a missing key fails loudly at start.
     set :api_key, live ? ENV.fetch("SEARCHAPI_API_KEY") : nil
-    # SearchApi gives up on Shein after about 90 s; wait for its answer.
-    set :transport, SearchApi::NetHttpTransport.new(read_timeout: 120)
+    # Its default read timeout outlasts SearchApi's 90 s Shein deadline.
+    set :transport, SearchApi::NetHttpTransport.new
 
     enable :sessions
     set :session_secret, ENV.fetch("SESSION_SECRET") { SecureRandom.hex(64) }

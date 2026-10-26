@@ -6,8 +6,14 @@ module CrossShop
     # The real transport: one GET per call over Ruby's standard-library HTTP
     # client. Raises on network errors and timeouts; never retries.
     class NetHttpTransport
-      # SearchApi scrapes the target site live, so responses can take a while.
-      def initialize(open_timeout: 10, read_timeout: 60)
+      # SearchApi scrapes the target site live, so responses can take a while,
+      # and it gives up on Shein after about 90 s (every one of its 503s came
+      # between 90.4 and 90.9 s). Waiting longer lets us read its answer.
+      READ_TIMEOUT = 120
+
+      attr_reader :read_timeout
+
+      def initialize(open_timeout: 10, read_timeout: READ_TIMEOUT)
         @open_timeout = open_timeout
         @read_timeout = read_timeout
       end

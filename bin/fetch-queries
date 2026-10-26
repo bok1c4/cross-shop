@@ -7,7 +7,7 @@
 #
 # Optional: MAX_LIVE_CALLS (default and maximum 15, to stay under SearchApi's
 # limit of 20% of plan credits per hour) and SEARCHAPI_READ_TIMEOUT in
-# seconds (default 60).
+# seconds (default 120, longer than SearchApi's 90 s Shein deadline).
 
 require "bundler/setup"
 $LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
@@ -27,12 +27,12 @@ end
 
 max_live_calls = Integer(ENV.fetch("MAX_LIVE_CALLS", "15"))
 abort "MAX_LIVE_CALLS must be between 1 and 15" unless (1..15).cover?(max_live_calls)
-read_timeout = Integer(ENV.fetch("SEARCHAPI_READ_TIMEOUT", "60"))
+transport = CrossShop::SearchApi.transport_from_env
 
 cache = CrossShop::SearchApi.cache
 ledger = CrossShop::SearchApi.ledger
 begin
-  client = CrossShop::SearchApi.client_from_env(read_timeout:)
+  client = CrossShop::SearchApi.client_from_env(transport:)
 rescue KeyError => error
   abort "#{error.class}: #{error.message}"
 end
@@ -53,6 +53,6 @@ begin
 rescue CrossShop::SearchApi::Error => error
   abort "#{error.class}: #{error.message}"
 rescue Net::OpenTimeout, Net::ReadTimeout => error
-  abort "#{error.class} after #{read_timeout}s. The call is in the ledger: it may still have been billed."
+  abort "#{error.class} after #{transport.read_timeout}s. The call is in the ledger: it may still have been billed."
 end
 puts "fetched #{result.fetched}, #{result.remaining} left for the next run"

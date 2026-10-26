@@ -33,3 +33,4 @@
 {"at":"2026-10-26T22:23:15Z","engine":"amazon_search","params":{"q":"saphora"},"status":200,"search_id":"search_J70QVB41KphlamzLVkqLy9mx","error":null,"api_error":null,"duration_ms":2600}
 {"at":"2026-10-26T22:23:16Z","engine":"ebay_search","params":{"q":"saphora"},"status":200,"search_id":"search_WDz0ZKeWNOcWqymQZkQyABpo","error":null,"api_error":null,"duration_ms":3621}
 {"at":"2026-10-26T22:24:37Z","engine":"shein_search","params":{"q":"nike air max 90"},"status":503,"search_id":null,"error":null,"api_error":"We could not retrieve results for this search. Please try again later.","duration_ms":90903}
+{"at":"2026-10-26T22:56:06Z","engine":"shein_search","params":{"q":"dress"},"status":503,"search_id":null,"error":null,"api_error":"We could not retrieve results for this search. Please try again later.","duration_ms":90698,"client":"curl","request_id":"f13193aa-8325-4bc0-835c-687ffad2bf3d"}

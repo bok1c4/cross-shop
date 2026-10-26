@@ -25,14 +25,19 @@ module CrossShop
       SavedPages.new(root: File.join(data_dir, "pages"), transport:, api_key:)
     end
 
-    # SEARCHAPI_READ_TIMEOUT (seconds, default 60): Shein needs more, since
-    # SearchApi itself gives up on it after about 90 s.
-    def self.client_from_env(env = ENV, data_dir: DATA_DIR, read_timeout: Integer(env.fetch("SEARCHAPI_READ_TIMEOUT", "60")))
+    # SEARCHAPI_READ_TIMEOUT (seconds) overrides the transport's default.
+    def self.transport_from_env(env = ENV)
+      return NetHttpTransport.new unless env.key?("SEARCHAPI_READ_TIMEOUT")
+
+      NetHttpTransport.new(read_timeout: Integer(env["SEARCHAPI_READ_TIMEOUT"]))
+    end
+
+    def self.client_from_env(env = ENV, data_dir: DATA_DIR, transport: transport_from_env(env))
       live = env["SEARCHAPI_LIVE"] == "1"
       Client.new(
         cache: cache(data_dir:),
         ledger: ledger(data_dir:),
-        transport: NetHttpTransport.new(read_timeout:),
+        transport:,
         live:,
         api_key: live ? env.fetch("SEARCHAPI_API_KEY") : nil,
         credit_limit: CREDIT_LIMIT
