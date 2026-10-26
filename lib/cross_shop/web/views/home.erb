@@ -1,0 +1,26 @@
+<section class="intro">
+  <h1>One search, several stores</h1>
+  <p>
+    Product search across Amazon and eBay through SearchApi, with listings of the same product grouped together.
+    A small version of a product aggregator, built to learn how SearchApi's shopping engines behave.
+  </p>
+  <form action="/search" class="search">
+    <input type="search" name="q" list="queries" placeholder="Search a saved query" required>
+    <button type="submit">Search</button>
+    <datalist id="queries">
+      <% @queries.each do |query| %><option value="<%= query %>"><% end %>
+    </datalist>
+  </form>
+  <div class="chips">
+    <% @queries.each do |query| %>
+      <a class="chip" href="/search?q=<%= Rack::Utils.escape(query) %>"><%= query %></a>
+    <% end %>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="stat"><span class="number"><%= @live_calls %> of <%= @credit_limit %></span><span class="label">live SearchApi calls used</span></div>
+  <% @coverage.each do |engine, cached| %>
+    <div class="stat"><span class="number"><%= cached %> of <%= @queries.size %></span><span class="label"><%= engine %> queries saved</span></div>
+  <% end %>
+</section>

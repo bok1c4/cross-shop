@@ -1,0 +1,84 @@
+<form action="/search" class="search compact">
+  <input type="search" name="q" value="<%= @query %>" required>
+  <button type="submit">Search</button>
+</form>
+
+<% if @result.products.empty? %>
+  <section class="notice">
+    <h1>No cached data for “<%= @query %>”</h1>
+    <p>This site only reads saved SearchApi responses, so it never spends credits. Saved queries are on the <a href="/">home page</a>.</p>
+  </section>
+<% else %>
+  <h1>“<%= @query %>”</h1>
+  <p class="summary">
+    <% by_store = @result.products.group_by(&:store) %>
+    <%= @result.products.size %> listings
+    (<%= by_store.map { |store, products| "#{store} #{products.size}" }.join(", ") %>),
+    <%= @matched.size %> matched across stores,
+    <%= @result.rejects.size %> rejected.
+  </p>
+  <% unless @result.missing_engines.empty? %>
+    <p class="warning">
+      Missing: <%= @result.missing_engines.map { |engine, reason| "#{engine} (#{reason})" }.join(", ") %>.
+      Missing data is shown as missing, not as “no results”.
+    </p>
+  <% end %>
+
+  <h2>Matched across stores</h2>
+  <% if @matched.empty? %>
+    <p class="muted">No listing matched across stores for this query.</p>
+  <% end %>
+  <% @matched.each do |group| %>
+    <% prices = group.map(&:price_min) %>
+    <article class="group">
+      <header>
+        <span class="range">from <%= format("$%.2f", prices.min) %> to <%= format("$%.2f", prices.max) %></span>
+        <span class="muted"><%= group.size %> listings</span>
+      </header>
+      <table>
+        <% group.each do |product| %>
+          <% candidate = @best[product] %>
+          <tr>
+            <td class="thumb"><% if product.image %><img src="<%= product.image %>" alt="" loading="lazy" referrerpolicy="no-referrer"><% end %></td>
+            <td><span class="store <%= product.store %>"><%= product.store %></span></td>
+            <td class="title"><a href="<%= product.link %>" rel="noreferrer noopener" target="_blank"><%= product.title %></a></td>
+            <td class="price"><%= price(product) %></td>
+            <td><span class="condition <%= product.condition %>"><%= condition_label(product) %></span></td>
+            <td class="evidence">
+              <% if candidate %>
+                <span class="tier <%= candidate.tier %>"><%= (candidate.tier == "style_code") ? "style code #{candidate.evidence}" : candidate.evidence %></span>
+              <% else %>
+                <span class="muted">anchor</span>
+              <% end %>
+            </td>
+          </tr>
+        <% end %>
+      </table>
+    </article>
+  <% end %>
+
+  <h2>Not matched</h2>
+  <% @unmatched.each do |store, products| %>
+    <details class="unmatched">
+      <summary><span class="store <%= store %>"><%= store %></span> <%= products.size %> listings</summary>
+      <table>
+        <% products.sort_by(&:price_min).each do |product| %>
+          <tr>
+            <td class="title"><a href="<%= product.link %>" rel="noreferrer noopener" target="_blank"><%= product.title %></a></td>
+            <td class="price"><%= price(product) %></td>
+            <td><span class="condition <%= product.condition %>"><%= condition_label(product) %></span></td>
+          </tr>
+        <% end %>
+      </table>
+    </details>
+  <% end %>
+
+  <% unless @result.rejects.empty? %>
+    <h2>Rejected listings</h2>
+    <ul class="rejects">
+      <% @result.rejects.each do |reject| %>
+        <li><span class="store <%= reject.store %>"><%= reject.store %></span> <code><%= reject.store_id %></code> <%= reject.reason %></li>
+      <% end %>
+    </ul>
+  <% end %>
+<% end %>

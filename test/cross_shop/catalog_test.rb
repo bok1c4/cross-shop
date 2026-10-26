@@ -21,7 +21,7 @@ class CatalogTest < Minitest::Test
       {item_id: "E1", title: "Adidas Samba JH5633", condition: "Pre-Owned", price: "$60.00", extracted_price: 60.0, link: "https://www.ebay.com/itm/E1"}
     ]))
 
-    result = CrossShop::Catalog.new(cache: @cache).search("samba")
+    result = CrossShop::Catalog.new(cache: @cache, engines: %w[amazon_search ebay_search]).search("samba")
 
     assert_equal %w[amazon ebay], result.products.map(&:store).sort
     assert_empty result.rejects
@@ -30,9 +30,25 @@ class CatalogTest < Minitest::Test
 
   # Missing data is reported, never treated as "no results".
   def test_an_uncached_engine_is_reported_as_missing
-    result = CrossShop::Catalog.new(cache: @cache).search("never fetched")
+    result = CrossShop::Catalog.new(cache: @cache, engines: %w[amazon_search]).search("never fetched")
 
     assert_empty result.products
-    assert_equal CrossShop::Stores::BY_ENGINE.keys, result.missing_engines
+    assert_equal({"amazon_search" => "not cached"}, result.missing_engines)
+  end
+
+  # Found by the web test: Shein has no converter, so it silently vanished
+  # from the page instead of showing as missing.
+  def test_a_cached_engine_without_a_converter_is_reported_too
+    @cache.write("shein_search", {q: "samba"}, JSON.generate(organic_results: []))
+
+    result = CrossShop::Catalog.new(cache: @cache, engines: %w[shein_search]).search("samba")
+
+    assert_equal({"shein_search" => "no converter yet"}, result.missing_engines)
+  end
+
+  def test_by_default_every_engine_in_the_query_set_is_checked
+    result = CrossShop::Catalog.new(cache: @cache).search("never fetched")
+
+    assert_equal CrossShop::QuerySet.load.engines, result.missing_engines.keys
   end
 end

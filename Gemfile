@@ -6,8 +6,17 @@ ruby "~> 3.4.0"
 # Ruby 3.4 ships csv as a bundled gem, so Bundler needs it listed.
 gem "csv"
 
+# Demo site: Sinatra app served by Puma through rackup; kramdown renders
+# LEARNINGS.md; erubi so ERB templates can escape HTML by default.
+gem "erubi", "~> 1.13"
+gem "kramdown", "~> 2.5"
+gem "puma", "~> 8.0"
+gem "rackup", "~> 2.3"
+gem "sinatra", "~> 4.2"
+
 group :development, :test do
   gem "minitest"
+  gem "rack-test", "~> 2.3"
   gem "rake"
   gem "standard"
 end

@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+# Starts the demo site on http://127.0.0.1:4567 (or $PORT). It reads only
+# saved SearchApi responses, so it never spends credits. Bound to 127.0.0.1
+# so it is not reachable from the local network.
+
+Dir.chdir(File.expand_path("..", __dir__))
+exec("bundle", "exec", "rackup", "--host", "127.0.0.1", "--port", ENV.fetch("PORT", "4567"), "config.ru")
