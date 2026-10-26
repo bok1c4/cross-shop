@@ -12,3 +12,6 @@
 /tmp/
 
 .DS_Store
+
+# Untrimmed saved pages (bin/trim-fixtures): seller names, IP addresses
+/private/

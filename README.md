@@ -31,6 +31,7 @@ eBay hides "Sponsored" from text scrapers. The label is an SVG image whose text 
 
 - Ruby 3.4, Sinatra, Nokogiri, Ferrum; Minitest and standardrb. The library code was written test-first, with one exception (the fingerprint sanitizer, checked afterwards by planting bugs); the `bin/` scripts are thin and untested. Every bug or surprise is logged with its evidence in [LEARNINGS.md](LEARNINGS.md).
 - Guardrails are structural: the API key cannot be a request parameter or end up in a saved file; every text input is read as UTF-8 explicitly (I hit the locale trap three times); saved fingerprints have IP addresses removed; the site escapes all scraped text and binds to 127.0.0.1.
+- The saved store pages in this repo are trimmed to what the parsers read (`bin/trim-fixtures`): eBay's listing cards with the "Sponsored" labels they point to, and Shein's product list. Seller names, scripts, tracking data and the IP address in Shein's page config are left out of every commit, and a test fails if one comes back. The parsers give identical output on the trimmed and the original pages, also under all five simulated layout changes.
 - Agent fix loop: each scenario runs in its own git worktree without the API key. The agent may edit only the parser and run only its tests, and the harness (not the agent) is the judge. Getting it to run took two fixes of its own (bugs 17 and 19 in LEARNINGS.md), including one where my harness had counted an expired login as three failed attempts.
 
 ## Limits

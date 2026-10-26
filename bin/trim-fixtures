@@ -1,0 +1,28 @@
+#!/usr/bin/env ruby
+# Trims the saved store pages to what the parsers read (CrossShop::TrimPage),
+# so the public repo carries no seller names, tracking data or IP addresses.
+# The untrimmed originals are kept in private/, which git ignores; each run
+# trims from those originals, so running it twice changes nothing.
+
+require "bundler/setup"
+$LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
+require "fileutils"
+require "cross_shop/trim_page"
+
+root = File.expand_path("..", __dir__)
+pages = Dir[File.join(root, "fixtures/ebay_html/*.html")].to_h { |path| [path, :ebay] }
+  .merge(Dir[File.join(root, "fixtures/searchapi/pages/shein_search/*.html")].to_h { |path| [path, :shein] })
+abort "no saved pages to trim" if pages.empty?
+
+pages.sort.each do |path, store|
+  relative = path.delete_prefix("#{root}/")
+  original = File.join(root, "private/originals", relative)
+  unless File.exist?(original)
+    FileUtils.mkdir_p(File.dirname(original))
+    FileUtils.cp(path, original)
+  end
+
+  trimmed = CrossShop::TrimPage.public_send(store, File.read(original, encoding: Encoding::UTF_8))
+  File.write(path, trimmed)
+  puts format("%-70s %9d -> %7d bytes", relative, File.size(original), trimmed.bytesize)
+end

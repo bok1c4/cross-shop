@@ -61,9 +61,12 @@ class SheinPageTest < Minitest::Test
 
   # Indexing a UTF-8 string by character is slow (Ruby scans from the start
   # each time); the first exploratory scan took minutes. Bytes keep it fast.
+  # The saved pages are trimmed to their product list, so 2 MB of multibyte
+  # text goes in front of it, as Shein's real page has.
   def test_a_two_megabyte_page_parses_quickly
+    page = ("<p>Ж</p>" * 230_000) + SAMBA
     started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
-    CrossShop::SheinPage.organic_results(SAMBA)
+    CrossShop::SheinPage.organic_results(page)
 
     assert_operator Process.clock_gettime(Process::CLOCK_MONOTONIC) - started, :<, 2.0
   end
