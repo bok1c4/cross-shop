@@ -47,6 +47,7 @@ eBay hides "Sponsored" from text scrapers. The label is an SVG image whose text 
 
 ## How it was built
 
+- How the code fits together, module by module, with the flows, files on disk and design decisions: [docs/architecture.md](docs/architecture.md).
 - Ruby 3.4, Sinatra, Nokogiri, Ferrum; Minitest and standardrb. The library code was written test-first, with one exception (the fingerprint sanitizer, checked afterwards by planting bugs); the `bin/` scripts are thin and untested. Every bug or surprise is logged with its evidence in [LEARNINGS.md](LEARNINGS.md).
 - Guardrails are structural: the API key cannot be a request parameter or end up in a saved file; every text input is read as UTF-8 explicitly (I hit the locale trap three times); saved fingerprints have IP addresses removed; the site escapes all scraped text and binds to 127.0.0.1.
 - The saved store pages in this repo are trimmed to what the parsers read (`bin/trim-fixtures`): eBay's listing cards with the "Sponsored" labels they point to, and Shein's product list. Seller names, scripts, tracking data and the IP address in Shein's page config are left out of every commit, and a test fails if one comes back. The parsers give identical output on the trimmed and the original pages, also under all five simulated layout changes.
