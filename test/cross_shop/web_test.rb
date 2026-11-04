@@ -85,6 +85,25 @@ class WebTest < Minitest::Test
     assert_includes last_response.body, "&lt;script&gt;"
   end
 
+  # With one store there is nothing to match against. The page must say that,
+  # not suggest the listings were checked and failed to match.
+  def test_one_store_explains_why_nothing_matched
+    @dir = Dir.mktmpdir
+    cache = CrossShop::SearchApi::ResponseCache.new(File.join(@dir, "responses"))
+    cache.write("ebay_search", {q: "x"}, JSON.generate(organic_results: [
+      {item_id: "E1", title: "Samba", condition: "Brand New", price: "$10.00",
+       extracted_price: 10.0, link: "https://www.ebay.com/itm/E1"}
+    ]))
+    app.set :data_dir, @dir
+
+    get "/search", q: "x"
+
+    assert_includes last_response.body, "Matching needs results from at least two stores; only ebay has results for this query."
+    assert_includes last_response.body, "Found at one store only"
+    refute_includes last_response.body, "Not matched"
+    refute_includes last_response.body, "No listing matched across stores"
+  end
+
   def test_how_it_works_explains_the_pipeline
     get "/how"
 
