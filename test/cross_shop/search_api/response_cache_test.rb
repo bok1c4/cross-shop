@@ -55,6 +55,20 @@ class ResponseCacheTest < Minitest::Test
     assert_empty @cache.history("ebay_search", q: "never written")
   end
 
+  # History files are named by the saved file's mtime. Two saves with the same
+  # mtime (coarse timestamps on Windows, or quick re-runs) must not share a
+  # name: the second move would overwrite a response already paid for.
+  def test_two_saves_with_the_same_time_both_stay_in_history
+    same = Time.utc(2026, 11, 4, 19, 0, 0)
+    path = @cache.write("ebay_search", {q: "samba"}, "first")
+    File.utime(same, same, path)
+    @cache.write("ebay_search", {q: "samba"}, "second")
+    File.utime(same, same, path)
+    @cache.write("ebay_search", {q: "samba"}, "third")
+
+    assert_equal %w[second first], @cache.history("ebay_search", q: "samba").map { |entry| File.read(entry.path) }
+  end
+
   # The engine name becomes a directory, and the CLI takes it from the command
   # line. The newline case is Ruby-specific: ^ and $ match at any line break.
   def test_an_engine_name_that_could_leave_the_cache_folder_is_rejected

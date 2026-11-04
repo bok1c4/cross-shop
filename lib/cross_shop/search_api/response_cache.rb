@@ -58,13 +58,17 @@ module CrossShop
         File.join(@root, engine, "history", File.basename(path_for(engine, params), ".json"))
       end
 
-      # Nanoseconds in the name keep two quick re-runs apart; sorting by
-      # name is sorting by time.
+      # Named by the saved time, so sorting by name is sorting by time. Two
+      # saves can carry the same mtime (Windows timestamps are coarse), and
+      # moving onto an existing name would overwrite a paid-for response, so
+      # a taken name moves on by a nanosecond, which keeps the order.
       def archive(engine, params, path)
         dir = history_dir(engine, params)
         FileUtils.mkdir_p(dir)
         saved_at = File.mtime(path).utc
-        FileUtils.mv(path, File.join(dir, "#{saved_at.strftime("%Y%m%dT%H%M%S%9NZ")}.json"))
+        target = ->(time) { File.join(dir, "#{time.strftime("%Y%m%dT%H%M%S%9NZ")}.json") }
+        saved_at += Rational(1, 1_000_000_000) while File.exist?(target.(saved_at))
+        FileUtils.mv(path, target.(saved_at))
       end
 
       # Every param is part of the key. Query strings carry only strings, so
