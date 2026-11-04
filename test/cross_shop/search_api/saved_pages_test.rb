@@ -13,7 +13,10 @@ class SavedPagesTest < Minitest::Test
       "html_url" => "https://www.searchapi.io/api/v1/searches/search_8A9g6Ov07XHo3jKz34JlbW2m.html"
     }
   }.freeze
-  PAGE = Response.new(status: 200, body: "<html>products</html>")
+  # A Shein page as SearchApi saves it: the product list inside a page config
+  # that also carries the address the page was fetched from.
+  RAW = %(<html><script>{"ip":"151.241.233.197","products":[{"goods_id":"1"}]}</script></html>)
+  PAGE = Response.new(status: 200, body: RAW)
 
   def setup
     @dir = Dir.mktmpdir
@@ -33,9 +36,20 @@ class SavedPagesTest < Minitest::Test
     first = pages(transport).fetch("shein_search", RESPONSE)
     second = pages(transport).fetch("shein_search", RESPONSE)
 
-    assert_equal ["<html>products</html>"] * 2, [first, second]
+    assert_equal first, second
+    assert_includes first, %("products":[{"goods_id":"1"}])
     assert_equal 1, transport.requests.size
     assert_equal "Bearer #{KEY}", transport.requests.first.headers.fetch("Authorization")
+  end
+
+  # The repo is public and live searches save pages into it: what is stored
+  # is the product list only, never the fetching client's address.
+  def test_a_shein_page_is_trimmed_before_it_is_saved
+    pages(FakeTransport.new(PAGE)).fetch("shein_search", RESPONSE)
+
+    saved = pages(FakeTransport.new).read("shein_search", RESPONSE)
+    refute_includes saved, "151.241.233.197"
+    assert_includes saved, %("products":[{"goods_id":"1"}])
   end
 
   # html_url comes from a response, and the key goes with the request: a

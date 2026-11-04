@@ -1,6 +1,8 @@
 require "fileutils"
 require "uri"
+require "cross_shop/search_api/atomic_write"
 require "cross_shop/search_api/client"
+require "cross_shop/trim_page"
 
 module CrossShop
   module SearchApi
@@ -8,6 +10,8 @@ module CrossShop
     # Downloading it is free (measured on 2026-10-26 with the Account API).
     # Stored as <root>/<engine>/<search_id>.html and never downloaded twice.
     class SavedPages
+      include AtomicWrite
+
       HOST = "www.searchapi.io"
       SEARCH_ID = /\Asearch_[A-Za-z0-9]+\z/
       ENGINE = /\A[a-z0-9_]+\z/
@@ -38,11 +42,15 @@ module CrossShop
         html = page.body.dup.force_encoding(Encoding::UTF_8)
         raise SecretInResponse, "the saved page contains the API key; not storing it" if html.include?(@api_key)
 
-        path = path_for(engine, response)
-        FileUtils.mkdir_p(File.dirname(path))
-        File.write(path, html)
+        html = TRIMS.fetch(engine, ->(page) { page }).call(html)
+        write_atomically(path_for(engine, response), html)
         html
       end
+
+      # Saved pages land in the public repo. A page is cut down to what the
+      # parsers read before it touches disk: the Shein page config around the
+      # product list holds the fetching client's IP address.
+      TRIMS = {"shein_search" => TrimPage.method(:shein)}.freeze
 
       private
 
