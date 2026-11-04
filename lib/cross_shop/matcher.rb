@@ -53,7 +53,7 @@ module CrossShop
     ])
 
     def self.colours(title)
-      Set.new(title.downcase.scan(/[a-z]+/).map { |word| word == "gray" ? "grey" : word }.select { |word| COLOURS.include?(word) })
+      Set.new(title.downcase.scan(/[a-z]+/).map { |word| (word == "gray") ? "grey" : word }.select { |word| COLOURS.include?(word) })
     end
 
     # A listing may name fewer colours than the Amazon one (titles shorten

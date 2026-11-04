@@ -67,8 +67,8 @@ module CrossShop
         FileUtils.mkdir_p(dir)
         saved_at = File.mtime(path).utc
         target = ->(time) { File.join(dir, "#{time.strftime("%Y%m%dT%H%M%S%9NZ")}.json") }
-        saved_at += Rational(1, 1_000_000_000) while File.exist?(target.(saved_at))
-        FileUtils.mv(path, target.(saved_at))
+        saved_at += Rational(1, 1_000_000_000) while File.exist?(target.call(saved_at))
+        FileUtils.mv(path, target.call(saved_at))
       end
 
       # Every param is part of the key. Query strings carry only strings, so
