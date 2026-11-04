@@ -4,10 +4,12 @@ module CrossShop
   # Finds listings in different stores that are probably the same product.
   #
   # Tier "style_code": both titles contain the same manufacturer style code
-  # (JH5633, DD1391-100). Strong evidence on its own, whatever the prices.
-  # Tier "title": the same known brand, title-word overlap (Jaccard) of at
-  # least 0.5, and lowest prices within a factor of 1.5. Weaker; the labelled
-  # sample measures how often it is right.
+  # (JH5633, DD1391-100; DD1391 agrees with DD1391-100). Strong evidence on
+  # its own, whatever the prices.
+  # Tier "title": no conflicting style codes, the same known brand, no colour
+  # the Amazon listing lacks, title-word overlap (Jaccard) of at least 0.5,
+  # and lowest prices within a factor of 1.5. Weaker; the labelled sample
+  # measures how often it is right.
   module Matcher
     Candidate = Data.define(:a, :b, :tier, :score, :evidence)
 
@@ -29,6 +31,47 @@ module CrossShop
     def self.style_codes(title)
       tokens = title.upcase.scan(/[A-Z0-9]+(?:-[A-Z0-9]+)?/)
       tokens.select { |token| token.length >= 6 && letters_and_digits?(token.split("-").first) }.uniq
+    end
+
+    # Codes that name the same product. DD1391 is a model, DD1391-100 that
+    # model in one colourway, so the two agree; DD1391-100 and DD1391-101
+    # are different colourways and do not. Returns the codes both share, as
+    # the shorter spelling.
+    def self.shared_codes(codes_a, codes_b)
+      codes_a.product(codes_b).filter_map do |x, y|
+        next x if x == y
+        next x if !x.include?("-") && y.split("-").first == x
+        y if !y.include?("-") && x.split("-").first == y
+      end.uniq
+    end
+
+    # Colour words, so a listing in another colourway is not taken for the
+    # same product. Grey and gray are one colour.
+    COLOURS = Set.new(%w[
+      black white red blue green grey navy gum cream brown pink purple yellow
+      orange gold silver beige tan maroon olive burgundy camo
+    ])
+
+    def self.colours(title)
+      Set.new(title.downcase.scan(/[a-z]+/).map { |word| word == "gray" ? "grey" : word }.select { |word| COLOURS.include?(word) })
+    end
+
+    # A listing may name fewer colours than the Amazon one (titles shorten
+    # "Midnight Navy/White/University Blue" to "Midnight Navy University
+    # Blue"), but a colour the Amazon listing does not name means another
+    # colourway. Without an Amazon side, one set must contain the other.
+    def self.same_colourway?(a, b)
+      colours_a = colours(a.title)
+      colours_b = colours(b.title)
+      return true if colours_a.empty? || colours_b.empty?
+
+      if a.store == ANCHOR_STORE
+        colours_b <= colours_a
+      elsif b.store == ANCHOR_STORE
+        colours_a <= colours_b
+      else
+        colours_a <= colours_b || colours_b <= colours_a
+      end
     end
 
     def self.letters_and_digits?(text)
@@ -54,9 +97,14 @@ module CrossShop
     end
 
     def self.match(a, b)
-      shared = style_codes(a.title) & style_codes(b.title)
+      codes_a = style_codes(a.title)
+      codes_b = style_codes(b.title)
+      shared = shared_codes(codes_a, codes_b)
       return Candidate.new(a:, b:, tier: "style_code", score: 1.0, evidence: shared.first) if shared.any?
+      # Both name a code and no code agrees: the codes say these differ.
+      return nil if codes_a.any? && codes_b.any?
       return nil if a.brand.nil? || a.brand != b.brand
+      return nil unless same_colourway?(a, b)
 
       low, high = [a.price_min, b.price_min].minmax
       return nil if high / low > MAX_PRICE_RATIO

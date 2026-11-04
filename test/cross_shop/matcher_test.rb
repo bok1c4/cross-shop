@@ -59,6 +59,38 @@ class MatcherTest < Minitest::Test
     assert_equal ["style_code", "JH5633"], [candidate.tier, candidate.evidence]
   end
 
+  # Amazon writes the model code (DD1391), eBay the model and colour code
+  # (DD1391-100). Same shoe: it was only matching on title words.
+  def test_a_style_code_matches_the_same_code_with_a_colour_suffix
+    amazon = product("amazon", "A1", "Dunk Low Retro Mens Trainers DD1391 Sneakers", 110, brand: "nike")
+    ebay = product("ebay", "E1", "Nike Dunk Low Retro Panda White Black DD1391-100", 120, brand: "nike")
+
+    candidate = CrossShop::Matcher.candidates([amazon, ebay]).fetch(0)
+
+    assert_equal ["style_code", "DD1391"], [candidate.tier, candidate.evidence]
+  end
+
+  # Found on "nike air 1": two Air Force 1 Lows in different colourways
+  # matched on shared words although their codes say they differ.
+  def test_different_style_codes_rule_out_a_title_match
+    amazon = product("amazon", "A1", "Nike Air Force 1 Low Black CW2288-001", 110, brand: "nike")
+    ebay = product("ebay", "E1", "Nike Air Force 1 Low Black IB6388-004", 100, brand: "nike")
+
+    assert_empty CrossShop::Matcher.candidates([amazon, ebay])
+  end
+
+  # Found on "nike air 1": a black Air Force 1 grouped with a black, red and
+  # gum one. A colour the Amazon listing does not name is another colourway;
+  # naming fewer colours is fine, titles often shorten them.
+  def test_a_listing_that_adds_a_colour_is_another_colourway
+    amazon = product("amazon", "A1", "mens nike air force 1 low (black)", 115, brand: "nike")
+    navy = product("amazon", "A2", "Air Jordan 1 Low Men's Shoes (Midnight Navy/White/University Blue)", 118, brand: "nike")
+
+    assert_empty CrossShop::Matcher.candidates([amazon, product("ebay", "E1", "Nike Air Force 1 Low Black Red Gum", 84, brand: "nike")])
+    assert_equal 1, CrossShop::Matcher.candidates([amazon, product("ebay", "E2", "Nike Air Force 1 Low Triple Black", 89, brand: "nike")]).size
+    assert_equal 1, CrossShop::Matcher.candidates([navy, product("ebay", "E3", "Nike Air Jordan 1 Low Midnight Navy University Blue", 107, brand: "nike")]).size
+  end
+
   def test_listings_from_the_same_store_are_never_paired
     a = product("ebay", "E1", "Samba OG JH5633", 100)
     b = product("ebay", "E2", "Samba OG JH5633", 100)
