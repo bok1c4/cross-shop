@@ -1,0 +1,1594 @@
+{
+  "search_metadata": {
+    "id": "search_KMjqpW46ERu19ERz9enbZ3LV",
+    "status": "Success",
+    "created_at": "2026-11-04T17:48:58Z",
+    "request_time_taken": 2.02,
+    "parsing_time_taken": 0.05,
+    "total_time_taken": 2.08,
+    "request_url": "https://www.ebay.com/sch/i.html?_nkw=world%20of%20warcraft&_fcid=1",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_KMjqpW46ERu19ERz9enbZ3LV.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_KMjqpW46ERu19ERz9enbZ3LV"
+  },
+  "search_parameters": {
+    "engine": "ebay_search",
+    "q": "world of warcraft",
+    "ebay_domain": "ebay.com",
+    "country": "US",
+    "delivery_country": "US"
+  },
+  "search_information": {
+    "query_displayed": "world of warcraft",
+    "total_results": 60000,
+    "sorted_by": "Best Match",
+    "buying_format": "All",
+    "language": "en"
+  },
+  "categories": [
+    {
+      "name": "Toys & Hobbies",
+      "link": "https://www.ebay.com/sch/220/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "220",
+      "subcategories": [
+        {
+          "name": "Action Figures",
+          "link": "https://www.ebay.com/sch/261068/i.html?_nkw=world+of+warcraft&_fcid=1",
+          "category_id": "261068"
+        },
+        {
+          "name": "Individual Collectible Card Game Cards",
+          "link": "https://www.ebay.com/sch/183454/i.html?_nkw=world+of+warcraft&_fcid=1",
+          "category_id": "183454"
+        },
+        {
+          "name": "World of Warcraft War Games",
+          "link": "https://www.ebay.com/sch/168258/i.html?_nkw=world+of+warcraft&_fcid=1",
+          "category_id": "168258"
+        },
+        {
+          "name": "Collectible Card Game Mixed Card Lots",
+          "link": "https://www.ebay.com/sch/183455/i.html?_nkw=world+of+warcraft&_fcid=1",
+          "category_id": "183455"
+        },
+        {
+          "name": "Collectible Card Games & Accessories",
+          "link": "https://www.ebay.com/sch/2536/i.html?_nkw=world+of+warcraft&_fcid=1",
+          "category_id": "2536"
+        },
+        {
+          "name": "Other Collectible Card Game Items",
+          "link": "https://www.ebay.com/sch/2535/i.html?_nkw=world+of+warcraft&_fcid=1",
+          "category_id": "2535"
+        },
+        {
+          "name": "Figure Models & Kits",
+          "link": "https://www.ebay.com/sch/262324/i.html?_nkw=world+of+warcraft&_fcid=1",
+          "category_id": "262324"
+        }
+      ]
+    },
+    {
+      "name": "Video Games & Consoles",
+      "link": "https://www.ebay.com/sch/1249/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "1249",
+      "subcategories": [
+        {
+          "name": "Video Games",
+          "link": "https://www.ebay.com/sch/139973/i.html?_nkw=world+of+warcraft&_fcid=1",
+          "category_id": "139973"
+        },
+        {
+          "name": "Video Game Merchandise",
+          "link": "https://www.ebay.com/sch/38583/i.html?_nkw=world+of+warcraft&_fcid=1",
+          "category_id": "38583"
+        },
+        {
+          "name": "Video Game Strategy Guides & Cheats",
+          "link": "https://www.ebay.com/sch/156595/i.html?_nkw=world+of+warcraft&_fcid=1",
+          "category_id": "156595"
+        },
+        {
+          "name": "Video Game Manuals, Inserts & Box Art",
+          "link": "https://www.ebay.com/sch/182174/i.html?_nkw=world+of+warcraft&_fcid=1",
+          "category_id": "182174"
+        }
+      ]
+    },
+    {
+      "name": "Books & Magazines",
+      "link": "https://www.ebay.com/sch/267/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "267",
+      "subcategories": [
+        {
+          "name": "Fiction & Nonfiction Books",
+          "link": "https://www.ebay.com/sch/261186/i.html?_nkw=world+of+warcraft&_fcid=1",
+          "category_id": "261186"
+        },
+        {
+          "name": "Magazines",
+          "link": "https://www.ebay.com/sch/280/i.html?_nkw=world+of+warcraft&_fcid=1",
+          "category_id": "280"
+        }
+      ]
+    },
+    {
+      "name": "Clothing, Shoes & Accessories",
+      "link": "https://www.ebay.com/sch/11450/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "11450",
+      "subcategories": [
+        {
+          "name": "Men's T-Shirts",
+          "link": "https://www.ebay.com/sch/15687/i.html?_nkw=world+of+warcraft&_fcid=1",
+          "category_id": "15687"
+        },
+        {
+          "name": "Women's Tops",
+          "link": "https://www.ebay.com/sch/53159/i.html?_nkw=world+of+warcraft&_fcid=1",
+          "category_id": "53159"
+        }
+      ]
+    },
+    {
+      "name": "Entertainment Memorabilia",
+      "link": "https://www.ebay.com/sch/45100/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "45100",
+      "subcategories": [
+        {
+          "name": "Video Game Memorabilia",
+          "link": "https://www.ebay.com/sch/45101/i.html?_nkw=world+of+warcraft&_fcid=1",
+          "category_id": "45101"
+        }
+      ]
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "1"
+    },
+    {
+      "name": "Sports Memorabilia, Fan Shop & Sports Cards",
+      "link": "https://www.ebay.com/sch/64482/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "64482"
+    },
+    {
+      "name": "Home & Garden",
+      "link": "https://www.ebay.com/sch/11700/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "11700"
+    },
+    {
+      "name": "Music",
+      "link": "https://www.ebay.com/sch/11233/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "11233"
+    },
+    {
+      "name": "Computers, Tablets & Network Hardware",
+      "link": "https://www.ebay.com/sch/58058/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "58058"
+    },
+    {
+      "name": "Health & Beauty",
+      "link": "https://www.ebay.com/sch/26395/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "26395"
+    },
+    {
+      "name": "Art",
+      "link": "https://www.ebay.com/sch/550/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "550"
+    },
+    {
+      "name": "Dolls & Teddy Bears",
+      "link": "https://www.ebay.com/sch/237/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "237"
+    },
+    {
+      "name": "Everything Else",
+      "link": "https://www.ebay.com/sch/99/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "99"
+    },
+    {
+      "name": "Movies & TV",
+      "link": "https://www.ebay.com/sch/11232/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "11232"
+    },
+    {
+      "name": "Sporting Goods",
+      "link": "https://www.ebay.com/sch/888/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "888"
+    },
+    {
+      "name": "Art & Craft Supplies",
+      "link": "https://www.ebay.com/sch/14339/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "14339"
+    },
+    {
+      "name": "Jewelry & Watches",
+      "link": "https://www.ebay.com/sch/281/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "281"
+    },
+    {
+      "name": "Pottery & Glass",
+      "link": "https://www.ebay.com/sch/870/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "870"
+    },
+    {
+      "name": "Consumer Electronics",
+      "link": "https://www.ebay.com/sch/293/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "293"
+    },
+    {
+      "name": "Cell Phones, Smart Watches & Accessories",
+      "link": "https://www.ebay.com/sch/15032/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "15032"
+    },
+    {
+      "name": "Musical Instruments & Gear",
+      "link": "https://www.ebay.com/sch/619/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "619"
+    },
+    {
+      "name": "Antiques",
+      "link": "https://www.ebay.com/sch/20081/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "20081"
+    },
+    {
+      "name": "Baby Essentials",
+      "link": "https://www.ebay.com/sch/2984/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "2984"
+    },
+    {
+      "name": "Coins & Paper Money",
+      "link": "https://www.ebay.com/sch/11116/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "11116"
+    },
+    {
+      "name": "Business & Industrial",
+      "link": "https://www.ebay.com/sch/12576/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "12576"
+    },
+    {
+      "name": "eBay Motors",
+      "link": "https://www.ebay.com/sch/6000/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "6000"
+    },
+    {
+      "name": "Travel",
+      "link": "https://www.ebay.com/sch/3252/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "3252"
+    },
+    {
+      "name": "Stamps",
+      "link": "https://www.ebay.com/sch/260/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "260"
+    },
+    {
+      "name": "Pet Supplies",
+      "link": "https://www.ebay.com/sch/1281/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "1281"
+    },
+    {
+      "name": "Cameras & Photo",
+      "link": "https://www.ebay.com/sch/625/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "625"
+    },
+    {
+      "name": "Specialty Services",
+      "link": "https://www.ebay.com/sch/316/i.html?_nkw=world+of+warcraft&_fcid=1",
+      "category_id": "316"
+    }
+  ],
+  "filters": [
+    {
+      "type": "Shipping and pickup",
+      "options": [
+        {
+          "text": "Arrives in 2-4 days",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&rt=nc&LH_FAST=1"
+        },
+        {
+          "text": "Free Shipping",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&rt=nc&LH_FS=1"
+        },
+        {
+          "text": "Local Pickup within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&rt=nc&LH_PrefLoc=99&_stpos=85224&_fspt=1&_sadis=25&LH_LPickup=1"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "options": [
+        {
+          "text": "Painted (234) Items",
+          "items": 234,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&Features=Painted&_dcat=168258"
+        },
+        {
+          "text": "Bulk/Lot (54) Items",
+          "items": 54,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&Features=Bulk%252FLot&_dcat=168258"
+        },
+        {
+          "text": "Not Specified (791) Items",
+          "items": 791,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&Features=%21&_dcat=168258"
+        }
+      ]
+    },
+    {
+      "type": "Age Level",
+      "options": [
+        {
+          "text": "3-4 Years (2) Items",
+          "items": 2,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&Age%2520Level=3%252D4%2520Years&_dcat=168258"
+        },
+        {
+          "text": "4-7 (31) Items",
+          "items": 31,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&Age%2520Level=4%252D7&_dcat=168258"
+        },
+        {
+          "text": "8-11 Years (62) Items",
+          "items": 62,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&Age%2520Level=8%252D11%2520Years&_dcat=168258"
+        },
+        {
+          "text": "12-16 Years (102) Items",
+          "items": 102,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&Age%2520Level=12%252D16%2520Years&_dcat=168258"
+        },
+        {
+          "text": "17 Years & Up (89) Items",
+          "items": 89,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&Age%2520Level=17%2520Years%2520%2526%2520Up&_dcat=168258"
+        },
+        {
+          "text": "Not Specified (917) Items",
+          "items": 917,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&Age%2520Level=%21&_dcat=168258"
+        }
+      ]
+    },
+    {
+      "type": "Character Family",
+      "options": [
+        {
+          "text": "Magic the Gathering (1) Items",
+          "items": 1,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&Character%2520Family=Magic%2520the%2520Gathering&_dcat=168258"
+        },
+        {
+          "text": "World of Warcraft (1,028) Items",
+          "items": 1028,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&Character%2520Family=World%2520of%2520Warcraft&_dcat=168258"
+        },
+        {
+          "text": "Not Specified (19) Items",
+          "items": 19,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&Character%2520Family=%21&_dcat=168258"
+        }
+      ]
+    },
+    {
+      "type": "Condition",
+      "options": [
+        {
+          "text": "New (34,435) Items",
+          "items": 34435,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&rt=nc&LH_ItemCondition=3"
+        },
+        {
+          "text": "Used (77,680) Items",
+          "items": 77680,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&rt=nc&LH_ItemCondition=4"
+        },
+        {
+          "text": "Not Specified (1,949) Items",
+          "items": 1949,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&rt=nc&LH_ItemCondition=10"
+        }
+      ]
+    },
+    {
+      "type": "Buying Format",
+      "options": [
+        {
+          "text": "All Listings (114,070) Items",
+          "items": 114070,
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&rt=nc"
+        },
+        {
+          "text": "Auction (572) Items",
+          "items": 572,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&rt=nc&LH_Auction=1"
+        },
+        {
+          "text": "Buy It Now (113,693) Items",
+          "items": 113693,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&rt=nc&LH_BIN=1"
+        },
+        {
+          "text": "Accepts Offers (35,343) Items",
+          "items": 35343,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&rt=nc&LH_BO=1"
+        }
+      ]
+    },
+    {
+      "type": "Item Location",
+      "options": [
+        {
+          "text": "Default",
+          "is_selected": true,
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&rt=nc&LH_PrefLoc=98"
+        },
+        {
+          "text": "Within 25 miles",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&_sadis=25&_stpos=85224&_fspt=1"
+        },
+        {
+          "text": "US Only",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&rt=nc&LH_PrefLoc=1"
+        },
+        {
+          "text": "North America",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&rt=nc&LH_PrefLoc=3"
+        },
+        {
+          "text": "Worldwide",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&rt=nc&LH_PrefLoc=2"
+        }
+      ]
+    },
+    {
+      "type": "Show only",
+      "options": [
+        {
+          "text": "Free Returns",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&rt=nc&LH_FR=1"
+        },
+        {
+          "text": "Returns Accepted",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&rt=nc&LH_RPA=1"
+        },
+        {
+          "text": "Authorized Seller",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&rt=nc&LH_AS=1"
+        },
+        {
+          "text": "Completed Items",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&rt=nc&LH_Complete=1"
+        },
+        {
+          "text": "Sold Items",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&rt=nc&LH_Sold=1"
+        },
+        {
+          "text": "Deals & Savings",
+          "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&rt=nc&LH_Savings=1"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "item_id": "206073511950",
+      "title": "World of Warcraft (WoW) Retail Virtual Housing Decor (A-K)",
+      "subtitle": "PC · World of Warcraft",
+      "link": "https://www.ebay.com/itm/206073511950",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "19+ sold"
+      ],
+      "price": "$1.20 to $3.60",
+      "extracted_price_range": {
+        "from": 1.2,
+        "to": 3.6
+      },
+      "is_price_range": true,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/KRsAAeSwqNdpSrIf/s-l500.webp"
+    },
+    {
+      "position": 2,
+      "item_id": "257348511428",
+      "title": "✨ World of Warcraft: Midnight✨GOLD✨US-Any Server⭐️Fast Cheap 🚀",
+      "link": "https://www.ebay.com/itm/257348511428",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "5% off $49+ with coupon"
+      ],
+      "price": "$25.99 to $425.49",
+      "extracted_price_range": {
+        "from": 25.99,
+        "to": 425.49
+      },
+      "is_price_range": true,
+      "shipping": "Located in United States",
+      "deal": "Free next day delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/GsMAAeSwlrFpiUPn/s-l500.webp"
+    },
+    {
+      "position": 3,
+      "item_id": "206512340724",
+      "title": "World of Warcraft (WoW) Retail Virtual Toys",
+      "subtitle": "PC · World of Warcraft",
+      "link": "https://www.ebay.com/itm/206512340724",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$1.20 to $81.40",
+      "extracted_price_range": {
+        "from": 1.2,
+        "to": 81.4
+      },
+      "is_price_range": true,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/mrIAAeSw6RlqjA8z/s-l140.webp"
+    },
+    {
+      "position": 4,
+      "item_id": "407287076530",
+      "title": "World of Warcraft Midnight Collector’s Edition - NO GAME CODE - Open Box",
+      "link": "https://www.ebay.com/itm/407287076530",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Last one"
+      ],
+      "price": "$95.00",
+      "extracted_price": 95.0,
+      "shipping": "+$13.66 delivery",
+      "extracted_shipping": 13.66,
+      "thumbnail": "https://i.ebayimg.com/images/g/F2EAAeSwL1NqzhPN/s-l140.webp"
+    },
+    {
+      "position": 5,
+      "item_id": "920105263036",
+      "title": "Blizzcon 2026 Skipper Axolotl Pet Blizzard Warcraft Exclusive",
+      "link": "https://www.ebay.com/itm/920105263036",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$140.00",
+      "extracted_price": 140.0,
+      "shipping": "+$5.63 delivery",
+      "extracted_shipping": 5.63,
+      "thumbnail": "https://i.ebayimg.com/images/g/ap8AAeSwclBqwnVa/s-l140.webp"
+    },
+    {
+      "position": 6,
+      "item_id": "137880473248",
+      "title": "World of Warcraft Collectors Edition WoW Employee Gift Vanilla 2024 WOWBLIZZNESS",
+      "subtitle": "PC · World of Warcraft",
+      "link": "https://www.ebay.com/itm/137880473248",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Last one"
+      ],
+      "price": "$795.00",
+      "extracted_price": 795.0,
+      "shipping": "Located in United States",
+      "deal": "+$18.75 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/nDAAAOSwN5ZoIrbw/s-l140.webp"
+    },
+    {
+      "position": 7,
+      "item_id": "880022493607",
+      "title": "Blizzard World of Warcraft Limited Edition 5000 Metal Collectible Map of Azeroth",
+      "link": "https://www.ebay.com/itm/880022493607",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Last one"
+      ],
+      "price": "$68.70",
+      "extracted_price": 68.7,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/UkEAAeSwD2hq2JnU/s-l140.webp"
+    },
+    {
+      "position": 8,
+      "item_id": "377449101720",
+      "title": "World of Warcraft Alliance Tankard Mug",
+      "link": "https://www.ebay.com/itm/377449101720",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "17 sold"
+      ],
+      "price": "$80.00",
+      "extracted_price": 80.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/DRAAAeSw0DZqjw-B/s-l140.webp"
+    },
+    {
+      "position": 9,
+      "item_id": "137901363075",
+      "title": "D&D World of Warcraft Collector's Edition PRESALE for 11/17/26",
+      "link": "https://www.ebay.com/itm/137901363075",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$69.99",
+      "extracted_price": 69.99,
+      "shipping": "+$51.49 delivery",
+      "extracted_shipping": 51.49,
+      "thumbnail": "https://i.ebayimg.com/images/g/i4AAAeSwIaJq38~O/s-l140.webp"
+    },
+    {
+      "position": 10,
+      "item_id": "920105311013",
+      "title": "World of Warcraft WoW Forever Collector’s Edition BRAND NEW NIB Limited Quantity",
+      "subtitle": "PC · World of Warcraft",
+      "link": "https://www.ebay.com/itm/920105311013",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$398.59",
+      "extracted_price": 398.59,
+      "shipping": "+$48.94 delivery",
+      "extracted_shipping": 48.94,
+      "thumbnail": "https://i.ebayimg.com/images/g/N5QAAeSw-~tq62eA/s-l140.webp"
+    },
+    {
+      "position": 11,
+      "item_id": "276990680666",
+      "title": "World of Warcraft Loot Cards UNSCRATCHED WoW TCG CHOOSE YOUR CARDS!",
+      "link": "https://www.ebay.com/itm/276990680666",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$3.99 to $179.99",
+      "extracted_price_range": {
+        "from": 3.99,
+        "to": 179.99
+      },
+      "is_price_range": true,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/K1YAAOSwNPFn6Nh3/s-l140.webp"
+    },
+    {
+      "position": 12,
+      "item_id": "960154147513",
+      "title": "Blizzard World of Warcraft: Battle for Azeroth Collector's Edition PC T-Teen",
+      "subtitle": "PC · World of Warcraft",
+      "link": "https://www.ebay.com/itm/960154147513",
+      "condition": "New (Other)",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$200.00",
+      "extracted_price": 200.0,
+      "shipping": "+$13.66 delivery",
+      "extracted_shipping": 13.66,
+      "thumbnail": "https://i.ebayimg.com/images/g/ZZgAAeSws~hq62p5/s-l140.webp"
+    },
+    {
+      "position": 13,
+      "item_id": "257349985360",
+      "title": "🔥WoW TBC Gold | WoW Classic Era Gold💰2000💰World of Warcraft Gold | WoW Gold🔥",
+      "link": "https://www.ebay.com/itm/257349985360",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "5% off $49+ with coupon"
+      ],
+      "price": "$12.99 to $479.99",
+      "extracted_price_range": {
+        "from": 12.99,
+        "to": 479.99
+      },
+      "is_price_range": true,
+      "shipping": "Located in United States",
+      "deal": "Free next day delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/Ds8AAeSwy3Jph8Xq/s-l140.webp"
+    },
+    {
+      "position": 14,
+      "item_id": "205746859281",
+      "title": "World of Warcraft (WoW) Retail Virtual Battle Pets Rare/Level 25 (Sq-Zu)",
+      "subtitle": "PC · World of Warcraft",
+      "link": "https://www.ebay.com/itm/205746859281",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$1.50 to $18.90",
+      "extracted_price_range": {
+        "from": 1.5,
+        "to": 18.9
+      },
+      "is_price_range": true,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/NV4AAeSwh5Vo1dMj/s-l140.webp"
+    },
+    {
+      "position": 15,
+      "item_id": "365884592312",
+      "title": "World of Warcraft (WoW) Retail Virtual Battle Pets Rare/Level 25 (Ab-Cr)",
+      "subtitle": "PC · World of Warcraft",
+      "link": "https://www.ebay.com/itm/365884592312",
+      "condition": "Brand New",
+      "tag": "NEW LOW PRICE",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$1.50 to $26.50",
+      "extracted_price_range": {
+        "from": 1.5,
+        "to": 26.5
+      },
+      "is_price_range": true,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/C-kAAeSwTHNo1dHt/s-l140.webp"
+    },
+    {
+      "position": 16,
+      "item_id": "135329443030",
+      "title": "🔥 World of Warcraft: CATACLYSM -100% COMPLETE Collectors Edition USED GAME KEY",
+      "link": "https://www.ebay.com/itm/135329443030",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 27,
+      "reviews_link": "https://www.ebay.com/p/92971118?iid=135329443030#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Last one"
+      ],
+      "price": "$49.95",
+      "extracted_price": 49.95,
+      "shipping": "Located in United States",
+      "deal": "Free delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/gYkAAOSwm4pnIQLd/s-l140.webp"
+    },
+    {
+      "position": 17,
+      "item_id": "900065544461",
+      "title": "World of Warcraft: Burning Crusade Collector's Edition - Sealed TCG Decks & DVD",
+      "subtitle": "PC · World of Warcraft: The Burning Crusade",
+      "link": "https://www.ebay.com/itm/900065544461",
+      "condition": "Pre-Owned",
+      "buying_format": "0 bids · Time left6d 23h",
+      "extensions": [
+        "+$28.24 delivery",
+        "Located in United States"
+      ],
+      "price": "$60.00",
+      "extracted_price": 60.0,
+      "shipping": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/DmkAAeSw2dRq61RM/s-l140.webp"
+    },
+    {
+      "position": 18,
+      "item_id": "137780675092",
+      "title": "Funko Pop! Vinyl: World of Warcraft - Thrall #1046",
+      "link": "https://www.ebay.com/itm/137780675092",
+      "condition": "Brand New",
+      "tag": "NEW LOW PRICE",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "10% off 2+ with coupon"
+      ],
+      "price": "$12.98",
+      "extracted_price": 12.98,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/oOIAAeSw6z9qt1P9/s-l140.webp"
+    },
+    {
+      "position": 19,
+      "item_id": "227594512157",
+      "title": "Dungeons & Dragons World of Warcraft Expansion Hardcover READY TO SHIP",
+      "link": "https://www.ebay.com/itm/227594512157",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$54.99",
+      "extracted_price": 54.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/fLMAAeSwtqBq6Olp/s-l140.webp"
+    },
+    {
+      "position": 20,
+      "item_id": "168804829039",
+      "title": "Blizzard World of Warcraft Metal Map of Azeroth (Limited to 5,000 Worldwide)",
+      "link": "https://www.ebay.com/itm/168804829039",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Last one"
+      ],
+      "price": "$68.70",
+      "extracted_price": 68.7,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/zM8AAeSwA2Rq2s1-/s-l140.webp"
+    },
+    {
+      "position": 21,
+      "item_id": "960123785283",
+      "title": "World of Warcraft Collectors Edition WoW Employee Gift Vanilla 2024 SEALED",
+      "subtitle": "PC · World of Warcraft",
+      "link": "https://www.ebay.com/itm/960123785283",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "15 watchers"
+      ],
+      "price": "$795.00",
+      "extracted_price": 795.0,
+      "shipping": "Located in United States",
+      "deal": "+$20.35 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/EKUAAeSwLwBn-fsH/s-l140.webp"
+    },
+    {
+      "position": 22,
+      "item_id": "267137238922",
+      "title": "CHOOSE Pick WOW TCG Loot Card Unscratched World of Warcraft - Code ONLY 🔥Game",
+      "link": "https://www.ebay.com/itm/267137238922",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$1.89 to $249.94",
+      "extracted_price_range": {
+        "from": 1.89,
+        "to": 249.94
+      },
+      "is_price_range": true,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/r3YAAOSwTH9nyihD/s-l140.webp"
+    },
+    {
+      "position": 23,
+      "item_id": "147639331244",
+      "title": "World of Warcraft Forever Party Hat Bag Necklace Pin Badge Keychain Keycap Card",
+      "link": "https://www.ebay.com/itm/147639331244",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Includes import fees",
+        "Located in China",
+        "6+ watchers"
+      ],
+      "price": "$17.00 to $343.72",
+      "extracted_price_range": {
+        "from": 17.0,
+        "to": 343.72
+      },
+      "is_price_range": true,
+      "shipping": "+$3.90 delivery",
+      "extracted_shipping": 3.9,
+      "thumbnail": "https://i.ebayimg.com/images/g/h4gAAeSwf~Rq1lbD/s-l140.webp"
+    },
+    {
+      "position": 24,
+      "item_id": "336866159811",
+      "title": "World of Warcraft: Wrath of the Lich King (PC DVD-ROM) Small Box CIB COMPLETE",
+      "subtitle": "PC",
+      "link": "https://www.ebay.com/itm/336866159811",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$19.95",
+      "extracted_price": 19.95,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/1ZMAAeSw7fhq4QCy/s-l140.webp"
+    },
+    {
+      "position": 25,
+      "item_id": "366785267088",
+      "title": "World Of Warcraft Collectors Book Lot Atlas Burning Crusade Game Guide Vanilla",
+      "link": "https://www.ebay.com/itm/366785267088",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$55.00",
+      "extracted_price": 55.0,
+      "shipping": "+$12.50 delivery",
+      "extracted_shipping": 12.5,
+      "thumbnail": "https://i.ebayimg.com/images/g/0-gAAeSwkElq61-8/s-l140.webp"
+    },
+    {
+      "position": 26,
+      "item_id": "377621770713",
+      "title": "USED - BLIZZCON 2011 WoW WORLD OF WARCRAFT MURKABLO Code Card collectible",
+      "link": "https://www.ebay.com/itm/377621770713",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "price": "$10.00",
+      "extracted_price": 10.0,
+      "shipping": "Located in United States",
+      "deal": "+$5.74 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/0KgAAeSwQvpq625Q/s-l140.webp"
+    },
+    {
+      "position": 27,
+      "item_id": "156918228542",
+      "title": "Limited Edition World of Warcraft Plastic 32 ounce Cups Set of 4 AM/PM Collector",
+      "link": "https://www.ebay.com/itm/156918228542",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$29.95",
+      "extracted_price": 29.95,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/dSIAAOSwQvFoB-rL/s-l140.webp"
+    },
+    {
+      "position": 28,
+      "item_id": "377108889452",
+      "title": "World of Warcraft The Horde Wall Plaque",
+      "link": "https://www.ebay.com/itm/377108889452",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "30 watchers"
+      ],
+      "price": "$80.00",
+      "extracted_price": 80.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/JAUAAeSwATdp3BPR/s-l140.webp"
+    },
+    {
+      "position": 29,
+      "item_id": "398283134317",
+      "title": "RARE Blizzard Entertainment Team 1 Classic Employee Only World of Warcraft Pin",
+      "link": "https://www.ebay.com/itm/398283134317",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Save up to 15% when you buy more"
+      ],
+      "price": "$24.99",
+      "extracted_price": 24.99,
+      "shipping": "Located in United States",
+      "deal": "+$6.65 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/FF8AAeSwvw1qYa2v/s-l140.webp"
+    },
+    {
+      "position": 30,
+      "item_id": "377358997417",
+      "title": "World of Warcraft The Burning Crusade (TBC) Anniversary Dreamscythe ✨Wow✨Gold✨",
+      "subtitle": "PC",
+      "link": "https://www.ebay.com/itm/377358997417",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "price": "$5.00 to $249.95",
+      "extracted_price_range": {
+        "from": 5.0,
+        "to": 249.95
+      },
+      "is_price_range": true,
+      "shipping": "Located in United States",
+      "deal": "Free delivery in 2-3 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/rR0AAeSwEJpqCHUg/s-l140.webp"
+    },
+    {
+      "position": 31,
+      "item_id": "264587697690",
+      "title": "World of Warcraft: Arthas: Rise of the Lich King (World of Warcraft (Pock - GOOD",
+      "link": "https://www.ebay.com/itm/264587697690",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 9,
+      "reviews_link": "https://www.ebay.com/p/7038485195?iid=264587697690#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Almost gone"
+      ],
+      "price": "$7.21",
+      "extracted_price": 7.21,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/ozEAAOSwiLZhBaky/s-l140.webp"
+    },
+    {
+      "position": 32,
+      "item_id": "206675093793",
+      "title": "World of Warcraft: Shaman by Paul Benjamin - Paperback 2010 - VERY GOOD",
+      "link": "https://www.ebay.com/itm/206675093793",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$20.46",
+      "extracted_price": 20.46,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/bZkAAeSwAwZq6zOB/s-l140.webp"
+    },
+    {
+      "position": 33,
+      "item_id": "840090566988",
+      "title": "World of Warcraft WoW Game Time - Digital Code",
+      "subtitle": "PC",
+      "link": "https://www.ebay.com/itm/840090566988",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Import fees due prior to delivery",
+        "Located in Australia"
+      ],
+      "price": "$6.26",
+      "extracted_price": 6.26,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/ENYAAeSwsKZq4aFv/s-l140.webp"
+    },
+    {
+      "position": 34,
+      "item_id": "366204738941",
+      "title": "World of Warcraft (WoW) Retail Virtual Housing Decor (L-Z)",
+      "subtitle": "PC · World of Warcraft",
+      "link": "https://www.ebay.com/itm/366204738941",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$1.20 to $4.00",
+      "extracted_price_range": {
+        "from": 1.2,
+        "to": 4.0
+      },
+      "is_price_range": true,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/M0kAAeSwePhpSrNd/s-l140.webp"
+    },
+    {
+      "position": 35,
+      "item_id": "196452573255",
+      "title": "Game Wow World of Warcraft Demon Form Illidan Stormrage PVC Action Figure Toy",
+      "link": "https://www.ebay.com/itm/196452573255",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "82 sold"
+      ],
+      "price": "$44.99",
+      "extracted_price": 44.99,
+      "shipping": "Located in United States",
+      "deal": "Free delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/e2UAAOSwyNZmciW8/s-l140.webp"
+    },
+    {
+      "position": 36,
+      "item_id": "257744547700",
+      "title": "World of Warcraft TCG Icecrown Epic Collection 6 Booster Packs 5 Foil Heroes",
+      "link": "https://www.ebay.com/itm/257744547700",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "30 watchers"
+      ],
+      "price": "$65.39",
+      "extracted_price": 65.39,
+      "original_price": "$81.74",
+      "extracted_original_price": 81.74,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/Nn8AAeSwS2xqqXjT/s-l140.webp"
+    },
+    {
+      "position": 37,
+      "item_id": "336845924868",
+      "title": "World of Warcraft Cairne Bloodhoof GK Statue Tauren Collectible Model Ornament",
+      "link": "https://www.ebay.com/itm/336845924868",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Includes import fees",
+        "Located in China",
+        "Last one"
+      ],
+      "price": "$251.68",
+      "extracted_price": 251.68,
+      "original_price": "$286.00",
+      "extracted_original_price": 286.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/vUgAAeSwYShq0Icd/s-l140.webp"
+    },
+    {
+      "position": 38,
+      "item_id": "278440862848",
+      "title": "🔥World Of Warcraft Tomb Of The Forgotten 36-Count Booster Pack LOT WoW TCG 🔥",
+      "link": "https://www.ebay.com/itm/278440862848",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$129.99",
+      "extracted_price": 129.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/ZKMAAOSwV-hn5mHw/s-l140.webp"
+    },
+    {
+      "position": 39,
+      "item_id": "186174154925",
+      "title": "World of Warcraft Crimson Bow Tie - Pringles Promotion Rare Cosmetic Reward",
+      "link": "https://www.ebay.com/itm/186174154925",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "547 sold"
+      ],
+      "price": "$1.99",
+      "extracted_price": 1.99,
+      "shipping": "Located in United States",
+      "deal": "Free next day delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/POQAAeSweMVpZvMB/s-l140.webp"
+    },
+    {
+      "position": 40,
+      "item_id": "274493048702",
+      "title": "World of Warcraft: The Shattering: Prelude to Cataclysm - Hardcover - GOOD",
+      "link": "https://www.ebay.com/itm/274493048702",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 2,
+      "reviews_link": "https://www.ebay.com/p/79827441?iid=274493048702#UserReviews",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Almost gone"
+      ],
+      "price": "$8.85",
+      "extracted_price": 8.85,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/mY8AAOSw~g1goRKi/s-l140.webp"
+    },
+    {
+      "position": 41,
+      "item_id": "406109974016",
+      "title": "World of Warcraft: Dwarf Hunter Beast Master/Marksman [Random Color] (1:12 Scale",
+      "link": "https://www.ebay.com/itm/406109974016",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "11 watchers"
+      ],
+      "price": "$39.81",
+      "extracted_price": 39.81,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/Ei0AAeSwZB9qbfcp/s-l140.webp"
+    },
+    {
+      "position": 42,
+      "item_id": "920064222699",
+      "title": "World of Warcraft: FOREVER (Invite-A-Friend DLC Key)",
+      "subtitle": "PC · World of Warcraft",
+      "link": "https://www.ebay.com/itm/920064222699",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$5.50",
+      "extracted_price": 5.5,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/ySYAAeSwuo9q2hdt/s-l140.webp"
+    },
+    {
+      "position": 43,
+      "item_id": "366763886563",
+      "title": "Vintage 1998 Warcraft Orc Grunt Blizzard Action Figure Collection 1 Sealed NIB",
+      "link": "https://www.ebay.com/itm/366763886563",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Last one"
+      ],
+      "price": "$64.79",
+      "extracted_price": 64.79,
+      "original_price": "$119.99",
+      "extracted_original_price": 119.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/wEEAAeSwyhVq3yzt/s-l140.webp"
+    },
+    {
+      "position": 44,
+      "item_id": "800769255553",
+      "title": "D&D World of Warcraft Horde Miniatures Pack PRESALE for 11/17/26",
+      "link": "https://www.ebay.com/itm/800769255553",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "8 watchers"
+      ],
+      "price": "$24.99",
+      "extracted_price": 24.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/4CMAAeSwAJ5qxojd/s-l140.webp"
+    },
+    {
+      "position": 45,
+      "item_id": "157723812328",
+      "title": "World of Warcraft x Discord 🐍 Razeshi C Baby Naga Pet Companion ✨️ WoW TCG ✨️",
+      "subtitle": "PC · World of Warcraft",
+      "link": "https://www.ebay.com/itm/157723812328",
+      "condition": "Brand New",
+      "tag": "NEW LOW PRICE",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "9 watchers"
+      ],
+      "price": "$1.99",
+      "extracted_price": 1.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/lQsAAeSw69pqktJs/s-l140.webp"
+    },
+    {
+      "position": 46,
+      "item_id": "920104930429",
+      "title": "World of Warcraft 20th Anniversary Limited Edition Pin in Box",
+      "link": "https://www.ebay.com/itm/920104930429",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "price": "$24.99",
+      "extracted_price": 24.99,
+      "shipping": "Located in United States",
+      "deal": "+$6.07 delivery in 2-4 days",
+      "thumbnail": "https://i.ebayimg.com/images/g/0PIAAeSw21hq60-r/s-l140.webp"
+    },
+    {
+      "position": 47,
+      "item_id": "274930655942",
+      "title": "World of Warcraft: Vol'jin: Shadows of the Horde - Paperback - GOOD",
+      "link": "https://www.ebay.com/itm/274930655942",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Buy 4, get 1 free"
+      ],
+      "price": "$5.67",
+      "extracted_price": 5.67,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/ym4AAOSwSElf~e3n/s-l140.webp"
+    },
+    {
+      "position": 48,
+      "item_id": "278445577002",
+      "title": "World Of Warcraft Scourgewar 5 Booster Pack LOT For Card Game WOW",
+      "link": "https://www.ebay.com/itm/278445577002",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns"
+      ],
+      "price": "$23.99",
+      "extracted_price": 23.99,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/TfYAAOSw3hRn80kQ/s-l140.webp"
+    },
+    {
+      "position": 49,
+      "item_id": "128081112844",
+      "title": "World of Warcraft | Skipper Axolotl Blizzcon 2026 Darkmoon faire exclusive code",
+      "subtitle": "PC · World of Warcraft",
+      "link": "https://www.ebay.com/itm/128081112844",
+      "condition": "Brand New",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States",
+        "Last one"
+      ],
+      "price": "$130.00",
+      "extracted_price": 130.0,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/YAEAAeSwnsxqqVom/s-l140.webp"
+    },
+    {
+      "position": 50,
+      "item_id": "380958643632",
+      "title": "WOW WARCRAFT MINI MINIATURES : 100+ RARE AND COMMON MINIS MEGA MIX SET",
+      "link": "https://www.ebay.com/itm/380958643632",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Almost gone"
+      ],
+      "price": "$89.95",
+      "extracted_price": 89.95,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/XDUAAOSwRLZT0RwE/s-l140.webp"
+    },
+    {
+      "position": 51,
+      "item_id": "297724305172",
+      "title": "World of Warcraft TCG Playmats USED- Many variations - YOU PICK - Free Shipping!",
+      "link": "https://www.ebay.com/itm/297724305172",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$13.95 to $400.00",
+      "extracted_price_range": {
+        "from": 13.95,
+        "to": 400.0
+      },
+      "is_price_range": true,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/RCQAAeSwwdBpA~Hp/s-l140.webp"
+    },
+    {
+      "position": 52,
+      "item_id": "307205913262",
+      "title": "Cup SET of 4 32 OZ X4 WORLD OF WARCRAFT Blizzard AM PM Exclusive NEW UNUSED",
+      "link": "https://www.ebay.com/itm/307205913262",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "10% off $100+ with coupon"
+      ],
+      "price": "$27.99",
+      "extracted_price": 27.99,
+      "shipping": "+$5.99 delivery",
+      "extracted_shipping": 5.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/Z8YAAeSwZFtoZrZQ/s-l140.webp"
+    },
+    {
+      "position": 53,
+      "item_id": "137868633732",
+      "title": "World Of Warcraft Hearthstone 22cm Luminous Nightlight Figure Collect Gift",
+      "link": "https://www.ebay.com/itm/137868633732",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Save up to 6% when you buy more"
+      ],
+      "price": "$58.22",
+      "extracted_price": 58.22,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/P6YAAeSwVJFq23Gq/s-l140.webp"
+    },
+    {
+      "position": 54,
+      "item_id": "168803605311",
+      "title": "Blizzard World of Warcraft China “Forever Party” Event Merchandise",
+      "link": "https://www.ebay.com/itm/168803605311",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Includes import fees",
+        "Located in China"
+      ],
+      "price": "$8.90 to $69.90",
+      "extracted_price_range": {
+        "from": 8.9,
+        "to": 69.9
+      },
+      "is_price_range": true,
+      "shipping": "+$4.60 delivery",
+      "extracted_shipping": 4.6,
+      "thumbnail": "https://i.ebayimg.com/images/g/h4gAAeSwf~Rq1lbD/s-l140.webp"
+    },
+    {
+      "position": 55,
+      "item_id": "840085516416",
+      "title": "Blizzard World of Warcraft Tuskarr Squish 13\" Plush",
+      "link": "https://www.ebay.com/itm/840085516416",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "2 watchers"
+      ],
+      "price": "$58.98",
+      "extracted_price": 58.98,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/ZQwAAeSw3hxq6NA-/s-l140.webp"
+    },
+    {
+      "position": 56,
+      "item_id": "900052343643",
+      "title": "World Of Warcraft Forever Collectors Edition NEW SEALED *NO BETA KEY*",
+      "subtitle": "PC · World of Warcraft",
+      "link": "https://www.ebay.com/itm/900052343643",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "8 watchers"
+      ],
+      "price": "$399.99",
+      "extracted_price": 399.99,
+      "shipping": "+$16.99 delivery",
+      "extracted_shipping": 16.99,
+      "thumbnail": "https://i.ebayimg.com/images/g/vVcAAeSwiB1q5Q7T/s-l140.webp"
+    },
+    {
+      "position": 57,
+      "item_id": "257650373913",
+      "title": "World of Warcraft TCG Scourgewar Epic Collection Playmat New",
+      "link": "https://www.ebay.com/itm/257650373913",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$9.99",
+      "extracted_price": 9.99,
+      "shipping": "+$7.76 delivery",
+      "extracted_shipping": 7.76,
+      "thumbnail": "https://i.ebayimg.com/images/g/Kq8AAeSwuzZqasZf/s-l140.webp"
+    },
+    {
+      "position": 58,
+      "item_id": "156601067442",
+      "title": "World of Warcraft - Baby Winston Pet Companion Exclusive / Rare -✨️ WoW TCG ✨️",
+      "subtitle": "PC · World of Warcraft",
+      "link": "https://www.ebay.com/itm/156601067442",
+      "condition": "Brand New",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "98 sold"
+      ],
+      "price": "$9.98",
+      "extracted_price": 9.98,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/HpAAAeSwqlBqkt0l/s-l140.webp"
+    },
+    {
+      "position": 59,
+      "item_id": "366772395152",
+      "title": "World of Warcraft Wrath of the Lich King Collector’s Edition NOT COMPLETE",
+      "subtitle": "PC",
+      "link": "https://www.ebay.com/itm/366772395152",
+      "condition": "Pre-Owned",
+      "buying_format": "or Best Offer",
+      "extensions": [
+        "Located in United States"
+      ],
+      "price": "$20.00",
+      "extracted_price": 20.0,
+      "original_price": "$25.00",
+      "extracted_original_price": 25.0,
+      "shipping": "+$15.87 delivery",
+      "extracted_shipping": 15.87,
+      "thumbnail": "https://i.ebayimg.com/images/g/VGsAAeSwjEhqubcE/s-l140.webp"
+    },
+    {
+      "position": 60,
+      "item_id": "278039730527",
+      "title": "Illidan: World of Warcraft - Mass Market Paperback By King, William - GOOD",
+      "link": "https://www.ebay.com/itm/278039730527",
+      "condition": "Pre-Owned",
+      "buying_format": "Buy It Now",
+      "extensions": [
+        "Located in United States",
+        "Free returns",
+        "Buy 4, get 1 free"
+      ],
+      "price": "$5.95",
+      "extracted_price": 5.95,
+      "shipping": "Free delivery",
+      "thumbnail": "https://i.ebayimg.com/images/g/YHcAAeSwhphqG9ZY/s-l140.webp"
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "world of warcraft figure",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft+figure&_sop=12"
+    },
+    {
+      "query": "world of warcraft collectors edition",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft+collectors+edition&_sop=12"
+    },
+    {
+      "query": "factory sealed video game",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=factory+sealed+video+game&_sop=12"
+    },
+    {
+      "query": "world of warcraft mount",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft+mount&_sop=12"
+    },
+    {
+      "query": "world of warcraft tcg",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft+tcg&_sop=12"
+    },
+    {
+      "query": "video game",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=video+game&_sop=12"
+    },
+    {
+      "query": "overwatch",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=overwatch&_sop=12"
+    },
+    {
+      "query": "world of warcraft statue",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft+statue&_sop=12"
+    },
+    {
+      "query": "world of warcraft board game",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft+board+game&_sop=12"
+    },
+    {
+      "query": "sealed video game",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=sealed+video+game&_sop=12"
+    },
+    {
+      "query": "world of warcraft action figure",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft+action+figure&_sop=12"
+    },
+    {
+      "query": "world of warcraft mega bloks",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft+mega+bloks&_sop=12"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&_pgn=2",
+    "other_pages": {
+      "2": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_nkw=world+of+warcraft&_fcid=1&_pgn=10&rt=nc"
+    }
+  }
+}

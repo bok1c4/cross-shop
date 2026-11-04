@@ -1,0 +1,19 @@
+{
+  "search_metadata": {
+    "id": "search_G6ZMRV4jp7tKR3rAxk2X071E",
+    "status": "Success",
+    "created_at": "2026-11-04T18:43:23Z",
+    "request_time_taken": 14.21,
+    "parsing_time_taken": 0.04,
+    "total_time_taken": 14.25,
+    "request_url": "https://us.shein.com/pdsearch/whey%20protein/?ici=s1`EditSearch`whey%20protein`_fb`d0`PageHome&src_identifier=st=2`sc=whey%20protein`sr=0`ps=1",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_G6ZMRV4jp7tKR3rAxk2X071E.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_G6ZMRV4jp7tKR3rAxk2X071E"
+  },
+  "search_parameters": {
+    "engine": "shein_search",
+    "q": "whey protein",
+    "shein_domain": "us.shein.com"
+  },
+  "error": "Shein didn't return any results."
+}

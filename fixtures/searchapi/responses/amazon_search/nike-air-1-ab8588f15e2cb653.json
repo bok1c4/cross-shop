@@ -1,0 +1,2440 @@
+{
+  "search_metadata": {
+    "id": "search_KMjqpW46ERu19xAraenbZ3LV",
+    "status": "Success",
+    "created_at": "2026-11-04T18:58:39Z",
+    "request_time_taken": 1.92,
+    "parsing_time_taken": 0.05,
+    "total_time_taken": 1.97,
+    "request_url": "https://www.amazon.com/s?k=nike+air+1",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_KMjqpW46ERu19xAraenbZ3LV.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_KMjqpW46ERu19xAraenbZ3LV"
+  },
+  "search_parameters": {
+    "engine": "amazon_search",
+    "q": "nike air 1",
+    "amazon_domain": "amazon.com",
+    "delivery_country": "us"
+  },
+  "search_information": {
+    "query_displayed": "nike air 1",
+    "price_min": "$16",
+    "extracted_price_min": 16,
+    "price_max": "$940+",
+    "extracted_price_max": 940,
+    "delivering_to": "Delivering to Yorktown 23692"
+  },
+  "filters": [
+    {
+      "type": "Eligible for Free Shipping",
+      "options": [
+        {
+          "text": "Free Shipping by Amazon",
+          "rh": "p_76:2661625011"
+        }
+      ]
+    },
+    {
+      "type": "Delivery Day",
+      "options": [
+        {
+          "text": "Get It by Tomorrow",
+          "rh": "p_90:8308921011"
+        }
+      ]
+    },
+    {
+      "type": "Gender",
+      "options": [
+        {
+          "text": "Men",
+          "rh": "p_n_g-101015233022111:121075132011"
+        },
+        {
+          "text": "Women",
+          "rh": "p_n_g-101015233022111:121075131011"
+        },
+        {
+          "text": "Boys",
+          "rh": "p_n_g-101015233022111:121075136011"
+        },
+        {
+          "text": "Girls",
+          "rh": "p_n_g-101015233022111:121075133011"
+        },
+        {
+          "text": "Babies",
+          "rh": "p_n_g-101015233022111:121833111011"
+        },
+        {
+          "text": "Unisex",
+          "rh": "p_n_g-101015233022111:121833112011"
+        }
+      ]
+    },
+    {
+      "type": "Deals & Discounts",
+      "options": [
+        {
+          "text": "Up to $35",
+          "rh": "p_36:-3500"
+        },
+        {
+          "text": "$35 to $200",
+          "rh": "p_36:3500-20000"
+        },
+        {
+          "text": "$200 to $250",
+          "rh": "p_36:20000-25000"
+        },
+        {
+          "text": "$250 to $400",
+          "rh": "p_36:25000-40000"
+        },
+        {
+          "text": "$400 & above",
+          "rh": "p_36:40000-"
+        }
+      ]
+    },
+    {
+      "type": "Color",
+      "options": [
+        {
+          "text": "White",
+          "rh": "p_n_size_two_browse-vebin:5391079011"
+        },
+        {
+          "text": "Black",
+          "rh": "p_n_size_two_browse-vebin:5391077011"
+        },
+        {
+          "text": "Multi",
+          "rh": "p_n_size_two_browse-vebin:5391092011"
+        },
+        {
+          "text": "Grey",
+          "rh": "p_n_size_two_browse-vebin:5391078011"
+        },
+        {
+          "text": "Brown",
+          "rh": "p_n_size_two_browse-vebin:5391080011"
+        },
+        {
+          "text": "Beige",
+          "rh": "p_n_size_two_browse-vebin:5391081011"
+        },
+        {
+          "text": "Red",
+          "rh": "p_n_size_two_browse-vebin:5391082011"
+        },
+        {
+          "text": "Pink",
+          "rh": "p_n_size_two_browse-vebin:5391083011"
+        },
+        {
+          "text": "Orange",
+          "rh": "p_n_size_two_browse-vebin:5391084011"
+        },
+        {
+          "text": "Yellow",
+          "rh": "p_n_size_two_browse-vebin:5391085011"
+        },
+        {
+          "text": "Ivory",
+          "rh": "p_n_size_two_browse-vebin:5391086011"
+        },
+        {
+          "text": "Green",
+          "rh": "p_n_size_two_browse-vebin:5391087011"
+        },
+        {
+          "text": "Blue",
+          "rh": "p_n_size_two_browse-vebin:5391088011"
+        },
+        {
+          "text": "Purple",
+          "rh": "p_n_size_two_browse-vebin:5391089011"
+        },
+        {
+          "text": "Gold",
+          "rh": "p_n_size_two_browse-vebin:5391090011"
+        },
+        {
+          "text": "Silver",
+          "rh": "p_n_size_two_browse-vebin:5391091011"
+        }
+      ]
+    },
+    {
+      "type": "Brands",
+      "options": [
+        {
+          "text": "Nike",
+          "rh": "p_123:234394"
+        },
+        {
+          "text": "adidas",
+          "rh": "p_123:198664"
+        },
+        {
+          "text": "Skechers",
+          "rh": "p_123:234502"
+        },
+        {
+          "text": "New Balance",
+          "rh": "p_123:197955"
+        },
+        {
+          "text": "Brooks",
+          "rh": "p_123:220222"
+        },
+        {
+          "text": "Reebok",
+          "rh": "p_123:232840"
+        }
+      ]
+    },
+    {
+      "type": "Amazon Fashion",
+      "options": [
+        {
+          "text": "Premium Brands",
+          "rh": "p_n_g-1004227705091:21451213011"
+        },
+        {
+          "text": "Top Brands",
+          "rh": "p_n_g-1004227705091:14630392011"
+        }
+      ]
+    },
+    {
+      "type": "Children's Shoe Width",
+      "options": [
+        {
+          "text": "Medium",
+          "rh": "p_n_pt_nav_size_kids_shoe_width:1285066011"
+        }
+      ]
+    },
+    {
+      "type": "Men's Shoe Width",
+      "options": [
+        {
+          "text": "Medium",
+          "rh": "p_n_pt_nav_size_men_shoe_width:1285110011"
+        },
+        {
+          "text": "Wide",
+          "rh": "p_n_pt_nav_size_men_shoe_width:1285111011"
+        },
+        {
+          "text": "X-Wide",
+          "rh": "p_n_pt_nav_size_men_shoe_width:1285105011"
+        }
+      ]
+    },
+    {
+      "type": "Women's Shoe Size",
+      "options": [
+        {
+          "text": "5",
+          "rh": "p_n_g-1004158520091:1285130011"
+        },
+        {
+          "text": "5.5",
+          "rh": "p_n_g-1004158520091:1285131011"
+        },
+        {
+          "text": "6",
+          "rh": "p_n_g-1004158520091:1285132011"
+        },
+        {
+          "text": "6.5",
+          "rh": "p_n_g-1004158520091:1285133011"
+        },
+        {
+          "text": "7",
+          "rh": "p_n_g-1004158520091:1285134011"
+        },
+        {
+          "text": "7.5",
+          "rh": "p_n_g-1004158520091:1285135011"
+        },
+        {
+          "text": "8",
+          "rh": "p_n_g-1004158520091:1285136011"
+        },
+        {
+          "text": "8.5",
+          "rh": "p_n_g-1004158520091:1285137011"
+        },
+        {
+          "text": "9",
+          "rh": "p_n_g-1004158520091:1285138011"
+        },
+        {
+          "text": "9.5",
+          "rh": "p_n_g-1004158520091:1285139011"
+        },
+        {
+          "text": "10",
+          "rh": "p_n_g-1004158520091:1285113011"
+        },
+        {
+          "text": "10.5",
+          "rh": "p_n_g-1004158520091:1285114011"
+        },
+        {
+          "text": "11",
+          "rh": "p_n_g-1004158520091:1285115011"
+        },
+        {
+          "text": "11.5",
+          "rh": "p_n_g-1004158520091:1285116011"
+        },
+        {
+          "text": "12",
+          "rh": "p_n_g-1004158520091:1285117011"
+        },
+        {
+          "text": "12.5",
+          "rh": "p_n_g-1004158520091:1285118011"
+        },
+        {
+          "text": "13",
+          "rh": "p_n_g-1004158520091:1285119011"
+        },
+        {
+          "text": "13.5",
+          "rh": "p_n_g-1004158520091:1285120011"
+        },
+        {
+          "text": "15",
+          "rh": "p_n_g-1004158520091:1285123011"
+        }
+      ]
+    },
+    {
+      "type": "Women's Shoe Width",
+      "options": [
+        {
+          "text": "Medium",
+          "rh": "p_n_shoe_width_browse-vebin:1285147011"
+        },
+        {
+          "text": "Wide",
+          "rh": "p_n_shoe_width_browse-vebin:1285154011"
+        }
+      ]
+    },
+    {
+      "type": "Customer Review",
+      "options": [
+        {
+          "text": "4 Stars",
+          "rh": "p_72:2661618011"
+        }
+      ]
+    },
+    {
+      "type": "Height Map",
+      "options": [
+        {
+          "text": "Ankle-High",
+          "rh": "p_n_g-1003563006111:211799453011"
+        },
+        {
+          "text": "High Top",
+          "rh": "p_n_g-1003563006111:58126450011"
+        },
+        {
+          "text": "Low Top",
+          "rh": "p_n_g-1003563006111:58126448011"
+        },
+        {
+          "text": "Mid Top",
+          "rh": "p_n_g-1003563006111:58126449011"
+        }
+      ]
+    },
+    {
+      "type": "Shoe Outer Material",
+      "options": [
+        {
+          "text": "Leather",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317179011"
+        },
+        {
+          "text": "Faux Leather",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317182011"
+        },
+        {
+          "text": "Mesh",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317165011"
+        },
+        {
+          "text": "Canvas",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317173011"
+        },
+        {
+          "text": "Cotton",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317171011"
+        },
+        {
+          "text": "Denim",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317180011"
+        },
+        {
+          "text": "Ethylene Vinyl Acetate (EVA)",
+          "rh": "p_n_feature_twenty-three_browse-bin:211728569011"
+        },
+        {
+          "text": "Faux Suede",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317181011"
+        },
+        {
+          "text": "Hemp",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317175011"
+        },
+        {
+          "text": "Neoprene",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317174011"
+        },
+        {
+          "text": "Nylon",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317164011"
+        },
+        {
+          "text": "Plastic",
+          "rh": "p_n_feature_twenty-three_browse-bin:210968941011"
+        },
+        {
+          "text": "Polyester",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317161011"
+        },
+        {
+          "text": "Polyurethane (PU)",
+          "rh": "p_n_feature_twenty-three_browse-bin:211728571011"
+        },
+        {
+          "text": "Rubber",
+          "rh": "p_n_feature_twenty-three_browse-bin:210968947011"
+        },
+        {
+          "text": "Suede",
+          "rh": "p_n_feature_twenty-three_browse-bin:30317162011"
+        },
+        {
+          "text": "Synthetic Resin",
+          "rh": "p_n_feature_twenty-three_browse-bin:210968944011"
+        },
+        {
+          "text": "Thermoplastic Polyurethane (TPU)",
+          "rh": "p_n_feature_twenty-three_browse-bin:122265019011"
+        }
+      ]
+    },
+    {
+      "type": "Shoes Closure Type",
+      "options": [
+        {
+          "text": "Lace-Up",
+          "rh": "p_n_g-1003465852111:24436296011"
+        },
+        {
+          "text": "Hook & Loop",
+          "rh": "p_n_g-1003465852111:24436294011"
+        }
+      ]
+    },
+    {
+      "type": "Seller",
+      "options": [
+        {
+          "text": "Stadium Goods",
+          "rh": "p_6:AFW7WNX55N5K4"
+        },
+        {
+          "text": "Bixemi",
+          "rh": "p_6:A3P8U6BAN7HQM8"
+        },
+        {
+          "text": "NATURAL SHOES",
+          "rh": "p_6:A3211FPPS63ST7"
+        },
+        {
+          "text": "ISOMETRIX L.L.C",
+          "rh": "p_6:A1EK7LD4ZSCFPB"
+        },
+        {
+          "text": "Revel Commerce",
+          "rh": "p_6:A1PKYT90J02XDY"
+        },
+        {
+          "text": "Amazon.com",
+          "rh": "p_6:ATVPDKIKX0DER"
+        },
+        {
+          "text": "SF0 Athletics",
+          "rh": "p_6:A2TVRE2CB5TELZ"
+        }
+      ]
+    },
+    {
+      "type": "Shoe Type",
+      "options": [
+        {
+          "text": "Athletic Shoe",
+          "rh": "p_n_feature_thirty_browse-bin:122399094011"
+        }
+      ]
+    },
+    {
+      "type": "Water Resistance Level",
+      "options": [
+        {
+          "text": "Not Water Resistant",
+          "rh": "p_n_g-101017968916111:221385250011"
+        },
+        {
+          "text": "Water Repellent",
+          "rh": "p_n_g-101017968916111:221385252011"
+        },
+        {
+          "text": "Water Resistant",
+          "rh": "p_n_g-101017968916111:221385249011"
+        },
+        {
+          "text": "Waterproof",
+          "rh": "p_n_g-101017968916111:221385253011"
+        }
+      ]
+    },
+    {
+      "type": "Shoe Heel Height",
+      "options": [
+        {
+          "text": "Under 1\"",
+          "rh": "p_n_feature_four_browse-bin:2055867011"
+        },
+        {
+          "text": "1\" - 1 3/4\"",
+          "rh": "p_n_feature_four_browse-bin:2055868011"
+        },
+        {
+          "text": "2\" - 2 3/4\"",
+          "rh": "p_n_feature_four_browse-bin:2055869011"
+        }
+      ]
+    },
+    {
+      "type": "Arch Type",
+      "options": [
+        {
+          "text": "Low Arch",
+          "rh": "p_n_g-101017868425111:220241090011"
+        },
+        {
+          "text": "Medium Arch",
+          "rh": "p_n_g-101017868425111:220241091011"
+        }
+      ]
+    },
+    {
+      "type": "Shoes Special Features",
+      "options": [
+        {
+          "text": "Lightweight",
+          "rh": "p_n_g-1003396948111:24045095011"
+        },
+        {
+          "text": "Breathable",
+          "rh": "p_n_g-1003396948111:24045099011"
+        },
+        {
+          "text": "Slip Resistant",
+          "rh": "p_n_g-1003396948111:24045093011"
+        },
+        {
+          "text": "All Weather Grip",
+          "rh": "p_n_g-1003396948111:24045103011"
+        },
+        {
+          "text": "Flexible",
+          "rh": "p_n_g-1003396948111:24045094011"
+        },
+        {
+          "text": "Shock Resistant",
+          "rh": "p_n_g-1003396948111:24045102011"
+        },
+        {
+          "text": "Water Resistant",
+          "rh": "p_n_g-1003396948111:24045096011"
+        },
+        {
+          "text": "Waterproof",
+          "rh": "p_n_g-1003396948111:24045100011"
+        },
+        {
+          "text": "Stain Resistant",
+          "rh": "p_n_g-1003396948111:24045098011"
+        }
+      ]
+    },
+    {
+      "type": "Shoes Lifestyle",
+      "options": [
+        {
+          "text": "Casual",
+          "rh": "p_n_g-1003446729111:24196138011"
+        },
+        {
+          "text": "Comfort",
+          "rh": "p_n_g-1003446729111:24196137011"
+        },
+        {
+          "text": "Club",
+          "rh": "p_n_g-1003446729111:24196142011"
+        }
+      ]
+    },
+    {
+      "type": "Purpose",
+      "options": [
+        {
+          "text": "Basketball",
+          "rh": "p_n_g-101016756037111:207864162011"
+        },
+        {
+          "text": "Running",
+          "rh": "p_n_g-101016756037111:207864157011"
+        },
+        {
+          "text": "Walking",
+          "rh": "p_n_g-101016756037111:207864167011"
+        },
+        {
+          "text": "Backpacking",
+          "rh": "p_n_g-101016756037111:214322041011"
+        },
+        {
+          "text": "Baseball",
+          "rh": "p_n_g-101016756037111:207864175011"
+        },
+        {
+          "text": "Casual Wear",
+          "rh": "p_n_g-101016756037111:214322040011"
+        },
+        {
+          "text": "Dancing",
+          "rh": "p_n_g-101016756037111:207864174011"
+        },
+        {
+          "text": "Exercising",
+          "rh": "p_n_g-101016756037111:214322037011"
+        },
+        {
+          "text": "Flat Feet",
+          "rh": "p_n_g-101016756037111:207864177011"
+        },
+        {
+          "text": "Golfing",
+          "rh": "p_n_g-101016756037111:207864169011"
+        },
+        {
+          "text": "Hiking",
+          "rh": "p_n_g-101016756037111:207864158011"
+        },
+        {
+          "text": "Pickleball",
+          "rh": "p_n_g-101016756037111:207864170011"
+        },
+        {
+          "text": "Plantar Fasciitis",
+          "rh": "p_n_g-101016756037111:207864164011"
+        },
+        {
+          "text": "Soccer",
+          "rh": "p_n_g-101016756037111:207864159011"
+        },
+        {
+          "text": "Softball",
+          "rh": "p_n_g-101016756037111:207864165011"
+        },
+        {
+          "text": "Tennis",
+          "rh": "p_n_g-101016756037111:207864178011"
+        },
+        {
+          "text": "Volleyball",
+          "rh": "p_n_g-101016756037111:207864172011"
+        },
+        {
+          "text": "Weightlifting",
+          "rh": "p_n_g-101016756037111:207864180011"
+        }
+      ]
+    },
+    {
+      "type": "Strap Type",
+      "options": [
+        {
+          "text": "Ankle Strap",
+          "rh": "p_n_g-1003499539111:28820566011"
+        },
+        {
+          "text": "Slingback",
+          "rh": "p_n_g-1003499539111:28820563011"
+        },
+        {
+          "text": "T-Strap",
+          "rh": "p_n_g-1003499539111:28820567011"
+        },
+        {
+          "text": "Thong",
+          "rh": "p_n_g-1003499539111:28820565011"
+        }
+      ]
+    },
+    {
+      "type": "Lining Description",
+      "options": [
+        {
+          "text": "Cotton",
+          "rh": "p_n_g-101017758228111:217820219011"
+        },
+        {
+          "text": "Faux Fur",
+          "rh": "p_n_g-101017758228111:217820211011"
+        },
+        {
+          "text": "Faux Leather",
+          "rh": "p_n_g-101017758228111:217820220011"
+        },
+        {
+          "text": "Faux Suede",
+          "rh": "p_n_g-101017758228111:217820222011"
+        },
+        {
+          "text": "Leather",
+          "rh": "p_n_g-101017758228111:217820216011"
+        },
+        {
+          "text": "Natural Rubber",
+          "rh": "p_n_g-101017758228111:217820226011"
+        },
+        {
+          "text": "Nylon",
+          "rh": "p_n_g-101017758228111:217820217011"
+        },
+        {
+          "text": "Polyester",
+          "rh": "p_n_g-101017758228111:217820221011"
+        },
+        {
+          "text": "Polyurethane (PU)",
+          "rh": "p_n_g-101017758228111:217820213011"
+        },
+        {
+          "text": "Suede",
+          "rh": "p_n_g-101017758228111:217820218011"
+        },
+        {
+          "text": "Synthetic Rubber",
+          "rh": "p_n_g-101017758228111:217820212011"
+        },
+        {
+          "text": "Unlined",
+          "rh": "p_n_g-101017758228111:217820224011"
+        }
+      ]
+    },
+    {
+      "type": "Material",
+      "options": [
+        {
+          "text": "Cotton",
+          "rh": "p_n_g-101017771166111:218448019011"
+        },
+        {
+          "text": "Ethylene Vinyl Acetate",
+          "rh": "p_n_g-101017771166111:218448008011"
+        },
+        {
+          "text": "Fabric",
+          "rh": "p_n_g-101017771166111:221987797011"
+        },
+        {
+          "text": "Faux Leather",
+          "rh": "p_n_g-101017771166111:218448009011"
+        },
+        {
+          "text": "Leather",
+          "rh": "p_n_g-101017771166111:218448011011"
+        },
+        {
+          "text": "Mesh",
+          "rh": "p_n_g-101017771166111:218448015011"
+        },
+        {
+          "text": "Net",
+          "rh": "p_n_g-101017771166111:218448012011"
+        },
+        {
+          "text": "Nylon",
+          "rh": "p_n_g-101017771166111:218448023011"
+        },
+        {
+          "text": "Polyester",
+          "rh": "p_n_g-101017771166111:218448005011"
+        },
+        {
+          "text": "Polyurethane",
+          "rh": "p_n_g-101017771166111:218448020011"
+        },
+        {
+          "text": "Rubber",
+          "rh": "p_n_g-101017771166111:218448002011"
+        },
+        {
+          "text": "Suede",
+          "rh": "p_n_g-101017771166111:218448024011"
+        },
+        {
+          "text": "Thermoplastic Polyurethane",
+          "rh": "p_n_g-101017771166111:218448021011"
+        }
+      ]
+    },
+    {
+      "type": "Shoe Toe Style",
+      "options": [
+        {
+          "text": "Closed Toe",
+          "rh": "p_n_g-1003126687111:23713152011"
+        },
+        {
+          "text": "Round Toe",
+          "rh": "p_n_g-1003126687111:23713160011"
+        },
+        {
+          "text": "Cap Toe",
+          "rh": "p_n_g-1003126687111:23713159011"
+        },
+        {
+          "text": "Plain Toe",
+          "rh": "p_n_g-1003126687111:23713154011"
+        },
+        {
+          "text": "Moc Toe",
+          "rh": "p_n_g-1003126687111:23713164011"
+        },
+        {
+          "text": "Open Toe",
+          "rh": "p_n_g-1003126687111:23713153011"
+        },
+        {
+          "text": "Pointed Toe",
+          "rh": "p_n_g-1003126687111:23713166011"
+        },
+        {
+          "text": "Split Toe",
+          "rh": "p_n_g-1003126687111:23713165011"
+        },
+        {
+          "text": "Square Toe",
+          "rh": "p_n_g-1003126687111:23713161011"
+        },
+        {
+          "text": "Steel Toe",
+          "rh": "p_n_g-1003126687111:23713155011"
+        },
+        {
+          "text": "Wingtip Toe",
+          "rh": "p_n_g-1003126687111:23713163011"
+        }
+      ]
+    },
+    {
+      "type": "Heel Type",
+      "options": [
+        {
+          "text": "Flat",
+          "rh": "p_n_g-101018073212111:222412461011"
+        },
+        {
+          "text": "No Heel",
+          "rh": "p_n_g-101018073212111:222412466011"
+        }
+      ]
+    },
+    {
+      "type": "Surface Recommendation",
+      "options": [
+        {
+          "text": "Artificial Ground",
+          "rh": "p_n_g-101017934180111:221157086011"
+        },
+        {
+          "text": "Firm Ground",
+          "rh": "p_n_g-101017934180111:221157082011"
+        },
+        {
+          "text": "Hard Ground",
+          "rh": "p_n_g-101017934180111:221157083011"
+        },
+        {
+          "text": "Indoor",
+          "rh": "p_n_g-101017934180111:221157090011"
+        },
+        {
+          "text": "Road",
+          "rh": "p_n_g-101017934180111:221157088011"
+        },
+        {
+          "text": "Soft Ground",
+          "rh": "p_n_g-101017934180111:221157089011"
+        },
+        {
+          "text": "Trail",
+          "rh": "p_n_g-101017934180111:221157085011"
+        },
+        {
+          "text": "Treadmill",
+          "rh": "p_n_g-101017934180111:221157084011"
+        },
+        {
+          "text": "Turf",
+          "rh": "p_n_g-101017934180111:221157087011"
+        }
+      ]
+    },
+    {
+      "type": "Pattern",
+      "options": [
+        {
+          "text": "Animal Print",
+          "rh": "p_n_g-101017157714111:213408760011"
+        },
+        {
+          "text": "Herringbone",
+          "rh": "p_n_g-101017157714111:213408763011"
+        },
+        {
+          "text": "Polka Dot",
+          "rh": "p_n_g-101017157714111:213408761011"
+        },
+        {
+          "text": "Solid",
+          "rh": "p_n_g-101017157714111:213408750011"
+        },
+        {
+          "text": "Striped",
+          "rh": "p_n_g-101017157714111:213408753011"
+        }
+      ]
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "asin": "B08QBCX7DP",
+      "title": "Men's Air Force 1 '07 Sneaker",
+      "link": "https://www.amazon.com/Nike-Mens-Basketball-Shoe-White/dp/B08QBCX7DP/ref=sr_1_1?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-1",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 3522,
+      "recent_sales": "700+ bought in past month",
+      "extracted_recent_sales": 700,
+      "price": "$115.00",
+      "extracted_price": 115.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Nov 7",
+          "type": "FREE delivery",
+          "date": "Sat, Nov 7"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 5 - 6",
+          "type": "Or fastest delivery",
+          "date": "Nov 5 - 6"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61W8dR8vW4L._AC_UL320_.jpg"
+    },
+    {
+      "position": 2,
+      "asin": "B0983LGPHD",
+      "title": "mens Court Vision Lo Nn Shoes",
+      "link": "https://www.amazon.com/Court-Vision-Better-Basketball-White-White/dp/B0983LGPHD/ref=sr_1_2?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-2",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 12652,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$84.96",
+      "extracted_price": 84.96,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Fri, Nov 6",
+          "type": "Join Prime",
+          "date": "Fri, Nov 6"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "is_overall_pick": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/51yw0T1XtTL._AC_UL320_.jpg"
+    },
+    {
+      "position": 3,
+      "asin": "B0983L8P6W",
+      "title": "Women's Court Vision Low Next Nature Shoes",
+      "link": "https://www.amazon.com/Nike-Womens-Vision-White-White-DH3158/dp/B0983L8P6W/ref=sr_1_3?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-3",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 8322,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$84.99",
+      "extracted_price": 84.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Nov 5",
+          "type": "Join Prime",
+          "date": "Tomorrow, Nov 5"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/41FEruor4RL._AC_UL320_.jpg"
+    },
+    {
+      "position": 4,
+      "asin": "B0FHC2HWTR",
+      "title": "Men's Air Jordan 1 Shoes",
+      "link": "https://www.amazon.com/Jordan-Shoes-White-Light-Smoke/dp/B0FHC2HWTR/ref=sr_1_4?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-4",
+      "brand": "Nike",
+      "rating": 4.7,
+      "reviews": 588,
+      "recent_sales": "#1 Top Rated",
+      "extracted_recent_sales": 1,
+      "price": "$139.90",
+      "extracted_price": 139.9,
+      "original_price": "$157.29",
+      "extracted_original_price": 157.29,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Fri, Nov 6",
+          "type": "Join Prime",
+          "date": "Fri, Nov 6"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Tue, Nov 10",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Tue, Nov 10"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71Xi58F2+wL._AC_UL320_.jpg"
+    },
+    {
+      "position": 5,
+      "asin": "B08QB293CT",
+      "title": "Nike",
+      "link": "https://www.amazon.com/Nike-Mens-AIR-Force-CW2288/dp/B08QB293CT/ref=sr_1_5?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-5",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 766,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$96.48",
+      "extracted_price": 96.48,
+      "original_price": "$102.00",
+      "extracted_original_price": 102.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Thu, Nov 12",
+          "type": "FREE delivery",
+          "date": "Thu, Nov 12"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 6 - 9",
+          "type": "Or fastest delivery",
+          "date": "Nov 6 - 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/610IQPC0HuL._AC_UL320_.jpg"
+    },
+    {
+      "position": 6,
+      "asin": "B08QB1YKTR",
+      "title": "Men's Air Monarch IV Cross Trainer",
+      "link": "https://www.amazon.com/NIKE-Mens-Low-Top-Sneakers-White/dp/B08QB1YKTR/ref=sr_1_6?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-6",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 15853,
+      "price": "$99.99",
+      "extracted_price": 99.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Thu, Nov 12",
+          "type": "FREE delivery",
+          "date": "Thu, Nov 12"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 6 - 9",
+          "type": "Or fastest delivery",
+          "date": "Nov 6 - 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/610IQPC0HuL._AC_UL320_.jpg"
+    },
+    {
+      "position": 7,
+      "asin": "B00V6JLSZ0",
+      "title": "Men's Gymnastics Shoes",
+      "link": "https://www.amazon.com/Nike-Air-Force-Mens-Style/dp/B00V6JLSZ0/ref=sr_1_7?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-7",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 2184,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$94.99",
+      "extracted_price": 94.99,
+      "original_price": "$109.99",
+      "extracted_original_price": 109.99,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 9 - 12",
+          "type": "FREE delivery",
+          "date": "Nov 9 - 12"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 6 - 10",
+          "type": "Or fastest delivery",
+          "date": "Nov 6 - 10"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71CUkWqQq1L._AC_UL320_.jpg"
+    },
+    {
+      "position": 8,
+      "asin": "B0CVR34NPW",
+      "title": "air Force 1 GS Big Kid Shoes",
+      "link": "https://www.amazon.com/Nike-Force-Shoes-FV5951-001-Black-Black-Black/dp/B0CVR34NPW/ref=sr_1_8?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-8",
+      "brand": "Nike",
+      "rating": 4.7,
+      "reviews": 241,
+      "price": "$96.63",
+      "extracted_price": 96.63,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Nov 5",
+          "type": "Join Prime",
+          "date": "Tomorrow, Nov 5"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71851HhwiBL._AC_UL320_.jpg"
+    },
+    {
+      "position": 9,
+      "asin": "B0CTTPQC5K",
+      "title": "Air Force 1 LE GS Girls Shoes",
+      "link": "https://www.amazon.com/Nike-Force-Kids-Shoes-Size-6/dp/B0CTTPQC5K/ref=sr_1_9?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-9",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 449,
+      "price": "$100.00",
+      "extracted_price": 100.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Nov 7",
+          "type": "FREE delivery",
+          "date": "Sat, Nov 7"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 5 - 6",
+          "type": "Or fastest delivery",
+          "date": "Nov 5 - 6"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61PPu8BUZmL._AC_UL320_.jpg"
+    },
+    {
+      "position": 10,
+      "asin": "B0CZHHK3TN",
+      "title": "Men's Air Force 1 '07 Basketball Shoe, White/White, 10 US",
+      "link": "https://www.amazon.com/Nike-Force-Mens-Shoes-Size/dp/B0CZHHK3TN/ref=sr_1_10?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-10",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 78,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$109.99",
+      "extracted_price": 109.99,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Nov 5",
+          "type": "Join Prime",
+          "date": "Tomorrow, Nov 5"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/31j3mCrJtAL._AC_UL320_.jpg"
+    },
+    {
+      "position": 11,
+      "asin": "B09BBMJVQ1",
+      "title": "Jordan Mens Basketball",
+      "link": "https://www.amazon.com/Nike-Jordan-Black-Particle-White/dp/B09BBMJVQ1/ref=sr_1_11?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-11",
+      "brand": "Nike",
+      "rating": 4.7,
+      "reviews": 1811,
+      "recent_sales": "#1 Top Rated",
+      "extracted_recent_sales": 1,
+      "price": "$114.53",
+      "extracted_price": 114.53,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Sat, Nov 7",
+          "type": "Join Prime",
+          "date": "Sat, Nov 7"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51FZ7SuUZXL._AC_UL320_.jpg"
+    },
+    {
+      "position": 12,
+      "asin": "B0GJ8CGP46",
+      "title": "Air Jordan 1 Mid Men's Shoes (Summit White/Neutral Grey/Infrared 23/Black)",
+      "link": "https://www.amazon.com/Jordan-Shoes-Summit-Neutral-Infrared/dp/B0GJ8CGP46/ref=sr_1_12?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-12",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 32,
+      "price": "$98.73",
+      "extracted_price": 98.73,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Nov 5",
+          "type": "Join Prime",
+          "date": "Tomorrow, Nov 5"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/610ts+H4DSL._AC_UL320_.jpg"
+    },
+    {
+      "position": 13,
+      "asin": "B0CRXM54XG",
+      "title": "Air Max Excee Mens Shoes",
+      "link": "https://www.amazon.com/Nike-Excee-Sneaker-White-Cool-Grey-Wolf/dp/B0CRXM54XG/ref=sr_1_13?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-13",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 9263,
+      "recent_sales": "700+ bought in past month",
+      "extracted_recent_sales": 700,
+      "price": "$80.97",
+      "extracted_price": 80.97,
+      "original_price": "$100.00",
+      "extracted_original_price": 100.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Nov 5",
+          "type": "Join Prime",
+          "date": "Tomorrow, Nov 5"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61enWtztGtL._AC_UL320_.jpg"
+    },
+    {
+      "position": 14,
+      "asin": "B08QBCCY89",
+      "title": "Air Max Torch 4 Shoes",
+      "link": "https://www.amazon.com/Nike-Mens-AIR-Force-CW2288/dp/B08QBCCY89/ref=sr_1_14?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-14",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 8025,
+      "price": "$96.15",
+      "extracted_price": 96.15,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 9 - 12",
+          "type": "FREE delivery",
+          "date": "Nov 9 - 12"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 6 - 10",
+          "type": "Or fastest delivery",
+          "date": "Nov 6 - 10"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51SL8rdwNFS._AC_UL320_.jpg"
+    },
+    {
+      "position": 15,
+      "asin": "B08Q9W5VXH",
+      "title": "Men's Air Force 1 Low Sneakers",
+      "link": "https://www.amazon.com/Nike-Mens-Force-White-CW2288/dp/B08Q9W5VXH/ref=sr_1_15?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-15",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 2776,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$108.00",
+      "extracted_price": 108.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Tue, Nov 10",
+          "type": "FREE delivery",
+          "date": "Tue, Nov 10"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61J0HsOOsZL._AC_UL320_.jpg"
+    },
+    {
+      "position": 16,
+      "asin": "B0GYTW6RWP",
+      "title": "Air Force 1 Low '07 (White)",
+      "link": "https://www.amazon.com/Nike-Air-Force-White-Size/dp/B0GYTW6RWP/ref=sr_1_16?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-16",
+      "brand": "Nike",
+      "rating": 3.2,
+      "reviews": 4,
+      "price": "$140.00",
+      "extracted_price": 140.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Thu, Nov 12",
+          "type": "FREE delivery",
+          "date": "Thu, Nov 12"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 5 - 9",
+          "type": "Or fastest delivery",
+          "date": "Nov 5 - 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/41K7GcypgXL._AC_UL320_.jpg"
+    },
+    {
+      "position": 17,
+      "asin": "B0BMF379XS",
+      "title": "Forever Love Air Force 1 Shoes by NOCTA",
+      "link": "https://www.amazon.com/Nike-Force-CZ8065-Drake-NOCTA/dp/B0BMF379XS/ref=sr_1_17_sspa?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike air 1&qid=1793818720&sr=8-17-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Nike",
+      "rating": 3.6,
+      "reviews": 2,
+      "price": "$286.00",
+      "extracted_price": 286.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Mon, Nov 9",
+          "type": "FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "availability": "Only 1 left in stock - order soon.",
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61wesz7BFnL._AC_UL320_.jpg"
+    },
+    {
+      "position": 18,
+      "asin": "B0FBJT1ZLP",
+      "title": "Air Force 1 Big Kids' Shoes (HQ3249-043, Pure Platinum/Glacier Blue/Metallic Silver)",
+      "link": "https://www.amazon.com/Nike-Force-White-Fuchsia-HV0938/dp/B0FBJT1ZLP/ref=sr_1_18_sspa?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike air 1&qid=1793818720&sr=8-18-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 20,
+      "price": "$91.59",
+      "extracted_price": 91.59,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Fri, Nov 13",
+          "type": "FREE delivery",
+          "date": "Fri, Nov 13"
+        }
+      },
+      "availability": "Only 2 left in stock - order soon.",
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/618B7bG9i-L._AC_UL320_.jpg"
+    },
+    {
+      "position": 19,
+      "asin": "B0GW18764L",
+      "title": "Air Jordan 1 Low Men's Shoes (Midnight Navy/White/University Blue)",
+      "link": "https://www.amazon.com/Jordan-Shoes-Midnight-White-University/dp/B0GW18764L/ref=sr_1_19_mod_primary_new?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=8-19",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 28,
+      "price": "$118.09",
+      "extracted_price": 118.09,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Mon, Nov 9",
+          "type": "FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71e8wVmGfmL._AC_UL320_.jpg"
+    },
+    {
+      "position": 20,
+      "asin": "B0CJ3S2ZQ3",
+      "title": "Jordan Mens Air 1 Low",
+      "link": "https://www.amazon.com/Mercurial-Vapor-Football-Boots-British/dp/B0CJ3S2ZQ3/ref=sr_1_20?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-20",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 4909,
+      "price": "$145.00",
+      "extracted_price": 145.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Tue, Nov 10",
+          "type": "FREE delivery",
+          "date": "Tue, Nov 10"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/613PwzSSSXL._AC_UL320_.jpg"
+    },
+    {
+      "position": 21,
+      "asin": "B0F2GH4YP5",
+      "title": "Men's Air Max SC Shoes",
+      "link": "https://www.amazon.com/Nike-Sneaker-Photon-Bright-Citron/dp/B0F2GH4YP5/ref=sr_1_21?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-21",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 7127,
+      "price": "$76.97",
+      "extracted_price": 76.97,
+      "original_price": "$90.00",
+      "extracted_original_price": 90.0,
+      "original_price_label": "List",
+      "coupon": {
+        "badge_text": "You pay $48.26",
+        "text": "with coupon"
+      },
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Nov 5",
+          "type": "Join Prime",
+          "date": "Tomorrow, Nov 5"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61XAmwhLQ+L._AC_UL320_.jpg"
+    },
+    {
+      "position": 22,
+      "asin": "B0CSZ9M1H5",
+      "title": "Men's Air Jordan 1 Mid Sneaker",
+      "link": "https://www.amazon.com/Nike-Jordan-Mens-Shoes-Color/dp/B0CSZ9M1H5/ref=sr_1_22?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-22",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 1695,
+      "more_offers": {
+        "lowest_price": "$81.41",
+        "extracted_lowest_price": 81.41,
+        "link": "https://www.amazon.com/gp/offer-listing/B0CSZ9M1H5/ref=sr_1_22_olp?keywords=nike+air+1&dib_tag=se&dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&qid=1793818720&sr=8-22",
+        "offers_count": 5,
+        "description": "(5 used & new offers)"
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51PbEA1cWkL._AC_UL320_.jpg"
+    },
+    {
+      "position": 23,
+      "asin": "B08Q9W8Q8Z",
+      "title": "Air Max Torch 4 Shoes",
+      "link": "https://www.amazon.com/Nike-Force-Basketball-White-Black/dp/B08Q9W8Q8Z/ref=sr_1_23_sspa?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike air 1&qid=1793818720&sr=8-23-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 8025,
+      "price": "$104.15",
+      "extracted_price": 104.15,
+      "original_price": "$115.00",
+      "extracted_original_price": 115.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Nov 7",
+          "type": "FREE delivery",
+          "date": "Sat, Nov 7"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 5 - 6",
+          "type": "Or fastest delivery",
+          "date": "Nov 5 - 6"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/51gIZD5kTOL._AC_UL320_.jpg"
+    },
+    {
+      "position": 24,
+      "asin": "B0H2N28MQV",
+      "title": "Kobe Air Force 1 Low Men's Shoes (Summit White/Daybreak)",
+      "link": "https://www.amazon.com/Nike-Force-Shoes-Summit-Daybreak/dp/B0H2N28MQV/ref=sr_1_24_sspa?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike air 1&qid=1793818720&sr=8-24-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Nike",
+      "rating": 4.7,
+      "reviews": 5,
+      "price": "$119.00",
+      "extracted_price": 119.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Fri, Nov 6",
+          "type": "Join Prime",
+          "date": "Fri, Nov 6"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "availability": "Only 2 left in stock - order soon.",
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61XJyD3+0PL._AC_UL320_.jpg"
+    },
+    {
+      "position": 25,
+      "asin": "B08Q9SBCT7",
+      "title": "Mens Basketball",
+      "link": "https://www.amazon.com/Nike-Mens-Basketball-White-10-5/dp/B08Q9SBCT7/ref=sr_1_25_sspa?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike air 1&qid=1793818720&sr=8-25-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 483,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$103.00",
+      "extracted_price": 103.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Mon, Nov 9",
+          "type": "FREE delivery",
+          "date": "Mon, Nov 9"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 5 - 6",
+          "type": "Or fastest delivery",
+          "date": "Nov 5 - 6"
+        }
+      },
+      "availability": "Only 3 left in stock - order soon.",
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61J0HsOOsZL._AC_UL320_.jpg"
+    },
+    {
+      "position": 26,
+      "asin": "B08QBCX7DP",
+      "title": "Men's Air Force 1 '07 Sneaker",
+      "link": "https://www.amazon.com/Nike-Mens-Basketball-Shoe-White/dp/B08QBCX7DP/ref=sr_1_26_sspa?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike air 1&qid=1793818720&sr=8-26-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 3522,
+      "recent_sales": "700+ bought in past month",
+      "extracted_recent_sales": 700,
+      "price": "$115.00",
+      "extracted_price": 115.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Nov 7",
+          "type": "FREE delivery",
+          "date": "Sat, Nov 7"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 5 - 6",
+          "type": "Or fastest delivery",
+          "date": "Nov 5 - 6"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61W8dR8vW4L._AC_UL320_.jpg"
+    },
+    {
+      "position": 27,
+      "asin": "B09BK85G7H",
+      "title": "Women's WMNS Air Jordan 1 Low Sneaker",
+      "link": "https://www.amazon.com/Jordan-Womens-WMNS-DC0774-White/dp/B09BK85G7H/ref=sr_1_27?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-27",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 1542,
+      "price": "$94.59",
+      "extracted_price": 94.59,
+      "original_price": "$114.55",
+      "extracted_original_price": 114.55,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Fri, Nov 6",
+          "type": "FREE delivery",
+          "date": "Fri, Nov 6"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Tomorrow, Nov 5",
+          "type": "Or fastest delivery",
+          "date": "Tomorrow, Nov 5"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61lGjXInw7L._AC_UL320_.jpg"
+    },
+    {
+      "position": 28,
+      "asin": "B0BT27J2YX",
+      "title": "Women's Court Legacy Lift Shoes",
+      "link": "https://www.amazon.com/NIKE-Womens-Sneaker-White-9/dp/B0BT27J2YX/ref=sr_1_28?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-28",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 3008,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$95.00",
+      "extracted_price": 95.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Nov 5",
+          "type": "Join Prime",
+          "date": "Tomorrow, Nov 5"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61kIZMdXFNL._AC_UL320_.jpg"
+    },
+    {
+      "position": 29,
+      "asin": "B0GJ8FZ3YC",
+      "title": "Air Force 1 Retro Valentine’s Day Men's Shoes (University Red/Black/University Red)",
+      "link": "https://www.amazon.com/Nike-Force-Retro-Valentines-University/dp/B0GJ8FZ3YC/ref=sr_1_29?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-29",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 18,
+      "price": "$119.90",
+      "extracted_price": 119.9,
+      "original_price": "$131.00",
+      "extracted_original_price": 131.0,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Fri, Nov 6",
+          "type": "Join Prime",
+          "date": "Fri, Nov 6"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71LhdxbjBbL._AC_UL320_.jpg"
+    },
+    {
+      "position": 30,
+      "asin": "B0FWD8RTW8",
+      "title": "Men's Air Jordan 1 Retro Low OG Shoes",
+      "link": "https://www.amazon.com/Air-Jordan-Medium-Olive-Sail/dp/B0FWD8RTW8/ref=sr_1_30?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-30",
+      "brand": "Nike",
+      "rating": 4.7,
+      "reviews": 273,
+      "price": "$132.83",
+      "extracted_price": 132.83,
+      "original_price": "$148.00",
+      "extracted_original_price": 148.0,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 5 - 6",
+          "type": "FREE delivery",
+          "date": "Nov 5 - 6"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51PJNAvYmAL._AC_UL320_.jpg"
+    },
+    {
+      "position": 31,
+      "asin": "B0FHJ9J6T5",
+      "title": "Jordan Air 1 Mid SE (Black)",
+      "link": "https://www.amazon.com/Air-Jordan-Mid-Black-Flax/dp/B0FHJ9J6T5/ref=sr_1_31_sspa?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike air 1&qid=1793818720&sr=8-31-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Nike",
+      "rating": 4.8,
+      "reviews": 7,
+      "price": "$119.00",
+      "extracted_price": 119.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Fri, Nov 6",
+          "type": "Join Prime",
+          "date": "Fri, Nov 6"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "availability": "Only 1 left in stock - order soon.",
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/515Irne-HbL._AC_UL320_.jpg"
+    },
+    {
+      "position": 32,
+      "asin": "B0BS2M9SVR",
+      "title": "Drake NOCTA Certified Lover Boy Nike Air Force 1 Low",
+      "link": "https://www.amazon.com/Nike-Force-CZ8065-Drake-NOCTA/dp/B0BS2M9SVR/ref=sr_1_32_sspa?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike air 1&qid=1793818720&sr=8-32-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "Nike",
+      "price": "$224.00",
+      "extracted_price": 224.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Sat, Nov 7",
+          "type": "Join Prime",
+          "date": "Sat, Nov 7"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "availability": "Only 2 left in stock - order soon.",
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/617Kqw5F9XL._AC_UL320_.jpg"
+    },
+    {
+      "position": 33,
+      "asin": "B085KZJK8M",
+      "title": "Men's Shock-Absorbing Sneakers Running Shoes",
+      "link": "https://www.amazon.com/WELRUNG-Shock-Absorbing-Sneakers-Running-Shoes/dp/B085KZJK8M/ref=sr_1_33_sspa?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike air 1&qid=1793818720&sr=8-33-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "rating": 4.2,
+      "reviews": 454,
+      "price": "$29.90",
+      "extracted_price": 29.9,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Fri, Nov 6",
+          "type": "Join Prime",
+          "date": "Fri, Nov 6"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9 on $35 of items shipped by Amazon",
+          "type": "Or Non-members get FREE delivery",
+          "condition": "on $35 of items shipped by Amazon",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/71Z-AjtXiqL._AC_UL320_.jpg"
+    },
+    {
+      "position": 34,
+      "asin": "B0CRYV1MXL",
+      "title": "High Top Mens Basketball Shoes Lou Williams Streetball Master Breathable Outdoor Sneakers Pickleball Shoes Cushioning Shoes for Fitness",
+      "link": "https://www.amazon.com/PEAK-Basketball-Streetball-Breathable-Cushioning/dp/B0CRYV1MXL/ref=sr_1_34_sspa?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike air 1&qid=1793818720&sr=8-34-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "PEAK",
+      "rating": 4.5,
+      "reviews": 9740,
+      "price": "$45.99",
+      "extracted_price": 45.99,
+      "original_price": "$54.11",
+      "extracted_original_price": 54.11,
+      "original_price_label": "Typical price",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 22 - Dec 9",
+          "type": "FREE delivery",
+          "date": "Nov 22 - Dec 9"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 22 - Dec 7",
+          "type": "Or fastest delivery",
+          "date": "Nov 22 - Dec 7"
+        }
+      },
+      "is_sponsored": true,
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/51yh45u8M3L._AC_UL320_.jpg"
+    },
+    {
+      "position": 35,
+      "asin": "B07SNR7HRF",
+      "title": "Nike",
+      "link": "https://www.amazon.com/Nike-Jordan-Access-AR3762001-Color/dp/B07SNR7HRF/ref=sr_1_35?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-35",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 5657,
+      "price": "$98.00",
+      "extracted_price": 98.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Fri, Nov 6",
+          "type": "FREE delivery",
+          "date": "Fri, Nov 6"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51PdiF8O0VS._AC_UL320_.jpg"
+    },
+    {
+      "position": 36,
+      "asin": "B0FHC1VDPZ",
+      "title": "Men's Air Jordan 1 Retro Low OG Shoes",
+      "link": "https://www.amazon.com/Jordan-Shoes-Black-White-Starfish/dp/B0FHC1VDPZ/ref=sr_1_36?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-36",
+      "brand": "Nike",
+      "rating": 4.7,
+      "reviews": 273,
+      "price": "$110.12",
+      "extracted_price": 110.12,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 20 - Dec 3",
+          "type": "FREE delivery",
+          "date": "Nov 20 - Dec 3"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 20 - Dec 2",
+          "type": "Or fastest delivery",
+          "date": "Nov 20 - Dec 2"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51+wj9yX6ML._AC_UL320_.jpg"
+    },
+    {
+      "position": 37,
+      "asin": "B0DTQ53VGB",
+      "title": "Men's Air Force 1 '07 Sneaker",
+      "link": "https://www.amazon.com/Nike-Force-Shoes-HF2886-001-Black/dp/B0DTQ53VGB/ref=sr_1_37?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-37",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 3522,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$119.00",
+      "extracted_price": 119.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Fri, Nov 6",
+          "type": "Join Prime",
+          "date": "Fri, Nov 6"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61cRiK3vIVL._AC_UL320_.jpg"
+    },
+    {
+      "position": 38,
+      "asin": "B08QB1MPW7",
+      "title": "mens nike air force 1 low (black)",
+      "link": "https://www.amazon.com/Nike-Force-CW2288-Triple-Black/dp/B08QB1MPW7/ref=sr_1_38?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-38",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 385,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$115.00",
+      "extracted_price": 115.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Nov 14 - 18",
+          "type": "FREE delivery",
+          "date": "Nov 14 - 18"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 14 - 16",
+          "type": "Or fastest delivery",
+          "date": "Nov 14 - 16"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71avIoVqbML._AC_UL320_.jpg"
+    },
+    {
+      "position": 39,
+      "asin": "B077GKWJ93",
+      "title": "Men's Fashion High Top Leather Street Sneakers Sports Casual Shoes",
+      "link": "https://www.amazon.com/FZUU-Fashion-Leather-Street-Sneakers/dp/B077GKWJ93/ref=sr_1_39_sspa?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike air 1&qid=1793818720&sr=8-39-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "FZUU",
+      "rating": 4.1,
+      "reviews": 3485,
+      "price": "$39.99",
+      "extracted_price": 39.99,
+      "original_price": "$42.99",
+      "extracted_original_price": 42.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Fri, Nov 6",
+          "type": "Join Prime",
+          "date": "Fri, Nov 6"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61gzplsqibL._AC_UL320_.jpg"
+    },
+    {
+      "position": 40,
+      "asin": "B00RBA83ME",
+      "title": "Men's ST329 CMF Sneaker, Wide Tennis Walking Shoes Leather Upper",
+      "link": "https://www.amazon.com/K-Swiss-Mens-ST329-Training-White/dp/B00RBA83ME/ref=sr_1_40_sspa?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike air 1&qid=1793818720&sr=8-40-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1",
+      "brand": "K-Swiss",
+      "rating": 4.6,
+      "reviews": 20665,
+      "recent_sales": "#1 Top Rated",
+      "extracted_recent_sales": 1,
+      "price": "$70.00",
+      "extracted_price": 70.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Fri, Nov 6",
+          "type": "Join Prime",
+          "date": "Fri, Nov 6"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "is_sponsored": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/81XsUDVtfAL._AC_UL320_.jpg"
+    },
+    {
+      "position": 41,
+      "asin": "B08Q8R2K15",
+      "title": "Men's Air Force 1 '07 Sneaker",
+      "link": "https://www.amazon.com/NIKE-Force-Basketball-White-Black/dp/B08Q8R2K15/ref=sr_1_41?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-41",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 3522,
+      "price": "$115.00",
+      "extracted_price": 115.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Tue, Nov 10",
+          "type": "FREE delivery",
+          "date": "Tue, Nov 10"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61LerQJ1ynL._AC_UL320_.jpg"
+    },
+    {
+      "position": 42,
+      "asin": "B08XB66XQD",
+      "title": "Boys Air Force 1 The (GS) Basketball Shoes",
+      "link": "https://www.amazon.com/Nike-Youth-Force-DH2920-White/dp/B08XB66XQD/ref=sr_1_42?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-42",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 1531,
+      "price": "$85.00",
+      "extracted_price": 85.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Tue, Nov 10",
+          "type": "FREE delivery",
+          "date": "Tue, Nov 10"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/515Kq8haIXL._AC_UL320_.jpg"
+    },
+    {
+      "position": 43,
+      "asin": "B01HK4Y3KG",
+      "title": "Men's Air Force 1 '07 Shoes",
+      "link": "https://www.amazon.com/Nike-Unisex-Adult-Force-Low-Top/dp/B01HK4Y3KG/ref=sr_1_43?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-43",
+      "brand": "Nike",
+      "rating": 4.7,
+      "reviews": 839,
+      "price": "$114.95",
+      "extracted_price": 114.95,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Thu, Nov 12",
+          "type": "FREE delivery",
+          "date": "Thu, Nov 12"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 6 - 9",
+          "type": "Or fastest delivery",
+          "date": "Nov 6 - 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/81uiWMk9dnL._AC_UL320_.jpg"
+    },
+    {
+      "position": 44,
+      "asin": "B0F4NXLK31",
+      "title": "Men's Air Jordan 1 Retro Low OG Shoes",
+      "link": "https://www.amazon.com/Jordan-Retro-Obsidian-CZ0790-400-Blue/dp/B0F4NXLK31/ref=sr_1_44?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-44",
+      "brand": "Nike",
+      "rating": 4.7,
+      "reviews": 273,
+      "price": "$133.00",
+      "extracted_price": 133.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Tue, Nov 10",
+          "type": "FREE delivery",
+          "date": "Tue, Nov 10"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61tLhJTKJHL._AC_UL320_.jpg"
+    },
+    {
+      "position": 45,
+      "asin": "B0CMBLF2F3",
+      "title": "Air Max Excee Mens Shoes",
+      "link": "https://www.amazon.com/Nike-Mens-Air-Max-Excee/dp/B0CMBLF2F3/ref=sr_1_45?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-45",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 9263,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$71.31",
+      "extracted_price": 71.31,
+      "original_price": "$100.00",
+      "extracted_original_price": 100.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Nov 5",
+          "type": "Join Prime",
+          "date": "Tomorrow, Nov 5"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61fGtHE153L._AC_UL320_.jpg"
+    },
+    {
+      "position": 46,
+      "asin": "B00NMVRO5S",
+      "title": "Jordan Mens Air 1 Low",
+      "link": "https://www.amazon.com/NIKE-Ebernon-Basketball-White-Regular/dp/B00NMVRO5S/ref=sr_1_46?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-46",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 4909,
+      "price": "$74.00",
+      "extracted_price": 74.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Fri, Nov 6",
+          "type": "Join Prime",
+          "date": "Fri, Nov 6"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61MtYd1WDAL._AC_UL320_.jpg"
+    },
+    {
+      "position": 47,
+      "asin": "B0F13B9JVY",
+      "title": "Men's Air Monarch IV Training/Workout Shoes",
+      "link": "https://www.amazon.com/Nike-Mens-Monarch-Sneaker-Black/dp/B0F13B9JVY/ref=sr_1_47?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-47",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 32177,
+      "recent_sales": "100+ bought in past month",
+      "extracted_recent_sales": 100,
+      "price": "$74.97",
+      "extracted_price": 74.97,
+      "original_price": "$85.00",
+      "extracted_original_price": 85.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Nov 5",
+          "type": "Join Prime",
+          "date": "Tomorrow, Nov 5"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71ToJxdue4L._AC_UL320_.jpg"
+    },
+    {
+      "position": 48,
+      "asin": "B0F68VM41X",
+      "title": "Men's Air Jordan 1 Retro Low OG Shoes",
+      "link": "https://www.amazon.com/Jordan-Shoes-HJ5999-400-Glacier-Summit/dp/B0F68VM41X/ref=sr_1_48?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-48",
+      "brand": "Nike",
+      "rating": 4.7,
+      "reviews": 273,
+      "price": "$113.73",
+      "extracted_price": 113.73,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Nov 14",
+          "type": "FREE delivery",
+          "date": "Sat, Nov 14"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 6 - 10",
+          "type": "Or fastest delivery",
+          "date": "Nov 6 - 10"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/513-LIfJ3FL._AC_UL320_.jpg"
+    },
+    {
+      "position": 49,
+      "asin": "B0GT1KN4QK",
+      "title": "Air Force 1 07 NA36 - Women's (Sail/Rose Gold)",
+      "link": "https://www.amazon.com/Nike-Air-Force-07-NA36/dp/B0GT1KN4QK/ref=sr_1_49?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-49",
+      "brand": "Nike",
+      "rating": 5.0,
+      "reviews": 9,
+      "price": "$99.95",
+      "extracted_price": 99.95,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Fri, Nov 13",
+          "type": "FREE delivery",
+          "date": "Fri, Nov 13"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 9 - 12",
+          "type": "Or fastest delivery",
+          "date": "Nov 9 - 12"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51fB8A3QObL._AC_UL320_.jpg"
+    },
+    {
+      "position": 50,
+      "asin": "B0DLH1NRN7",
+      "title": "Air Force 1 '07 Unisex Shoes",
+      "link": "https://www.amazon.com/Nike-Force-Running-Shoes-BLACK/dp/B0DLH1NRN7/ref=sr_1_50?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-50",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 73,
+      "price": "$164.00",
+      "extracted_price": 164.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Thu, Nov 12",
+          "type": "FREE delivery",
+          "date": "Thu, Nov 12"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 6 - 10",
+          "type": "Or fastest delivery",
+          "date": "Nov 6 - 10"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/41XDHzPf6nL._AC_UL320_.jpg"
+    },
+    {
+      "position": 51,
+      "asin": "B0GJ7CPYZ4",
+      "title": "Air Force 1 '07 LV8 Men's Shoes (Gym Red/Summit White/Black)",
+      "link": "https://www.amazon.com/Nike-Force-Shoes-Summit-White/dp/B0GJ7CPYZ4/ref=sr_1_51?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-51",
+      "brand": "Nike",
+      "rating": 4.7,
+      "reviews": 22,
+      "price": "$129.99",
+      "extracted_price": 129.99,
+      "original_price": "$139.98",
+      "extracted_original_price": 139.98,
+      "original_price_label": "Typical",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Fri, Nov 6",
+          "type": "Join Prime",
+          "date": "Fri, Nov 6"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Tue, Nov 10",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Tue, Nov 10"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71JEfkOHrdL._AC_UL320_.jpg"
+    },
+    {
+      "position": 52,
+      "asin": "B0FBRW8LCD",
+      "title": "Men's Air Max Fire Shoes",
+      "link": "https://www.amazon.com/Nike-Lifestyle-Shoes-Sneaker-Black/dp/B0FBRW8LCD/ref=sr_1_52?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-52",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 1870,
+      "price": "$69.97",
+      "extracted_price": 69.97,
+      "original_price": "$105.00",
+      "extracted_original_price": 105.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Tomorrow, Nov 5",
+          "type": "Join Prime",
+          "date": "Tomorrow, Nov 5"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "is_limited_time_deal": true,
+      "thumbnail": "https://m.media-amazon.com/images/I/61v7VVDu+cL._AC_UL320_.jpg"
+    },
+    {
+      "position": 53,
+      "asin": "B0CX7CT2VZ",
+      "title": "Mens Air Max 1 '86 Og Golf",
+      "link": "https://www.amazon.com/Nike-86-Air-Max-Golf/dp/B0CX7CT2VZ/ref=sr_1_53?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-53",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 260,
+      "price": "$159.95",
+      "extracted_price": 159.95,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Sat, Nov 7",
+          "type": "Join Prime",
+          "date": "Sat, Nov 7"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/51beiWZNDfL._AC_UL320_.jpg"
+    },
+    {
+      "position": 54,
+      "asin": "B013Y6PP2Y",
+      "title": "Men's Air Force 1 Basketball Shoes",
+      "link": "https://www.amazon.com/Nike-Air-Force-1-Low/dp/B013Y6PP2Y/ref=sr_1_54?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-54",
+      "brand": "Nike",
+      "rating": 4.5,
+      "reviews": 332,
+      "recent_sales": "50+ bought in past month",
+      "extracted_recent_sales": 50,
+      "price": "$108.25",
+      "extracted_price": 108.25,
+      "original_price": "$119.99",
+      "extracted_original_price": 119.99,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Thu, Nov 12",
+          "type": "FREE delivery",
+          "date": "Thu, Nov 12"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 6 - 9",
+          "type": "Or fastest delivery",
+          "date": "Nov 6 - 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61oH35F8j7L._AC_UL320_.jpg"
+    },
+    {
+      "position": 55,
+      "asin": "B0F8RGVQSZ",
+      "title": "Men's Air Jordan 1 Retro Low OG Shoes",
+      "link": "https://www.amazon.com/Air-Jordan-Low-Rookie-Year/dp/B0F8RGVQSZ/ref=sr_1_55?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-55",
+      "brand": "Nike",
+      "rating": 4.7,
+      "reviews": 273,
+      "price": "$144.89",
+      "extracted_price": 144.89,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Sat, Nov 7",
+          "type": "FREE delivery",
+          "date": "Sat, Nov 7"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Fri, Nov 6",
+          "type": "Or fastest delivery",
+          "date": "Fri, Nov 6"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/611UPWVp8CL._AC_UL320_.jpg"
+    },
+    {
+      "position": 56,
+      "asin": "B00K98K05I",
+      "title": "Jordan Mens Air 1 Low",
+      "link": "https://www.amazon.com/NIKE-Ebernon-Basketball-Black-Regular/dp/B00K98K05I/ref=sr_1_56?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-56",
+      "brand": "Nike",
+      "rating": 4.4,
+      "reviews": 4909,
+      "price": "$67.28",
+      "extracted_price": 67.28,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Fri, Nov 6",
+          "type": "Join Prime",
+          "date": "Fri, Nov 6"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71vbyWG-OCL._AC_UL320_.jpg"
+    },
+    {
+      "position": 57,
+      "asin": "B08Q9SDCFJ",
+      "title": "Women's Dunk Low Sneaker",
+      "link": "https://www.amazon.com/Nike-Womens-DD1503-Black-White/dp/B08Q9SDCFJ/ref=sr_1_57?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-57",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 3720,
+      "price": "$95.00",
+      "extracted_price": 95.0,
+      "original_price": "$120.00",
+      "extracted_original_price": 120.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "$5 delivery Tue, Nov 10",
+          "type": "$5 delivery",
+          "date": "Tue, Nov 10"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61PQSiTkywL._AC_UL320_.jpg"
+    },
+    {
+      "position": 58,
+      "asin": "B09Q265XQQ",
+      "title": "Men's Air Force 1 '07 High Sneaker",
+      "link": "https://www.amazon.com/Nike-Force-CW2290-Triple-White/dp/B09Q265XQQ/ref=sr_1_58?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-58",
+      "brand": "Nike",
+      "rating": 4.6,
+      "reviews": 1448,
+      "price": "$133.99",
+      "extracted_price": 133.99,
+      "original_price": "$141.54",
+      "extracted_original_price": 141.54,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Thu, Nov 12",
+          "type": "FREE delivery",
+          "date": "Thu, Nov 12"
+        },
+        "fastest_delivery": {
+          "text": "Or fastest delivery Nov 6 - 9",
+          "type": "Or fastest delivery",
+          "date": "Nov 6 - 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/71IgoNFApdL._AC_UL320_.jpg"
+    },
+    {
+      "position": 59,
+      "asin": "B0H5G8B7R4",
+      "title": "Air Force 1 Low LV8 Edge (Black)",
+      "link": "https://www.amazon.com/Nike-Force-Edge-Black-Size/dp/B0H5G8B7R4/ref=sr_1_59?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-59",
+      "brand": "Nike",
+      "price": "$129.00",
+      "extracted_price": 129.0,
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "FREE delivery Fri, Nov 13",
+          "type": "FREE delivery",
+          "date": "Fri, Nov 13"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61rxUcKDcoL._AC_UL320_.jpg"
+    },
+    {
+      "position": 60,
+      "asin": "B0825F56LY",
+      "title": "Women's Air Max Excee Shoes",
+      "link": "https://www.amazon.com/Nike-Excee-Trainers-Women-Black/dp/B0825F56LY/ref=sr_1_60?dib=eyJ2IjoiMSJ9.v_22hgJ4qkYUP84oN4HqWU2YXQajurgQLJVDfPlUgS8B8V7O9NN1hAkzQiQObfh08O_HJZh5Ty2gK64B5lVIPpSlTr_HmwCQHqSqROlCry9hfG7p2HR76Ca-MvVHnJp4bxYK-K1t6W9afydJ5Ra4oB_UMFFgQXmbzJphHY68_n89vJCP8q1kyf7gqMfAzhdF7OhII3YMNsehcOmtcu2_3j98n3EtbdySWbuOw_c4VgOksI5t4eVKj8IBqrCfM5Ep1vk9Hq9U5Hczo3o3uWEJbHWyOhokeGf0YCZ367MAfw0.306L4xvwcaIbg8XMXeuYqeuNPwvZovbogRHQexZQG0c&dib_tag=se&keywords=nike+air+1&qid=1793818720&sr=8-60",
+      "brand": "Nike",
+      "rating": 4.3,
+      "reviews": 3944,
+      "recent_sales": "200+ bought in past month",
+      "extracted_recent_sales": 200,
+      "price": "$79.97",
+      "extracted_price": 79.97,
+      "original_price": "$100.00",
+      "extracted_original_price": 100.0,
+      "original_price_label": "List",
+      "fulfillment": {
+        "standard_delivery": {
+          "text": "Join Prime to get FREE delivery Fri, Nov 6",
+          "type": "Join Prime",
+          "date": "Fri, Nov 6"
+        },
+        "fastest_delivery": {
+          "text": "Or Non-members get FREE delivery Mon, Nov 9",
+          "type": "Or Non-members get FREE delivery",
+          "date": "Mon, Nov 9"
+        }
+      },
+      "thumbnail": "https://m.media-amazon.com/images/I/61tiAOL2idL._AC_UL320_.jpg"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.amazon.com/s?k=nike+air+1&page=2&xpid=LhgaX9k-QScnb&qid=1793818720&ref=sr_pg_1",
+    "other_pages": {
+      "2": "https://www.amazon.com/s?k=nike+air+1&page=2&xpid=LhgaX9k-QScnb&qid=1793818720&ref=sr_pg_2",
+      "3": "https://www.amazon.com/s?k=nike+air+1&page=3&xpid=LhgaX9k-QScnb&qid=1793818720&ref=sr_pg_3"
+    }
+  }
+}
