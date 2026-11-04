@@ -15,6 +15,8 @@
   --warn-bg: #fef3c7;
   --used: #7c3aed;
   --used-bg: #f1eafd;
+  --bad: #b3261e;
+  --bad-bg: #fdeceb;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,6 +37,8 @@
     --warn-bg: #3a2f12;
     --used: #c4a6ff;
     --used-bg: #2c2142;
+    --bad: #ffa39c;
+    --bad-bg: #3a1b19;
   }
 }
 
@@ -198,7 +202,85 @@ pre.console {
   overflow-y: auto;
   min-height: 120px;
 }
-p.finished a { font-weight: 600; }
+/* The console page: a card per store while the search runs, then the outcome. */
+.run-head h1 { margin-bottom: 4px; }
+.elapsed { font-variant-numeric: tabular-nums; }
+
+ol.stores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  list-style: none;
+  margin: 16px 0;
+  padding: 0;
+}
+.store-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+.card-top { display: flex; align-items: center; gap: 8px; }
+.card-elapsed { margin-left: auto; color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+.card-detail { margin: 8px 0 0; color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
+.card-expected { margin: 6px 0 0; }
+
+/* The mark is the state, so it has to read without colour too. */
+.card-mark::before { font-weight: 700; }
+.store-card[data-state="queued"] .card-mark::before { content: "·"; color: var(--muted); }
+.store-card[data-state="fetching"] .card-mark::before { content: "…"; color: var(--accent); }
+.store-card[data-state="ok"] .card-mark::before { content: "✓"; color: var(--good); }
+.store-card[data-state="saved"] .card-mark::before { content: "✓"; color: var(--muted); }
+.store-card[data-state="empty"] .card-mark::before { content: "!"; color: var(--warn); }
+.store-card[data-state="failed"] .card-mark::before { content: "✗"; color: var(--bad); }
+
+.store-card[data-state="fetching"] { border-left-color: var(--accent); }
+.store-card[data-state="ok"] { border-left-color: var(--good); }
+.store-card[data-state="empty"] { border-left-color: var(--warn); background: var(--warn-bg); }
+.store-card[data-state="failed"] { border-left-color: var(--bad); background: var(--bad-bg); }
+.store-card[data-state="empty"] .card-detail,
+.store-card[data-state="failed"] .card-detail { color: inherit; }
+
+/* Scaled to how long the store usually takes, so a slow one that is still
+   within budget does not look stuck. */
+.card-bar { height: 4px; margin-top: 10px; border-radius: 999px; background: var(--border); overflow: hidden; }
+.card-bar-fill { height: 100%; width: 0; border-radius: 999px; background: var(--accent); transition: width 1s linear; }
+.store-card[data-over="true"] .card-bar-fill { background: var(--warn); }
+.store-card:not([data-state="fetching"]) .card-bar { visibility: hidden; }
+
+.outcome { border: 1px solid var(--border); border-left: 3px solid var(--border); border-radius: 10px; padding: 4px 16px 12px; margin: 16px 0; }
+.outcome h2 { font-size: 17px; }
+.outcome ul { margin: 0; padding-left: 18px; color: var(--muted); font-size: 14px; }
+.outcome li { margin-bottom: 4px; overflow-wrap: anywhere; }
+.outcome-next { margin-bottom: 4px; display: flex; gap: 16px; flex-wrap: wrap; }
+.outcome-next a:first-child { font-weight: 600; }
+.outcome[data-level="ok"] { border-left-color: var(--good); background: var(--good-bg); }
+.outcome[data-level="warn"] { border-left-color: var(--warn); background: var(--warn-bg); }
+.outcome[data-level="error"] { border-left-color: var(--bad); background: var(--bad-bg); }
+.outcome[data-level="warn"] ul, .outcome[data-level="error"] ul, .outcome[data-level="ok"] ul { color: inherit; }
+
+.console-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.console-head h2 { font-size: 17px; margin-bottom: 8px; }
+button.ghost {
+  padding: 4px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--muted);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+button.ghost:hover { color: var(--text); }
+
+/* The log keeps its own dark ground in both themes: it is a terminal. */
+.console .l-warn { color: #f0d08a; }
+.console .l-error { color: #ff9b8f; }
+
+@media (prefers-reduced-motion: reduce) {
+  .card-bar-fill { transition: none; }
+}
 
 .prose { max-width: 760px; }
 .prose h1 { margin-top: 8px; }

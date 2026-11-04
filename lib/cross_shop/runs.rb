@@ -68,7 +68,7 @@ module CrossShop
       run = Run.new(query:, engines:)
       @lock.synchronize do
         @runs[run.id] = run
-        @runs.shift while @runs.size > @limit
+        evict
       end
       Thread.new do
         run.finish(work.call(run))
@@ -82,6 +82,23 @@ module CrossShop
 
     def find(id)
       @lock.synchronize { @runs[id] }
+    end
+
+    private
+
+    # Oldest first, but finished runs before running ones: dropping a run
+    # that is still going would 404 the console still streaming it. The
+    # limit is still a hard cap, so memory stays bounded either way.
+    # Call with the lock held.
+    def evict
+      return if @runs.size <= @limit
+
+      order = @runs.keys.each_with_index.sort_by { |id, index| [@runs[id].done? ? 0 : 1, index] }
+      order.each do |id, _index|
+        break if @runs.size <= @limit
+
+        @runs.delete(id)
+      end
     end
   end
 end

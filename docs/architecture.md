@@ -589,10 +589,13 @@ Shared state and what guards it:
 | Credits in flight per ledger file (`Ledger::RESERVATIONS`) | `Ledger::LOCK`, a class-level `Mutex`; check and reserve in one step |
 | A run's events and its done flag | the run's `Mutex` and `ConditionVariable` |
 | The list of runs | `Runs`'s `Mutex` |
-| Ledger lines | none: each call appends one line in append mode, outside the lock |
+| Ledger lines | `Ledger::WRITE_LOCK`: one lock, one write, one line |
+| Cached ledger counts and queries | `Ledger::READ_LOCK`, keyed by file size so another process's appends are picked up |
 | Cache files | different files per engine and query, so parallel stores never touch the same file |
 
-Not guarded: two simultaneous runs of the same query and store would write the same cache file and could race while moving the old one to history. The reservation count also lives in one process: `bin/fetch-queries` running while the site runs a search sees the other's recorded calls, but not its calls in flight.
+Ledger lines were once written in append mode with no lock, relying on POSIX making an `O_APPEND` write atomic. Windows does not, and parallel store threads lost whole records there: eight threads writing 200 records left 185 lines. A lost record undercounts the credits spent, and that count is what the cap reads, so the cap could be overshot. The write is now taken under `WRITE_LOCK`, as one string.
+
+Not guarded: two simultaneous runs of the same query and store would write the same cache file and could race while moving the old one to history — though each write is now a write-and-rename, so a reader never sees a half-written file. The reservation count also lives in one process: `bin/fetch-queries` running while the site runs a search sees the other's recorded calls, but not its calls in flight.
 
 ## 11. Security and privacy
 

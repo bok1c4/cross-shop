@@ -1,6 +1,8 @@
 require "test_helper"
+require "stringio"
 require "json"
 require "net/http"
+require "timeout"
 require "tmpdir"
 require "support/fake_transport"
 require "cross_shop/live_search"
@@ -31,6 +33,21 @@ class LiveSearchTest < Minitest::Test
 
   OK = Response.new(status: 200, body: %({"search_metadata": {"id": "search_1"}, "organic_results": []}))
 
+  # Answers only once the test lets it.
+  class BlockedTransport
+    def initialize(release)
+      @release = release
+    end
+
+    def get(uri, query:, headers:)
+      @release.pop
+      OK
+    end
+  end
+
+  # Something no store is expected to raise, so it is not in FAILURES.
+  class Boom < StandardError; end
+
   def setup
     @dir = Dir.mktmpdir
     @cache = ResponseCache.new(File.join(@dir, "responses"))
@@ -40,10 +57,10 @@ class LiveSearchTest < Minitest::Test
     FileUtils.remove_entry(@dir)
   end
 
-  def live_search(transport)
+  def live_search(transport, log: $stderr)
     client = Client.new(cache: @cache, ledger: Ledger.new(File.join(@dir, "ledger.jsonl")), transport:,
       live: true, api_key: "test-key", credit_limit: 10)
-    CrossShop::LiveSearch.new(client:, cache: @cache)
+    CrossShop::LiveSearch.new(client:, cache: @cache, log:)
   end
 
   def by_engine(outcomes)
@@ -127,6 +144,40 @@ class LiveSearchTest < Minitest::Test
     assert_equal "fetched", outcome.status
     assert_equal 20, events.find { |event| event.kind == :second_opinion }.data[:listings]
     assert_equal :engine_finished, events.last.kind
+  end
+
+  # Reading the threads' values straight through abandoned the siblings of a
+  # thread that raised something unexpected: nothing waited for them, so they
+  # kept fetching, and kept writing to the ledger, after the run had ended.
+  def test_one_store_raising_something_unexpected_does_not_abandon_the_others
+    transport = EngineTransport.new({"amazon_search" => Boom.new("unexpected"), "ebay_search" => OK})
+    log = StringIO.new
+
+    result = by_engine(live_search(transport, log:).run("samba", %w[amazon_search ebay_search], refresh: false))
+
+    assert_equal "failed", result.fetch("amazon_search")[0]
+    assert_match(/Boom/, result.fetch("amazon_search")[1])
+    assert_equal "fetched", result.fetch("ebay_search")[0]
+    refute_nil @cache.read("ebay_search", q: "samba"), "the other store never finished"
+    assert_match(/amazon_search raised: .*Boom/m, log.string)
+  end
+
+  # A store that never answers must not hold the run, and the console
+  # waiting on it, open for ever.
+  def test_a_store_past_the_deadline_is_reported_instead_of_waited_for
+    release = Thread::Queue.new
+    client = Client.new(cache: @cache, ledger: Ledger.new(File.join(@dir, "ledger.jsonl")),
+      transport: BlockedTransport.new(release), live: true, api_key: "test-key", credit_limit: 10)
+
+    outcome = CrossShop::LiveSearch.new(client:, cache: @cache, deadline: 0.2)
+      .run("samba", %w[ebay_search], refresh: false).first
+
+    assert_equal "failed", outcome.status
+    assert_includes outcome.message, "gave up waiting after 0.2 s"
+  ensure
+    # Let the abandoned thread finish before teardown takes its folder away.
+    release << :go
+    Timeout.timeout(2) { sleep 0.01 until @cache.read("ebay_search", q: "samba") }
   end
 
   # Three stores at 0.3 s each finish in about 0.3 s, not 0.9 s.

@@ -124,7 +124,70 @@ class WebLiveSearchTest < Minitest::Test
     assert_equal "text/event-stream", last_response.media_type
     assert_includes last_response.body, %(data: {"line":)
     assert_includes last_response.body, "← 200"
-    assert last_response.body.end_with?("event: done\ndata: {}\n\n")
+    assert_includes last_response.body, "event: done\ndata: {"
+  end
+
+  # Every message says which store it belongs to and the state it puts that
+  # store in, so the browser applies what the server decided instead of
+  # reading the state back out of the text.
+  def test_each_message_carries_the_state_it_puts_its_store_in
+    token = token_for("samba")
+    post "/search", q: "samba", engines: %w[ebay_search], authenticity_token: token
+    run = run_from_redirect
+
+    get "/runs/#{run.id}/events"
+
+    messages = last_response.body.scan(/^data: (\{"line".*)$/).flatten.map { |json| JSON.parse(json) }
+    finished = messages.find { |message| message["kind"] == "engine_finished" }
+    assert_equal "ebay_search", finished.fetch("engine")
+    assert_equal "ok", finished.dig("store", "state")
+    assert_equal "info", finished.fetch("level")
+    assert_nil messages.find { |message| message["kind"] == "run_started" }.fetch("store")
+  end
+
+  # The outcome of the run, which is the thing a developer came back for.
+  def test_the_done_message_carries_the_outcome_of_the_whole_run
+    token = token_for("samba")
+    post "/search", q: "samba", engines: %w[ebay_search], authenticity_token: token
+    run = run_from_redirect
+
+    get "/runs/#{run.id}/events"
+
+    summary = JSON.parse(last_response.body[/^event: done\ndata: (\{.*\})$/, 1])
+    assert_equal "ok", summary.fetch("level")
+    assert_equal "The store answered · 0 listings", summary.fetch("headline")
+    assert_equal [1, 1], [summary.fetch("answered"), summary.fetch("total")]
+  end
+
+  # A console page opened after the search finished has to show the outcome
+  # on its own: there is no stream left to tell it.
+  def test_the_console_page_shows_a_card_per_store_and_the_outcome
+    token = token_for("samba")
+    post "/search", q: "samba", engines: %w[amazon_search ebay_search], authenticity_token: token
+    run_from_redirect
+    follow_redirect!
+
+    assert_match(/data-engine="amazon_search" data-state="ok"/, last_response.body)
+    assert_match(/data-engine="ebay_search" data-state="ok"/, last_response.body)
+    assert_includes last_response.body, %(data-level="ok")
+    assert_includes last_response.body, "All 2 stores answered"
+    # The browser cannot time a run it was not watching, so the page says it.
+    assert_match(/finished in \d+\.\d s/, last_response.body)
+    refute_includes last_response.body, %(<section id="summary" class="outcome" aria-live="polite" hidden)
+  end
+
+  # Shein is the store that takes 90 seconds, so its card gets the bar that
+  # says how much of that budget has gone.
+  def test_sheins_card_carries_the_deadline_its_wait_is_measured_against
+    cache.write("shein_search", {q: "samba"}, OK.body)
+    token = token_for("samba")
+
+    post "/search", q: "samba", engines: %w[shein_search], authenticity_token: token
+    run_from_redirect
+    follow_redirect!
+
+    assert_includes last_response.body, %(data-expected="90")
+    assert_includes last_response.body, "SearchApi gives up on shein after about 90 s"
   end
 
   # A reconnecting browser sends the last id it saw; nothing is repeated.

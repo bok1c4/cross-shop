@@ -59,4 +59,24 @@ class RunsTest < Minitest::Test
     assert_nil runs.find(ids[0])
     refute_nil runs.find(ids[2])
   end
+
+  # A console streams the run it is watching, and Shein keeps a run open for
+  # about 90 s. Dropping the oldest run regardless would 404 a page still
+  # watching it, so finished runs are dropped first.
+  def test_a_run_still_going_is_kept_over_an_older_finished_one
+    runs = CrossShop::Runs.new(limit: 2)
+    release = Thread::Queue.new
+    running = runs.start(query: "slow", engines: []) { release.pop }
+    finished = runs.start(query: "quick", engines: []) { nil }
+    wait_until_done(finished)
+
+    newest = runs.start(query: "newest", engines: []) { nil }
+
+    refute_nil runs.find(running.id), "the run still going was dropped"
+    assert_nil runs.find(finished.id)
+    refute_nil runs.find(newest.id)
+  ensure
+    release << :go
+    wait_until_done(running)
+  end
 end

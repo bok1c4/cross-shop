@@ -12,6 +12,7 @@ module CrossShop
       case kind
       when :run_started
         %(searching #{data[:engines].join(", ")} for "#{data[:query]}") + (data[:refresh] ? " (run again: every ticked store is fetched fresh)" : "")
+      when :engine_started then data[:refresh] ? "started (fetching fresh)" : "started"
       when :cache_hit then "already saved, no credit spent: #{short_path(data[:path])}"
       when :credit_reserved then reserved(data)
       when :request_sent then "→ GET #{data[:url]} (API key sent in a header, not shown)"
@@ -26,6 +27,34 @@ module CrossShop
       when :run_failed then "✗ the search crashed: #{data[:message]}"
       else "#{kind} #{data.inspect}"
       end
+    end
+
+    # How the line reads: a failure, something worth noticing, or a step.
+    # Decided here rather than in the browser, which would have to guess
+    # from the text.
+    def self.level(kind, data)
+      case kind
+      when :request_failed, :run_failed, :second_opinion_failed then "error"
+      when :engine_finished then engine_level(data)
+      when :response_received then response_level(data)
+      else "info"
+      end
+    end
+
+    # A 503 is a failure however politely SearchApi words it; a 200 with a
+    # message ("no results") is worth noticing but is not one.
+    def self.response_level(data)
+      return "error" unless data[:status] == 200
+
+      data[:api_error] ? "warn" : "info"
+    end
+
+    # SearchApi answers "no results" with a 200 and a message, which is
+    # worth noticing without being a failure.
+    def self.engine_level(data)
+      return "error" if data[:status] == "failed"
+
+      data[:message] ? "warn" : "info"
     end
 
     # SearchApi's own timings show where the time went: fetching the store,
@@ -58,7 +87,11 @@ module CrossShop
     def self.finished(data)
       return "done: already saved, no credit spent" if data[:status] == "saved"
 
-      data[:message] ? "done: #{data[:status]} (#{data[:message]})" : "done: #{data[:status]}"
+      parts = ["done: #{data[:status]}"]
+      parts << "#{data[:results]} results" if data[:results]
+      parts << seconds(data[:duration_ms]) if data[:duration_ms]
+      done = parts.join(" · ")
+      data[:message] ? "#{done} (#{data[:message]})" : done
     end
 
     def self.seconds(milliseconds)

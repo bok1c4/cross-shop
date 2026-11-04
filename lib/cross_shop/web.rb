@@ -1,11 +1,13 @@
 require "erubi"
 require "kramdown"
 require "securerandom"
+require "time"
 require "sinatra/base"
 require "cross_shop/catalog"
 require "cross_shop/console"
 require "cross_shop/live_search"
 require "cross_shop/runs"
+require "cross_shop/run_report"
 require "cross_shop/second_opinion"
 require "cross_shop/matcher"
 require "cross_shop/search_api"
@@ -47,17 +49,27 @@ module CrossShop
 
     MAX_QUERY_LENGTH = 100
 
+    # How long one event stream is held open before the browser is asked to
+    # reconnect, and how long a quiet stream waits before saying it is still
+    # working. A stream that is never let go holds a web server thread for as
+    # long as the run does, and a wedged run would hold one for ever.
+    STREAM_LIMIT_SECONDS = 300
+    HEARTBEAT_SECONDS = 15
+    RECONNECT_MS = 2000
+
     helpers do
+      # One per request: the home page asks for these inside a loop over
+      # every engine and every query.
       def cache
-        SearchApi::ResponseCache.new(File.join(settings.data_dir, "responses"))
+        @cache ||= SearchApi::ResponseCache.new(File.join(settings.data_dir, "responses"))
       end
 
       def ledger
-        SearchApi::Ledger.new(File.join(settings.data_dir, "ledger.jsonl"))
+        @ledger ||= SearchApi::Ledger.new(File.join(settings.data_dir, "ledger.jsonl"))
       end
 
       def catalog
-        Catalog.new(cache:, pages: SearchApi.saved_pages(data_dir: settings.data_dir))
+        @catalog ||= Catalog.new(cache:, pages: SearchApi.saved_pages(data_dir: settings.data_dir))
       end
 
       # One client per request is safe: the credit cap is reserved in the
@@ -81,8 +93,39 @@ module CrossShop
         Console.line(event)
       end
 
+      def console_level(event)
+        Console.level(event.kind, event.data)
+      end
+
+      def store_label(engine)
+        RunReport.label(engine)
+      end
+
+      def expected_seconds(engine)
+        RunReport::EXPECTED_SECONDS[engine]
+      end
+
       def condition_label(product)
         {"new" => "New", "new_other" => "New (other)", "used" => "Used"}.fetch(product.condition)
+      end
+
+      # What the whole run came to. The outcomes LiveSearch returns are the
+      # run's result; a nil result means it stopped before returning any.
+      def run_summary(run, events)
+        crash = events.reverse_each.find { |event| event.kind == :run_failed }&.data&.fetch(:message, nil)
+        RunReport.summary(run.result, engines: run.engines, crash:)
+      end
+
+      def engine_started_at(events)
+        events.select { |event| event.kind == :engine_started }.to_h { |event| [event.engine, event.at] }
+      end
+
+      # How long the whole run took, for a page opened after it finished:
+      # there is no stream left to tell it, and the browser cannot work it
+      # out from a clock it was not watching.
+      def run_duration(events)
+        finished = events.reverse_each.find { |event| event.kind == :run_finished }
+        RunReport.seconds(finished.data[:duration_ms]) if finished&.data&.fetch(:duration_ms, nil)
       end
     end
 
@@ -153,31 +196,48 @@ module CrossShop
       redirect to("/runs/#{run.id}"), 303
     end
 
-    # The console: each step of a run, as it happened.
+    # The console: each step of a run, as it happened, and what each store
+    # came to. Rendered from the events so far, so a page opened half way
+    # through a search shows what one that watched it start shows.
     get "/runs/:id" do
       @run = settings.runs.find(params[:id]) || halt(404, "No such search. Runs are kept in memory until the site restarts.")
       @events, @done = @run.events_after(0)
+      @states = RunReport.states(@run.engines, @events)
+      @started_at = engine_started_at(@events)
+      @duration = run_duration(@events)
+      @summary = run_summary(@run, @events) if @done
       erb :run
     end
 
-    # Server-Sent Events: one message per console line, then "done". A
-    # reconnecting browser sends Last-Event-ID, so no line is sent twice.
+    # Server-Sent Events: one message per console line, then "done" with the
+    # outcome. A reconnecting browser sends Last-Event-ID, so no line is sent
+    # twice. Each message carries the line to print and the state it puts its
+    # store in, both decided here: the browser only applies them.
     get "/runs/:id/events" do
       run = settings.runs.find(params[:id]) || halt(404)
       index = (request.env["HTTP_LAST_EVENT_ID"] || params[:from]).to_i
       content_type "text/event-stream"
       cache_control :no_cache
+      # A proxy that buffered would hold every line back until the run ended.
+      headers "X-Accel-Buffering" => "no"
       stream do |out|
+        out << "retry: #{RECONNECT_MS}\n\n"
+        give_up_at = Process.clock_gettime(Process::CLOCK_MONOTONIC) + STREAM_LIMIT_SECONDS
         loop do
-          events, done = run.events_after(index, timeout: 15)
+          events, done = run.events_after(index, timeout: HEARTBEAT_SECONDS)
           events.each do |event|
             index += 1
-            out << "id: #{index}\ndata: #{JSON.generate(line: Console.line(event))}\n\n"
+            out << "id: #{index}\ndata: #{JSON.generate(message_for(event))}\n\n"
           end
           if done
-            out << "event: done\ndata: {}\n\n"
+            out << "event: done\ndata: #{JSON.generate(run_summary(run, run.events_after(0).first).to_h)}\n\n"
             break
           end
+          # Let the stream go rather than hold a thread for ever: the browser
+          # reconnects with the last id it saw and misses nothing. Writing is
+          # also how a browser that has gone away is noticed.
+          break if Process.clock_gettime(Process::CLOCK_MONOTONIC) >= give_up_at
+
           out << ": still working\n\n" if events.empty?
         end
       end
@@ -185,7 +245,7 @@ module CrossShop
 
     get "/how" do
       @live_calls = ledger.count
-      @bugs = File.foreach(File.join(PROJECT_ROOT, "LEARNINGS.md"), encoding: Encoding::UTF_8).count { |line| line.match?(/\A\d+\. \*\*/) }
+      @bugs = count_lines(File.join(PROJECT_ROOT, "LEARNINGS.md")) { |line| line.match?(/\A\d+\. \*\*/) }
       erb :how
     end
 
@@ -200,8 +260,7 @@ module CrossShop
         end
         [engine, rows]
       end
-      log = File.join(PROJECT_ROOT, "data/agent_fix_log.jsonl")
-      @attempts = File.exist?(log) ? File.foreach(log, encoding: Encoding::UTF_8).map { |line| JSON.parse(line) } : []
+      @attempts = read_lines(File.join(PROJECT_ROOT, "data/agent_fix_log.jsonl")).map { |line| JSON.parse(line) }
       erb :health
     end
 
@@ -209,6 +268,36 @@ module CrossShop
       markdown = File.read(File.join(PROJECT_ROOT, "LEARNINGS.md"), encoding: Encoding::UTF_8)
       @html = Kramdown::Document.new(markdown).to_html
       erb :notes
+    end
+
+    private
+
+    # line first: the browser prints it without looking at anything else.
+    def message_for(event)
+      store = RunReport.store(event)
+      {
+        line: Console.line(event),
+        level: Console.level(event.kind, event.data),
+        engine: event.engine,
+        kind: event.kind,
+        at: event.at.iso8601,
+        store: store&.to_h
+      }
+    end
+
+    # The block form of File.open closes the handle even when reading raises
+    # part way; the enumerator File.foreach returns without one leaves it to
+    # the garbage collector.
+    def count_lines(path, &matching)
+      return 0 unless File.exist?(path)
+
+      File.open(path, encoding: Encoding::UTF_8) { |file| file.count(&matching) }
+    end
+
+    def read_lines(path)
+      return [] unless File.exist?(path)
+
+      File.open(path, encoding: Encoding::UTF_8, &:readlines)
     end
   end
 end

@@ -1,6 +1,7 @@
 require "digest"
 require "fileutils"
 require "json"
+require "cross_shop/search_api/atomic_write"
 
 module CrossShop
   module SearchApi
@@ -8,6 +9,8 @@ module CrossShop
     # Files are committed, so tests and later phases run offline and no
     # request is ever paid for twice.
     class ResponseCache
+      include AtomicWrite
+
       # Engine names become directory names and can come from the command line,
       # so only plain names reach the file system. \A and \z, not ^ and $: in
       # Ruby those match at every line break.
@@ -31,9 +34,7 @@ module CrossShop
       def write(engine, params, body)
         path = path_for(engine, params)
         archive(engine, params, path) if File.exist?(path)
-        FileUtils.mkdir_p(File.dirname(path))
-        File.write(path, body)
-        path
+        write_atomically(path, body)
       end
 
       # Earlier responses for the same request, newest first.

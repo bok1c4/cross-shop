@@ -52,6 +52,22 @@ class LedgerTest < Minitest::Test
     lines.each { |line| JSON.parse(line) }
   end
 
+  # The count is read before every live call, and the queries on every home
+  # page load, so both are kept in the process. bin/searchapi appends to the
+  # same file, so a kept answer must not outlive someone else's write.
+  def test_reads_pick_up_lines_another_writer_appended
+    ledger = CrossShop::SearchApi::Ledger.new(@path)
+    ledger.record(engine: "ebay_search", params: {q: "samba"})
+
+    assert_equal 1, ledger.count
+    assert_equal ["samba"], ledger.queries
+
+    File.open(@path, "a") { |file| file.puts(JSON.generate(engine: "ebay_search", params: {q: "crocs"})) }
+
+    assert_equal 2, ledger.count
+    assert_equal ["crocs", "samba"], ledger.queries
+  end
+
   # Autocomplete suggests queries people already ran (free, local).
   def test_queries_lists_each_searched_query_once_newest_first
     ledger = CrossShop::SearchApi::Ledger.new(@path)

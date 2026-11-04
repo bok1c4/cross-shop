@@ -1,28 +1,169 @@
-<h1>Searching “<%= @run.query %>”</h1>
-<p class="muted">
-  Started <%= @run.started_at.strftime("%H:%M:%S UTC") %> · <%= @run.engines.join(", ") %>.
-  Every line is a step the code really took, reported as it happened.<% if @run.engines.include?("shein_search") %> Shein can take 90 seconds.<% end %>
-</p>
+<div id="run" data-run="<%= @run.id %>" data-from="<%= @events.size %>" data-done="<%= @done %>"
+     data-started="<%= @run.started_at.iso8601 %>" data-query="<%= @run.query %>">
+  <header class="run-head">
+    <h1>Searching “<%= @run.query %>”</h1>
+    <p class="muted">
+      Started <%= @run.started_at.strftime("%H:%M:%S UTC") %> ·
+      <span id="run-elapsed" class="elapsed"><%= @done ? ["finished", @duration && "in #{@duration}"].compact.join(" ") : "running" %></span>.
+      Every line is a step the code really took, reported as it happened.
+    </p>
+  </header>
 
-<pre class="console" id="console" data-run="<%= @run.id %>" data-from="<%= @events.size %>" data-done="<%= @done %>"><% @events.each do |event| %><%= console_line(event) %>
+  <ol class="stores" id="stores">
+    <% @run.engines.each do |engine| %>
+      <% state = @states.fetch(engine) %>
+      <li class="store-card" data-engine="<%= engine %>" data-state="<%= state.state %>"
+          <% if expected_seconds(engine) %>data-expected="<%= expected_seconds(engine) %>"<% end %>
+          <% if @started_at[engine] %>data-started="<%= @started_at[engine].iso8601 %>"<% end %>
+          <% if state.took %>data-took="<%= state.took %>"<% end %>>
+        <div class="card-top">
+          <span class="store <%= store_label(engine) %>"><%= store_label(engine) %></span>
+          <span class="card-mark" aria-hidden="true"></span>
+          <span class="card-elapsed"><%= state.took %></span>
+        </div>
+        <p class="card-detail"><%= state.detail %></p>
+        <% if expected_seconds(engine) %>
+          <div class="card-bar" role="presentation"><div class="card-bar-fill"></div></div>
+          <p class="card-expected muted small">SearchApi gives up on <%= store_label(engine) %> after about <%= expected_seconds(engine) %> s</p>
+        <% end %>
+      </li>
+    <% end %>
+  </ol>
+
+  <section id="summary" class="outcome" aria-live="polite"<%= " hidden" unless @done %>
+           data-level="<%= @summary&.level %>">
+    <h2 id="outcome-headline"><%= @summary&.headline %></h2>
+    <ul id="outcome-details">
+      <% @summary&.details&.each do |detail| %><li><%= detail %></li><% end %>
+    </ul>
+    <p class="outcome-next">
+      <a href="/search?q=<%= Rack::Utils.escape(@run.query) %>">See the results →</a>
+      <a class="muted" href="/notes">Why a store fails</a>
+    </p>
+  </section>
+
+  <div class="console-head">
+    <h2>Log</h2>
+    <button type="button" id="copy-log" class="ghost">Copy log</button>
+  </div>
+  <pre class="console" id="console" role="log" aria-label="Search log"><% @events.each do |event| %><span class="l-<%= console_level(event) %>"><%= console_line(event) %></span>
 <% end %></pre>
 
-<p id="finished" class="finished"<%= " hidden" unless @done %>>
-  <a href="/search?q=<%= Rack::Utils.escape(@run.query) %>">See the results →</a>
-</p>
+  <p id="stream-lost" class="warning" hidden>
+    Lost the connection to this search. <a href="">Reload the page</a> to pick it up again.
+  </p>
+</div>
 
 <script>
   (() => {
+    const root = document.getElementById("run");
     const consoleEl = document.getElementById("console");
-    if (consoleEl.dataset.done === "true") return;
-    const source = new EventSource(`/runs/${consoleEl.dataset.run}/events?from=${consoleEl.dataset.from}`);
-    source.onmessage = (message) => {
-      consoleEl.textContent += JSON.parse(message.data).line + "\n";
-      consoleEl.scrollTop = consoleEl.scrollHeight;
+    const summaryEl = document.getElementById("summary");
+    const elapsedEl = document.getElementById("run-elapsed");
+    const cards = new Map(
+      [...document.querySelectorAll(".store-card")].map((card) => [card.dataset.engine, card])
+    );
+    const query = root.dataset.query;
+
+    const seconds = (from) => (Date.now() - Date.parse(from)) / 1000;
+    const show = (value) => (value >= 60 ? `${Math.floor(value / 60)}m ${Math.floor(value % 60)}s` : `${Math.floor(value)}s`);
+
+    // The server decides every state and every line; this only applies them.
+    const apply = (message) => {
+      const card = cards.get(message.engine);
+      if (!card || !message.store) return;
+      card.dataset.state = message.store.state;
+      card.querySelector(".card-detail").textContent = message.store.detail;
+      if (message.store.took) card.dataset.took = message.store.took;
+      if (message.kind === "engine_started") card.dataset.started = message.at;
     };
-    source.addEventListener("done", () => {
-      source.close();
-      document.getElementById("finished").hidden = false;
+
+    const print = (message) => {
+      // Only follow the tail when the reader is already at it, so scrolling
+      // up to read something does not get yanked back by the next line.
+      const atBottom = consoleEl.scrollHeight - consoleEl.scrollTop - consoleEl.clientHeight < 24;
+      const line = document.createElement("span");
+      line.className = `l-${message.level}`;
+      line.textContent = message.line;
+      consoleEl.append(line, "\n");
+      if (atBottom) consoleEl.scrollTop = consoleEl.scrollHeight;
+    };
+
+    // Elapsed counters and the waiting bar are the only things worked out
+    // here: they need a clock, not a decision.
+    const tick = () => {
+      if (root.dataset.done !== "true") elapsedEl.textContent = `running for ${show(seconds(root.dataset.started))}`;
+      for (const card of cards.values()) {
+        const waiting = card.dataset.state === "fetching" && card.dataset.started;
+        // The clock while it runs, what it finally took once it is done.
+        card.querySelector(".card-elapsed").textContent =
+          waiting ? show(seconds(card.dataset.started)) : (card.dataset.took || "");
+        const bar = card.querySelector(".card-bar-fill");
+        if (!bar) continue;
+        const share = waiting ? seconds(card.dataset.started) / Number(card.dataset.expected) : 0;
+        bar.style.width = `${Math.min(share, 1) * 100}%`;
+        card.dataset.over = waiting && share > 1 ? "true" : "false";
+      }
+      const left = [...cards.values()].filter((card) => card.dataset.state === "fetching").length;
+      document.title = left ? `(${cards.size - left}/${cards.size}) ${query} – cross-shop` : "cross-shop";
+    };
+
+    const finish = (summary) => {
+      root.dataset.done = "true";
+      summaryEl.dataset.level = summary.level;
+      document.getElementById("outcome-headline").textContent = summary.headline;
+      const list = document.getElementById("outcome-details");
+      list.replaceChildren(...summary.details.map((detail) => {
+        const item = document.createElement("li");
+        item.textContent = detail;
+        return item;
+      }));
+      summaryEl.hidden = false;
+      elapsedEl.textContent = `finished in ${show(seconds(root.dataset.started))}`;
+      tick();
+      summaryEl.scrollIntoView({block: "nearest", behavior: "smooth"});
+    };
+
+    // The clipboard needs a permission the page may not be given; say so
+    // rather than failing silently, and select the log so it can be copied
+    // by hand.
+    document.getElementById("copy-log").addEventListener("click", async (event) => {
+      const button = event.currentTarget;
+      try {
+        await navigator.clipboard.writeText(consoleEl.textContent);
+        button.textContent = "Copied";
+      } catch {
+        getSelection().selectAllChildren(consoleEl);
+        button.textContent = "Press ctrl+C";
+      }
+      setTimeout(() => { button.textContent = "Copy log"; }, 2000);
     });
+
+    tick();
+    if (root.dataset.done === "true") return;
+
+    const timer = setInterval(tick, 1000);
+    const source = new EventSource(`/runs/${root.dataset.run}/events?from=${root.dataset.from}`);
+
+    source.onmessage = (event) => {
+      const message = JSON.parse(event.data);
+      print(message);
+      apply(message);
+      tick();
+    };
+
+    source.addEventListener("done", (event) => {
+      source.close();
+      clearInterval(timer);
+      finish(JSON.parse(event.data));
+    });
+
+    // EventSource retries by itself, and the server lets long streams go on
+    // purpose, so a disconnect is only worth reporting once it has given up.
+    source.onerror = () => {
+      if (source.readyState !== EventSource.CLOSED) return;
+      clearInterval(timer);
+      document.getElementById("stream-lost").hidden = false;
+    };
   })();
 </script>

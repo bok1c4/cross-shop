@@ -89,7 +89,7 @@ module CrossShop
 
         notify(:credit_reserved, engine, used: reservation.recorded, in_flight: reservation.in_flight, limit: @credit_limit)
         begin
-          body = fetch(engine, params)
+          body, parsed = fetch(engine, params)
         ensure
           @ledger.release
         end
@@ -98,7 +98,7 @@ module CrossShop
         archived = File.exist?(@cache.path_for(engine, params))
         path = @cache.write(engine, params, body)
         notify(:saved, engine, path:, archived:)
-        JSON.parse(body)
+        parsed
       end
 
       def fetch(engine, params)
@@ -115,24 +115,36 @@ module CrossShop
           raise
         end
 
-        meta = metadata(response.body)
+        # Parsed once, here: the body is parsed to read SearchApi's own
+        # account of the call, and that result is what callers get back.
+        parsed = parse(response.body)
+        meta = metadata(parsed)
         @ledger.record(**entry, status: response.status, search_id: meta[:search_id], error: nil, api_error: meta[:api_error], duration_ms: elapsed_ms(started))
         notify(:response_received, engine, status: response.status, duration_ms: elapsed_ms(started), **meta)
         unless response.status == 200
           detail = meta[:api_error] || redact(response.body)[0, 300]
           raise ApiError, "SearchApi returned #{response.status} for #{engine} #{params}: #{detail}"
         end
+        # A 200 that is not a JSON object is not an answer. Caching it would
+        # leave a file that later reads as a paid-for response.
+        raise ApiError, "SearchApi returned a 200 for #{engine} #{params} that is not JSON" unless parsed
 
-        response.body
+        [response.body, parsed]
+      end
+
+      def parse(body)
+        parsed = JSON.parse(body)
+        parsed if parsed.is_a?(Hash)
+      rescue JSON::ParserError
+        nil
       end
 
       # What SearchApi says about its own work: the search id, its "error"
       # message (sent even with HTTP 200, e.g. "Shein didn't return any
       # results."), the store page it fetched, and how long fetching and
       # parsing took.
-      def metadata(body)
-        parsed = JSON.parse(body)
-        return {} unless parsed.is_a?(Hash)
+      def metadata(parsed)
+        return {} unless parsed
 
         meta = parsed["search_metadata"] || {}
         {
@@ -140,8 +152,6 @@ module CrossShop
           request_time: meta["request_time_taken"], parsing_time: meta["parsing_time_taken"],
           results: parsed["organic_results"]&.size
         }
-      rescue JSON::ParserError
-        {}
       end
 
       def notify(kind, engine, **data)

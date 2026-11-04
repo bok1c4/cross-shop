@@ -21,7 +21,14 @@ class SearchapiCliTest < Minitest::Test
     assert_includes err, "CacheMiss"
   end
 
+  # Windows hands a process its command line as UTF-16, so a lone \xFF byte
+  # is replaced with U+FFFD before Ruby ever sees ARGV: the argument that
+  # arrives is valid UTF-8, and the guard in bin/searchapi has nothing to
+  # catch. The guard is still right for the platforms that pass bytes
+  # through, which is where this runs.
   def test_an_argument_that_is_not_valid_utf8_is_rejected_by_name
+    skip "Windows replaces invalid bytes in ARGV, so this argument cannot reach Ruby" if Gem.win_platform?
+
     _out, err, status = run_cli("ebay_search", "q=\xFF".b)
 
     assert_equal 1, status.exitstatus

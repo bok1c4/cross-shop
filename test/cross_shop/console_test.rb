@@ -51,6 +51,29 @@ class ConsoleTest < Minitest::Test
       line(:credit_reserved, used: 27, in_flight: 2, limit: 90)
   end
 
+  # The browser colours each line by what the server calls it, rather than
+  # guessing from the text. A 503 is a failure however politely SearchApi
+  # words it; its 200 "no results" is worth noticing but is not one.
+  def test_each_line_says_whether_it_is_a_failure
+    level = ->(kind, **data) { CrossShop::Console.level(kind, data) }
+
+    assert_equal "error", level.call(:response_received, status: 503, api_error: "We could not retrieve results.")
+    assert_equal "warn", level.call(:response_received, status: 200, api_error: "Shein didn't return any results.")
+    assert_equal "info", level.call(:response_received, status: 200, api_error: nil)
+    assert_equal "error", level.call(:engine_finished, status: "failed", message: "Net::ReadTimeout")
+    assert_equal "warn", level.call(:engine_finished, status: "fetched", message: "Shein didn't return any results.")
+    assert_equal "info", level.call(:engine_finished, status: "fetched", message: nil)
+    assert_equal "error", level.call(:request_failed, error: "SocketError")
+    assert_equal "info", level.call(:request_sent, url: "www.searchapi.io/api/v1/search")
+  end
+
+  def test_a_store_that_finished_says_what_it_cost_and_how_long_it_took
+    assert_equal "20:29:04  shein_search  done: fetched · 20 results · 1.8 s",
+      line(:engine_finished, status: "fetched", results: 20, duration_ms: 1800)
+    assert_equal "20:29:04  shein_search  done: already saved, no credit spent",
+      line(:engine_finished, status: "saved")
+  end
+
   def test_failures_and_saves_read_plainly
     assert_equal "20:29:04  shein_search  ✗ CrossShop::SearchApi::ApiError: SearchApi returned 503 after 90.9 s",
       line(:request_failed, error: "CrossShop::SearchApi::ApiError: SearchApi returned 503", duration_ms: 90_876)
